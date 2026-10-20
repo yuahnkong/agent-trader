@@ -1,0 +1,11 @@
+[
+ {
+  "date": "2026-10-20",
+  "agent_equity": 599.96,
+  "shadow_value": 600.0,
+  "spy_value": 602.01,
+  "agent_return": -7e-05,
+  "shadow_return": -0.0,
+  "spy_return": 0.00335
+ }
+]

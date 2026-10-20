@@ -1,5 +1,20 @@
 {
- "updated": null,
- "lessons": [],
+ "updated": "2026-10-20",
+ "lessons": [
+  {
+   "id": "L1",
+   "lesson": "Anchor stop prices to the expected fill, not the last reference close, whenever a name has gapped or is reacting to news. Check that the stated stop distance (e.g. 10%) still holds at the likely entry price before approving.",
+   "applies_to": ["proposer", "portfolio-manager"],
+   "evidence": [
+    "2026-10-20 DPZ: stop of $274.88 was set 10% under the $305.42 reference close, but the buy filled at $316.58 (about 3.7% higher), so the stop sat about 13% below entry instead of the intended 10%.",
+    "2026-10-20 MSCI rejected partly because its stop was anchored to the pre-earnings close (same flaw; not yet graded, pending)."
+   ],
+   "confidence": "low",
+   "added": "2026-10-20",
+   "last_confirmed": "2026-10-20",
+   "status": "active",
+   "retired_why": null
+  }
+ ],
  "owner_suggestions": []
 }
