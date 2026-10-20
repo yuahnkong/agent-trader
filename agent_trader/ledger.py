@@ -57,7 +57,7 @@ def _fill_date(fill: dict) -> date:
 def build_ledger(fills: list[dict]) -> Ledger:
     led = Ledger()
     for f in sorted(fills, key=lambda f: f["transaction_time"]):
-        sym, qty, price, day = f["symbol"], float(f["qty"]), float(f["price"]), _fill_date(f)
+        sym, qty, price, day = config.canonical_symbol(f["symbol"]), float(f["qty"]), float(f["price"]), _fill_date(f)
         lots = led.lots.setdefault(sym, [])
         if f["side"] == "buy":
             lots.append(Lot(qty, price, day))

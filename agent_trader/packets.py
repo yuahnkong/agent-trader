@@ -63,13 +63,22 @@ def _ret(s: pd.Series, n: int) -> float | None:
 
 
 def completed_closes(alpaca: AlpacaClient, symbols: list[str], today: date, days: int = 400):
-    """Closes for completed sessions only (no partial bar for today)."""
-    bars = alpaca.daily_bars(sorted(set(symbols)), start=today - timedelta(days=days),
-                             end=today - timedelta(days=1))
+    """Closes for completed sessions only (no partial bar for today). Crypto comes from its
+    own endpoint, in UTC days."""
+    syms = sorted(set(symbols))
+    stocks = [x for x in syms if "/" not in x]
+    coins = [x for x in syms if "/" in x]
+    start, end = today - timedelta(days=days), today - timedelta(days=1)
+    bars = alpaca.daily_bars(stocks, start=start, end=end) if stocks else None
+    if coins:
+        cb = alpaca.crypto_bars(coins, start=start, end=end)
+        bars = cb if bars is None else pd.concat([bars, cb], ignore_index=True)
+    if bars is None or bars.empty:
+        return {}
     return prices.closes_by_symbol(bars[bars["date"] < today])
 
 
-def market_packet(closes: dict[str, pd.Series]) -> dict:
+def market_packet(closes: dict[str, pd.Series], sleeves: list[dict]) -> dict:
     def row(sym, label):
         s = closes.get(sym)
         if s is None or s.empty:
@@ -96,8 +105,12 @@ def market_packet(closes: dict[str, pd.Series]) -> dict:
         "broad": [row(s, l) for s, l in MARKET_ETFS.items()],
         "sectors": sorted((row(s, l) for s, l in SECTOR_ETFS.items()),
                           key=lambda r: -(r.get("ret_21d") or -9)),
+        "sleeves": sleeves,
         "note": "Yields, VIX and credit spreads are ETF proxies; TLT down = long yields up. "
-                "The regime filter (SPY vs 200-day SMA) is enforced in code regardless of stance.",
+                "The regime filter (SPY vs 200-day SMA) is enforced in code regardless of stance; "
+                "when it is off, only the defensive ETFs (kind 'defensive') can be bought. "
+                "`sleeves` are the ETFs and crypto the agents may buy besides screened stocks; "
+                "crypto vol is annualized over 365 days.",
     }
 
 
@@ -111,9 +124,13 @@ def estimate_next_earnings(forms: list[dict], today: date) -> str | None:
     return future[0].isoformat() if future else None
 
 
-def account_context(alpaca: AlpacaClient, trading: Trading, menu: dict, closes, today: date):
+def account_context(alpaca: AlpacaClient, trading: Trading, menu: dict, closes, today: date,
+                    sleeves: list[dict] | None = None):
+    sleeves = sleeves or []
     acct = alpaca.account()
     positions = alpaca.positions()
+    for p in positions:
+        p["symbol"] = config.canonical_symbol(p["symbol"])
     led = build_ledger(alpaca.fills())
     start = datetime.combine(today, datetime.min.time(), config.MARKET_TZ)
     todays = [o for o in alpaca.orders(after=start.astimezone(timezone.utc))
@@ -132,16 +149,23 @@ def account_context(alpaca: AlpacaClient, trading: Trading, menu: dict, closes, 
         regime_above_sma=None if reg is None else reg.above,
         positions={p["symbol"]: Position(float(p["qty"]), float(p["market_value"]), float(p["unrealized_pl"]))
                    for p in positions},
-        menu_vol={m["symbol"]: m["vol_252d"] for m in menu["menu"]},
+        menu_vol={**{m["symbol"]: m["vol_252d"] for m in menu["menu"]},
+                  **{x["symbol"]: x["vol_252d"] for x in sleeves}},
         median_vol=median_vol(menu),
-        orders_today=[{"symbol": o["symbol"], "side": o["side"]} for o in todays],
+        orders_today=[{"symbol": config.canonical_symbol(o["symbol"]), "side": o["side"]} for o in todays],
         last_loss_sale={s: d for s in {r.symbol for r in led.realized} if (d := led.last_loss_sale(s))},
         last_buy={s: led.last_buy(s) for s in led.buys},
+        asset_class={**{m["symbol"]: "stock" for m in menu["menu"]},
+                     **{x["symbol"]: x["asset_class"] for x in sleeves},
+                     **{c: "crypto" for c in config.CRYPTO}},
+        defensive={x["symbol"] for x in sleeves if x["kind"] == "defensive"},
     )
     return acct, positions, led, ctx
 
 
-def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, closes, today: date) -> dict:
+def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, closes, today: date,
+                     sleeves: list[dict] | None = None) -> dict:
+    sleeves = sleeves or []
     def lots(sym):
         return [
             {"qty": round(l.qty, 6), "cost_per_share": l.price, "opened": l.opened.isoformat(),
@@ -150,8 +174,13 @@ def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, clo
             for l in led.lots.get(sym, [])
         ]
 
-    menu_syms = {m["symbol"] for m in menu["menu"]}
+    menu_syms = {m["symbol"] for m in menu["menu"]} | {x["symbol"] for x in sleeves}
     held = {sym: ctx.positions[sym].market_value for sym in ctx.positions}
+    crypto_room = max(0.0, config.MAX_CRYPTO_PCT * ctx.equity - ctx.crypto_held())
+
+    def cap(sym):
+        room = max(0.0, max_position_usd(ctx, sym) - held.get(sym, 0.0))
+        return round(min(room, crypto_room) if ctx.asset_class.get(sym) == "crypto" else room, 2)
     spy = closes.get(config.MARKET_PROXY)
     betas = {}
     for sym in sorted(menu_syms | set(held)):
@@ -172,6 +201,7 @@ def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, clo
             "trips_at": config.KILL_SWITCH_DRAWDOWN, "tripped": kill_switch_tripped(ctx),
         },
         "regime_allows_buys": ctx.regime_above_sma is True,
+        "buys_allowed_when_regime_off": sorted(ctx.defensive),
         "trades_remaining_today": max(0, config.MAX_TRADES_PER_DAY - len(ctx.orders_today)),
         "orders_already_today": ctx.orders_today,
         "positions": [
@@ -179,12 +209,14 @@ def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, clo
              "weight": round(float(p["market_value"]) / ctx.equity, 4) if ctx.equity else None,
              "avg_entry_price": float(p["avg_entry_price"]), "unrealized_pl": float(p["unrealized_pl"]),
              "unrealized_plpc": float(p["unrealized_plpc"]), "on_menu": p["symbol"] in menu_syms,
+             "asset_class": ctx.asset_class.get(p["symbol"], "stock"),
              "lots": lots(p["symbol"])}
             for p in positions
         ],
-        "buy_caps_usd": {
-            sym: round(max(0.0, max_position_usd(ctx, sym) - held.get(sym, 0.0)), 2) for sym in sorted(menu_syms)
-        },
+        "buy_caps_usd": {sym: cap(sym) for sym in sorted(menu_syms)},
+        "asset_classes": {sym: ctx.asset_class.get(sym, "stock") for sym in sorted(menu_syms)},
+        "crypto": {"max_pct_of_equity": config.MAX_CRYPTO_PCT, "held_usd": round(ctx.crypto_held(), 2),
+                   "room_usd": round(crypto_room, 2)},
         "buy_blocked": blocked,
         "betas_252d": betas,
         "stress_10pct_market_drop": {
@@ -203,7 +235,9 @@ def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, clo
             "wash_sale_days": config.WASH_SALE_DAYS,
             "kill_switch_drawdown": config.KILL_SWITCH_DRAWDOWN,
             "min_order_usd": config.MIN_ORDER_USD,
-            "sizing": "buy_caps_usd already applies inverse-vol sizing and the 15% cap, net of current holdings",
+            "max_crypto_pct": config.MAX_CRYPTO_PCT,
+            "sizing": "buy_caps_usd already applies inverse-vol sizing, the 15% cap and the crypto cap, "
+                      "net of current holdings",
         },
     }
 
@@ -229,8 +263,11 @@ def news_packet(alpaca: AlpacaClient, symbols: list[str], today: date, hours: in
     tickers = sec.ticker_map()
     since = datetime.now(timezone.utc) - timedelta(hours=hours)
     headlines = []
-    for i in range(0, len(symbols), 25):
-        headlines += alpaca.news(symbols[i:i + 25], start=since, limit=150)
+    query = [x.replace("/", "") for x in symbols]  # the news API writes crypto as BTCUSD
+    for i in range(0, len(query), 25):
+        headlines += alpaca.news(query[i:i + 25], start=since, limit=150)
+    for h in headlines:
+        h["symbols"] = [config.canonical_symbol(x) for x in h["symbols"]]
     events = {}
     for sym in symbols:
         info = tickers.get(sec_ticker(sym))

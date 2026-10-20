@@ -20,7 +20,10 @@ Your job:
    1.01/2.01 deals deserve a line each.
 2. Pick out headlines that change the picture for a specific company. Ignore market
    roundups that merely list a ticker among many (most Benzinga multi-ticker stories).
-3. A quiet tape is a finding: say so rather than padding.
+3. Headlines tagged BTC/USD or ETH/USD, or one of the ETFs (VOO, VTI, QQQ, VXUS, VWO,
+   VNQ, BND, IEF, TLT, GLD), matter for the crypto and ETF sleeves: flag anything that
+   changes their risk (regulation, exchange failures, rate decisions).
+4. A quiet tape is a finding: say so rather than padding.
 
 Don't propose trades or sizes.
 

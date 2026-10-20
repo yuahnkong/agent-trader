@@ -72,15 +72,19 @@ def test_unknown_regime_is_risk_off():
     assert not v.approved
 
 
-def test_max_three_trades_counting_earlier_orders():
-    c = ctx(orders_today=[{"symbol": "X", "side": "buy"}, {"symbol": "Y", "side": "buy"}])
+def earlier_orders(n):
+    return [{"symbol": f"X{i}", "side": "buy"} for i in range(n)]
+
+
+def test_daily_trade_limit_counts_earlier_orders():
+    c = ctx(orders_today=earlier_orders(config.MAX_TRADES_PER_DAY - 1))
     a, b = review([buy("KO", 20), buy("JNJ", 20)], c)
-    assert a.approved and not b.approved and "max 3" in b.reasons[0]
+    assert a.approved and not b.approved and f"max {config.MAX_TRADES_PER_DAY}" in b.reasons[0]
 
 
 def test_sells_judged_before_buys():
     c = ctx(
-        orders_today=[{"symbol": "X", "side": "buy"}, {"symbol": "Y", "side": "buy"}],
+        orders_today=earlier_orders(config.MAX_TRADES_PER_DAY - 1),
         positions={"PEP": Position(1, 50.0, 1.0)},
     )
     verdicts = {v.symbol: v for v in review([buy("KO", 20), sell("PEP")], c)}
@@ -144,3 +148,32 @@ def test_ledger_fifo_and_loss_detection():
     assert led.last_loss_sale("KO") == date(2026, 10, 1)
     assert led.lots["KO"][0].qty == 0.5 and led.lots["KO"][0].price == 70
     assert led.last_buy("KO") == date(2026, 9, 15)
+
+
+def sleeve_ctx(**over):
+    base = dict(
+        menu_vol={"KO": 0.18, "VOO": 0.15, "BND": 0.06, "BTC/USD": 0.45, "ETH/USD": 0.65},
+        asset_class={"KO": "stock", "VOO": "etf", "BND": "etf", "BTC/USD": "crypto", "ETH/USD": "crypto"},
+        defensive={"BND"},
+    )
+    base.update(over)
+    return ctx(**base)
+
+
+def test_crypto_capped_at_five_percent_combined():
+    a, b = review([buy("BTC/USD", 25), buy("ETH/USD", 25)], sleeve_ctx())
+    assert a.notional == 25 and b.notional == 5 and b.resized  # $30 = 5% of $600
+    held = sleeve_ctx(positions={"BTC/USD": Position(0.0003, 30.0, 0.0)})
+    [v] = review([buy("ETH/USD", 10)], held)
+    assert not v.approved and "crypto room" in v.reasons[0]
+
+
+def test_regime_off_allows_only_defensive_etfs():
+    c = sleeve_ctx(regime_above_sma=False)
+    verdicts = {v.symbol: v for v in review([buy("VOO", 20), buy("BND", 20), buy("BTC/USD", 5)], c)}
+    assert verdicts["BND"].approved
+    assert not verdicts["VOO"].approved and not verdicts["BTC/USD"].approved
+
+
+def test_canonical_crypto_symbol():
+    assert config.canonical_symbol("BTCUSD") == "BTC/USD" and config.canonical_symbol("KO") == "KO"

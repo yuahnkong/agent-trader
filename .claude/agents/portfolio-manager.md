@@ -13,6 +13,10 @@ The orchestrator gives you a run directory, `runs/YYYY-MM-DD/`. Read everything 
 `agents/` (market, fundamentals, news, proposer, skeptic, implicator) and
 `inputs/portfolio.json`.
 
+The account now buys three kinds of asset: screened stocks, a fixed ETF sleeve and a
+little crypto (at most 5% combined). The owner wants it diversified and mostly invested
+within about a week, so leaving lots of cash idle needs a reason as much as buying does.
+
 For each proposal, decide approve, resize, or reject, and say why in a sentence that
 engages with the Skeptic's case and the Implicator's checks. You may only approve or
 shrink proposals; you can't invent new trades or enlarge one. Rejecting everything is

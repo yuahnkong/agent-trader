@@ -11,6 +11,7 @@ from . import config, prices, screen
 from .alpaca import AlpacaClient
 from .ledger import build_ledger
 from .packets import completed_closes
+from .sleeves import sleeve_rows, sleeve_symbols
 from .state import Trading, load_performance
 
 OUT_DIR = config.DATA_DIR / "dashboard"
@@ -67,8 +68,11 @@ def build(today: date | None = None) -> dict[str, list[dict]]:
     menu = screen.load_menu() or {"as_of": None, "menu": []}
     acct = alpaca.account()
     positions = alpaca.positions()
+    for p in positions:
+        p["symbol"] = config.canonical_symbol(p["symbol"])
     led = build_ledger(alpaca.fills())
-    closes = completed_closes(alpaca, [config.MARKET_PROXY], today)
+    closes = completed_closes(alpaca, [config.MARKET_PROXY, *sleeve_symbols()], today)
+    sleeves = sleeve_rows(closes)
     reg = prices.regime(closes[config.MARKET_PROXY]) if config.MARKET_PROXY in closes else None
     equity = float(acct["equity"])
     peak = max(trading.peak_equity, equity)
@@ -87,6 +91,7 @@ def build(today: date | None = None) -> dict[str, list[dict]]:
         for b in (_load(r) or {}).get("broken_theses", []):
             broken.setdefault(b.get("symbol"), []).append(f"{r.stem} ({r.parent.parent.name}): {b.get('why', '')}")
     sectors = {m["symbol"]: m.get("sector") for m in menu["menu"]}
+    sectors.update({x["symbol"]: ("Crypto" if x["asset_class"] == "crypto" else f"ETF, {x['kind']}") for x in sleeves})
 
     account = [{
         "as_of": datetime.now(timezone.utc).isoformat(timespec="minutes"),
@@ -179,8 +184,13 @@ def build(today: date | None = None) -> dict[str, list[dict]]:
         "gp_sector_pct": m.get("gp_sector_pct"), "fscore": m.get("fscore"), "vol_252d": m.get("vol_252d"),
         "buy_cap_usd": caps.get(m["symbol"]),
         "days_to_earnings": (events.get(m["symbol"]) or {}).get("days_to_earnings"),
-        "flags": len(m.get("flags") or []), "held": m["symbol"] in held,
-    } for m in menu["menu"]]
+        "flags": len(m.get("flags") or []), "held": m["symbol"] in held, "asset_class": "stock",
+    } for m in menu["menu"]] + [{
+        "symbol": x["symbol"], "name": x["name"], "sector": sectors[x["symbol"]],
+        "gp_sector_pct": None, "fscore": None, "vol_252d": x["vol_252d"],
+        "buy_cap_usd": caps.get(x["symbol"]), "days_to_earnings": None,
+        "flags": 0, "held": x["symbol"] in held, "asset_class": x["asset_class"],
+    } for x in sleeves]
 
     return {"account": account, "performance": performance, "positions": position_rows,
             "trades": trades, "agents": agents, "menu": menu_rows}

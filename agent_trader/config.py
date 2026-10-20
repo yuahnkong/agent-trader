@@ -39,7 +39,7 @@ MARKET_PROXY = "SPY"
 
 # Hard limits (DESIGN.md). Agents read these; only code changes them.
 MAX_POSITION_PCT = 0.15
-MAX_TRADES_PER_DAY = 3
+MAX_TRADES_PER_DAY = 5
 WASH_SALE_DAYS = 30
 KILL_SWITCH_DRAWDOWN = 0.15
 TARGET_POSITIONS = 9  # inverse-vol sizing is centred on 1/9 of equity per name
@@ -53,8 +53,36 @@ MIN_FSCORE = 7
 MAX_FUNDAMENTALS_AGE_DAYS = 550  # latest 10-K must cover a fiscal year ending within ~18 months
 MENU_MAX_AGE_DAYS = 7
 
-# Shadow portfolio: rules-only, same menu, no agents.
+# Beyond the stock screen: a fixed ETF sleeve and a small crypto sleeve. Defensive ETFs
+# stay buyable when the regime filter blocks everything else.
+ETF_SLEEVE = {
+    "VOO": ("S&P 500", "equity"),
+    "VTI": ("Total US stock market", "equity"),
+    "QQQ": ("Nasdaq 100", "equity"),
+    "VXUS": ("International developed + emerging stocks", "equity"),
+    "VWO": ("Emerging-market stocks", "equity"),
+    "VNQ": ("US real estate (REITs)", "equity"),
+    "BND": ("Total US bond market", "defensive"),
+    "IEF": ("7-10 year Treasuries", "defensive"),
+    "TLT": ("20+ year Treasuries", "defensive"),
+    "GLD": ("Gold", "defensive"),
+}
+CRYPTO = {"BTC/USD": "Bitcoin", "ETH/USD": "Ether"}
+MAX_CRYPTO_PCT = 0.05  # both coins together
+CRYPTO_TRADING_DAYS = 365  # crypto trades every day, so its vol annualizes over 365
+
+
+def canonical_symbol(symbol: str) -> str:
+    """Alpaca reports crypto positions and fills as BTCUSD but trades BTC/USD."""
+    for pair in CRYPTO:
+        if symbol == pair.replace("/", ""):
+            return pair
+    return symbol
+
+
+# Shadow portfolio: rules-only, same menu and sleeves, no agents.
 SHADOW_POSITIONS = 8
+SHADOW_SPLIT = {"stock": 0.65, "etf": 0.30, "crypto": 0.05}
 
 
 class MissingCredentials(RuntimeError):

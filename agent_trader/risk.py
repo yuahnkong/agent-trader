@@ -32,6 +32,11 @@ class Context:
     orders_today: list[dict]  # this account's orders submitted today: {symbol, side}
     last_loss_sale: dict[str, date] = field(default_factory=dict)
     last_buy: dict[str, date] = field(default_factory=dict)
+    asset_class: dict[str, str] = field(default_factory=dict)  # symbol -> stock | etf | crypto
+    defensive: set[str] = field(default_factory=set)  # buyable even when the regime filter is off
+
+    def crypto_held(self) -> float:
+        return sum(p.market_value for s, p in self.positions.items() if self.asset_class.get(s) == "crypto")
 
     @property
     def drawdown(self) -> float:
@@ -76,6 +81,7 @@ def review(trades: list[dict], ctx: Context) -> list[Verdict]:
     bought_today = {o["symbol"] for o in ctx.orders_today if o["side"] == "buy"}
     sold_today = {o["symbol"] for o in ctx.orders_today if o["side"] == "sell"}
     cash = ctx.buying_power
+    crypto_room = max(0.0, config.MAX_CRYPTO_PCT * ctx.equity - ctx.crypto_held())
     seen: set[tuple[str, str]] = set()
 
     ordered = sorted(trades, key=lambda t: 0 if str(t.get("side")).lower() == "sell" else 1)
@@ -136,13 +142,14 @@ def review(trades: list[dict], ctx: Context) -> list[Verdict]:
 
         # Buys.
         if sym not in ctx.menu_vol:
-            v.reasons.append("not on the screened menu")
+            v.reasons.append("not on the screened menu, the ETF sleeve or the crypto list")
             continue
-        if ctx.regime_above_sma is not True:
+        if ctx.regime_above_sma is not True and sym not in ctx.defensive:
             v.reasons.append(
-                "regime filter: SPY is below its 200-day average"
-                if ctx.regime_above_sma is False
-                else "regime filter: not enough SPY history to confirm risk-on"
+                ("regime filter: SPY is below its 200-day average"
+                 if ctx.regime_above_sma is False
+                 else "regime filter: not enough SPY history to confirm risk-on")
+                + "; only bond and gold ETFs can be bought"
             )
             continue
         if sym in sold_today:
@@ -157,22 +164,23 @@ def review(trades: list[dict], ctx: Context) -> list[Verdict]:
             continue
         held = ctx.positions[sym].market_value if sym in ctx.positions else 0.0
         room = max(0.0, max_position_usd(ctx, sym) - held)
+        is_crypto = ctx.asset_class.get(sym) == "crypto"
+        limits = f"cap ${max_position_usd(ctx, sym):.2f}, held ${held:.2f}, cash ${cash:.2f}"
+        if is_crypto:
+            room = min(room, crypto_room)
+            limits += f", crypto room ${crypto_room:.2f} of {config.MAX_CRYPTO_PCT:.0%}"
         amount = min(v.requested_usd, room, cash)
         amount = int(amount * 100) / 100  # round down to the cent
         if amount < config.MIN_ORDER_USD:
-            v.reasons.append(
-                f"no room: cap ${max_position_usd(ctx, sym):.2f} (inverse-vol, max "
-                f"{config.MAX_POSITION_PCT:.0%}), held ${held:.2f}, cash ${cash:.2f}"
-            )
+            v.reasons.append(f"no room: {limits} (inverse-vol, max {config.MAX_POSITION_PCT:.0%} a position)")
             continue
         if amount < v.requested_usd - 0.005:
             v.resized = True
-            v.reasons.append(
-                f"resized ${v.requested_usd:.2f} -> ${amount:.2f} "
-                f"(cap ${max_position_usd(ctx, sym):.2f}, held ${held:.2f}, cash ${cash:.2f})"
-            )
+            v.reasons.append(f"resized ${v.requested_usd:.2f} -> ${amount:.2f} ({limits})")
         v.notional = amount
         v.approved = True
         cash -= amount
+        if is_crypto:
+            crypto_room -= amount
         used += 1
     return out

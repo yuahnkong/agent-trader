@@ -79,3 +79,25 @@ def test_shadow_rebalance_once_per_menu_and_regime_blocks_buys():
     new_menu = {"as_of": "2026-10-26", "menu": [{"symbol": "B", "vol_252d": 0.20}]}
     trades = rebalance(s, new_menu, closes, regime_above=False, today=date(2026, 10, 26))
     assert {t["symbol"] for t in trades} == {"A", "C"} and set(s.shares) == {"B"}
+
+
+SLEEVES = [
+    {"symbol": "VOO", "asset_class": "etf", "kind": "equity", "vol_252d": 0.15},
+    {"symbol": "BND", "asset_class": "etf", "kind": "defensive", "vol_252d": 0.05},
+    {"symbol": "BTC/USD", "asset_class": "crypto", "kind": "crypto", "vol_252d": 0.45},
+    {"symbol": "ETH/USD", "asset_class": "crypto", "kind": "crypto", "vol_252d": 0.65},
+]
+
+
+def test_shadow_split_with_sleeves():
+    w = target_weights(MENU["menu"], SLEEVES)
+    assert w["VOO"] == w["BND"] == config.MAX_POSITION_PCT  # 30% / 2 ETFs, capped at 15%
+    assert abs(w["BTC/USD"] + w["ETH/USD"] - config.SHADOW_SPLIT["crypto"]) < 1e-9
+    assert w["BTC/USD"] > w["ETH/USD"]
+
+
+def test_shadow_regime_off_buys_only_defensive():
+    s = Shadow(started="2026-10-19", cash=600.0)
+    closes = {"A": 10.0, "B": 20.0, "C": 40.0, "VOO": 500.0, "BND": 70.0, "BTC/USD": 80000.0, "ETH/USD": 2400.0}
+    trades = rebalance(s, MENU, closes, regime_above=False, today=date(2026, 10, 19), sleeves=SLEEVES)
+    assert {t["symbol"] for t in trades} == {"BND"}

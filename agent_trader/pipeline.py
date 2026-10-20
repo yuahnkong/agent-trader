@@ -27,6 +27,7 @@ from .ledger import build_ledger
 from .risk import kill_switch_tripped, review
 from .sec import SecClient
 from .shadow import rebalance
+from .sleeves import sleeve_rows, sleeve_symbols
 from .state import Shadow, Trading, load_performance, record_performance
 
 sec_ticker = screen.sec_ticker
@@ -197,8 +198,9 @@ def liquidate(alpaca: AlpacaClient, trading: Trading, today: date, reason: str) 
     alpaca.cancel_all_orders()
     orders = []
     for p in alpaca.positions():
+        sym = config.canonical_symbol(p["symbol"])
         orders.append(alpaca.submit_order(
-            p["symbol"], "sell", f"ks-{today:%Y%m%d}-{p['symbol']}", qty=p["qty"]
+            sym, "sell", f"ks-{today:%Y%m%d}-{sym.replace('/', '')}", qty=p["qty"]
         ))
     trading.paused, trading.paused_reason, trading.paused_at = True, reason, today.isoformat()
     trading.save()
@@ -212,24 +214,25 @@ def prepare(refresh_menu: bool = True) -> int:
     trading = Trading.load()
     run = packets.run_dir(today)
 
-    held = [p["symbol"] for p in alpaca.positions()]
+    held = [config.canonical_symbol(p["symbol"]) for p in alpaca.positions()]
     menu_syms = [m["symbol"] for m in menu["menu"]]
     closes = packets.completed_closes(
-        alpaca, [*packets.MARKET_ETFS, *packets.SECTOR_ETFS, *menu_syms, *held], today
+        alpaca, [*packets.MARKET_ETFS, *packets.SECTOR_ETFS, *menu_syms, *held, *sleeve_symbols()], today
     )
-    acct, positions, led, ctx = packets.account_context(alpaca, trading, menu, closes, today)
+    sleeves = sleeve_rows(closes)
+    acct, positions, led, ctx = packets.account_context(alpaca, trading, menu, closes, today, sleeves)
     trading.save()
 
-    port = packets.portfolio_packet(acct, positions, led, ctx, menu, closes, today)
-    packets.write_json(run / "inputs" / "market.json", packets.market_packet(closes))
+    port = packets.portfolio_packet(acct, positions, led, ctx, menu, closes, today, sleeves)
+    packets.write_json(run / "inputs" / "market.json", packets.market_packet(closes, sleeves))
     packets.write_json(run / "inputs" / "fundamentals.json", packets.fundamentals_packet(menu, held))
     packets.write_json(run / "inputs" / "news.json",
-                       packets.news_packet(alpaca, sorted(set(menu_syms) | set(held)), today))
+                       packets.news_packet(alpaca, sorted(set(menu_syms) | set(held) | set(sleeve_symbols())), today))
     packets.write_json(run / "inputs" / "portfolio.json", port)
 
     session = _session_today(alpaca, today)
     print(f"prepared {run.relative_to(config.ROOT)}/inputs for {today}")
-    print(f"  menu {menu['as_of']}: {len(menu_syms)} names; holdings: {', '.join(held) or 'none'}")
+    print(f"  menu {menu['as_of']}: {len(menu_syms)} stocks + {len(sleeves)} ETFs/crypto; holdings: {', '.join(held) or 'none'}")
     print(f"  equity ${ctx.equity:,.2f}, buys {'allowed' if port['regime_allows_buys'] else 'BLOCKED by regime'}, "
           f"{port['trades_remaining_today']} trade(s) left today")
     if ctx.paused:
@@ -250,9 +253,9 @@ def execute(dry_run: bool = False) -> int:
     if not decision_path.exists():
         print(f"WARN: no {decision_path.relative_to(config.ROOT)}; treating as no trades")
 
-    held = [p["symbol"] for p in alpaca.positions()]
-    closes = packets.completed_closes(alpaca, [config.MARKET_PROXY, *held], today)
-    _, _, _, ctx = packets.account_context(alpaca, trading, menu, closes, today)
+    held = [config.canonical_symbol(p["symbol"]) for p in alpaca.positions()]
+    closes = packets.completed_closes(alpaca, [config.MARKET_PROXY, *held, *sleeve_symbols()], today)
+    _, _, _, ctx = packets.account_context(alpaca, trading, menu, closes, today, sleeve_rows(closes))
     notes, verdicts = [], []
 
     if kill_switch_tripped(ctx) and not trading.paused:
@@ -265,7 +268,8 @@ def execute(dry_run: bool = False) -> int:
         trading.save()
 
     def cid(t: dict) -> str:
-        return f"at-{today:%Y%m%d}-{str(t.get('symbol', '')).upper().strip()}-{str(t.get('side', '')).lower().strip()}"
+        sym = str(t.get("symbol", "")).upper().strip().replace("/", "")
+        return f"at-{today:%Y%m%d}-{sym}-{str(t.get('side', '')).lower().strip()}"
 
     # A re-run must not judge trades it already sent as new: they'd count against
     # today's limits a second time and show up as rejected.
@@ -275,7 +279,7 @@ def execute(dry_run: bool = False) -> int:
         if sent is None:
             fresh.append(t)
             continue
-        rows.append({"symbol": sent["symbol"], "side": sent["side"], "requested_usd": t.get("notional_usd"),
+        rows.append({"symbol": config.canonical_symbol(sent["symbol"]), "side": sent["side"], "requested_usd": t.get("notional_usd"),
                      "approved": True, "reasons": ["already submitted earlier today"],
                      "notional": sent.get("notional"), "qty": sent.get("qty"), "resized": False,
                      "order_id": sent["id"], "client_order_id": cid(t), "order_status": sent["status"]})
@@ -340,13 +344,19 @@ def close() -> int:
     acct = alpaca.account()
     positions = alpaca.positions()
     equity = float(acct["equity"])
+    for p in positions:
+        p["symbol"] = config.canonical_symbol(p["symbol"])
     held = [p["symbol"] for p in positions]
     shadow = Shadow.load()
-    syms = {config.MARKET_PROXY, *held, *shadow.shares, *(m["symbol"] for m in menu["menu"])}
-    bars = alpaca.daily_bars(sorted(syms), start=today - timedelta(days=400))
+    syms = {config.MARKET_PROXY, *held, *shadow.shares, *(m["symbol"] for m in menu["menu"]), *sleeve_symbols()}
+    start = today - timedelta(days=400)
+    bars = alpaca.daily_bars(sorted(x for x in syms if "/" not in x), start=start)
     if alpaca.clock()["is_open"]:
         bars = bars[bars["date"] < today]
     closes = prices.closes_by_symbol(bars)
+    # Crypto never closes; its latest bar (today's, still forming) is the price at this run.
+    closes.update(prices.closes_by_symbol(alpaca.crypto_bars(sorted(x for x in syms if "/" in x), start=start)))
+    sleeves = sleeve_rows(closes)
     last = {s: float(c.iloc[-1]) for s, c in closes.items()}
     spy = closes.get(config.MARKET_PROXY)
     reg = prices.regime(spy) if spy is not None else None
@@ -354,7 +364,7 @@ def close() -> int:
     trading.start_if_needed(today, equity, reg.close if reg else None)
     if shadow.started is None:
         shadow.started, shadow.cash = today.isoformat(), trading.start_equity or equity
-    shadow_trades = rebalance(shadow, menu, last, reg.above if reg else None, today)
+    shadow_trades = rebalance(shadow, menu, last, reg.above if reg else None, today, sleeves)
     shadow.save()
 
     start = trading.start_equity or equity

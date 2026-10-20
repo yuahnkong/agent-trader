@@ -14,6 +14,11 @@ for broad-market, rate, credit, gold and dollar ETFs, and the sector SPDRs ranke
 21-day return. Yields, VIX and credit spreads come from ETF proxies (TLT down means long
 yields up; VIXY is a decaying futures product, so read its short-term moves, not its level).
 
+`sleeves` lists the ETFs and crypto the account can buy besides screened stocks (broad
+US and international equity, REITs, bonds, gold, BTC, ETH) with returns, distance from
+their 200-day average and volatility. Say which of these look attractive or risky right
+now as part of your reasoning (for example "bonds are rallying while small caps fall").
+
 Your job is a market stance with reasons, grounded in the numbers in the packet. Quote
 the numbers you rely on. Don't compute new ratios; work with what's given. Don't name
 individual stocks and don't propose trades. The regime filter is enforced in code
@@ -28,6 +33,7 @@ Write `runs/YYYY-MM-DD/agents/market-analyst.json`:
   "summary": "two or three sentences a portfolio manager can act on",
   "reasons": ["each reason cites a number from the packet"],
   "sector_tilts": {"favor": ["Sector"], "avoid": ["Sector"]},
+  "asset_class_view": {"equity_etfs": "...", "bonds_gold": "...", "crypto": "..."},
   "watch": ["what would change the stance"]
 }
 ```

@@ -83,6 +83,8 @@ class AlpacaClient:
             "time_in_force": "day",
             "client_order_id": client_order_id,
         }
+        if "/" in symbol:
+            body["time_in_force"] = "gtc"  # crypto doesn't take "day"
         if notional is not None:
             body["notional"] = f"{notional:.2f}"
         else:
@@ -158,6 +160,26 @@ class AlpacaClient:
                 if not token:
                     break
                 params["page_token"] = token
+        cols = ["symbol", "date", "open", "high", "low", "close", "volume"]
+        return pd.DataFrame(rows, columns=cols).sort_values(["symbol", "date"], ignore_index=True)
+
+    def crypto_bars(self, symbols: list[str], start: date, end: date | None = None) -> pd.DataFrame:
+        """Daily crypto bars (UTC days), same long format as daily_bars."""
+        rows = []
+        params = {"symbols": ",".join(symbols), "timeframe": "1Day", "start": start.isoformat(), "limit": 10000}
+        if end:
+            params["end"] = end.isoformat()
+        while True:
+            data = self._get(config.ALPACA_DATA_URL, "/v1beta3/crypto/us/bars", params)
+            for sym, bars in (data.get("bars") or {}).items():
+                for b in bars:
+                    rows.append({"symbol": sym,
+                                 "date": datetime.fromisoformat(b["t"].replace("Z", "+00:00")).date(),
+                                 "open": b["o"], "high": b["h"], "low": b["l"], "close": b["c"], "volume": b["v"]})
+            token = data.get("next_page_token")
+            if not token:
+                break
+            params["page_token"] = token
         cols = ["symbol", "date", "open", "high", "low", "close", "volume"]
         return pd.DataFrame(rows, columns=cols).sort_values(["symbol", "date"], ignore_index=True)
 
