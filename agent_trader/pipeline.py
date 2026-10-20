@@ -10,6 +10,7 @@
     python -m agent_trader.pipeline resume                 # clear a kill-switch pause
     python -m agent_trader.pipeline dashboard-data         # JSON tables for the dashboard
     python -m agent_trader.pipeline learn                  # scorecard + news memory (post-close)
+    python -m agent_trader.pipeline clock                  # is the market open? (exit 3 if closed)
     python -m agent_trader.pipeline daily [--symbols AAPL MSFT ...]
 
 The agents sit between `prepare` and `execute` (and between `close` and `close-report`);
@@ -508,6 +509,7 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("status", help="account, positions, menu, performance")
     sub.add_parser("resume", help="clear a kill-switch pause")
     sub.add_parser("dashboard-data", help="write data/dashboard/*.json for the dashboard artifact")
+    sub.add_parser("clock", help="print whether the US market is open now (exit 0 open, 3 closed)")
     sub.add_parser("learn", help="grade past calls (state/scorecard.json) and save today's news to memory")
     args = parser.parse_args(argv)
 
@@ -529,6 +531,10 @@ def main(argv: list[str] | None = None) -> int:
         return close_report()
     if args.cmd == "status":
         return status()
+    if args.cmd == "clock":
+        c = AlpacaClient().clock()
+        print(f"market {'OPEN' if c['is_open'] else 'CLOSED'}  next_open={c['next_open']}  next_close={c['next_close']}")
+        return 0 if c["is_open"] else 3
     if args.cmd == "learn":
         card = learning.write_scorecard()
         today = config.market_today().isoformat()

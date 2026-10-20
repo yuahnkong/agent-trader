@@ -45,17 +45,8 @@ shell commands, place orders, or read any input the role file doesn't list."
    double up), and writes `reports/D-open.md`. Don't retry rejected trades.
 
 
-**Refresh the dashboard** (after the report, before committing). The Agent Trader Desk
-dashboard is https://claude.ai/artifact/7Xjbz2oNcyLmMLznWe7q6R. Run
-`python -m agent_trader.pipeline dashboard-data`, which writes eight files to
-`data/dashboard/`: account, performance, positions, trades, agents, menu, lessons, scorecard. For each one,
-upload it to that URL with the Artifact tool (`asset: true`, `file_path` the JSON file,
-one call per file), then with ArtifactData `get` collection `datasets`, doc `<name>` and
-`update` it (pinned with `if_version`) with
-`{"source": {"kind": "file", "url": <the upload's /_blob/... url>, "name": "<name>.json"}, "updated": {"at": <now ISO>, "by": "Claude (agent-trader pipeline)"}}`.
-Then delete each replaced asset (Artifact `action: "delete"`, `path` = the old blob id).
-If the Artifact or ArtifactData tools aren't available in this session, skip this step and
-say so in the summary.
+**Refresh the dashboard** (after the report, before committing): invoke the
+`refresh-dashboard` skill (or read `.claude/skills/refresh-dashboard/SKILL.md` and follow it).
 
 7. **Commit and push.** `git add runs/D* state reports logs && git commit -m "Pre-open run D"`,
    then push the current branch (`git push -u origin HEAD`, retrying network failures up to
