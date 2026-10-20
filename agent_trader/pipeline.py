@@ -263,18 +263,33 @@ def execute(dry_run: bool = False) -> int:
     else:
         trading.save()
 
-    verdicts = review(decision.get("trades", []), ctx)
+    def cid(t: dict) -> str:
+        return f"at-{today:%Y%m%d}-{str(t.get('symbol', '')).upper().strip()}-{str(t.get('side', '')).lower().strip()}"
+
+    # A re-run must not judge trades it already sent as new: they'd count against
+    # today's limits a second time and show up as rejected.
+    rows, fresh = [], []
+    for t in decision.get("trades", []):
+        sent = alpaca.order_by_client_id(cid(t))
+        if sent is None:
+            fresh.append(t)
+            continue
+        rows.append({"symbol": sent["symbol"], "side": sent["side"], "requested_usd": t.get("notional_usd"),
+                     "approved": True, "reasons": ["already submitted earlier today"],
+                     "notional": sent.get("notional"), "qty": sent.get("qty"), "resized": False,
+                     "order_id": sent["id"], "client_order_id": cid(t), "order_status": sent["status"]})
+
+    verdicts = review(fresh, ctx)
     session = _session_today(alpaca, today)
     if not session:
         notes.append("Market is closed today; no orders sent.")
-    rows = []
     for v in verdicts:
         row = asdict(v)
         if v.approved and session and not dry_run:
-            cid = f"at-{today:%Y%m%d}-{v.symbol}-{v.side}"
+            order_cid = cid({"symbol": v.symbol, "side": v.side})
             try:
-                order = alpaca.submit_order(v.symbol, v.side, cid, notional=v.notional, qty=v.qty)
-                row.update(order_id=order["id"], client_order_id=cid, order_status=order["status"])
+                order = alpaca.submit_order(v.symbol, v.side, order_cid, notional=v.notional, qty=v.qty)
+                row.update(order_id=order["id"], client_order_id=order_cid, order_status=order["status"])
             except Exception as e:  # noqa: BLE001 - a broker rejection is logged, not fatal
                 detail = getattr(getattr(e, "response", None), "text", "") or str(e)
                 row.update(order_status=f"error: {detail[:200]}")

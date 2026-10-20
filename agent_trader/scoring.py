@@ -12,6 +12,13 @@ from .fundamentals import AnnualSnapshot
 # point-in-time and consistent, which matters more for a within-sector rank.
 # Ranges are checked in order, so narrower ranges come before the ones that contain them.
 SECTOR_RANGES: list[tuple[int, int, str]] = [
+    # Exceptions first: SIC groups whose two-digit parent points at the wrong sector.
+    (3630, 3639, "Consumer Discretionary"),  # household appliances (A.O. Smith, Whirlpool)
+    (3651, 3652, "Consumer Discretionary"),  # consumer audio/video
+    (4920, 4925, "Energy"),  # gas production, transmission (Cheniere files as 4924)
+    (4950, 4959, "Industrials"),  # waste management, not a utility
+    (5311, 5331, "Consumer Staples"),  # department and variety stores (Walmart, Costco)
+    (5912, 5912, "Consumer Staples"),  # drug stores
     (2830, 2836, "Health Care"),
     (3841, 3851, "Health Care"),
     (8000, 8099, "Health Care"),

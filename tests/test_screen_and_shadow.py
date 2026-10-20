@@ -40,6 +40,8 @@ def test_sector_mapping_narrow_ranges_win():
     assert sector_for_sic(2080) == "Consumer Staples"
     assert sector_for_sic(7372) == "Technology"  # software, inside business services
     assert sector_for_sic(7389) == "Industrials"
+    assert sector_for_sic(5331) == "Consumer Staples"  # Walmart, not discretionary retail
+    assert sector_for_sic(4955) == "Industrials"  # waste services, not utilities
     assert sector_for_sic(None) is None
 
 

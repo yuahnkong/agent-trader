@@ -9,6 +9,13 @@ Run from the repo root. `D` below is today's date in New York (`TZ=America/New_Y
 and `R` is `runs/D`. Stop and report if any step fails; never hand-edit a decision to get
 past the risk layer.
 
+**Launching an agent.** Use the agent's own type (e.g. `subagent_type: market-analyst`).
+If the session reports that type as not found (agent files added after the session
+started aren't loaded), use `general-purpose` with this prompt prefix instead:
+"Your role is defined in .claude/agents/<name>.md. Read that file first and follow it
+exactly (ignore its YAML frontmatter). Use only file reading and writing; do not run
+shell commands, place orders, or read any input the role file doesn't list."
+
 1. **Setup.** `pip install -q -r requirements.txt` if pandas is missing. Check that
    `APCA_API_KEY_ID` and `APCA_API_SECRET_KEY` are set; if not, stop and say so.
    Run `python -m agent_trader.pipeline check-alpaca`. Fix-able config drift (margin or

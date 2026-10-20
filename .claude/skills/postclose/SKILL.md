@@ -8,6 +8,13 @@ description: Run agent-trader's post-close cycle - pull fills and P&L, update th
 Run from the repo root. `D` is today's date in New York (`TZ=America/New_York date +%F`),
 `R` is `runs/D`.
 
+**Launching an agent.** Use the agent's own type (e.g. `subagent_type: market-analyst`).
+If the session reports that type as not found (agent files added after the session
+started aren't loaded), use `general-purpose` with this prompt prefix instead:
+"Your role is defined in .claude/agents/<name>.md. Read that file first and follow it
+exactly (ignore its YAML frontmatter). Use only file reading and writing; do not run
+shell commands, place orders, or read any input the role file doesn't list."
+
 1. **Setup.** Same as pre-open: requirements installed, Alpaca keys set.
 
 2. **Data.** `python -m agent_trader.pipeline close`. It writes `R/close.json` (fills,
