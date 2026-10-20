@@ -207,12 +207,12 @@ def liquidate(alpaca: AlpacaClient, trading: Trading, today: date, reason: str) 
     return orders
 
 
-def prepare(refresh_menu: bool = True) -> int:
+def prepare(refresh_menu: bool = True, session: str | None = None) -> int:
     today = config.market_today()
     alpaca = AlpacaClient()
     menu = _menu(today, refresh_menu)
     trading = Trading.load()
-    run = packets.run_dir(today)
+    run = packets.run_dir(today, session)
 
     held = [config.canonical_symbol(p["symbol"]) for p in alpaca.positions()]
     menu_syms = [m["symbol"] for m in menu["menu"]]
@@ -242,9 +242,9 @@ def prepare(refresh_menu: bool = True) -> int:
     return 0
 
 
-def execute(dry_run: bool = False) -> int:
+def execute(dry_run: bool = False, session: str | None = None) -> int:
     today = config.market_today()
-    run = packets.run_dir(today)
+    run = packets.run_dir(today, session)
     alpaca = AlpacaClient()
     trading = Trading.load()
     menu = _menu(today, refresh=False)
@@ -269,7 +269,7 @@ def execute(dry_run: bool = False) -> int:
 
     def cid(t: dict) -> str:
         sym = str(t.get("symbol", "")).upper().strip().replace("/", "")
-        return f"at-{today:%Y%m%d}-{sym}-{str(t.get('side', '')).lower().strip()}"
+        return f"at-{today:%Y%m%d}{session or ''}-{sym}-{str(t.get('side', '')).lower().strip()}"
 
     # A re-run must not judge trades it already sent as new: they'd count against
     # today's limits a second time and show up as rejected.
@@ -393,7 +393,7 @@ def close() -> int:
              if datetime.fromisoformat(f["transaction_time"].replace("Z", "+00:00"))
              .astimezone(config.MARKET_TZ).date() == today]
     led = build_ledger(alpaca.fills())
-    decision = packets.run_dir(today) / "decision.json"
+    decisions = [json.loads(d.read_text()) for d in sorted(config.RUNS_DIR.glob(f"{today.isoformat()}*/decision.json"))]
     data = {
         "date": today.isoformat(),
         "equity": equity,
@@ -411,7 +411,7 @@ def close() -> int:
              "lots": [{"qty": l.qty, "cost": l.price, "opened": l.opened.isoformat()} for l in led.lots.get(p["symbol"], [])]}
             for p in positions
         ],
-        "todays_decision": json.loads(decision.read_text()) if decision.exists() else None,
+        "todays_decisions": decisions,
         "theses": _open_theses(),
         "shadow_trades": shadow_trades,
         "shadow_holdings": {s: round(q, 6) for s, q in shadow.shares.items()},
@@ -497,8 +497,10 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("screen", help="rebuild the candidate menu (state/menu.json)")
     p = sub.add_parser("prepare", help="pre-open: refresh data and write agent input packets")
     p.add_argument("--no-refresh", action="store_true", help="fail instead of re-running a stale screen")
+    p.add_argument("--session", help="label for an extra run the same day, e.g. pm -> runs/<date>-pm")
     e = sub.add_parser("execute", help="risk-check runs/<today>/decision.json and send orders")
     e.add_argument("--dry-run", action="store_true")
+    e.add_argument("--session", help="the same label given to prepare")
     sub.add_parser("close", help="post-close: P&L, shadow portfolio, benchmark, review packet")
     sub.add_parser("close-report", help="write reports/<today>-close.md")
     sub.add_parser("status", help="account, positions, menu, performance")
@@ -515,9 +517,9 @@ def main(argv: list[str] | None = None) -> int:
         print(f"wrote state/menu.json: {', '.join(m['symbol'] for m in r['menu'])}")
         return 0
     if args.cmd == "prepare":
-        return prepare(not args.no_refresh)
+        return prepare(not args.no_refresh, args.session)
     if args.cmd == "execute":
-        return execute(args.dry_run)
+        return execute(args.dry_run, args.session)
     if args.cmd == "close":
         return close()
     if args.cmd == "close-report":

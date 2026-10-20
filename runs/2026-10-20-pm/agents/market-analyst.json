@@ -1,0 +1,33 @@
+{
+  "stance": "neutral",
+  "confidence": 0.55,
+  "summary": "The long-term regime is intact (SPY 766.48, 6.1% above its 200-day of 722.32), but the last week was a defensive rotation: tech and Nasdaq sold off hard while staples, health care and energy led, small caps and high-yield credit kept weakening, and short-term volatility rose. Keep equity exposure at normal-to-light size, lean toward defensive and energy sectors over tech and cyclicals, and avoid adding to small caps or high-beta crypto until credit and breadth steady.",
+  "reasons": [
+    "Regime on: SPY is 6.11% above its 200-day SMA (766.48 vs 722.32), and 63-day return is +2.69%.",
+    "Near-term momentum turned down: SPY -1.49% over 5 days and only +0.63% over 21 days; QQQ -3.71% over 5 days and -0.32% over 21 days.",
+    "Tech led the decline: XLK -5.30% over 5 days and -1.81% over 21 days, though still 11.09% above its 200-day.",
+    "Small caps are weak and below trend: IWM -4.51% over 21 days, -8.28% over 63 days, 1.95% below its 200-day.",
+    "Breadth is holding better than cap-weighted: RSP +0.10% over 5 days and +0.90% over 21 days versus QQQ -3.71% / -0.32%.",
+    "Volatility proxy rising short term: VIXY +6.05% over 5 days, while SPY 20-day realized vol (8.94%) is still below 252-day (12.70%).",
+    "Credit softening: HYG -1.73% over 21 days and 1.37% below its 200-day; LQD -1.31% over 21 days.",
+    "Defensive leadership: XLP +3.32% 5d / +6.02% 21d, XLV +2.13% 5d / +4.71% 21d / +10.03% 63d; Energy XLE +6.05% 21d / +16.60% 63d, 18.72% above its 200-day.",
+    "Long bonds bounced this week (TLT +1.81% 5d) but remain in a downtrend (TLT -3.88% 63d, 4.70% below 200-day), so long yields are still higher than three months ago.",
+    "Dollar strength over the month (UUP +2.15% 21d) coincides with gold weakness (GLD -5.35% 21d, 8.49% below its 200-day) and international underperformance (VXUS -3.02% 21d)."
+  ],
+  "sector_tilts": {
+    "favor": ["Energy", "Health Care", "Consumer Staples"],
+    "avoid": ["Technology", "Industrials", "Real Estate", "Utilities"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Broad US (VOO +0.66% 21d, 6.14% above 200-day; VTI 5.48% above) remains acceptable at moderate size. QQQ is the riskier broad sleeve now (vol 19.8%, -3.71% last 5 days). International (VXUS -3.02% 21d, VWO -3.30% 21d, near their 200-days) is unattractive while the dollar firms. REITs (VNQ -8.06% 63d, 2.44% below 200-day) look risky.",
+    "bonds_gold": "Bonds are in a downtrend (BND -1.60% 63d, IEF -2.45% 63d, TLT -3.88% 63d, all below 200-day); the 5-day TLT bounce (+1.81%) is a possible flight-to-safety start but not yet a trend. Short Treasuries (SHY +0.38% 21d, flat to trend) are the steadiest defensive holding. Gold has broken down (GLD -5.35% 21d, 8.49% below 200-day, 29.6% vol) and is not a good hedge right now.",
+    "crypto": "Long-term trend still positive (BTC +26.91% 63d, 12.77% above 200-day; ETH +25.76% 63d, 11.90% above) but momentum is fading, especially ETH (-10.52% 21d, 61% vol). BTC (-1.94% 21d) is the less risky of the two; avoid adding ETH."
+  },
+  "watch": [
+    "SPY closing within ~2% of its 200-day (722.32) or IWM/HYG weakness spreading would push the stance to risk-off.",
+    "VIXY continuing to rise beyond its +6.05% 5-day move, or HYG extending below its 200-day.",
+    "XLK and QQQ stabilizing while RSP and IWM turn up would broaden participation and support a move to risk-on.",
+    "A sustained TLT rally (beyond the +1.81% 5-day bounce) alongside falling equities would signal flight to safety rather than healthy rotation.",
+    "Dollar (UUP +2.15% 21d) reversing lower would improve the case for international equity and gold."
+  ]
+}

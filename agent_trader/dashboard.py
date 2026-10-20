@@ -107,7 +107,8 @@ def build(today: date | None = None) -> dict[str, list[dict]]:
         "spy_sma200": None if reg is None else round(reg.sma200, 2),
         "spy_vs_sma200": None if reg is None else round(reg.pct_from_sma, 4),
         "positions": len(positions), "menu_as_of": menu["as_of"], "menu_size": len(menu["menu"]),
-        "latest_run": latest,
+        "latest_run": latest[:10] if latest else None,
+        "latest_session": (latest[11:] or "morning") if latest else None,
     }]
 
     perf = load_performance()
@@ -149,7 +150,7 @@ def build(today: date | None = None) -> dict[str, list[dict]]:
             t = by_sym.get((v["symbol"], v["side"]), {})
             amount = v.get("notional") or v.get("requested_usd")
             trades.append({
-                "key": f"{day}-{v['symbol']}-{v['side']}", "date": day, "symbol": v["symbol"], "side": v["side"],
+                "key": f"{day}-{v['symbol']}-{v['side']}", "date": day[:10], "symbol": v["symbol"], "side": v["side"],
                 "amount": None if amount in (None, "") else round(float(amount), 2),
                 "outcome": ("Sent" if v["approved"] else "Blocked by risk layer"),
                 "order_status": v.get("order_status") or "",
@@ -158,7 +159,7 @@ def build(today: date | None = None) -> dict[str, list[dict]]:
         for r in dec.get("rejected", []):
             p = props.get(r.get("proposal_id"), {})
             trades.append({
-                "key": f"{day}-{p.get('symbol', r.get('proposal_id'))}-{p.get('side', 'buy')}-pm", "date": day,
+                "key": f"{day}-{p.get('symbol', r.get('proposal_id'))}-{p.get('side', 'buy')}-rejected", "date": day[:10],
                 "symbol": p.get("symbol", r.get("proposal_id")), "side": p.get("side", ""),
                 "amount": p.get("notional_usd"), "outcome": "Rejected by portfolio manager",
                 "order_status": "", "detail": r.get("why", ""),

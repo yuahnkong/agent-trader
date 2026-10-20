@@ -49,8 +49,9 @@ SECTOR_ETFS = {
 }
 
 
-def run_dir(day: date) -> Path:
-    return config.RUNS_DIR / day.isoformat()
+def run_dir(day: date, session: str | None = None) -> Path:
+    """runs/YYYY-MM-DD, or runs/YYYY-MM-DD-<session> for an extra run the same day."""
+    return config.RUNS_DIR / (day.isoformat() + (f"-{session}" if session else ""))
 
 
 def write_json(path: Path, data) -> None:
