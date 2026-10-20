@@ -8,6 +8,7 @@
     python -m agent_trader.pipeline close                  # post-close: P&L, shadow, SPY
     python -m agent_trader.pipeline close-report           # close report incl. agent reviews
     python -m agent_trader.pipeline resume                 # clear a kill-switch pause
+    python -m agent_trader.pipeline dashboard-data         # JSON tables for the dashboard
     python -m agent_trader.pipeline daily [--symbols AAPL MSFT ...]
 
 The agents sit between `prepare` and `execute` (and between `close` and `close-report`);
@@ -492,6 +493,7 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("close-report", help="write reports/<today>-close.md")
     sub.add_parser("status", help="account, positions, menu, performance")
     sub.add_parser("resume", help="clear a kill-switch pause")
+    sub.add_parser("dashboard-data", help="write data/dashboard/*.json for the dashboard artifact")
     args = parser.parse_args(argv)
 
     if args.cmd == "check-alpaca":
@@ -512,6 +514,11 @@ def main(argv: list[str] | None = None) -> int:
         return close_report()
     if args.cmd == "status":
         return status()
+    if args.cmd == "dashboard-data":
+        from . import dashboard
+        for path in dashboard.write():
+            print(f"wrote {path.relative_to(config.ROOT)}")
+        return 0
     return resume()
 
 
