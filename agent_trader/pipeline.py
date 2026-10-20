@@ -1,22 +1,34 @@
 """Command-line entry points.
 
     python -m agent_trader.pipeline check-alpaca [--fix]
+    python -m agent_trader.pipeline status
+    python -m agent_trader.pipeline screen                 # rebuild state/menu.json (~10 min)
+    python -m agent_trader.pipeline prepare                # pre-open: data + agent packets
+    python -m agent_trader.pipeline execute [--dry-run]    # risk layer + orders + open report
+    python -m agent_trader.pipeline close                  # post-close: P&L, shadow, SPY
+    python -m agent_trader.pipeline close-report           # close report incl. agent reviews
+    python -m agent_trader.pipeline resume                 # clear a kill-switch pause
     python -m agent_trader.pipeline daily [--symbols AAPL MSFT ...]
+
+The agents sit between `prepare` and `execute` (and between `close` and `close-report`);
+see .claude/skills/preopen and .claude/skills/postclose.
 """
 
 import argparse
 import json
 import sys
+from dataclasses import asdict
 from datetime import date, datetime, timedelta, timezone
 
-from . import config, prices
+from . import config, packets, prices, reports, screen
 from .alpaca import AlpacaClient
+from .ledger import build_ledger
+from .risk import kill_switch_tripped, review
 from .sec import SecClient
+from .shadow import rebalance
+from .state import Shadow, Trading, load_performance, record_performance
 
-
-def sec_ticker(symbol: str) -> str:
-    """Alpaca writes share classes as BRK.B, SEC as BRK-B."""
-    return symbol.replace(".", "-")
+sec_ticker = screen.sec_ticker
 
 
 def check_alpaca(fix: bool = False) -> int:
@@ -80,7 +92,7 @@ def check_alpaca(fix: bool = False) -> int:
 def daily(extra_symbols: list[str], filings_days: int, news_hours: int) -> int:
     alpaca = AlpacaClient()
     sec = SecClient()
-    today = date.today()
+    today = config.market_today()
 
     account = alpaca.account()
     positions = alpaca.positions()
@@ -157,6 +169,296 @@ def daily(extra_symbols: list[str], filings_days: int, news_hours: int) -> int:
     return 0
 
 
+# Daily cycle -------------------------------------------------------------------------
+
+
+def _menu(today: date, refresh: bool) -> dict:
+    menu = screen.load_menu()
+    if screen.menu_is_stale(menu, today):
+        if not refresh:
+            raise SystemExit("state/menu.json is missing or stale; run `pipeline screen` first")
+        print("menu is stale, re-running the screen")
+        menu = screen.run_screen(today)
+    return menu
+
+
+def _session_today(alpaca: AlpacaClient, today: date) -> bool:
+    """True if the market is open today or will open later today (ET)."""
+    clock = alpaca.clock()
+    if clock["is_open"]:
+        return True
+    nxt = datetime.fromisoformat(clock["next_open"]).astimezone(config.MARKET_TZ).date()
+    return nxt == today
+
+
+def liquidate(alpaca: AlpacaClient, trading: Trading, today: date, reason: str) -> list[dict]:
+    """Kill switch: cancel open orders, sell every position, pause trading."""
+    alpaca.cancel_all_orders()
+    orders = []
+    for p in alpaca.positions():
+        orders.append(alpaca.submit_order(
+            p["symbol"], "sell", f"ks-{today:%Y%m%d}-{p['symbol']}", qty=p["qty"]
+        ))
+    trading.paused, trading.paused_reason, trading.paused_at = True, reason, today.isoformat()
+    trading.save()
+    return orders
+
+
+def prepare(refresh_menu: bool = True) -> int:
+    today = config.market_today()
+    alpaca = AlpacaClient()
+    menu = _menu(today, refresh_menu)
+    trading = Trading.load()
+    run = packets.run_dir(today)
+
+    held = [p["symbol"] for p in alpaca.positions()]
+    menu_syms = [m["symbol"] for m in menu["menu"]]
+    closes = packets.completed_closes(
+        alpaca, [*packets.MARKET_ETFS, *packets.SECTOR_ETFS, *menu_syms, *held], today
+    )
+    acct, positions, led, ctx = packets.account_context(alpaca, trading, menu, closes, today)
+    trading.save()
+
+    port = packets.portfolio_packet(acct, positions, led, ctx, menu, closes, today)
+    packets.write_json(run / "inputs" / "market.json", packets.market_packet(closes))
+    packets.write_json(run / "inputs" / "fundamentals.json", packets.fundamentals_packet(menu, held))
+    packets.write_json(run / "inputs" / "news.json",
+                       packets.news_packet(alpaca, sorted(set(menu_syms) | set(held)), today))
+    packets.write_json(run / "inputs" / "portfolio.json", port)
+
+    session = _session_today(alpaca, today)
+    print(f"prepared {run.relative_to(config.ROOT)}/inputs for {today}")
+    print(f"  menu {menu['as_of']}: {len(menu_syms)} names; holdings: {', '.join(held) or 'none'}")
+    print(f"  equity ${ctx.equity:,.2f}, buys {'allowed' if port['regime_allows_buys'] else 'BLOCKED by regime'}, "
+          f"{port['trades_remaining_today']} trade(s) left today")
+    if ctx.paused:
+        print(f"  PAUSED since {trading.paused_at}: {trading.paused_reason}")
+    if not session:
+        print("  market is closed today; `execute` will not send orders")
+    return 0
+
+
+def execute(dry_run: bool = False) -> int:
+    today = config.market_today()
+    run = packets.run_dir(today)
+    alpaca = AlpacaClient()
+    trading = Trading.load()
+    menu = _menu(today, refresh=False)
+    decision_path = run / "decision.json"
+    decision = json.loads(decision_path.read_text()) if decision_path.exists() else {"trades": []}
+    if not decision_path.exists():
+        print(f"WARN: no {decision_path.relative_to(config.ROOT)}; treating as no trades")
+
+    held = [p["symbol"] for p in alpaca.positions()]
+    closes = packets.completed_closes(alpaca, [config.MARKET_PROXY, *held], today)
+    _, _, _, ctx = packets.account_context(alpaca, trading, menu, closes, today)
+    notes, verdicts = [], []
+
+    if kill_switch_tripped(ctx) and not trading.paused:
+        reason = f"equity ${ctx.equity:,.2f} is {ctx.drawdown:.1%} below peak ${ctx.peak_equity:,.2f}"
+        notes.append(f"KILL SWITCH: {reason}. Liquidating and pausing.")
+        if not dry_run:
+            liquidate(alpaca, trading, today, reason)
+        ctx.paused = True
+    else:
+        trading.save()
+
+    verdicts = review(decision.get("trades", []), ctx)
+    session = _session_today(alpaca, today)
+    if not session:
+        notes.append("Market is closed today; no orders sent.")
+    rows = []
+    for v in verdicts:
+        row = asdict(v)
+        if v.approved and session and not dry_run:
+            cid = f"at-{today:%Y%m%d}-{v.symbol}-{v.side}"
+            try:
+                order = alpaca.submit_order(v.symbol, v.side, cid, notional=v.notional, qty=v.qty)
+                row.update(order_id=order["id"], client_order_id=cid, order_status=order["status"])
+            except Exception as e:  # noqa: BLE001 - a broker rejection is logged, not fatal
+                detail = getattr(getattr(e, "response", None), "text", "") or str(e)
+                row.update(order_status=f"error: {detail[:200]}")
+        elif v.approved:
+            row.update(order_status="dry run" if dry_run else "not sent (market closed)")
+        rows.append(row)
+
+    execution = {"date": today.isoformat(), "dry_run": dry_run, "notes": notes, "verdicts": rows}
+    packets.write_json(run / "execution.json", execution)
+    _log_recommendations(run, execution)
+    path = reports.open_report(run, execution)
+    for r in rows:
+        status = r.get("order_status") or ("rejected: " + "; ".join(r["reasons"]))
+        print(f"  {r['side']} {r['symbol']}: {status}")
+    for n in notes:
+        print(f"  {n}")
+    print(f"wrote {path.relative_to(config.ROOT)}")
+    return 0
+
+
+def _log_recommendations(run, execution: dict) -> None:
+    """One line per agent per day, so each agent's calls can be scored later."""
+    config.LOGS_DIR.mkdir(parents=True, exist_ok=True)
+    path = config.LOGS_DIR / "recommendations.jsonl"
+    day = run.name
+    existing = path.read_text().splitlines() if path.exists() else []
+    kept = [l for l in existing if json.loads(l).get("date") != day]
+    for name in reports.AGENTS:
+        # The Portfolio Manager's output is the decision file itself.
+        f = run / ("decision.json" if name == "portfolio-manager" else f"agents/{name}.json")
+        if f.exists():
+            try:
+                kept.append(json.dumps({"date": day, "agent": name, "output": json.loads(f.read_text())}))
+            except json.JSONDecodeError:
+                kept.append(json.dumps({"date": day, "agent": name, "error": "invalid JSON"}))
+    kept.append(json.dumps({"date": day, "agent": "risk-layer", "output": execution}))
+    path.write_text("\n".join(kept) + "\n")
+
+
+def close() -> int:
+    today = config.market_today()
+    run = packets.run_dir(today)
+    alpaca = AlpacaClient()
+    trading = Trading.load()
+    menu = _menu(today, refresh=False)
+
+    acct = alpaca.account()
+    positions = alpaca.positions()
+    equity = float(acct["equity"])
+    held = [p["symbol"] for p in positions]
+    shadow = Shadow.load()
+    syms = {config.MARKET_PROXY, *held, *shadow.shares, *(m["symbol"] for m in menu["menu"])}
+    bars = alpaca.daily_bars(sorted(syms), start=today - timedelta(days=400))
+    if alpaca.clock()["is_open"]:
+        bars = bars[bars["date"] < today]
+    closes = prices.closes_by_symbol(bars)
+    last = {s: float(c.iloc[-1]) for s, c in closes.items()}
+    spy = closes.get(config.MARKET_PROXY)
+    reg = prices.regime(spy) if spy is not None else None
+
+    trading.start_if_needed(today, equity, reg.close if reg else None)
+    if shadow.started is None:
+        shadow.started, shadow.cash = today.isoformat(), trading.start_equity or equity
+    shadow_trades = rebalance(shadow, menu, last, reg.above if reg else None, today)
+    shadow.save()
+
+    start = trading.start_equity or equity
+    shadow_value = shadow.value(last)
+    spy_value = start * last[config.MARKET_PROXY] / trading.spy_start_close if trading.spy_start_close else None
+    perf = {
+        "date": today.isoformat(),
+        "agent_equity": round(equity, 2),
+        "shadow_value": round(shadow_value, 2),
+        "spy_value": None if spy_value is None else round(spy_value, 2),
+        "agent_return": round(equity / start - 1, 5),
+        "shadow_return": round(shadow_value / start - 1, 5),
+        "spy_return": None if spy_value is None else round(spy_value / start - 1, 5),
+    }
+    record_performance(perf)
+
+    notes = []
+    drawdown = 1 - equity / trading.peak_equity if trading.peak_equity else 0.0
+    if drawdown >= config.KILL_SWITCH_DRAWDOWN and not trading.paused:
+        reason = f"equity ${equity:,.2f} is {drawdown:.1%} below peak ${trading.peak_equity:,.2f}"
+        liquidate(alpaca, trading, today, reason)
+        notes.append(f"KILL SWITCH: {reason}. Sell orders queued for the next open; trading paused.")
+    trading.save()
+
+    fills = [f for f in alpaca.fills(after=today - timedelta(days=1))
+             if datetime.fromisoformat(f["transaction_time"].replace("Z", "+00:00"))
+             .astimezone(config.MARKET_TZ).date() == today]
+    led = build_ledger(alpaca.fills())
+    decision = packets.run_dir(today) / "decision.json"
+    data = {
+        "date": today.isoformat(),
+        "equity": equity,
+        "day_pl": round(equity - float(acct["last_equity"]), 2),
+        "drawdown": round(drawdown, 4),
+        "paused": trading.paused,
+        "notes": notes,
+        "performance": perf,
+        "fills_today": [{k: f[k] for k in ("symbol", "side", "qty", "price", "transaction_time")} for f in fills],
+        "positions": [
+            {"symbol": p["symbol"], "qty": float(p["qty"]), "market_value": float(p["market_value"]),
+             "weight": float(p["market_value"]) / equity if equity else 0.0,
+             "unrealized_pl": float(p["unrealized_pl"]), "unrealized_plpc": float(p["unrealized_plpc"]),
+             "change_today": float(p.get("change_today") or 0),
+             "lots": [{"qty": l.qty, "cost": l.price, "opened": l.opened.isoformat()} for l in led.lots.get(p["symbol"], [])]}
+            for p in positions
+        ],
+        "todays_decision": json.loads(decision.read_text()) if decision.exists() else None,
+        "theses": _open_theses(),
+        "shadow_trades": shadow_trades,
+        "shadow_holdings": {s: round(q, 6) for s, q in shadow.shares.items()},
+        "recent_performance": load_performance()[-10:],
+    }
+    packets.write_json(run / "close.json", data)
+    print(f"wrote {(run / 'close.json').relative_to(config.ROOT)}")
+    print(f"  agents ${equity:,.2f} ({perf['agent_return']:+.2%})  shadow ${shadow_value:,.2f} "
+          f"({perf['shadow_return']:+.2%})  SPY {'n/a' if spy_value is None else f'${spy_value:,.2f}'}")
+    for n in notes:
+        print(f"  {n}")
+    return 0
+
+
+def _open_theses() -> dict:
+    """Latest approved thesis per held symbol, from past decision files, so post-close
+    reviewers can judge whether it still holds."""
+    out = {}
+    for d in sorted(config.RUNS_DIR.glob("*/decision.json")):
+        try:
+            for t in json.loads(d.read_text()).get("trades", []):
+                if t.get("side") == "buy":
+                    out[t["symbol"]] = {"date": d.parent.name, "thesis": t.get("thesis"),
+                                        "invalidation": t.get("invalidation")}
+        except (json.JSONDecodeError, KeyError):
+            continue
+    return out
+
+
+def close_report() -> int:
+    path = reports.close_report(packets.run_dir(config.market_today()))
+    print(f"wrote {path.relative_to(config.ROOT)}")
+    return 0
+
+
+def status() -> int:
+    alpaca = AlpacaClient()
+    trading = Trading.load()
+    acct = alpaca.account()
+    menu = screen.load_menu()
+    print(f"equity ${float(acct['equity']):,.2f}  cash ${float(acct['cash']):,.2f}  "
+          f"peak ${trading.peak_equity:,.2f}  started {trading.started or 'not yet'}")
+    if trading.paused:
+        print(f"PAUSED since {trading.paused_at}: {trading.paused_reason}")
+    for p in alpaca.positions():
+        print(f"  {p['symbol']:<6} {float(p['qty']):>10.4f} sh  ${float(p['market_value']):>8.2f}  "
+              f"P&L ${float(p['unrealized_pl']):>7.2f} ({float(p['unrealized_plpc']):+.1%})")
+    for o in alpaca.orders(status="open"):
+        print(f"  open order: {o['side']} {o['symbol']} {o.get('notional') or o.get('qty')} ({o['status']})")
+    if menu:
+        print(f"menu {menu['as_of']}: {', '.join(m['symbol'] for m in menu['menu'])}")
+    perf = load_performance()
+    if perf:
+        p = perf[-1]
+        print(f"{p['date']}: agents {p['agent_return']:+.2%}  shadow {p['shadow_return']:+.2%}  "
+              f"SPY {'n/a' if p['spy_return'] is None else format(p['spy_return'], '+.2%')}")
+    return 0
+
+
+def resume() -> int:
+    trading = Trading.load()
+    if not trading.paused:
+        print("not paused")
+        return 0
+    equity = float(AlpacaClient().account()["equity"])
+    # Reset the peak, or the next run would trip the switch again on the same drawdown.
+    trading.paused, trading.paused_reason, trading.paused_at = False, None, None
+    trading.peak_equity = equity
+    trading.save()
+    print(f"resumed; peak equity reset to ${equity:,.2f}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="agent_trader.pipeline")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -166,11 +468,36 @@ def main(argv: list[str] | None = None) -> int:
     d.add_argument("--symbols", nargs="*", default=[])
     d.add_argument("--filings-days", type=int, default=7)
     d.add_argument("--news-hours", type=int, default=72)
+    sub.add_parser("screen", help="rebuild the candidate menu (state/menu.json)")
+    p = sub.add_parser("prepare", help="pre-open: refresh data and write agent input packets")
+    p.add_argument("--no-refresh", action="store_true", help="fail instead of re-running a stale screen")
+    e = sub.add_parser("execute", help="risk-check runs/<today>/decision.json and send orders")
+    e.add_argument("--dry-run", action="store_true")
+    sub.add_parser("close", help="post-close: P&L, shadow portfolio, benchmark, review packet")
+    sub.add_parser("close-report", help="write reports/<today>-close.md")
+    sub.add_parser("status", help="account, positions, menu, performance")
+    sub.add_parser("resume", help="clear a kill-switch pause")
     args = parser.parse_args(argv)
 
     if args.cmd == "check-alpaca":
         return check_alpaca(args.fix)
-    return daily([s.upper() for s in args.symbols], args.filings_days, args.news_hours)
+    if args.cmd == "daily":
+        return daily([s.upper() for s in args.symbols], args.filings_days, args.news_hours)
+    if args.cmd == "screen":
+        r = screen.run_screen()
+        print(f"wrote state/menu.json: {', '.join(m['symbol'] for m in r['menu'])}")
+        return 0
+    if args.cmd == "prepare":
+        return prepare(not args.no_refresh)
+    if args.cmd == "execute":
+        return execute(args.dry_run)
+    if args.cmd == "close":
+        return close()
+    if args.cmd == "close-report":
+        return close_report()
+    if args.cmd == "status":
+        return status()
+    return resume()
 
 
 if __name__ == "__main__":

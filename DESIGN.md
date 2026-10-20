@@ -102,7 +102,8 @@ agents' calls helped, and drop or rework the ones that don't.
 ## Setup status
 
 - [x] GitHub repo created and connected
-- [ ] Alpaca paper account sized to $600, API keys generated
+- [x] Alpaca paper account sized to $600, API keys generated, cash-only config applied (2026-10-20)
 - [x] Environment network access: data.sec.gov, www.sec.gov,
       paper-api.alpaca.markets, data.alpaca.markets (verified 2026-10-20)
-- [ ] Environment variables: APCA_API_KEY_ID, APCA_API_SECRET_KEY
+- [x] Environment variables: APCA_API_KEY_ID, APCA_API_SECRET_KEY
+- [x] Pipeline, screen, risk layer, agents, reports, shadow portfolio (2026-10-20)

@@ -51,3 +51,13 @@ def closes_by_symbol(bars: pd.DataFrame) -> dict[str, pd.Series]:
         sym: g.set_index("date")["close"].sort_index()
         for sym, g in bars.groupby("symbol", sort=False)
     }
+
+
+def beta(closes: pd.Series, market: pd.Series, window: int = TRADING_DAYS) -> float | None:
+    """Slope of daily log returns on the market's over the last `window` sessions."""
+    both = pd.concat([closes, market], axis=1, join="inner").dropna().sort_index()
+    if len(both) < window + 1:
+        return None
+    rets = np.log(both.iloc[-(window + 1):]).diff().dropna()
+    var = rets.iloc[:, 1].var(ddof=1)
+    return None if var == 0 else float(rets.iloc[:, 0].cov(rets.iloc[:, 1]) / var)

@@ -1,9 +1,10 @@
-"""Thin Alpaca REST client (paper trading + market data). Read-only apart from account
-configuration; order placement will live behind the risk layer, not here."""
+"""Thin Alpaca REST client (paper trading + market data). Order placement is exposed
+here but only `execute` in the pipeline calls it, after the risk layer has passed a trade."""
 
 from datetime import date, datetime
 
 import pandas as pd
+import requests
 
 from . import config
 from .http import make_session
@@ -20,6 +21,13 @@ class AlpacaClient:
         resp.raise_for_status()
         return resp.json()
 
+    def _send(self, method: str, path: str, body: dict | None = None) -> dict | list | None:
+        # Writes are not retried by the session (allowed_methods is GET only), so a
+        # timeout can't double-submit; client_order_id covers the rest.
+        resp = self.session.request(method, config.ALPACA_TRADING_URL + path, json=body, timeout=30)
+        resp.raise_for_status()
+        return resp.json() if resp.content else None
+
     # Trading API -----------------------------------------------------------------
 
     def account(self) -> dict:
@@ -29,17 +37,80 @@ class AlpacaClient:
         return self._get(config.ALPACA_TRADING_URL, "/v2/account/configurations")
 
     def update_account_configurations(self, **changes) -> dict:
-        resp = self.session.patch(
-            config.ALPACA_TRADING_URL + "/v2/account/configurations", json=changes, timeout=30
-        )
-        resp.raise_for_status()
-        return resp.json()
+        return self._send("PATCH", "/v2/account/configurations", changes)
 
     def clock(self) -> dict:
         return self._get(config.ALPACA_TRADING_URL, "/v2/clock")
 
     def positions(self) -> list[dict]:
         return self._get(config.ALPACA_TRADING_URL, "/v2/positions")
+
+    def orders(self, status: str = "all", after: datetime | None = None, limit: int = 500) -> list[dict]:
+        params = {"status": status, "limit": limit, "direction": "desc", "nested": "false"}
+        if after:
+            params["after"] = after.isoformat()
+        return self._get(config.ALPACA_TRADING_URL, "/v2/orders", params)
+
+    def order_by_client_id(self, client_order_id: str) -> dict | None:
+        try:
+            return self._get(
+                config.ALPACA_TRADING_URL,
+                "/v2/orders:by_client_order_id",
+                {"client_order_id": client_order_id},
+            )
+        except requests.HTTPError as e:
+            if e.response is not None and e.response.status_code == 404:
+                return None
+            raise
+
+    def submit_order(
+        self,
+        symbol: str,
+        side: str,
+        client_order_id: str,
+        notional: float | None = None,
+        qty: str | None = None,
+    ) -> dict:
+        """Market DAY order, by dollar amount (buys) or share quantity (sells). Submitting
+        the same client_order_id twice returns the existing order instead of a duplicate."""
+        existing = self.order_by_client_id(client_order_id)
+        if existing is not None:
+            return existing
+        body = {
+            "symbol": symbol,
+            "side": side,
+            "type": "market",
+            "time_in_force": "day",
+            "client_order_id": client_order_id,
+        }
+        if notional is not None:
+            body["notional"] = f"{notional:.2f}"
+        else:
+            body["qty"] = qty
+        return self._send("POST", "/v2/orders", body)
+
+    def cancel_all_orders(self) -> None:
+        self._send("DELETE", "/v2/orders")
+
+    def fills(self, after: date | None = None) -> list[dict]:
+        """All FILL activities, oldest first."""
+        params = {"direction": "asc", "page_size": 100}
+        if after:
+            params["after"] = after.isoformat()
+        out: list[dict] = []
+        while True:
+            page = self._get(config.ALPACA_TRADING_URL, "/v2/account/activities/FILL", params)
+            out.extend(page)
+            if len(page) < 100:
+                return out
+            params["page_token"] = page[-1]["id"]
+
+    def portfolio_history(self, period: str = "1A") -> dict:
+        return self._get(
+            config.ALPACA_TRADING_URL,
+            "/v2/account/portfolio/history",
+            {"period": period, "timeframe": "1D"},
+        )
 
     def assets(self) -> list[dict]:
         """Active, tradable US equities."""
