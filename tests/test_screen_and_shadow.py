@@ -101,3 +101,14 @@ def test_shadow_regime_off_buys_only_defensive():
     closes = {"A": 10.0, "B": 20.0, "C": 40.0, "VOO": 500.0, "BND": 70.0, "BTC/USD": 80000.0, "ETH/USD": 2400.0}
     trades = rebalance(s, MENU, closes, regime_above=False, today=date(2026, 10, 19), sleeves=SLEEVES)
     assert {t["symbol"] for t in trades} == {"BND"}
+
+
+def test_forward_return_waits_for_sessions_after_the_call():
+    import pandas as pd
+    from agent_trader.learning import _forward
+    s = pd.Series([100.0, 101.0, 102.0, 99.0], index=[date(2026, 10, d) for d in (19, 20, 21, 22)])
+    r, n = _forward(s, date(2026, 10, 20))
+    assert n == 2 and abs(r - (99 / 101 - 1)) < 1e-12
+    r, n = _forward(s, date(2026, 10, 20), 1)
+    assert n == 1 and abs(r - (102 / 101 - 1)) < 1e-12
+    assert _forward(s, date(2026, 10, 22)) == (None, 0)  # nothing after the call yet

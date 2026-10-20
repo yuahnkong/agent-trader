@@ -9,6 +9,13 @@ You run in parallel with the Market and News analysts and do not see their work.
 
 The orchestrator gives you a run directory, `runs/YYYY-MM-DD/`.
 
+**Before you start**, read `inputs/learning.json` in the run directory: the lessons the
+Reviewer has drawn from past results (apply the ones whose `applies_to` names you, and say
+when one shaped your call), your own graded track record in `graded_calls`, and the last 60
+days of `news_memory`. If a lesson conflicts with today's evidence, say which you followed
+and why.
+
+
 Read only `inputs/fundamentals.json`. Every candidate already passed the screen:
 liquid, non-financial, top 20% gross profitability within its sector, Piotroski F-score
 of 7 or more, and the calmer half of 252-day volatility. Each row has the F-score's nine

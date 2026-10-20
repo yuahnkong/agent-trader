@@ -123,6 +123,16 @@ def close_report(run: Path) -> Path:
     if shadow_trades:
         lines += ["", "## Shadow rebalance", ""]
         lines += [f"- {t['side']} {t['symbol']} {t['qty']:.4f} @ {t['price']}" for t in shadow_trades]
+    rv = _load(run / "review" / "reviewer.json")
+    lessons = _load(config.STATE_DIR / "lessons.json") or {}
+    active = [l for l in lessons.get("lessons", []) if l.get("status") == "active"]
+    lines += ["", "## What the system learned", ""]
+    lines.append(rv.get("summary", "") if rv else "The Reviewer didn't run today.")
+    for l in active:
+        mark = " (new)" if rv and l.get("id") in rv.get("added", []) else ""
+        lines.append(f"- **{l.get('id')}**{mark} [{l.get('confidence')}] {l.get('lesson')}")
+    for s in lessons.get("owner_suggestions", [])[-3:]:
+        lines.append(f"- Suggestion for you ({s.get('date')}): {s.get('suggestion')}")
     lines += ["", "## Reviews", ""]
     for name in AGENTS:
         rv = _load(run / "review" / f"{name}.json")

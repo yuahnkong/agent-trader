@@ -98,6 +98,23 @@ agents' calls helped, and drop or rework the ones that don't.
 - Kill switch: portfolio down 15% from peak moves everything to cash and pauses trading.
 - Idempotent orders via `client_order_id`.
 
+## Learning loop (added 2026-10-20)
+
+Nothing is retrained; the agents get memory and a track record.
+
+- `pipeline learn` (post-close) grades every past call once 5 sessions have passed:
+  buys vs. SPY, PM rejections and serious Skeptic objections (right if the name lagged),
+  the market stance vs. SPY's next 5 days, high event-risk flags (right if the name moved
+  >3% vs. SPY). Written to `state/scorecard.json`.
+- The News Analyst's flags and notable headlines are kept for 60 days in
+  `state/memory/news.jsonl`, so later runs can see whether a story followed through.
+- A Reviewer agent (8th, post-close) keeps `state/lessons.json`: at most 20 active lessons,
+  each with cited evidence and a confidence level, retired when later results contradict
+  them. Changes to limits, the screen or the asset list go to `owner_suggestions` for a
+  person to decide.
+- Every agent reads `inputs/learning.json` (active lessons, its graded calls, news memory)
+  before it works.
+
 ## Evaluation
 
 - **Shadow portfolio**: same menu, rules-only rebalance, no agents.

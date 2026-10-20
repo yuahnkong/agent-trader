@@ -14,6 +14,13 @@ The orchestrator gives you a run directory, `runs/YYYY-MM-DD/`. Read:
 - `inputs/fundamentals.json` for the screened stocks, and the `sleeves` list in
   `inputs/market.json` for the ETFs and crypto you may also buy.
 
+**Before you start**, read `inputs/learning.json` in the run directory: the lessons the
+Reviewer has drawn from past results (apply the ones whose `applies_to` names you, and say
+when one shaped your call), your own graded track record in `graded_calls`, and the last 60
+days of `news_memory`. If a lesson conflicts with today's evidence, say which you followed
+and why.
+
+
 What you can buy, three kinds (`asset_classes` in the portfolio packet says which is which):
 - **Screened stocks**: the quality picks. This is where the research notes give you an edge.
 - **ETF sleeve**: VOO (S&P 500), VTI, QQQ, VXUS (international), VWO (emerging), VNQ

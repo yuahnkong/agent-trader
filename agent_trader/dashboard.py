@@ -193,8 +193,24 @@ def build(today: date | None = None) -> dict[str, list[dict]]:
         "flags": 0, "held": x["symbol"] in held, "asset_class": x["asset_class"],
     } for x in sleeves]
 
+    lessons_doc = _load(config.STATE_DIR / "lessons.json") or {}
+    lessons = [{
+        "id": l.get("id"), "lesson": l.get("lesson", ""), "applies_to": ", ".join(l.get("applies_to", [])),
+        "confidence": l.get("confidence"), "status": l.get("status"), "added": l.get("added"),
+        "evidence": " | ".join(l.get("evidence", [])),
+    } for l in lessons_doc.get("lessons", [])] + [{
+        "id": f"S{i + 1}", "lesson": x.get("suggestion", ""), "applies_to": "you (owner)",
+        "confidence": None, "status": "suggestion", "added": x.get("date"),
+        "evidence": " | ".join(x.get("evidence", [])),
+    } for i, x in enumerate(lessons_doc.get("owner_suggestions", []))]
+    if not lessons:
+        lessons = [{"id": "-", "lesson": "No lessons yet. The Reviewer adds one only when graded results support it.",
+                    "applies_to": "", "confidence": None, "status": "none yet", "added": None, "evidence": ""}]
+    card = _load(config.STATE_DIR / "scorecard.json") or {"summary": {}}
+    scorecard = [{"agent": a.replace("-", " ").capitalize(), **v} for a, v in card.get("summary", {}).items()]
+
     return {"account": account, "performance": performance, "positions": position_rows,
-            "trades": trades, "agents": agents, "menu": menu_rows}
+            "trades": trades, "agents": agents, "menu": menu_rows, "lessons": lessons, "scorecard": scorecard}
 
 
 def write(today: date | None = None) -> list:

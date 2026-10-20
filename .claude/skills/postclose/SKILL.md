@@ -23,18 +23,26 @@ shell commands, place orders, or read any input the role file doesn't list."
    switch. If it reports the market was closed today and nothing changed, commit state
    and stop.
 
+2b. **Score.** `python -m agent_trader.pipeline learn` grades every past call against
+   what prices did (`state/scorecard.json`) and saves today's flagged news to
+   `state/memory/news.jsonl`.
+
 3. **Reviews (parallel).** In one message launch `market-analyst`, `fundamentals-analyst`,
    `news-analyst` and `portfolio-manager`, each with the prompt
    "Run directory: R. Post-close review mode: write R/review/<your name>.json."
    Skip the reviews if there are no positions and no fills today; say so in the report.
+
+3b. **Reflect.** Launch `reviewer` with "Run directory: R. Today is D." after the reviews
+   finish (run it even when the reviews were skipped). It updates `state/lessons.json`,
+   which every agent reads before the next run, and writes `R/review/reviewer.json`.
 
 4. **Report.** `python -m agent_trader.pipeline close-report` writes `reports/D-close.md`.
 
 
 **Refresh the dashboard** (after the report, before committing). The Agent Trader Desk
 dashboard is https://claude.ai/artifact/7Xjbz2oNcyLmMLznWe7q6R. Run
-`python -m agent_trader.pipeline dashboard-data`, which writes six files to
-`data/dashboard/`: account, performance, positions, trades, agents, menu. For each one,
+`python -m agent_trader.pipeline dashboard-data`, which writes eight files to
+`data/dashboard/`: account, performance, positions, trades, agents, menu, lessons, scorecard. For each one,
 upload it to that URL with the Artifact tool (`asset: true`, `file_path` the JSON file,
 one call per file), then with ArtifactData `get` collection `datasets`, doc `<name>` and
 `update` it (pinned with `if_version`) with
@@ -43,7 +51,7 @@ Then delete each replaced asset (Artifact `action: "delete"`, `path` = the old b
 If the Artifact or ArtifactData tools aren't available in this session, skip this step and
 say so in the summary.
 
-5. **Commit and push.** `git add runs/D state reports logs && git commit -m "Post-close run D"`,
+5. **Commit and push.** `git add runs/D* state reports logs && git commit -m "Post-close run D"`,
    then `git push -u origin HEAD` (retry network failures up to 4 times with backoff).
 
 6. **Tell the user.** Agents vs. shadow vs. SPY since start, day P&L, any broken theses,

@@ -9,6 +9,7 @@
     python -m agent_trader.pipeline close-report           # close report incl. agent reviews
     python -m agent_trader.pipeline resume                 # clear a kill-switch pause
     python -m agent_trader.pipeline dashboard-data         # JSON tables for the dashboard
+    python -m agent_trader.pipeline learn                  # scorecard + news memory (post-close)
     python -m agent_trader.pipeline daily [--symbols AAPL MSFT ...]
 
 The agents sit between `prepare` and `execute` (and between `close` and `close-report`);
@@ -21,7 +22,7 @@ import sys
 from dataclasses import asdict
 from datetime import date, datetime, timedelta, timezone
 
-from . import config, packets, prices, reports, screen
+from . import config, learning, packets, prices, reports, screen
 from .alpaca import AlpacaClient
 from .ledger import build_ledger
 from .risk import kill_switch_tripped, review
@@ -229,6 +230,7 @@ def prepare(refresh_menu: bool = True, session: str | None = None) -> int:
     packets.write_json(run / "inputs" / "news.json",
                        packets.news_packet(alpaca, sorted(set(menu_syms) | set(held) | set(sleeve_symbols())), today))
     packets.write_json(run / "inputs" / "portfolio.json", port)
+    packets.write_json(run / "inputs" / "learning.json", learning.learning_packet(today))
 
     session = _session_today(alpaca, today)
     print(f"prepared {run.relative_to(config.ROOT)}/inputs for {today}")
@@ -506,6 +508,7 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("status", help="account, positions, menu, performance")
     sub.add_parser("resume", help="clear a kill-switch pause")
     sub.add_parser("dashboard-data", help="write data/dashboard/*.json for the dashboard artifact")
+    sub.add_parser("learn", help="grade past calls (state/scorecard.json) and save today's news to memory")
     args = parser.parse_args(argv)
 
     if args.cmd == "check-alpaca":
@@ -526,6 +529,17 @@ def main(argv: list[str] | None = None) -> int:
         return close_report()
     if args.cmd == "status":
         return status()
+    if args.cmd == "learn":
+        card = learning.write_scorecard()
+        today = config.market_today().isoformat()
+        for run in sorted(config.RUNS_DIR.glob(f"{today}*")):
+            if run.is_dir():
+                learning.remember_news(run)
+        for agent, s in card["summary"].items():
+            rate = "n/a" if s["hit_rate"] is None else f"{s['hit_rate']:.0%}"
+            print(f"  {agent:<20} right {s['right']:>3}  wrong {s['wrong']:>3}  pending {s['pending']:>3}  hit rate {rate}")
+        print("wrote state/scorecard.json and state/memory/news.jsonl")
+        return 0
     if args.cmd == "dashboard-data":
         from . import dashboard
         for path in dashboard.write():

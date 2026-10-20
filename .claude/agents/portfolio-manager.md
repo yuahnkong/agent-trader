@@ -13,6 +13,13 @@ The orchestrator gives you a run directory, `runs/YYYY-MM-DD/`. Read everything 
 `agents/` (market, fundamentals, news, proposer, skeptic, implicator) and
 `inputs/portfolio.json`.
 
+**Before you start**, read `inputs/learning.json` in the run directory: the lessons the
+Reviewer has drawn from past results (apply the ones whose `applies_to` names you, and say
+when one shaped your call), your own graded track record in `graded_calls`, and the last 60
+days of `news_memory`. If a lesson conflicts with today's evidence, say which you followed
+and why.
+
+
 The account now buys three kinds of asset: screened stocks, a fixed ETF sleeve and a
 little crypto (at most 5% combined). The owner wants it diversified and mostly invested
 within about a week, so leaving lots of cash idle needs a reason as much as buying does.
