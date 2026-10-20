@@ -14,8 +14,10 @@ one call per file), then with ArtifactData `get` collection `datasets`, doc `<na
 `update` it (pinned with `if_version`) with
 `{"source": {"kind": "file", "url": <the upload's /_blob/... url>, "name": "<name>.json"}, "updated": {"at": <now ISO>, "by": "Claude (agent-trader pipeline)"}}`.
 Then delete each replaced asset (Artifact `action: "delete"`, `path` = the old blob id).
-If the Artifact or ArtifactData tools aren't available in this session, skip this step and
-say so in the summary.
+The Artifact and ArtifactData tools are often deferred: load them first with ToolSearch,
+query `select:Artifact,ArtifactData`. Do this step whenever they load; it is part of the
+run, not optional. Skip it only if that search returns neither tool, and then say in the
+summary exactly what the search returned.
 
 This only reads the account and the repo: it never trades, and it doesn't change anything
 that needs committing.

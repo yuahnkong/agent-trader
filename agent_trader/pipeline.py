@@ -421,6 +421,8 @@ def close() -> int:
         "recent_performance": load_performance()[-10:],
     }
     packets.write_json(run / "close.json", data)
+    # Post-close reviewers read lessons and their track record too.
+    packets.write_json(run / "inputs" / "learning.json", learning.learning_packet(today))
     print(f"wrote {(run / 'close.json').relative_to(config.ROOT)}")
     print(f"  agents ${equity:,.2f} ({perf['agent_return']:+.2%})  shadow ${shadow_value:,.2f} "
           f"({perf['shadow_return']:+.2%})  SPY {'n/a' if spy_value is None else f'${spy_value:,.2f}'}")
