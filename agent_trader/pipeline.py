@@ -1,6 +1,6 @@
 """Command-line entry points.
 
-    python -m agent_trader.pipeline check-alpaca
+    python -m agent_trader.pipeline check-alpaca [--fix]
     python -m agent_trader.pipeline daily [--symbols AAPL MSFT ...]
 """
 
@@ -19,7 +19,7 @@ def sec_ticker(symbol: str) -> str:
     return symbol.replace(".", "-")
 
 
-def check_alpaca() -> int:
+def check_alpaca(fix: bool = False) -> int:
     try:
         client = AlpacaClient()
     except config.MissingCredentials as e:
@@ -44,13 +44,20 @@ def check_alpaca() -> int:
         )
 
     cfg = client.account_configurations()
+    # Paper accounts default to margin. The design is cash-only, so insist on 1x and no shorts.
+    wanted = {"max_margin_multiplier": "1", "no_shorting": True}
+    drift = {k: v for k, v in wanted.items() if str(cfg.get(k)) != str(v)}
+    if drift and fix:
+        print(f"  updating account configurations: {drift}")
+        cfg = client.update_account_configurations(**drift)
     print(f"  max_margin_multiplier={cfg.get('max_margin_multiplier')}  "
           f"no_shorting={cfg.get('no_shorting')}  fractional={cfg.get('fractional_trading')}")
-    # Paper accounts default to margin. The design is cash-only, so insist on 1x and no shorts.
     if str(cfg.get("max_margin_multiplier")) != "1":
         problems.append("max_margin_multiplier should be 1 (cash account)")
     if not cfg.get("no_shorting"):
         problems.append("no_shorting should be true")
+    if drift and not fix:
+        print("  (run with --fix to apply the cash-only settings)")
     if cfg.get("fractional_trading") is False:
         problems.append("fractional trading is off")
 
@@ -82,6 +89,11 @@ def daily(extra_symbols: list[str], filings_days: int, news_hours: int) -> int:
 
     # ~400 calendar days covers the 253 closes the volatility window needs.
     bars = alpaca.daily_bars([config.MARKET_PROXY, *symbols], start=today - timedelta(days=400))
+    # Mid-session the feed returns today's bar built from partial trading. Only completed
+    # sessions should reach the regime and volatility numbers.
+    market_open = alpaca.clock()["is_open"]
+    if market_open:
+        bars = bars[bars["date"] < today]
     closes = prices.closes_by_symbol(bars)
 
     spy = closes.get(config.MARKET_PROXY)
@@ -105,6 +117,7 @@ def daily(extra_symbols: list[str], filings_days: int, news_hours: int) -> int:
 
     snapshot = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "market_open_at_pull": market_open,
         "account": {k: account[k] for k in ("equity", "cash", "buying_power")},
         "positions": [
             {k: p[k] for k in ("symbol", "qty", "avg_entry_price", "market_value", "unrealized_pl")}
@@ -137,6 +150,8 @@ def daily(extra_symbols: list[str], filings_days: int, news_hours: int) -> int:
     path = config.SNAPSHOT_DIR / f"{today.isoformat()}-preopen.json"
     path.write_text(json.dumps(snapshot, indent=2, default=str))
     print(f"wrote {path.relative_to(config.ROOT)}")
+    if market_open:
+        print("WARN: market is open; dropped today's partial bars, prices are as of the prior close")
     if reg is None:
         print("WARN: not enough SPY history for the 200-day regime test")
     return 0
@@ -145,7 +160,8 @@ def daily(extra_symbols: list[str], filings_days: int, news_hours: int) -> int:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="agent_trader.pipeline")
     sub = parser.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("check-alpaca", help="verify paper credentials, account setup, and data feed")
+    c = sub.add_parser("check-alpaca", help="verify paper credentials, account setup, and data feed")
+    c.add_argument("--fix", action="store_true", help="set margin to 1x and disable shorting")
     d = sub.add_parser("daily", help="pre-open data pull for holdings and given symbols")
     d.add_argument("--symbols", nargs="*", default=[])
     d.add_argument("--filings-days", type=int, default=7)
@@ -153,7 +169,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     if args.cmd == "check-alpaca":
-        return check_alpaca()
+        return check_alpaca(args.fix)
     return daily([s.upper() for s in args.symbols], args.filings_days, args.news_hours)
 
 

@@ -1,5 +1,5 @@
-"""Thin Alpaca REST client (paper trading + market data). Read-only for now; order
-placement will live behind the risk layer, not here."""
+"""Thin Alpaca REST client (paper trading + market data). Read-only apart from account
+configuration; order placement will live behind the risk layer, not here."""
 
 from datetime import date, datetime
 
@@ -27,6 +27,13 @@ class AlpacaClient:
 
     def account_configurations(self) -> dict:
         return self._get(config.ALPACA_TRADING_URL, "/v2/account/configurations")
+
+    def update_account_configurations(self, **changes) -> dict:
+        resp = self.session.patch(
+            config.ALPACA_TRADING_URL + "/v2/account/configurations", json=changes, timeout=30
+        )
+        resp.raise_for_status()
+        return resp.json()
 
     def clock(self) -> dict:
         return self._get(config.ALPACA_TRADING_URL, "/v2/clock")
