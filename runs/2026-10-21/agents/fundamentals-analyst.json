@@ -1,0 +1,35 @@
+{
+  "summary": "Best combination of durable profitability, cash-backed earnings and complete scores: VRSN (9/9, gp_sector_pct 0.993, cfo 1.09B vs NI 826M), CARG (gp 1.27, cfo 295M vs NI 156M) and DPZ (gp 1.15, pct 1.0, cfo 792M vs NI 602M). Several names have earnings inside a week (VRSN, SAM, WDFC, MCO), per news_memory, and a number rely on sector labels that look wrong (DPZ, CART, HWM, MCO, MSCI), which flatters their in-sector percentile. L1 (stop anchoring) applies to proposer and portfolio-manager, not to me, so it did not shape this ranking.",
+  "rankings": [
+    {"symbol": "VRSN", "rank": 1, "why": "Only 9/9 F-score on the menu; gp 1.10 at 0.993 sector percentile; cfo 1,091M exceeds net income 826M on revenue 1,657M; vol 0.29 is among the calmer names.", "concerns": "Earnings expected about 10-22 (news_memory), and a PT raise into the print means expectations are up. Revenue growth is not shown in the inputs."},
+    {"symbol": "CARG", "rank": 2, "why": "Highest gp on the menu (1.27, pct 1.0); F-score 8/9; cfo 295M is about 1.9x net income 156M; leverage not up and no dilution.", "concerns": "Current ratio fell. Vol 0.394 is near the top of the allowed range and dollar volume of about 34.6M is thin."},
+    {"symbol": "DPZ", "rank": 3, "why": "gp 1.15 at pct 1.0; F-score 8/9; cfo 792M vs net income 602M; margin and turnover both improved; no flags; liquid ($247M a day) with vol 0.31.", "concerns": "Leverage rose (the failed test). SIC code is wholesale groceries, so the Consumer Staples percentile is against a peer group that does not match a franchisor business."},
+    {"symbol": "IDXX", "rank": 4, "why": "F-score 8/9; gp 0.79 at pct 0.94; cfo 1,182M above net income 1,059M; vol 0.318; margin and turnover improved; no dilution.", "concerns": "Current ratio did not improve. Cash conversion is only modestly above earnings (about 1.1x)."},
+    {"symbol": "TPR", "rank": 5, "why": "F-score 8/9 on the freshest annual filing (FY ended 2026-06-27); gp 0.93 at pct 0.95; cfo 1,979M vs net income 1,528M.", "concerns": "Vol 0.414 is near the cutoff. Current ratio did not improve. UBS cut its target before earnings around 11-05."},
+    {"symbol": "SAM", "rank": 6, "why": "F-score 8/9; gp 0.80 at pct 0.95; cfo 270M is about 2.5x net income 108M; leverage not up and margin improved.", "concerns": "Earnings expected about 10-22. Dollar volume of about 33.6M is thin. Net income is small relative to revenue."},
+    {"symbol": "INCY", "rank": 7, "why": "F-score 8/9; gp 0.69 at pct 0.90; cfo 1,413M above net income 1,287M; current ratio and margin improved; vol 0.33.", "concerns": "Asset turnover did not improve. Earnings expected about 10-27."},
+    {"symbol": "FAST", "rank": 8, "why": "Lowest vol on the menu (0.243); F-score 8/9; gp 0.73 at pct 0.89; cfo 1,296M slightly above net income 1,258M; leverage not up.", "concerns": "Gross margin did not improve. SIC places it in retail, so its Consumer Discretionary percentile may be flattered. Cash conversion is barely above earnings."},
+    {"symbol": "MTCH", "rank": 9, "why": "F-score 8/9; gp 0.57 at pct 0.90; cfo 1,080M vs net income 613M (about 1.8x); no dilution.", "concerns": "Current ratio fell. Earnings expected about 11-03."},
+    {"symbol": "EXLS", "rank": 10, "why": "F-score 8/9; gp 0.47 at pct 0.91; cfo 351M vs net income 251M; leverage not up and margin improved.", "concerns": "Lower absolute gp than the names above it. Vol 0.427 is near the cutoff. Earnings expected about 10-27, may fall just outside the window."}
+  ],
+  "red_flags": [
+    {"symbol": "GRMN", "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement). Also cfo 1,633M is below net income 1,664M, which fails the cash-backing test.", "severity": "medium"},
+    {"symbol": "ONC", "flag": "Amended filing flag (possible restatement), plus dilution and rising leverage both failed in the F-score; net income 287M is thin against revenue 5.3B.", "severity": "medium"},
+    {"symbol": "DORM", "flag": "cfo 114M is only about 56% of net income 204M (the F-score cash test failed), which points to heavy accruals or working-capital build; earnings expected about 10-26.", "severity": "medium"},
+    {"symbol": "WDFC", "flag": "cfo 87.9M is below net income 91.0M. The latest annual filing is FY ended 2025-08-31 (about 14 months old) with earnings due about 10-21. Dollar volume of about 23M is barely above the 20M floor.", "severity": "medium"},
+    {"symbol": "MLI", "flag": "cfo 755M is below net income 765M, and asset turnover did not improve. Q3 EPS missed on 10-20 despite a revenue beat, which suggests margin pressure.", "severity": "medium"},
+    {"symbol": "DPZ", "flag": "Sector label looks wrong: SIC is wholesale groceries for a pizza franchisor, so the 1.0 percentile is against a mismatched peer group.", "severity": "low"},
+    {"symbol": "MCO", "flag": "Listed as Industrials but it is a credit-ratings business, a category the screen otherwise excludes as financial. Leverage rose; earnings expected about 10-21.", "severity": "medium"},
+    {"symbol": "MSCI", "flag": "Same sector-label issue as MCO (index and analytics provider placed in Industrials). Leverage rose.", "severity": "low"},
+    {"symbol": "HWM", "flag": "Aerospace components maker labeled Materials via a nonferrous-metals SIC code; gp 0.25 is low in absolute terms and the percentile may be flattered by the label.", "severity": "low"},
+    {"symbol": "CART", "flag": "Marketplace business labeled Industrials (business services SIC); gross margin and current ratio did not improve.", "severity": "low"},
+    {"symbol": "AAPL", "flag": "cfo 111.5B is slightly below net income 112.0B (cash test failed). Latest annual filing is FY ended 2025-09-27 (about 13 months old); the next 10-K is due soon.", "severity": "low"},
+    {"symbol": "TTEK", "flag": "Latest annual filing is FY ended 2025-09-28 (about 13 months old); return on assets did not improve and current ratio fell.", "severity": "low"},
+    {"symbol": "CLX", "flag": "Latest annual filing is FY ended 2025-06-30 (about 16 months old); leverage rose and current ratio fell.", "severity": "medium"},
+    {"symbol": "CVS", "flag": "Net income 1.77B on revenue 402B (about 0.4% margin) is thin; return on assets did not improve and shares were diluted.", "severity": "low"},
+    {"symbol": "SMG", "flag": "Dilution test failed. An officer or director change 8-K (item 5.02) was filed 10-16 and details are not in my inputs.", "severity": "low"}
+  ],
+  "holdings_notes": [
+    {"symbol": "VOO", "note": "S&P 500 ETF, so it has no 10-K and cannot pass a company-level screen. Its absence from the menu is structural, not a deterioration signal, and I have no basis to recommend a review on fundamentals."}
+  ]
+}
