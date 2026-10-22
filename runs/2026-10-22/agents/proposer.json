@@ -1,0 +1,45 @@
+{
+  "summary": "Cash is 47% of equity, so I am deploying about $115 today across four names and leaving the rest for the next few days, since futures are lower this morning on Middle East escalation. Adds lean toward the market-analyst's favored sectors (staples, financials) plus the broad US ETF default and the top-ranked CARG, and avoid every name with earnings inside five trading days (VRSN, SAM, INCY, DORM, EXLS etc.).",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "KR",
+      "side": "buy",
+      "notional_usd": 35.0,
+      "fraction": null,
+      "thesis": "Consumer Staples is a favored sector in market-analyst (XLP 21d +5.3%) and KR has a negative beta (-0.69), which diversifies a book that is heavy in positive-beta names against the risk-off open. news-analyst rates event risk low (next earnings estimated 12-03, the 10-20 8-K was an investor-day update, not results) and notes supportive sell-side follow-through (UBS PT $66, Deutsche Buy $70, Guggenheim Buy $68) after the 7%-11% EPS CAGR target and reaffirmed FY26 guide. fundamentals-analyst lists KR on the menu with F-score 7 and cfo $7.3B vs net income $1.0B, though it is not in the top 10 ranks, so I size it modestly. Per L2 I checked the earnings date from the news note's own KR entry rather than assuming.",
+      "invalidation": "Close more than 8% below the actual fill price, or the unattributed 10-17 grocery-chain cyber incident is confirmed to be Kroger, or the $5B price investment is followed by a guidance cut at the 12-03 print.",
+      "sources": ["market-analyst", "news-analyst", "fundamentals-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "MSCI",
+      "side": "buy",
+      "notional_usd": 30.0,
+      "fraction": null,
+      "thesis": "Financials is a favored sector in market-analyst. fundamentals-analyst ranks MSCI #10 (F-score 8, cfo $1.59B vs net income $1.20B, net income about 38% of revenue, low vol 0.30, beta 0.34). news-analyst confirms the Q3 beat is behind it (reported 10-20, 10-Q filed; the 10-27 estimate is stale, risk low) with post-print PT raises from JPMorgan, Morgan Stanley and RBC. Unlike the 10-20 attempt, the earnings event has passed, which was the issue that sank it then. Concern: leverage_not_up failed and the stock has already reacted, so size is modest.",
+      "invalidation": "Close more than 8% below the actual fill price (anchored to the fill, not the pre-print 563.49 close, per L1), or a guidance cut or negative 8-K follow-up appears before the next report.",
+      "sources": ["fundamentals-analyst", "news-analyst", "market-analyst"]
+    },
+    {
+      "id": "P3",
+      "symbol": "VTI",
+      "side": "buy",
+      "notional_usd": 30.0,
+      "fraction": null,
+      "thesis": "Broad-market default for idle cash while the owner wants roughly 80-90% invested within a week. market-analyst prefers VOO/VTI over QQQ and international: SPY is 6.9% above its 200-day, 20-day vol is only 8.9%, and breadth is improving (RSP 21d +1.8%). VTI adds small-cap and mid-cap breadth beyond the VOO position, with room under its $65 cap. news-analyst flags index-level risk this morning (lower futures, $111 Brent), so I buy a partial tranche now and keep the rest of the cash for later days.",
+      "invalidation": "SPY closes below its 200-day SMA (723.23), which turns the regime filter off, or VIXY jumps sharply with SPY 20-day realized vol well above 12.7%.",
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P4",
+      "symbol": "CARG",
+      "side": "buy",
+      "notional_usd": 20.0,
+      "fraction": null,
+      "thesis": "fundamentals-analyst ranks CARG #2: gross profitability 1.27 (highest on the menu), F-score 8, cfo $295M nearly 2x net income $156M, no dilution. news-analyst puts its earnings at 11-05, 10 trading days out and outside the 5-day window (earnings date verified in the note per L2), with no adverse headlines. Position is only 2.5% of equity so adding a small amount keeps it well within limits. Caution: vol 0.39 is near the 0.44 cutoff and the current-ratio test failed, so the add is small and I do not chase more.",
+      "invalidation": "Close more than 10% below the actual fill price (measured from the fill, per L1), or an 8-K 2.02/earnings date appears inside the next five trading days with a negative surprise.",
+      "sources": ["fundamentals-analyst", "news-analyst"]
+    }
+  ]
+}
