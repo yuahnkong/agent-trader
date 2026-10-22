@@ -16,5 +16,14 @@
   "agent_return": -0.00185,
   "shadow_return": -0.00533,
   "spy_return": 0.00862
+ },
+ {
+  "date": "2026-10-22",
+  "agent_equity": 604.52,
+  "shadow_value": 606.68,
+  "spy_value": 598.03,
+  "agent_return": 0.00753,
+  "shadow_return": 0.01114,
+  "spy_return": -0.00329
  }
 ]
