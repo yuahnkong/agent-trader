@@ -1,0 +1,55 @@
+{
+  "summary": "Cash is about 32% of equity, so deploy roughly $135 across five slots (to about 90% invested, ~10% cash buffer): one top-ranked screened stock, one mid-ranked stock outside the earnings window, two bond ETFs (none held yet, the one rallying sleeve) and a broad-index add. No sells; every lot is days old and nothing breaches its thesis. Tech/QQQ, gold, international ETFs, ETH and names with earnings inside five trading days are avoided. Lesson L2 shaped the earnings checks (each name's own date or filing was verified in the news note); L1 is noted in the invalidations, which are anchored to the expected fill rather than the stale menu close.",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "VRSN",
+      "side": "buy",
+      "notional_usd": 35.0,
+      "fraction": null,
+      "thesis": "Fundamentals-analyst ranks VRSN #1: the only 9/9 F-score on the menu, gp_sector_pct 0.993, CFO $1.09B vs net income $826M. News-analyst says the earnings flag is resolved (Q3 reported 10-22: small EPS miss, small revenue beat, FY26 sales guide raised, Citi PT raised to $345), so the event risk that blocked it earlier is gone. Beta 0.03 gives near-zero market sensitivity during a tech sell-off, which fits the market-analyst's defensive tilt. Sized at $35 because the post-print price reaction is unknown.",
+      "invalidation": "Exit/review if it trades more than 10% below the actual fill price (not the 10-20 menu close of $306.48, per L1), or if a follow-on 8-K/guidance cut shows the 10-22 print's revenue guide was misread.",
+      "sources": ["fundamentals-analyst", "news-analyst", "market-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "BND",
+      "side": "buy",
+      "notional_usd": 30.0,
+      "fraction": null,
+      "thesis": "Market-analyst: bonds are the one sleeve rallying (BND +1.13% over 21 days, 4% annual vol) and it recommends a modest BND or IEF allocation. The account holds no bonds, so this adds diversification against the tech/AI sell-off. News-analyst notes the 10-year fell below 5% on 10-22; a hot PPI and next week's Fed meeting make duration two-way, so I use the low-duration fund and a small size.",
+      "invalidation": "Wrong if the 10-year moves back above 5.15% after the Fed meeting, or BND closes more than 2% below the fill price.",
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P3",
+      "symbol": "VOO",
+      "side": "buy",
+      "notional_usd": 25.0,
+      "fraction": null,
+      "thesis": "Market-analyst: regime is on (SPY 5.6% above its 200-day) and breadth is healthy (RSP +3.27% over 21 days), so a broad core is preferred over QQQ. VOO is the default home for cash with no better use and we are 8% under the invested target. Held VOO is down about 1.1% on a 3-day-old lot, so this adds modestly at a slightly lower price. Cap is $31.17, so $25 stays inside it.",
+      "invalidation": "Wrong if SPY closes below its 200-day (about 723.62), which turns the regime off and would make further index buys disallowed.",
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P4",
+      "symbol": "MTCH",
+      "side": "buy",
+      "notional_usd": 25.0,
+      "fraction": null,
+      "thesis": "Fundamentals-analyst rank #6: F-score 8/9, CFO $1.08B vs net income $613M (about 1.8x), vol 0.32 (inside the screen cutoff). News-analyst: earnings are 11-03, 7 trading days out and outside the five-day window, with an Evercore upgrade to Outperform ($53 PT) on 10-20 and no adverse filings. Adds a technology/communication-services stock that has not been held. Kept small at $25 because tech is the weak sector and the earnings print is close.",
+      "invalidation": "Review if a downgrade or PT-cut streak like TPR's appears before 11-03, or if the stock closes more than 10% below the fill price.",
+      "sources": ["fundamentals-analyst", "news-analyst", "market-analyst"]
+    },
+    {
+      "id": "P5",
+      "symbol": "IEF",
+      "side": "buy",
+      "notional_usd": 20.0,
+      "fraction": null,
+      "thesis": "Market-analyst names IEF alongside BND as the sensible bond sleeve (+1.47% over 21 days, 5% annual vol, below its 200-day by 1.49% so not extended). Intermediate duration balances BND without the long-duration risk of TLT. News-analyst: yields eased on 10-22 as tech sold off, with the Fed meeting next week as the swing factor, so the size is small.",
+      "invalidation": "Wrong if a hawkish Fed decision pushes the 10-year back above 5.15% and IEF closes more than 2% below the fill price.",
+      "sources": ["market-analyst", "news-analyst"]
+    }
+  ]
+}
