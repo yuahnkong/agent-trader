@@ -1,6 +1,6 @@
 ---
 name: refresh-dashboard
-description: Upload fresh data to agent-trader's Agent Trader Desk dashboard (account, positions, trades, debate, menu, lessons, scorecard). Used at the end of /preopen and /postclose, and on its own by the hourly refresh task.
+description: Upload fresh data to agent-trader's Agent Trader Desk dashboard (account, positions, trades, debate, menu, lessons, scorecard). Run it from an interactive session; scheduled runs skip it because artifact uploads need the owner's approval.
 ---
 
 # Refresh the dashboard

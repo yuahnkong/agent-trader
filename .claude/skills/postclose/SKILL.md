@@ -39,8 +39,9 @@ shell commands, place orders, or read any input the role file doesn't list."
 4. **Report.** `python -m agent_trader.pipeline close-report` writes `reports/D-close.md`.
 
 
-**Refresh the dashboard** (after the report, before committing): invoke the
-`refresh-dashboard` skill (or read `.claude/skills/refresh-dashboard/SKILL.md` and follow it).
+**Dashboard:** don't refresh it here. Artifact uploads always wait for a person's approval,
+which hangs an unattended run. The owner refreshes it from an interactive session with the
+`refresh-dashboard` skill. `pipeline dashboard-data` output is not committed.
 
 5. **Commit and push.** `git add runs/D* state reports logs && git commit -m "Post-close run D"`,
    then `git push -u origin HEAD` (retry network failures up to 4 times with backoff).

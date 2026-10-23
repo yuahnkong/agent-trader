@@ -45,8 +45,9 @@ shell commands, place orders, or read any input the role file doesn't list."
    double up), and writes `reports/D-open.md`. Don't retry rejected trades.
 
 
-**Refresh the dashboard** (after the report, before committing): invoke the
-`refresh-dashboard` skill (or read `.claude/skills/refresh-dashboard/SKILL.md` and follow it).
+**Dashboard:** don't refresh it here. Artifact uploads always wait for a person's approval,
+which hangs an unattended run. The owner refreshes it from an interactive session with the
+`refresh-dashboard` skill. `pipeline dashboard-data` output is not committed.
 
 7. **Commit and push.** `git add runs/D* state reports logs && git commit -m "Pre-open run D"`,
    then push the current branch (`git push -u origin HEAD`, retrying network failures up to
