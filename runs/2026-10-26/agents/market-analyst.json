@@ -1,0 +1,35 @@
+{
+  "stance": "neutral",
+  "confidence": 0.6,
+  "summary": "The trend is intact (SPY 4.97% above its 200-day) but leadership is narrowing to defensives and energy while growth and communication sell off, so keep normal appetite for broad equity and size down on tech-heavy and small-cap risk. Bonds are bouncing and gold and crypto are weak; this is a rotation market, not a clean risk-on tape.",
+  "reasons": [
+    "Regime is on: SPY closed 759.97 vs a 723.99 200-day average (+4.97%), but 21-day return is -0.94% and 5-day is -0.43%, so the index is drifting rather than trending up.",
+    "Growth is the weak spot: QQQ 21-day -4.95%, XLK -5.9%, XLC -7.44% (5-day -4.36%). QQQ is only +4.19% above its 200-day, a thinner cushion than SPY.",
+    "Breadth is better than the cap-weighted index: RSP (equal weight) 21-day +2.99% and 5-day +1.14% vs SPY -0.94%, and IWM bounced +1.96% over 5 days, though IWM is still below its 200-day (-0.51%) and -5.61% over 63 days.",
+    "Defensive and energy leadership: XLE +10.75% (21d), XLU +8.13%, XLP +8.03%, XLV +5.54%. Defensives leading while tech lags is a cautious rotation, not risk appetite.",
+    "Cyclicals are lagging: XLI 21-day -2.49%, 5-day -1.87%, 63-day -9.9%, and -4.52% below its 200-day, which does not support a strong growth-up call.",
+    "Volatility is not alarming but is edging up: VIXY +1.07% (5d) and +6.04% (21d), while SPY 20-day realized vol is 9.77% vs 12.73% over 252 days, so realized vol is calm.",
+    "Credit is stable to soft: HYG 21-day -0.64% and 1.08% below its 200-day, but 5-day +0.25%; LQD 21-day +1.11%. No credit stress signal, no confirmation of strong risk appetite either.",
+    "Rates: long bonds are rallying (TLT 5-day +1.61%, 21-day +2.83%; IEF 21-day +1.87%) so long yields eased recently, but TLT is still -2.36% below its 200-day and -1.72% over 63 days, so the longer trend is still yields-up.",
+    "Dollar is firm (UUP 21-day +0.94%, +3.87% above its 200-day), a modest headwind for international and commodity assets; VXUS 21-day -3.58%, VWO -5.06%.",
+    "Gold is breaking down: GLD 5-day -4.03%, 21-day -6.4%, 11.49% below its 200-day, so it is not currently acting as a safe haven.",
+    "Crypto is under pressure: BTC 21-day -7.46% with 44% annualized vol, ETH 21-day -14.65%, 63-day -5.51%, vol 61%. BTC is still 9.75% above its 200-day; ETH 7.86%."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Consumer Staples", "Energy", "Financials"],
+    "avoid": ["Communication", "Technology", "Industrials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Broad US (VOO 21d -0.94%, +4.99% vs 200-day; VTI +4.54%) is acceptable. QQQ (21d -4.95%) is the weakest large sleeve and the riskiest right now. Equal-weight and mid-cycle breadth look better than cap-weighted growth. International is weak and below trend (VXUS -0.49% vs 200-day, 21d -3.58%; VWO -2.31% vs 200-day, 21d -5.06%), so avoid. VNQ 21d +1.67% but 63d -7.01%, a rate-sensitive bounce only.",
+    "bonds_gold": "Bonds are attractive tactically: BND 21d +1.42%, IEF +1.87%, TLT +2.83% with low vol (BND 3.98% annualized), but all remain below their 200-day averages, so the bounce is not yet a trend change; IEF/BND are preferred over TLT (TLT vol 9.58%). Gold is the opposite: 21d -6.4% and 11.49% below its 200-day with 28.7% vol, so avoid for now.",
+    "crypto": "Risky and weak: BTC 21d -7.46%, ETH 21d -14.65%, both with very high volatility (44% and 61%). ETH is the clear laggard. If held at all, size small and favor BTC over ETH; no evidence of a recovery yet."
+  },
+  "watch": [
+    "SPY losing its 200-day (723.99, now 4.97% above) would move the stance to risk-off and trigger the code regime filter.",
+    "Further QQQ/XLK/XLC weakness spreading to equal weight (RSP turning negative) would signal the correction is broadening.",
+    "VIXY rising sharply from the +6.04% 21-day pace, or HYG falling further below its 200-day (currently -1.08%), would signal stress.",
+    "TLT reversing back down (long yields up) while equities are weak would remove the bond hedge.",
+    "RSP and IWM breadth holding and QQQ recovering above its 21-day losses would argue for upgrading to risk-on.",
+    "A gold rebound toward its 200-day would suggest returning demand for safety; a continuing slide with a strong dollar would be a tightening-conditions signal."
+  ]
+}
