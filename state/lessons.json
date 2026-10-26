@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-26",
  "lessons": [
   {
    "id": "L1",
@@ -8,11 +8,13 @@
    "evidence": [
     "2026-10-20 DPZ: stop of $274.88 was set 10% under the $305.42 reference close, but the buy filled at $316.58 (about 3.7% higher), so the stop sat about 13% below entry instead of the intended 10%.",
     "2026-10-20 MSCI rejected partly because its stop was anchored to the pre-earnings close (same flaw; not yet graded, pending).",
-    "2026-10-23 VRSN: filled at $292.23, 4.7% below the $306.48 menu close after the 10-22 print (a gap down). The PM anchored the stop to the fill per this lesson; a menu-close stop would have sat about 14% below the fill. Applied correctly, not a graded call (pending)."
+    "2026-10-23 VRSN: filled at $292.23, 4.7% below the $306.48 menu close after the 10-22 print (a gap down). The PM anchored the stop to the fill per this lesson; a menu-close stop would have sat about 14% below the fill. Applied correctly, not a graded call (pending).",
+    "2026-10-26 VRSN: the PM anchored the stop (278) to the expected fill near $303, which filled at $303.08, so the stop sits about 8.3% under the fill as intended. Applied correctly, not graded.",
+    "2026-10-26 DPZ: the held position's invalidation ($274.88) is still anchored to the pre-fill reference close and sits about 13% below the $316.58 fill; the PM review flags it as unfixed. Re-anchor existing theses to the actual fill when reviewing held positions."
    ],
    "confidence": "low",
    "added": "2026-10-20",
-   "last_confirmed": "2026-10-23",
+   "last_confirmed": "2026-10-26",
    "status": "active",
    "retired_why": null
   },
@@ -24,11 +26,12 @@
     "2026-10-21 FAST: proposer cited no earnings event 'in the news-analyst note', which never mentions FAST (Skeptic objection); the PM cut the size from $40 to $30 partly because the date was unverified. The News Analyst's close review then resolved it from filings already public (8-K 2.02 on 10-14, 10-Q on 10-19; next estimate 2027-01-19).",
     "2026-10-21 RRC rejected partly because 'already reported' rested on an unread 8-K 2.02 from 10-14 (same gap; not yet graded, pending).",
     "2026-10-21 CARG: earnings date left unverified at decision time; the close review puts the estimate at 11-05, outside the window (PM trimmed $25 to $15 partly for this).",
-    "2026-10-23 VRSN and SAM: the News Analyst resolved stale 'earnings today' estimates from 8-K 2.02 / 10-Q filings (both reported 10-22), and the PM sized VRSN with the date verified. Still open: RRC (10-14 8-K 2.02 aged out of the 7-day window, date unverified since 10-20) and SMG (8-K 5.02 from 10-16, unread since 10-20)."
+    "2026-10-23 VRSN and SAM: the News Analyst resolved stale 'earnings today' estimates from 8-K 2.02 / 10-Q filings (both reported 10-22), and the PM sized VRSN with the date verified. Still open: RRC (10-14 8-K 2.02 aged out of the 7-day window, date unverified since 10-20) and SMG (8-K 5.02 from 10-16, unread since 10-20).",
+    "2026-10-26 RRC: the open date question was overtaken by the EQT all-stock acquisition (8-K 1.01 filed 10-26); the 10-14 8-K 2.02 is still unread. RRC was rejected on 10-21 partly on the unverified date and is +17% to +25% vs SPY since (pending, not graded). SMG 8-K 5.02 has now aged out of the window, still unread. VRSN, MSCI and the held names had their dates checked against filings."
    ],
    "confidence": "low",
    "added": "2026-10-21",
-   "last_confirmed": "2026-10-23",
+   "last_confirmed": "2026-10-26",
    "status": "active",
    "retired_why": null
   }
@@ -39,7 +42,8 @@
    "suggestion": "Give the News Analyst a way to read the body of 8-K items older than 7 days (or keep each flagged filing's items and headline in the news input until the next earnings date is confirmed). Agents cannot follow the 'read the filing' advice with the current inputs.",
    "evidence": [
     "SMG 8-K 5.02 filed 2026-10-16: flagged medium on 10-20, 10-21, 10-22 and 10-23 with 'input has no detail; read the filing before adding'.",
-    "RRC 8-K 2.02 filed 2026-10-14: earnings date unverified from 10-20 to 10-23; the filing aged out of the 7-day window on 10-22. RRC was proposed on 10-21 and rejected partly on this gap."
+    "RRC 8-K 2.02 filed 2026-10-14: earnings date unverified from 10-20 to 10-23; the filing aged out of the 7-day window on 10-22. RRC was proposed on 10-21 and rejected partly on this gap.",
+    "2026-10-26: SMG's 10-16 8-K 5.02 has aged out of the window with its detail never shown (flagged on 10-20, 10-21, 10-22, 10-23, 10-26). RRC's 10-14 8-K 2.02 is still unread."
    ]
   }
  ]
