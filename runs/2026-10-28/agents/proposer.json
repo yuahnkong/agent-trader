@@ -1,0 +1,25 @@
+{
+  "summary": "Account is about 86.6% invested with 13.4% cash ($80.42), so only a small top-up is needed to reach the roughly 10% cash buffer; with the Fed decision and mega-cap earnings today and a neutral market stance, I propose two small buys (a bond ETF and one Health Care stock) and leave the rest in cash.",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "BND",
+      "side": "buy",
+      "notional_usd": 10.0,
+      "fraction": null,
+      "thesis": "Market-analyst calls bonds the more attractive diversifier right now: BND 21-day +1.83% at only 3.97% vol, with a growth-scare bid under Treasuries. BND has the shortest duration of the bond options, so it limits Fed-day rate risk (news-analyst rates BND low event risk vs medium for TLT and IEF). Adds ballast to a book that is mostly equities plus 2.4% crypto. Fundamentals-analyst notes ETFs have no screen data, so this rests on the market and news notes. Held BND is 5.0% of equity; this lifts it to about 6.7%, well under the 15% cap.",
+      "invalidation": "BND closes more than 2% below the fill price (a sustained long-yield spike after the Fed) or the market-analyst stance turns risk-on with TLT and IEF both falling below their 200-day averages by more than 3%.",
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "INCY",
+      "side": "buy",
+      "notional_usd": 12.0,
+      "fraction": null,
+      "thesis": "Fundamentals-analyst rank 7: F-score 8/9, gp_sector_pct 0.905, cfo $1,413M vs net income $1,287M, current ratio improved, no dilution, leverage not up. Health Care is a sector the market-analyst favors (XLV 21-day +4.62%, 13.9% above its 200-day) and beta is low at 0.378. News-analyst finds Oppenheimer and H.C. Wainwright reiterating Buy on 10-27 and a small positive collaboration, with no adverse filings. Per L2, I checked the earnings date: the 10-27 estimate has no 8-K 2.02 or results headline, so whether it has already reported is unverified; this is why the size is only $12. Per L3, the label is Health Care and IDXX (diagnostics, also Health Care) is already held, but INCY is a drug developer with different economic exposure; I am treating the sector exposure as partly overlapping and sizing small, with combined Health Care near 8.7% of equity after this buy. Per L1, the invalidation is anchored to the expected fill near the $113.31 menu close, not a stale reference.",
+      "invalidation": "INCY closes below about $103 (roughly 9% under the expected fill near $113), or an 8-K 2.02 or results headline shows a guidance cut or revenue miss when the earnings date is resolved.",
+      "sources": ["fundamentals-analyst", "market-analyst", "news-analyst"]
+    }
+  ]
+}
