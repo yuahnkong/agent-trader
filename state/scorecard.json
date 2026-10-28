@@ -1,36 +1,36 @@
 {
- "as_of": "2026-10-27",
+ "as_of": "2026-10-28",
  "horizon_sessions": 5,
  "summary": {
   "portfolio-manager": {
-   "right": 4,
-   "wrong": 3,
-   "pending": 19,
-   "hit_rate": 0.571
+   "right": 6,
+   "wrong": 5,
+   "pending": 17,
+   "hit_rate": 0.545
   },
   "proposer": {
-   "right": 4,
-   "wrong": 3,
-   "pending": 19,
-   "hit_rate": 0.571
+   "right": 7,
+   "wrong": 4,
+   "pending": 17,
+   "hit_rate": 0.636
   },
   "skeptic": {
-   "right": 1,
-   "wrong": 2,
-   "pending": 17,
-   "hit_rate": 0.333
+   "right": 2,
+   "wrong": 5,
+   "pending": 14,
+   "hit_rate": 0.286
   },
   "market-analyst": {
-   "right": 2,
+   "right": 3,
    "wrong": 0,
    "pending": 5,
    "hit_rate": 1.0
   },
   "news-analyst": {
-   "right": 4,
-   "wrong": 12,
-   "pending": 69,
-   "hit_rate": 0.25
+   "right": 10,
+   "wrong": 15,
+   "pending": 77,
+   "hit_rate": 0.4
   }
  },
  "calls": [
@@ -40,9 +40,9 @@
    "date": "2026-10-20",
    "symbol": "DPZ",
    "claim": "High-quality, cash-backed franchisor (F-score 8/9, cfo $792M vs net income $602M, gross profitability 1.15) with a 252d beta of 0.095 (-$0.62 on this position i",
-   "sessions": 5,
-   "return": -0.0135,
-   "vs_spy": -0.0143,
+   "sessions": 6,
+   "return": -0.0217,
+   "vs_spy": -0.0259,
    "status": "wrong"
   },
   {
@@ -51,9 +51,9 @@
    "date": "2026-10-20",
    "symbol": "IDXX",
    "claim": "Quality Health Care name in a favored sector (F-score 8/9, gp_sector_pct 0.941, cfo $1,182M vs net income $1,059M, no added leverage or dilution). Sized down to",
-   "sessions": 5,
-   "return": 0.006,
-   "vs_spy": 0.0052,
+   "sessions": 6,
+   "return": 0.0089,
+   "vs_spy": 0.0047,
    "status": "right"
   },
   {
@@ -62,9 +62,9 @@
    "date": "2026-10-20",
    "symbol": "MSCI",
    "claim": "The Skeptic's serious case holds. A pre-open buy fills into the unpriced opening reaction to this morning's thin beat (+1.8% EPS, +0.7% sales), guidance is unve",
-   "sessions": 5,
-   "return": 0.017,
-   "vs_spy": 0.0162,
+   "sessions": 6,
+   "return": 0.0224,
+   "vs_spy": 0.0182,
    "status": "wrong"
   },
   {
@@ -73,9 +73,9 @@
    "date": "2026-10-20",
    "symbol": "DPZ",
    "claim": "Fundamentals-analyst rank 2: gp_sector_pct 1.0 (gross profitability 1.15), F-score 8/9, cfo $792M well above net income $602M. Beta 0.095 (about -$0.95 per $100",
-   "sessions": 5,
-   "return": -0.0135,
-   "vs_spy": -0.0143,
+   "sessions": 6,
+   "return": -0.0217,
+   "vs_spy": -0.0259,
    "status": "wrong"
   },
   {
@@ -84,9 +84,9 @@
    "date": "2026-10-20",
    "symbol": "IDXX",
    "claim": "Fundamentals-analyst rank 5: F-score 8/9, gp_sector_pct 0.941, net income $1,059M backed by cfo $1,182M, leverage not up, no dilution. Health Care is one of the",
-   "sessions": 5,
-   "return": 0.006,
-   "vs_spy": 0.0052,
+   "sessions": 6,
+   "return": 0.0089,
+   "vs_spy": 0.0047,
    "status": "right"
   },
   {
@@ -95,9 +95,9 @@
    "date": "2026-10-20",
    "symbol": "MSCI",
    "claim": "News-analyst: MSCI reported Q3 this morning with a clean beat (adj. EPS $5.11 vs $5.02, sales $892M beat), so the earnings risk is behind it. Fundamentals-analy",
-   "sessions": 5,
-   "return": 0.017,
-   "vs_spy": 0.0162,
+   "sessions": 6,
+   "return": 0.0224,
+   "vs_spy": 0.0182,
    "status": "right"
   },
   {
@@ -106,9 +106,9 @@
    "date": "2026-10-20",
    "symbol": "MSCI",
    "claim": "Four problems. (1) Market-analyst puts Industrials, MSCI's label, on its avoid list. The proposer gets around this by citing the fundamentals-analyst's remark t",
-   "sessions": 5,
-   "return": 0.017,
-   "vs_spy": 0.0162,
+   "sessions": 6,
+   "return": 0.0224,
+   "vs_spy": 0.0182,
    "status": "wrong"
   },
   {
@@ -117,9 +117,9 @@
    "date": "2026-10-20",
    "symbol": "IDXX",
    "claim": "The proposer's summary calls all three 'low-beta', but IDXX's 252d beta is 0.814 (-$8.14 per $100 in a 10% market drop, from portfolio.json). That is about 8.6x",
-   "sessions": 5,
-   "return": 0.006,
-   "vs_spy": 0.0052,
+   "sessions": 6,
+   "return": 0.0089,
+   "vs_spy": 0.0047,
    "status": "wrong"
   },
   {
@@ -227,9 +227,9 @@
    "date": "2026-10-20",
    "symbol": "VOO",
    "claim": "Broad, diversified US core for idle cash while the long-term regime is on (SPY 6.1% above its 200-day, 63-day +2.69%), and the Market Analyst rates broad US equ",
-   "sessions": 5,
-   "return": 0.001,
-   "vs_spy": 0.0002,
+   "sessions": 6,
+   "return": 0.0044,
+   "vs_spy": 0.0001,
    "status": "right"
   },
   {
@@ -238,9 +238,9 @@
    "date": "2026-10-20",
    "symbol": "WMT",
    "claim": "Low-volatility defensive exposure (vol 0.263, beta about zero; not a hedge) in a favored sector (XLP +6.02% 21d), with positive sell-side sentiment and no earni",
-   "sessions": 5,
-   "return": 0.0125,
-   "vs_spy": 0.0117,
+   "sessions": 6,
+   "return": 0.0078,
+   "vs_spy": 0.0036,
    "status": "right"
   },
   {
@@ -249,9 +249,9 @@
    "date": "2026-10-20",
    "symbol": "CARG",
    "claim": "The Skeptic's serious case holds and the fixes it asked for aren't available. CARG carries a Technology label and is a rate-sensitive consumer-cyclical business",
-   "sessions": 5,
-   "return": -0.0221,
-   "vs_spy": -0.0229,
+   "sessions": 6,
+   "return": -0.0107,
+   "vs_spy": -0.015,
    "status": "right"
   },
   {
@@ -260,9 +260,9 @@
    "date": "2026-10-20",
    "symbol": "VOO",
    "claim": "Default home for idle cash. The market analyst calls the long-term regime intact (SPY 6.1% above its 200-day, 63-day +2.69%) and judges broad US equity acceptab",
-   "sessions": 5,
-   "return": 0.001,
-   "vs_spy": 0.0002,
+   "sessions": 6,
+   "return": 0.0044,
+   "vs_spy": 0.0001,
    "status": "right"
   },
   {
@@ -271,9 +271,9 @@
    "date": "2026-10-20",
    "symbol": "WMT",
    "claim": "Consumer Staples is a favored sector (XLP +3.32% 5d / +6.02% 21d). The news analyst reports positive sentiment (Deutsche Bank upgrade, Evercore PT $130, BofA Bu",
-   "sessions": 5,
-   "return": 0.0125,
-   "vs_spy": 0.0117,
+   "sessions": 6,
+   "return": 0.0078,
+   "vs_spy": 0.0036,
    "status": "right"
   },
   {
@@ -282,9 +282,9 @@
    "date": "2026-10-20",
    "symbol": "CARG",
    "claim": "Ranked #3 by the fundamentals analyst: gp_sector_pct 1.0 (gross profitability 1.27), F-score 8, and CFO of $295M is nearly double net income of $156M. The news ",
-   "sessions": 5,
-   "return": -0.0221,
-   "vs_spy": -0.0229,
+   "sessions": 6,
+   "return": -0.0107,
+   "vs_spy": -0.015,
    "status": "wrong"
   },
   {
@@ -293,9 +293,9 @@
    "date": "2026-10-20",
    "symbol": "CARG",
    "claim": "The market analyst lists Technology under 'avoid', and CARG carries that label. The proposer's way around this, that an auto marketplace 'has little to do with ",
-   "sessions": 5,
-   "return": -0.0221,
-   "vs_spy": -0.0229,
+   "sessions": 6,
+   "return": -0.0107,
+   "vs_spy": -0.015,
    "status": "right"
   },
   {
@@ -403,10 +403,10 @@
    "date": "2026-10-21",
    "symbol": "VTI",
    "claim": "Default home for idle cash with the regime filter on (SPY 6.4% above its 200-day) and breadth better than the cap-weighted index. Resized from $50: the Skeptic ",
-   "sessions": 4,
-   "return": -0.0032,
-   "vs_spy": 0.0012,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0001,
+   "vs_spy": 0.0011,
+   "status": "right"
   },
   {
    "agent": "portfolio-manager",
@@ -414,10 +414,10 @@
    "date": "2026-10-21",
    "symbol": "FAST",
    "claim": "Lowest volatility on the menu (0.243), F-score 8/9, gross profitability at the 89th sector percentile, and operating cash flow above net income. It adds a first",
-   "sessions": 4,
-   "return": -0.0179,
-   "vs_spy": -0.0135,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.0149,
+   "vs_spy": -0.0139,
+   "status": "wrong"
   },
   {
    "agent": "portfolio-manager",
@@ -425,10 +425,10 @@
    "date": "2026-10-21",
    "symbol": "CARG",
    "claim": "Highest gross profitability on the menu (1.27, percentile 1.0), F-score 8/9, operating cash flow about 1.9x net income, no dilution. Resized from $25 to a start",
-   "sessions": 4,
-   "return": -0.0074,
-   "vs_spy": -0.0029,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0042,
+   "vs_spy": 0.0052,
+   "status": "right"
   },
   {
    "agent": "portfolio-manager",
@@ -436,9 +436,9 @@
    "date": "2026-10-21",
    "symbol": "BTC/USD",
    "claim": "A small crypto slot: trend still positive (63-day +28%, 14% above its 200-day), ETF inflows recovering, and no exchange failures or new adverse regulatory actio",
-   "sessions": 6,
-   "return": -0.0398,
-   "vs_spy": -0.0354,
+   "sessions": 7,
+   "return": -0.0333,
+   "vs_spy": -0.0323,
    "status": "wrong"
   },
   {
@@ -447,10 +447,10 @@
    "date": "2026-10-21",
    "symbol": "RRC",
    "claim": "The Skeptic's case is the strongest in the set and I agree. RRC was not ranked by the Fundamentals Analyst and has an F-score of 7 with leverage up and margin n",
-   "sessions": 4,
-   "return": 0.313,
-   "vs_spy": 0.3174,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.3014,
+   "vs_spy": 0.3024,
+   "status": "wrong"
   },
   {
    "agent": "proposer",
@@ -458,10 +458,10 @@
    "date": "2026-10-21",
    "symbol": "VTI",
    "claim": "Default home for idle cash. The market-analyst note keeps the regime on (SPY 6.4% above its 200-day) with a neutral stance, and says broad US is fine to hold, w",
-   "sessions": 4,
-   "return": -0.0032,
-   "vs_spy": 0.0012,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0001,
+   "vs_spy": 0.0011,
+   "status": "right"
   },
   {
    "agent": "proposer",
@@ -469,10 +469,10 @@
    "date": "2026-10-21",
    "symbol": "FAST",
    "claim": "Fundamentals-analyst rank 8: lowest volatility on the menu (0.243), F-score 8/9, gross profitability 0.73 at the 89th sector percentile, operating cash flow (1,",
-   "sessions": 4,
-   "return": -0.0179,
-   "vs_spy": -0.0135,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.0149,
+   "vs_spy": -0.0139,
+   "status": "wrong"
   },
   {
    "agent": "proposer",
@@ -480,10 +480,10 @@
    "date": "2026-10-21",
    "symbol": "CARG",
    "claim": "Fundamentals-analyst rank 2: highest gross profitability on the menu (1.27, sector percentile 1.0), F-score 8/9, cash flow from operations about 1.9x net income",
-   "sessions": 4,
-   "return": -0.0074,
-   "vs_spy": -0.0029,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0042,
+   "vs_spy": 0.0052,
+   "status": "right"
   },
   {
    "agent": "proposer",
@@ -491,10 +491,10 @@
    "date": "2026-10-21",
    "symbol": "RRC",
    "claim": "Energy is the market-analyst note's favored sector (21-day +8.8%, 18.8% above its 200-day), and RRC is the screen's top gross-profitability name in Energy (perc",
-   "sessions": 4,
-   "return": 0.313,
-   "vs_spy": 0.3174,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.3014,
+   "vs_spy": 0.3024,
+   "status": "right"
   },
   {
    "agent": "proposer",
@@ -502,9 +502,9 @@
    "date": "2026-10-21",
    "symbol": "BTC/USD",
    "claim": "A small crypto slot, per the diversification strategy. The market-analyst note says the trend is positive (63-day +28%, 14% above its 200-day) and, if crypto is",
-   "sessions": 6,
-   "return": -0.0398,
-   "vs_spy": -0.0354,
+   "sessions": 7,
+   "return": -0.0333,
+   "vs_spy": -0.0323,
    "status": "wrong"
   },
   {
@@ -513,10 +513,10 @@
    "date": "2026-10-21",
    "symbol": "VTI",
    "claim": "VTI is about 99% correlated with the VOO position bought yesterday (beta 1.01 vs 0.995, weight 10.0%). This is the same thesis already held, not diversification",
-   "sessions": 4,
-   "return": -0.0032,
-   "vs_spy": 0.0012,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0001,
+   "vs_spy": 0.0011,
+   "status": "wrong"
   },
   {
    "agent": "skeptic",
@@ -524,10 +524,10 @@
    "date": "2026-10-21",
    "symbol": "FAST",
    "claim": "The thesis says FAST has 'no earnings event inside the window in the news-analyst note', but that note never mentions FAST at all, so absence is not evidence; n",
-   "sessions": 4,
-   "return": -0.0179,
-   "vs_spy": -0.0135,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.0149,
+   "vs_spy": -0.0139,
+   "status": "right"
   },
   {
    "agent": "skeptic",
@@ -535,10 +535,10 @@
    "date": "2026-10-21",
    "symbol": "CARG",
    "claim": "CARG is classed Technology by the fundamentals input, and the market note says to avoid chasing Technology (XLK -5.52% 5d) and growth; the proposer acknowledges",
-   "sessions": 4,
-   "return": -0.0074,
-   "vs_spy": -0.0029,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0042,
+   "vs_spy": 0.0052,
+   "status": "wrong"
   },
   {
    "agent": "skeptic",
@@ -546,10 +546,10 @@
    "date": "2026-10-21",
    "symbol": "RRC",
    "claim": "Weakest thesis in the set. (1) RRC is not ranked by the fundamentals analyst at all; the proposer picked it by hand from the screen, F-score 7 with leverage_not",
-   "sessions": 4,
-   "return": 0.313,
-   "vs_spy": 0.3174,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.3014,
+   "vs_spy": 0.3024,
+   "status": "wrong"
   },
   {
    "agent": "market-analyst",
@@ -557,10 +557,10 @@
    "date": "2026-10-21",
    "symbol": "SPY",
    "claim": "neutral",
-   "sessions": 4,
-   "return": -0.0044,
+   "sessions": 5,
+   "return": -0.001,
    "vs_spy": null,
-   "status": "pending"
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -568,10 +568,10 @@
    "date": "2026-10-21",
    "symbol": "WDFC",
    "claim": "Estimated earnings today (approximate). No results headline in the 72h window yet, so the print is likely after the close. Flagged as high on 10-20 as well.",
-   "sessions": 4,
-   "return": 0.1353,
-   "vs_spy": 0.1397,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.1118,
+   "vs_spy": 0.1128,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -579,10 +579,10 @@
    "date": "2026-10-21",
    "symbol": "VRSN",
    "claim": "Estimated earnings tomorrow (approximate). Wedbush raised its PT to $351 on 10-19 ahead of the print, with no other new headline since.",
-   "sessions": 4,
-   "return": -0.0104,
-   "vs_spy": -0.006,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.0008,
+   "vs_spy": 0.0002,
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -590,10 +590,10 @@
    "date": "2026-10-21",
    "symbol": "DORM",
    "claim": "Estimated earnings Mon 10-26, 3 trading days out (approximate).",
-   "sessions": 4,
-   "return": 0.0076,
-   "vs_spy": 0.0121,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0516,
+   "vs_spy": 0.0526,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -601,10 +601,10 @@
    "date": "2026-10-21",
    "symbol": "EXLS",
    "claim": "Estimated earnings 10-27, 4 trading days out (approximate).",
-   "sessions": 4,
-   "return": -0.0022,
-   "vs_spy": 0.0022,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.0073,
+   "vs_spy": -0.0063,
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -612,10 +612,10 @@
    "date": "2026-10-21",
    "symbol": "INCY",
    "claim": "Estimated earnings 10-27, 4 trading days out (approximate). TD Cowen nudged its PT to $140 from $138 and an insider sold about $298k (10-19); neither changes th",
-   "sessions": 4,
-   "return": 0.0279,
-   "vs_spy": 0.0323,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0302,
+   "vs_spy": 0.0312,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -623,10 +623,10 @@
    "date": "2026-10-21",
    "symbol": "LOGI",
    "claim": "Estimated earnings 10-27, 4 trading days out (approximate). The 10-13 8-K item 5.03 flagged earlier has left the 7-day filing window; no new filings.",
-   "sessions": 4,
-   "return": 0.0134,
-   "vs_spy": 0.0178,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.1094,
+   "vs_spy": -0.1084,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -634,10 +634,10 @@
    "date": "2026-10-21",
    "symbol": "CALX",
    "claim": "Estimated earnings 10-28, 5 trading days out, so right at the edge of the window. With an approximate date it could land inside. Only product-launch press relea",
-   "sessions": 4,
-   "return": 0.0464,
-   "vs_spy": 0.0509,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0429,
+   "vs_spy": 0.0439,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -645,10 +645,10 @@
    "date": "2026-10-21",
    "symbol": "CVS",
    "claim": "Estimated earnings 10-28, 5 trading days out (approximate). Background noise: a Pennsylvania PBM insulin-pricing lawsuit names CVS Caremark, and a CIO-level exe",
-   "sessions": 4,
-   "return": -0.0179,
-   "vs_spy": -0.0135,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.0306,
+   "vs_spy": -0.0296,
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -656,10 +656,10 @@
    "date": "2026-10-21",
    "symbol": "GRMN",
    "claim": "Estimated earnings 10-28, 5 trading days out (approximate). Only product launches (Edge Explore 3, Edge 1060, Tacx Neo).",
-   "sessions": 4,
-   "return": -0.0061,
-   "vs_spy": -0.0017,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.064,
+   "vs_spy": -0.0629,
+   "status": "right"
   },
   {
    "agent": "portfolio-manager",
@@ -667,9 +667,9 @@
    "date": "2026-10-22",
    "symbol": "KR",
    "claim": "Staples is a Market Analyst favored sector, KR has low event risk (next earnings 12-03, the 10-20 8-K was an investor-day update) and the sell side is supportiv",
-   "sessions": 3,
-   "return": -0.0295,
-   "vs_spy": -0.0369,
+   "sessions": 4,
+   "return": -0.042,
+   "vs_spy": -0.0529,
    "status": "pending"
   },
   {
@@ -678,9 +678,9 @@
    "date": "2026-10-22",
    "symbol": "MSCI",
    "claim": "Clean Q3 beat with the earnings event passed (the issue that sank it on 10-20), F-score 8, cfo $1.59B vs net income $1.20B, beta 0.34, and it adds a sector the ",
-   "sessions": 3,
-   "return": -0.0298,
-   "vs_spy": -0.0373,
+   "sessions": 4,
+   "return": -0.0247,
+   "vs_spy": -0.0356,
    "status": "pending"
   },
   {
@@ -689,9 +689,9 @@
    "date": "2026-10-22",
    "symbol": "VTI",
    "claim": "Broad-market exposure to deploy idle cash while the trend is intact and breadth is improving. The Skeptic and Implicator note it largely duplicates VOO and rais",
-   "sessions": 3,
-   "return": 0.0081,
-   "vs_spy": 0.0006,
+   "sessions": 4,
+   "return": 0.0114,
+   "vs_spy": 0.0005,
    "status": "pending"
   },
   {
@@ -700,9 +700,9 @@
    "date": "2026-10-22",
    "symbol": "CARG",
    "claim": "Rank 2 on fundamentals (gross profitability 1.27, cfo about 2x net income), earnings 11-05 are outside the 5-day window, and no adverse headlines. The Skeptic's",
-   "sessions": 3,
-   "return": -0.0541,
-   "vs_spy": -0.0615,
+   "sessions": 4,
+   "return": -0.0431,
+   "vs_spy": -0.054,
    "status": "pending"
   },
   {
@@ -711,9 +711,9 @@
    "date": "2026-10-22",
    "symbol": "KR",
    "claim": "Consumer Staples is a favored sector in market-analyst (XLP 21d +5.3%) and KR has a negative beta (-0.69), which diversifies a book that is heavy in positive-be",
-   "sessions": 3,
-   "return": -0.0295,
-   "vs_spy": -0.0369,
+   "sessions": 4,
+   "return": -0.042,
+   "vs_spy": -0.0529,
    "status": "pending"
   },
   {
@@ -722,9 +722,9 @@
    "date": "2026-10-22",
    "symbol": "MSCI",
    "claim": "Financials is a favored sector in market-analyst. fundamentals-analyst ranks MSCI #10 (F-score 8, cfo $1.59B vs net income $1.20B, net income about 38% of reven",
-   "sessions": 3,
-   "return": -0.0298,
-   "vs_spy": -0.0373,
+   "sessions": 4,
+   "return": -0.0247,
+   "vs_spy": -0.0356,
    "status": "pending"
   },
   {
@@ -733,9 +733,9 @@
    "date": "2026-10-22",
    "symbol": "VTI",
    "claim": "Broad-market default for idle cash while the owner wants roughly 80-90% invested within a week. market-analyst prefers VOO/VTI over QQQ and international: SPY i",
-   "sessions": 3,
-   "return": 0.0081,
-   "vs_spy": 0.0006,
+   "sessions": 4,
+   "return": 0.0114,
+   "vs_spy": 0.0005,
    "status": "pending"
   },
   {
@@ -744,9 +744,9 @@
    "date": "2026-10-22",
    "symbol": "CARG",
    "claim": "fundamentals-analyst ranks CARG #2: gross profitability 1.27 (highest on the menu), F-score 8, cfo $295M nearly 2x net income $156M, no dilution. news-analyst p",
-   "sessions": 3,
-   "return": -0.0541,
-   "vs_spy": -0.0615,
+   "sessions": 4,
+   "return": -0.0431,
+   "vs_spy": -0.054,
    "status": "pending"
   },
   {
@@ -755,9 +755,9 @@
    "date": "2026-10-22",
    "symbol": "KR",
    "claim": "The diversification argument rests on KR's 252d beta of -0.687, which is a statistical accident for a grocer (the same file has WMT at -0.09, EXLS -0.03, GPOR -",
-   "sessions": 3,
-   "return": -0.0295,
-   "vs_spy": -0.0369,
+   "sessions": 4,
+   "return": -0.042,
+   "vs_spy": -0.0529,
    "status": "pending"
   },
   {
@@ -766,9 +766,9 @@
    "date": "2026-10-22",
    "symbol": "MSCI",
    "claim": "The thesis says 'Financials is a favored sector', but fundamentals.json labels MSCI as Industrials / 'Services-Business Services, NEC', and market-analyst puts ",
-   "sessions": 3,
-   "return": -0.0298,
-   "vs_spy": -0.0373,
+   "sessions": 4,
+   "return": -0.0247,
+   "vs_spy": -0.0356,
    "status": "pending"
   },
   {
@@ -777,8 +777,8 @@
    "date": "2026-10-22",
    "symbol": "SPY",
    "claim": "neutral",
-   "sessions": 3,
-   "return": 0.0075,
+   "sessions": 4,
+   "return": 0.0109,
    "vs_spy": null,
    "status": "pending"
   },
@@ -788,9 +788,9 @@
    "date": "2026-10-22",
    "symbol": "VRSN",
    "claim": "Estimated earnings today (approximate; a Benzinga 'on deck Thursday' roundup tags VRSN, which supports a print today). Wedbush raised its PT to $351 on 10-19 ah",
-   "sessions": 3,
-   "return": -0.0018,
-   "vs_spy": -0.0093,
+   "sessions": 4,
+   "return": 0.0079,
+   "vs_spy": -0.003,
    "status": "pending"
   },
   {
@@ -799,9 +799,9 @@
    "date": "2026-10-22",
    "symbol": "SAM",
    "claim": "Estimate is today, and the 7-day filings list shows no 8-K 2.02 yet. An RBC note on 'Boston Beer's Q3 results' (10-20) earlier suggested it might have reported ",
-   "sessions": 3,
-   "return": 0.0234,
-   "vs_spy": 0.0159,
+   "sessions": 4,
+   "return": 0.0127,
+   "vs_spy": 0.0018,
    "status": "pending"
   },
   {
@@ -810,9 +810,9 @@
    "date": "2026-10-22",
    "symbol": "DORM",
    "claim": "Estimated earnings Mon 10-26, 2 trading days out (approximate). No headlines or filings.",
-   "sessions": 3,
-   "return": -0.0249,
-   "vs_spy": -0.0324,
+   "sessions": 4,
+   "return": 0.0176,
+   "vs_spy": 0.0067,
    "status": "pending"
   },
   {
@@ -821,9 +821,9 @@
    "date": "2026-10-22",
    "symbol": "EXLS",
    "claim": "Estimated earnings 10-27, 3 trading days out (approximate). No headlines or filings.",
-   "sessions": 3,
-   "return": -0.0461,
-   "vs_spy": -0.0536,
+   "sessions": 4,
+   "return": -0.051,
+   "vs_spy": -0.062,
    "status": "pending"
   },
   {
@@ -832,9 +832,9 @@
    "date": "2026-10-22",
    "symbol": "INCY",
    "claim": "Estimated earnings 10-27, 3 trading days out (approximate). Sell-side nudging around the print: Leerink $155 to $154, TD Cowen $140 (10-21), Piper Buy $130. Not",
-   "sessions": 3,
-   "return": -0.0028,
-   "vs_spy": -0.0103,
+   "sessions": 4,
+   "return": -0.0005,
+   "vs_spy": -0.0114,
    "status": "pending"
   },
   {
@@ -843,9 +843,9 @@
    "date": "2026-10-22",
    "symbol": "LOGI",
    "claim": "Estimated earnings 10-27, 3 trading days out (approximate). No headlines or filings in the window.",
-   "sessions": 3,
-   "return": -0.0062,
-   "vs_spy": -0.0137,
+   "sessions": 4,
+   "return": -0.1266,
+   "vs_spy": -0.1376,
    "status": "pending"
   },
   {
@@ -854,9 +854,9 @@
    "date": "2026-10-22",
    "symbol": "CALX",
    "claim": "Estimated earnings 10-28, 4 trading days out (approximate). Only product-launch press releases.",
-   "sessions": 3,
-   "return": 0.0377,
-   "vs_spy": 0.0302,
+   "sessions": 4,
+   "return": 0.0341,
+   "vs_spy": 0.0232,
    "status": "pending"
   },
   {
@@ -865,9 +865,9 @@
    "date": "2026-10-22",
    "symbol": "CVS",
    "claim": "Estimated earnings 10-28, 4 trading days out (approximate). Background: Aetna scaling back Medicare Advantage footprints (sector-wide), the PA insulin lawsuit n",
-   "sessions": 3,
-   "return": -0.0355,
-   "vs_spy": -0.0429,
+   "sessions": 4,
+   "return": -0.0479,
+   "vs_spy": -0.0589,
    "status": "pending"
   },
   {
@@ -876,9 +876,9 @@
    "date": "2026-10-22",
    "symbol": "GRMN",
    "claim": "Estimated earnings 10-28, 4 trading days out (approximate). Only product launches.",
-   "sessions": 3,
-   "return": -0.0205,
-   "vs_spy": -0.028,
+   "sessions": 4,
+   "return": -0.0775,
+   "vs_spy": -0.0884,
    "status": "pending"
   },
   {
@@ -887,9 +887,9 @@
    "date": "2026-10-22",
    "symbol": "RRC",
    "claim": "Estimated earnings 10-28, 4 trading days out (approximate). An 8-K 2.02 on 10-14 flagged in earlier runs has aged out of the 7-day window, so this input cannot ",
-   "sessions": 3,
-   "return": 0.2855,
-   "vs_spy": 0.278,
+   "sessions": 4,
+   "return": 0.2741,
+   "vs_spy": 0.2631,
    "status": "pending"
   },
   {
@@ -898,9 +898,9 @@
    "date": "2026-10-22",
    "symbol": "AAPL",
    "claim": "Estimate 10-29 is 5 trading days out (right at the edge). A 10-20 Benzinga headline says earnings are Nov 2 (7 trading days), so the date is uncertain. Other ca",
-   "sessions": 3,
-   "return": -0.0032,
-   "vs_spy": -0.0107,
+   "sessions": 4,
+   "return": -0.0126,
+   "vs_spy": -0.0235,
    "status": "pending"
   },
   {
@@ -909,9 +909,9 @@
    "date": "2026-10-22",
    "symbol": "BDC",
    "claim": "Estimated earnings 10-29, 5 trading days out (approximate, so could fall inside or just outside the window). No headlines or filings.",
-   "sessions": 3,
-   "return": 0.0389,
-   "vs_spy": 0.0314,
+   "sessions": 4,
+   "return": 0.0309,
+   "vs_spy": 0.02,
    "status": "pending"
   },
   {
@@ -920,9 +920,9 @@
    "date": "2026-10-22",
    "symbol": "BJRI",
    "claim": "Estimated earnings 10-29, 5 trading days out (approximate). No headlines or filings.",
-   "sessions": 3,
-   "return": -0.0226,
-   "vs_spy": -0.0301,
+   "sessions": 4,
+   "return": 0.0293,
+   "vs_spy": 0.0183,
    "status": "pending"
   },
   {
@@ -931,9 +931,9 @@
    "date": "2026-10-22",
    "symbol": "HWM",
    "claim": "Estimated earnings 10-29, 5 trading days out (approximate). No HWM-specific headlines (it only appears in a market roundup).",
-   "sessions": 3,
-   "return": -0.0067,
-   "vs_spy": -0.0142,
+   "sessions": 4,
+   "return": 0.0098,
+   "vs_spy": -0.0011,
    "status": "pending"
   },
   {
@@ -942,9 +942,9 @@
    "date": "2026-10-22",
    "symbol": "LNG",
    "claim": "Estimated earnings 10-29, 5 trading days out (approximate). Also exposed to Middle East and oil-price swings. Today's Qatar deal is a positive offset (see notab",
-   "sessions": 3,
-   "return": 0.0444,
-   "vs_spy": 0.0369,
+   "sessions": 4,
+   "return": 0.0375,
+   "vs_spy": 0.0266,
    "status": "pending"
   },
   {
@@ -953,9 +953,9 @@
    "date": "2026-10-23",
    "symbol": "VRSN",
    "claim": "Fundamentals rank #1 (only 9/9 F-score, CFO $1.09B vs net income $826M). The Q3 print on 10-22 is out (small EPS miss, small revenue beat, FY26 sales guide rais",
-   "sessions": 2,
-   "return": 0.0124,
-   "vs_spy": -0.0004,
+   "sessions": 3,
+   "return": 0.0223,
+   "vs_spy": 0.006,
    "status": "pending"
   },
   {
@@ -964,9 +964,9 @@
    "date": "2026-10-23",
    "symbol": "BND",
    "claim": "The account holds no bonds and bonds are the one sleeve rallying (+1.13% over 21 days, 4% vol). BND diversifies against the equity-heavy book and the tech sell-",
-   "sessions": 2,
-   "return": 0.0015,
-   "vs_spy": -0.0112,
+   "sessions": 3,
+   "return": -0.0001,
+   "vs_spy": -0.0164,
    "status": "pending"
   },
   {
@@ -975,9 +975,9 @@
    "date": "2026-10-23",
    "symbol": "VOO",
    "claim": "The regime is on and breadth is healthy (RSP +3.27% over 21 days), so the Market Analyst prefers broad US exposure over QQQ. Cut from $25 to $15 because the Ske",
-   "sessions": 2,
-   "return": 0.0128,
-   "vs_spy": 0.0,
+   "sessions": 3,
+   "return": 0.0162,
+   "vs_spy": -0.0,
    "status": "pending"
   },
   {
@@ -986,9 +986,9 @@
    "date": "2026-10-23",
    "symbol": "MTCH",
    "claim": "MTCH is labelled Technology, the sector the Market Analyst puts on its avoid list. It is ranked 6th with the lowest in-sector percentile of the top group. It re",
-   "sessions": 2,
-   "return": -0.0446,
-   "vs_spy": -0.0574,
+   "sessions": 3,
+   "return": -0.0803,
+   "vs_spy": -0.0965,
    "status": "pending"
   },
   {
@@ -997,9 +997,9 @@
    "date": "2026-10-23",
    "symbol": "IEF",
    "claim": "IEF is a near-duplicate of BND (betas 0.123 vs 0.121). The Skeptic and Implicator both note that BND plus IEF is one $50 rate bet going into next week's Fed mee",
-   "sessions": 2,
-   "return": 0.0005,
-   "vs_spy": -0.0122,
+   "sessions": 3,
+   "return": -0.0022,
+   "vs_spy": -0.0184,
    "status": "pending"
   },
   {
@@ -1008,9 +1008,9 @@
    "date": "2026-10-23",
    "symbol": "VRSN",
    "claim": "Fundamentals-analyst ranks VRSN #1: the only 9/9 F-score on the menu, gp_sector_pct 0.993, CFO $1.09B vs net income $826M. News-analyst says the earnings flag i",
-   "sessions": 2,
-   "return": 0.0124,
-   "vs_spy": -0.0004,
+   "sessions": 3,
+   "return": 0.0223,
+   "vs_spy": 0.006,
    "status": "pending"
   },
   {
@@ -1019,9 +1019,9 @@
    "date": "2026-10-23",
    "symbol": "BND",
    "claim": "Market-analyst: bonds are the one sleeve rallying (BND +1.13% over 21 days, 4% annual vol) and it recommends a modest BND or IEF allocation. The account holds n",
-   "sessions": 2,
-   "return": 0.0015,
-   "vs_spy": -0.0112,
+   "sessions": 3,
+   "return": -0.0001,
+   "vs_spy": -0.0164,
    "status": "pending"
   },
   {
@@ -1030,9 +1030,9 @@
    "date": "2026-10-23",
    "symbol": "VOO",
    "claim": "Market-analyst: regime is on (SPY 5.6% above its 200-day) and breadth is healthy (RSP +3.27% over 21 days), so a broad core is preferred over QQQ. VOO is the de",
-   "sessions": 2,
-   "return": 0.0128,
-   "vs_spy": 0.0,
+   "sessions": 3,
+   "return": 0.0162,
+   "vs_spy": -0.0,
    "status": "pending"
   },
   {
@@ -1041,9 +1041,9 @@
    "date": "2026-10-23",
    "symbol": "MTCH",
    "claim": "Fundamentals-analyst rank #6: F-score 8/9, CFO $1.08B vs net income $613M (about 1.8x), vol 0.32 (inside the screen cutoff). News-analyst: earnings are 11-03, 7",
-   "sessions": 2,
-   "return": -0.0446,
-   "vs_spy": -0.0574,
+   "sessions": 3,
+   "return": -0.0803,
+   "vs_spy": -0.0965,
    "status": "pending"
   },
   {
@@ -1052,9 +1052,9 @@
    "date": "2026-10-23",
    "symbol": "IEF",
    "claim": "Market-analyst names IEF alongside BND as the sensible bond sleeve (+1.47% over 21 days, 5% annual vol, below its 200-day by 1.49% so not extended). Intermediat",
-   "sessions": 2,
-   "return": 0.0005,
-   "vs_spy": -0.0122,
+   "sessions": 3,
+   "return": -0.0022,
+   "vs_spy": -0.0184,
    "status": "pending"
   },
   {
@@ -1063,9 +1063,9 @@
    "date": "2026-10-23",
    "symbol": "VRSN",
    "claim": "The thesis is a pre-print quality ranking. The fundamentals note says the menu predates the 10-22 print (as of 10-20) and nothing in the inputs shows how the st",
-   "sessions": 2,
-   "return": 0.0124,
-   "vs_spy": -0.0004,
+   "sessions": 3,
+   "return": 0.0223,
+   "vs_spy": 0.006,
    "status": "pending"
   },
   {
@@ -1074,9 +1074,9 @@
    "date": "2026-10-23",
    "symbol": "BND",
    "claim": "The thesis says BND is 'the low-duration fund'. It is not: BND's beta (0.121) and 252d vol (3.97%) are essentially the same as IEF's (0.123 beta, 4.96% vol); it",
-   "sessions": 2,
-   "return": 0.0015,
-   "vs_spy": -0.0112,
+   "sessions": 3,
+   "return": -0.0001,
+   "vs_spy": -0.0164,
    "status": "pending"
   },
   {
@@ -1085,9 +1085,9 @@
    "date": "2026-10-23",
    "symbol": "VOO",
    "claim": "The account already holds VOO (9.8% of equity) and VTI (8.2%), which are close to the same index, and the fundamentals note says the review question for them is",
-   "sessions": 2,
-   "return": 0.0128,
-   "vs_spy": 0.0,
+   "sessions": 3,
+   "return": 0.0162,
+   "vs_spy": -0.0,
    "status": "pending"
   },
   {
@@ -1096,9 +1096,9 @@
    "date": "2026-10-23",
    "symbol": "MTCH",
    "claim": "Contradicts the proposer's own summary. The summary says tech and communication are avoided, the market analyst puts Technology and Communication on its 'avoid'",
-   "sessions": 2,
-   "return": -0.0446,
-   "vs_spy": -0.0574,
+   "sessions": 3,
+   "return": -0.0803,
+   "vs_spy": -0.0965,
    "status": "pending"
   },
   {
@@ -1107,9 +1107,9 @@
    "date": "2026-10-23",
    "symbol": "IEF",
    "claim": "Duplicates P2. IEF and BND have the same beta (0.123 vs 0.121) and BND already holds a large Treasury sleeve, so P5 is not a separate idea, it just raises the b",
-   "sessions": 2,
-   "return": 0.0005,
-   "vs_spy": -0.0122,
+   "sessions": 3,
+   "return": -0.0022,
+   "vs_spy": -0.0184,
    "status": "pending"
   },
   {
@@ -1118,8 +1118,8 @@
    "date": "2026-10-23",
    "symbol": "SPY",
    "claim": "neutral",
-   "sessions": 2,
-   "return": 0.0128,
+   "sessions": 3,
+   "return": 0.0162,
    "vs_spy": null,
    "status": "pending"
   },
@@ -1129,9 +1129,9 @@
    "date": "2026-10-23",
    "symbol": "DORM",
    "claim": "Estimated earnings Mon 10-26, the next trading day (approximate). No headlines or filings.",
-   "sessions": 2,
-   "return": -0.0074,
-   "vs_spy": -0.0202,
+   "sessions": 3,
+   "return": 0.0359,
+   "vs_spy": 0.0197,
    "status": "pending"
   },
   {
@@ -1140,9 +1140,9 @@
    "date": "2026-10-23",
    "symbol": "EXLS",
    "claim": "Estimated earnings 10-27, 2 trading days out (approximate). No headlines or filings.",
-   "sessions": 2,
-   "return": -0.0324,
-   "vs_spy": -0.0451,
+   "sessions": 3,
+   "return": -0.0374,
+   "vs_spy": -0.0536,
    "status": "pending"
   },
   {
@@ -1151,9 +1151,9 @@
    "date": "2026-10-23",
    "symbol": "INCY",
    "claim": "Estimated earnings 10-27, 2 trading days out (approximate). Only a Lighthouse Award press item and PT nudges (Leerink $154, TD Cowen $140, Piper Buy $130) in th",
-   "sessions": 2,
-   "return": 0.0077,
-   "vs_spy": -0.0051,
+   "sessions": 3,
+   "return": 0.01,
+   "vs_spy": -0.0062,
    "status": "pending"
   },
   {
@@ -1162,9 +1162,9 @@
    "date": "2026-10-23",
    "symbol": "LOGI",
    "claim": "Estimated earnings 10-27, 2 trading days out (approximate). No headlines or filings.",
-   "sessions": 2,
-   "return": 0.0197,
-   "vs_spy": 0.0069,
+   "sessions": 3,
+   "return": -0.1039,
+   "vs_spy": -0.1201,
    "status": "pending"
   },
   {
@@ -1173,9 +1173,9 @@
    "date": "2026-10-23",
    "symbol": "CALX",
    "claim": "Estimated earnings 10-28, 3 trading days out (approximate). Only product-launch press releases (GigaPro switches, SmartMDU).",
-   "sessions": 2,
-   "return": 0.0502,
-   "vs_spy": 0.0374,
+   "sessions": 3,
+   "return": 0.0466,
+   "vs_spy": 0.0304,
    "status": "pending"
   },
   {
@@ -1184,9 +1184,9 @@
    "date": "2026-10-23",
    "symbol": "CVS",
    "claim": "Estimated earnings 10-28, 3 trading days out (approximate). Background is minor: Aetna scaling back Medicare Advantage footprints (sector-wide), PA insulin suit",
-   "sessions": 2,
-   "return": -0.025,
-   "vs_spy": -0.0378,
+   "sessions": 3,
+   "return": -0.0377,
+   "vs_spy": -0.0539,
    "status": "pending"
   },
   {
@@ -1195,9 +1195,9 @@
    "date": "2026-10-23",
    "symbol": "GRMN",
    "claim": "Estimated earnings 10-28, 3 trading days out (approximate). Only product launches.",
-   "sessions": 2,
-   "return": -0.015,
-   "vs_spy": -0.0277,
+   "sessions": 3,
+   "return": -0.0723,
+   "vs_spy": -0.0885,
    "status": "pending"
   },
   {
@@ -1206,9 +1206,9 @@
    "date": "2026-10-23",
    "symbol": "RRC",
    "claim": "Estimated earnings 10-28, 3 trading days out. The 10-14 8-K 2.02 flagged in earlier runs is outside the 7-day window and there are no RRC filings or headlines n",
-   "sessions": 2,
-   "return": 0.2386,
-   "vs_spy": 0.2258,
+   "sessions": 3,
+   "return": 0.2276,
+   "vs_spy": 0.2114,
    "status": "pending"
   },
   {
@@ -1217,9 +1217,9 @@
    "date": "2026-10-23",
    "symbol": "BDC",
    "claim": "Estimated earnings 10-29, 4 trading days out (approximate). No headlines or filings.",
-   "sessions": 2,
-   "return": 0.032,
-   "vs_spy": 0.0192,
+   "sessions": 3,
+   "return": 0.0241,
+   "vs_spy": 0.0079,
    "status": "pending"
   },
   {
@@ -1228,9 +1228,9 @@
    "date": "2026-10-23",
    "symbol": "BJRI",
    "claim": "Estimated earnings 10-29, 4 trading days out (approximate). No headlines or filings.",
-   "sessions": 2,
-   "return": 0.0168,
-   "vs_spy": 0.0041,
+   "sessions": 3,
+   "return": 0.0708,
+   "vs_spy": 0.0545,
    "status": "pending"
   },
   {
@@ -1239,9 +1239,9 @@
    "date": "2026-10-23",
    "symbol": "HWM",
    "claim": "Estimated earnings 10-29, 4 trading days out (approximate). No HWM-specific news.",
-   "sessions": 2,
-   "return": 0.0327,
-   "vs_spy": 0.02,
+   "sessions": 3,
+   "return": 0.0499,
+   "vs_spy": 0.0337,
    "status": "pending"
   },
   {
@@ -1250,9 +1250,9 @@
    "date": "2026-10-23",
    "symbol": "LNG",
    "claim": "Estimated earnings 10-29, 4 trading days out (approximate). Also exposed to Middle East and oil swings. Positive offsets: the QatarEnergy SPAs (4 MTPA through 2",
-   "sessions": 2,
-   "return": 0.0036,
-   "vs_spy": -0.0092,
+   "sessions": 3,
+   "return": -0.003,
+   "vs_spy": -0.0193,
    "status": "pending"
   },
   {
@@ -1261,9 +1261,9 @@
    "date": "2026-10-23",
    "symbol": "QQQ",
    "claim": "Escalation of the fragile AI/data-center thread from 10-20/21/22: Meta fell about 6% on higher AI capex, SOXL hit a six-month low (down 20%), Nvidia's AI warnin",
-   "sessions": 2,
-   "return": 0.0239,
-   "vs_spy": 0.0112,
+   "sessions": 3,
+   "return": 0.0301,
+   "vs_spy": 0.0139,
    "status": "pending"
   },
   {
@@ -1272,9 +1272,9 @@
    "date": "2026-10-26",
    "symbol": "IEF",
    "claim": "Tactical Treasury add: IEF 21d +1.87% at low volatility, preferred over TLT by the Market Analyst, and it diversifies a book that is mostly equities with only B",
-   "sessions": 1,
-   "return": -0.0002,
-   "vs_spy": -0.0058,
+   "sessions": 2,
+   "return": -0.003,
+   "vs_spy": -0.012,
    "status": "pending"
   },
   {
@@ -1283,8 +1283,8 @@
    "date": "2026-10-26",
    "symbol": "VOO",
    "claim": "Regime filter is on (SPY +4.97% over its 200-day) and broad US equity is the acceptable core sleeve while QQQ and international are the risky ones. Sized down f",
-   "sessions": 1,
-   "return": 0.0058,
+   "sessions": 2,
+   "return": 0.0092,
    "vs_spy": 0.0002,
    "status": "pending"
   },
@@ -1294,9 +1294,9 @@
    "date": "2026-10-26",
    "symbol": "VRSN",
    "claim": "Top-ranked quality name (9/9 F-score, cash flow well above net income). Q3 was reported on 10-22 and the next estimate is 2027-02-04, so there is no earnings ev",
-   "sessions": 1,
-   "return": -0.0152,
-   "vs_spy": -0.0208,
+   "sessions": 2,
+   "return": -0.0055,
+   "vs_spy": -0.0146,
    "status": "pending"
   },
   {
@@ -1305,9 +1305,9 @@
    "date": "2026-10-26",
    "symbol": "VTI",
    "claim": "The Skeptic and Implicator are right that VTI is largely the same stocks as VOO, so P2 plus P4 is one large-cap position split in two. The small- and mid-cap br",
-   "sessions": 1,
-   "return": 0.0062,
-   "vs_spy": 0.0006,
+   "sessions": 2,
+   "return": 0.0095,
+   "vs_spy": 0.0005,
    "status": "pending"
   },
   {
@@ -1316,9 +1316,9 @@
    "date": "2026-10-26",
    "symbol": "IEF",
    "claim": "Market-analyst prefers IEF/BND over TLT as a tactical bond add: IEF 21d +1.87% at 4.97% vol, and bonds diversify a book that is about 79% invested and tilted to",
-   "sessions": 1,
-   "return": -0.0002,
-   "vs_spy": -0.0058,
+   "sessions": 2,
+   "return": -0.003,
+   "vs_spy": -0.012,
    "status": "pending"
   },
   {
@@ -1327,8 +1327,8 @@
    "date": "2026-10-26",
    "symbol": "VOO",
    "claim": "Market-analyst: regime is on (SPY +4.97% over its 200-day) and broad US is acceptable, while QQQ and international are the risky sleeves. VOO is the default use",
-   "sessions": 1,
-   "return": 0.0058,
+   "sessions": 2,
+   "return": 0.0092,
    "vs_spy": 0.0002,
    "status": "pending"
   },
@@ -1338,9 +1338,9 @@
    "date": "2026-10-26",
    "symbol": "VRSN",
    "claim": "Fundamentals-analyst ranks VRSN first on the menu: 9/9 F-score, gross profitability 1.10, cash flow $1.09B against net income $826M. News-analyst confirms the e",
-   "sessions": 1,
-   "return": -0.0152,
-   "vs_spy": -0.0208,
+   "sessions": 2,
+   "return": -0.0055,
+   "vs_spy": -0.0146,
    "status": "pending"
   },
   {
@@ -1349,9 +1349,9 @@
    "date": "2026-10-26",
    "symbol": "VTI",
    "claim": "Market-analyst calls VTI acceptable (+4.54% over its 200-day, 21d -1.09%). It adds small- and mid-cap breadth beyond VOO, and breadth is the stronger part of th",
-   "sessions": 1,
-   "return": 0.0062,
-   "vs_spy": 0.0006,
+   "sessions": 2,
+   "return": 0.0095,
+   "vs_spy": 0.0005,
    "status": "pending"
   },
   {
@@ -1360,9 +1360,9 @@
    "date": "2026-10-26",
    "symbol": "IEF",
    "claim": "This buys a bond ETF that is still below its 200-day (-1.64%, market.json) and has a 63-day return of -1.36%, so it is a counter-trend bounce trade, and it is p",
-   "sessions": 1,
-   "return": -0.0002,
-   "vs_spy": -0.0058,
+   "sessions": 2,
+   "return": -0.003,
+   "vs_spy": -0.012,
    "status": "pending"
   },
   {
@@ -1371,8 +1371,8 @@
    "date": "2026-10-26",
    "symbol": "VOO",
    "claim": "The thesis is 'default use for cash with no better home', which is a statement that there is no idea, not a reason. The market analyst's stance is neutral at 0.",
-   "sessions": 1,
-   "return": 0.0058,
+   "sessions": 2,
+   "return": 0.0092,
    "vs_spy": 0.0002,
    "status": "pending"
   },
@@ -1382,9 +1382,9 @@
    "date": "2026-10-26",
    "symbol": "VRSN",
    "claim": "The case rests on a fundamentals rank that the analyst itself says predates the 10-22 print: 'that print is outside my fundamentals data', and the menu close (3",
-   "sessions": 1,
-   "return": -0.0152,
-   "vs_spy": -0.0208,
+   "sessions": 2,
+   "return": -0.0055,
+   "vs_spy": -0.0146,
    "status": "pending"
   },
   {
@@ -1393,9 +1393,9 @@
    "date": "2026-10-26",
    "symbol": "VTI",
    "claim": "This is the same trade as P2 and the existing book. VTI is about 80-85% the same stocks as VOO, so the pair is one large-cap blend position split in two. The st",
-   "sessions": 1,
-   "return": 0.0062,
-   "vs_spy": 0.0006,
+   "sessions": 2,
+   "return": 0.0095,
+   "vs_spy": 0.0005,
    "status": "pending"
   },
   {
@@ -1404,8 +1404,8 @@
    "date": "2026-10-26",
    "symbol": "SPY",
    "claim": "neutral",
-   "sessions": 1,
-   "return": 0.0056,
+   "sessions": 2,
+   "return": 0.0091,
    "vs_spy": null,
    "status": "pending"
   },
@@ -1415,9 +1415,9 @@
    "date": "2026-10-26",
    "symbol": "RRC",
    "claim": "EQT agreed to acquire Range in an all-stock deal (1 RRC = 0.987 EQT; pro forma EV over $50B), with an 8-K 1.01 filed today. A merger-arbitrage setup; the price ",
-   "sessions": 1,
-   "return": 0.0527,
-   "vs_spy": 0.047,
+   "sessions": 2,
+   "return": 0.0433,
+   "vs_spy": 0.0342,
    "status": "pending"
   },
   {
@@ -1426,9 +1426,9 @@
    "date": "2026-10-26",
    "symbol": "DORM",
    "claim": "Estimated earnings today, 10-26 (approximate; no results headline or 8-K 2.02 yet in the input). Wells Fargo cut its PT to $150 on 10-23 (Overweight kept), a mi",
-   "sessions": 1,
-   "return": -0.0034,
-   "vs_spy": -0.0091,
+   "sessions": 2,
+   "return": 0.0401,
+   "vs_spy": 0.031,
    "status": "pending"
   },
   {
@@ -1437,9 +1437,9 @@
    "date": "2026-10-26",
    "symbol": "EXLS",
    "claim": "Estimated earnings 10-27, 1 trading day out (approximate). No headlines or filings.",
-   "sessions": 1,
-   "return": -0.0201,
-   "vs_spy": -0.0257,
+   "sessions": 2,
+   "return": -0.0251,
+   "vs_spy": -0.0342,
    "status": "pending"
   },
   {
@@ -1448,9 +1448,9 @@
    "date": "2026-10-26",
    "symbol": "INCY",
    "claim": "Estimated earnings 10-27, 1 trading day out (approximate). Newsflow is a Genmab clinical collaboration (co-funding a Phase 1/2 colorectal cancer study), which i",
-   "sessions": 1,
-   "return": 0.029,
-   "vs_spy": 0.0234,
+   "sessions": 2,
+   "return": 0.0314,
+   "vs_spy": 0.0224,
    "status": "pending"
   },
   {
@@ -1459,9 +1459,9 @@
    "date": "2026-10-26",
    "symbol": "LOGI",
    "claim": "Estimated earnings 10-27, 1 trading day out (approximate). Only a supply-chain decarbonization program announcement.",
-   "sessions": 1,
-   "return": 0.0176,
-   "vs_spy": 0.012,
+   "sessions": 2,
+   "return": -0.1057,
+   "vs_spy": -0.1148,
    "status": "pending"
   },
   {
@@ -1470,9 +1470,9 @@
    "date": "2026-10-26",
    "symbol": "CALX",
    "claim": "Estimated earnings 10-28, 2 trading days out (approximate). No headlines or filings.",
-   "sessions": 1,
-   "return": 0.0165,
-   "vs_spy": 0.0108,
+   "sessions": 2,
+   "return": 0.013,
+   "vs_spy": 0.0039,
    "status": "pending"
   },
   {
@@ -1481,9 +1481,9 @@
    "date": "2026-10-26",
    "symbol": "CVS",
    "claim": "Estimated earnings 10-28, 2 trading days out (approximate). Only an Aetna provider-survey release and community items today, nothing material. Earlier backgroun",
-   "sessions": 1,
-   "return": -0.0151,
-   "vs_spy": -0.0207,
+   "sessions": 2,
+   "return": -0.0279,
+   "vs_spy": -0.037,
    "status": "pending"
   },
   {
@@ -1492,9 +1492,9 @@
    "date": "2026-10-26",
    "symbol": "GRMN",
    "claim": "Estimated earnings 10-28, 2 trading days out (approximate). No headlines or filings.",
-   "sessions": 1,
-   "return": -0.0122,
-   "vs_spy": -0.0178,
+   "sessions": 2,
+   "return": -0.0697,
+   "vs_spy": -0.0787,
    "status": "pending"
   },
   {
@@ -1503,9 +1503,9 @@
    "date": "2026-10-26",
    "symbol": "AAPL",
    "claim": "Date is uncertain: file estimate 10-29 (3 trading days) versus a Benzinga-cited Nov 2 (5 trading days, the edge of the window). Both fall inside or at the edge ",
-   "sessions": 1,
-   "return": 0.0093,
-   "vs_spy": 0.0037,
+   "sessions": 2,
+   "return": -0.0002,
+   "vs_spy": -0.0093,
    "status": "pending"
   },
   {
@@ -1514,9 +1514,9 @@
    "date": "2026-10-26",
    "symbol": "BDC",
    "claim": "Estimated earnings 10-29, 3 trading days out (approximate). Only a Radiflow partnership press release.",
-   "sessions": 1,
-   "return": 0.0436,
-   "vs_spy": 0.038,
+   "sessions": 2,
+   "return": 0.0356,
+   "vs_spy": 0.0266,
    "status": "pending"
   },
   {
@@ -1525,9 +1525,9 @@
    "date": "2026-10-26",
    "symbol": "BJRI",
    "claim": "Estimated earnings 10-29, 3 trading days out (approximate). Citigroup cut its PT to $70 from $75 (Neutral) on 10-23, a small negative into the print.",
-   "sessions": 1,
-   "return": -0.0078,
-   "vs_spy": -0.0134,
+   "sessions": 2,
+   "return": 0.0449,
+   "vs_spy": 0.0358,
    "status": "pending"
   },
   {
@@ -1536,9 +1536,9 @@
    "date": "2026-10-26",
    "symbol": "HWM",
    "claim": "Estimated earnings 10-29, 3 trading days out (approximate). No HWM-specific headline; it appears only in a market-wide earnings volatility roundup.",
-   "sessions": 1,
-   "return": -0.0122,
-   "vs_spy": -0.0178,
+   "sessions": 2,
+   "return": 0.0043,
+   "vs_spy": -0.0048,
    "status": "pending"
   },
   {
@@ -1547,9 +1547,9 @@
    "date": "2026-10-26",
    "symbol": "LNG",
    "claim": "Estimated earnings 10-29, 3 trading days out (approximate). Exposed to oil/Iran swings. The 10-22 QatarEnergy SPAs (4 MTPA through 2054) and JPMorgan raising it",
-   "sessions": 1,
-   "return": -0.0028,
-   "vs_spy": -0.0084,
+   "sessions": 2,
+   "return": -0.0094,
+   "vs_spy": -0.0184,
    "status": "pending"
   },
   {
@@ -1558,9 +1558,9 @@
    "date": "2026-10-26",
    "symbol": "BTC/USD",
    "claim": "Fell to about $80k; Cowen reads sub-$83k closes as a fakeout with a $72k to $76k target. Bitcoin and gold are the two worst-performing major assets of 2026 (Bil",
-   "sessions": 1,
-   "return": 0.0084,
-   "vs_spy": 0.0028,
+   "sessions": 2,
+   "return": 0.0153,
+   "vs_spy": 0.0062,
    "status": "pending"
   },
   {
@@ -1569,9 +1569,9 @@
    "date": "2026-10-26",
    "symbol": "QQQ",
    "claim": "Event-dense week for the index: Fed meeting, mega-cap earnings, $117 Friday oil with El-Erian warning of $150 if the Iran conflict widens, and a continuing AI-b",
-   "sessions": 1,
-   "return": 0.0127,
-   "vs_spy": 0.0071,
+   "sessions": 2,
+   "return": 0.0188,
+   "vs_spy": 0.0098,
    "status": "pending"
   },
   {
@@ -1580,9 +1580,9 @@
    "date": "2026-10-27",
    "symbol": "MSM",
    "claim": "Quality industrial distributor: 9/9 F-score, cash flow $306M vs net income $223M, newest 10-K on the menu, already reported on 10-22 so no earnings event in the",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
+   "sessions": 1,
+   "return": 0.0356,
+   "vs_spy": 0.0321,
    "status": "pending"
   },
   {
@@ -1591,9 +1591,9 @@
    "date": "2026-10-27",
    "symbol": "VXUS",
    "claim": "The Skeptic's case is stronger than the proposal. VXUS is already below its 200-day (-0.41%) and the Market Analyst prefers broad US exposure over international",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
+   "sessions": 1,
+   "return": 0.0054,
+   "vs_spy": 0.002,
    "status": "pending"
   },
   {
@@ -1602,9 +1602,9 @@
    "date": "2026-10-27",
    "symbol": "MSM",
    "claim": "Fundamentals-analyst rank 4: the only other 9/9 F-score besides VRSN, all tests computable, newest 10-K on the menu (FY end 2026-08-29, known 2026-10-22), cfo $",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
+   "sessions": 1,
+   "return": 0.0356,
+   "vs_spy": 0.0321,
    "status": "pending"
   },
   {
@@ -1613,9 +1613,9 @@
    "date": "2026-10-27",
    "symbol": "VXUS",
    "claim": "Strategy calls for broad diversification and we hold no non-US equity. Market-analyst: VXUS 21d -4.31% and about at its 200-day (-0.41%) with 17% volatility, so",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
+   "sessions": 1,
+   "return": 0.0054,
+   "vs_spy": 0.002,
    "status": "pending"
   },
   {
@@ -1624,9 +1624,9 @@
    "date": "2026-10-27",
    "symbol": "MSM",
    "claim": "(1) The claim 'a sector we do not hold' is wrong in substance. MSM is a wholesale industrial MRO distributor (SIC Wholesale-Industrial Machinery & Equipment); t",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
+   "sessions": 1,
+   "return": 0.0356,
+   "vs_spy": 0.0321,
    "status": "pending"
   },
   {
@@ -1635,6 +1635,259 @@
    "date": "2026-10-27",
    "symbol": "VXUS",
    "claim": "(1) The market-analyst's asset_class_view says plainly that international and emerging are weak and near or below their 200-day: VXUS 21d -4.31% and below its 2",
+   "sessions": 1,
+   "return": 0.0054,
+   "vs_spy": 0.002,
+   "status": "pending"
+  },
+  {
+   "agent": "market-analyst",
+   "kind": "stance",
+   "date": "2026-10-27",
+   "symbol": "SPY",
+   "claim": "neutral",
+   "sessions": 1,
+   "return": 0.0034,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "EXLS",
+   "claim": "Estimated earnings today (0 days, approximate). Only a subsidiary product press release (iMerit Scholars) in the window; no filings.",
+   "sessions": 1,
+   "return": -0.0051,
+   "vs_spy": -0.0086,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "INCY",
+   "claim": "Estimated earnings today (approximate). Pipeline news only: Genmab co-funding collaboration (10-26) and ESMO data presentation; nothing changes the picture ahea",
+   "sessions": 1,
+   "return": 0.0023,
+   "vs_spy": -0.0011,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "LOGI",
+   "claim": "Estimated earnings today (approximate). Only a decarbonization program release; no filings or analyst news.",
+   "sessions": 1,
+   "return": -0.1212,
+   "vs_spy": -0.1246,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "CALX",
+   "claim": "Estimated earnings 10-28, 1 trading day out (approximate). No headlines or filings.",
+   "sessions": 1,
+   "return": -0.0034,
+   "vs_spy": -0.0068,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "CVS",
+   "claim": "Estimated earnings 10-28, 1 trading day out (approximate). Background only: Medicare talks on pharmacist roles and GLP-1 access (weekly recap item) and Aetna su",
+   "sessions": 1,
+   "return": -0.0129,
+   "vs_spy": -0.0164,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "GRMN",
+   "claim": "Estimated earnings 10-28, 1 trading day out (approximate). Only a '$1000 invested 5 years ago' filler piece; no filings.",
+   "sessions": 1,
+   "return": -0.0582,
+   "vs_spy": -0.0616,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "RRC",
+   "claim": "EQT all-stock acquisition (1 RRC = 0.987 EQT, pro forma EV over $50B; 8-K 1.01/7.01/8.01/9.01 filed 10-26); RRC jumped about 15% on 10-26. The stock now tracks ",
+   "sessions": 1,
+   "return": -0.0089,
+   "vs_spy": -0.0123,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "AAPL",
+   "claim": "Earnings date uncertain: file estimate 10-29 (2 trading days) versus a Benzinga-cited Nov 2 (5 trading days, the edge); either is inside the window. New product",
+   "sessions": 1,
+   "return": -0.0094,
+   "vs_spy": -0.0129,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "BDC",
+   "claim": "Estimated earnings 10-29, 2 trading days out (approximate). No headlines or filings.",
+   "sessions": 1,
+   "return": -0.0076,
+   "vs_spy": -0.0111,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "BJRI",
+   "claim": "Estimated earnings 10-29, 2 trading days out (approximate). Citigroup cut its PT to $70 from $75 (Neutral) on 10-23; no new news.",
+   "sessions": 1,
+   "return": 0.0531,
+   "vs_spy": 0.0496,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "HWM",
+   "claim": "Estimated earnings 10-29, 2 trading days out (approximate). Only a Citi maintained-Buy/$329 PT item; no filings.",
+   "sessions": 1,
+   "return": 0.0167,
+   "vs_spy": 0.0132,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "LNG",
+   "claim": "Estimated earnings 10-29, 2 trading days out (approximate). Exposed to oil and Iran swings, and to the EQT/Range gas read-through. The 10-22 QatarEnergy SPAs (4",
+   "sessions": 1,
+   "return": -0.0066,
+   "vs_spy": -0.01,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "CLX",
+   "claim": "Estimated earnings 11-02, 5 trading days out, right at the edge of the window (approximate). New: UBS says fiscal Q1 organic sales growth will stay pressured wi",
+   "sessions": 1,
+   "return": 0.0085,
+   "vs_spy": 0.005,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "IDXX",
+   "claim": "Estimated earnings 11-02, 5 trading days out, at the edge of the window (approximate). No new news; Jefferies' PT cut to $705 (10-20) is the last item.",
+   "sessions": 1,
+   "return": 0.003,
+   "vs_spy": -0.0005,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "CART",
+   "claim": "Live takeover event: WSJ and The Information report DoorDash in advanced talks to acquire Instacart for about $17B, with a deal possibly completed as soon as th",
+   "sessions": 1,
+   "return": -0.0276,
+   "vs_spy": -0.0311,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "QQQ",
+   "claim": "Index event week: Fed meeting began today (decision Wed 10-28), Microsoft, Alphabet and Amazon report this week (36% of S&P 500 earnings), oil near $117 last Fr",
+   "sessions": 1,
+   "return": 0.006,
+   "vs_spy": 0.0026,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "symbol": "BTC/USD",
+   "claim": "Trading near $80k with support at $80k contested; bears cite $72k-$76k (Cowen), another analyst $63k-$75k after the midterms. ETF outflows ($635M on 10-22) and ",
+   "sessions": 1,
+   "return": 0.0052,
+   "vs_spy": 0.0018,
+   "status": "pending"
+  },
+  {
+   "agent": "portfolio-manager",
+   "kind": "approved buy (sent)",
+   "date": "2026-10-28",
+   "symbol": "BND",
+   "claim": "Small bond ballast for an equity-heavy book: BND is the lowest-event-risk, shortest-duration bond option (beta 0.123), the Market Analyst prefers bonds as a div",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "portfolio-manager",
+   "kind": "rejected buy",
+   "date": "2026-10-28",
+   "symbol": "INCY",
+   "claim": "The Skeptic's serious objection holds. INCY's estimated 10-27 earnings date has passed with no 8-K 2.02 or results headline, so per L2 the honest reading is tha",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "proposer",
+   "kind": "proposed buy",
+   "date": "2026-10-28",
+   "symbol": "BND",
+   "claim": "Market-analyst calls bonds the more attractive diversifier right now: BND 21-day +1.83% at only 3.97% vol, with a growth-scare bid under Treasuries. BND has the",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "proposer",
+   "kind": "proposed buy",
+   "date": "2026-10-28",
+   "symbol": "INCY",
+   "claim": "Fundamentals-analyst rank 7: F-score 8/9, gp_sector_pct 0.905, cfo $1,413M vs net income $1,287M, current ratio improved, no dilution, leverage not up. Health C",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "skeptic",
+   "kind": "serious objection to buy",
+   "date": "2026-10-28",
+   "symbol": "INCY",
+   "claim": "(1) Event risk is not cleared, it is unresolved. fundamentals.json/news.json show INCY's next_earnings_estimate as 2026-10-27 with days_to_earnings -1 and filin",
    "sessions": 0,
    "return": null,
    "vs_spy": null,
@@ -1643,7 +1896,7 @@
   {
    "agent": "market-analyst",
    "kind": "stance",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "symbol": "SPY",
    "claim": "neutral",
    "sessions": 0,
@@ -1654,53 +1907,9 @@
   {
    "agent": "news-analyst",
    "kind": "high event risk",
-   "date": "2026-10-27",
-   "symbol": "EXLS",
-   "claim": "Estimated earnings today (0 days, approximate). Only a subsidiary product press release (iMerit Scholars) in the window; no filings.",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
-   "status": "pending"
-  },
-  {
-   "agent": "news-analyst",
-   "kind": "high event risk",
-   "date": "2026-10-27",
-   "symbol": "INCY",
-   "claim": "Estimated earnings today (approximate). Pipeline news only: Genmab co-funding collaboration (10-26) and ESMO data presentation; nothing changes the picture ahea",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
-   "status": "pending"
-  },
-  {
-   "agent": "news-analyst",
-   "kind": "high event risk",
-   "date": "2026-10-27",
-   "symbol": "LOGI",
-   "claim": "Estimated earnings today (approximate). Only a decarbonization program release; no filings or analyst news.",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
-   "status": "pending"
-  },
-  {
-   "agent": "news-analyst",
-   "kind": "high event risk",
-   "date": "2026-10-27",
-   "symbol": "CALX",
-   "claim": "Estimated earnings 10-28, 1 trading day out (approximate). No headlines or filings.",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
-   "status": "pending"
-  },
-  {
-   "agent": "news-analyst",
-   "kind": "high event risk",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "symbol": "CVS",
-   "claim": "Estimated earnings 10-28, 1 trading day out (approximate). Background only: Medicare talks on pharmacist roles and GLP-1 access (weekly recap item) and Aetna su",
+   "claim": "Estimated earnings today (approximate, last year's date + 364); no 8-K 2.02 or results headline yet, so unverified. WSJ reports a new Labor Department rule maki",
    "sessions": 0,
    "return": null,
    "vs_spy": null,
@@ -1709,9 +1918,9 @@
   {
    "agent": "news-analyst",
    "kind": "high event risk",
-   "date": "2026-10-27",
-   "symbol": "GRMN",
-   "claim": "Estimated earnings 10-28, 1 trading day out (approximate). Only a '$1000 invested 5 years ago' filler piece; no filings.",
+   "date": "2026-10-28",
+   "symbol": "CALX",
+   "claim": "Estimated earnings today (approximate); no filings or results headlines yet, so unverified. Only the 10-27 communications-language-model release in the window.",
    "sessions": 0,
    "return": null,
    "vs_spy": null,
@@ -1720,20 +1929,9 @@
   {
    "agent": "news-analyst",
    "kind": "high event risk",
-   "date": "2026-10-27",
-   "symbol": "RRC",
-   "claim": "EQT all-stock acquisition (1 RRC = 0.987 EQT, pro forma EV over $50B; 8-K 1.01/7.01/8.01/9.01 filed 10-26); RRC jumped about 15% on 10-26. The stock now tracks ",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
-   "status": "pending"
-  },
-  {
-   "agent": "news-analyst",
-   "kind": "high event risk",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "symbol": "AAPL",
-   "claim": "Earnings date uncertain: file estimate 10-29 (2 trading days) versus a Benzinga-cited Nov 2 (5 trading days, the edge); either is inside the window. New product",
+   "claim": "Earnings date is uncertain: file estimate 10-29 (1 trading day) versus a Benzinga-cited 11-02 (3 trading days). Either is inside the window. The 10-28 product e",
    "sessions": 0,
    "return": null,
    "vs_spy": null,
@@ -1742,42 +1940,9 @@
   {
    "agent": "news-analyst",
    "kind": "high event risk",
-   "date": "2026-10-27",
-   "symbol": "BDC",
-   "claim": "Estimated earnings 10-29, 2 trading days out (approximate). No headlines or filings.",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
-   "status": "pending"
-  },
-  {
-   "agent": "news-analyst",
-   "kind": "high event risk",
-   "date": "2026-10-27",
-   "symbol": "BJRI",
-   "claim": "Estimated earnings 10-29, 2 trading days out (approximate). Citigroup cut its PT to $70 from $75 (Neutral) on 10-23; no new news.",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
-   "status": "pending"
-  },
-  {
-   "agent": "news-analyst",
-   "kind": "high event risk",
-   "date": "2026-10-27",
-   "symbol": "HWM",
-   "claim": "Estimated earnings 10-29, 2 trading days out (approximate). Only a Citi maintained-Buy/$329 PT item; no filings.",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
-   "status": "pending"
-  },
-  {
-   "agent": "news-analyst",
-   "kind": "high event risk",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "symbol": "LNG",
-   "claim": "Estimated earnings 10-29, 2 trading days out (approximate). Exposed to oil and Iran swings, and to the EQT/Range gas read-through. The 10-22 QatarEnergy SPAs (4",
+   "claim": "Estimated earnings 10-29 (1 trading day, approximate). Exposed to oil and Iran swings and to the EQT/Range gas read-through. The QatarEnergy SPAs (4 MTPA throug",
    "sessions": 0,
    "return": null,
    "vs_spy": null,
@@ -1786,9 +1951,42 @@
   {
    "agent": "news-analyst",
    "kind": "high event risk",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
+   "symbol": "BDC",
+   "claim": "Estimated earnings 10-29 (1 trading day, approximate). No headlines or filings.",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-28",
+   "symbol": "BJRI",
+   "claim": "Estimated earnings 10-29 (1 trading day, approximate). Only Citi's PT cut to $70 (Neutral) on 10-23 is in the record; nothing new.",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-28",
+   "symbol": "HWM",
+   "claim": "Estimated earnings 10-29 (1 trading day, approximate). No filings; only an older Citi Buy/$329 reiteration.",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-28",
    "symbol": "CLX",
-   "claim": "Estimated earnings 11-02, 5 trading days out, right at the edge of the window (approximate). New: UBS says fiscal Q1 organic sales growth will stay pressured wi",
+   "claim": "Estimated earnings 11-02 (3 trading days, approximate). Negative preview drift continues: JPMorgan Underweight/$83 (10-20) and UBS saying organic sales stay pre",
    "sessions": 0,
    "return": null,
    "vs_spy": null,
@@ -1797,9 +1995,9 @@
   {
    "agent": "news-analyst",
    "kind": "high event risk",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "symbol": "IDXX",
-   "claim": "Estimated earnings 11-02, 5 trading days out, at the edge of the window (approximate). No new news; Jefferies' PT cut to $705 (10-20) is the last item.",
+   "claim": "Estimated earnings 11-02 (3 trading days, approximate). A second PT cut: UBS to $627 from $670 (Neutral, 10-27), after Jefferies to $705 on 10-20. Held position",
    "sessions": 0,
    "return": null,
    "vs_spy": null,
@@ -1808,9 +2006,64 @@
   {
    "agent": "news-analyst",
    "kind": "high event risk",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
+   "symbol": "EXEL",
+   "claim": "Estimated earnings 11-03 (4 trading days, approximate). No headlines or filings.",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-28",
+   "symbol": "MTCH",
+   "claim": "Estimated earnings 11-03 (4 trading days, approximate). Only TD Cowen's Buy with PT raised to $52 (10-27), supportive.",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-28",
+   "symbol": "ULS",
+   "claim": "Estimated earnings 11-03 (4 trading days). The company set its own Q3 date on 10-20, which is not in the input and may differ. Only minor partnership and facili",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-28",
+   "symbol": "GPOR",
+   "claim": "Estimated earnings 11-03 (4 trading days). Gulfport scheduled its own release on 10-21, not in the input, so the true date is unverified. Gas names also trade a",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-28",
+   "symbol": "SMG",
+   "claim": "Company-confirmed fiscal Q4 results on 11-04 (5 trading days, the edge of the window). The 10-16 8-K 5.02 (officer/director change) has aged out of the 7-day wi",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-28",
    "symbol": "CART",
-   "claim": "Live takeover event: WSJ and The Information report DoorDash in advanced talks to acquire Instacart for about $17B, with a deal possibly completed as soon as th",
+   "claim": "Live takeover event. DoorDash is reported (WSJ, The Information) to be in advanced talks to buy Instacart for about $17B, with a deal possibly done this week. N",
    "sessions": 0,
    "return": null,
    "vs_spy": null,
@@ -1819,9 +2072,9 @@
   {
    "agent": "news-analyst",
    "kind": "high event risk",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "symbol": "QQQ",
-   "claim": "Index event week: Fed meeting began today (decision Wed 10-28), Microsoft, Alphabet and Amazon report this week (36% of S&P 500 earnings), oil near $117 last Fr",
+   "claim": "Fed rate decision today (Warsh-led Fed), with Microsoft and Alphabet reporting after the close and Amazon later in the week. The AI-bubble and capex thread cont",
    "sessions": 0,
    "return": null,
    "vs_spy": null,
@@ -1830,9 +2083,9 @@
   {
    "agent": "news-analyst",
    "kind": "high event risk",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "symbol": "BTC/USD",
-   "claim": "Trading near $80k with support at $80k contested; bears cite $72k-$76k (Cowen), another analyst $63k-$75k after the midterms. ETF outflows ($635M on 10-22) and ",
+   "claim": "Fed decision today. Bitcoin is back around $80k after a rebound on 10-27 (ETF inflow $110M, crypto rose with stocks), but the contested-support story is intact:",
    "sessions": 0,
    "return": null,
    "vs_spy": null,
