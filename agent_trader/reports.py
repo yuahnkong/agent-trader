@@ -24,6 +24,10 @@ def _pct(x) -> str:
     return "n/a" if x is None else f"{x:+.2%}"
 
 
+def _share(x) -> str:
+    return "n/a" if x is None else f"{x:.0%}"
+
+
 def open_report(run: Path, execution: dict) -> Path:
     day = run.name
     market = _load(run / "inputs" / "market.json") or {}
@@ -92,12 +96,31 @@ def close_report(run: Path) -> Path:
     lines = [
         f"# Close report, {day}",
         "",
+        f"System version {close.get('version') or config.version_for(day)}.",
+        "",
         "| | Value | Since start |",
         "|---|---|---|",
         f"| Agents (Alpaca paper) | {_money(perf.get('agent_equity'))} | {_pct(perf.get('agent_return'))} |",
         f"| Shadow (rules only) | {_money(perf.get('shadow_value'))} | {_pct(perf.get('shadow_return'))} |",
         f"| SPY | {_money(perf.get('spy_value'))} | {_pct(perf.get('spy_return'))} |",
         "",
+    ]
+    if perf.get("agent_invested_return") is not None:
+        lines += [
+            "Invested money only, which takes cash drag out of the comparison: agents "
+            f"{_pct(perf.get('agent_invested_return'))} ({_share(perf.get('agent_invested_pct'))} invested), "
+            f"shadow {_pct(perf.get('shadow_invested_return'))} ({_share(perf.get('shadow_invested_pct'))} invested).",
+            "",
+        ]
+    sv = close.get("since_version")
+    if sv and sv.get("since") != "start":
+        lines += [
+            f"Since version {sv['version']} started (close of {sv['since']}): agents {_pct(sv.get('agent_return'))}, "
+            f"shadow {_pct(sv.get('shadow_return'))}, SPY {_pct(sv.get('spy_return'))}; invested money only, "
+            f"agents {_pct(sv.get('agent_invested_return'))}, shadow {_pct(sv.get('shadow_invested_return'))}.",
+            "",
+        ]
+    lines += [
         f"Day P&L {_money(close.get('day_pl'))}. Drawdown from peak {_pct(-close.get('drawdown', 0))}."
         + (" **Trading is paused by the kill switch.**" if close.get("paused") else ""),
         "",

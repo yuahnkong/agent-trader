@@ -23,14 +23,14 @@ import sys
 from dataclasses import asdict
 from datetime import date, datetime, timedelta, timezone
 
-from . import config, learning, packets, prices, reports, screen
+from . import attribution, config, learning, packets, prices, reports, screen
 from .alpaca import AlpacaClient
 from .ledger import build_ledger
 from .risk import kill_switch_tripped, review
 from .sec import SecClient
 from .shadow import rebalance
 from .sleeves import sleeve_rows, sleeve_symbols
-from .state import Shadow, Trading, load_performance, record_performance
+from .state import Shadow, Trading, load_performance, record_performance, save_performance
 
 sec_ticker = screen.sec_ticker
 
@@ -305,7 +305,8 @@ def execute(dry_run: bool = False, session: str | None = None) -> int:
             row.update(order_status="dry run" if dry_run else "not sent (market closed)")
         rows.append(row)
 
-    execution = {"date": today.isoformat(), "dry_run": dry_run, "notes": notes, "verdicts": rows}
+    execution = {"date": today.isoformat(), "version": config.version_for(run.name), "dry_run": dry_run,
+                 "notes": notes, "verdicts": rows}
     packets.write_json(run / "execution.json", execution)
     _log_recommendations(run, execution)
     path = reports.open_report(run, execution)
@@ -351,7 +352,11 @@ def close() -> int:
         p["symbol"] = config.canonical_symbol(p["symbol"])
     held = [p["symbol"] for p in positions]
     shadow = Shadow.load()
-    syms = {config.MARKET_PROXY, *held, *shadow.shares, *(m["symbol"] for m in menu["menu"]), *sleeve_symbols()}
+    all_fills = alpaca.fills()
+    # Everything either side ever held, so the invested-money series can price past days.
+    traded = {config.canonical_symbol(f["symbol"]) for f in all_fills} | {t["symbol"] for t in shadow.trades}
+    syms = {config.MARKET_PROXY, *held, *shadow.shares, *traded, *(m["symbol"] for m in menu["menu"]),
+            *sleeve_symbols()}
     start = today - timedelta(days=400)
     bars = alpaca.daily_bars(sorted(x for x in syms if "/" not in x), start=start)
     if alpaca.clock()["is_open"]:
@@ -382,7 +387,16 @@ def close() -> int:
         "shadow_return": round(shadow_value / start - 1, 5),
         "spy_return": None if spy_value is None else round(spy_value / start - 1, 5),
     }
-    record_performance(perf)
+    rows = record_performance(perf)
+    # Invested-money returns, rebuilt from history so earlier rows backfill too.
+    days = [d for d in spy.index if d >= date.fromisoformat(trading.started)] if spy is not None else []
+    rows = attribution.merge_into_performance(
+        rows,
+        attribution.invested_series(attribution.agent_trades(all_fills), closes, days),
+        attribution.invested_series(attribution.shadow_trades(shadow.trades), closes, days))
+    save_performance(rows)
+    perf = rows[-1] if rows[-1]["date"] == perf["date"] else perf
+    version = config.version_for(run.name)
 
     notes = []
     drawdown = 1 - equity / trading.peak_equity if trading.peak_equity else 0.0
@@ -395,7 +409,7 @@ def close() -> int:
     fills = [f for f in alpaca.fills(after=today - timedelta(days=1))
              if datetime.fromisoformat(f["transaction_time"].replace("Z", "+00:00"))
              .astimezone(config.MARKET_TZ).date() == today]
-    led = build_ledger(alpaca.fills())
+    led = build_ledger(all_fills)
     decisions = [json.loads(d.read_text()) for d in sorted(config.RUNS_DIR.glob(f"{today.isoformat()}*/decision.json"))]
     data = {
         "date": today.isoformat(),
@@ -405,6 +419,8 @@ def close() -> int:
         "paused": trading.paused,
         "notes": notes,
         "performance": perf,
+        "version": version,
+        "since_version": attribution.since_version(rows, version),
         "fills_today": [{k: f[k] for k in ("symbol", "side", "qty", "price", "transaction_time")} for f in fills],
         "positions": [
             {"symbol": p["symbol"], "qty": float(p["qty"]), "market_value": float(p["market_value"]),
@@ -473,6 +489,10 @@ def status() -> int:
         p = perf[-1]
         print(f"{p['date']}: agents {p['agent_return']:+.2%}  shadow {p['shadow_return']:+.2%}  "
               f"SPY {'n/a' if p['spy_return'] is None else format(p['spy_return'], '+.2%')}")
+        if p.get("agent_invested_return") is not None:
+            print(f"  invested money only: agents {p['agent_invested_return']:+.2%}  "
+                  f"shadow {p['shadow_invested_return']:+.2%}  "
+                  f"(agents {p['agent_invested_pct']:.0%} invested, shadow {p['shadow_invested_pct']:.0%})")
     return 0
 
 

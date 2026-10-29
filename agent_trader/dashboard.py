@@ -113,7 +113,9 @@ def build(today: date | None = None) -> dict[str, list[dict]]:
 
     perf = load_performance()
     performance = [{k: r.get(k) for k in ("date", "agent_equity", "shadow_value", "spy_value",
-                                          "agent_return", "shadow_return", "spy_return")} for r in perf]
+                                          "agent_return", "shadow_return", "spy_return",
+                                          "agent_invested_return", "shadow_invested_return", "version")}
+                   for r in perf]
     if not performance and trading.started and trading.start_equity:
         # Before the first close is recorded, all three start from the same money.
         se = trading.start_equity
@@ -207,7 +209,10 @@ def build(today: date | None = None) -> dict[str, list[dict]]:
         lessons = [{"id": "-", "lesson": "No lessons yet. The Reviewer adds one only when graded results support it.",
                     "applies_to": "", "confidence": None, "status": "none yet", "added": None, "evidence": ""}]
     card = _load(config.STATE_DIR / "scorecard.json") or {"summary": {}}
-    scorecard = [{"agent": a.replace("-", " ").capitalize(), **v} for a, v in card.get("summary", {}).items()]
+    scorecard = [{"agent": a.replace("-", " ").capitalize(),
+                  **{k: x for k, x in v.items() if k != "by_horizon"},
+                  **{f"hit_rate_{h}d": bh.get("hit_rate") for h, bh in v.get("by_horizon", {}).items()}}
+                 for a, v in card.get("summary", {}).items()]
 
     return {"account": account, "performance": performance, "positions": position_rows,
             "trades": trades, "agents": agents, "menu": menu_rows, "lessons": lessons, "scorecard": scorecard}

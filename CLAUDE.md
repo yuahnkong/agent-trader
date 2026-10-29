@@ -24,3 +24,6 @@ enforces hard limits, orders go to an Alpaca **paper** account. DESIGN.md is the
   runs (containers are thrown away). Commit them after every run.
 - The trading API URL is hard-coded to paper. Don't add a setting for live trading.
 - Run `python -m pytest` before committing code changes.
+- Results only compare within a system version. Any change to what the agents see or may
+  do, the hard limits, the screen or the shadow's rules adds an entry to `config.VERSIONS`,
+  starting at the first run it applies to.

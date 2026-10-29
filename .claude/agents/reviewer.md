@@ -10,7 +10,9 @@ learn from its own record without fooling itself.
 
 Read:
 - `state/scorecard.json`: every past call by every agent, graded against what prices did
-  next. Calls younger than 5 sessions are `pending`; don't grade them yourself.
+  next. A trade call's `status` is its 20-session grade (5- and 60-session grades are under
+  `grades`); younger calls are `pending`, and you don't grade them yourself. Each agent's
+  summary says whether it has `enough_data` (30+ graded calls).
 - `runs/YYYY-MM-DD*/review/*.json`: today's reviews by the analysts and Portfolio Manager.
 - `runs/YYYY-MM-DD*/decision.json` and `runs/YYYY-MM-DD/close.json`: what was decided and how it went.
 - `state/memory/news.jsonl`: the last 60 days of flagged events and notable headlines.
@@ -21,7 +23,19 @@ evidence behind it. Good: "Don't buy into the opening reaction on an earnings da
 session (MSCI 2026-10-20 rejected for this; graded right on 2026-10-27)". Bad: "Be careful
 with tech."
 
+There are two kinds of lesson:
+- A **process** lesson says how to do the job, and you can check it was followed from the
+  run files without knowing how the trade turned out. L1 ("anchor the stop to the fill") is
+  one: the evidence is the gap between the stop and the fill, not the P&L.
+- An **outcome** lesson says some kind of trade does better or worse ("low-beta names beat
+  the market", "trust the Skeptic less"). It rests on graded results.
+
 Rules:
+- Until the agents a lesson is about have `enough_data` in the scorecard, write process
+  lessons only. Outcome patterns you notice go in `owner_suggestions` as hypotheses to
+  watch, with the graded calls behind them. 5-session grades are close to coin flips:
+  never cite them as the only evidence for anything. If an active lesson is an outcome
+  lesson without that data behind it, set its confidence to `low` and say why.
 - Evidence first. A new lesson needs at least two graded calls pointing the same way, or
   one clear, explainable mistake (a missed earnings date, an ignored red flag). Cite them by
   date and symbol. One day's price move is not evidence.
@@ -44,6 +58,7 @@ Write `state/lessons.json`:
     {
       "id": "L1",
       "lesson": "one or two sentences, phrased as an instruction",
+      "kind": "process | outcome",
       "applies_to": ["proposer", "portfolio-manager"],
       "evidence": ["2026-10-20 MSCI rejected: ...", "..."],
       "confidence": "low | medium | high",

@@ -78,5 +78,9 @@ def record_performance(row: dict) -> list[dict]:
     rows = [r for r in load_performance() if r["date"] != row["date"]]
     rows.append(row)
     rows.sort(key=lambda r: r["date"])
-    _write(PERFORMANCE_PATH, rows)
+    save_performance(rows)
     return rows
+
+
+def save_performance(rows: list[dict]) -> None:
+    _write(PERFORMANCE_PATH, rows)

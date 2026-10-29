@@ -84,6 +84,31 @@ def canonical_symbol(symbol: str) -> str:
 SHADOW_POSITIONS = 8
 SHADOW_SPLIT = {"stock": 0.65, "etf": 0.30, "crypto": 0.05}
 
+# System versions. Results are only comparable within a version, so any change to what
+# the agents see or may do, the hard limits, the screen or the shadow's rules gets a new
+# entry here. Each starts at the first run (runs/<name>) it applies to; run names sort in
+# time order ("2026-10-20" < "2026-10-20-pm" < "2026-10-21").
+VERSIONS = [
+    ("1", "2026-10-20", "Stock menu only, 3 trades a day."),
+    ("2", "2026-10-20-pm", "ETF and crypto sleeves added; trade limit raised to 5 a day."),
+    ("3", "2026-10-21", "Learning loop: scorecard, news memory, Reviewer agent and lessons."),
+    ("4", "2026-10-29", "Calls graded at 20 sessions (5 and 60 kept for reference); the Reviewer "
+                        "writes only process lessons until an agent has 30 graded calls."),
+]
+
+
+def version_for(run_name: str) -> str:
+    """The system version a run (or a date, as YYYY-MM-DD) belongs to."""
+    current = VERSIONS[0][0]
+    for v, first_run, _ in VERSIONS:
+        if run_name >= first_run:
+            current = v
+    return current
+
+
+def version_start(version: str) -> str:
+    return next(first for v, first, _ in VERSIONS if v == version)
+
 
 class MissingCredentials(RuntimeError):
     pass

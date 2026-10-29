@@ -5,8 +5,11 @@ memory and a track record, and a Reviewer agent turns those into a short lessons
 - state/memory/news.jsonl notable headlines and event flags, kept for 60 days (Python)
 - state/lessons.json      the Reviewer agent's working lessons, read by every agent
 
-A call is only graded once HORIZON trading days have passed; younger ones are listed as
-pending so nobody draws conclusions from one afternoon.
+Trade calls are graded at 5, 20 and 60 sessions. A call's `status` is its 20-session
+grade, so it stays pending for about a month: over one week, beating SPY is close to a coin
+flip. The market stance and event-risk flags are claims about the next week, so they keep
+their 5-session grade. An agent's hit rate means little until it has MIN_GRADED graded
+calls, and the summary says whether it has (`enough_data`).
 """
 
 import json
@@ -20,7 +23,10 @@ from .alpaca import AlpacaClient
 SCORECARD_PATH = config.STATE_DIR / "scorecard.json"
 MEMORY_PATH = config.STATE_DIR / "memory" / "news.jsonl"
 LESSONS_PATH = config.STATE_DIR / "lessons.json"
-HORIZON = 5  # trading days before a call is graded
+HORIZON = 5  # sessions for the market stance and event-risk flags
+TRADE_HORIZONS = (5, 20, 60)
+PRIMARY_HORIZON = 20  # what a trade call's status means
+MIN_GRADED = 30  # graded calls before an agent's hit rate is worth acting on
 MEMORY_DAYS = 60
 
 
@@ -81,18 +87,27 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
     calls = []
 
     def grade(agent, kind, day, symbol, claim, sign):
-        """sign +1: the call is right if the symbol beats SPY; -1: right if it lags."""
+        """sign +1: the call is right if the symbol beats SPY; -1: right if it lags.
+        Graded at each of TRADE_HORIZONS; `return`/`vs_spy` are to the latest close."""
         r, n = _forward(closes.get(symbol), day)
         m, _ = _forward(spy, day, n or None)
-        row = {"agent": agent, "kind": kind, "date": day.isoformat(), "symbol": symbol, "claim": claim,
-               "sessions": n, "return": None if r is None else round(r, 4),
-               "vs_spy": None if r is None or m is None else round(r - m, 4)}
-        row["status"] = "pending" if n < HORIZON or row["vs_spy"] is None else (
-            "right" if sign * row["vs_spy"] > 0 else "wrong")
-        calls.append(row)
+        grades = {}
+        for h in TRADE_HORIZONS:
+            rh, nh = _forward(closes.get(symbol), day, h)
+            mh, _ = _forward(spy, day, nh or None)
+            vs = None if rh is None or mh is None else round(rh - mh, 4)
+            grades[str(h)] = {"vs_spy": vs, "status": "pending" if nh < h or vs is None else (
+                "right" if sign * vs > 0 else "wrong")}
+        calls.append({"agent": agent, "kind": kind, "date": day.isoformat(), "version": version,
+                      "symbol": symbol, "claim": claim, "sessions": n,
+                      "return": None if r is None else round(r, 4),
+                      "vs_spy": None if r is None or m is None else round(r - m, 4),
+                      "horizon": PRIMARY_HORIZON, "grades": grades,
+                      "status": grades[str(PRIMARY_HORIZON)]["status"]})
 
     for run in runs:
         day = date.fromisoformat(run.name[:10])
+        version = config.version_for(run.name)
         props = {p.get("id"): p for p in (_load(run / "agents/proposer.json") or {}).get("proposals", [])}
         decision = _load(run / "decision.json") or {}
         executed = {(config.canonical_symbol(v["symbol"]), v["side"])
@@ -124,7 +139,7 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
                 (r > 0.005 and stance == "risk-on") or (r < -0.005 and stance == "risk-off")
                 or (abs(r) <= 0.02 and stance == "neutral"))
             calls.append({"agent": "market-analyst", "kind": "stance", "date": day.isoformat(),
-                          "symbol": config.MARKET_PROXY, "claim": stance, "sessions": n,
+                          "version": version, "horizon": HORIZON, "symbol": config.MARKET_PROXY, "claim": stance, "sessions": n,
                           "return": None if r is None else round(r, 4), "vs_spy": None,
                           "status": "pending" if right is None else ("right" if right else "wrong")})
         for e in (_load(run / "agents/news-analyst.json") or {}).get("event_risk", []):
@@ -135,7 +150,7 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
             m, _ = _forward(spy, day, n or None)
             big = None if r is None or m is None or n < HORIZON else abs(r - m) > 0.03
             calls.append({"agent": "news-analyst", "kind": "high event risk", "date": day.isoformat(),
-                          "symbol": sym, "claim": e.get("why", "")[:160], "sessions": n,
+                          "version": version, "horizon": HORIZON, "symbol": sym, "claim": e.get("why", "")[:160], "sessions": n,
                           "return": None if r is None else round(r, 4),
                           "vs_spy": None if r is None or m is None else round(r - m, 4),
                           "status": "pending" if big is None else ("right" if big else "wrong")})
@@ -144,14 +159,24 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
     for c in calls:
         s = summary.setdefault(c["agent"], {"right": 0, "wrong": 0, "pending": 0})
         s[c["status"]] += 1
+        for h, g in c.get("grades", {}).items():
+            bh = s.setdefault("by_horizon", {}).setdefault(h, {"right": 0, "wrong": 0})
+            if g["status"] != "pending":
+                bh[g["status"]] += 1
     for s in summary.values():
-        graded = s["right"] + s["wrong"]
-        s["hit_rate"] = None if graded == 0 else round(s["right"] / graded, 3)
-    return {"as_of": config.market_today().isoformat(), "horizon_sessions": HORIZON,
+        s["graded"] = s["right"] + s["wrong"]
+        s["hit_rate"] = None if s["graded"] == 0 else round(s["right"] / s["graded"], 3)
+        s["enough_data"] = s["graded"] >= MIN_GRADED
+        for bh in s.get("by_horizon", {}).values():
+            n = bh["right"] + bh["wrong"]
+            bh["hit_rate"] = None if n == 0 else round(bh["right"] / n, 3)
+    return {"as_of": config.market_today().isoformat(), "horizon_sessions": PRIMARY_HORIZON,
+            "trade_horizons": list(TRADE_HORIZONS), "min_graded": MIN_GRADED,
             "summary": summary, "calls": calls,
             "how_graded": {
-                "buys": "right if the symbol beat SPY from the decision date to the latest close",
-                "rejections and serious skeptic objections to buys": "right if the symbol lagged SPY",
+                "buys": f"right if the symbol beat SPY over {PRIMARY_HORIZON} sessions from the decision "
+                        f"date (5- and 60-session grades are under `grades`)",
+                "rejections and serious skeptic objections to buys": f"right if the symbol lagged SPY over {PRIMARY_HORIZON} sessions",
                 "market stance": "risk-on right if SPY rose >0.5% over 5 sessions, risk-off if it fell "
                                  ">0.5%, neutral if it moved less than 2% either way",
                 "high event risk": "right if the symbol moved more than 3% relative to SPY within 5 sessions",
@@ -195,6 +220,8 @@ def learning_packet(today: date) -> dict:
         "graded_calls": [c for c in card.get("calls", []) if c["status"] != "pending"][-40:],
         "pending_calls": sum(1 for c in card.get("calls", []) if c["status"] == "pending"),
         "news_memory": memory[-150:],
-        "note": "Lessons come from a handful of trades; treat each as a hypothesis with the "
-                "evidence it cites, not a rule. Hard limits are in code and lessons can't change them.",
+        "note": f"Trade calls are graded at {PRIMARY_HORIZON} sessions; a hit rate means little until "
+                f"`enough_data` is true ({MIN_GRADED}+ graded calls). Lessons come from a handful of "
+                "trades; treat each as a hypothesis with the evidence it cites, not a rule. Hard limits "
+                "are in code and lessons can't change them.",
     }
