@@ -1,0 +1,30 @@
+{
+  "summary": "All three buys fit within caps and carry no tax or wash-sale issues. Together they take the account from 17.5% to 54.2% invested (stocks 39.2%, equity ETF 15.0%, bond/gold 0%, crypto 0%). The main portfolio-level effects are Consumer Staples reaching 24.2% across two names, the 10%-drop stress loss rising from $3.87 to $14.60 (VOO causes most of the increase), and the day's last trade slot being used up.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "$90 VOO = 15.0% of $600 equity, exactly at the 15% cap and equal to its buy_cap_usd of $90.00. Any rise in VOO's price takes the position above 15%, so no further VOO buys are possible. The equity-ETF sleeve goes from 0% to 15.0%. It is the only ETF and no bond, gold or crypto is held.",
+      "overlap": "VOO already holds DPZ, IDXX and WMT (all S&P 500 members), so it adds a small look-through exposure on top of the direct positions. At VOO's index weights this is well under $1 per name. CARG is not in the S&P 500. VOO's own large Technology weight adds indirect exposure to the AI/semis selloff (XLK -5.3% over 5 days) that the proposer wants to avoid through stock selection. No QQQ is held, so there is no ETF-on-ETF overlap.",
+      "tax": "Buy only, so nothing is realized. It opens a new lot dated 2026-10-20 that turns long-term on 2027-10-21.",
+      "wash_sale": "none",
+      "summary": "OK. It is the right diversifier, but it sits at the 15% cap and adds the most stress: -$8.96 of the -$10.73 increase in a 10% drop."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "$80 WMT = 13.3% of equity, under the 15% cap and its $89.82 buy_cap. With DPZ ($64.95, which fundamentals.json labels Consumer Staples), the Consumer Staples sector rises from 10.8% to 24.2% of equity. That is 45% of all invested dollars across just two names. The stock sleeve rises to 39.2%.",
+      "overlap": "It adds to the theme the portfolio already leans on most: the morning's DPZ buy was also labeled Staples. DPZ is in fact a restaurant chain classified by its SIC code as wholesale groceries. With DPZ beta 0.095 and WMT beta -0.091, the two are not a diversified defensive pair. They are a concentrated bet that the staples rotation (XLP +6.0% over 21 days) continues. WMT is also held inside VOO.",
+      "tax": "Buy only, so nothing is realized. It opens a new lot dated 2026-10-20 that turns long-term on 2027-10-21. Earnings are around 11-19, inside the short-term window.",
+      "wash_sale": "none",
+      "summary": "OK on caps, and it slightly reduces stress (+$0.73 in a 10% drop), but it pushes Consumer Staples to 24.2%, the largest sector exposure."
+    },
+    {
+      "proposal_id": "P3",
+      "concentration": "$50 CARG = 8.3% of equity, under the 15% cap and its $59.97 buy_cap. The Technology sector goes from 0% to 8.3% directly (plus indirect exposure through VOO). The stock sleeve reaches 39.2% across four names.",
+      "overlap": "It adds no direct sector overlap: this would be the only Technology-labeled holding. The business is an auto marketplace, little tied to the AI/semis theme. CARG is not in VOO. Its vol_252d of 0.394 is the highest of the four stocks (cutoff 0.438), so it is the most volatile single name despite its 0.50 beta.",
+      "tax": "Buy only, so nothing is realized. It opens a new lot dated 2026-10-20 that turns long-term on 2027-10-21.",
+      "wash_sale": "none",
+      "summary": "OK. It adds diversification by sector and business type at modest size, costs -$2.50 in a 10% drop, and has the highest idiosyncratic vol in the book."
+    }
+  ],
+  "stress_10pct_drop": {"before_usd": -3.87, "after_usd": -14.6}
+}

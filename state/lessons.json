@@ -1,0 +1,132 @@
+{
+  "updated": "2026-10-30",
+  "lessons": [
+    {
+      "id": "L1",
+      "lesson": "Anchor stop prices to the expected fill, not the last reference close, whenever a name has gapped or is reacting to news. Check that the stated stop distance (e.g. 10%) still holds at the likely entry price before approving.",
+      "kind": "process",
+      "applies_to": ["proposer", "portfolio-manager"],
+      "evidence": [
+        "2026-10-20 DPZ: stop of $274.88 was set 10% under the $305.42 reference close, but the buy filled at $316.58 (about 3.7% higher), so the stop sat about 13% below entry instead of the intended 10%.",
+        "2026-10-20 MSCI rejected partly because its stop was anchored to the pre-earnings close (same flaw; not yet graded, pending).",
+        "2026-10-23 VRSN: filled at $292.23, 4.7% below the $306.48 menu close after the 10-22 print (a gap down). The PM anchored the stop to the fill per this lesson; a menu-close stop would have sat about 14% below the fill. Applied correctly, not a graded call (pending).",
+        "2026-10-26 VRSN: the PM anchored the stop (278) to the expected fill near $303, which filled at $303.08, so the stop sits about 8.3% under the fill as intended. Applied correctly, not graded.",
+        "2026-10-26 DPZ: the held position's invalidation ($274.88) is still anchored to the pre-fill reference close and sits about 13% below the $316.58 fill; the PM review flags it as unfixed. Re-anchor existing theses to the actual fill when reviewing held positions.",
+        "2026-10-27 MSM: the PM wrote the invalidation against the actual fill (filled at the $118.72 menu close, so the ~9% distance held). DPZ's $274.88 invalidation is still not re-anchored (PM and Fundamentals reviews both flag it); DPZ is -1.4% on the fill.",
+        "2026-10-28 BND: filled at $71.298 against the expected ~$71.3, and the PM anchored the invalidation (~$70.0) to that fill, so the L1 practice held for new buys. DPZ's $274.88 is still about 13% under its $316.58 fill (PM, News and Fundamentals reviews all flag it); the position is -2.25%.",
+        "2026-10-29 DPZ: the $274.88 invalidation is still anchored to the $305.42 reference close, about 13% under the $316.58 fill; PM, News and Fundamentals reviews all flag it again (position -0.96%). The PM applied L1 to the rejected VXUS buy. DPZ re-anchoring (about $285) has now gone unfixed for 7 sessions; it is a held-position action, not a new-buy one.",
+        "2026-10-30 DPZ: thesis in close.json still reads $274.88 (10% under the $305.42 reference close); the PM review calls it the 8th open session and says it cannot write the fix because it only writes decision and review files (position -0.9%). The gap is now structural, not an oversight: see owner_suggestions."
+      ],
+      "confidence": "low",
+      "added": "2026-10-20",
+      "last_confirmed": "2026-10-30",
+      "status": "active",
+      "retired_why": null
+    },
+    {
+      "id": "L2",
+      "lesson": "Never write 'no earnings event in the window' just because the news note doesn't mention a name. Check the name's own earnings estimate and recent 8-K 2.02 / 10-Q filings in the inputs, and say 'unverified' only if they are truly absent. The News Analyst should cover every symbol on the proposal menu, not only flagged ones, so the Portfolio Manager does not shrink positions for lack of data.",
+      "kind": "process",
+      "applies_to": ["proposer", "news-analyst", "portfolio-manager"],
+      "evidence": [
+        "2026-10-21 FAST: proposer cited no earnings event 'in the news-analyst note', which never mentions FAST (Skeptic objection); the PM cut the size from $40 to $30 partly because the date was unverified. The News Analyst's close review then resolved it from filings already public (8-K 2.02 on 10-14, 10-Q on 10-19; next estimate 2027-01-19).",
+        "2026-10-21 RRC rejected partly because 'already reported' rested on an unread 8-K 2.02 from 10-14 (same gap; not yet graded, pending).",
+        "2026-10-21 CARG: earnings date left unverified at decision time; the close review puts the estimate at 11-05, outside the window (PM trimmed $25 to $15 partly for this).",
+        "2026-10-23 VRSN and SAM: the News Analyst resolved stale 'earnings today' estimates from 8-K 2.02 / 10-Q filings (both reported 10-22), and the PM sized VRSN with the date verified. Still open: RRC (10-14 8-K 2.02 aged out of the 7-day window, date unverified since 10-20) and SMG (8-K 5.02 from 10-16, unread since 10-20).",
+        "2026-10-26 RRC: the open date question was overtaken by the EQT all-stock acquisition (8-K 1.01 filed 10-26); the 10-14 8-K 2.02 is still unread. RRC was rejected on 10-21 partly on the unverified date and is +17% to +25% vs SPY since (pending, not graded). SMG 8-K 5.02 has now aged out of the window, still unread. VRSN, MSCI and the held names had their dates checked against filings.",
+        "2026-10-27 MSM: the proposal's earnings date was verified from the 8-K 2.02 and 10-K filed 10-22 (next about 2027-01-06) and the PM sized it with the date known. Still open: the WMT 8-K 8.01 from 10-23 is unread (News Analyst sees only item numbers); SMG now has a company-confirmed Q4 date of 11-04.",
+        "2026-10-28 INCY: the estimated 10-27 date passed with no 8-K 2.02, results headline or 10-Q; the Skeptic and PM read that as an imminent print and the PM rejected the buy on it (not yet graded). The News Analyst resolved GRMN, RRC, DORM, EXLS and LOGI from filings. Still open: WMT 8-K 8.01 (10-23) unread, CALX and CVS 10-28 dates unverified.",
+        "2026-10-29: the News Analyst resolved the 10-28/10-29 estimates for GRMN, HWM, LNG, BDC and INCY from filings or headlines and the 10-27 CART flag came true (DoorDash agreed to buy Instacart at $65, 8-K 1.01). Still open: WMT 8-K 8.01 (10-23) unread; CVS and CALX still show no results in the inputs.",
+        "2026-10-30: the News Analyst resolved INCY, HWM, LNG, BDC, EXEL, GRMN, LOGI, EXLS and RRC from 8-K 2.02 / 10-Q filings and caught that EXEL's 11-03 estimate is stale. Still open: the WMT 8-K 8.01 (10-23) is unread and ages out of the window; ULS and GPOR own dates unverified (not held)."
+      ],
+      "confidence": "low",
+      "added": "2026-10-21",
+      "last_confirmed": "2026-10-30",
+      "status": "active",
+      "retired_why": null
+    },
+    {
+      "id": "L3",
+      "lesson": "Before claiming a proposal adds a new or favored sector, check the sector label in the fundamentals input and the sectors of positions already held. If the claim rests on economic exposure rather than the label, or a held peer overlaps, say so in the thesis and size for the overlap.",
+      "kind": "process",
+      "applies_to": ["proposer", "portfolio-manager"],
+      "evidence": [
+        "2026-10-22 MSCI: the proposer said Financials is a favored sector, but fundamentals.json labels MSCI as Industrials (Skeptic objection); the PM trimmed the size. Position -3.0% in 3 sessions, pending.",
+        "2026-10-27 MSM: the proposer called it a sector the account does not hold, but FAST is a held industrial MRO distributor; the PM halved the buy from $15 to $8 (MSM -0.3% on the day, pending).",
+        "2026-10-20 DPZ: its top-of-sector rank was partly an artifact of a wholesale-groceries mislabel, per the PM thesis (DPZ graded wrong at -1.35%, though not on this ground alone).",
+        "2026-10-28 INCY: the PM weighed Health Care overlap with IDXX (6.7% of equity, print about 11-02 after a second PT cut) as one sleeve when rejecting the buy. DPZ's Consumer Staples label is still a wholesale-groceries SIC artifact per the Fundamentals review.",
+        "2026-10-29 DPZ: the Fundamentals review again rests the thesis on absolute quality, not the Staples rank, and flags the label caveat for DPZ, FAST, MSM and MSCI. No new sector claim was made today.",
+        "2026-10-30: the PM counted WMT, DPZ and KR as about 26% Consumer Staples by label and used that as a reason not to add to them; the Fundamentals review repeats the label-stacking caveat. No new sector claim was made."
+      ],
+      "confidence": "low",
+      "added": "2026-10-27",
+      "last_confirmed": "2026-10-30",
+      "status": "active",
+      "retired_why": null
+    },
+    {
+      "id": "L4",
+      "lesson": "Before proposing a buy, check it against the Market Analyst's explicit preferences and say so in the thesis if it reverses one. Do not propose token-sized buys (about 1.5% of equity or less) justified only by asset-class diversification, and set the invalidation far enough from entry (not about 1%) that ordinary daily noise cannot trip it.",
+      "kind": "process",
+      "applies_to": ["proposer", "portfolio-manager"],
+      "evidence": [
+        "2026-10-29 VXUS $10 (1.7% of equity): the proposal reversed the Market Analyst's 'prefer US core over international' call (VXUS 21d -2.06%, 63d -1.03% vs SPY +4.39%), was a beta-1.12 equity fund (Implicator: 10% stress loss from -22.84 to -23.96, so no diversification), and its invalidation sat about 0.9% under entry. The Skeptic objected and the PM rejected it. This is a process check from the run files; the rejection's outcome is not graded and is not the evidence.",
+        "2026-10-30: the PM cited L4 for standing aside (a buy that keeps a 10% cash buffer would be about $9). Note the PM applied it to token size in general; the lesson itself is about token buys justified only by diversification. The Market Analyst's note also keeps the US-core preference (VXUS 21d -1.54%). Watch that L4 does not become a blanket reason to idle cash."
+      ],
+      "confidence": "low",
+      "added": "2026-10-29",
+      "last_confirmed": "2026-10-30",
+      "status": "active",
+      "retired_why": null
+    },
+    {
+      "id": "L5",
+      "lesson": "Review every held position on every run, including days with no trade: distance from price to the invalidation, earnings dates now inside the 5-day window versus what the thesis says, and thesis text that has gone stale. Where an invalidation clause is qualitative (e.g. 'exchange failure'), state in the reasoning whether it has tripped, and why. Write the re-anchored level or date into the decision reasoning rather than only flagging it.",
+      "kind": "process",
+      "applies_to": ["portfolio-manager", "proposer"],
+      "evidence": [
+        "2026-10-30 IDXX: the 10-20 thesis says earnings (11-02) are outside the 5-day window; the print is now one trading day out, the position fell 4.3% today with no news, and only the Skeptic's objection and the News Analyst's upcoming note brought the stale premise up. The PM did weigh it (stress loss about $3) and held knowingly; the thesis text is still stale.",
+        "2026-10-30 CARG: the thesis says earnings 11-05 are outside the window and invalidates on a negative surprise inside five trading days; the company confirmed 11-05 after the close (4 trading days out), so the clause is live on a 5.1% position (News Analyst broken_theses).",
+        "2026-10-30 BTC/USD: invalidation includes 'an exchange failure'; the record Binance hack (about $6.3B) arguably meets the wording and the News Analyst asked the PM to say explicitly whether it trips. The PM judged it contained (BTC about -3%, still within the 10% stop at about $75.3k, now about 2% away) but only in a closing review, not as a stated decision step.",
+        "2026-10-30 DPZ: invalidation anchored to the wrong close for 8 sessions (see L1); the PM raised it again without changing it. The common pattern across these four is held-position drift found by other agents rather than checked up front. This is a process lesson from the run files; none of these cases is a graded outcome."
+      ],
+      "confidence": "low",
+      "added": "2026-10-30",
+      "last_confirmed": "2026-10-30",
+      "status": "active",
+      "retired_why": null
+    }
+  ],
+  "owner_suggestions": [
+    {
+      "date": "2026-10-23",
+      "suggestion": "Give the News Analyst a way to read the body of 8-K items older than 7 days (or keep each flagged filing's items and headline in the news input until the next earnings date is confirmed). Agents cannot follow the 'read the filing' advice with the current inputs.",
+      "evidence": [
+        "SMG 8-K 5.02 filed 2026-10-16: flagged medium on 10-20, 10-21, 10-22 and 10-23 with 'input has no detail; read the filing before adding'.",
+        "RRC 8-K 2.02 filed 2026-10-14: earnings date unverified from 10-20 to 10-23; the filing aged out of the 7-day window on 10-22. RRC was proposed on 10-21 and rejected partly on this gap.",
+        "2026-10-26: SMG's 10-16 8-K 5.02 has aged out of the window with its detail never shown (flagged on 10-20, 10-21, 10-22, 10-23, 10-26). RRC's 10-14 8-K 2.02 is still unread.",
+        "2026-10-28: WMT's 10-23 8-K 8.01 is also unread (News Analyst sees item numbers only), and SMG's 5.02 is still unread with earnings confirmed for 11-04.",
+        "2026-10-29: WMT's 10-23 8-K 8.01 is still unread (News and Fundamentals reviews both list it as the open L2 item).",
+        "2026-10-30: WMT's 8-K 8.01 is still unread and ages out of the 7-day window; the News Analyst says no further action is possible from this input."
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "suggestion": "Add a step that lets the Portfolio Manager (or the orchestrator) amend the stored thesis and invalidation of a held position. L1 asks for re-anchoring, but the PM only writes decision and review files, so DPZ's $274.88 level has stayed at 13% below the fill for 8 sessions while every agent flags it. Until then a person could set DPZ's invalidation to about $285 and refresh the IDXX and CARG earnings-window text in state.",
+      "evidence": [
+        "2026-10-20 to 2026-10-30 DPZ: invalidation $274.88 vs $316.58 fill, flagged in PM, News and Fundamentals reviews on 10-26, 10-27, 10-28, 10-29 and 10-30.",
+        "2026-10-30 PM review: 'I flagged it again today without fixing it, because the PM only writes decision and review files.'",
+        "2026-10-30 IDXX and CARG thesis text still says earnings are outside the 5-day window; IDXX prints about 11-02 and CARG on 11-05."
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "suggestion": "Hypothesis to watch, not a rule: the account is 88% invested against the shadow book's 99%, and the shadow is +4.8% against the agent's +0.5% (SPY -1.4%). The gap mostly dates from the slower ramp-in (53% invested on 10-21) and from shadow holdings the agents did not buy (e.g. RRC, rejected 10-21). No 20-session grade exists yet for any of these calls, so this is not evidence for loosening any limit.",
+      "evidence": [
+        "2026-10-30 close.json performance: agent_return 0.00512, shadow_return 0.04818, spy_return -0.01404; agent_invested_pct 0.8827, shadow_invested_pct 0.9896.",
+        "2026-10-21 RRC rejected buy: 5-session vs_spy +0.3024 (graded 'wrong'); 20-session grade pending, and the 10-26 EQT acquisition bid was not foreseeable from the 10-21 inputs.",
+        "Scorecard: portfolio-manager 5-session hit rate 0.55 (11 right, 9 wrong), skeptic 0.357 (5 of 14), 20-session graded counts all 0; none has enough_data."
+      ]
+    }
+  ]
+}

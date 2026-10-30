@@ -1,0 +1,22 @@
+{
+  "summary": "Both proposals are small ($22 combined) and leave every cap intact; they lift the 10% market-drop loss only from about $22.48 to $23.06 and take cash from 13.4% to about 9.7% of equity. The main portfolio-level point is that the book is still equity-heavy (beta-weighted loss is about 3.8% of equity) and the INCY earnings date is unresolved.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "BND goes from $29.98 (5.0% of $599.54 equity) to about $39.98 (6.7%), well under the 15% cap. Bond ETFs together (BND + IEF $14.97) reach about $54.97, or 9.2% of equity, against zero gold. Asset-class mix after both buys: stocks about 56%, equity ETFs (VOO, VTI) about 23%, bond ETFs 9.2%, crypto 2.35% (cap 5%), cash about 9.7%.",
+      "overlap": "No stock overlap: BND holds investment-grade bonds, not equities. It overlaps in rate exposure with IEF (held, bought 10-26), so the book adds duration on the same Fed-decision day, but BND is the shortest-duration bond ETF (beta 0.123 versus IEF 0.125 and TLT 0.22 per portfolio.json), so the added rate risk is modest. It is a diversifier against the equity-heavy book rather than a new theme.",
+      "tax": "Buy only, no lot is sold. It opens a new short-term lot (long-term date about 2027-10-28) beside the existing 5-day-old lot at $71.28. Under FIFO a later partial sell would draw from the older lot first; both are short-term for a year, so there is no near-term tax cost to the buy.",
+      "wash_sale": "none: recent_realized is empty and buy_blocked is empty, so no loss sale in the past 30 days and BND is not blocked.",
+      "summary": "Fine: 6.7% weight, adds ballast, adds only about $0.12 to the 10% drop loss. Watch the same-day Fed risk on top of IEF."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "INCY at $12 is about 2.0% of equity, far under the 15% cap and under its $71.13 buy cap. Health Care after the buy: IDXX $40.39 + INCY $12 = $52.39, or 8.7% of equity, matching the proposer's figure. Largest single positions are unchanged: VOO 14.6% (buy cap $2.43, so any further VOO is blocked), WMT 11.7%, DPZ 10.6%. Consumer Staples (WMT, DPZ, KR) stays about 25.7% of equity and is the largest sector lean, but this trade does not add to it.",
+      "overlap": "Health Care is the only sector touched, and it is currently a single held name (IDXX, a veterinary diagnostics company). INCY is a drug developer with different economic drivers (L3 applied: label overlap is real, but economic exposure differs). VOO and VTI hold INCY at a small index weight, a negligible look-through. Treating the sleeve as 8.7% Health Care is a fair cap for overlap.",
+      "tax": "Buy only, no lot is sold. It opens a new short-term lot (long-term date about 2027-10-28). No tax consequence now.",
+      "wash_sale": "none: no INCY position or loss sale in recent_realized, and buy_blocked is empty.",
+      "summary": "Fine on weight and sector: 2.0% position, Health Care 8.7%. The open item is event risk, not concentration: news memory shows an approximate 10-27 earnings estimate with no 8-K 2.02 yet, so a gap on the print is possible (per L2 the date stays unresolved; the $12 size already allows for that)."
+    }
+  ],
+  "stress_10pct_drop": {"before_usd": -22.48, "after_usd": -23.06}
+}

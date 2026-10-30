@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-27",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "MSM",
+   "side": "buy",
+   "requested_usd": 8.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 8.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "8372b580-5cf7-4825-9821-2606541cb705",
+   "client_order_id": "at-20261027True-MSM-buy",
+   "order_status": "pending_new"
+  }
+ ]
+}

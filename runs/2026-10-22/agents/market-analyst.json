@@ -1,0 +1,32 @@
+{
+  "stance": "neutral",
+  "confidence": 0.58,
+  "summary": "The trend backdrop is healthy (SPY 6.89% above its 200-day, 20-day realized vol only 8.85%), but leadership is rotating away from tech and small caps while credit and bonds are soft. Keep normal appetite with a bias to defensive and broad-breadth exposure rather than adding aggressively to growth.",
+  "reasons": [
+    "Regime is on: SPY closed 773.09 vs 200-day SMA 723.23, 6.89% above; 63-day return +4.99%, but 21-day return is flat at -0.04%, so the advance has stalled.",
+    "Volatility is calm: SPY 20-day realized vol 8.85% vs 12.67% over 252 days; VIXY 21-day +1.03% and 63-day -23.55%, so no fear spike.",
+    "Breadth is improving under a flat index: RSP (equal weight) 5-day +2.15% and 21-day +1.80% vs SPY 21-day -0.04%.",
+    "Growth is the weak spot: QQQ 21-day -2.98%, XLK -3.94%, XLC -4.02% (XLC is 3.39% below its 200-day); XLK 5-day -0.99% and QQQ 5-day -0.51% show it is not yet turning.",
+    "Small caps are mixed: IWM 5-day +1.88% but 21-day -3.74%, 63-day -5.10%, and sitting at its 200-day (-0.17%).",
+    "Credit is softening: HYG 21-day -1.71% and 1.18% below its 200-day; LQD 21-day -1.37%, 2.58% below its 200-day. Not a stress signal, but it does not confirm risk-on.",
+    "Long yields have been rising over the month: TLT 21-day -1.45% (3.72% below its 200-day), IEF 21-day -0.68%, though TLT bounced 5-day +1.71%, so yields eased this week.",
+    "Gold is weak: GLD 21-day -5.28% and 8.61% below its 200-day, with a firmer dollar (UUP 21-day +1.54%, 3.79% above its 200-day) over the month; the dollar eased 5-day -0.69%.",
+    "Sector leadership is defensive plus energy: XLE 21-day +10.33% (63-day +15.47%), XLV +5.33%, XLP +5.29%; cyclicals XLI (21-day -1.15%, 63-day -7.24%) and XLRE (63-day -5.65%) lag."
+  ],
+  "sector_tilts": {
+    "favor": ["Energy", "Health Care", "Consumer Staples", "Financials"],
+    "avoid": ["Communication", "Technology", "Industrials", "Real Estate"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Broad US is fine: VOO 21-day -0.03%, 6.93% above its 200-day, vol 12.6%. Prefer VOO/VTI over QQQ (21-day -2.98%, vol 19.8%). International is weaker: VXUS 21-day -3.99%, VWO -4.78% and sitting on its 200-day (+0.02%), so not attractive. VNQ is risky: 63-day -6.49%, 1.66% below its 200-day.",
+    "bonds_gold": "Unattractive for now: BND 63-day -1.04% and 1.52% below its 200-day; IEF 63-day -1.80%; TLT 63-day -2.37% and the most rate-sensitive (vol 9.4%). Gold (GLD) fell 5.28% in 21 days and is 8.61% below its 200-day with 29.3% vol, so it is a falling knife rather than a hedge. Only short Treasuries (SHY, 21-day +0.26%) are holding value.",
+    "crypto": "Constructive but volatile: BTC 63-day +21.2%, 15.5% above its 200-day, 21-day +0.55%, vol 44%. ETH is weaker (21-day -7.93%, vol 61%) though still 14.8% above its 200-day. If used, size BTC small and ETH smaller."
+  },
+  "watch": [
+    "SPY closing below its 200-day SMA (723.23) would turn the regime filter off and flip the stance to risk-off.",
+    "Tech/growth stabilizing: QQQ and XLK 5-day returns turning positive would move the stance toward risk-on; a further drop in QQQ (21-day already -2.98%) toward its 200-day (+7.39% away) would lean risk-off.",
+    "Credit: HYG falling through its 200-day further or a 21-day drop beyond about -3% would signal stress.",
+    "A VIXY jump after the recent quiet (5-day +0.73%) or SPY realized vol rising well above its 12.7% yearly average.",
+    "Long yields: TLT making a new low (80.24 now, 3.72% below its 200-day) would pressure equities and REITs."
+  ]
+}

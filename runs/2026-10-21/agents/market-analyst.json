@@ -1,0 +1,31 @@
+{
+  "stance": "neutral",
+  "confidence": 0.62,
+  "summary": "The trend filter is intact (SPY 6.4% above its 200-day), but leadership has rotated away from technology and toward defensives and energy, and credit and long bonds are soft. That mix is a market under mild pressure rather than a breakdown, so keep normal-to-reduced appetite, avoid chasing tech and growth, and lean on defensive and value sectors.",
+  "reasons": [
+    "Regime is on: SPY closed 769.05 vs a 200-day average of 722.77, 6.4% above it, so the long-side filter is open and a risk-off call is not supported.",
+    "Short-term momentum is negative at the index level: SPY -1.15% over 5 days and -0.58% over 21 days, with realized volatility low (20-day 9.0% vs 12.7% over 252 days), which looks like a quiet pullback rather than panic.",
+    "Growth is the weak spot: QQQ -3.49% over 5 days and -3.22% over 21 days, XLK -5.52% (5d) and -4.83% (21d), XLC -1.86% (5d) and -3.97% (21d). Technology is still 10.6% above its 200-day, so this is a pullback inside an uptrend.",
+    "Breadth is better than the cap-weighted index suggests: equal-weight RSP is +1.20% over 5 days and +1.50% over 21 days, against SPY -1.15% and -0.58%. The decline is concentrated in mega-cap tech, not broad.",
+    "Small caps remain a laggard: IWM is -3.43% over 21 days, -5.88% over 63 days and sits 0.37% below its 200-day average, which argues against a full risk-on call.",
+    "Defensive rotation is visible: Health Care +5.99% (5d), Consumer Staples +4.23% (5d, +7.12% over 21d), while Industrials (-1.11% 5d, -6.49% 63d) and Communication lag. Energy leads the 21-day ranking at +8.82% and is 18.8% above its 200-day.",
+    "Credit is not confirming risk appetite: HYG -1.91% and LQD -1.36% over 21 days, with HYG 1.37% and LQD 2.58% below their 200-day averages.",
+    "Long yields look elevated: TLT is -1.64% over 21 days and -2.83% over 63 days, 3.88% below its 200-day average, though it bounced +2.25% over the last 5 days. VIXY is +5.24% over 5 days, a modest rise in hedging demand (its -18.6% 63-day move is mostly decay)."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Consumer Staples", "Energy"],
+    "avoid": ["Technology", "Communication", "Industrials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Broad US (VOO +6.4% above 200-day, 21d -0.58%) is fine to hold but not to add aggressively. QQQ (21d -3.22%, vol 19.8%) is the riskiest large sleeve right now. VXUS (21d -3.91%) and VWO (21d -4.73%) are weaker than US and only 1.1% and 0.2% above their 200-day averages. VNQ is weak (63d -6.0%, 0.78% below 200-day). Equal-weight exposure looks relatively better than cap-weighted.",
+    "bonds_gold": "Not a clean haven. BND (21d -0.56%), IEF (-0.65%) and TLT (-1.64%) are all below their 200-day averages, so duration has not been protecting. Short Treasuries (SHY +0.31% 21d, 0.3% above 200-day) are the stable parking spot. Gold is weak: GLD 21d -5.2% and 8.95% below its 200-day, so no support as a hedge yet.",
+    "crypto": "Trend still positive but volatile: BTC 63d +28.2%, 14.2% above its 200-day, 21d -0.82%, annualized vol 44%. ETH is weaker, 21d -8.58% with vol 61%, despite 63d +27.7%. Treat as high-risk; if used, size small and prefer BTC to ETH."
+  },
+  "watch": [
+    "SPY closing below its 200-day (722.77) would turn the regime filter off and flip this to risk-off.",
+    "QQQ and XLK stabilizing (5-day returns turning positive) would argue for upgrading to risk-on; a further leg down, e.g. XLK sliding toward its 200-day, would argue for downgrading.",
+    "Credit: HYG falling further below its 200-day (now -1.37%) or a sharp VIXY spike would signal stress spreading.",
+    "Long-end rates: TLT making new lows (more than 3.88% below its 200-day) would pressure growth, REITs and bonds together.",
+    "RSP breadth rolling over (5-day turning negative) would remove the main support for the neutral call."
+  ]
+}

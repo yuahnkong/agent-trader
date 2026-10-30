@@ -1,0 +1,15 @@
+{
+  "summary": "The account is already about 88% invested with cash at $70.42 (11.7%), so only about $10 is deployable before the 10% buffer is reached. I propose one small VXUS buy for international diversification and hold everything else; the Alphabet drop, hawkish Fed hold and 10-year near 5% argue against adding growth, bonds or crypto today.",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "VXUS",
+      "side": "buy",
+      "notional_usd": 10.0,
+      "fraction": null,
+      "thesis": "The account holds no international exposure, and the strategy asks for spread across asset classes. The market-analyst note rates VXUS weak (21d -2.06%) but it still sits 0.87% above its 200-day, so the trend is not broken; it prefers US core, hence a small starter size that only uses cash above the 10% buffer. The news-analyst reports no VXUS-specific event (low risk), and the ETF has no earnings or filing date to verify (L2). Dollar strength (UUP) is a headwind I am accepting for diversification; I am deliberately not adding to VOO/VTI (already 14.4% and 8.3% of equity, correlated with each other) or to QQQ (Alphabet -11% premarket, 21d -1.67%).",
+      "invalidation": "VXUS closes below its 200-day average (about $83.0, roughly 0.9% under the $83.75 reference close; anchored to the expected fill per L1) or falls more than 6% below the fill, which would end the not-broken-trend premise.",
+      "sources": ["market-analyst", "news-analyst"]
+    }
+  ]
+}

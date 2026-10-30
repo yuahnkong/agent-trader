@@ -1,0 +1,38 @@
+{
+  "summary": "All four buys fit the 15% cap and need no sells, so there is no tax or wash-sale issue. The portfolio-level concerns are Consumer Staples rising from about 22.5% to about 28.4% of equity (KR on top of WMT and DPZ) and VTI stacking onto VOO, which takes US broad-market ETFs from about 14.1% to about 19.1%. Beta-based stress loss on a 10% market drop goes from $16.21 to about $18.84.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "KR $35 would be about 5.8% of equity, well under the 15% cap ($80.16 buy cap). Consumer Staples (WMT $70.65 and DPZ $64.25, using the fundamentals sector for DPZ) is about $134.90, 22.5% of equity today, and becomes about $169.9, 28.4%, after the buy. That makes staples the largest sector by a wide margin.",
+      "overlap": "KR is a grocery and big-box food retailer like WMT (11.8% of equity), so the two share the same consumer-spending and food-price drivers. The 10-17 grocery-chain cyber incident is unattributed and could hit KR and WMT together. Net effect is more of a theme the book already leans on.",
+      "tax": "Buy only, so no lots are sold and no tax is triggered. The new lot starts short-term and becomes long-term one year after the fill.",
+      "wash_sale": "none",
+      "summary": "Fits the cap and lowers stress loss (about +$2.40 from KR's negative beta), but pushes staples to about 28% and doubles up on WMT's theme. Consider a smaller size or accept the tilt knowingly. The beta benefit is a statistical estimate and may not hold in a real selloff."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "MSCI $30 would be about 5.0% of equity, under the 15% cap ($78.34 buy cap). The fundamentals file tags it Industrials, where the book has no other holding, so sector weight goes from 0% to about 5.0%. If treated as Financials, as the proposer does, it is the only financial name in the book.",
+      "overlap": "Low. MSCI is an index and analytics provider, not in the portfolio's current positions. It is a large holding inside VOO and VTI, but a small weight there, so overlap is negligible.",
+      "tax": "Buy only, so no lots are sold and no tax is triggered. The new lot starts short-term.",
+      "wash_sale": "none",
+      "summary": "Clean from a portfolio view: it adds a new sector at low beta (0.34), cutting stress loss by about $1.02 for $30. Already priced for the post-print move, which is a Skeptic matter, not a portfolio one."
+    },
+    {
+      "proposal_id": "P3",
+      "concentration": "VTI $30 would take the position from $24.83 to $54.83, about 9.2% of equity, under the 15% cap ($65.04 buy cap, so this uses most of the remaining room). Combined with VOO ($59.71), US broad-market ETFs go from $84.53 (14.1%) to $114.53 (19.1%), above any single-name cap although the cap applies per position.",
+      "overlap": "VTI and VOO hold largely the same large-cap US names, so the add is mostly more of the same exposure with a small tilt to mid and small caps. It also overlaps with single stocks that VOO and VTI already hold: MSCI, WMT, KR, FAST, IDXX and CARG (CARG only in VTI). Net equity beta is raised: VTI has beta 1.01, the highest of the four.",
+      "tax": "Buy only, so no lots are sold and no tax is triggered. It adds a second VTI lot, opened 10-22, to the 10-21 lot.",
+      "wash_sale": "none",
+      "summary": "Within limits but the largest single stress contributor (about -$3.04 for $30) and largely duplicates VOO. Acceptable as the idle-cash default, but it makes the book more index-heavy rather than more diversified."
+    },
+    {
+      "proposal_id": "P4",
+      "concentration": "CARG $20 would take the position from $14.84 to $34.84, about 5.8% of equity, under the 15% cap ($45.04 buy cap). It would be the only Technology holding, which makes Technology about 5.8% of equity.",
+      "overlap": "Low with the existing book (an online auto marketplace, no direct overlap with staples or ETFs apart from a small weight inside VTI). The position was opened on 10-21, so this is averaging up or down on a one-day-old holding, which concentrates the entry risk on two days of price.",
+      "tax": "Buy only, so no lots are sold and no tax is triggered. The new lot is short-term and sits beside the 10-21 lot (cost $31.50).",
+      "wash_sale": "none",
+      "summary": "Fits the cap and adds a small stress loss (about -$0.98). Vol of 0.39 is near the cutoff, so keep it small. Adding on day two means the stop and review should treat the combined position, not just the new lot."
+    }
+  ],
+  "stress_10pct_drop": {"before_usd": 16.21, "after_usd": 18.84}
+}

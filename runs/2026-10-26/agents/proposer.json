@@ -1,0 +1,45 @@
+{
+  "summary": "Cash is 20.9% of equity against a roughly 10% target, so I deploy about $60 across four buys: a Treasury ETF, two broad US ETFs and one more VRSN. I skip the stocks reporting this week, RRC (now a merger-arbitrage name), international, gold and crypto.",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "IEF",
+      "side": "buy",
+      "notional_usd": 20.0,
+      "fraction": null,
+      "thesis": "Market-analyst prefers IEF/BND over TLT as a tactical bond add: IEF 21d +1.87% at 4.97% vol, and bonds diversify a book that is about 79% invested and tilted to stocks with only BND (5%) as a bond sleeve. News-analyst rates IEF medium risk because of the Fed meeting this week, so I keep the size small.",
+      "invalidation": "IEF closes below 89.5 (about 1.7% under the 91.05 reference, measured against the actual fill per L1), or the Fed meeting delivers a hike that pushes the 10-year back above 5.14%.",
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "VOO",
+      "side": "buy",
+      "notional_usd": 15.0,
+      "fraction": null,
+      "thesis": "Market-analyst: regime is on (SPY +4.97% over its 200-day) and broad US is acceptable, while QQQ and international are the risky sleeves. VOO is the default use for cash with no better home. News-analyst flags medium index risk (Fed, oil, AI-capex worries), so I add a moderate amount near the VOO cap of 15.57.",
+      "invalidation": "SPY closes below its 200-day average (723.99), which also turns the code regime filter off, or RSP turns negative on the 21-day return, showing the correction broadening.",
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P3",
+      "symbol": "VRSN",
+      "side": "buy",
+      "notional_usd": 15.0,
+      "fraction": null,
+      "thesis": "Fundamentals-analyst ranks VRSN first on the menu: 9/9 F-score, gross profitability 1.10, cash flow $1.09B against net income $826M. News-analyst confirms the earnings event is resolved (Q3 reported 10-22, next estimate 2027-02-04, so L2 is satisfied) and the sell side is following through (Wedbush PT $367, Citi $345). Beta is about 0.02, so it adds little market risk. This adds to the 10-23 position, which is up 3.6%, rather than opening a new name.",
+      "invalidation": "VRSN closes below 275 (about 8% under the 10-23 fill of 292.23), or a later filing or sell-side revision shows the 10-22 guide raise was reversed.",
+      "sources": ["fundamentals-analyst", "news-analyst"]
+    },
+    {
+      "id": "P4",
+      "symbol": "VTI",
+      "side": "buy",
+      "notional_usd": 10.0,
+      "fraction": null,
+      "thesis": "Market-analyst calls VTI acceptable (+4.54% over its 200-day, 21d -1.09%). It adds small- and mid-cap breadth beyond VOO, and breadth is the stronger part of this tape (RSP 21d +2.99%). News-analyst notes no VTI-specific event. I keep it small because US equity is already about 26% of the book.",
+      "invalidation": "VTI closes below its 200-day average, or IWM falls further below its own 200-day (currently -0.51%), which would mean the breadth support has failed.",
+      "sources": ["market-analyst", "news-analyst"]
+    }
+  ]
+}

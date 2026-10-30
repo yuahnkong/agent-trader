@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-26",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "IEF",
+   "side": "buy",
+   "requested_usd": 15.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 15.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "16ed8c3d-c8f5-4944-b432-8d86611aed02",
+   "client_order_id": "at-20261026True-IEF-buy",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "VOO",
+   "side": "buy",
+   "requested_usd": 12.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 12.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "eb630f0f-bc02-469d-9bd3-3b000cc9e23e",
+   "client_order_id": "at-20261026True-VOO-buy",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "VRSN",
+   "side": "buy",
+   "requested_usd": 10.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 10.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "bac3abb8-8bd6-422c-a81a-d048ec23a25d",
+   "client_order_id": "at-20261026True-VRSN-buy",
+   "order_status": "pending_new"
+  }
+ ]
+}

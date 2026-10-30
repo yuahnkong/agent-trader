@@ -1,0 +1,35 @@
+{
+  "summary": "Use the three remaining slots to keep building toward ~85% invested: a broad VOO core, a defensive staples name (WMT) in line with the market analyst's rotation call, and a smaller position in top-ranked CARG for fundamental edge. This takes the account from ~17% to ~54% invested; no sells, since the morning's DPZ and IDXX lots are hours old.",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "VOO",
+      "side": "buy",
+      "notional_usd": 90.0,
+      "fraction": null,
+      "thesis": "Default home for idle cash. The market analyst calls the long-term regime intact (SPY 6.1% above its 200-day, 63-day +2.69%) and judges broad US equity acceptable at moderate size, while QQQ, international and REITs look weaker. VOO gives diversified US exposure the stock screen cannot.",
+      "invalidation": "SPY closes within 2% of its 200-day SMA (below ~736.8) or HYG weakness spreads enough for the market analyst to move to risk-off.",
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "WMT",
+      "side": "buy",
+      "notional_usd": 80.0,
+      "fraction": null,
+      "thesis": "Consumer Staples is a favored sector (XLP +3.32% 5d / +6.02% 21d). The news analyst reports positive sentiment (Deutsche Bank upgrade, Evercore PT $130, BofA Buy on the ad business) and no earnings until ~11-19. Beta of -0.09 hedges the equity sleeve. Fundamentals: F-score 7, gp_sector_pct 0.865, low vol (0.263), no red flags.",
+      "invalidation": "XLP gives back its 21-day gain (turns negative over 21 days) while the broad market holds, or WMT cuts guidance or reports a miss at its ~11-19 earnings.",
+      "sources": ["market-analyst", "news-analyst", "fundamentals-analyst"]
+    },
+    {
+      "id": "P3",
+      "symbol": "CARG",
+      "side": "buy",
+      "notional_usd": 50.0,
+      "fraction": null,
+      "thesis": "Ranked #3 by the fundamentals analyst: gp_sector_pct 1.0 (gross profitability 1.27), F-score 8, and CFO of $295M is nearly double net income of $156M. The news analyst lists no near-term event or headline. It carries a Technology label, a sector the market analyst would avoid, so it is sized below its cap ($59.97). Its beta (0.50) and business (an auto marketplace) have little to do with the AI/semis selloff driving XLK.",
+      "invalidation": "CARG falls more than 12% below entry before its next earnings, or its next 10-Q shows CFO falling below net income or an F-score drop to 6 or lower.",
+      "sources": ["fundamentals-analyst", "market-analyst"]
+    }
+  ]
+}
