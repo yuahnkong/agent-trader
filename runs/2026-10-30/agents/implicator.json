@@ -1,0 +1,5 @@
+{
+  "summary": "The Proposer made no proposals, so nothing changes and the estimated 10% market-drop loss stays at $22.64 (3.7% of $608.79 equity). Existing concerns: Consumer Staples (WMT, DPZ, KR) is about 26% of equity by the fundamentals labels, VOO is 14.2% against the 15% cap with VTI overlapping it, and IDXX and CLX carry a Monday earnings cluster.",
+  "checks": [],
+  "stress_10pct_drop": {"before_usd": 22.64, "after_usd": 22.64}
+}
