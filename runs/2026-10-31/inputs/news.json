@@ -1,0 +1,2656 @@
+{
+ "window_hours": 72,
+ "headlines": [
+  {
+   "id": 109720215,
+   "created_at": "2026-10-31T13:02:35Z",
+   "headline": "MSCI Maintains Regular Trading Hours Closing Prices for Index Calculation",
+   "summary": "MSCI has announced it will continue to use regular trading hours closing prices for its index calculations, notwithstanding recent updates to trading extensions on Nasdaq and NYSE ARCA.",
+   "symbols": [
+    "MSCI"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/ICE-US/news?chain_id=Name1K9-3FXPhg.1le5340&global_content=%7B%22promote_id%22%3A11927,%22sub_promote_id%22%3A45,%22f%22%3A%22www.moomoo.com%2Fau%2Flearn%2Foracle-of-omaha-warren-buffett-roe-20-is-preferable%22%7D"
+  },
+  {
+   "id": 62763126,
+   "created_at": "2026-10-31T04:15:31Z",
+   "headline": "Trump Reveals US Probing $6.3 Billion Binance Crypto Hack As North Korea-Linked Hackers Come Under Suspicion, Says Exchange Told Officials Situation Is \u2018Pretty Much Under Control\u2019",
+   "summary": "Trump says his administration is investigating Binance\u2019s $6.3 billion crypto hack as North Korean hackers face suspicion.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/26/10/62763126/trump-investigates-6-3-billion-binance-crypto-hack"
+  },
+  {
+   "id": 109629297,
+   "created_at": "2026-10-31T00:01:54Z",
+   "headline": "Department of Labor Finalizes PBM Transparency Regulation",
+   "summary": "The U.S. Department of Labor has finalized a new rule requiring pharmacy benefit managers (PBMs), including CVS Health's Caremark, to disclose detailed pricing, rebates, and compensation to self-insured employer clients.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://ground.news/article/new-federal-rule-requires-drug-intermediaries-to-disclose-how-theyre-paid"
+  },
+  {
+   "id": 109629293,
+   "created_at": "2026-10-31T00:01:24Z",
+   "headline": "Bank of America Lowers Fiscal 2027 iPhone Forecast for Apple",
+   "summary": "Bank of America has reduced its fiscal 2027 iPhone shipment forecast for Apple by nine million units, citing staggered product launches and rising costs.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:e2f8b7067094b:0-bank-of-america-delivers-stark-warning-on-apple-stock-ahead-of-earnings/"
+  },
+  {
+   "id": 62761507,
+   "created_at": "2026-10-30T22:15:44Z",
+   "headline": "Here's How Much $100 Invested In SPDR Gold Shares 5 Years Ago Would Be Worth Today",
+   "summary": "SPDR Gold Shares (NYSE:GLD) has outperformed the market over the past 5 years by 5.96% on an annualized basis producing an average annual return of 16.31%. Currently, SPDR Gold Shares has a market capitalization of",
+   "symbols": [
+    "GLD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62761507/here-s-how-much-100-invested-spdr-gold-shares-5-years-ago-would-be-worth-today"
+  },
+  {
+   "id": 109365750,
+   "created_at": "2026-10-30T22:02:11Z",
+   "headline": "Domino's Lowers Fiscal 2026 Growth Outlook Amid Franchisee and International Challenges",
+   "summary": "Domino's Pizza, Inc. has lowered its fiscal 2026 U.S. net store opening target and full-year operating income growth expectations, citing pressure on franchisee profitability and international market headwinds.",
+   "symbols": [
+    "DPZ"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/zacks:e7a7e6f9e094b:0-starbucks-vs-domino-s-which-restaurant-stock-is-the-better-buy/"
+  },
+  {
+   "id": 109365710,
+   "created_at": "2026-10-30T22:01:57Z",
+   "headline": "Analyst Rating and Price Target Updates for Exelixis, Inc.",
+   "summary": "Several financial institutions, including TD Cowen, Barclays, and Truist Securities, updated their ratings and price targets for Exelixis, Inc. on October 30, 2026.",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:af1ed9d576286:0-td-cowen-maintains-exelixis-at-buy-raises-price-target-to-76-from-55/"
+  },
+  {
+   "id": 109363595,
+   "created_at": "2026-10-30T22:01:52Z",
+   "headline": "Analysts Downgrade Instacart Following DoorDash Acquisition Announcement",
+   "summary": "Multiple financial firms downgraded Instacart's stock rating following the announcement of its pending acquisition by DoorDash.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:3896bdf71094b:0-doordash-s-17b-instacart-deal-draws-significant-street-attention-a-look-at-what-analysts-have-to-say/"
+  },
+  {
+   "id": 109363578,
+   "created_at": "2026-10-30T22:01:41Z",
+   "headline": "MSCI to Announce Index Exclusion Rules for Strategy Inc.",
+   "summary": "MSCI has scheduled an announcement for November 11 regarding firms flagged for potential exclusion from its indices under new rules, with Strategy Inc. (MSTR) identified as a candidate for removal.",
+   "symbols": [
+    "MSCI"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:90e3826dabadf:0-key-facts-mstr-21b-op-income-848-517-btc-2-8b-passive-sell/"
+  },
+  {
+   "id": 62761302,
+   "created_at": "2026-10-30T22:00:07Z",
+   "headline": "Bitcoin\u2019s Q4 Selloff Could End Quickly, Analyst Says: \u2018This Is the Bottoming Window\u2019",
+   "summary": "Bitcoin\u2019s Q4 selloff may end within days or weeks, Cowen says, calling the current cycle a historical bottoming window.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62761302/bitcoins-q4-selloff-could-end-quickly-analyst-says-this-is-the-bottoming-window"
+  },
+  {
+   "id": 109305593,
+   "created_at": "2026-10-30T21:32:56Z",
+   "headline": "Financial Institutions Adjust Price Targets for Howmet Aerospace",
+   "summary": "Following the company's third-quarter earnings report, multiple financial institutions including JPMorgan, UBS, and Susquehanna adjusted their price targets for Howmet Aerospace.",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-howmet-aerospace-to-285-from-350-ce785fdbde8cff25"
+  },
+  {
+   "id": 109303471,
+   "created_at": "2026-10-30T21:32:08Z",
+   "headline": "Moody's Ratings CEO Michael L. West Sells Shares Worth Over $4.8 Million",
+   "summary": "Michael L. West, an officer and CEO of Moody's Ratings, sold 9,946 shares of Moody's Corporation common stock in a series of transactions.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:5eccb040819d8:0-moody-s-ceo-moody-s-ratings-sold-shares-worth-over-4-8m/"
+  },
+  {
+   "id": 62760760,
+   "created_at": "2026-10-30T21:16:38Z",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Drop 5% After Liquidations Top $1.5 Billion",
+   "summary": "Bitcoin fell 5% to $77,000 as Binance hack fears triggered $1.65B in liquidations; analysts expect near-term weakness but no FTX-style collapse.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62760760/bitcoin-ethereum-xrp-dogecoin-drop-5-after-liquidations-top-1-5-billion"
+  },
+  {
+   "id": 62760190,
+   "created_at": "2026-10-30T20:55:28Z",
+   "headline": "Alphabet Posts Worst Week Since 2011, Intel Suffers Record Crash as Warsh Sees 'Cracks': This Week on Wall Street",
+   "summary": "Alphabet logs its worst week since 2011 and Intel its worst day ever as the AI trade cracks, while health care posts a record month against the market.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62760190/alphabet-worst-week-since-2011-intel-record-crash-warsh-cracks-this-week-on-wall-street"
+  },
+  {
+   "id": 62760079,
+   "created_at": "2026-10-30T20:50:01Z",
+   "headline": "BTIG Suspends Buy Rating on IDEXX Laboratories",
+   "summary": "",
+   "symbols": [
+    "IDXX"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62760079/btig-suspends-buy-rating-idexx-laboratories"
+  },
+  {
+   "id": 109187186,
+   "created_at": "2026-10-30T20:32:14Z",
+   "headline": "Analysts Update Price Targets for Cheniere Energy Following Third-Quarter Results",
+   "summary": "Following the release of third-quarter 2026 financial results, multiple financial institutions, including Morgan Stanley and Wells Fargo, updated their ratings and price targets for Cheniere Energy.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:041711c2fdf30:0-wells-fargo-maintains-cheniere-energy-at-overweight-raises-price-target-to-374-from-335/"
+  },
+  {
+   "id": 62759484,
+   "created_at": "2026-10-30T20:30:43Z",
+   "headline": "If You Invested $100 In BeOne Medicines Stock 10 Years Ago, You Would Have This Much Today",
+   "summary": "BeOne Medicines (NASDAQ:ONC) has outperformed the market over the past 10 years by 14.31% on an annualized basis producing an average annual return of 28.04%. Currently, BeOne Medicines has a market capitalization of",
+   "symbols": [
+    "ONC"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62759484/if-you-invested-100-beone-medicines-stock-10-years-ago-you-would-have-much-today"
+  },
+  {
+   "id": 62758249,
+   "created_at": "2026-10-30T20:00:39Z",
+   "headline": "Binance Says Tech Team Targets To Start Resuming The Withdrawal Service Within Approximately 34 Hours",
+   "summary": "",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/cryptocurrency/26/10/62758249/binance-says-tech-team-targets-start-resuming-withdrawal-service-within-approximately-34-hours"
+  },
+  {
+   "id": 109015738,
+   "created_at": "2026-10-30T19:01:45Z",
+   "headline": "Walmart Announces Strategic Investment in Base Power",
+   "summary": "Walmart has made a strategic investment in Texas-based energy company Base Power and will offer its home battery systems to customers and Sam's Club members.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/energy"
+  },
+  {
+   "id": 62755851,
+   "created_at": "2026-10-30T18:53:36Z",
+   "headline": "TD Cowen Maintains Buy on Exelixis, Raises Price Target to $76",
+   "summary": "",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62755851/td-cowen-maintains-buy-exelixis-raises-price-target-76"
+  },
+  {
+   "id": 62755683,
+   "created_at": "2026-10-30T18:48:29Z",
+   "headline": "Gold Prices Reset to December Levels: Is This a Buying Opportunity for Gold ETFs?",
+   "summary": "Gold prices have erased their rally premium as gold ETFs attract fresh inflows. Are GLD, IAU and GDX positioned for a 2027 rebound?",
+   "symbols": [
+    "GLD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62755683/gold-prices-reset-to-december-levels-is-this-a-buying-opportunity-for-gold-etfs"
+  },
+  {
+   "id": 62753396,
+   "created_at": "2026-10-30T18:03:27Z",
+   "headline": "Morgan Stanley Maintains Equal-Weight on Exelixis, Raises Price Target to $60",
+   "summary": "",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62753396/morgan-stanley-maintains-equal-weight-exelixis-raises-price-target-60"
+  },
+  {
+   "id": 108904752,
+   "created_at": "2026-10-30T18:02:49Z",
+   "headline": "Barclays Raises Price Target for Exelixis, Inc.",
+   "summary": "Barclays increased its price target for Exelixis, Inc. to $54.00 from $49.00 following the company's recent financial disclosures.",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1002971165/premarket-snapshot"
+  },
+  {
+   "id": 62753343,
+   "created_at": "2026-10-30T18:02:35Z",
+   "headline": "Bernstein Downgrades Maplebear to Market Perform, Raises Price Target to $65",
+   "summary": "",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62753343/bernstein-downgrades-maplebear-market-perform-raises-price-target-65"
+  },
+  {
+   "id": 108902794,
+   "created_at": "2026-10-30T18:02:12Z",
+   "headline": "Halper Sadeh LLC Investigates Range Resources Corporation Regarding Proposed Sale to EQT Corporation",
+   "summary": "Investor rights law firm Halper Sadeh LLC has launched an investigation into the potential sale of Range Resources Corporation to EQT Corporation, citing concerns over the fairness of the transaction for shareholders.",
+   "symbols": [
+    "RRC"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/are-sgry-rrc-pag-obtaining-fair-deals-for-their-shareholders-302924838.html"
+  },
+  {
+   "id": 108902792,
+   "created_at": "2026-10-30T18:02:11Z",
+   "headline": "JPMorgan Adjusts Price Target on Howmet Aerospace to $285 From $350",
+   "summary": "JPMorgan has revised its price target for Howmet Aerospace, lowering it from $350 to $285.",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-howmet-aerospace-to-285-from-350-ce785fdbde8cff25"
+  },
+  {
+   "id": 108901046,
+   "created_at": "2026-10-30T18:01:33Z",
+   "headline": "Apple Acquires Data-Management Startup Ascend.io",
+   "summary": "Apple has acquired Ascension Labs, also known as Ascend.io, a company specializing in software for automating and managing data pipelines.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:dbd81b23a094b:0-apple-acquires-agentic-platform-ascension-labs/"
+  },
+  {
+   "id": 108901045,
+   "created_at": "2026-10-30T18:01:33Z",
+   "headline": "Trial Date Set for Apple's Trade Secret Lawsuit Against OpenAI",
+   "summary": "A US federal judge has scheduled the trial for Apple's trade secret theft lawsuit against OpenAI and former employees for July 19, 2027.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.techdogs.com/tech-news/td-newsdesk/apple-and-openai-trade-secrets-lawsuit-heads-to-trial-on-july-19-2027"
+  },
+  {
+   "id": 62753276,
+   "created_at": "2026-10-30T18:01:25Z",
+   "headline": "Why Is Galaxy Digital Stock Falling Friday?",
+   "summary": "Galaxy Digital (GLXY) falls 12% amid a Bitcoin slide and Binance\u2019s $6.3B breach. Explore technical trends and Wall Street price forecasts.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62753276/why-is-galaxy-digital-stock-falling-friday"
+  },
+  {
+   "id": 62753006,
+   "created_at": "2026-10-30T17:56:14Z",
+   "headline": "Morgan Stanley Maintains Overweight on Cheniere Energy, Raises Price Target to $322",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62753006/morgan-stanley-maintains-overweight-cheniere-energy-raises-price-target-322"
+  },
+  {
+   "id": 62752783,
+   "created_at": "2026-10-30T17:52:33Z",
+   "headline": "Why Is IREN Stock Falling on Friday?",
+   "summary": "IREN stock falls Friday following earnings reports from Amazon and Intel and cloud spending updates from Microsoft and Alphabet.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62752783/why-is-iren-stock-falling-on-friday-2"
+  },
+  {
+   "id": 62750794,
+   "created_at": "2026-10-30T17:10:35Z",
+   "headline": "BNP Paribas Maintains Outperform on Howmet Aerospace, Lowers Price Target to $250",
+   "summary": "",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62750794/bnp-paribas-maintains-outperform-howmet-aerospace-lowers-price-target-250"
+  },
+  {
+   "id": 62750549,
+   "created_at": "2026-10-30T17:05:05Z",
+   "headline": "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
+   "summary": "Intel nears its worst day on record after weak guidance, sinking chip stocks as SMH falls 7.0% and the Nasdaq 100 drops 3.2%.",
+   "symbols": [
+    "AAPL",
+    "BTC/USD",
+    "QQQ",
+    "VOO"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62750549/stock-market-today-intel-worst-day-on-record-chip-stocks-nasdaq"
+  },
+  {
+   "id": 62750451,
+   "created_at": "2026-10-30T17:03:47Z",
+   "headline": "Walmart And Base Power Announce A Strategic Agreement To Bring Affordable Home Backup Power And Energy Savings To Customers",
+   "summary": "",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62750451/walmart-and-base-power-announce-strategic-agreement-bring-affordable-home-backup-power-and-energy-sa"
+  },
+  {
+   "id": 62750264,
+   "created_at": "2026-10-30T17:00:09Z",
+   "headline": "Binance\u2019s Teng Says \u2018Your Assets Are Safe,\u2019 Targets Withdrawals Within 40 Hours",
+   "summary": "Binance reserves $6.34 billion to cover hack losses as Richard Teng targets fully restoring withdrawals within 40 hours.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62750264/binances-teng-says-your-assets-are-safe-targets-withdrawals-within-40-hours"
+  },
+  {
+   "id": 62749679,
+   "created_at": "2026-10-30T16:49:59Z",
+   "headline": "Deal Dispatch: DoorDash Buys Instacart For $17B, Thrive Holdings Acquires ADT, SalesForce Nabs Rune Technologies",
+   "summary": "Major M&amp;A deals this week include: Blue Matter buys Cognite, RadNet acquires ONRAD, Oak Hill Capital buys Wyyerd.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/10/62749679/deal-dispatch-doordash-buys-instacart-for-17b-thrive-holdings-acquires-adt-salesforce-nabs-rune-technologies"
+  },
+  {
+   "id": 62749414,
+   "created_at": "2026-10-30T16:45:02Z",
+   "headline": "Wells Fargo Maintains Equal-Weight on Incyte, Lowers Price Target to $127",
+   "summary": "",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62749414/wells-fargo-maintains-equal-weight-incyte-lowers-price-target-127"
+  },
+  {
+   "id": 62749378,
+   "created_at": "2026-10-30T16:44:11Z",
+   "headline": "Intel\u2019s Agentic AI Overshadowed By Weak PC Sales; Soft Retail Overshadows Amazon AI; Record Crypto Heist",
+   "summary": "\n\n\n\nTreacherous Side Of The AI Trade\n\n\n\nPlease click here for an enlarged chart of Intel Corp (NASDAQ:INTC).\n\n\n\nNote the following:\n\n\n\n\nThis article is about the big picture, not an individual stock.\u00a0 The chart of INTC",
+   "symbols": [
+    "AAPL",
+    "BTC/USD",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/10/62749378/weak-pc-sales-overshadow-intel-agentic-ai-soft-retail-overshadows-amazon-ai-record-crypto-heist"
+  },
+  {
+   "id": 62749134,
+   "created_at": "2026-10-30T16:39:43Z",
+   "headline": "Bitcoin, Ethereum, XRP Plunge 4%: A Dip Worth Buying?",
+   "summary": "Bitcoin, Ethereum and XRP fell 4% after a potential Binance breach. Analyst sees BTC support at $73K, ETH at $2K, while XRP may drop to $1.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62749134/bitcoin-ethereum-xrp-plunge-4-a-dip-worth-buying"
+  },
+  {
+   "id": 62748088,
+   "created_at": "2026-10-30T16:18:19Z",
+   "headline": "RBC Capital Maintains Sector Perform on Incyte, Raises Price Target to $117",
+   "summary": "",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62748088/rbc-capital-maintains-sector-perform-incyte-raises-price-target-117"
+  },
+  {
+   "id": 62747992,
+   "created_at": "2026-10-30T16:16:15Z",
+   "headline": "Wells Fargo Maintains Overweight on Cheniere Energy, Raises Price Target to $374",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62747992/wells-fargo-maintains-overweight-cheniere-energy-raises-price-target-374"
+  },
+  {
+   "id": 62747579,
+   "created_at": "2026-10-30T16:07:40Z",
+   "headline": "RBC Capital Maintains Sector Perform on Exelixis, Raises Price Target to $58",
+   "summary": "",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62747579/rbc-capital-maintains-sector-perform-exelixis-raises-price-target-58"
+  },
+  {
+   "id": 62747540,
+   "created_at": "2026-10-30T16:06:52Z",
+   "headline": "Truist Securities Maintains Hold on Exelixis, Raises Price Target to $60",
+   "summary": "",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62747540/truist-securities-maintains-hold-exelixis-raises-price-target-60"
+  },
+  {
+   "id": 62746876,
+   "created_at": "2026-10-30T15:55:03Z",
+   "headline": "The U.S. Secret Service Said It Is Working With Circle And Other Private Companies To Track And Recover Funds Stolen From Binance; Investigators Are Coordinating With Private-Sector Partners To Identify And Freeze Funds Taken From Binance; The Secret Service Said It Is Tracing And Recovering The Stolen Funds, But Did Not Disclose The Scale Of The Losses Or The Amount Recovered.",
+   "summary": "",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62746876/the-u-s-secret-service-said-it-is-working-with-circle-and-other-private-companies-to-track-and-recover-funds-stolen-from-binance-investigators-are-coordinating-with-private-sector-partners-to-identi"
+  },
+  {
+   "id": 62746831,
+   "created_at": "2026-10-30T15:54:17Z",
+   "headline": "Live On CNBC, U.S. CFTC Chairman Selig On Binance Hack Says Our Regulations Are Designed To Protect These Sorts Of Things; It's Very Concerning That We've Seen Several Cyber Incidents In Crypto",
+   "summary": "",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/$ETH"
+  },
+  {
+   "id": 62746318,
+   "created_at": "2026-10-30T15:44:56Z",
+   "headline": "Live On CNBC, CFTC Chairman Michael Selig On Binance Hack, Says We Want To Offer A Federal Option To These Exchanges To Come And Register With The CFTC; We Have The Ability To Trace All This On The Blockchain; On Perpetual Futures Trading, Says Going To Argue It's Up To The Supreme Court & We Believe We're Right On The Law",
+   "summary": "",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/$ETH"
+  },
+  {
+   "id": 62746015,
+   "created_at": "2026-10-30T15:37:07Z",
+   "headline": "Binance's $6.3B Hack Sends Bitcoin ETF Tumbling 5%, but This ETF Is Up 21%: What's Driving the Divergence?",
+   "summary": "Binance&#39;s $6.3 billion security breach rattles crypto markets, sending BlackRock&#39;s IBIT down 5.24% while leveraged inverse ETF MSTZ surges nearly 21%.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62746015/binances-6-3b-hack-sends-bitcoin-etf-tumbling-5-but-this-etf-is-up-21-whats-driving-the-divergence"
+  },
+  {
+   "id": 62744860,
+   "created_at": "2026-10-30T15:15:03Z",
+   "headline": "Benzinga Market Summary: Market Drops On Intel And Amazon Earnings, Record Binance Hack Weighs On Bitcoin Price, Oil Climbs On Tanker Attack In Strait Of Hormuz",
+   "summary": "",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/IBIT"
+  },
+  {
+   "id": 108623374,
+   "created_at": "2026-10-30T15:02:08Z",
+   "headline": "Autonomous Research Adjusts Moody's Price Target to $523 From $518",
+   "summary": "Autonomous Research has updated its price target for Moody's Corporation, increasing it from $518 to $523.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/autonomous-research-adjusts-moody-s-price-target-to-523-from-518-ce785fdbdc8cf220"
+  },
+  {
+   "id": 108623371,
+   "created_at": "2026-10-30T15:02:05Z",
+   "headline": "Bernstein Maintains Cheniere Energy at Outperform and Raises Price Target",
+   "summary": "Bernstein has updated its outlook on Cheniere Energy, maintaining an 'Outperform' rating while increasing the price target to $312 from $283.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:e4363f210c64e:0-bernstein-maintains-cheniere-energy-at-outperform-raises-price-target-to-312-from-283/"
+  },
+  {
+   "id": 108621903,
+   "created_at": "2026-10-30T15:01:44Z",
+   "headline": "Walmart Releases 2026 Sustainable Commodities Report",
+   "summary": "Walmart published its 2026 Sustainable Commodities Report, detailing progress on its \"20x25\" initiative and supply chain sustainability goals.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://sustainabilitymag.com/news/walmarts-lessons-from-10-years-of-sustainable-supply-chains"
+  },
+  {
+   "id": 62744052,
+   "created_at": "2026-10-30T15:00:25Z",
+   "headline": "Defensives Lead Sectors In Friday Trading As Growth Trails",
+   "summary": "Five sectors are higher and six are lower in Friday&#39;s regular session, with defensive sectors holding the top three positions. The leaders are clustered rather than separated, while Technology sits well clear of the rest, divided from the next-weakest sector by a margin several times wider than any other gap.",
+   "symbols": [
+    "QQQ",
+    "WMT"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62744052/defensives-lead-sectors-in-friday-trading-as-growth-trails"
+  },
+  {
+   "id": 62743159,
+   "created_at": "2026-10-30T14:41:47Z",
+   "headline": "Barclays Maintains Overweight on Incyte, Raises Price Target to $143",
+   "summary": "",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62743159/barclays-maintains-overweight-incyte-raises-price-target-143"
+  },
+  {
+   "id": 62742564,
+   "created_at": "2026-10-30T14:30:39Z",
+   "headline": "This Monolithic Power Analyst Turns Bullish; Here Are Top 4 Upgrades For Friday",
+   "summary": "Analysts upgraded Incyte, Intel, Rivian and Monolithic Power, raising ratings and targets; MPWR\u2019s target increased to $1,700.",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/10/62742564/this-monolithic-power-analyst-turns-bullish-here-are-top-4-upgrades-for-friday"
+  },
+  {
+   "id": 62742101,
+   "created_at": "2026-10-30T14:23:29Z",
+   "headline": "Barclays Maintains Equal-Weight on Exelixis, Raises Price Target to $54",
+   "summary": "",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62742101/barclays-maintains-equal-weight-exelixis-raises-price-target-54"
+  },
+  {
+   "id": 62741649,
+   "created_at": "2026-10-30T14:15:51Z",
+   "headline": "AutoNation, Regeneron Pharmaceuticals, AstraZeneca And Other Big Stocks Moving Higher On Friday",
+   "summary": "U.S. stocks fell Friday, but AutoNation jumped 8% after beating Q3 estimates; OneSpan, Grid Dynamics and others posted double-digit gains.",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62741649/autonation-regeneron-pharmaceuticals-astrazeneca-and-other-big-stocks-moving-higher-on-friday"
+  },
+  {
+   "id": 62741531,
+   "created_at": "2026-10-30T14:14:07Z",
+   "headline": "'Apple Acquires Ascend.io' - MacRumors",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62741531/apple-acquires-ascend-io-macrumors"
+  },
+  {
+   "id": 62740943,
+   "created_at": "2026-10-30T14:04:53Z",
+   "headline": "Barclays Maintains Overweight on Cheniere Energy, Raises Price Target to $328",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62740943/barclays-maintains-overweight-cheniere-energy-raises-price-target-328"
+  },
+  {
+   "id": 62740933,
+   "created_at": "2026-10-30T14:04:39Z",
+   "headline": "Bears Load Up on Ondas, Dutch Bros and 8 More Stocks \u2014 Is a Squeeze Brewing?",
+   "summary": "Ondas, Dutch Bros and Under Armour are among the most-heavily shorted stocks in the market right now.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62740933/bears-load-up-on-ondas-dutch-bros-and-8-more-stocks"
+  },
+  {
+   "id": 62740408,
+   "created_at": "2026-10-30T13:59:58Z",
+   "headline": "Tech Bonds Are 'Diamonds in the Rough': Bank of America's Hartnett Says",
+   "summary": "Tech bonds are diamonds in the rough, says Bank of America&#39;s Michael Hartnett, as AI hyperscalers sell stock and cut buybacks. S&amp;P Global data show risk.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/bonds/26/10/62740408/tech-bonds-diamonds-in-the-rough-hartnett-bank-of-america"
+  },
+  {
+   "id": 62740294,
+   "created_at": "2026-10-30T13:58:10Z",
+   "headline": "Will U.S. Midterms Impact Crypto? Grayscale Says Election Outcome Matters Only 'At The Margins'",
+   "summary": "Grayscale says crypto growth should withstand U.S. midterm shifts, driven by bipartisan support, global adoption and institutional integration.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62740294/will-u-s-midterms-impact-crypto-grayscale-says-election-outcome-matters-only-at-the-margins"
+  },
+  {
+   "id": 62740085,
+   "created_at": "2026-10-30T13:55:07Z",
+   "headline": "Can Bitcoin Hold On After the Selloff? Here's What Technical Analysis Says",
+   "summary": "Bitcoin finds support near $76,000 after the Binance hack sell-off, but correction may reach $74,800 before a rebound toward $81,915.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62740085/can-bitcoin-hold-on-after-the-selloff-heres-what-technical-analysis-says"
+  },
+  {
+   "id": 108495132,
+   "created_at": "2026-10-30T13:32:24Z",
+   "headline": "Oppenheimer Upgrades Incyte to Outperform",
+   "summary": "Oppenheimer upgraded Incyte Corporation from Market Perform to Outperform with a new price target of $144.",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/oppenheimer-upgrades-incyte-to-outperform-from-market-perform-144-price-target-ce785fdbda80f223"
+  },
+  {
+   "id": 108495131,
+   "created_at": "2026-10-30T13:32:24Z",
+   "headline": "RBC Raises Price Target on Incyte to $117",
+   "summary": "RBC Capital Markets increased its price target for Incyte Corporation from $114 to $117 while maintaining a Sector Perform rating.",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/rbc-raises-price-target-on-incyte-to-117-from-114-keeps-sector-perform-rating-ce785fdbdd8af521"
+  },
+  {
+   "id": 108495090,
+   "created_at": "2026-10-30T13:32:07Z",
+   "headline": "Deutsche Bank Adjusts Howmet Aerospace Price Target to $297",
+   "summary": "Deutsche Bank has revised its price target for Howmet Aerospace to $297 from $310 while maintaining a Buy rating.",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/deutsche-bank-adjusts-howmet-aerospace-price-target-to-297-from-310-maintains-buy-rating-ce785fdbdd8ff127"
+  },
+  {
+   "id": 108495088,
+   "created_at": "2026-10-30T13:32:07Z",
+   "headline": "Susquehanna Maintains Positive Rating on Howmet Aerospace, Lowers Price Target",
+   "summary": "Susquehanna has maintained its Positive rating on Howmet Aerospace while adjusting the price target to $275 from $340.",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:39ac4205eeb3c:0-susquehanna-maintains-howmet-aerospace-at-positive-lowers-price-target-to-275-from-340/"
+  },
+  {
+   "id": 108495066,
+   "created_at": "2026-10-30T13:31:53Z",
+   "headline": "CVS Health Promotes Medication Safety Through 'Dose of Knowledge' Program",
+   "summary": "CVS Health is highlighting its 'Dose of Knowledge' initiative, a free prevention-education program designed to support medication safety, substance misuse awareness, and mental health for students and caregivers.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/accesswire/1244212msn/cvs-health-how-education-and-everyday-action-can-support-medication-safety"
+  },
+  {
+   "id": 108493761,
+   "created_at": "2026-10-30T13:31:24Z",
+   "headline": "Walmart App and Website Add Support for Apple Pay",
+   "summary": "Walmart has officially enabled Apple Pay for transactions made through its mobile application and website.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/2026/10/30/walmart-app-and-website-gets-support-for-apple-pay/"
+  },
+  {
+   "id": 62737837,
+   "created_at": "2026-10-30T13:16:53Z",
+   "headline": "Trump Claims Inflation Is 'Way Down' Ahead of Midterms, But Fed Chair Kevin Warsh Warns Prices Remain 'Too High' After Holding Rates Steady",
+   "summary": "Trump claims inflation is &#34;way down,&#34; but the Federal Reserve and Chair Kevin Warsh warn that consumer prices remain stubbornly elevated.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62737837/trump-claims-inflation-is-way-down-ahead-of-midterms-but-fed-chair-kevin-warsh-warns-prices-remain-too-high-after-holding-rates-steady"
+  },
+  {
+   "id": 62737659,
+   "created_at": "2026-10-30T13:13:07Z",
+   "headline": "Dell, HP Stocks Tumble As Intel Flags Deepening PC Slump, Memory Shortages",
+   "summary": "Dell stock tumbles 10% as Intel warns of worsening PC demand, memory shortages and market contraction in 2027, raising concerns",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62737659/dell-hp-stocks-tumble-as-intel-flags-deepening-pc-slump-memory-shortages"
+  },
+  {
+   "id": 62737259,
+   "created_at": "2026-10-30T13:04:46Z",
+   "headline": "Kevin O'Leary Says Bitcoin May Not 'Automatically' Rally Even If CLARITY Act Passes, Warns Midterms Could Create Washington 'Gridlock'",
+   "summary": "Kevin O\u2019Leary warns midterm elections could stall the CLARITY Act and says its passage may not trigger a Bitcoin rally.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62737259/kevin-oleary-says-bitcoin-may-not-automatically-rally-even-if-clarity-act-passes-warns-midterms-could-create-washington-gridlock"
+  },
+  {
+   "id": 62737114,
+   "created_at": "2026-10-30T13:03:35Z",
+   "headline": "Susquehanna Maintains Positive on Howmet Aerospace, Lowers Price Target to $275",
+   "summary": "",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62737114/susquehanna-maintains-positive-howmet-aerospace-lowers-price-target-275"
+  },
+  {
+   "id": 62736578,
+   "created_at": "2026-10-30T12:52:14Z",
+   "headline": "Bitcoin Holds $77,000 Despite Binance Scare: \u2018 A Sign Of Resilience\u2019",
+   "summary": "Bitcoin falls 3% after a record Binance hack, yet remains 24% above its August start as analysts flag resilience.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62736578/bitcoin-holds-77000-despite-binance-scare-a-sign-of-resilience"
+  },
+  {
+   "id": 62736566,
+   "created_at": "2026-10-30T12:51:47Z",
+   "headline": "Citizens Downgrades Maplebear to Market Perform",
+   "summary": "",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62736566/citizens-downgrades-maplebear-market-perform"
+  },
+  {
+   "id": 62729872,
+   "created_at": "2026-10-30T12:43:13Z",
+   "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed as AMZN, INTC Slide After Q3 Earnings\u2014DELL, LLY, AZN in Focus (UPDATED)",
+   "summary": "U.S. stock were mixed on Friday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moved in different direction.",
+   "symbols": [
+    "BTC/USD",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62729872/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-amzn-intc-slide-after-q3-earnings-dell-lly-azn-in-focus"
+  },
+  {
+   "id": 62735950,
+   "created_at": "2026-10-30T12:36:38Z",
+   "headline": "Evercore ISI Group Maintains In-Line on Incyte, Raises Price Target to $127",
+   "summary": "",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62735950/evercore-isi-group-maintains-line-incyte-raises-price-target-127"
+  },
+  {
+   "id": 62735418,
+   "created_at": "2026-10-30T12:30:27Z",
+   "headline": "Alphabet's $482B Wipeout Sparks AI Spending Fears: Is QQQ's Big Tech Exposure Becoming a Risk?",
+   "summary": "Alphabet&#39;s $482B crash raises concerns over AI spending and Big Tech ETF concentration. Is QQQ vulnerable?",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62735418/alphabets-482b-wipeout-sparks-ai-spending-fears-is-qqqs-big-tech-exposure-becoming-a-risk"
+  },
+  {
+   "id": 62735376,
+   "created_at": "2026-10-30T12:30:07Z",
+   "headline": "Barclays Downgrades Maplebear to Equal-Weight, Lowers Price Target to $65",
+   "summary": "",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62735376/barclays-downgrades-maplebear-equal-weight-lowers-price-target-65"
+  },
+  {
+   "id": 62735077,
+   "created_at": "2026-10-30T12:18:05Z",
+   "headline": "Apple, Samsung Dodge Worst of Smartphone Chip Meltdown",
+   "summary": "Apple and Samsung outpace rivals as rising memory costs and chip slump pressure the global smartphone market.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62735077/apple-samsung-dodge-worst-of-smartphone-chip-meltdown"
+  },
+  {
+   "id": 62734910,
+   "created_at": "2026-10-30T12:10:07Z",
+   "headline": "Incyte To Rally More Than 23%? Here Are 10 Top Analyst Forecasts For Friday",
+   "summary": "Analysts raised targets for Cheniere and Incyte, while cutting Stryker, Roblox, Intel and Honeywell; Bright Horizons was downgraded.",
+   "symbols": [
+    "INCY",
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62734910/incyte-to-rally-more-than-23-here-are-10-top-analyst-forecasts-for-friday"
+  },
+  {
+   "id": 108413975,
+   "created_at": "2026-10-30T12:02:19Z",
+   "headline": "BNP Paribas Adjusts Howmet Aerospace Price Target",
+   "summary": "BNP Paribas has revised its price target for Howmet Aerospace from $310 to $250.",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003001512"
+  },
+  {
+   "id": 108413260,
+   "created_at": "2026-10-30T12:01:32Z",
+   "headline": "Walmart Adds Support for Apple Pay on App and Website",
+   "summary": "Walmart has officially integrated Apple Pay as a payment option within its mobile application and website.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/2026/10/30/walmart-app-and-website-gets-support-for-apple-pay/"
+  },
+  {
+   "id": 62734333,
+   "created_at": "2026-10-30T11:56:46Z",
+   "headline": "This Honeywell Aerospace Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Friday",
+   "summary": "Analysts downgraded Honeywell Aerospace, Intel, Bright Horizons, Alnylam and Maplebear, cutting ratings and several price targets.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/10/62734333/this-honeywell-aerospace-analyst-is-no-longer-bullish-here-are-top-5-downgrades-for-friday"
+  },
+  {
+   "id": 108393584,
+   "created_at": "2026-10-30T11:31:59Z",
+   "headline": "Foxconn Confirms Sufficient Production Capacity for Apple's iPhone Duo",
+   "summary": "Apple's manufacturing partner, Foxconn, has stated that its current production footprint is adequate to meet demand for the newly launched iPhone Duo.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/apple-iphone-duo-manufacturer-foxconn-says-current-production-footprint-suffices-ce785fdbd880f222"
+  },
+  {
+   "id": 62733140,
+   "created_at": "2026-10-30T11:16:22Z",
+   "headline": "Bitcoin Drops to $77,000 on Binance Hack as Analyst Warns of Final Selloff",
+   "summary": "Bitcoin plunged 3.3% to $77,000 after the Binance hack. Analyst warns of a final Q4 selloff, with $73,000 support and capitulation volume key to a bottom.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62733140/bitcoin-drops-to-77000-on-binance-hack-as-analyst-warns-of-final-selloff"
+  },
+  {
+   "id": 62732386,
+   "created_at": "2026-10-30T11:00:43Z",
+   "headline": "Why Is Amazon Stock Falling Friday?",
+   "summary": "Amazon stock dropped over 7% despite 39% AWS growth as Q3 earnings missed targets and $220B in AI spending rattled investors.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62732386/why-is-amazon-stock-falling-friday"
+  },
+  {
+   "id": 62732228,
+   "created_at": "2026-10-30T10:59:48Z",
+   "headline": "Cantor Fitzgerald Downgrades Maplebear to Neutral, Raises Price Target to $65",
+   "summary": "",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62732228/cantor-fitzgerald-downgrades-maplebear-neutral-raises-price-target-65"
+  },
+  {
+   "id": 62731527,
+   "created_at": "2026-10-30T10:33:25Z",
+   "headline": "Coinbase CEO Brian Armstrong Says Quantum Computing Is a Bigger Threat to Crypto Than AI: \u2018When, Not If\u2019",
+   "summary": "Brian Armstrong said that quantum computing, rather than AI, represents the more serious long-term threat to cryptocurrency security.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62731527/coinbase-q3-brian-armstrong-quantum-ai-crypto-security"
+  },
+  {
+   "id": 108360569,
+   "created_at": "2026-10-30T10:31:55Z",
+   "headline": "Bernstein Maintains Outperform Rating on Cheniere Energy",
+   "summary": "Bernstein has reaffirmed its \"Outperform\" rating for Cheniere Energy following the company's recent financial disclosures.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1002990167"
+  },
+  {
+   "id": 62731354,
+   "created_at": "2026-10-30T10:28:29Z",
+   "headline": "Elon Musk Predicts Superintelligent AI Will Use DeFi to \u2018Gain Currency for Themselves, not a Human\u2019 After Binance Hack",
+   "summary": "Elon Musk says superintelligent AI may use DeFi to fund itself, after a Binance hack involved borrowing Ether against stablecoins.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62731354/elon-musk-predicts-superintelligent-ai-will-use-defi-to-gain-currency-for-themselves-not-a-human-after-binance-hack"
+  },
+  {
+   "id": 62730345,
+   "created_at": "2026-10-30T10:08:46Z",
+   "headline": "Needham Downgrades Maplebear to Hold",
+   "summary": "",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62730345/needham-downgrades-maplebear-hold"
+  },
+  {
+   "id": 62730266,
+   "created_at": "2026-10-30T10:05:31Z",
+   "headline": "Bernstein Maintains Outperform on Cheniere Energy, Raises Price Target to $312",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62730266/bernstein-maintains-outperform-cheniere-energy-raises-price-target-312"
+  },
+  {
+   "id": 62730062,
+   "created_at": "2026-10-30T10:02:55Z",
+   "headline": "After Binance\u2019s $6.3 Billion Hack, Now a Crypto Wallet Firm Issues Urgent Security Alert Over Suspected Hardware Tampering",
+   "summary": "Cryptocurrency wallet company Trezor reported on Friday a suspected hardware implant\u00a0in one of its devices.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62730062/binan"
+  },
+  {
+   "id": 62729659,
+   "created_at": "2026-10-30T09:30:01Z",
+   "headline": "Chris Murphy Warns Trump Could \u2018Restart War With Iran\u2019 After Midterms: \u2018The Plan Is Insane\u2019 \u2014 Crypto Punters Weigh the Odds",
+   "summary": "Sen.\u00a0Chris Murphy\u00a0said on Thursday, October 29, that President Donald Trump may restart military action against Iran after the midterms, though cryptocurrency bettors appear skeptical.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62729659/chris-murphy-donald-trump-iran-war-midterms-polymarket"
+  },
+  {
+   "id": 62729644,
+   "created_at": "2026-10-30T09:27:00Z",
+   "headline": "Oppenheimer Upgrades Incyte to Outperform, Raises Price Target to $144",
+   "summary": "",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62729644/oppenheimer-upgrades-incyte-outperform-raises-price-target-144"
+  },
+  {
+   "id": 62727825,
+   "created_at": "2026-10-30T06:36:58Z",
+   "headline": "MSTR Stock Is Down 44% in a Year, but Michael Saylor Says Strategy Doesn\u2019t Need Bitcoin Or Equity to Do the \u2018Heavy Lifting\u2019",
+   "summary": "Strategy Inc. (NASDAQ: MSTR) Chair Michael Saylor said on Thursday, October 29, that the company could expand its capital options without depending entirely on Bitcoin\u2019s appreciation or issuing more shares.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62727825/michael-saylor-strategy-q3-earnings-bitcoin"
+  },
+  {
+   "id": 62727776,
+   "created_at": "2026-10-30T06:21:23Z",
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will S&amp;P 500 open higher? Polymarket odds plunge to 14% as Wall Street reacts to Alphabet&#39;s 10% drop, rising oil, and a broad tech selloff.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62727776/stock-market-will-sp-500-open-up-or-down-today-69"
+  },
+  {
+   "id": 62727765,
+   "created_at": "2026-10-30T06:16:52Z",
+   "headline": "Zohran Mamdani Says $17 Billion Instacart Takeover Means \u2018Higher Prices and Harsher Exploitation,\u2019 DoorDash CEO Says It\u2019ll Make Delivery Cheaper",
+   "summary": "NYC Mayor Zohran Mamdani said DoorDash\u2019s $17B Instacart deal means higher prices, but CEO Tony Xu said it will cut costs.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62727765/zohran-mamdani-doordash-instacart-deal-higher-prices-new-yorkers"
+  },
+  {
+   "id": 62727040,
+   "created_at": "2026-10-30T04:22:04Z",
+   "headline": "Trump Will Go 'Crazier and Crazier' After 'Blue Tsunami' in Midterms, Says Gavin Newsom \u2014 Crypto Bettors Raise Democratic Sweep Odds",
+   "summary": "Cryptocurrency bettors continue to back a Democratic sweep in the upcoming midterms, as California Gov. Gavin Newsom forecasts a \u201cBlue Tsunami.\u201d",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62727040/gavin-newsom-donald-trump-midterms-democratic-sweep"
+  },
+  {
+   "id": 62726852,
+   "created_at": "2026-10-30T03:25:02Z",
+   "headline": "Binance Hack Shows \u2018Everyday Is Zeroday,\u2019 Says Elon Musk: Attack on Platform Biggest Financial Heist in Crypto History",
+   "summary": "Investors and industry observers reacted to the massive security incident at Binance on Thursday, October 29, that resulted in billions in estimated losses and could rank as the largest cryptocurrency hack in history.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62726852/binance-crypto-hack-biggest-bitcoin-ethereum-elon-musk"
+  },
+  {
+   "id": 108272029,
+   "created_at": "2026-10-30T02:02:12Z",
+   "headline": "Moody's Warns of Refinancing Risks Amid AI Financing Boom",
+   "summary": "Moody's released a report highlighting how AI infrastructure investment is fueling private credit growth while simultaneously increasing refinancing risks for weaker borrowers.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://civl.com/news/story/borrowing-for-ai-infrastructure-expands-private-credit-and-raises-refinancing-44d30568"
+  },
+  {
+   "id": 62726462,
+   "created_at": "2026-10-30T01:43:51Z",
+   "headline": "Binance Hack Drives Bitcoin Below $77,000, Ethereum, XRP, Dogecoin Also in the Red: Top Analyst Identifies Where to Buy the 'Dip' in the \u2018Bloodbath' (UPDATED)",
+   "summary": "Leading cryptocurrencies tumbled on Thursday, October 29, after news of a multi-billion-dollar hack targeting the Binance cryptocurrency exchange.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62726462/bitcoin-ethereum-xrp-dogecoin-binance-hack-crypto"
+  },
+  {
+   "id": 62725903,
+   "created_at": "2026-10-29T23:45:28Z",
+   "headline": "Here\u2019s How Much You Would Have Made Owning Cheniere Energy Stock In The Last 15 Years",
+   "summary": "Cheniere Energy (NYSE:LNG) has outperformed the market over the past 15 years by 11.98% on an annualized basis producing an average annual return of 24.83%. Currently, Cheniere Energy has a market capitalization of",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62725903/here-s-how-much-you-would-have-made-owning-cheniere-energy-stock-last-15-years"
+  },
+  {
+   "id": 62725260,
+   "created_at": "2026-10-29T22:27:08Z",
+   "headline": "Exelixis Q3 2026 Earnings Call Transcript",
+   "summary": "Exelixis (NASDAQ:EXEL) reported third-quarter financial results on Thursday. The transcript from the company\u2019s third-quarter earnings call has been provided below.Benzinga APIs provide real-time access to earnings call",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62725260/exelixis-q3-2026-earnings-call-transcript"
+  },
+  {
+   "id": 108007646,
+   "created_at": "2026-10-29T22:03:01Z",
+   "headline": "The Scotts Miracle-Gro Company Completes Acquisition of Black Kow Brand",
+   "summary": "The Scotts Miracle-Gro Company has finalized its acquisition of the Black Kow organic gardening brand from Organics Management.",
+   "symbols": [
+    "SMG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/29/3391866/33079/en/scottsmiracle-gro-completes-acquisition-of-black-kow-to-broaden-leadership-in-organic-gardening-solutions.html"
+  },
+  {
+   "id": 108005420,
+   "created_at": "2026-10-29T22:02:34Z",
+   "headline": "BOYCOM Cablevision Achieves Over 20% ARPU Growth Using Calix One Platform",
+   "summary": "Rural Missouri broadband provider BOYCOM Cablevision has increased its average revenue per user (ARPU) by more than 20% by leveraging the Calix One platform and managed Wi-Fi services.",
+   "symbols": [
+    "CALX"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/boycom-achieves-20-arpu-growth-through-smartlife-experiences-calix"
+  },
+  {
+   "id": 108005417,
+   "created_at": "2026-10-29T22:02:34Z",
+   "headline": "CarGurus, Inc. Scheduled to Announce Q3 2026 Financial Results",
+   "summary": "CarGurus, Inc. is set to report its third-quarter 2026 financial results on November 5, 2026, after market close.",
+   "symbols": [
+    "CARG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:86f3ddeeabb1a:0-carg-q3-26-earnings-revenue-estimate-is-256-46m-usd/"
+  },
+  {
+   "id": 108005277,
+   "created_at": "2026-10-29T22:01:51Z",
+   "headline": "Exelixis Announces Third Quarter 2026 Financial Results and Provides Corporate Update",
+   "summary": "Exelixis, Inc. reported its financial results for the third quarter of 2026 and provided updates on its commercial, clinical, and pipeline development milestones.",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/health/oncology"
+  },
+  {
+   "id": 107943666,
+   "created_at": "2026-10-29T21:31:58Z",
+   "headline": "BJ's Restaurant & Brewhouse Launches Nutella\u00ae Gone Bananas Pizookie\u00ae",
+   "summary": "BJ's Restaurants, Inc. has introduced a new limited-time dessert, the Nutella\u00ae Gone Bananas Pizookie\u00ae, available nationwide starting October 29, 2026.",
+   "symbols": [
+    "BJRI"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/bjs-restaurant--brewhouse-goes-bananas-with-the-new-nutella-gone-bananas-pizookie-302924088.html"
+  },
+  {
+   "id": 107835636,
+   "created_at": "2026-10-29T20:31:42Z",
+   "headline": "Morgan Stanley Maintains Equal-Weight Rating on Garmin and Raises Price Target",
+   "summary": "Morgan Stanley maintained its Equal-Weight rating on Garmin shares while increasing the price target from $289 to $295.",
+   "symbols": [
+    "GRMN"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:623024bcf2887:0-morgan-stanley-maintains-garmin-at-equal-weight-raises-price-target-to-295-from-289/"
+  },
+  {
+   "id": 107835626,
+   "created_at": "2026-10-29T20:31:35Z",
+   "headline": "Walmart and Symbotic Expand Supply Chain Automation Partnership",
+   "summary": "Walmart and Symbotic have expanded their commercial agreement to deploy AI-enabled robotics technology across 25 additional U.S. regional distribution centers.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/29/3391812/0/en/walmart-and-symbotic-expand-commercial-agreement-to-support-supply-chain-transformation.html"
+  },
+  {
+   "id": 107835623,
+   "created_at": "2026-10-29T20:31:27Z",
+   "headline": "Apple Faces Long-Term Chip Supply Constraints Through 2030",
+   "summary": "Memory and storage manufacturer SK Hynix has warned Apple that ongoing chip shortages are expected to persist until 2030, potentially impacting component costs.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/2026/10/29/why-apple-products-prices-may-keep-rising-until-2030/"
+  },
+  {
+   "id": 62720440,
+   "created_at": "2026-10-29T20:30:41Z",
+   "headline": "Bitcoin Could Repeat Its SpaceX IPO Dump Ahead of Anthropic IPO, Analyst Warns",
+   "summary": "Bitcoin mirrors its pre-SpaceX IPO slump as Cowen warns Anthropic\u2019s listing may be pulling capital away from crypto.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62720440/bitcoin-could-repeat-its-spacex-ipo-dump-ahead-of-anthropic-ipo-analyst-warns"
+  },
+  {
+   "id": 62718502,
+   "created_at": "2026-10-29T20:14:50Z",
+   "headline": "Exelixis Affirms FY2026 Sales Guidance of $2.500B-$2.550B vs $2.549B Est",
+   "summary": "",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62718502/exelixis-affirms-fy2026-sales-guidance-2-500b-2-550b-vs-2-549b-est"
+  },
+  {
+   "id": 62718020,
+   "created_at": "2026-10-29T20:10:39Z",
+   "headline": "Symbotic Inks ~$6B Commercial Deal With Walmart To Roll Out Additional Automation Tools To 25 U.S. Regional Distribution Centers",
+   "summary": "",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62718020/symbotic-inks-6b-commercial-deal-walmart-roll-out-additional-automation-tools-25-u-s-regional-distri"
+  },
+  {
+   "id": 62717783,
+   "created_at": "2026-10-29T20:09:01Z",
+   "headline": "Exelixis Q3 Adj. EPS $0.94 Beats $0.80 Estimate, Sales $658.696M Beat $646.510M Estimate",
+   "summary": "",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62717783/exelixis-q3-adj-eps-0-94-beats-0-80-estimate-sales-658-696m-beat-646-510m-estimate"
+  },
+  {
+   "id": 62714407,
+   "created_at": "2026-10-29T19:24:12Z",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Trade Sideways After Fed Rate Hold",
+   "summary": "Bitcoin holds amid hawkish Fed, hot inflation and tech turmoil; ETFs saw inflows, while traders eye $83K resistance and $79K\u2013$80K support.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62714407/bitcoin-ethereum-xrp-dogecoin-trade-sideways-after-fed-rate-hold"
+  },
+  {
+   "id": 62714210,
+   "created_at": "2026-10-29T19:19:59Z",
+   "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
+   "summary": "IWD is beating SPY by 4.2 points in October, the widest monthly gap since 2001; Alphabet and ServiceNow lead a rotation away from AI.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62714210/value-stocks-beat-sp500-most-since-2001-iwd"
+  },
+  {
+   "id": 62712863,
+   "created_at": "2026-10-29T18:46:16Z",
+   "headline": "Bitcoin Could Hit $90,000 by Year-End Amid Bond Market Turmoil: 10x Research",
+   "summary": "Bitcoin could hit $90,000 by late 2026 as debt, inflation and bond selloffs boost demand, while institutional interest may drive BTC over Ethereum.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62712863/bitcoin-could-hit-90000-by-year-end-amid-bond-market-turmoil-10x-research"
+  },
+  {
+   "id": 107578415,
+   "created_at": "2026-10-29T18:03:23Z",
+   "headline": "Wells Fargo Adjusts Price Target on Tapestry to $150 From $160",
+   "summary": "Wells Fargo has revised its price target for Tapestry, Inc. (NYSE: TPR), lowering it from $160 to $150.",
+   "symbols": [
+    "TPR"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/wells-fargo-adjusts-price-target-on-tapestry-to-150-from-160-ce785fdad88ffe27"
+  },
+  {
+   "id": 107576596,
+   "created_at": "2026-10-29T18:02:26Z",
+   "headline": "Balfour Beatty to Begin Main Construction on A66 Northern Trans-Pennine Scheme",
+   "summary": "The UK government has approved the start of main construction for the \u00a31.5 billion A66 Northern Trans-Pennine road upgrade, which will be delivered by a consortium including Balfour Beatty.",
+   "symbols": [
+    "BBY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://bricks-bytes.com/daily-blueprint/29-oct-2026/"
+  },
+  {
+   "id": 107576520,
+   "created_at": "2026-10-29T18:02:03Z",
+   "headline": "Instacart Reports Third Quarter 2026 Financial Results",
+   "summary": "Instacart released its financial results for the third quarter ended September 30, 2026, reporting year-over-year growth in GTV, revenue, and net income.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/instacart-announces-third-quarter-2026-financial-results-302923609.html"
+  },
+  {
+   "id": 107576519,
+   "created_at": "2026-10-29T18:02:03Z",
+   "headline": "Analysts Identify Potential Inclusions and Exclusions for MSCI India Standard Index",
+   "summary": "Market analysts have projected potential changes to the MSCI India Standard Index for the upcoming November 2026 quarterly review, highlighting companies that may be added or removed based on market capitalization and liquidity thresholds.",
+   "symbols": [
+    "MSCI"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/moodys:97f16bd5d11e2:0-msci-rejig-lic-meesho-likely-to-enter-india-standard-index-ofss-siemens-energy-may-be-dropped/"
+  },
+  {
+   "id": 107574976,
+   "created_at": "2026-10-29T18:01:55Z",
+   "headline": "Barclays Adjusts Price Target on Garmin",
+   "summary": "Barclays maintained its Equal-Weight rating on Garmin while lowering its price target from $297 to $277.",
+   "symbols": [
+    "GRMN"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:3bcf7f329a248:0-barclays-maintains-garmin-at-equal-weight-lowers-price-target-to-277-from-297/"
+  },
+  {
+   "id": 62710163,
+   "created_at": "2026-10-29T17:42:15Z",
+   "headline": "Morgan Stanley Maintains Equal-Weight on Garmin, Raises Price Target to $295",
+   "summary": "",
+   "symbols": [
+    "GRMN"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62710163/morgan-stanley-maintains-equal-weight-garmin-raises-price-target-295"
+  },
+  {
+   "id": 62709902,
+   "created_at": "2026-10-29T17:37:47Z",
+   "headline": "10 Industrials Stocks Whale Activity In Today\u2019s Session",
+   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will",
+   "symbols": [
+    "EXLS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/10/62709902/10-industrials-stocks-whale-activity-today-s-session"
+  },
+  {
+   "id": 62709327,
+   "created_at": "2026-10-29T17:23:06Z",
+   "headline": "Apple Cuts Taiwan App Store Commission Rate In Taiwan From 30% To 26%, Effective Oct. 31",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62709327/apple-cuts-taiwan-app-store-commission-rate-taiwan-30-26-effective-oct-31"
+  },
+  {
+   "id": 62709104,
+   "created_at": "2026-10-29T17:16:05Z",
+   "headline": "Bitcoin Could Test $76,300 as 'Stealth Bear Market' in Equities Threatens Rally, Analyst Says",
+   "summary": "Bitcoin\u2019s bull recovery hinges on $76,300 support amid stock weakness and midterm volatility, though resilient holders and strong mining offer hope.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62709104/bitcoin-could-test-76300"
+  },
+  {
+   "id": 62708199,
+   "created_at": "2026-10-29T16:55:10Z",
+   "headline": "Michael Burry Says This 'Mall Dinosaur' Stock Could Double",
+   "summary": "Michael Burry is long Build-A-Bear, calling it undervalued at $25 despite weak sales, tariffs and reduced guidance.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62708199/michael-burry-says-this-mall-dinosaur-stock-could-double"
+  },
+  {
+   "id": 62708039,
+   "created_at": "2026-10-29T16:50:26Z",
+   "headline": "Instacart CEO Calls Q3 Its Strongest Quarter As Public Company",
+   "summary": "Instacart shares traded lower after third-quarter EPS missed estimates, despite 17% revenue growth, higher transaction value and a proposed $17 billion DoorDash acquisition.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62708039/instacart-ceo-calls-q3-its-strongest-quarter-as-public-company"
+  },
+  {
+   "id": 62707947,
+   "created_at": "2026-10-29T16:49:07Z",
+   "headline": "Howmet Aerospace Stock Rises as Earnings Beat, Guidance Hike, Buyback Boost Sentiment",
+   "summary": "Howmet Aerospace earnings beat estimates as the company raises guidance and highlights healthy aerospace and defense demand.",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62707947/howmet-aerospace-stock-rises-as-earnings-beat-guidance-hike-buyback-boost-sentiment"
+  },
+  {
+   "id": 62707741,
+   "created_at": "2026-10-29T16:45:18Z",
+   "headline": "TD Cowen Maintains Buy on ExlService Hldgs, Raises Price Target to $49",
+   "summary": "",
+   "symbols": [
+    "EXLS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62707741/td-cowen-maintains-buy-exlservice-hldgs-raises-price-target-49"
+  },
+  {
+   "id": 62707737,
+   "created_at": "2026-10-29T16:45:18Z",
+   "headline": "$100 Invested In Howmet Aerospace 10 Years Ago Would Be Worth This Much Today",
+   "summary": "Howmet Aerospace (NYSE:HWM) has outperformed the market over the past 10 years by 17.25% on an annualized basis producing an average annual return of 31.12%. Currently, Howmet Aerospace has a market capitalization of",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62707737/100-invested-howmet-aerospace-10-years-ago-would-be-worth-much-today"
+  },
+  {
+   "id": 62707077,
+   "created_at": "2026-10-29T16:30:03Z",
+   "headline": "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
+   "summary": "\n\n\n\nKey Data For AI Trade\n\n\n\nPlease click here for an enlarged chart of Alphabet Inc Class C (NASDAQ:GOOG).\n\n\n\nNote the following:\n\n\n\n\nThis article is about the big picture, not an individual stock.\u00a0 The chart of GOOG",
+   "symbols": [
+    "AAPL",
+    "BTC/USD",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/10/62707077/alphabet-stock-down-12-percent-as-ai-hits-google-core-search-business"
+  },
+  {
+   "id": 62706774,
+   "created_at": "2026-10-29T16:22:00Z",
+   "headline": "Alphabet Sinks 11.8%, Small Caps Rally on Strong GDP Growth: Stock Market Today",
+   "summary": "Alphabet&#39;s capex-heavy quarter drags the Nasdaq 100 lower while GDP beats and the Russell 2000 rallies, with three of four large caps rising.",
+   "symbols": [
+    "AAPL",
+    "BTC/USD",
+    "QQQ",
+    "VOO"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62706774/stock-market-today-alphabet-sinks-small-caps-rally-gdp-rotation"
+  },
+  {
+   "id": 62706420,
+   "created_at": "2026-10-29T16:13:51Z",
+   "headline": "Cheniere Energy Q3 2026 Earnings Call Transcript",
+   "summary": "Cheniere Energy (NYSE:LNG) reported third-quarter financial results on Thursday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62706420/cheniere-energy-q3-2026-earnings-call-transcript"
+  },
+  {
+   "id": 62705990,
+   "created_at": "2026-10-29T16:05:19Z",
+   "headline": "Walmart+ Launches In Mexico With Shopping, Entertainment, Connectivity, Rewards, And Healthcare Benefits;  Walmart+ Membership In Mexico Priced At MXN$89 Monthly Or MXN$890 Annually; Walmart+ Mexico Offers Free Shipping And Delivery With No Minimum Through November 30, 2026",
+   "summary": "",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62705990/walmart-launches-mexico-shopping-entertainment-connectivity-rewards-and-healthcare-benefits-walmart-"
+  },
+  {
+   "id": 62704843,
+   "created_at": "2026-10-29T15:38:59Z",
+   "headline": "Cheniere Energy CFO Zach Davis Says Co Expects To Produce Between 56 And 58 Million Metric Tons Of LNG In 2027, 3 Million Tons More Than 2026",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62704843/cheniere-energy-cfo-zach-davis-says-co-expects-produce-between-56-and-58-million-metric-tons-lng-202"
+  },
+  {
+   "id": 62704441,
+   "created_at": "2026-10-29T15:30:46Z",
+   "headline": "Cheniere Energy CEO Jack Fusco Says Expects To Make Final Investment Decision On Sabine Pass Expansion Project As Soon As It Gets Final Regulator Approvals, Expected By The End Of The Year; Cheniere Energy CCO Antol Feygin Says Europe Will Require An Additional 69 Million Metric Tons Of LNG During This Winter And Must Pull Cargoes From Asia",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62704441/cheniere-energy-ceo-jack-fusco-says-expects-make-final-investment-decision-sabine-pass-expansion-pro"
+  },
+  {
+   "id": 62703601,
+   "created_at": "2026-10-29T15:12:59Z",
+   "headline": "Howmet Aerospace Q3 2026 Earnings Call Transcript",
+   "summary": "Howmet Aerospace (NYSE:HWM) reported third-quarter financial results on Thursday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs.",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62703601/howmet-aerospace-q3-2026-earnings-call-transcript"
+  },
+  {
+   "id": 62703305,
+   "created_at": "2026-10-29T15:10:04Z",
+   "headline": "Rivian Working on Vans for Walmart? Investors Could Get Their Answer Thursday",
+   "summary": "Images of a Walmart Rivian delivery van have the EV world talking. Rivian investors could find out if the talk is worth potential growth Thursday.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62703305/rivian-working-on-vans-for-walmart-investors-could-get-their-answer-thursday"
+  },
+  {
+   "id": 62702951,
+   "created_at": "2026-10-29T15:05:10Z",
+   "headline": "Barclays Maintains Equal-Weight on Garmin, Lowers Price Target to $277",
+   "summary": "",
+   "symbols": [
+    "GRMN"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62702951/barclays-maintains-equal-weight-garmin-lowers-price-target-277"
+  },
+  {
+   "id": 107323525,
+   "created_at": "2026-10-29T15:02:31Z",
+   "headline": "Garmin Named SportsTech Wearables Company of the Year",
+   "summary": "Garmin received the 'SportsTech Wearables Company of the Year' award in recognition of its contributions to fitness and sports technology.",
+   "symbols": [
+    "GRMN"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/29/3391415/0/en/sportstech-breakthrough-awards-recognize-the-world-s-most-innovative-sports-technology-companies.html"
+  },
+  {
+   "id": 107323524,
+   "created_at": "2026-10-29T15:02:31Z",
+   "headline": "Garmin Presents Awards at Annual Health Summit",
+   "summary": "Garmin concluded its annual Health Summit in Bangkok by honoring innovators who utilize the Garmin Health Connected Ecosystem to improve health outcomes.",
+   "symbols": [
+    "GRMN"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/garmin-celebrates-global-digital-health-innovation-at-2026-garmin-health-summit-in-asia-302923529.html"
+  },
+  {
+   "id": 107322185,
+   "created_at": "2026-10-29T15:01:41Z",
+   "headline": "Cheniere Energy Raises Fiscal Year 2026 Financial Outlook",
+   "summary": "Cheniere Energy, Inc. announced an upward revision to its financial guidance for the 2026 fiscal year.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/cheniere-energy-raises-fy26-outlook-stock-rises-in-pre-market-1036685095"
+  },
+  {
+   "id": 62702630,
+   "created_at": "2026-10-29T15:00:28Z",
+   "headline": "8 Of 11 Sectors Rise Thursday As Defensives Lead",
+   "summary": "Eight sectors are higher and three are lower in Thursday\u2019s regular session, with defensive sectors holding two of the top three positions. The leaders are separated rather than clustered, with Health Care ahead of the next group.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62702630/8-of-11-sectors-rise-thursday-as-defensives-lead"
+  },
+  {
+   "id": 62701372,
+   "created_at": "2026-10-29T14:39:29Z",
+   "headline": "XRP, Ethereum, Solana Are 3 of the Top 5 Altcoins, Expert Says: And the Other 2?",
+   "summary": "XRP, Ethereum, Solana, BNB and Hyperliquid lead CryptosRUs\u2019 five altcoin picks, with potential 5x to 10x returns by 2030.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62701372/xrp-ethereum-solana-are-3-of-the-top-5-altcoins-expert-says-and-the-other-2"
+  },
+  {
+   "id": 62701301,
+   "created_at": "2026-10-29T14:37:55Z",
+   "headline": "Howmet Exec Says Major Gas Turbine Customers State 2031 Capacity Is Now Sold Out And 2032 Will Likely Be Sold Out In Next One Or Two Quarters",
+   "summary": "",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62701301/howmet-exec-says-major-gas-turbine-customers-state-2031-capacity-now-sold-out-and-2032-will-likely-b"
+  },
+  {
+   "id": 62700608,
+   "created_at": "2026-10-29T14:25:39Z",
+   "headline": "Howmet Aerospace Exec Says Co Expects Volume Increases For Boeing 737, 787 And Airbus A320, A350 To Be Healthy; Says F-35 Fighter Jet Spares Demand Continues To Be Healthy With An Expanding Fleet Of Aircraft",
+   "summary": "",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62700608/howmet-aerospace-exec-says-co-expects-volume-increases-boeing-737-787-and-airbus-a320-a350-be-health"
+  },
+  {
+   "id": 62700544,
+   "created_at": "2026-10-29T14:24:34Z",
+   "headline": "QatarEnergy CEO Says Two LNG Trains Damaged In Iranian Attacks Will Take About Three Years To Repair, Qatar To Lose 17% Of LNG Capacity (Two Trains) In Interim, Pearl GTL Expected Back By Q1 2027; Says Cannot Offer Long-Term Customers LNG From New Purchase Agreements As Hormuz Backup, Contracts Are Point-To-Point; Says Has Met Iranian Acting Petroleum Minister Twice In Past Two Weeks, Exploring Post-war Cooperation In Oil And Gas",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62700544/qatarenergy-ceo-says-two-lng-trains-damaged-iranian-attacks-will-take-about-three-years-repair-qatar"
+  },
+  {
+   "id": 62700477,
+   "created_at": "2026-10-29T14:23:45Z",
+   "headline": "QatarEnergy CEO Says Has Ruled Out Pipelines Bypassing Hormuz As Any Infrastructure Anywhere In The Region Can Be Targeted; Says No Cancellation Of Any Announced Project, North Field East, South And West Proceeding, 142 MTPA LNG Expansion Plan In Qatar Unchanged, All Contracts Awarded; Says Can Restart Full LNG Production Within One Week Of A Peace Deal, As Long As Ships Are Available",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62700477/qatarenergy-ceo-says-has-ruled-out-pipelines-bypassing-hormuz-any-infrastructure-anywhere-region-can"
+  },
+  {
+   "id": 62700380,
+   "created_at": "2026-10-29T14:22:22Z",
+   "headline": "QatarEnergy CEO Says Buying More LNG To Capture Price Spike In Case Of Hormuz Closure, Expects \"Reasonable Returns\" In Normal Circumstances; Says Expects To Sign More Long-Term LNG Purchase Deals With U.S.\u00a0And Other Suppliers By End-2026, Target \"Much Higher\" Than 7M Tons Per Annum; Says Talking To \"Everybody\" Including Venture Global, Will Buy From Whoever Offers Best Commercial Terms",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62700380/qatarenergy-ceo-says-buying-more-lng-capture-price-spike-case-hormuz-closure-expects-reasonable-retu"
+  },
+  {
+   "id": 62700317,
+   "created_at": "2026-10-29T14:21:27Z",
+   "headline": "QatarEnergy CEO Says Qatar Is Buying U.S. LNG And Talking To Other Suppliers To Create A Trading And Arbitrage Hedge To Make Up For\u00a0Future Hormuz Disruptions; Says U.S. LNG Purchase Deals Are Part Of Long-Term Contingency Plan To Generate Revenue If Hormuz Is Disrupted Again; Says Purchase Deals Require No Capital Spending And Are Much Cheaper Than Building Pipelines Or Extra LNG Trains",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62700317/qatarenergy-ceo-says-qatar-buying-u-s-lng-and-talking-other-suppliers-create-trading-and-arbitrage-h"
+  },
+  {
+   "id": 62699888,
+   "created_at": "2026-10-29T14:15:01Z",
+   "headline": "Apple Stock Heads Toward All-Time High: What's Going On?",
+   "summary": "Apple Inc. (NASDAQ: AAPL) shares are rising Thursday. Goldman Sachs reaffirmed its Buy rating amid broader tech weakness.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62699888/apple-stock-heads-toward-all-time-high-whats-going-on"
+  },
+  {
+   "id": 62698560,
+   "created_at": "2026-10-29T13:58:44Z",
+   "headline": "Intel Earnings Prediction Market Preview: What Will Lip-Bu Tan Say?",
+   "summary": "Intel reports earnings Thursday as prediction markets bet on foundry customers, Nvidia, Apple and Lip-Bu Tan\u2019s remarks.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62698560/intel-earnings-preview"
+  },
+  {
+   "id": 62696461,
+   "created_at": "2026-10-29T13:34:25Z",
+   "headline": "Bitcoin Drops to $80,000 After Fed Meeting: Is the Bear Thesis Playing Out?",
+   "summary": "Bitcoin\u2019s bearish checklist reaches three as Cowen says hot PCE could push yields higher and trigger a Q4 selloff.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62696461/bitcoin-drops-to-80000-after-fed-meeting-is-the-bear-thesis-playing-out"
+  },
+  {
+   "id": 62696435,
+   "created_at": "2026-10-29T13:33:43Z",
+   "headline": "Belden Q3 2026 Earnings Call Transcript",
+   "summary": "Belden (NYSE:BDC) reported third-quarter financial results on Thursday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+   "symbols": [
+    "BDC"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62696435/belden-q3-2026-earnings-call-transcript"
+  },
+  {
+   "id": 107208382,
+   "created_at": "2026-10-29T13:32:35Z",
+   "headline": "Belden Reports Third-Quarter 2026 Financial Results and Provides Q4 Outlook",
+   "summary": "Belden Inc. announced its third-quarter 2026 financial results, reporting revenue of $965.95 million and a net loss of $11.4 million, while providing guidance for the fourth quarter.",
+   "symbols": [
+    "BDC"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/belden-turns-to-loss-in-q3-announces-q4-outlook-bags-data-centre-deal;-stock-falls-in-pre-market-1036684749"
+  },
+  {
+   "id": 107208374,
+   "created_at": "2026-10-29T13:32:33Z",
+   "headline": "JPMorgan Adjusts Price Target on Garmin",
+   "summary": "JPMorgan has increased its price target for Garmin Ltd. from $295 to $310 following the company's recent financial disclosures.",
+   "symbols": [
+    "GRMN"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-garmin-to-310-from-295-ce785cd3de80f524"
+  },
+  {
+   "id": 107208329,
+   "created_at": "2026-10-29T13:32:14Z",
+   "headline": "DJI ROMO Devices Receive UL Solutions Diamond IoT Security Certification",
+   "summary": "DJI's ROMO P2 device and DJI Home app have achieved the UL Solutions Diamond IoT Security certification following third-party security audits.",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/dji-strengthens-multi-layer-privacy-protection-system-with-the-launch-of-local-data-mode-for-romo-setting-a-new-standard-for-privacy-in-home-robotics-302923382.html"
+  },
+  {
+   "id": 107208317,
+   "created_at": "2026-10-29T13:32:12Z",
+   "headline": "Apple Increases Production Targets for iPhone Duo Following Strong Demand",
+   "summary": "Apple has reportedly instructed its manufacturing partners to significantly boost production of its new foldable smartphone, the iPhone Duo, in response to high consumer demand.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8528876/apples-iphone-duo-is-likely-to-deliver-growth-acceleration-on-the-back-of-strong-demand"
+  },
+  {
+   "id": 107208271,
+   "created_at": "2026-10-29T13:31:55Z",
+   "headline": "CVS Health Announces 'Beyond Housing' Strategy for Health and Well-Being",
+   "summary": "CVS Health has introduced a new strategic initiative titled 'Beyond Housing,' aimed at addressing the intersection of housing and health to improve community well-being.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-aktien/cvs-health-corporation.htm"
+  },
+  {
+   "id": 107207182,
+   "created_at": "2026-10-29T13:31:55Z",
+   "headline": "CVS Health Participates in Caregiving Hall of Fame Event",
+   "summary": "CVS Health is partnering with Care Out Loud and P&G to host the Caregiving Hall of Fame, an event recognizing the contributions of caregivers.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/care-out-loud-continues-for-year-two-to-support-the-1-in-4-americans-providing-care-302923738.html"
+  },
+  {
+   "id": 62696262,
+   "created_at": "2026-10-29T13:30:37Z",
+   "headline": "Wells Fargo Maintains Overweight on Tapestry, Lowers Price Target to $150",
+   "summary": "",
+   "symbols": [
+    "TPR"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62696262/wells-fargo-maintains-overweight-tapestry-lowers-price-target-150"
+  },
+  {
+   "id": 62695771,
+   "created_at": "2026-10-29T13:20:02Z",
+   "headline": "Incyte Q3 2026 Earnings Call Transcript",
+   "summary": "Incyte (NASDAQ:INCY) reported third-quarter financial results on Thursday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62695771/incyte-q3-2026-earnings-call-transcript"
+  },
+  {
+   "id": 62695592,
+   "created_at": "2026-10-29T13:16:13Z",
+   "headline": "Alphabet Stock Set for Worst Day Since March 2020: Search Slowdown Overshadows Cloud Boom",
+   "summary": "Alphabet stock sank 11% premarket after a third-quarter earnings miss, on track for the second-largest one-day market value loss in history.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62695592/alphabet-stock-worst-day-since-march-2020-search-cloud"
+  },
+  {
+   "id": 62695346,
+   "created_at": "2026-10-29T13:12:16Z",
+   "headline": "Bernstein Reiterates Outperform on Cheniere Energy, Maintains $283 Price Target",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62695346/bernstein-reiterates-outperform-cheniere-energy-maintains-283-price-target"
+  },
+  {
+   "id": 107176582,
+   "created_at": "2026-10-29T13:02:48Z",
+   "headline": "Logitech Files Quarterly Report on Form 10-Q",
+   "summary": "Logitech International S.A. announced the filing of its Quarterly Report on Form 10-Q for the second quarter of fiscal year 2027.",
+   "symbols": [
+    "LOGI"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom?industry=1000067"
+  },
+  {
+   "id": 62693319,
+   "created_at": "2026-10-29T13:01:50Z",
+   "headline": "US Economy Grew 3.4% in the Third Quarter, Fed's Favorite Inflation Gauge Matches Forecasts (UPDATED)",
+   "summary": "The US economy grew 3.4% annualized in the third quarter, beating the 3.2% forecast, while September PCE inflation rose 3.6%, matching expectations.",
+   "symbols": [
+    "BTC/USD",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62693319/us-economy-gdp-third-quarter-pce-inflation-september"
+  },
+  {
+   "id": 62693355,
+   "created_at": "2026-10-29T12:43:29Z",
+   "headline": "Doordash Goes After Instacart With $17 Billion in Cash and Stock Deal",
+   "summary": "DoorDash plans to acquire Instacart for $65 per share, valuing the grocery delivery platform at approximately $17 billion in a deal expected to close by 2028.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/10/62693355/doordash-goes-after-instacart-with-17-billion-in-cash-and-stock-deal"
+  },
+  {
+   "id": 62693338,
+   "created_at": "2026-10-29T12:42:59Z",
+   "headline": "Stifel Maintains Buy on ExlService Hldgs, Raises Price Target to $48",
+   "summary": "",
+   "symbols": [
+    "EXLS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62693338/stifel-maintains-buy-exlservice-hldgs-raises-price-target-48"
+  },
+  {
+   "id": 62684592,
+   "created_at": "2026-10-29T12:41:48Z",
+   "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Drop After Fed Keeps Rates Unchanged \u2014 MSFT, GOOG, TMUS in Focus (UPDATED)",
+   "summary": "U.S. stocks were mixed Thursday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moved in different directions,",
+   "symbols": [
+    "BTC/USD",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62684592/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-fed-keeps-rates-unchanged-msft-goog-tmus-in-focus"
+  },
+  {
+   "id": 62692828,
+   "created_at": "2026-10-29T12:32:24Z",
+   "headline": "STMicroelectronics Lifts Forecast Thanks To Data Center Revenue Growth",
+   "summary": "STMicroelectronics beats Q3 revenue at $3.76B as surging AI data center demand, satellite growth, and Nvidia robotics ties fuel an aggressive 2027 expansion roadmap.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62692828/stmicroelectronics-lifts-forecast-thanks-to-data-center-revenue-growth"
+  },
+  {
+   "id": 62692369,
+   "created_at": "2026-10-29T12:25:16Z",
+   "headline": "Scott Bessent Brushes Off Concerns Over AI Debt Amid CoreWeave Slump, Calls Neoclouds a \u2018Small Component\u2019",
+   "summary": "Treasury Sec. Scott Bessent dismisses AI debt fears amid CoreWeave&#39;s slump, telling CNBC that neoclouds are a small component of the market.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62692369/scott-bessent-brushes-off-concerns-over-ai-debt-amid-coreweave-slump-calls-neoclouds-a-small-component"
+  },
+  {
+   "id": 107140692,
+   "created_at": "2026-10-29T12:01:52Z",
+   "headline": "Howmet Aerospace Reports Third Quarter 2026 Results",
+   "summary": "Howmet Aerospace announced strong third-quarter 2026 financial results, featuring significant revenue growth, margin expansion, and an increased share repurchase authorization.",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/howmet-aerospace-reports-third-quarter-2026-results-302922826.html"
+  },
+  {
+   "id": 62690647,
+   "created_at": "2026-10-29T11:54:51Z",
+   "headline": "Bitcoin Back to $80,000 but Technicals Signal Massive Move Ahead: Glassnode",
+   "summary": "Bitcoin may break out as Glassnode sees closes above $85K signaling stronger demand; $87.5K and rising ETF inflows could confirm momentum.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62690647/bitcoin-back-to-80000-but-technicals-signal-massive-move-ahead-glassnode"
+  },
+  {
+   "id": 62690323,
+   "created_at": "2026-10-29T11:44:24Z",
+   "headline": "Cheniere Energy Q3 EPS $5.65 Beats $4.22 Estimate, Sales $6.173B Beat $5.360B Estimate",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62690323/cheniere-energy-q3-eps-5-65-beats-4-22-estimate-sales-6-173b-beat-5-360b-estimate"
+  },
+  {
+   "id": 62690306,
+   "created_at": "2026-10-29T11:44:15Z",
+   "headline": "Belden Inks Agreement To Provide $100M Of Fiber Services To Major U.S. Data Center Client This Year",
+   "summary": "",
+   "symbols": [
+    "BDC"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62690306/belden-inks-agreement-provide-100m-fiber-services-major-u-s-data-center-client-year"
+  },
+  {
+   "id": 62690225,
+   "created_at": "2026-10-29T11:41:40Z",
+   "headline": "Cheniere Energy Raises Quarterly Dividend From $0.555 To $0.625 Per Share",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62690225/cheniere-energy-raises-quarterly-dividend-0-555-0-625-share"
+  },
+  {
+   "id": 62690038,
+   "created_at": "2026-10-29T11:40:04Z",
+   "headline": "Trading Halt: Halt status updated at 7:40:00 AM ET: Quotation Resumption: News and Resumption Times",
+   "summary": "",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CART"
+  },
+  {
+   "id": 62689952,
+   "created_at": "2026-10-29T11:37:52Z",
+   "headline": "Maplebear Q3 EPS $0.60 Misses $0.63 Estimate, Sales $1.095B Beat $1.071B Estimate",
+   "summary": "",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62689952/maplebear-q3-eps-0-60-misses-0-63-estimate-sales-1-095b-beat-1-071b-estimate"
+  },
+  {
+   "id": 62689798,
+   "created_at": "2026-10-29T11:33:44Z",
+   "headline": "Belden Sees Q4 Adj EPS $2.20-$2.35 vs $2.27 Est; Sees Sales $960.000M-$980.000M vs $962.135M Est",
+   "summary": "",
+   "symbols": [
+    "BDC"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62689798/belden-sees-q4-adj-eps-2-20-2-35-vs-2-27-est-sees-sales-960-000m-980-000m-vs-962-135m-est"
+  },
+  {
+   "id": 62689787,
+   "created_at": "2026-10-29T11:33:38Z",
+   "headline": "Belden Sees Q4 GAAP EPS $0.24-$0.39 vs $1.73 Est",
+   "summary": "",
+   "symbols": [
+    "BDC"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62689787/belden-sees-q4-gaap-eps-0-24-0-39-vs-1-73-est"
+  },
+  {
+   "id": 107806407,
+   "created_at": "2026-10-29T11:32:37Z",
+   "headline": "DoorDash to Acquire Instacart for $17 Billion",
+   "summary": "DoorDash has confirmed an agreement to acquire Instacart in a transaction valued at approximately $17 billion, with a purchase price of $65.00 per share.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://investors.instacart.com/News/news-releases/news-details/2026/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win/default.aspx"
+  },
+  {
+   "id": 107123975,
+   "created_at": "2026-10-29T11:32:37Z",
+   "headline": "DoorDash to Acquire Instacart for $17 Billion",
+   "summary": "DoorDash has confirmed an agreement to acquire Instacart in a transaction valued at approximately $17 billion, with a purchase price of $65.00 per share.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1002814442"
+  },
+  {
+   "id": 107123956,
+   "created_at": "2026-10-29T11:32:26Z",
+   "headline": "The Clorox Company Appoints Fabian Garcia as CEO",
+   "summary": "The Clorox Company has named Fabian Garcia as its next CEO, effective January 5, 2027, succeeding current CEO Linda Rendle.",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:486dbe05d43e4:0-the-clorox-company-appoints-fabian-garcia-ceo-effective-jan-5-2027/"
+  },
+  {
+   "id": 62689691,
+   "created_at": "2026-10-29T11:32:04Z",
+   "headline": "Belden Q3 Adj. EPS $2.26, Inline, Sales $965.945M Beat $961.823M Estimate",
+   "summary": "",
+   "symbols": [
+    "BDC"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62689691/belden-q3-adj-eps-2-26-inline-sales-965-945m-beat-961-823m-estimate"
+  },
+  {
+   "id": 107123930,
+   "created_at": "2026-10-29T11:32:04Z",
+   "headline": "Incyte Reports Third Quarter 2026 Financial Results",
+   "summary": "Incyte Corporation announced its financial results for the third quarter of 2026 and provided updates on its business operations.",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/health/biotechnology"
+  },
+  {
+   "id": 62689510,
+   "created_at": "2026-10-29T11:30:31Z",
+   "headline": "Elon Musk Takes a Jab at Apple's $29,799 Mac Studio: 'Makes a Tesla Seem Quite Affordable!'",
+   "summary": "Elon Musk mocks Apple\u2019s $29,799 fully specced Mac Studio, noting it costs nearly as much as Tesla\u2019s Model 3.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62689510/elon-musk-takes-a-jab-at-apples-29799-mac-studio-makes-a-tesla-seem-quite-affordable"
+  },
+  {
+   "id": 62689369,
+   "created_at": "2026-10-29T11:24:30Z",
+   "headline": "Clorox Appoints Fabian Garcia As CEO, Effective January 5, 2027",
+   "summary": "",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62689369/clorox-appoints-fabian-garcia-ceo-effective-january-5-2027"
+  },
+  {
+   "id": 62689222,
+   "created_at": "2026-10-29T11:19:02Z",
+   "headline": "DoorDash Confirms To Acquire Instacart At $65.00 Per Share At Valuation Of ~$17B, With Deal To Be At Least 75% Cash",
+   "summary": "",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m/26/10/62689222/doordash-confirms-acquire-instacart-65-00-share-valuation-17b-deal-be-least-75-cash"
+  },
+  {
+   "id": 62689103,
+   "created_at": "2026-10-29T11:15:08Z",
+   "headline": "Howmet Aerospace Raises FY2026 Adj EPS Guidance from $5.23-$5.31 to $5.49-$5.51 vs $5.33 Est; Raises FY2026 Sales Guidance from $10.000B-$10.100B to $10.290B-$10.310B vs $10.108B Est",
+   "summary": "",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62689103/howmet-aerospace-raises-fy2026-adj-eps-guidance-5-23-5-31-5-49-5-51-vs-5-33-est-raises-fy2026-sales-"
+  },
+  {
+   "id": 62688954,
+   "created_at": "2026-10-29T11:11:27Z",
+   "headline": "Incyte Raises FY2026 Sales Guidance from $5.130B-$5.260B to $5.210B-$5.300B vs $5.929B Est",
+   "summary": "",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62688954/incyte-raises-fy2026-sales-guidance-5-130b-5-260b-5-210b-5-300b-vs-5-929b-est"
+  },
+  {
+   "id": 62688805,
+   "created_at": "2026-10-29T11:10:00Z",
+   "headline": "Trading Halt: Halted at 7:10:00 a.m. ET - Trading Halt: Halt News Pending",
+   "summary": "",
+   "symbols": [
+    "CART"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CART"
+  },
+  {
+   "id": 62688768,
+   "created_at": "2026-10-29T11:09:23Z",
+   "headline": "Howmet Aerospace Sees Q4 Adj EPS $1.49-$1.51 vs $1.42 Est; Sees Sales $2.740B-$2.760B vs $2.672B Est",
+   "summary": "",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62688768/howmet-aerospace-sees-q4-adj-eps-1-49-1-51-vs-1-42-est-sees-sales-2-740b-2-760b-vs-2-672b-est"
+  },
+  {
+   "id": 62688191,
+   "created_at": "2026-10-29T11:01:45Z",
+   "headline": "Incyte Q3 Adj. EPS $(3.60) Beats $(3.85) Estimate, Sales $1.557B Beat $1.470B Estimate",
+   "summary": "",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62688191/incyte-q3-adj-eps-3-60-beats-3-85-estimate-sales-1-557b-beat-1-470b-estimate"
+  },
+  {
+   "id": 62688190,
+   "created_at": "2026-10-29T11:01:45Z",
+   "headline": "Howmet Aerospace Q3 Adj. EPS $1.46 Beats $1.37 Estimate, Sales $2.703B Beat $2.591B Estimate",
+   "summary": "",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/10/62688190/howmet-aerospace-q3-adj-eps-1-46-beats-1-37-estimate-sales-2-703b-beat-2-591b-estimate"
+  },
+  {
+   "id": 62686833,
+   "created_at": "2026-10-29T10:36:01Z",
+   "headline": "Bill Hagerty Says Trump's Strategic Bitcoin Reserve Could Expand 'Very Soon' After CLARITY Act Clears Legislative Hurdle",
+   "summary": "Sen. Bill Hagerty said on Wednesday, October 28, that Bitcoin reserve legislation could advance after lawmakers address major components of the CLARITY Act.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62686833/bill-hagerty-bitcoin-reserve-bill-crypto-legislation"
+  },
+  {
+   "id": 107098211,
+   "created_at": "2026-10-29T10:31:54Z",
+   "headline": "Cheniere Energy Reports Third Quarter 2026 Financial Results",
+   "summary": "Cheniere Energy announced its third-quarter 2026 financial results, reporting earnings per share of $5.65 and total revenue of $6.17 billion.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/earnings-flash-lng-cheniere-energy-posts-q3-eps-5-65-ce785cd3de8cf02c"
+  },
+  {
+   "id": 62685683,
+   "created_at": "2026-10-29T10:09:03Z",
+   "headline": "Kevin Warsh Plans Fewer Fed Rate Decisions as Central Bank Sets Aside Meetings for Long-Term Strategy \u2014 Rate Votes Drop to Six by 2028",
+   "summary": "Fed Chair Kevin Warsh on Wednesday unveiled a plan to overhaul Fed meetings, setting aside time for long-term strategy, not rate decisions.",
+   "symbols": [
+    "IEF",
+    "TLT"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62685683/kevin-warsh-fed-meeting-overhaul-strategy-sessions-no-rate-vote"
+  }
+ ],
+ "events": {
+  "AAPL": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-28",
+   "days_to_earnings": 89
+  },
+  "ADBE": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-09",
+   "days_to_earnings": 39
+  },
+  "ADSK": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 24
+  },
+  "AYI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-07",
+   "days_to_earnings": 68
+  },
+  "BBY": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 24
+  },
+  "BDC": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000042/bdc-20260927.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000039/bdc-20261029.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-11",
+   "days_to_earnings": 103
+  },
+  "BJRI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-24",
+   "days_to_earnings": 116
+  },
+  "BLBD": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-23",
+   "days_to_earnings": 23
+  },
+  "CALX": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 88
+  },
+  "CARG": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-05",
+   "days_to_earnings": 5
+  },
+  "CART": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "1.01,8.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1579091/000119312526437075/d171568d8k.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1579091/000119312526437014/d24470d8k.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-26",
+     "items": "2.05",
+     "url": "https://www.sec.gov/Archives/edgar/data/1579091/000157909126000050/cart-20261025.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-11-09",
+   "days_to_earnings": 9
+  },
+  "CLX": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "5.02,7.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/21076/000120677426000586/clx4708451-8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-11-02",
+   "days_to_earnings": 2
+  },
+  "CVS": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-09",
+   "days_to_earnings": 101
+  },
+  "DBX": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-10-28",
+     "items": "2.02,2.05,5.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1467623/000146762326000052/dbx-20261028.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-11-05",
+   "days_to_earnings": 5
+  },
+  "DORM": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-27",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/868780/000086878026000053/dorm-20260926.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-26",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/868780/000086878026000050/dorm-20261026.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-24",
+   "days_to_earnings": 116
+  },
+  "DPZ": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-22",
+   "days_to_earnings": 114
+  },
+  "EXEL": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/939767/000093976726000116/exel-20261002.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/939767/000093976726000114/exel-20261029.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-11-03",
+   "days_to_earnings": 3
+  },
+  "EXLS": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-27",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/1297989/000129798926000031/exls-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-27",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1297989/000129798926000028/exls-20261027.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-23",
+   "days_to_earnings": 115
+  },
+  "FAST": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-19",
+   "days_to_earnings": 80
+  },
+  "GLD": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 24
+  },
+  "GPOR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-03",
+   "days_to_earnings": 3
+  },
+  "GRMN": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-28",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/1121788/000119312526435070/grmn-20260926.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-28",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1121788/000119312526435066/grmn-20261028.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 109
+  },
+  "HWM": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000036/hwm-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/4281/000110465926119857/tm2628456d1_8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-11",
+   "days_to_earnings": 103
+  },
+  "IDXX": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-02",
+   "days_to_earnings": 2
+  },
+  "INCY": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000066/incy-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000063/incy-20261029.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-09",
+   "days_to_earnings": 101
+  },
+  "KR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-03",
+   "days_to_earnings": 33
+  },
+  "LNG": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,7.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/3570/000000357026000040/lng-20261029.htm"
+    },
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/3570/000000357026000038/lng-20260930.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-25",
+   "days_to_earnings": 117
+  },
+  "LOGI": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-28",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/1032975/000103297526000063/logi-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-27",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1032975/000103297526000059/logi-20261027.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-01-26",
+   "days_to_earnings": 87
+  },
+  "MCO": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 109
+  },
+  "MLI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-02",
+   "days_to_earnings": 94
+  },
+  "MSCI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 88
+  },
+  "MSM": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-06",
+   "days_to_earnings": 67
+  },
+  "MTCH": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-03",
+   "days_to_earnings": 3
+  },
+  "ONC": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-05",
+   "days_to_earnings": 5
+  },
+  "RL": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-05",
+   "days_to_earnings": 5
+  },
+  "RRC": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-10-28",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/315852/000119312526435073/d174576d8k.htm"
+    },
+    {
+     "form": "10-Q",
+     "filed": "2026-10-27",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/315852/000119312526434351/rrc-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-26",
+     "items": "1.01,7.01,8.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/315852/000119312526431025/d161989d8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-01-20",
+   "days_to_earnings": 81
+  },
+  "SAM": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-23",
+   "days_to_earnings": 115
+  },
+  "SBH": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-12",
+   "days_to_earnings": 12
+  },
+  "SMG": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-04",
+   "days_to_earnings": 4
+  },
+  "TPR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-05",
+   "days_to_earnings": 5
+  },
+  "TTEK": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-11",
+   "days_to_earnings": 11
+  },
+  "ULS": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-03",
+   "days_to_earnings": 3
+  },
+  "UNFI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-01",
+   "days_to_earnings": 31
+  },
+  "VRSN": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-04",
+   "days_to_earnings": 96
+  },
+  "WDFC": {
+   "filings_7d": [
+    {
+     "form": "10-K",
+     "filed": "2026-10-26",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000091/wdfc-20260831.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-01-07",
+   "days_to_earnings": 68
+  },
+  "WINA": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 109
+  },
+  "WLY": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-03",
+   "days_to_earnings": 33
+  },
+  "WMT": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-19",
+   "days_to_earnings": 19
+  }
+ },
+ "note": "next_earnings_estimate is last year's results date + 364 days, not a confirmed date. 8-K items: 2.02 results, 5.02 officer changes, 1.01 material agreements, 4.01 auditor change, 4.02 non-reliance on prior financials."
+}
