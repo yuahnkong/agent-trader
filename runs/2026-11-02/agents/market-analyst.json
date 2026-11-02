@@ -1,0 +1,31 @@
+{
+  "stance": "neutral",
+  "confidence": 0.6,
+  "summary": "The index trend is intact (SPY 4.1% above its 200-day) but leadership has rotated hard: Nasdaq and Technology are falling while Energy, Staples, Health Care and the equal-weight index rise. That is a defensive-leaning, narrow-leadership tape, not a clean risk-on one, so keep normal sizing, favor broad and defensive exposure, and do not add aggressively to mega-cap growth or gold.",
+  "reasons": [
+    "Regime is on: SPY closed 755.72 vs a 200-day of 725.98 (+4.1%), so the code filter permits buying. SPY is flat-to-soft though: 5d -0.56%, 21d -1.08%, 63d -0.01%.",
+    "Growth is the weak spot: QQQ 21d -6.95% (5d -1.97%), Technology 21d -9.25%, Communication 21d -9.13% (5d -5.32%, 11.08% below its 200-day).",
+    "Rotation into defensives and cyclicals: Energy 21d +11.67% (63d +19.82%), Staples 21d +11.32%, Health Care 21d +11.23%, Utilities 21d +9.45%. Defensive sector leadership is a late-cycle, risk-averse signal.",
+    "Breadth is healthier than the headline index: equal-weight RSP 21d +4.45% (5d +0.82%) vs SPY 21d -1.08%, and small caps IWM 5d +1.30% but 63d -5.46% and only 0.59% above its 200-day, so participation is broad but not strong.",
+    "Volatility proxy is edging up: VIXY 5d +2.73%, 21d +7.79%. VIXY decays, so a rise against decay is a mild stress signal, not a spike. SPY realized vol is calm (20d 11.64% vs 252d 12.81%).",
+    "Rates: TLT 21d +5.32% and IEF 21d +2.75% mean long yields fell over the month, but both remain below their 200-day (TLT -1.66%, IEF -0.81%) and the news memory carries hawkish-Fed and December-hike-odds themes. Duration is a rally inside a downtrend, not a confirmed safe haven.",
+    "Credit is steady, not stressed: HYG 5d +0.50%, 21d +0.69%, 63d -1.40%; LQD 21d +2.19%. No sign of credit-led risk-off.",
+    "Gold is breaking down: GLD 21d -7.05%, 63d -4.29%, 13.84% below its 200-day, with the dollar firm (UUP 63d +2.95%, 3.85% above its 200-day)."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Consumer Staples", "Energy"],
+    "avoid": ["Communication", "Technology"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Prefer broad US core (VOO 21d -1.07%, 4.14% above its 200-day; VTI 21d -0.96%) over QQQ (21d -6.95%, only 1.79% above its 200-day, vol 20.3%). International stays unattractive: VXUS 21d -2.47%, 63d -2.95%, below its 200-day (-0.86%); VWO 21d -5.96%, 4.63% below its 200-day. This is consistent with the standing US-core preference. REITs are bouncing (VNQ 21d +5.35%) but 63d is -4.36% and the rate backdrop is a headwind, so treat it as a rally, not a trend.",
+    "bonds_gold": "Bonds are rallying and low-vol (BND 21d +2.09%, vol 3.96%; IEF 21d +2.75%) but sit slightly under their 200-days, so they are a reasonable ballast rather than a high-conviction buy; TLT (vol 9.58%) carries the most hike-risk sensitivity. Gold is risky now: GLD 13.84% below its 200-day with vol 28.8%. Avoid catching it.",
+    "crypto": "Risky, not attractive for fresh size. BTC 21d -6.51% (still 6.95% above its 200-day, vol 44.2%); ETH weaker at 21d -10.31%, 63d -5.98%, vol 60.9%. Both are trading as high-beta risk assets alongside falling Nasdaq."
+  },
+  "watch": [
+    "SPY closing below its 200-day of 725.98 (about 4% below the current close) would flip the regime filter and move this to risk-off.",
+    "Nasdaq and Technology weakness spreading to the broad index: QQQ 21d worsening beyond -7% and SPY 5d turning clearly negative.",
+    "VIXY continuing to rise against its decay (5d above +2.73%) alongside HYG turning down (21d below zero).",
+    "Long-yield spike: TLT breaking down through its 200-day (currently -1.66% under) on hawkish Fed or hot inflation data.",
+    "Upgrade to risk-on needs Technology and Communication to stabilize (positive 5d returns) while the equal-weight index keeps leading and credit stays firm."
+  ]
+}

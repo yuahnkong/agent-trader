@@ -1,0 +1,17 @@
+{
+  "summary": "The Proposer made no proposals, so there is nothing to execute and the portfolio is unchanged. Existing risks are the VOO weight (14.1% against the 15% cap, buy cap only $5.61), about 26% Consumer Staples by label, and VOO plus VTI together at about 22% of equity in near-identical US broad beta.",
+  "checks": [
+    {
+      "proposal_id": "none",
+      "concentration": "No trades, so no weight changes. Current weights: VOO 14.1% (closest to the 15% cap), WMT 12.1%, DPZ 10.5%, IDXX 7.5%, VTI 8.1%. Cash is 11.5% ($70.42), which is why the Proposer saw only about $9 above the 10% buffer. Asset-class mix: single stocks about 46%, equity ETFs (VOO, VTI) about 22%, bond ETFs (BND, IEF) about 9%, crypto (BTC/USD) 2.2% against the 5% cap with $17.09 of room. No gold ETF is held. Per L3, DPZ, WMT and KR sum to about 26% Consumer Staples by label (10.5 + 12.1 + 3.4); the DPZ label is a wholesale-groceries SIC artifact, so the economic exposure is lower, and the Proposer correctly avoided adds there.",
+      "overlap": "No new overlap created. Standing overlap: VOO and VTI are both US broad market at beta about 1.0 and total about 22% of equity, and they already hold the big US names that the single stocks (e.g. VRSN, MSCI) also sit in. Health Care is IDXX alone at 7.5%.",
+      "tax": "No sells proposed, so no lots are realized. Every lot is short-term; the earliest long_term_on is 2027-10-21 (DPZ, IDXX, WMT, the oldest VOO lot), so about 11.5 months remain on all of them. IDXX is the largest gain (+$5.98, +15.0%) and a sale now would be fully short-term, which supports the Proposer's hold after the print. BTC/USD (-$1.02) and DPZ (-$0.17) are the only meaningful losses, and selling either would trigger a wash-sale window on a rebuy.",
+      "wash_sale": "none: recent_realized is empty and buy_blocked is empty, so no name is currently blocked. Any future loss sale of BTC/USD, DPZ, VOO or VTI would block a rebuy for 30 days.",
+      "summary": "No proposals, so no portfolio-level change; standing concerns are VOO near its cap, the Staples label stack, and VOO plus VTI duplication."
+    }
+  ],
+  "stress_10pct_drop": {
+    "before_usd": -22.91,
+    "after_usd": -22.91
+  }
+}
