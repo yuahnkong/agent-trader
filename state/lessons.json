@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-11-02",
   "lessons": [
     {
       "id": "L1",
@@ -15,11 +15,12 @@
         "2026-10-27 MSM: the PM wrote the invalidation against the actual fill (filled at the $118.72 menu close, so the ~9% distance held). DPZ's $274.88 invalidation is still not re-anchored (PM and Fundamentals reviews both flag it); DPZ is -1.4% on the fill.",
         "2026-10-28 BND: filled at $71.298 against the expected ~$71.3, and the PM anchored the invalidation (~$70.0) to that fill, so the L1 practice held for new buys. DPZ's $274.88 is still about 13% under its $316.58 fill (PM, News and Fundamentals reviews all flag it); the position is -2.25%.",
         "2026-10-29 DPZ: the $274.88 invalidation is still anchored to the $305.42 reference close, about 13% under the $316.58 fill; PM, News and Fundamentals reviews all flag it again (position -0.96%). The PM applied L1 to the rejected VXUS buy. DPZ re-anchoring (about $285) has now gone unfixed for 7 sessions; it is a held-position action, not a new-buy one.",
-        "2026-10-30 DPZ: thesis in close.json still reads $274.88 (10% under the $305.42 reference close); the PM review calls it the 8th open session and says it cannot write the fix because it only writes decision and review files (position -0.9%). The gap is now structural, not an oversight: see owner_suggestions."
+        "2026-10-30 DPZ: thesis in close.json still reads $274.88 (10% under the $305.42 reference close); the PM review calls it the 8th open session and says it cannot write the fix because it only writes decision and review files (position -0.9%). The gap is now structural, not an oversight: see owner_suggestions.",
+        "2026-11-02 DPZ: the PM wrote the re-anchored level (about $285, 10% under the $316.58 fill) into the decision reasoning and treats it as the invalidation from today, ending the 9-session drift in practice. The stored thesis in close.json still reads $274.88, so the owner suggestion on amending stored theses stands."
       ],
       "confidence": "low",
       "added": "2026-10-20",
-      "last_confirmed": "2026-10-30",
+      "last_confirmed": "2026-11-02",
       "status": "active",
       "retired_why": null
     },
@@ -37,11 +38,12 @@
         "2026-10-27 MSM: the proposal's earnings date was verified from the 8-K 2.02 and 10-K filed 10-22 (next about 2027-01-06) and the PM sized it with the date known. Still open: the WMT 8-K 8.01 from 10-23 is unread (News Analyst sees only item numbers); SMG now has a company-confirmed Q4 date of 11-04.",
         "2026-10-28 INCY: the estimated 10-27 date passed with no 8-K 2.02, results headline or 10-Q; the Skeptic and PM read that as an imminent print and the PM rejected the buy on it (not yet graded). The News Analyst resolved GRMN, RRC, DORM, EXLS and LOGI from filings. Still open: WMT 8-K 8.01 (10-23) unread, CALX and CVS 10-28 dates unverified.",
         "2026-10-29: the News Analyst resolved the 10-28/10-29 estimates for GRMN, HWM, LNG, BDC and INCY from filings or headlines and the 10-27 CART flag came true (DoorDash agreed to buy Instacart at $65, 8-K 1.01). Still open: WMT 8-K 8.01 (10-23) unread; CVS and CALX still show no results in the inputs.",
-        "2026-10-30: the News Analyst resolved INCY, HWM, LNG, BDC, EXEL, GRMN, LOGI, EXLS and RRC from 8-K 2.02 / 10-Q filings and caught that EXEL's 11-03 estimate is stale. Still open: the WMT 8-K 8.01 (10-23) is unread and ages out of the window; ULS and GPOR own dates unverified (not held)."
+        "2026-10-30: the News Analyst resolved INCY, HWM, LNG, BDC, EXEL, GRMN, LOGI, EXLS and RRC from 8-K 2.02 / 10-Q filings and caught that EXEL's 11-03 estimate is stale. Still open: the WMT 8-K 8.01 (10-23) is unread and ages out of the window; ULS and GPOR own dates unverified (not held).",
+        "2026-11-02: the News Analyst confirmed IDXX's print from the 8-K 2.02 and results headline, checked every held name's filings (no 4.01, 4.02 or 5.02) and listed held-name earnings dates (CARG 11-05 the only one inside the window). The WMT 8-K 8.01 (10-23) aged out unread, so that item closes by expiry, not by resolution."
       ],
       "confidence": "low",
       "added": "2026-10-21",
-      "last_confirmed": "2026-10-30",
+      "last_confirmed": "2026-11-02",
       "status": "active",
       "retired_why": null
     },
@@ -56,11 +58,12 @@
         "2026-10-20 DPZ: its top-of-sector rank was partly an artifact of a wholesale-groceries mislabel, per the PM thesis (DPZ graded wrong at -1.35%, though not on this ground alone).",
         "2026-10-28 INCY: the PM weighed Health Care overlap with IDXX (6.7% of equity, print about 11-02 after a second PT cut) as one sleeve when rejecting the buy. DPZ's Consumer Staples label is still a wholesale-groceries SIC artifact per the Fundamentals review.",
         "2026-10-29 DPZ: the Fundamentals review again rests the thesis on absolute quality, not the Staples rank, and flags the label caveat for DPZ, FAST, MSM and MSCI. No new sector claim was made today.",
-        "2026-10-30: the PM counted WMT, DPZ and KR as about 26% Consumer Staples by label and used that as a reason not to add to them; the Fundamentals review repeats the label-stacking caveat. No new sector claim was made."
+        "2026-10-30: the PM counted WMT, DPZ and KR as about 26% Consumer Staples by label and used that as a reason not to add to them; the Fundamentals review repeats the label-stacking caveat. No new sector claim was made.",
+        "2026-11-02: no new sector claim (no proposals). The PM again counted DPZ, WMT and KR as about 26% Consumer Staples by label and cited the stack as a reason not to add; the Fundamentals review repeats that DPZ's Staples rank is a wholesale-groceries SIC artifact."
       ],
       "confidence": "low",
       "added": "2026-10-27",
-      "last_confirmed": "2026-10-30",
+      "last_confirmed": "2026-11-02",
       "status": "active",
       "retired_why": null
     },
@@ -71,28 +74,32 @@
       "applies_to": ["proposer", "portfolio-manager"],
       "evidence": [
         "2026-10-29 VXUS $10 (1.7% of equity): the proposal reversed the Market Analyst's 'prefer US core over international' call (VXUS 21d -2.06%, 63d -1.03% vs SPY +4.39%), was a beta-1.12 equity fund (Implicator: 10% stress loss from -22.84 to -23.96, so no diversification), and its invalidation sat about 0.9% under entry. The Skeptic objected and the PM rejected it. This is a process check from the run files; the rejection's outcome is not graded and is not the evidence.",
-        "2026-10-30: the PM cited L4 for standing aside (a buy that keeps a 10% cash buffer would be about $9). Note the PM applied it to token size in general; the lesson itself is about token buys justified only by diversification. The Market Analyst's note also keeps the US-core preference (VXUS 21d -1.54%). Watch that L4 does not become a blanket reason to idle cash."
+        "2026-10-30: the PM cited L4 for standing aside (a buy that keeps a 10% cash buffer would be about $9). Note the PM applied it to token size in general; the lesson itself is about token buys justified only by diversification. The Market Analyst's note also keeps the US-core preference (VXUS 21d -1.54%). Watch that L4 does not become a blanket reason to idle cash.",
+        "2026-11-02: the PM explicitly declined to cite L4 for the empty trade list and gave size (about $9 above the 10% buffer) and an event-heavy week as the reasons instead, which is the narrow reading the lesson intends. Cash is 11.4% and the account is 88.6% invested against the shadow's 99.0%; the PM says to look for a proposal when cash rises."
       ],
       "confidence": "low",
       "added": "2026-10-29",
-      "last_confirmed": "2026-10-30",
+      "last_confirmed": "2026-11-02",
       "status": "active",
       "retired_why": null
     },
     {
       "id": "L5",
-      "lesson": "Review every held position on every run, including days with no trade: distance from price to the invalidation, earnings dates now inside the 5-day window versus what the thesis says, and thesis text that has gone stale. Where an invalidation clause is qualitative (e.g. 'exchange failure'), state in the reasoning whether it has tripped, and why. Write the re-anchored level or date into the decision reasoning rather than only flagging it.",
+      "lesson": "Review every held position on every run, including days with no trade: distance from price to the invalidation, earnings dates now inside the 5-day window versus what the thesis says, and thesis text that has gone stale. Where an invalidation clause is qualitative (e.g. 'exchange failure'), state in the reasoning whether it has tripped, and why. Write the re-anchored level or date into the decision reasoning rather than only flagging it. When a held name gaps far from the price its stop was written against, re-anchor the stop to the close and to the gain, and name any stop within about 2% of the market together with the dated catalysts.",
       "kind": "process",
       "applies_to": ["portfolio-manager", "proposer"],
       "evidence": [
         "2026-10-30 IDXX: the 10-20 thesis says earnings (11-02) are outside the 5-day window; the print is now one trading day out, the position fell 4.3% today with no news, and only the Skeptic's objection and the News Analyst's upcoming note brought the stale premise up. The PM did weigh it (stress loss about $3) and held knowingly; the thesis text is still stale.",
         "2026-10-30 CARG: the thesis says earnings 11-05 are outside the window and invalidates on a negative surprise inside five trading days; the company confirmed 11-05 after the close (4 trading days out), so the clause is live on a 5.1% position (News Analyst broken_theses).",
         "2026-10-30 BTC/USD: invalidation includes 'an exchange failure'; the record Binance hack (about $6.3B) arguably meets the wording and the News Analyst asked the PM to say explicitly whether it trips. The PM judged it contained (BTC about -3%, still within the 10% stop at about $75.3k, now about 2% away) but only in a closing review, not as a stated decision step.",
-        "2026-10-30 DPZ: invalidation anchored to the wrong close for 8 sessions (see L1); the PM raised it again without changing it. The common pattern across these four is held-position drift found by other agents rather than checked up front. This is a process lesson from the run files; none of these cases is a graded outcome."
+        "2026-10-30 DPZ: invalidation anchored to the wrong close for 8 sessions (see L1); the PM raised it again without changing it. The common pattern across these four is held-position drift found by other agents rather than checked up front. This is a process lesson from the run files; none of these cases is a graded outcome.",
+        "2026-11-02 applied: the PM reviewed IDXX (print resolved, stop re-anchored to about $575), CARG (11-05 clause live), DPZ (stop re-anchored to about $285, unverified guidance-cut item turned into a numeric conditional sell) and BTC/USD (exchange-failure clause judged untripped, with the reasoning stated before the close).",
+        "2026-11-02 IDXX gap: the new $575 stop was set 10% under an intraday ~$639, but IDXX closed near $670 (+21.6%), so the stop is about 14% below the close and would give back most of the gain (PM review, weak point 1). The stop should be re-anchored to the close next session. This is the same drift L1 describes, caught by the PM's own close review.",
+        "2026-11-02 BTC/USD: closed near $76.7k, about 2% above the $75.3k price stop (position -8.4% on cost), with midterms on 11-03 and the 11-11 MSCI/Strategy decision ahead; the PM review asks that this be named in the next decision. Process evidence only, no graded outcome."
       ],
       "confidence": "low",
       "added": "2026-10-30",
-      "last_confirmed": "2026-10-30",
+      "last_confirmed": "2026-11-02",
       "status": "active",
       "retired_why": null
     }
@@ -126,6 +133,22 @@
         "2026-10-30 close.json performance: agent_return 0.00512, shadow_return 0.04818, spy_return -0.01404; agent_invested_pct 0.8827, shadow_invested_pct 0.9896.",
         "2026-10-21 RRC rejected buy: 5-session vs_spy +0.3024 (graded 'wrong'); 20-session grade pending, and the 10-26 EQT acquisition bid was not foreseeable from the 10-21 inputs.",
         "Scorecard: portfolio-manager 5-session hit rate 0.55 (11 right, 9 wrong), skeptic 0.357 (5 of 14), 20-session graded counts all 0; none has enough_data."
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "suggestion": "Hypothesis to watch, not a rule: the shadow-book gap has narrowed. Since 10-30 the agent is +2.95% (shadow +5.81%, SPY -1.88%), and since the version-4 start on 10-28 the agent is +2.7% against the shadow's +0.9%, mostly from IDXX's +21.6% beat-and-raise day. That is one company event, not evidence about invested level or about any agent. The earliest 20-session grades (10-20 calls) arrive about 11-17; until then no agent has enough_data and no outcome lesson is supportable.",
+      "evidence": [
+        "2026-11-02 close.json performance: agent_return 0.02953, shadow_return 0.05812, spy_return -0.01876; since_version agent_return 0.02714, shadow_return 0.00928; agent_invested_pct 0.8862, shadow_invested_pct 0.9897.",
+        "2026-11-02 IDXX change_today +0.2155 on 7.8% of equity, about $8.5 of the $14.91 day P/L.",
+        "Scorecard as of 2026-11-02: portfolio-manager 5-session hit rate 0.583 (14 right, 10 wrong), proposer 0.667 (16 of 24), skeptic 0.278 (5 of 18); 20-session counts still 0 for all three."
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "suggestion": "Refresh the fundamentals menu after the Q3 filings. The Fundamentals Analyst says the menu (as of 2026-10-27) holds prior-fiscal-year cash-flow figures for VRSN, MSCI, MSM and IDXX, so it cannot confirm or break the theses written around those prints. This is a data-input change, not a limit or screen rule.",
+      "evidence": [
+        "2026-11-02 Fundamentals review, update point 4: the menu predates the Q3 prints for VRSN, MSCI, MSM and IDXX (reported 10-20 to 10-22 or 11-02) and its figures have not been re-tested."
       ]
     }
   ]

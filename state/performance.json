@@ -8,9 +8,9 @@
   "shadow_return": -0.0,
   "spy_return": 0.00335,
   "agent_invested_return": -0.001071,
-  "shadow_invested_return": 0.000239,
+  "shadow_invested_return": -9.7e-05,
   "agent_invested_pct": 0.3912,
-  "shadow_invested_pct": 1.0002,
+  "shadow_invested_pct": 0.9999,
   "version": "1"
  },
  {
@@ -22,9 +22,9 @@
   "shadow_return": -0.00533,
   "spy_return": 0.00862,
   "agent_invested_return": -0.003932,
-  "shadow_invested_return": -0.005668,
+  "shadow_invested_return": -0.006004,
   "agent_invested_pct": 0.5318,
-  "shadow_invested_pct": 0.9997,
+  "shadow_invested_pct": 0.9993,
   "version": "3"
  },
  {
@@ -36,9 +36,9 @@
   "shadow_return": 0.01114,
   "spy_return": -0.00329,
   "agent_invested_return": 0.010454,
-  "shadow_invested_return": 0.011203,
+  "shadow_invested_return": 0.010862,
   "agent_invested_pct": 0.677,
-  "shadow_invested_pct": 1.0001,
+  "shadow_invested_pct": 0.9997,
   "version": "3"
  },
  {
@@ -49,10 +49,10 @@
   "agent_return": 0.00153,
   "shadow_return": 0.0155,
   "spy_return": -0.00849,
-  "agent_invested_return": 0.001747,
-  "shadow_invested_return": 0.015369,
-  "agent_invested_pct": 0.7906,
-  "shadow_invested_pct": 0.9999,
+  "agent_invested_return": 0.001516,
+  "shadow_invested_return": 0.015028,
+  "agent_invested_pct": 0.7904,
+  "shadow_invested_pct": 0.9995,
   "version": "3"
  },
  {
@@ -63,10 +63,10 @@
   "agent_return": 0.00083,
   "shadow_return": 0.01478,
   "spy_return": -0.00849,
-  "agent_invested_return": 0.001747,
-  "shadow_invested_return": 0.015369,
-  "agent_invested_pct": 0.7912,
-  "shadow_invested_pct": 1.0006,
+  "agent_invested_return": 0.001516,
+  "shadow_invested_return": 0.015028,
+  "agent_invested_pct": 0.791,
+  "shadow_invested_pct": 1.0002,
   "version": "3"
  },
  {
@@ -77,10 +77,10 @@
   "agent_return": 0.00082,
   "shadow_return": 0.01483,
   "spy_return": -0.00849,
-  "agent_invested_return": 0.001747,
-  "shadow_invested_return": 0.015369,
-  "agent_invested_pct": 0.7912,
-  "shadow_invested_pct": 1.0005,
+  "agent_invested_return": 0.001516,
+  "shadow_invested_return": 0.015028,
+  "agent_invested_pct": 0.791,
+  "shadow_invested_pct": 1.0002,
   "version": "3"
  },
  {
@@ -91,10 +91,10 @@
   "agent_return": 0.00522,
   "shadow_return": 0.04339,
   "spy_return": -0.00145,
-  "agent_invested_return": 0.006792,
-  "shadow_invested_return": 0.043512,
-  "agent_invested_pct": 0.8533,
-  "shadow_invested_pct": 1.0001,
+  "agent_invested_return": 0.006462,
+  "shadow_invested_return": 0.043172,
+  "agent_invested_pct": 0.853,
+  "shadow_invested_pct": 0.9998,
   "version": "3"
  },
  {
@@ -105,10 +105,10 @@
   "agent_return": 0.00087,
   "shadow_return": 0.04927,
   "spy_return": 0.00415,
-  "agent_invested_return": 0.001481,
-  "shadow_invested_return": 0.049394,
-  "agent_invested_pct": 0.8657,
-  "shadow_invested_pct": 0.9897,
+  "agent_invested_return": 0.00115,
+  "shadow_invested_return": 0.049054,
+  "agent_invested_pct": 0.8654,
+  "shadow_invested_pct": 0.9894,
   "version": "3"
  },
  {
@@ -119,10 +119,10 @@
   "agent_return": 0.00233,
   "shadow_return": 0.04839,
   "spy_return": 0.00761,
-  "agent_invested_return": 0.002684,
-  "shadow_invested_return": 0.04839,
-  "agent_invested_pct": 0.8821,
-  "shadow_invested_pct": 0.9896,
+  "agent_invested_return": 0.002285,
+  "shadow_invested_return": 0.04805,
+  "agent_invested_pct": 0.8818,
+  "shadow_invested_pct": 0.9892,
   "version": "3"
  },
  {
@@ -133,10 +133,10 @@
   "agent_return": 0.01268,
   "shadow_return": 0.05414,
   "spy_return": 0.00376,
-  "agent_invested_return": 0.011297,
-  "shadow_invested_return": 0.052692,
-  "agent_invested_pct": 0.8806,
-  "shadow_invested_pct": 0.9882,
+  "agent_invested_return": 0.010898,
+  "shadow_invested_return": 0.052351,
+  "agent_invested_pct": 0.8803,
+  "shadow_invested_pct": 0.9879,
   "version": "4"
  },
  {
@@ -147,10 +147,10 @@
   "agent_return": 0.00512,
   "shadow_return": 0.04818,
   "spy_return": -0.01404,
-  "agent_invested_return": 0.0063,
-  "shadow_invested_return": 0.048365,
-  "agent_invested_pct": 0.8828,
-  "shadow_invested_pct": 0.9897,
+  "agent_invested_return": 0.005901,
+  "shadow_invested_return": 0.048025,
+  "agent_invested_pct": 0.8825,
+  "shadow_invested_pct": 0.9894,
   "version": "4"
  },
  {
@@ -161,10 +161,24 @@
   "agent_return": 0.00475,
   "shadow_return": 0.04851,
   "spy_return": -0.01404,
-  "agent_invested_return": 0.0063,
-  "shadow_invested_return": 0.048365,
-  "agent_invested_pct": 0.8832,
-  "shadow_invested_pct": 0.9894,
+  "agent_invested_return": 0.005901,
+  "shadow_invested_return": 0.048025,
+  "agent_invested_pct": 0.8828,
+  "shadow_invested_pct": 0.9891,
+  "version": "4"
+ },
+ {
+  "date": "2026-11-02",
+  "agent_equity": 617.72,
+  "shadow_value": 634.87,
+  "spy_value": 588.74,
+  "agent_return": 0.02953,
+  "shadow_return": 0.05812,
+  "spy_return": -0.01876,
+  "agent_invested_return": 0.034682,
+  "shadow_invested_return": 0.058277,
+  "agent_invested_pct": 0.8862,
+  "shadow_invested_pct": 0.9897,
   "version": "4"
  }
 ]
