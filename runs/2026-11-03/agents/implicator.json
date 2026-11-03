@@ -1,0 +1,5 @@
+{
+  "summary": "The Proposer made no proposals, so there are no trades to check and the portfolio is unchanged. Standing risks: VOO and VTI overlap at about 21.8% of equity, VOO is 13.85% against the 15% cap, WMT/DPZ/KR stack to about 26% Consumer Staples by label, and the 10% market-drop loss is about $22.38 (3.6% of equity).",
+  "checks": [],
+  "stress_10pct_drop": {"before_usd": -22.38, "after_usd": -22.38}
+}
