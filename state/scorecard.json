@@ -84,19 +84,24 @@
    "enough_data": false
   },
   "market-analyst": {
-   "right": 7,
-   "wrong": 0,
+   "right": 4,
+   "wrong": 2,
    "pending": 5,
-   "graded": 7,
-   "hit_rate": 1.0,
+   "baselines": {
+    "always risk-on": 0.0,
+    "always neutral": 0.667,
+    "always risk-off": 0.333
+   },
+   "graded": 6,
+   "hit_rate": 0.667,
    "enough_data": false
   },
   "news-analyst": {
    "right": 49,
-   "wrong": 38,
-   "pending": 67,
-   "graded": 87,
-   "hit_rate": 0.563,
+   "wrong": 40,
+   "pending": 65,
+   "graded": 89,
+   "hit_rate": 0.551,
    "enough_data": true
   }
  },
@@ -624,19 +629,6 @@
    "status": "pending"
   },
   {
-   "agent": "market-analyst",
-   "kind": "stance",
-   "date": "2026-10-20",
-   "version": "2",
-   "horizon": 5,
-   "symbol": "SPY",
-   "claim": "neutral",
-   "sessions": 5,
-   "return": 0.0008,
-   "vs_spy": null,
-   "status": "right"
-  },
-  {
    "agent": "news-analyst",
    "kind": "high event risk",
    "date": "2026-10-20",
@@ -828,9 +820,9 @@
    "version": "3",
    "symbol": "BTC/USD",
    "claim": "A small crypto slot: trend still positive (63-day +28%, 14% above its 200-day), ETF inflows recovering, and no exchange failures or new adverse regulatory actio",
-   "sessions": 13,
-   "return": -0.0737,
-   "vs_spy": -0.0494,
+   "sessions": 14,
+   "return": -0.0855,
+   "vs_spy": -0.0612,
    "horizon": 20,
    "grades": {
     "5": {
@@ -838,11 +830,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": -0.0494,
+     "vs_spy": -0.0612,
      "status": "pending"
     },
     "60": {
-     "vs_spy": -0.0494,
+     "vs_spy": -0.0612,
      "status": "pending"
     }
    },
@@ -990,9 +982,9 @@
    "version": "3",
    "symbol": "BTC/USD",
    "claim": "A small crypto slot, per the diversification strategy. The market-analyst note says the trend is positive (63-day +28%, 14% above its 200-day) and, if crypto is",
-   "sessions": 13,
-   "return": -0.0737,
-   "vs_spy": -0.0494,
+   "sessions": 14,
+   "return": -0.0855,
+   "vs_spy": -0.0612,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1000,11 +992,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": -0.0494,
+     "vs_spy": -0.0612,
      "status": "pending"
     },
     "60": {
-     "vs_spy": -0.0494,
+     "vs_spy": -0.0612,
      "status": "pending"
     }
    },
@@ -2648,7 +2640,7 @@
    "sessions": 5,
    "return": -0.0173,
    "vs_spy": null,
-   "status": "right"
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -3018,7 +3010,7 @@
    "sessions": 5,
    "return": -0.0199,
    "vs_spy": null,
-   "status": "right"
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -3921,8 +3913,8 @@
    "symbol": "BTC/USD",
    "claim": "Back near $80k after the Fed; Cowen says a hot PCE could push yields up and trigger a Q4 selloff (September PCE came in at 3.6%, as expected; Q3 GDP 3.4% beat).",
    "sessions": 5,
-   "return": 0.0004,
-   "vs_spy": 0.0199,
+   "return": -0.006,
+   "vs_spy": 0.0135,
    "status": "wrong"
   },
   {
@@ -4115,10 +4107,10 @@
    "horizon": 5,
    "symbol": "BTC/USD",
    "claim": "Binance suffered what Benzinga calls the biggest crypto hack on record (about $6.3B, 10-29), and BTC fell about 3% to about $77k. The hack reportedly involved b",
-   "sessions": 4,
-   "return": 0.0083,
-   "vs_spy": 0.0101,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.0045,
+   "vs_spy": -0.0027,
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -4128,10 +4120,10 @@
    "horizon": 5,
    "symbol": "ETH/USD",
    "claim": "Tagged on the Binance hack coverage, which involved borrowing Ether against stablecoins, so DeFi lending is part of the story. The earlier relative-weakness thr",
-   "sessions": 4,
-   "return": 0.0236,
-   "vs_spy": 0.0254,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0092,
+   "vs_spy": 0.011,
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -4297,9 +4289,9 @@
    "horizon": 5,
    "symbol": "BTC/USD",
    "claim": "Aftermath of the record $6.3B Binance hack: Binance replaced 90% of the stolen funds from company money, said it completed new security upgrades and resumed wit",
-   "sessions": 1,
-   "return": 0.0151,
-   "vs_spy": 0.0121,
+   "sessions": 2,
+   "return": 0.0022,
+   "vs_spy": -0.0008,
    "status": "pending"
   },
   {
@@ -4349,8 +4341,8 @@
    "horizon": 5,
    "symbol": "BTC/USD",
    "claim": "Held. Binance hack aftermath is moving from crisis to cleanup: withdrawals resume in phases (next phase Tuesday), 98% of users stayed, North Korea denies the US",
-   "sessions": 0,
-   "return": null,
+   "sessions": 1,
+   "return": -0.0064,
    "vs_spy": null,
    "status": "pending"
   },
@@ -4422,8 +4414,8 @@
  ],
  "how_graded": {
   "buys": "right if the symbol beat SPY over 20 sessions from the decision date (5- and 60-session grades are under `grades`)",
-  "rejections and serious skeptic objections to buys": "right if the symbol lagged SPY over 20 sessions",
-  "market stance": "risk-on right if SPY rose >0.5% over 5 sessions, risk-off if it fell >0.5%, neutral if it moved less than 2% either way",
+  "rejections and serious skeptic objections to buys": "right if the symbol lagged SPY over 20 sessions; skeptic objections tagged sizing or data are not graded",
+  "market stance": "over 5 sessions, risk-on right if SPY rose more than 1%, risk-off if it fell more than 1%, neutral if it moved 1% or less; compare the hit rate with `baselines` (a stance that never changed)",
   "high event risk": "right if the symbol moved more than 3% relative to SPY within 5 sessions"
  }
 }

@@ -46,11 +46,23 @@ Write `runs/YYYY-MM-DD/decision.json`:
       "invalidation": "the condition that would make us sell"
     }
   ],
-  "rejected": [{"proposal_id": "P2", "why": "..."}]
+  "rejected": [{"proposal_id": "P2", "why": "..."}],
+  "thesis_updates": [
+    {"symbol": "IDXX", "invalidation": "close below $600 (10% under the $667 post-earnings close)",
+     "thesis": null, "why": "the old $575 stop would give back most of the earnings gain"}
+  ]
 }
 ```
 
 For sells set `notional_usd` to null and `fraction` in (0, 1]. `trades` may be empty.
+
+Each held position in `inputs/portfolio.json` carries its current `thesis` and
+`invalidation`, and `invalidation_set` gives the run that last set it. Check every held
+name against its invalidation. When you re-anchor a stop, or a thesis has gone stale, put
+the new level in `thesis_updates` (leave `thesis` null to keep the old text). Saying it only
+in `reasoning` doesn't stick: tomorrow's agents and tonight's reviewers read the stored
+level, not your prose. Updates apply only to symbols already held. `thesis_updates` may
+be empty.
 Write valid JSON only, then reply with one line summarizing the decision.
 
 Post-close mode: if the orchestrator says "review", read `runs/YYYY-MM-DD/close.json`

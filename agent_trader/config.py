@@ -94,6 +94,9 @@ VERSIONS = [
     ("3", "2026-10-21", "Learning loop: scorecard, news memory, Reviewer agent and lessons."),
     ("4", "2026-10-29", "Calls graded at 20 sessions (5 and 60 kept for reference); the Reviewer "
                         "writes only process lessons until an agent has 30 graded calls."),
+    ("5", "2026-11-04", "Stored invalidations: the PM re-anchors stops via thesis_updates and every "
+                        "agent sees each holding's current thesis; stance graded on a symmetric 1% band "
+                        "against never-changing baselines; Skeptic sizing/data objections not graded."),
 ]
 
 

@@ -27,6 +27,11 @@ HORIZON = 5  # sessions for the market stance and event-risk flags
 TRADE_HORIZONS = (5, 20, 60)
 PRIMARY_HORIZON = 20  # what a trade call's status means
 MIN_GRADED = 30  # graded calls before an agent's hit rate is worth acting on
+# One band for all three stances. The old grading called neutral right on any week SPY
+# moved under 2%, which is most weeks, so "always neutral" scored 100%. With a symmetric
+# 1% band the three outcomes each happen roughly a third of the time.
+STANCE_BAND = 0.01
+GRADED_SKEPTIC_TOPICS = ("direction", "timing")  # see .claude/agents/skeptic.md
 MEMORY_DAYS = 60
 
 
@@ -69,6 +74,15 @@ def _forward(s: pd.Series | None, day: date, n: int | None = None) -> tuple[floa
     return float(end / before.iloc[-1] - 1), used
 
 
+def stance_outcome(spy_return: float) -> str:
+    """The stance that would have been right, given SPY's return over the horizon."""
+    if spy_return > STANCE_BAND:
+        return "risk-on"
+    if spy_return < -STANCE_BAND:
+        return "risk-off"
+    return "neutral"
+
+
 def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
     alpaca = alpaca or AlpacaClient()
     runs = _runs()
@@ -105,6 +119,7 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
                       "horizon": PRIMARY_HORIZON, "grades": grades,
                       "status": grades[str(PRIMARY_HORIZON)]["status"]})
 
+    stance_days: set[str] = set()
     for run in runs:
         day = date.fromisoformat(run.name[:10])
         version = config.version_for(run.name)
@@ -128,16 +143,21 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
                       p.get("thesis", "")[:160], 1 if p.get("side") == "buy" else -1)
         for c in (_load(run / "agents/skeptic.json") or {}).get("challenges", []):
             p = props.get(c.get("proposal_id"), {})
+            # Sizing and data objections can be right while the stock rises, so only
+            # objections about direction or timing are graded by price. Untagged ones
+            # (before the tag existed) are graded as before.
+            if c.get("about") and c["about"] not in GRADED_SKEPTIC_TOPICS:
+                continue
             if p.get("symbol") and c.get("severity") in ("fatal", "serious"):
                 grade("skeptic", f"{c['severity']} objection to {p.get('side')}", day,
                       config.canonical_symbol(p["symbol"]), c.get("case_against", "")[:160],
                       -1 if p.get("side") == "buy" else 1)
         stance = (_load(run / "agents/market-analyst.json") or {}).get("stance")
-        if stance and spy is not None:
+        # A second run the same day (e.g. "-pm") would grade the same SPY week twice.
+        if stance and spy is not None and day.isoformat() not in stance_days:
+            stance_days.add(day.isoformat())
             r, n = _forward(spy, day, HORIZON)
-            right = None if r is None or n < HORIZON else (
-                (r > 0.005 and stance == "risk-on") or (r < -0.005 and stance == "risk-off")
-                or (abs(r) <= 0.02 and stance == "neutral"))
+            right = None if r is None or n < HORIZON else stance == stance_outcome(r)
             calls.append({"agent": "market-analyst", "kind": "stance", "date": day.isoformat(),
                           "version": version, "horizon": HORIZON, "symbol": config.MARKET_PROXY, "claim": stance, "sessions": n,
                           "return": None if r is None else round(r, 4), "vs_spy": None,
@@ -163,6 +183,14 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
             bh = s.setdefault("by_horizon", {}).setdefault(h, {"right": 0, "wrong": 0})
             if g["status"] != "pending":
                 bh[g["status"]] += 1
+    stances = [c for c in calls if c["kind"] == "stance" and c["status"] != "pending"]
+    if stances and "market-analyst" in summary:
+        # What a stance that never changed would have scored on the same days. A hit rate
+        # is only interesting if it beats these.
+        outcomes = [stance_outcome(c["return"]) for c in stances]
+        summary["market-analyst"]["baselines"] = {
+            f"always {k}": round(sum(o == k for o in outcomes) / len(outcomes), 3)
+            for k in ("risk-on", "neutral", "risk-off")}
     for s in summary.values():
         s["graded"] = s["right"] + s["wrong"]
         s["hit_rate"] = None if s["graded"] == 0 else round(s["right"] / s["graded"], 3)
@@ -176,9 +204,11 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
             "how_graded": {
                 "buys": f"right if the symbol beat SPY over {PRIMARY_HORIZON} sessions from the decision "
                         f"date (5- and 60-session grades are under `grades`)",
-                "rejections and serious skeptic objections to buys": f"right if the symbol lagged SPY over {PRIMARY_HORIZON} sessions",
-                "market stance": "risk-on right if SPY rose >0.5% over 5 sessions, risk-off if it fell "
-                                 ">0.5%, neutral if it moved less than 2% either way",
+                "rejections and serious skeptic objections to buys": f"right if the symbol lagged SPY over {PRIMARY_HORIZON} sessions; "
+                    "skeptic objections tagged sizing or data are not graded",
+                "market stance": f"over 5 sessions, risk-on right if SPY rose more than {STANCE_BAND:.0%}, risk-off if it "
+                                 f"fell more than {STANCE_BAND:.0%}, neutral if it moved {STANCE_BAND:.0%} or less; "
+                                 "compare the hit rate with `baselines` (a stance that never changed)",
                 "high event risk": "right if the symbol moved more than 3% relative to SPY within 5 sessions",
             }}
 

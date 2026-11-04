@@ -13,6 +13,7 @@ from .ledger import build_ledger
 from .packets import completed_closes
 from .sleeves import sleeve_rows, sleeve_symbols
 from .state import Trading, load_performance
+from .theses import open_theses
 
 OUT_DIR = config.DATA_DIR / "dashboard"
 AGENT_STAGES = [
@@ -79,13 +80,8 @@ def build(today: date | None = None) -> dict[str, list[dict]]:
     latest = _latest_run()
     run = config.RUNS_DIR / latest if latest else None
 
-    # Latest approved thesis per symbol, across all decision files.
-    theses = {}
-    for d in sorted(config.RUNS_DIR.glob("*/decision.json")):
-        for t in (_load(d) or {}).get("trades", []):
-            if t.get("side") == "buy":
-                theses[t.get("symbol")] = {"thesis": t.get("thesis"), "invalidation": t.get("invalidation"),
-                                           "bought": d.parent.name}
+    # Current thesis per symbol, with any later re-anchored invalidation applied.
+    theses = open_theses()
     broken = {}
     for r in sorted(config.RUNS_DIR.glob("*/review/*.json")):
         for b in (_load(r) or {}).get("broken_theses", []):

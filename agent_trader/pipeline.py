@@ -23,7 +23,7 @@ import sys
 from dataclasses import asdict
 from datetime import date, datetime, timedelta, timezone
 
-from . import attribution, config, learning, packets, prices, reports, screen
+from . import attribution, config, learning, packets, prices, reports, screen, theses
 from .alpaca import AlpacaClient
 from .ledger import build_ledger
 from .risk import kill_switch_tripped, review
@@ -431,7 +431,7 @@ def close() -> int:
             for p in positions
         ],
         "todays_decisions": decisions,
-        "theses": _open_theses(),
+        "theses": theses.open_theses(set(held)),
         "shadow_trades": shadow_trades,
         "shadow_holdings": {s: round(q, 6) for s, q in shadow.shares.items()},
         "recent_performance": load_performance()[-10:],
@@ -445,21 +445,6 @@ def close() -> int:
     for n in notes:
         print(f"  {n}")
     return 0
-
-
-def _open_theses() -> dict:
-    """Latest approved thesis per held symbol, from past decision files, so post-close
-    reviewers can judge whether it still holds."""
-    out = {}
-    for d in sorted(config.RUNS_DIR.glob("*/decision.json")):
-        try:
-            for t in json.loads(d.read_text()).get("trades", []):
-                if t.get("side") == "buy":
-                    out[t["symbol"]] = {"date": d.parent.name, "thesis": t.get("thesis"),
-                                        "invalidation": t.get("invalidation")}
-        except (json.JSONDecodeError, KeyError):
-            continue
-    return out
 
 
 def close_report() -> int:

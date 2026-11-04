@@ -28,6 +28,14 @@ numbers exist in the inputs.
 
 If there are no proposals, argue briefly whether standing aside was the wrong call.
 
+Tag each challenge with what it's `about`. Use `direction` if you think the price will
+lag the market (the thesis is wrong), `timing` if the trade is premature (e.g. earnings
+inside 5 days), `sizing` if the amount or the concentration is wrong, and `data` if a cited
+number is missing or unverified. Only `direction` and `timing` objections are graded
+against what the price did next, because a sizing or data objection can be right while
+the stock rises. Tag honestly: a sizing objection dressed up as `direction` will be
+graded by the price.
+
 Write `runs/YYYY-MM-DD/agents/skeptic.json`:
 
 ```json
@@ -38,6 +46,7 @@ Write `runs/YYYY-MM-DD/agents/skeptic.json`:
       "proposal_id": "P1",
       "case_against": "...",
       "severity": "fatal | serious | minor",
+      "about": "direction | timing | sizing | data",
       "what_would_change_my_mind": "..."
     }
   ]

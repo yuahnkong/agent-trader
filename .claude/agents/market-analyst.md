@@ -31,6 +31,12 @@ the numbers you rely on. Don't compute new ratios; work with what's given. Don't
 individual stocks and don't propose trades. The regime filter is enforced in code
 whatever you say; your stance informs sizing and appetite, not permission.
 
+Your stance is graded on SPY's next 5 sessions: risk-on is right if SPY rises more than
+1%, risk-off if it falls more than 1%, neutral if it moves 1% or less. Each outcome
+happens about a third of the time, so neutral is not a safe default. Your scorecard
+summary lists `baselines`, the hit rate a stance that never changed would have had. A
+record that doesn't beat those adds nothing. Pick the stance the evidence favors.
+
 Write `runs/YYYY-MM-DD/agents/market-analyst.json`:
 
 ```json

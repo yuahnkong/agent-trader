@@ -25,6 +25,7 @@ from .risk import Context, Position, kill_switch_tripped, max_position_usd
 from .screen import SlimSec, median_vol, sec_ticker
 from .sec import SecClient
 from .state import Trading
+from .theses import open_theses
 
 # Free proxies for what the Market Analyst would ideally read. Only SEC and Alpaca are
 # reachable from the run environment, so VIX, yields and credit come from ETFs.
@@ -188,6 +189,7 @@ def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, clo
         b = prices.beta(closes[sym], spy) if spy is not None and sym in closes else None
         betas[sym] = None if b is None else round(b, 3)
     drop = sum(-0.10 * (betas.get(s) or 1.0) * mv for s, mv in held.items())
+    current = open_theses(set(held))
     blocked = {}
     for sym in menu_syms:
         loss = ctx.last_loss_sale.get(sym)
@@ -211,7 +213,11 @@ def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, clo
              "avg_entry_price": float(p["avg_entry_price"]), "unrealized_pl": float(p["unrealized_pl"]),
              "unrealized_plpc": float(p["unrealized_plpc"]), "on_menu": p["symbol"] in menu_syms,
              "asset_class": ctx.asset_class.get(p["symbol"], "stock"),
-             "lots": lots(p["symbol"])}
+             "lots": lots(p["symbol"]),
+             # The thesis in force, including any invalidation re-anchored via thesis_updates.
+             "thesis": current.get(p["symbol"], {}).get("thesis"),
+             "invalidation": current.get(p["symbol"], {}).get("invalidation"),
+             "invalidation_set": current.get(p["symbol"], {}).get("updated")}
             for p in positions
         ],
         "buy_caps_usd": {sym: cap(sym) for sym in sorted(menu_syms)},
