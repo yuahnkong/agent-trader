@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-03",
+ "as_of": "2026-11-04",
  "horizon_sessions": 20,
  "trade_horizons": [
   5,
@@ -14,9 +14,9 @@
    "pending": 29,
    "by_horizon": {
     "5": {
-     "right": 15,
-     "wrong": 11,
-     "hit_rate": 0.577
+     "right": 16,
+     "wrong": 12,
+     "hit_rate": 0.571
     },
     "20": {
      "right": 0,
@@ -39,9 +39,9 @@
    "pending": 29,
    "by_horizon": {
     "5": {
-     "right": 18,
+     "right": 20,
      "wrong": 8,
-     "hit_rate": 0.692
+     "hit_rate": 0.714
     },
     "20": {
      "right": 0,
@@ -65,8 +65,8 @@
    "by_horizon": {
     "5": {
      "right": 5,
-     "wrong": 15,
-     "hit_rate": 0.25
+     "wrong": 16,
+     "hit_rate": 0.238
     },
     "20": {
      "right": 0,
@@ -84,24 +84,24 @@
    "enough_data": false
   },
   "market-analyst": {
-   "right": 4,
+   "right": 5,
    "wrong": 2,
    "pending": 5,
    "baselines": {
     "always risk-on": 0.0,
-    "always neutral": 0.667,
-    "always risk-off": 0.333
+    "always neutral": 0.714,
+    "always risk-off": 0.286
    },
-   "graded": 6,
-   "hit_rate": 0.667,
+   "graded": 7,
+   "hit_rate": 0.714,
    "enough_data": false
   },
   "news-analyst": {
-   "right": 49,
-   "wrong": 40,
-   "pending": 65,
-   "graded": 89,
-   "hit_rate": 0.551,
+   "right": 61,
+   "wrong": 44,
+   "pending": 55,
+   "graded": 105,
+   "hit_rate": 0.581,
    "enough_data": true
   }
  },
@@ -113,9 +113,9 @@
    "version": "1",
    "symbol": "DPZ",
    "claim": "High-quality, cash-backed franchisor (F-score 8/9, cfo $792M vs net income $602M, gross profitability 1.15) with a 252d beta of 0.095 (-$0.62 on this position i",
-   "sessions": 10,
-   "return": 0.0214,
-   "vs_spy": 0.0405,
+   "sessions": 11,
+   "return": 0.0771,
+   "vs_spy": 0.08,
    "horizon": 20,
    "grades": {
     "5": {
@@ -123,11 +123,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0405,
+     "vs_spy": 0.08,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0405,
+     "vs_spy": 0.08,
      "status": "pending"
     }
    },
@@ -140,9 +140,9 @@
    "version": "1",
    "symbol": "IDXX",
    "claim": "Quality Health Care name in a favored sector (F-score 8/9, gp_sector_pct 0.941, cfo $1,182M vs net income $1,059M, no added leverage or dilution). Sized down to",
-   "sessions": 10,
-   "return": 0.2045,
-   "vs_spy": 0.2236,
+   "sessions": 11,
+   "return": 0.252,
+   "vs_spy": 0.255,
    "horizon": 20,
    "grades": {
     "5": {
@@ -150,11 +150,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.2236,
+     "vs_spy": 0.255,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.2236,
+     "vs_spy": 0.255,
      "status": "pending"
     }
    },
@@ -167,9 +167,9 @@
    "version": "1",
    "symbol": "MSCI",
    "claim": "The Skeptic's serious case holds. A pre-open buy fills into the unpriced opening reaction to this morning's thin beat (+1.8% EPS, +0.7% sales), guidance is unve",
-   "sessions": 10,
-   "return": 0.0813,
-   "vs_spy": 0.1004,
+   "sessions": 11,
+   "return": 0.1396,
+   "vs_spy": 0.1425,
    "horizon": 20,
    "grades": {
     "5": {
@@ -177,11 +177,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.1004,
+     "vs_spy": 0.1425,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.1004,
+     "vs_spy": 0.1425,
      "status": "pending"
     }
    },
@@ -194,9 +194,9 @@
    "version": "1",
    "symbol": "DPZ",
    "claim": "Fundamentals-analyst rank 2: gp_sector_pct 1.0 (gross profitability 1.15), F-score 8/9, cfo $792M well above net income $602M. Beta 0.095 (about -$0.95 per $100",
-   "sessions": 10,
-   "return": 0.0214,
-   "vs_spy": 0.0405,
+   "sessions": 11,
+   "return": 0.0771,
+   "vs_spy": 0.08,
    "horizon": 20,
    "grades": {
     "5": {
@@ -204,11 +204,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0405,
+     "vs_spy": 0.08,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0405,
+     "vs_spy": 0.08,
      "status": "pending"
     }
    },
@@ -221,9 +221,9 @@
    "version": "1",
    "symbol": "IDXX",
    "claim": "Fundamentals-analyst rank 5: F-score 8/9, gp_sector_pct 0.941, net income $1,059M backed by cfo $1,182M, leverage not up, no dilution. Health Care is one of the",
-   "sessions": 10,
-   "return": 0.2045,
-   "vs_spy": 0.2236,
+   "sessions": 11,
+   "return": 0.252,
+   "vs_spy": 0.255,
    "horizon": 20,
    "grades": {
     "5": {
@@ -231,11 +231,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.2236,
+     "vs_spy": 0.255,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.2236,
+     "vs_spy": 0.255,
      "status": "pending"
     }
    },
@@ -248,9 +248,9 @@
    "version": "1",
    "symbol": "MSCI",
    "claim": "News-analyst: MSCI reported Q3 this morning with a clean beat (adj. EPS $5.11 vs $5.02, sales $892M beat), so the earnings risk is behind it. Fundamentals-analy",
-   "sessions": 10,
-   "return": 0.0813,
-   "vs_spy": 0.1004,
+   "sessions": 11,
+   "return": 0.1396,
+   "vs_spy": 0.1425,
    "horizon": 20,
    "grades": {
     "5": {
@@ -258,11 +258,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.1004,
+     "vs_spy": 0.1425,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.1004,
+     "vs_spy": 0.1425,
      "status": "pending"
     }
    },
@@ -275,9 +275,9 @@
    "version": "1",
    "symbol": "MSCI",
    "claim": "Four problems. (1) Market-analyst puts Industrials, MSCI's label, on its avoid list. The proposer gets around this by citing the fundamentals-analyst's remark t",
-   "sessions": 10,
-   "return": 0.0813,
-   "vs_spy": 0.1004,
+   "sessions": 11,
+   "return": 0.1396,
+   "vs_spy": 0.1425,
    "horizon": 20,
    "grades": {
     "5": {
@@ -285,11 +285,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.1004,
+     "vs_spy": 0.1425,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.1004,
+     "vs_spy": 0.1425,
      "status": "pending"
     }
    },
@@ -302,9 +302,9 @@
    "version": "1",
    "symbol": "IDXX",
    "claim": "The proposer's summary calls all three 'low-beta', but IDXX's 252d beta is 0.814 (-$8.14 per $100 in a 10% market drop, from portfolio.json). That is about 8.6x",
-   "sessions": 10,
-   "return": 0.2045,
-   "vs_spy": 0.2236,
+   "sessions": 11,
+   "return": 0.252,
+   "vs_spy": 0.255,
    "horizon": 20,
    "grades": {
     "5": {
@@ -312,11 +312,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.2236,
+     "vs_spy": 0.255,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.2236,
+     "vs_spy": 0.255,
      "status": "pending"
     }
    },
@@ -446,9 +446,9 @@
    "version": "2",
    "symbol": "VOO",
    "claim": "Broad, diversified US core for idle cash while the long-term regime is on (SPY 6.1% above its 200-day, 63-day +2.69%), and the Market Analyst rates broad US equ",
-   "sessions": 10,
-   "return": -0.0188,
-   "vs_spy": 0.0004,
+   "sessions": 11,
+   "return": -0.0029,
+   "vs_spy": 0.0001,
    "horizon": 20,
    "grades": {
     "5": {
@@ -456,11 +456,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0004,
+     "vs_spy": 0.0001,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0004,
+     "vs_spy": 0.0001,
      "status": "pending"
     }
    },
@@ -473,9 +473,9 @@
    "version": "2",
    "symbol": "WMT",
    "claim": "Low-volatility defensive exposure (vol 0.263, beta about zero; not a hedge) in a favored sector (XLP +6.02% 21d), with positive sell-side sentiment and no earni",
-   "sessions": 10,
-   "return": 0.0595,
-   "vs_spy": 0.0786,
+   "sessions": 11,
+   "return": 0.0961,
+   "vs_spy": 0.099,
    "horizon": 20,
    "grades": {
     "5": {
@@ -483,11 +483,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0786,
+     "vs_spy": 0.099,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0786,
+     "vs_spy": 0.099,
      "status": "pending"
     }
    },
@@ -500,9 +500,9 @@
    "version": "2",
    "symbol": "CARG",
    "claim": "The Skeptic's serious case holds and the fixes it asked for aren't available. CARG carries a Technology label and is a rate-sensitive consumer-cyclical business",
-   "sessions": 10,
-   "return": 0.0666,
-   "vs_spy": 0.0858,
+   "sessions": 11,
+   "return": 0.1535,
+   "vs_spy": 0.1564,
    "horizon": 20,
    "grades": {
     "5": {
@@ -510,11 +510,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0858,
+     "vs_spy": 0.1564,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0858,
+     "vs_spy": 0.1564,
      "status": "pending"
     }
    },
@@ -527,9 +527,9 @@
    "version": "2",
    "symbol": "VOO",
    "claim": "Default home for idle cash. The market analyst calls the long-term regime intact (SPY 6.1% above its 200-day, 63-day +2.69%) and judges broad US equity acceptab",
-   "sessions": 10,
-   "return": -0.0188,
-   "vs_spy": 0.0004,
+   "sessions": 11,
+   "return": -0.0029,
+   "vs_spy": 0.0001,
    "horizon": 20,
    "grades": {
     "5": {
@@ -537,11 +537,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0004,
+     "vs_spy": 0.0001,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0004,
+     "vs_spy": 0.0001,
      "status": "pending"
     }
    },
@@ -554,9 +554,9 @@
    "version": "2",
    "symbol": "WMT",
    "claim": "Consumer Staples is a favored sector (XLP +3.32% 5d / +6.02% 21d). The news analyst reports positive sentiment (Deutsche Bank upgrade, Evercore PT $130, BofA Bu",
-   "sessions": 10,
-   "return": 0.0595,
-   "vs_spy": 0.0786,
+   "sessions": 11,
+   "return": 0.0961,
+   "vs_spy": 0.099,
    "horizon": 20,
    "grades": {
     "5": {
@@ -564,11 +564,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0786,
+     "vs_spy": 0.099,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0786,
+     "vs_spy": 0.099,
      "status": "pending"
     }
    },
@@ -581,9 +581,9 @@
    "version": "2",
    "symbol": "CARG",
    "claim": "Ranked #3 by the fundamentals analyst: gp_sector_pct 1.0 (gross profitability 1.27), F-score 8, and CFO of $295M is nearly double net income of $156M. The news ",
-   "sessions": 10,
-   "return": 0.0666,
-   "vs_spy": 0.0858,
+   "sessions": 11,
+   "return": 0.1535,
+   "vs_spy": 0.1564,
    "horizon": 20,
    "grades": {
     "5": {
@@ -591,11 +591,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0858,
+     "vs_spy": 0.1564,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0858,
+     "vs_spy": 0.1564,
      "status": "pending"
     }
    },
@@ -608,9 +608,9 @@
    "version": "2",
    "symbol": "CARG",
    "claim": "The market analyst lists Technology under 'avoid', and CARG carries that label. The proposer's way around this, that an auto marketplace 'has little to do with ",
-   "sessions": 10,
-   "return": 0.0666,
-   "vs_spy": 0.0858,
+   "sessions": 11,
+   "return": 0.1535,
+   "vs_spy": 0.1564,
    "horizon": 20,
    "grades": {
     "5": {
@@ -618,11 +618,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0858,
+     "vs_spy": 0.1564,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0858,
+     "vs_spy": 0.1564,
      "status": "pending"
     }
    },
@@ -739,9 +739,9 @@
    "version": "3",
    "symbol": "VTI",
    "claim": "Default home for idle cash with the regime filter on (SPY 6.4% above its 200-day) and breadth better than the cap-weighted index. Resized from $50: the Skeptic ",
-   "sessions": 9,
-   "return": -0.0209,
-   "vs_spy": 0.0033,
+   "sessions": 10,
+   "return": -0.0059,
+   "vs_spy": 0.0022,
    "horizon": 20,
    "grades": {
     "5": {
@@ -749,11 +749,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0033,
+     "vs_spy": 0.0022,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0033,
+     "vs_spy": 0.0022,
      "status": "pending"
     }
    },
@@ -766,9 +766,9 @@
    "version": "3",
    "symbol": "FAST",
    "claim": "Lowest volatility on the menu (0.243), F-score 8/9, gross profitability at the 89th sector percentile, and operating cash flow above net income. It adds a first",
-   "sessions": 9,
-   "return": 0.0019,
-   "vs_spy": 0.0262,
+   "sessions": 10,
+   "return": 0.0188,
+   "vs_spy": 0.0269,
    "horizon": 20,
    "grades": {
     "5": {
@@ -776,11 +776,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0262,
+     "vs_spy": 0.0269,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0262,
+     "vs_spy": 0.0269,
      "status": "pending"
     }
    },
@@ -793,9 +793,9 @@
    "version": "3",
    "symbol": "CARG",
    "claim": "Highest gross profitability on the menu (1.27, percentile 1.0), F-score 8/9, operating cash flow about 1.9x net income, no dilution. Resized from $25 to a start",
-   "sessions": 9,
-   "return": 0.0827,
-   "vs_spy": 0.107,
+   "sessions": 10,
+   "return": 0.1709,
+   "vs_spy": 0.179,
    "horizon": 20,
    "grades": {
     "5": {
@@ -803,11 +803,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.107,
+     "vs_spy": 0.179,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.107,
+     "vs_spy": 0.179,
      "status": "pending"
     }
    },
@@ -821,8 +821,8 @@
    "symbol": "BTC/USD",
    "claim": "A small crypto slot: trend still positive (63-day +28%, 14% above its 200-day), ETF inflows recovering, and no exchange failures or new adverse regulatory actio",
    "sessions": 14,
-   "return": -0.0855,
-   "vs_spy": -0.0612,
+   "return": -0.0455,
+   "vs_spy": -0.0374,
    "horizon": 20,
    "grades": {
     "5": {
@@ -830,11 +830,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": -0.0612,
+     "vs_spy": -0.0374,
      "status": "pending"
     },
     "60": {
-     "vs_spy": -0.0612,
+     "vs_spy": -0.0374,
      "status": "pending"
     }
    },
@@ -847,9 +847,9 @@
    "version": "3",
    "symbol": "RRC",
    "claim": "The Skeptic's case is the strongest in the set and I agree. RRC was not ranked by the Fundamentals Analyst and has an F-score of 7 with leverage up and margin n",
-   "sessions": 9,
-   "return": 0.2578,
-   "vs_spy": 0.282,
+   "sessions": 10,
+   "return": 0.2133,
+   "vs_spy": 0.2214,
    "horizon": 20,
    "grades": {
     "5": {
@@ -857,11 +857,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.282,
+     "vs_spy": 0.2214,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.282,
+     "vs_spy": 0.2214,
      "status": "pending"
     }
    },
@@ -874,9 +874,9 @@
    "version": "3",
    "symbol": "VTI",
    "claim": "Default home for idle cash. The market-analyst note keeps the regime on (SPY 6.4% above its 200-day) with a neutral stance, and says broad US is fine to hold, w",
-   "sessions": 9,
-   "return": -0.0209,
-   "vs_spy": 0.0033,
+   "sessions": 10,
+   "return": -0.0059,
+   "vs_spy": 0.0022,
    "horizon": 20,
    "grades": {
     "5": {
@@ -884,11 +884,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0033,
+     "vs_spy": 0.0022,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0033,
+     "vs_spy": 0.0022,
      "status": "pending"
     }
    },
@@ -901,9 +901,9 @@
    "version": "3",
    "symbol": "FAST",
    "claim": "Fundamentals-analyst rank 8: lowest volatility on the menu (0.243), F-score 8/9, gross profitability 0.73 at the 89th sector percentile, operating cash flow (1,",
-   "sessions": 9,
-   "return": 0.0019,
-   "vs_spy": 0.0262,
+   "sessions": 10,
+   "return": 0.0188,
+   "vs_spy": 0.0269,
    "horizon": 20,
    "grades": {
     "5": {
@@ -911,11 +911,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0262,
+     "vs_spy": 0.0269,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0262,
+     "vs_spy": 0.0269,
      "status": "pending"
     }
    },
@@ -928,9 +928,9 @@
    "version": "3",
    "symbol": "CARG",
    "claim": "Fundamentals-analyst rank 2: highest gross profitability on the menu (1.27, sector percentile 1.0), F-score 8/9, cash flow from operations about 1.9x net income",
-   "sessions": 9,
-   "return": 0.0827,
-   "vs_spy": 0.107,
+   "sessions": 10,
+   "return": 0.1709,
+   "vs_spy": 0.179,
    "horizon": 20,
    "grades": {
     "5": {
@@ -938,11 +938,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.107,
+     "vs_spy": 0.179,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.107,
+     "vs_spy": 0.179,
      "status": "pending"
     }
    },
@@ -955,9 +955,9 @@
    "version": "3",
    "symbol": "RRC",
    "claim": "Energy is the market-analyst note's favored sector (21-day +8.8%, 18.8% above its 200-day), and RRC is the screen's top gross-profitability name in Energy (perc",
-   "sessions": 9,
-   "return": 0.2578,
-   "vs_spy": 0.282,
+   "sessions": 10,
+   "return": 0.2133,
+   "vs_spy": 0.2214,
    "horizon": 20,
    "grades": {
     "5": {
@@ -965,11 +965,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.282,
+     "vs_spy": 0.2214,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.282,
+     "vs_spy": 0.2214,
      "status": "pending"
     }
    },
@@ -983,8 +983,8 @@
    "symbol": "BTC/USD",
    "claim": "A small crypto slot, per the diversification strategy. The market-analyst note says the trend is positive (63-day +28%, 14% above its 200-day) and, if crypto is",
    "sessions": 14,
-   "return": -0.0855,
-   "vs_spy": -0.0612,
+   "return": -0.0455,
+   "vs_spy": -0.0374,
    "horizon": 20,
    "grades": {
     "5": {
@@ -992,11 +992,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": -0.0612,
+     "vs_spy": -0.0374,
      "status": "pending"
     },
     "60": {
-     "vs_spy": -0.0612,
+     "vs_spy": -0.0374,
      "status": "pending"
     }
    },
@@ -1009,9 +1009,9 @@
    "version": "3",
    "symbol": "VTI",
    "claim": "VTI is about 99% correlated with the VOO position bought yesterday (beta 1.01 vs 0.995, weight 10.0%). This is the same thesis already held, not diversification",
-   "sessions": 9,
-   "return": -0.0209,
-   "vs_spy": 0.0033,
+   "sessions": 10,
+   "return": -0.0059,
+   "vs_spy": 0.0022,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1019,11 +1019,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0033,
+     "vs_spy": 0.0022,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0033,
+     "vs_spy": 0.0022,
      "status": "pending"
     }
    },
@@ -1036,9 +1036,9 @@
    "version": "3",
    "symbol": "FAST",
    "claim": "The thesis says FAST has 'no earnings event inside the window in the news-analyst note', but that note never mentions FAST at all, so absence is not evidence; n",
-   "sessions": 9,
-   "return": 0.0019,
-   "vs_spy": 0.0262,
+   "sessions": 10,
+   "return": 0.0188,
+   "vs_spy": 0.0269,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1046,11 +1046,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0262,
+     "vs_spy": 0.0269,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0262,
+     "vs_spy": 0.0269,
      "status": "pending"
     }
    },
@@ -1063,9 +1063,9 @@
    "version": "3",
    "symbol": "CARG",
    "claim": "CARG is classed Technology by the fundamentals input, and the market note says to avoid chasing Technology (XLK -5.52% 5d) and growth; the proposer acknowledges",
-   "sessions": 9,
-   "return": 0.0827,
-   "vs_spy": 0.107,
+   "sessions": 10,
+   "return": 0.1709,
+   "vs_spy": 0.179,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1073,11 +1073,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.107,
+     "vs_spy": 0.179,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.107,
+     "vs_spy": 0.179,
      "status": "pending"
     }
    },
@@ -1090,9 +1090,9 @@
    "version": "3",
    "symbol": "RRC",
    "claim": "Weakest thesis in the set. (1) RRC is not ranked by the fundamentals analyst at all; the proposer picked it by hand from the screen, F-score 7 with leverage_not",
-   "sessions": 9,
-   "return": 0.2578,
-   "vs_spy": 0.282,
+   "sessions": 10,
+   "return": 0.2133,
+   "vs_spy": 0.2214,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1100,11 +1100,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.282,
+     "vs_spy": 0.2214,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.282,
+     "vs_spy": 0.2214,
      "status": "pending"
     }
    },
@@ -1247,9 +1247,9 @@
    "version": "3",
    "symbol": "KR",
    "claim": "Staples is a Market Analyst favored sector, KR has low event risk (next earnings 12-03, the 10-20 8-K was an investor-day update) and the sell side is supportiv",
-   "sessions": 8,
-   "return": -0.0156,
-   "vs_spy": -0.003,
+   "sessions": 9,
+   "return": 0.0162,
+   "vs_spy": 0.0125,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1257,11 +1257,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": -0.003,
+     "vs_spy": 0.0125,
      "status": "pending"
     },
     "60": {
-     "vs_spy": -0.003,
+     "vs_spy": 0.0125,
      "status": "pending"
     }
    },
@@ -1274,9 +1274,9 @@
    "version": "3",
    "symbol": "MSCI",
    "claim": "Clean Q3 beat with the earnings event passed (the issue that sank it on 10-20), F-score 8, cfo $1.59B vs net income $1.20B, beta 0.34, and it adds a sector the ",
-   "sessions": 8,
-   "return": 0.0315,
-   "vs_spy": 0.0441,
+   "sessions": 9,
+   "return": 0.0872,
+   "vs_spy": 0.0834,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1284,11 +1284,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0441,
+     "vs_spy": 0.0834,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0441,
+     "vs_spy": 0.0834,
      "status": "pending"
     }
    },
@@ -1301,9 +1301,9 @@
    "version": "3",
    "symbol": "VTI",
    "claim": "Broad-market exposure to deploy idle cash while the trend is intact and breadth is improving. The Skeptic and Implicator note it largely duplicates VOO and rais",
-   "sessions": 8,
-   "return": -0.0098,
-   "vs_spy": 0.0027,
+   "sessions": 9,
+   "return": 0.0054,
+   "vs_spy": 0.0017,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1311,11 +1311,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0027,
+     "vs_spy": 0.0017,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0027,
+     "vs_spy": 0.0017,
      "status": "pending"
     }
    },
@@ -1328,9 +1328,9 @@
    "version": "3",
    "symbol": "CARG",
    "claim": "Rank 2 on fundamentals (gross profitability 1.27, cfo about 2x net income), earnings 11-05 are outside the 5-day window, and no adverse headlines. The Skeptic's",
-   "sessions": 8,
-   "return": 0.0318,
-   "vs_spy": 0.0444,
+   "sessions": 9,
+   "return": 0.1158,
+   "vs_spy": 0.1121,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1338,11 +1338,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0444,
+     "vs_spy": 0.1121,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0444,
+     "vs_spy": 0.1121,
      "status": "pending"
     }
    },
@@ -1355,9 +1355,9 @@
    "version": "3",
    "symbol": "KR",
    "claim": "Consumer Staples is a favored sector in market-analyst (XLP 21d +5.3%) and KR has a negative beta (-0.69), which diversifies a book that is heavy in positive-be",
-   "sessions": 8,
-   "return": -0.0156,
-   "vs_spy": -0.003,
+   "sessions": 9,
+   "return": 0.0162,
+   "vs_spy": 0.0125,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1365,11 +1365,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": -0.003,
+     "vs_spy": 0.0125,
      "status": "pending"
     },
     "60": {
-     "vs_spy": -0.003,
+     "vs_spy": 0.0125,
      "status": "pending"
     }
    },
@@ -1382,9 +1382,9 @@
    "version": "3",
    "symbol": "MSCI",
    "claim": "Financials is a favored sector in market-analyst. fundamentals-analyst ranks MSCI #10 (F-score 8, cfo $1.59B vs net income $1.20B, net income about 38% of reven",
-   "sessions": 8,
-   "return": 0.0315,
-   "vs_spy": 0.0441,
+   "sessions": 9,
+   "return": 0.0872,
+   "vs_spy": 0.0834,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1392,11 +1392,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0441,
+     "vs_spy": 0.0834,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0441,
+     "vs_spy": 0.0834,
      "status": "pending"
     }
    },
@@ -1409,9 +1409,9 @@
    "version": "3",
    "symbol": "VTI",
    "claim": "Broad-market default for idle cash while the owner wants roughly 80-90% invested within a week. market-analyst prefers VOO/VTI over QQQ and international: SPY i",
-   "sessions": 8,
-   "return": -0.0098,
-   "vs_spy": 0.0027,
+   "sessions": 9,
+   "return": 0.0054,
+   "vs_spy": 0.0017,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1419,11 +1419,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0027,
+     "vs_spy": 0.0017,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0027,
+     "vs_spy": 0.0017,
      "status": "pending"
     }
    },
@@ -1436,9 +1436,9 @@
    "version": "3",
    "symbol": "CARG",
    "claim": "fundamentals-analyst ranks CARG #2: gross profitability 1.27 (highest on the menu), F-score 8, cfo $295M nearly 2x net income $156M, no dilution. news-analyst p",
-   "sessions": 8,
-   "return": 0.0318,
-   "vs_spy": 0.0444,
+   "sessions": 9,
+   "return": 0.1158,
+   "vs_spy": 0.1121,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1446,11 +1446,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0444,
+     "vs_spy": 0.1121,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0444,
+     "vs_spy": 0.1121,
      "status": "pending"
     }
    },
@@ -1463,9 +1463,9 @@
    "version": "3",
    "symbol": "KR",
    "claim": "The diversification argument rests on KR's 252d beta of -0.687, which is a statistical accident for a grocer (the same file has WMT at -0.09, EXLS -0.03, GPOR -",
-   "sessions": 8,
-   "return": -0.0156,
-   "vs_spy": -0.003,
+   "sessions": 9,
+   "return": 0.0162,
+   "vs_spy": 0.0125,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1473,11 +1473,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": -0.003,
+     "vs_spy": 0.0125,
      "status": "pending"
     },
     "60": {
-     "vs_spy": -0.003,
+     "vs_spy": 0.0125,
      "status": "pending"
     }
    },
@@ -1490,9 +1490,9 @@
    "version": "3",
    "symbol": "MSCI",
    "claim": "The thesis says 'Financials is a favored sector', but fundamentals.json labels MSCI as Industrials / 'Services-Business Services, NEC', and market-analyst puts ",
-   "sessions": 8,
-   "return": 0.0315,
-   "vs_spy": 0.0441,
+   "sessions": 9,
+   "return": 0.0872,
+   "vs_spy": 0.0834,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1500,11 +1500,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0441,
+     "vs_spy": 0.0834,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0441,
+     "vs_spy": 0.0834,
      "status": "pending"
     }
    },
@@ -1725,9 +1725,9 @@
    "version": "3",
    "symbol": "VRSN",
    "claim": "Fundamentals rank #1 (only 9/9 F-score, CFO $1.09B vs net income $826M). The Q3 print on 10-22 is out (small EPS miss, small revenue beat, FY26 sales guide rais",
-   "sessions": 7,
-   "return": 0.0452,
-   "vs_spy": 0.0525,
+   "sessions": 8,
+   "return": 0.059,
+   "vs_spy": 0.05,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1735,11 +1735,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0525,
+     "vs_spy": 0.05,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0525,
+     "vs_spy": 0.05,
      "status": "pending"
     }
    },
@@ -1752,9 +1752,9 @@
    "version": "3",
    "symbol": "BND",
    "claim": "The account holds no bonds and bonds are the one sleeve rallying (+1.13% over 21 days, 4% vol). BND diversifies against the equity-heavy book and the tech sell-",
-   "sessions": 7,
-   "return": 0.0037,
-   "vs_spy": 0.0111,
+   "sessions": 8,
+   "return": 0.0079,
+   "vs_spy": -0.0011,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1762,11 +1762,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0111,
+     "vs_spy": -0.0011,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0111,
+     "vs_spy": -0.0011,
      "status": "pending"
     }
    },
@@ -1779,9 +1779,9 @@
    "version": "3",
    "symbol": "VOO",
    "claim": "The regime is on and breadth is healthy (RSP +3.27% over 21 days), so the Market Analyst prefers broad US exposure over QQQ. Cut from $25 to $15 because the Ske",
-   "sessions": 7,
-   "return": -0.0072,
-   "vs_spy": 0.0002,
+   "sessions": 8,
+   "return": 0.0089,
+   "vs_spy": -0.0001,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1789,11 +1789,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0002,
+     "vs_spy": -0.0001,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0002,
+     "vs_spy": -0.0001,
      "status": "pending"
     }
    },
@@ -1806,9 +1806,9 @@
    "version": "3",
    "symbol": "MTCH",
    "claim": "MTCH is labelled Technology, the sector the Market Analyst puts on its avoid list. It is ranked 6th with the lowest in-sector percentile of the top group. It re",
-   "sessions": 7,
-   "return": -0.1581,
-   "vs_spy": -0.1507,
+   "sessions": 8,
+   "return": -0.1207,
+   "vs_spy": -0.1297,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1816,11 +1816,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": -0.1507,
+     "vs_spy": -0.1297,
      "status": "pending"
     },
     "60": {
-     "vs_spy": -0.1507,
+     "vs_spy": -0.1297,
      "status": "pending"
     }
    },
@@ -1833,9 +1833,9 @@
    "version": "3",
    "symbol": "IEF",
    "claim": "IEF is a near-duplicate of BND (betas 0.123 vs 0.121). The Skeptic and Implicator both note that BND plus IEF is one $50 rate bet going into next week's Fed mee",
-   "sessions": 7,
-   "return": 0.0046,
-   "vs_spy": 0.012,
+   "sessions": 8,
+   "return": 0.0101,
+   "vs_spy": 0.0011,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1843,11 +1843,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.012,
+     "vs_spy": 0.0011,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.012,
+     "vs_spy": 0.0011,
      "status": "pending"
     }
    },
@@ -1860,9 +1860,9 @@
    "version": "3",
    "symbol": "VRSN",
    "claim": "Fundamentals-analyst ranks VRSN #1: the only 9/9 F-score on the menu, gp_sector_pct 0.993, CFO $1.09B vs net income $826M. News-analyst says the earnings flag i",
-   "sessions": 7,
-   "return": 0.0452,
-   "vs_spy": 0.0525,
+   "sessions": 8,
+   "return": 0.059,
+   "vs_spy": 0.05,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1870,11 +1870,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0525,
+     "vs_spy": 0.05,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0525,
+     "vs_spy": 0.05,
      "status": "pending"
     }
    },
@@ -1887,9 +1887,9 @@
    "version": "3",
    "symbol": "BND",
    "claim": "Market-analyst: bonds are the one sleeve rallying (BND +1.13% over 21 days, 4% annual vol) and it recommends a modest BND or IEF allocation. The account holds n",
-   "sessions": 7,
-   "return": 0.0037,
-   "vs_spy": 0.0111,
+   "sessions": 8,
+   "return": 0.0079,
+   "vs_spy": -0.0011,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1897,11 +1897,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0111,
+     "vs_spy": -0.0011,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0111,
+     "vs_spy": -0.0011,
      "status": "pending"
     }
    },
@@ -1914,9 +1914,9 @@
    "version": "3",
    "symbol": "VOO",
    "claim": "Market-analyst: regime is on (SPY 5.6% above its 200-day) and breadth is healthy (RSP +3.27% over 21 days), so a broad core is preferred over QQQ. VOO is the de",
-   "sessions": 7,
-   "return": -0.0072,
-   "vs_spy": 0.0002,
+   "sessions": 8,
+   "return": 0.0089,
+   "vs_spy": -0.0001,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1924,11 +1924,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0002,
+     "vs_spy": -0.0001,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0002,
+     "vs_spy": -0.0001,
      "status": "pending"
     }
    },
@@ -1941,9 +1941,9 @@
    "version": "3",
    "symbol": "MTCH",
    "claim": "Fundamentals-analyst rank #6: F-score 8/9, CFO $1.08B vs net income $613M (about 1.8x), vol 0.32 (inside the screen cutoff). News-analyst: earnings are 11-03, 7",
-   "sessions": 7,
-   "return": -0.1581,
-   "vs_spy": -0.1507,
+   "sessions": 8,
+   "return": -0.1207,
+   "vs_spy": -0.1297,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1951,11 +1951,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": -0.1507,
+     "vs_spy": -0.1297,
      "status": "pending"
     },
     "60": {
-     "vs_spy": -0.1507,
+     "vs_spy": -0.1297,
      "status": "pending"
     }
    },
@@ -1968,9 +1968,9 @@
    "version": "3",
    "symbol": "IEF",
    "claim": "Market-analyst names IEF alongside BND as the sensible bond sleeve (+1.47% over 21 days, 5% annual vol, below its 200-day by 1.49% so not extended). Intermediat",
-   "sessions": 7,
-   "return": 0.0046,
-   "vs_spy": 0.012,
+   "sessions": 8,
+   "return": 0.0101,
+   "vs_spy": 0.0011,
    "horizon": 20,
    "grades": {
     "5": {
@@ -1978,11 +1978,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.012,
+     "vs_spy": 0.0011,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.012,
+     "vs_spy": 0.0011,
      "status": "pending"
     }
    },
@@ -1995,9 +1995,9 @@
    "version": "3",
    "symbol": "VRSN",
    "claim": "The thesis is a pre-print quality ranking. The fundamentals note says the menu predates the 10-22 print (as of 10-20) and nothing in the inputs shows how the st",
-   "sessions": 7,
-   "return": 0.0452,
-   "vs_spy": 0.0525,
+   "sessions": 8,
+   "return": 0.059,
+   "vs_spy": 0.05,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2005,11 +2005,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0525,
+     "vs_spy": 0.05,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0525,
+     "vs_spy": 0.05,
      "status": "pending"
     }
    },
@@ -2022,9 +2022,9 @@
    "version": "3",
    "symbol": "BND",
    "claim": "The thesis says BND is 'the low-duration fund'. It is not: BND's beta (0.121) and 252d vol (3.97%) are essentially the same as IEF's (0.123 beta, 4.96% vol); it",
-   "sessions": 7,
-   "return": 0.0037,
-   "vs_spy": 0.0111,
+   "sessions": 8,
+   "return": 0.0079,
+   "vs_spy": -0.0011,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2032,11 +2032,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0111,
+     "vs_spy": -0.0011,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0111,
+     "vs_spy": -0.0011,
      "status": "pending"
     }
    },
@@ -2049,9 +2049,9 @@
    "version": "3",
    "symbol": "VOO",
    "claim": "The account already holds VOO (9.8% of equity) and VTI (8.2%), which are close to the same index, and the fundamentals note says the review question for them is",
-   "sessions": 7,
-   "return": -0.0072,
-   "vs_spy": 0.0002,
+   "sessions": 8,
+   "return": 0.0089,
+   "vs_spy": -0.0001,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2059,11 +2059,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0002,
+     "vs_spy": -0.0001,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0002,
+     "vs_spy": -0.0001,
      "status": "pending"
     }
    },
@@ -2076,9 +2076,9 @@
    "version": "3",
    "symbol": "MTCH",
    "claim": "Contradicts the proposer's own summary. The summary says tech and communication are avoided, the market analyst puts Technology and Communication on its 'avoid'",
-   "sessions": 7,
-   "return": -0.1581,
-   "vs_spy": -0.1507,
+   "sessions": 8,
+   "return": -0.1207,
+   "vs_spy": -0.1297,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2086,11 +2086,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": -0.1507,
+     "vs_spy": -0.1297,
      "status": "pending"
     },
     "60": {
-     "vs_spy": -0.1507,
+     "vs_spy": -0.1297,
      "status": "pending"
     }
    },
@@ -2103,9 +2103,9 @@
    "version": "3",
    "symbol": "IEF",
    "claim": "Duplicates P2. IEF and BND have the same beta (0.123 vs 0.121) and BND already holds a large Treasury sleeve, so P5 is not a separate idea, it just raises the b",
-   "sessions": 7,
-   "return": 0.0046,
-   "vs_spy": 0.012,
+   "sessions": 8,
+   "return": 0.0101,
+   "vs_spy": 0.0011,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2113,11 +2113,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.012,
+     "vs_spy": 0.0011,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.012,
+     "vs_spy": 0.0011,
      "status": "pending"
     }
    },
@@ -2312,9 +2312,9 @@
    "version": "3",
    "symbol": "IEF",
    "claim": "Tactical Treasury add: IEF 21d +1.87% at low volatility, preferred over TLT by the Market Analyst, and it diversifies a book that is mostly equities with only B",
-   "sessions": 6,
-   "return": 0.0039,
-   "vs_spy": 0.0183,
+   "sessions": 7,
+   "return": 0.0094,
+   "vs_spy": 0.0075,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2322,11 +2322,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0183,
+     "vs_spy": 0.0075,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0183,
+     "vs_spy": 0.0075,
      "status": "pending"
     }
    },
@@ -2339,9 +2339,9 @@
    "version": "3",
    "symbol": "VOO",
    "claim": "Regime filter is on (SPY +4.97% over its 200-day) and broad US equity is the acceptable core sleeve while QQQ and international are the risky ones. Sized down f",
-   "sessions": 6,
-   "return": -0.014,
-   "vs_spy": 0.0004,
+   "sessions": 7,
+   "return": 0.0019,
+   "vs_spy": 0.0001,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2349,11 +2349,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0004,
+     "vs_spy": 0.0001,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0004,
+     "vs_spy": 0.0001,
      "status": "pending"
     }
    },
@@ -2366,9 +2366,9 @@
    "version": "3",
    "symbol": "VRSN",
    "claim": "Top-ranked quality name (9/9 F-score, cash flow well above net income). Q3 was reported on 10-22 and the next estimate is 2027-02-04, so there is no earnings ev",
-   "sessions": 6,
-   "return": 0.0167,
-   "vs_spy": 0.0311,
+   "sessions": 7,
+   "return": 0.0302,
+   "vs_spy": 0.0283,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2376,11 +2376,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0311,
+     "vs_spy": 0.0283,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0311,
+     "vs_spy": 0.0283,
      "status": "pending"
     }
    },
@@ -2393,9 +2393,9 @@
    "version": "3",
    "symbol": "VTI",
    "claim": "The Skeptic and Implicator are right that VTI is largely the same stocks as VOO, so P2 plus P4 is one large-cap position split in two. The small- and mid-cap br",
-   "sessions": 6,
-   "return": -0.0117,
-   "vs_spy": 0.0027,
+   "sessions": 7,
+   "return": 0.0035,
+   "vs_spy": 0.0017,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2403,11 +2403,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0027,
+     "vs_spy": 0.0017,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0027,
+     "vs_spy": 0.0017,
      "status": "pending"
     }
    },
@@ -2420,9 +2420,9 @@
    "version": "3",
    "symbol": "IEF",
    "claim": "Market-analyst prefers IEF/BND over TLT as a tactical bond add: IEF 21d +1.87% at 4.97% vol, and bonds diversify a book that is about 79% invested and tilted to",
-   "sessions": 6,
-   "return": 0.0039,
-   "vs_spy": 0.0183,
+   "sessions": 7,
+   "return": 0.0094,
+   "vs_spy": 0.0075,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2430,11 +2430,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0183,
+     "vs_spy": 0.0075,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0183,
+     "vs_spy": 0.0075,
      "status": "pending"
     }
    },
@@ -2447,9 +2447,9 @@
    "version": "3",
    "symbol": "VOO",
    "claim": "Market-analyst: regime is on (SPY +4.97% over its 200-day) and broad US is acceptable, while QQQ and international are the risky sleeves. VOO is the default use",
-   "sessions": 6,
-   "return": -0.014,
-   "vs_spy": 0.0004,
+   "sessions": 7,
+   "return": 0.0019,
+   "vs_spy": 0.0001,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2457,11 +2457,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0004,
+     "vs_spy": 0.0001,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0004,
+     "vs_spy": 0.0001,
      "status": "pending"
     }
    },
@@ -2474,9 +2474,9 @@
    "version": "3",
    "symbol": "VRSN",
    "claim": "Fundamentals-analyst ranks VRSN first on the menu: 9/9 F-score, gross profitability 1.10, cash flow $1.09B against net income $826M. News-analyst confirms the e",
-   "sessions": 6,
-   "return": 0.0167,
-   "vs_spy": 0.0311,
+   "sessions": 7,
+   "return": 0.0302,
+   "vs_spy": 0.0283,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2484,11 +2484,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0311,
+     "vs_spy": 0.0283,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0311,
+     "vs_spy": 0.0283,
      "status": "pending"
     }
    },
@@ -2501,9 +2501,9 @@
    "version": "3",
    "symbol": "VTI",
    "claim": "Market-analyst calls VTI acceptable (+4.54% over its 200-day, 21d -1.09%). It adds small- and mid-cap breadth beyond VOO, and breadth is the stronger part of th",
-   "sessions": 6,
-   "return": -0.0117,
-   "vs_spy": 0.0027,
+   "sessions": 7,
+   "return": 0.0035,
+   "vs_spy": 0.0017,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2511,11 +2511,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0027,
+     "vs_spy": 0.0017,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0027,
+     "vs_spy": 0.0017,
      "status": "pending"
     }
    },
@@ -2528,9 +2528,9 @@
    "version": "3",
    "symbol": "IEF",
    "claim": "This buys a bond ETF that is still below its 200-day (-1.64%, market.json) and has a 63-day return of -1.36%, so it is a counter-trend bounce trade, and it is p",
-   "sessions": 6,
-   "return": 0.0039,
-   "vs_spy": 0.0183,
+   "sessions": 7,
+   "return": 0.0094,
+   "vs_spy": 0.0075,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2538,11 +2538,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0183,
+     "vs_spy": 0.0075,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0183,
+     "vs_spy": 0.0075,
      "status": "pending"
     }
    },
@@ -2555,9 +2555,9 @@
    "version": "3",
    "symbol": "VOO",
    "claim": "The thesis is 'default use for cash with no better home', which is a statement that there is no idea, not a reason. The market analyst's stance is neutral at 0.",
-   "sessions": 6,
-   "return": -0.014,
-   "vs_spy": 0.0004,
+   "sessions": 7,
+   "return": 0.0019,
+   "vs_spy": 0.0001,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2565,11 +2565,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0004,
+     "vs_spy": 0.0001,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0004,
+     "vs_spy": 0.0001,
      "status": "pending"
     }
    },
@@ -2582,9 +2582,9 @@
    "version": "3",
    "symbol": "VRSN",
    "claim": "The case rests on a fundamentals rank that the analyst itself says predates the 10-22 print: 'that print is outside my fundamentals data', and the menu close (3",
-   "sessions": 6,
-   "return": 0.0167,
-   "vs_spy": 0.0311,
+   "sessions": 7,
+   "return": 0.0302,
+   "vs_spy": 0.0283,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2592,11 +2592,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0311,
+     "vs_spy": 0.0283,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0311,
+     "vs_spy": 0.0283,
      "status": "pending"
     }
    },
@@ -2609,9 +2609,9 @@
    "version": "3",
    "symbol": "VTI",
    "claim": "This is the same trade as P2 and the existing book. VTI is about 80-85% the same stocks as VOO, so the pair is one large-cap blend position split in two. The st",
-   "sessions": 6,
-   "return": -0.0117,
-   "vs_spy": 0.0027,
+   "sessions": 7,
+   "return": 0.0035,
+   "vs_spy": 0.0017,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2619,11 +2619,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0027,
+     "vs_spy": 0.0017,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0027,
+     "vs_spy": 0.0017,
      "status": "pending"
     }
    },
@@ -2844,9 +2844,9 @@
    "version": "3",
    "symbol": "MSM",
    "claim": "Quality industrial distributor: 9/9 F-score, cash flow $306M vs net income $223M, newest 10-K on the menu, already reported on 10-22 so no earnings event in the",
-   "sessions": 5,
-   "return": 0.0162,
-   "vs_spy": 0.0361,
+   "sessions": 6,
+   "return": -0.0196,
+   "vs_spy": -0.0159,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2854,11 +2854,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0361,
+     "vs_spy": -0.0159,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0361,
+     "vs_spy": -0.0159,
      "status": "pending"
     }
    },
@@ -2871,9 +2871,9 @@
    "version": "3",
    "symbol": "VXUS",
    "claim": "The Skeptic's case is stronger than the proposal. VXUS is already below its 200-day (-0.41%) and the Market Analyst prefers broad US exposure over international",
-   "sessions": 5,
-   "return": -0.0126,
-   "vs_spy": 0.0073,
+   "sessions": 6,
+   "return": 0.007,
+   "vs_spy": 0.0107,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2881,11 +2881,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0073,
+     "vs_spy": 0.0107,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0073,
+     "vs_spy": 0.0107,
      "status": "pending"
     }
    },
@@ -2898,9 +2898,9 @@
    "version": "3",
    "symbol": "MSM",
    "claim": "Fundamentals-analyst rank 4: the only other 9/9 F-score besides VRSN, all tests computable, newest 10-K on the menu (FY end 2026-08-29, known 2026-10-22), cfo $",
-   "sessions": 5,
-   "return": 0.0162,
-   "vs_spy": 0.0361,
+   "sessions": 6,
+   "return": -0.0196,
+   "vs_spy": -0.0159,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2908,11 +2908,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0361,
+     "vs_spy": -0.0159,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0361,
+     "vs_spy": -0.0159,
      "status": "pending"
     }
    },
@@ -2925,9 +2925,9 @@
    "version": "3",
    "symbol": "VXUS",
    "claim": "Strategy calls for broad diversification and we hold no non-US equity. Market-analyst: VXUS 21d -4.31% and about at its 200-day (-0.41%) with 17% volatility, so",
-   "sessions": 5,
-   "return": -0.0126,
-   "vs_spy": 0.0073,
+   "sessions": 6,
+   "return": 0.007,
+   "vs_spy": 0.0107,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2935,11 +2935,11 @@
      "status": "right"
     },
     "20": {
-     "vs_spy": 0.0073,
+     "vs_spy": 0.0107,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0073,
+     "vs_spy": 0.0107,
      "status": "pending"
     }
    },
@@ -2952,9 +2952,9 @@
    "version": "3",
    "symbol": "MSM",
    "claim": "(1) The claim 'a sector we do not hold' is wrong in substance. MSM is a wholesale industrial MRO distributor (SIC Wholesale-Industrial Machinery & Equipment); t",
-   "sessions": 5,
-   "return": 0.0162,
-   "vs_spy": 0.0361,
+   "sessions": 6,
+   "return": -0.0196,
+   "vs_spy": -0.0159,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2962,11 +2962,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0361,
+     "vs_spy": -0.0159,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0361,
+     "vs_spy": -0.0159,
      "status": "pending"
     }
    },
@@ -2979,9 +2979,9 @@
    "version": "3",
    "symbol": "VXUS",
    "claim": "(1) The market-analyst's asset_class_view says plainly that international and emerging are weak and near or below their 200-day: VXUS 21d -4.31% and below its 2",
-   "sessions": 5,
-   "return": -0.0126,
-   "vs_spy": 0.0073,
+   "sessions": 6,
+   "return": 0.007,
+   "vs_spy": 0.0107,
    "horizon": 20,
    "grades": {
     "5": {
@@ -2989,11 +2989,11 @@
      "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0073,
+     "vs_spy": 0.0107,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0073,
+     "vs_spy": 0.0107,
      "status": "pending"
     }
    },
@@ -3240,21 +3240,21 @@
    "version": "3",
    "symbol": "BND",
    "claim": "Small bond ballast for an equity-heavy book: BND is the lowest-event-risk, shortest-duration bond option (beta 0.123), the Market Analyst prefers bonds as a div",
-   "sessions": 4,
-   "return": 0.0038,
-   "vs_spy": 0.0271,
+   "sessions": 5,
+   "return": 0.008,
+   "vs_spy": 0.0152,
    "horizon": 20,
    "grades": {
     "5": {
-     "vs_spy": 0.0271,
-     "status": "pending"
+     "vs_spy": 0.0152,
+     "status": "right"
     },
     "20": {
-     "vs_spy": 0.0271,
+     "vs_spy": 0.0152,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0271,
+     "vs_spy": 0.0152,
      "status": "pending"
     }
    },
@@ -3267,21 +3267,21 @@
    "version": "3",
    "symbol": "INCY",
    "claim": "The Skeptic's serious objection holds. INCY's estimated 10-27 earnings date has passed with no 8-K 2.02 or results headline, so per L2 the honest reading is tha",
-   "sessions": 4,
-   "return": 0.0062,
-   "vs_spy": 0.0294,
+   "sessions": 5,
+   "return": 0.0512,
+   "vs_spy": 0.0583,
    "horizon": 20,
    "grades": {
     "5": {
-     "vs_spy": 0.0294,
-     "status": "pending"
+     "vs_spy": 0.0583,
+     "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0294,
+     "vs_spy": 0.0583,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0294,
+     "vs_spy": 0.0583,
      "status": "pending"
     }
    },
@@ -3294,21 +3294,21 @@
    "version": "3",
    "symbol": "BND",
    "claim": "Market-analyst calls bonds the more attractive diversifier right now: BND 21-day +1.83% at only 3.97% vol, with a growth-scare bid under Treasuries. BND has the",
-   "sessions": 4,
-   "return": 0.0038,
-   "vs_spy": 0.0271,
+   "sessions": 5,
+   "return": 0.008,
+   "vs_spy": 0.0152,
    "horizon": 20,
    "grades": {
     "5": {
-     "vs_spy": 0.0271,
-     "status": "pending"
+     "vs_spy": 0.0152,
+     "status": "right"
     },
     "20": {
-     "vs_spy": 0.0271,
+     "vs_spy": 0.0152,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0271,
+     "vs_spy": 0.0152,
      "status": "pending"
     }
    },
@@ -3321,21 +3321,21 @@
    "version": "3",
    "symbol": "INCY",
    "claim": "Fundamentals-analyst rank 7: F-score 8/9, gp_sector_pct 0.905, cfo $1,413M vs net income $1,287M, current ratio improved, no dilution, leverage not up. Health C",
-   "sessions": 4,
-   "return": 0.0062,
-   "vs_spy": 0.0294,
+   "sessions": 5,
+   "return": 0.0512,
+   "vs_spy": 0.0583,
    "horizon": 20,
    "grades": {
     "5": {
-     "vs_spy": 0.0294,
-     "status": "pending"
+     "vs_spy": 0.0583,
+     "status": "right"
     },
     "20": {
-     "vs_spy": 0.0294,
+     "vs_spy": 0.0583,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0294,
+     "vs_spy": 0.0583,
      "status": "pending"
     }
    },
@@ -3348,21 +3348,21 @@
    "version": "3",
    "symbol": "INCY",
    "claim": "(1) Event risk is not cleared, it is unresolved. fundamentals.json/news.json show INCY's next_earnings_estimate as 2026-10-27 with days_to_earnings -1 and filin",
-   "sessions": 4,
-   "return": 0.0062,
-   "vs_spy": 0.0294,
+   "sessions": 5,
+   "return": 0.0512,
+   "vs_spy": 0.0583,
    "horizon": 20,
    "grades": {
     "5": {
-     "vs_spy": 0.0294,
-     "status": "pending"
+     "vs_spy": 0.0583,
+     "status": "wrong"
     },
     "20": {
-     "vs_spy": 0.0294,
+     "vs_spy": 0.0583,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0294,
+     "vs_spy": 0.0583,
      "status": "pending"
     }
    },
@@ -3376,10 +3376,10 @@
    "horizon": 5,
    "symbol": "SPY",
    "claim": "neutral",
-   "sessions": 4,
-   "return": -0.0233,
+   "sessions": 5,
+   "return": -0.0071,
    "vs_spy": null,
-   "status": "pending"
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3389,10 +3389,10 @@
    "horizon": 5,
    "symbol": "CVS",
    "claim": "Estimated earnings today (approximate, last year's date + 364); no 8-K 2.02 or results headline yet, so unverified. WSJ reports a new Labor Department rule maki",
-   "sessions": 4,
-   "return": 0.0162,
-   "vs_spy": 0.0395,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.1111,
+   "vs_spy": -0.1039,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3402,10 +3402,10 @@
    "horizon": 5,
    "symbol": "CALX",
    "claim": "Estimated earnings today (approximate); no filings or results headlines yet, so unverified. Only the 10-27 communications-language-model release in the window.",
-   "sessions": 4,
-   "return": -0.1289,
-   "vs_spy": -0.1056,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.1132,
+   "vs_spy": -0.1061,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3415,10 +3415,10 @@
    "horizon": 5,
    "symbol": "AAPL",
    "claim": "Earnings date is uncertain: file estimate 10-29 (1 trading day) versus a Benzinga-cited 11-02 (3 trading days). Either is inside the window. The 10-28 product e",
-   "sessions": 4,
-   "return": -0.0347,
-   "vs_spy": -0.0114,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0165,
+   "vs_spy": 0.0236,
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -3428,10 +3428,10 @@
    "horizon": 5,
    "symbol": "LNG",
    "claim": "Estimated earnings 10-29 (1 trading day, approximate). Exposed to oil and Iran swings and to the EQT/Range gas read-through. The QatarEnergy SPAs (4 MTPA throug",
-   "sessions": 4,
-   "return": 0.045,
-   "vs_spy": 0.0683,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.0193,
+   "vs_spy": -0.0122,
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -3441,10 +3441,10 @@
    "horizon": 5,
    "symbol": "BDC",
    "claim": "Estimated earnings 10-29 (1 trading day, approximate). No headlines or filings.",
-   "sessions": 4,
-   "return": 0.0062,
-   "vs_spy": 0.0294,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.0142,
+   "vs_spy": -0.007,
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -3454,10 +3454,10 @@
    "horizon": 5,
    "symbol": "BJRI",
    "claim": "Estimated earnings 10-29 (1 trading day, approximate). Only Citi's PT cut to $70 (Neutral) on 10-23 is in the record; nothing new.",
-   "sessions": 4,
-   "return": 0.0018,
-   "vs_spy": 0.0251,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0205,
+   "vs_spy": 0.0276,
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -3467,10 +3467,10 @@
    "horizon": 5,
    "symbol": "HWM",
    "claim": "Estimated earnings 10-29 (1 trading day, approximate). No filings; only an older Citi Buy/$329 reiteration.",
-   "sessions": 4,
-   "return": 0.1431,
-   "vs_spy": 0.1663,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0941,
+   "vs_spy": 0.1012,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3480,10 +3480,10 @@
    "horizon": 5,
    "symbol": "CLX",
    "claim": "Estimated earnings 11-02 (3 trading days, approximate). Negative preview drift continues: JPMorgan Underweight/$83 (10-20) and UBS saying organic sales stay pre",
-   "sessions": 4,
-   "return": 0.0801,
-   "vs_spy": 0.1034,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.1419,
+   "vs_spy": 0.149,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3493,10 +3493,10 @@
    "horizon": 5,
    "symbol": "IDXX",
    "claim": "Estimated earnings 11-02 (3 trading days, approximate). A second PT cut: UBS to $627 from $670 (Neutral, 10-27), after Jefferies to $705 on 10-20. Held position",
-   "sessions": 4,
-   "return": 0.1939,
-   "vs_spy": 0.2171,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.241,
+   "vs_spy": 0.2481,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3506,10 +3506,10 @@
    "horizon": 5,
    "symbol": "EXEL",
    "claim": "Estimated earnings 11-03 (4 trading days, approximate). No headlines or filings.",
-   "sessions": 4,
-   "return": 0.091,
-   "vs_spy": 0.1142,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0976,
+   "vs_spy": 0.1047,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3519,10 +3519,10 @@
    "horizon": 5,
    "symbol": "MTCH",
    "claim": "Estimated earnings 11-03 (4 trading days, approximate). Only TD Cowen's Buy with PT raised to $52 (10-27), supportive.",
-   "sessions": 4,
-   "return": -0.0846,
-   "vs_spy": -0.0614,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.044,
+   "vs_spy": -0.0369,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3532,10 +3532,10 @@
    "horizon": 5,
    "symbol": "ULS",
    "claim": "Estimated earnings 11-03 (4 trading days). The company set its own Q3 date on 10-20, which is not in the input and may differ. Only minor partnership and facili",
-   "sessions": 4,
-   "return": 0.1105,
-   "vs_spy": 0.1338,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.1012,
+   "vs_spy": 0.1084,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3545,10 +3545,10 @@
    "horizon": 5,
    "symbol": "GPOR",
    "claim": "Estimated earnings 11-03 (4 trading days). Gulfport scheduled its own release on 10-21, not in the input, so the true date is unverified. Gas names also trade a",
-   "sessions": 4,
-   "return": 0.0039,
-   "vs_spy": 0.0272,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.041,
+   "vs_spy": -0.0339,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3558,10 +3558,10 @@
    "horizon": 5,
    "symbol": "SMG",
    "claim": "Company-confirmed fiscal Q4 results on 11-04 (5 trading days, the edge of the window). The 10-16 8-K 5.02 (officer/director change) has aged out of the 7-day wi",
-   "sessions": 4,
-   "return": 0.0359,
-   "vs_spy": 0.0591,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.1262,
+   "vs_spy": 0.1333,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3571,10 +3571,10 @@
    "horizon": 5,
    "symbol": "CART",
    "claim": "Live takeover event. DoorDash is reported (WSJ, The Information) to be in advanced talks to buy Instacart for about $17B, with a deal possibly done this week. N",
-   "sessions": 4,
-   "return": -0.0019,
-   "vs_spy": 0.0214,
-   "status": "pending"
+   "sessions": 5,
+   "return": 0.0137,
+   "vs_spy": 0.0208,
+   "status": "wrong"
   },
   {
    "agent": "news-analyst",
@@ -3584,10 +3584,10 @@
    "horizon": 5,
    "symbol": "QQQ",
    "claim": "Fed rate decision today (Warsh-led Fed), with Microsoft and Alphabet reporting after the close and Amazon later in the week. The AI-bubble and capex thread cont",
-   "sessions": 4,
-   "return": -0.0556,
-   "vs_spy": -0.0323,
-   "status": "pending"
+   "sessions": 5,
+   "return": -0.0464,
+   "vs_spy": -0.0393,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -3599,7 +3599,7 @@
    "claim": "Fed decision today. Bitcoin is back around $80k after a rebound on 10-27 (ETF inflow $110M, crypto rose with stocks), but the contested-support story is intact:",
    "sessions": 5,
    "return": -0.0563,
-   "vs_spy": -0.0331,
+   "vs_spy": -0.0492,
    "status": "right"
   },
   {
@@ -3609,21 +3609,21 @@
    "version": "4",
    "symbol": "VXUS",
    "claim": "VXUS $10: the Skeptic's serious case holds. It contradicts the Market Analyst's call to prefer US core over international, VXUS is lagging SPY on 21d and 63d, a",
-   "sessions": 3,
-   "return": -0.0167,
-   "vs_spy": 0.0028,
+   "sessions": 4,
+   "return": 0.0027,
+   "vs_spy": 0.0061,
    "horizon": 20,
    "grades": {
     "5": {
-     "vs_spy": 0.0028,
+     "vs_spy": 0.0061,
      "status": "pending"
     },
     "20": {
-     "vs_spy": 0.0028,
+     "vs_spy": 0.0061,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0028,
+     "vs_spy": 0.0061,
      "status": "pending"
     }
    },
@@ -3636,21 +3636,21 @@
    "version": "4",
    "symbol": "VXUS",
    "claim": "The account holds no international exposure, and the strategy asks for spread across asset classes. The market-analyst note rates VXUS weak (21d -2.06%) but it ",
-   "sessions": 3,
-   "return": -0.0167,
-   "vs_spy": 0.0028,
+   "sessions": 4,
+   "return": 0.0027,
+   "vs_spy": 0.0061,
    "horizon": 20,
    "grades": {
     "5": {
-     "vs_spy": 0.0028,
+     "vs_spy": 0.0061,
      "status": "pending"
     },
     "20": {
-     "vs_spy": 0.0028,
+     "vs_spy": 0.0061,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0028,
+     "vs_spy": 0.0061,
      "status": "pending"
     }
    },
@@ -3663,21 +3663,21 @@
    "version": "4",
    "symbol": "VXUS",
    "claim": "1) The thesis cites the market-analyst note but reverses its conclusion. The note says VXUS (21d -2.06%) and VWO look weak and 'Prefer US core over internationa",
-   "sessions": 3,
-   "return": -0.0167,
-   "vs_spy": 0.0028,
+   "sessions": 4,
+   "return": 0.0027,
+   "vs_spy": 0.0061,
    "horizon": 20,
    "grades": {
     "5": {
-     "vs_spy": 0.0028,
+     "vs_spy": 0.0061,
      "status": "pending"
     },
     "20": {
-     "vs_spy": 0.0028,
+     "vs_spy": 0.0061,
      "status": "pending"
     },
     "60": {
-     "vs_spy": 0.0028,
+     "vs_spy": 0.0061,
      "status": "pending"
     }
    },
@@ -3691,8 +3691,8 @@
    "horizon": 5,
    "symbol": "SPY",
    "claim": "neutral",
-   "sessions": 3,
-   "return": -0.0195,
+   "sessions": 4,
+   "return": -0.0033,
    "vs_spy": null,
    "status": "pending"
   },
@@ -3704,9 +3704,9 @@
    "horizon": 5,
    "symbol": "AAPL",
    "claim": "No 8-K 2.02 or results headline yet. The file estimate is 10-29 (today) but Benzinga pieces on 10-27 and 10-28 cite Nov 2 ('earnings due next week'), so Nov 2 l",
-   "sessions": 3,
-   "return": -0.0488,
-   "vs_spy": -0.0292,
+   "sessions": 4,
+   "return": 0.0017,
+   "vs_spy": 0.005,
    "status": "pending"
   },
   {
@@ -3717,9 +3717,9 @@
    "horizon": 5,
    "symbol": "BJRI",
    "claim": "Estimated earnings today (approximate). No filing and no results headline in the input, so unverified; likely after the close. Last item remains Citi's PT cut t",
-   "sessions": 3,
-   "return": -0.042,
-   "vs_spy": -0.0225,
+   "sessions": 4,
+   "return": -0.0242,
+   "vs_spy": -0.0209,
    "status": "pending"
   },
   {
@@ -3730,9 +3730,9 @@
    "horizon": 5,
    "symbol": "CART",
    "claim": "Resolved into a deal: DoorDash confirmed it will buy Instacart at $65.00/share (about $17B, at least 75% cash, close expected by 2028); 8-K 1.01/8.01 filed toda",
-   "sessions": 3,
-   "return": 0.021,
-   "vs_spy": 0.0405,
+   "sessions": 4,
+   "return": 0.0369,
+   "vs_spy": 0.0403,
    "status": "pending"
   },
   {
@@ -3743,9 +3743,9 @@
    "horizon": 5,
    "symbol": "CLX",
    "claim": "Estimated earnings 11-02, 2 trading days out (approximate). New: 8-K 5.02 filed today and Benzinga/TradingView report Fabian Garcia named CEO effective 2027-01-",
-   "sessions": 3,
-   "return": 0.0579,
-   "vs_spy": 0.0774,
+   "sessions": 4,
+   "return": 0.1183,
+   "vs_spy": 0.1216,
    "status": "pending"
   },
   {
@@ -3756,9 +3756,9 @@
    "horizon": 5,
    "symbol": "IDXX",
    "claim": "Held position. Estimated earnings 11-02, 2 trading days out (approximate). No new IDXX headline today; the last items are the two PT cuts (Jefferies $705 on 10-",
-   "sessions": 3,
-   "return": 0.1668,
-   "vs_spy": 0.1863,
+   "sessions": 4,
+   "return": 0.2128,
+   "vs_spy": 0.2161,
    "status": "pending"
   },
   {
@@ -3769,9 +3769,9 @@
    "horizon": 5,
    "symbol": "EXEL",
    "claim": "Estimated earnings 11-03, 3 trading days out (approximate). No headlines or filings.",
-   "sessions": 3,
-   "return": 0.0923,
-   "vs_spy": 0.1118,
+   "sessions": 4,
+   "return": 0.0989,
+   "vs_spy": 0.1023,
    "status": "pending"
   },
   {
@@ -3782,9 +3782,9 @@
    "horizon": 5,
    "symbol": "MTCH",
    "claim": "Estimated earnings 11-03, 3 trading days out (approximate). Sell-side now split: TD Cowen Buy/$52 (10-27) versus Wells Fargo Equal-Weight with PT cut to $39 (10",
-   "sessions": 3,
-   "return": -0.0973,
-   "vs_spy": -0.0778,
+   "sessions": 4,
+   "return": -0.0572,
+   "vs_spy": -0.0539,
    "status": "pending"
   },
   {
@@ -3795,9 +3795,9 @@
    "horizon": 5,
    "symbol": "ULS",
    "claim": "Estimated earnings 11-03, 3 trading days out. The company set its own Q3 date on 10-20, which is not in this input and may differ. Only minor certification and ",
-   "sessions": 3,
-   "return": 0.0655,
-   "vs_spy": 0.085,
+   "sessions": 4,
+   "return": 0.0566,
+   "vs_spy": 0.0599,
    "status": "pending"
   },
   {
@@ -3808,9 +3808,9 @@
    "horizon": 5,
    "symbol": "GPOR",
    "claim": "Estimated earnings 11-03, 3 trading days out. Gulfport scheduled its own release on 10-21; the true date is not in this input, so unverified. Gas names also tra",
-   "sessions": 3,
-   "return": 0.0082,
-   "vs_spy": 0.0277,
+   "sessions": 4,
+   "return": -0.0369,
+   "vs_spy": -0.0336,
    "status": "pending"
   },
   {
@@ -3821,9 +3821,9 @@
    "horizon": 5,
    "symbol": "SMG",
    "claim": "Company-confirmed fiscal Q4 results 11-04, 4 trading days out. The 10-16 8-K 5.02 (officer/director change) has aged out of the window and was never read, so ma",
-   "sessions": 3,
-   "return": -0.0011,
-   "vs_spy": 0.0184,
+   "sessions": 4,
+   "return": 0.086,
+   "vs_spy": 0.0893,
    "status": "pending"
   },
   {
@@ -3834,9 +3834,9 @@
    "horizon": 5,
    "symbol": "TPR",
    "claim": "Earnings 11-05 (company-announced per the Barchart preview), exactly 5 trading days out, the edge of the window. Negative PT drift extends: Wells Fargo cut to $",
-   "sessions": 3,
-   "return": 0.027,
-   "vs_spy": 0.0465,
+   "sessions": 4,
+   "return": 0.0634,
+   "vs_spy": 0.0667,
    "status": "pending"
   },
   {
@@ -3847,9 +3847,9 @@
    "horizon": 5,
    "symbol": "CARG",
    "claim": "Estimated earnings 11-05, 5 trading days out (approximate), at the edge of the window. No headlines or filings.",
-   "sessions": 3,
-   "return": 0.0391,
-   "vs_spy": 0.0586,
+   "sessions": 4,
+   "return": 0.1237,
+   "vs_spy": 0.127,
    "status": "pending"
   },
   {
@@ -3860,9 +3860,9 @@
    "horizon": 5,
    "symbol": "DBX",
    "claim": "Estimated earnings 11-05, 5 trading days out. 8-K filed 10-28 with items 2.02/2.05/5.02: about 9% headcount cut ($27M-$33M cash) and Q3 pre-announced in line or",
-   "sessions": 3,
-   "return": -0.0369,
-   "vs_spy": -0.0174,
+   "sessions": 4,
+   "return": -0.0055,
+   "vs_spy": -0.0022,
    "status": "pending"
   },
   {
@@ -3873,9 +3873,9 @@
    "horizon": 5,
    "symbol": "RL",
    "claim": "Estimated earnings 11-05, 5 trading days out (approximate), at the edge. Supportive drift: UBS Buy PT $521 (10-28), Deutsche $452 (10-27).",
-   "sessions": 3,
-   "return": -0.0153,
-   "vs_spy": 0.0042,
+   "sessions": 4,
+   "return": 0.0288,
+   "vs_spy": 0.0321,
    "status": "pending"
   },
   {
@@ -3886,9 +3886,9 @@
    "horizon": 5,
    "symbol": "ONC",
    "claim": "Estimated earnings 11-05, 5 trading days out (approximate). No news in the window.",
-   "sessions": 3,
-   "return": -0.0446,
-   "vs_spy": -0.0251,
+   "sessions": 4,
+   "return": 0.0167,
+   "vs_spy": 0.0201,
    "status": "pending"
   },
   {
@@ -3899,9 +3899,9 @@
    "horizon": 5,
    "symbol": "QQQ",
    "claim": "Alphabet is set for its worst day since March 2020 (about -11% premarket, Q3 miss on search slowdown despite cloud strength), a possible second-largest one-day ",
-   "sessions": 3,
-   "return": -0.042,
-   "vs_spy": -0.0225,
+   "sessions": 4,
+   "return": -0.0327,
+   "vs_spy": -0.0294,
    "status": "pending"
   },
   {
@@ -3914,7 +3914,7 @@
    "claim": "Back near $80k after the Fed; Cowen says a hot PCE could push yields up and trigger a Q4 selloff (September PCE came in at 3.6%, as expected; Q3 GDP 3.4% beat).",
    "sessions": 5,
    "return": -0.006,
-   "vs_spy": 0.0135,
+   "vs_spy": -0.0027,
    "status": "wrong"
   },
   {
@@ -3925,9 +3925,9 @@
    "horizon": 5,
    "symbol": "TLT",
    "claim": "Fed held at 3.75%-4.00% on 10-28 with two dissents for a hike; Polymarket 82% December hike odds; 10-year near 5% and September PCE 3.6%. Warsh plans fewer rate",
-   "sessions": 3,
-   "return": -0.0005,
-   "vs_spy": 0.019,
+   "sessions": 4,
+   "return": 0.0075,
+   "vs_spy": 0.0108,
    "status": "pending"
   },
   {
@@ -3938,8 +3938,8 @@
    "horizon": 5,
    "symbol": "SPY",
    "claim": "neutral",
-   "sessions": 2,
-   "return": -0.0018,
+   "sessions": 3,
+   "return": 0.0147,
    "vs_spy": null,
    "status": "pending"
   },
@@ -3951,9 +3951,9 @@
    "horizon": 5,
    "symbol": "CLX",
    "claim": "Estimated earnings Mon 11-02, 1 trading day out (approximate). 8-K 5.02 filed 10-29: Fabian Garcia named CEO effective 2027-01-05, succeeding Linda Rendle. It i",
-   "sessions": 2,
-   "return": 0.0659,
-   "vs_spy": 0.0677,
+   "sessions": 3,
+   "return": 0.1268,
+   "vs_spy": 0.1121,
    "status": "pending"
   },
   {
@@ -3964,9 +3964,9 @@
    "horizon": 5,
    "symbol": "IDXX",
    "claim": "Held position. Estimated earnings Mon 11-02, 1 trading day out (approximate). No IDXX headline or filing in the window; the last items are the two PT cuts (Jeff",
-   "sessions": 2,
-   "return": 0.2192,
-   "vs_spy": 0.221,
+   "sessions": 3,
+   "return": 0.2673,
+   "vs_spy": 0.2526,
    "status": "pending"
   },
   {
@@ -3977,9 +3977,9 @@
    "horizon": 5,
    "symbol": "AAPL",
    "claim": "The file estimate (10-29) has passed with no 8-K 2.02 or results headline, so the date is unverified. Benzinga pieces on 10-20, 10-27 and 10-28 cite Nov 2, whic",
-   "sessions": 2,
-   "return": -0.0369,
-   "vs_spy": -0.0351,
+   "sessions": 3,
+   "return": 0.0142,
+   "vs_spy": -0.0005,
    "status": "pending"
   },
   {
@@ -3990,9 +3990,9 @@
    "horizon": 5,
    "symbol": "MTCH",
    "claim": "Estimated earnings 11-03, 2 trading days out (approximate). No new headline today; the sell-side is split (TD Cowen Buy/$52 versus Wells Fargo Equal-Weight with",
-   "sessions": 2,
-   "return": -0.0703,
-   "vs_spy": -0.0685,
+   "sessions": 3,
+   "return": -0.029,
+   "vs_spy": -0.0437,
    "status": "pending"
   },
   {
@@ -4003,9 +4003,9 @@
    "horizon": 5,
    "symbol": "ULS",
    "claim": "Estimated earnings 11-03, 2 trading days out. The company set its own Q3 date on 10-20, which is not in this input and may differ. Only a DJI certification rele",
-   "sessions": 2,
-   "return": 0.0754,
-   "vs_spy": 0.0773,
+   "sessions": 3,
+   "return": 0.0665,
+   "vs_spy": 0.0518,
    "status": "pending"
   },
   {
@@ -4016,9 +4016,9 @@
    "horizon": 5,
    "symbol": "GPOR",
    "claim": "Estimated earnings 11-03, 2 trading days out. Gulfport scheduled its own release on 10-21, which is not in the input, so the true date is unverified. Gas names ",
-   "sessions": 2,
-   "return": 0.0002,
-   "vs_spy": 0.002,
+   "sessions": 3,
+   "return": -0.0446,
+   "vs_spy": -0.0592,
    "status": "pending"
   },
   {
@@ -4029,9 +4029,9 @@
    "horizon": 5,
    "symbol": "SMG",
    "claim": "Company-confirmed fiscal Q4 results 11-04, 3 trading days out. Only the Black Kow acquisition close (10-29) is new. The 10-16 8-K 5.02 (officer/director change)",
-   "sessions": 2,
-   "return": -0.0071,
-   "vs_spy": -0.0053,
+   "sessions": 3,
+   "return": 0.0795,
+   "vs_spy": 0.0649,
    "status": "pending"
   },
   {
@@ -4042,9 +4042,9 @@
    "horizon": 5,
    "symbol": "TPR",
    "claim": "Earnings 11-05 (company-announced per the Barchart preview), 4 trading days out. Negative PT drift (UBS $200, Jefferies $125, Baird $150, Wells Fargo $150 on 10",
-   "sessions": 2,
-   "return": 0.0407,
-   "vs_spy": 0.0425,
+   "sessions": 3,
+   "return": 0.0776,
+   "vs_spy": 0.0629,
    "status": "pending"
   },
   {
@@ -4055,9 +4055,9 @@
    "horizon": 5,
    "symbol": "CARG",
    "claim": "Company-confirmed Q3 results 11-05 after the close (10-29 release), 4 trading days out. This replaces the earlier estimate. No filings or other headlines.",
-   "sessions": 2,
-   "return": 0.0494,
-   "vs_spy": 0.0512,
+   "sessions": 3,
+   "return": 0.1349,
+   "vs_spy": 0.1202,
    "status": "pending"
   },
   {
@@ -4068,9 +4068,9 @@
    "horizon": 5,
    "symbol": "RL",
    "claim": "Estimated earnings 11-05, 4 trading days out (approximate). Supportive sell-side drift (UBS Buy/$521, Deutsche $452); nothing new today.",
-   "sessions": 2,
-   "return": 0.0039,
-   "vs_spy": 0.0057,
+   "sessions": 3,
+   "return": 0.0488,
+   "vs_spy": 0.0342,
    "status": "pending"
   },
   {
@@ -4081,9 +4081,9 @@
    "horizon": 5,
    "symbol": "ONC",
    "claim": "Estimated earnings 11-05, 4 trading days out (approximate). No headlines or filings in the window.",
-   "sessions": 2,
-   "return": -0.0414,
-   "vs_spy": -0.0396,
+   "sessions": 3,
+   "return": 0.0201,
+   "vs_spy": 0.0054,
    "status": "pending"
   },
   {
@@ -4094,9 +4094,9 @@
    "horizon": 5,
    "symbol": "CART",
    "claim": "Deal event, not an earnings one. DoorDash agreed to buy Instacart at $65.00 a share (about $17B, at least 75% cash, close by 2028; 8-K 1.01/8.01 and 2.02 filed ",
-   "sessions": 2,
-   "return": 0.0329,
-   "vs_spy": 0.0348,
+   "sessions": 3,
+   "return": 0.0491,
+   "vs_spy": 0.0344,
    "status": "pending"
   },
   {
@@ -4108,8 +4108,8 @@
    "symbol": "BTC/USD",
    "claim": "Binance suffered what Benzinga calls the biggest crypto hack on record (about $6.3B, 10-29), and BTC fell about 3% to about $77k. The hack reportedly involved b",
    "sessions": 5,
-   "return": -0.0045,
-   "vs_spy": -0.0027,
+   "return": 0.0389,
+   "vs_spy": 0.0243,
    "status": "wrong"
   },
   {
@@ -4121,9 +4121,9 @@
    "symbol": "ETH/USD",
    "claim": "Tagged on the Binance hack coverage, which involved borrowing Ether against stablecoins, so DeFi lending is part of the story. The earlier relative-weakness thr",
    "sessions": 5,
-   "return": 0.0092,
-   "vs_spy": 0.011,
-   "status": "wrong"
+   "return": 0.0812,
+   "vs_spy": 0.0666,
+   "status": "right"
   },
   {
    "agent": "news-analyst",
@@ -4133,9 +4133,9 @@
    "horizon": 5,
    "symbol": "QQQ",
    "claim": "The AI-capex worry flagged since 10-20 now has hard facts. Alphabet lost about $482B (about -12% on 10-29), Amazon fell more than 7% despite 39% AWS growth on $",
-   "sessions": 2,
-   "return": -0.0075,
-   "vs_spy": -0.0057,
+   "sessions": 3,
+   "return": 0.0021,
+   "vs_spy": -0.0126,
    "status": "pending"
   },
   {
@@ -4146,8 +4146,8 @@
    "horizon": 5,
    "symbol": "SPY",
    "claim": "neutral",
-   "sessions": 1,
-   "return": 0.003,
+   "sessions": 2,
+   "return": 0.0196,
    "vs_spy": null,
    "status": "pending"
   },
@@ -4159,9 +4159,9 @@
    "horizon": 5,
    "symbol": "AAPL",
    "claim": "Reports fiscal Q4 after the close today (Benzinga and TradingView both say Nov 2), which settles the 10-29 versus 11-02 uncertainty. Backdrop is mixed: Bank of ",
-   "sessions": 1,
-   "return": -0.019,
-   "vs_spy": -0.022,
+   "sessions": 2,
+   "return": 0.0331,
+   "vs_spy": 0.0135,
    "status": "pending"
   },
   {
@@ -4172,9 +4172,9 @@
    "horizon": 5,
    "symbol": "CLX",
    "claim": "File estimate is today and no 8-K 2.02 or results headline is in the inputs, so the print is unverified and probably after the close or imminent. Only the 8-K 5",
-   "sessions": 1,
-   "return": 0.0434,
-   "vs_spy": 0.0404,
+   "sessions": 2,
+   "return": 0.103,
+   "vs_spy": 0.0834,
    "status": "pending"
   },
   {
@@ -4185,9 +4185,9 @@
    "horizon": 5,
    "symbol": "MTCH",
    "claim": "Estimated earnings 11-03, 1 trading day out (approximate). No filings or headlines in the window. Sell-side was split last week (TD Cowen Buy/$52 versus Wells F",
-   "sessions": 1,
-   "return": -0.0849,
-   "vs_spy": -0.0879,
+   "sessions": 2,
+   "return": -0.0442,
+   "vs_spy": -0.0638,
    "status": "pending"
   },
   {
@@ -4198,9 +4198,9 @@
    "horizon": 5,
    "symbol": "ULS",
    "claim": "Estimated earnings 11-03, 1 trading day out. The company set its own Q3 date on 10-20, which is not in this input and may differ, so the date is unverified. No ",
-   "sessions": 1,
-   "return": 0.07,
-   "vs_spy": 0.067,
+   "sessions": 2,
+   "return": 0.0611,
+   "vs_spy": 0.0415,
    "status": "pending"
   },
   {
@@ -4211,9 +4211,9 @@
    "horizon": 5,
    "symbol": "GPOR",
    "claim": "Estimated earnings 11-03, 1 trading day out. Gulfport scheduled its own release on 10-21, not visible here, so unverified. Gas names also trade around the EQT/R",
-   "sessions": 1,
-   "return": -0.0061,
-   "vs_spy": -0.0091,
+   "sessions": 2,
+   "return": -0.0506,
+   "vs_spy": -0.0702,
    "status": "pending"
   },
   {
@@ -4224,9 +4224,9 @@
    "horizon": 5,
    "symbol": "SMG",
    "claim": "Company-confirmed fiscal Q4 results 11-04 (per earlier runs), 2 trading days out. No filings or headlines in the window. The 10-16 8-K 5.02 was never read and h",
-   "sessions": 1,
-   "return": -0.0511,
-   "vs_spy": -0.0541,
+   "sessions": 2,
+   "return": 0.0316,
+   "vs_spy": 0.0121,
    "status": "pending"
   },
   {
@@ -4237,9 +4237,9 @@
    "horizon": 5,
    "symbol": "CARG",
    "claim": "Company-confirmed Q3 results 11-05 after the close, 3 trading days out. Held position: the thesis invalidates on a negative surprise inside five trading days, s",
-   "sessions": 1,
-   "return": -0.0006,
-   "vs_spy": -0.0036,
+   "sessions": 2,
+   "return": 0.0808,
+   "vs_spy": 0.0612,
    "status": "pending"
   },
   {
@@ -4250,9 +4250,9 @@
    "horizon": 5,
    "symbol": "TPR",
    "claim": "Earnings 11-05 (company-announced per earlier runs), 3 trading days out. Four PT cuts in the prior week (UBS, Jefferies, Baird, Wells Fargo) with ratings held; ",
-   "sessions": 1,
-   "return": 0.0022,
-   "vs_spy": -0.0008,
+   "sessions": 2,
+   "return": 0.0377,
+   "vs_spy": 0.0181,
    "status": "pending"
   },
   {
@@ -4263,9 +4263,9 @@
    "horizon": 5,
    "symbol": "RL",
    "claim": "Estimated earnings 11-05, 3 trading days out (approximate). No news or filings in the window; earlier sell-side drift was supportive (UBS Buy/$521).",
-   "sessions": 1,
-   "return": -0.0079,
-   "vs_spy": -0.0109,
+   "sessions": 2,
+   "return": 0.0366,
+   "vs_spy": 0.017,
    "status": "pending"
   },
   {
@@ -4276,9 +4276,9 @@
    "horizon": 5,
    "symbol": "ONC",
    "claim": "Estimated earnings 11-05, 3 trading days out (approximate). Only a Benzinga filler piece in the window.",
-   "sessions": 1,
-   "return": -0.0174,
-   "vs_spy": -0.0203,
+   "sessions": 2,
+   "return": 0.0457,
+   "vs_spy": 0.0261,
    "status": "pending"
   },
   {
@@ -4290,8 +4290,8 @@
    "symbol": "BTC/USD",
    "claim": "Aftermath of the record $6.3B Binance hack: Binance replaced 90% of the stolen funds from company money, said it completed new security upgrades and resumed wit",
    "sessions": 2,
-   "return": 0.0022,
-   "vs_spy": -0.0008,
+   "return": 0.0459,
+   "vs_spy": 0.0264,
    "status": "pending"
   },
   {
@@ -4302,9 +4302,9 @@
    "horizon": 5,
    "symbol": "QQQ",
    "claim": "The AI-capex thread (10-20 onward) is now a rout: Nasdaq fell over 700 points on Friday with Intel down 29% and SMH down about 7%; Tom Sosnoff says the AMD/Micr",
-   "sessions": 1,
-   "return": 0.0062,
-   "vs_spy": 0.0032,
+   "sessions": 2,
+   "return": 0.0159,
+   "vs_spy": -0.0036,
    "status": "pending"
   },
   {
@@ -4315,8 +4315,8 @@
    "horizon": 5,
    "symbol": "SPY",
    "claim": "neutral",
-   "sessions": 0,
-   "return": null,
+   "sessions": 1,
+   "return": 0.0165,
    "vs_spy": null,
    "status": "pending"
   },
@@ -4328,9 +4328,9 @@
    "horizon": 5,
    "symbol": "CARG",
    "claim": "Held. Company-confirmed Q3 results 11-05 after the close (per earlier runs; the file estimate also says 11-05), 2 trading days out. The thesis invalidates on a ",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
+   "sessions": 1,
+   "return": 0.0814,
+   "vs_spy": 0.0649,
    "status": "pending"
   },
   {
@@ -4342,8 +4342,8 @@
    "symbol": "BTC/USD",
    "claim": "Held. Binance hack aftermath is moving from crisis to cleanup: withdrawals resume in phases (next phase Tuesday), 98% of users stayed, North Korea denies the US",
    "sessions": 1,
-   "return": -0.0064,
-   "vs_spy": null,
+   "return": 0.0369,
+   "vs_spy": 0.0204,
    "status": "pending"
   },
   {
@@ -4354,9 +4354,9 @@
    "horizon": 5,
    "symbol": "SMG",
    "claim": "Fiscal Q4 results 11-04 (company-confirmed per earlier runs; the file estimate agrees), 1 trading day out. Wells Fargo raised its PT to $71 from $60 (Overweight",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
+   "sessions": 1,
+   "return": 0.0872,
+   "vs_spy": 0.0707,
    "status": "pending"
   },
   {
@@ -4367,9 +4367,9 @@
    "horizon": 5,
    "symbol": "TPR",
    "claim": "Earnings 11-05 (company-announced per earlier runs), 2 trading days out. Four PT cuts last week (UBS, Jefferies, Baird, Wells Fargo) with ratings held; nothing ",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
+   "sessions": 1,
+   "return": 0.0354,
+   "vs_spy": 0.0189,
    "status": "pending"
   },
   {
@@ -4380,9 +4380,9 @@
    "horizon": 5,
    "symbol": "RL",
    "claim": "Estimated earnings 11-05 (approximate), 2 trading days out. Only a CFDA menswear award item in the window; earlier sell-side drift was supportive (UBS Buy/$521)",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
+   "sessions": 1,
+   "return": 0.0448,
+   "vs_spy": 0.0283,
    "status": "pending"
   },
   {
@@ -4393,9 +4393,9 @@
    "horizon": 5,
    "symbol": "ONC",
    "claim": "Estimated earnings 11-05 (approximate), 2 trading days out. No headlines or filings in the window.",
-   "sessions": 0,
-   "return": null,
-   "vs_spy": null,
+   "sessions": 1,
+   "return": 0.0642,
+   "vs_spy": 0.0477,
    "status": "pending"
   },
   {
@@ -4406,6 +4406,97 @@
    "horizon": 5,
    "symbol": "QQQ",
    "claim": "Midterms today and the AI-capex selloff is still running: Apple about -4% premarket on memory-cost margin warnings, Tom Lee calling a bottom while saying buyers",
+   "sessions": 1,
+   "return": 0.0097,
+   "vs_spy": -0.0068,
+   "status": "pending"
+  },
+  {
+   "agent": "market-analyst",
+   "kind": "stance",
+   "date": "2026-11-04",
+   "version": "5",
+   "horizon": 5,
+   "symbol": "SPY",
+   "claim": "neutral",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-11-04",
+   "version": "5",
+   "horizon": 5,
+   "symbol": "CARG",
+   "claim": "Held. Company-confirmed Q3 results 11-05 after the close (per earlier runs; the file estimate also says 11-05), 1 trading day out, so the reaction lands on 11-0",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-11-04",
+   "version": "5",
+   "horizon": 5,
+   "symbol": "BTC/USD",
+   "claim": "Held. Binance hack (about $6.3B, 10-29) is still unwinding: Binance now says about $2.85B was frozen or intercepted and that attackers got in through a fake job",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-11-04",
+   "version": "5",
+   "horizon": 5,
+   "symbol": "TPR",
+   "claim": "Earnings 11-05 (company-announced per earlier runs), 1 trading day out. Evercore cut its PT to $145 from $160 on 11-03 (Outperform kept), the fifth PT cut in ab",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-11-04",
+   "version": "5",
+   "horizon": 5,
+   "symbol": "RL",
+   "claim": "Estimated earnings 11-05 (approximate), 1 trading day out. Only a CFDA menswear award item in the window.",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-11-04",
+   "version": "5",
+   "horizon": 5,
+   "symbol": "ONC",
+   "claim": "Estimated earnings 11-05 (approximate), 1 trading day out. No headlines or filings.",
+   "sessions": 0,
+   "return": null,
+   "vs_spy": null,
+   "status": "pending"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-11-04",
+   "version": "5",
+   "horizon": 5,
+   "symbol": "QQQ",
+   "claim": "Two threads collide. The AI-capex selloff (Apple memory-cost margin warning, Elliott hedging for a bear market, Howard Marks on AI valuations) is now joined by ",
    "sessions": 0,
    "return": null,
    "vs_spy": null,
