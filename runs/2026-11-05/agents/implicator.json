@@ -1,0 +1,5 @@
+{
+  "summary": "The Proposer made no proposals, so there is nothing to check and the portfolio is unchanged. The existing book carries an estimated 10% market-drop loss of about $24.20 (3.8% of $636.18 equity), with US equity beta (VOO, VTI, DPZ/WMT/KR staples stack, IDXX) the main driver and BTC/USD the riskiest sleeve per dollar (-$16.02 per $100, 365-day volatility not checked because the market packet was outside my input list). No lesson in learning.json names the implicator, and I have no graded calls of my own yet, so none shaped this result.",
+  "checks": [],
+  "stress_10pct_drop": {"before_usd": -24.2, "after_usd": -24.2}
+}
