@@ -2,9 +2,18 @@
   "summary": "The 11-05 neutral stance (confidence 0.4, as quoted in the PM's decision) is unlikely to hold up on the 5-session grade. close.json shows spy_value falling from 600.26 on 11-04 to 573.79 on 11-05, about -4.4% in one session, and VOO (-4.56%), VTI (-4.28%) and QQQ-heavy holdings fell with it. The call rested on the packet's picture of SPY 5.46% above its 200-day, flat over 21 days (-1.58%), and a rotation out of Technology (XLK 5d -7.59%) with healthy breadth (RSP 5d +2.71%). The day's move was broad rather than a tech-only rotation, which is not what that framing implied. Grading is pending: neutral needs SPY to finish the 5 sessions within 1% of the 11-04 close of 766.81, so a full recovery is required. I did not re-read my own 11-05 stance file in this review, only the PM's quote of it.",
   "stance_held_up": false,
   "broken_theses": [
-    "Rotation, not broad selling: the packet showed XLK 5d -7.59% and QQQ 21d -8.91% while RSP 5d was +2.71% and XLV/XLP/XLRE were up 5-7% over 5 days. A -4.4% SPY day with VOO and VTI both down more than 4% means the weakness spread beyond Technology, so the breadth cushion did not protect the index.",
-    "Large cushion above the 200-day: the packet's 5.46% margin (SPY 766.81 vs SMA 727.12) looked ample. One -4.4% session would leave SPY at roughly 733, only about 1% above the average. The code regime filter is now close to tripping, and the PM's VOO invalidation (SPY close below its 200-day) and VTI invalidation both sit near the market.",
-    "Low-volatility read: spy_realized_vol_20d of 0.1287 and VIXY 5d -3.88% suggested calm. A move this size is far outside what 12.9% annualized volatility implies, so the volatility proxies gave no warning. The packet ends 11-04 and cannot show what caused the drop, so I am not attributing it."
+    {
+      "symbol": "SPY",
+      "why": "Rotation, not broad selling: the packet showed XLK 5d -7.59% and QQQ 21d -8.91% while RSP 5d was +2.71% and XLV/XLP/XLRE were up 5-7% over 5 days. A -4.4% SPY day with VOO and VTI both down more than 4% means the weakness spread beyond Technology, so the breadth cushion did not protect the index."
+    },
+    {
+      "symbol": "SPY",
+      "why": "Large cushion above the 200-day: the packet's 5.46% margin (SPY 766.81 vs SMA 727.12) looked ample. One -4.4% session would leave SPY at roughly 733, only about 1% above the average. The code regime filter is now close to tripping, and the PM's VOO invalidation (SPY close below its 200-day) and VTI invalidation both sit near the market."
+    },
+    {
+      "symbol": "SPY",
+      "why": "Low-volatility read: spy_realized_vol_20d of 0.1287 and VIXY 5d -3.88% suggested calm. A move this size is far outside what 12.9% annualized volatility implies, so the volatility proxies gave no warning. The packet ends 11-04 and cannot show what caused the drop, so I am not attributing it."
+    }
   ],
   "update": "Treat neutral as probably wrong on this call and wait for the 5-session grade. My graded record is 5 right, 2 wrong, 5 pending (hit rate 0.714, enough_data false), and it merely equals the always-neutral baseline of 0.714, so it adds nothing yet. The last graded neutral calls split: 10-27 wrong (SPY -1.99%), 10-28 right (SPY -0.71%). Lessons for next run: (1) when the packet shows a sharp divergence, such as XLK 5d -7.59% against RSP 5d +2.71%, and a down-trending 21-day return for SPY (-1.58%), lean on the downside tail rather than defaulting to neutral, since neutral was wrong in the one instance where tech weakness was running; (2) state how close SPY is to the 200-day in terms of what one large down day would do, since the regime filter limits permitted buys; (3) with SPY near the 200-day, bonds (IEF 21d +3.20%, TLT 21d +6.24%) and the REIT/Health Care/Staples leaders were the only areas showing strength, and I should say plainly when equity ETFs have no cushion. No learning.json lesson (L1-L5) is addressed to the market analyst, so none shaped this review."
 }
