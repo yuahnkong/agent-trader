@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "lessons": [
     {
       "id": "L1",
@@ -47,7 +47,7 @@
       ],
       "confidence": "low",
       "added": "2026-10-21",
-      "last_confirmed": "2026-11-04",
+      "last_confirmed": "2026-11-05",
       "status": "active",
       "retired_why": null
     },
@@ -69,7 +69,7 @@
       ],
       "confidence": "low",
       "added": "2026-10-27",
-      "last_confirmed": "2026-11-04",
+      "last_confirmed": "2026-11-05",
       "status": "active",
       "retired_why": null
     },
@@ -87,13 +87,13 @@
       ],
       "confidence": "low",
       "added": "2026-10-29",
-      "last_confirmed": "2026-11-04",
+      "last_confirmed": "2026-11-05",
       "status": "active",
       "retired_why": null
     },
     {
       "id": "L5",
-      "lesson": "Review every held position on every run, including days with no trade: distance from price to the invalidation, earnings dates now inside the 5-day window versus what the thesis says, and thesis text that has gone stale. Where an invalidation clause is qualitative (e.g. 'exchange failure'), state in the reasoning whether it has tripped, and why. Write the re-anchored level or date into the decision reasoning rather than only flagging it. When a held name gaps far from the price its stop was written against, re-anchor the stop to the close and to the gain, and name any stop within about 2% of the market together with the dated catalysts. Compute every stop distance and position weight from the latest mark in the inputs, say which mark was used, and after a large up day restate the dollar risk of a held-through-earnings position at its current weight.",
+      "lesson": "Review every held position on every run, including days with no trade: distance from price to the invalidation, earnings dates now inside the 5-day window versus what the thesis says, and thesis text that has gone stale. Where an invalidation clause is qualitative (e.g. 'exchange failure'), state in the reasoning whether it has tripped, and why. Write the re-anchored level or date into the decision reasoning rather than only flagging it. When a held name gaps far from the price its stop was written against, re-anchor the stop to the close and to the gain, and name any stop within about 2% of the market together with the dated catalysts. Compute every stop distance and position weight from the latest mark in the inputs, say which mark was used, and after a large up day restate the dollar risk of a held-through-earnings position at its current weight. When a stop is re-anchored after a big run-up, or a stop or the SPY 200-day line is within about 10% of the mark, also state the distance on a mark 4-5% lower, since the inputs are pre-open and the day can move that far.",
       "kind": "process",
       "applies_to": ["portfolio-manager", "proposer"],
       "evidence": [
@@ -107,11 +107,13 @@
         "2026-11-03 applied: the PM reviewed IDXX (stop re-anchored from $575 to about $600, 10% under the ~$667 close, as the 11-02 evidence asked), BTC/USD (stop named within the watch zone with the dated catalysts: midterms, Block, Circle 11-04, MSCI/Strategy 11-11; exchange-failure clause judged untripped), CARG (11-05 clause live, holding knowingly) and DPZ (about $285).",
         "2026-11-03 distance check: the PM wrote the BTC stop as 2.3% away from a mark of about $77.1k, but its own close review computes about $77.8k and 3%. Compute distances from the latest mark, since the watch-zone call depends on them. Stored theses in close.json (DPZ, IDXX, CARG) still carry the stale text. Process evidence only.",
         "2026-11-04 applied: the PM reviewed CARG (explicit hold through the 11-05 print with a written sell plan), IDXX, DPZ, BTC/USD (exchange-failure clause judged untripped, catalysts named), and BND and IEF as the names nearest their stops. Process evidence only.",
-        "2026-11-04 stale marks, second day running: the PM's reasoning used IDXX about $690, DPZ about $329, CARG 5.2% weight and +7.6% on cost, BTC about $78.3k with the stop 3.8% away; close.json has CARG at 5.5% and +16.3%, BTC about $80.2k (stop about 6% away), DPZ about $341. The PM's own review flags this, and the CARG gap risk it computed ($3.2) is understated at the larger weight. This is why the lesson now asks for the latest mark and a restated dollar risk."
+        "2026-11-04 stale marks, second day running: the PM's reasoning used IDXX about $690, DPZ about $329, CARG 5.2% weight and +7.6% on cost, BTC about $78.3k with the stop 3.8% away; close.json has CARG at 5.5% and +16.3%, BTC about $80.2k (stop about 6% away), DPZ about $341. The PM's own review flags this, and the CARG gap risk it computed ($3.2) is understated at the larger weight. This is why the lesson now asks for the latest mark and a restated dollar risk.",
+        "2026-11-05 applied: the PM reviewed every held name (CARG explicit hold through the after-close print with dollar risk, BTC exchange-failure clause untripped, IEF and BND nearest stops, VOO/VTI against the SPY 200-day) and routed the IDXX re-anchor ($620 to $630) through thesis_updates into close.json. Process evidence only.",
+        "2026-11-05 caveat on the 'stale marks' framing: the PM's review and the Fundamentals and News reviews compare the decision text (pre-open inputs, ending 14:18Z) with close.json after SPY fell about 4.4% in the session. The drop came after the decision, so the gap is not a computation error. What the day does show is that the IDXX $630 stop, set 10% under about $700, is about 6% under the $670.7 close, BTC/USD (about $75.9k) is about 1% above its $75.3k stop, MSM is about 2.6% from its stop, and VOO/VTI invalidate on SPY's 200-day line, which the Market Analyst reads as roughly 1% away. That is why the lesson now asks for distances on a lower mark. Process evidence only, no graded outcome."
       ],
       "confidence": "low",
       "added": "2026-10-30",
-      "last_confirmed": "2026-11-04",
+      "last_confirmed": "2026-11-05",
       "status": "active",
       "retired_why": null
     }
@@ -171,6 +173,15 @@
         "Scorecard as of 2026-11-04: market-analyst 5 right, 2 wrong, 5 pending, hit rate 0.714 against always-neutral 0.714, enough_data false. The Market Analyst's own review cites misses on the 10-26 and 10-27 neutral calls.",
         "2026-11-04 close.json since_version: agent_return 0.02714, shadow_return 0.02743, spy_return 0.01652; performance agent_invested_pct 0.8882, shadow_invested_pct 0.9933.",
         "Scorecard 5-session hit rates: portfolio-manager 0.571 (16 right, 12 wrong), proposer 0.714 (20 of 28), skeptic 0.238 (5 of 21); 20-session graded counts are 0 for all three, so none has enough_data and the 11-03 note about the Skeptic's grading still stands."
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "suggestion": "Hypotheses to watch, not rules. (1) SPY fell about 4.4% on 11-05 (600.26 to 573.79) after a neutral stance, and the Market Analyst's own review says its volatility and 200-day cushion inputs gave no warning; its 5-session grade is still pending, so treat the stance as unproven rather than wrong. (2) The agent lost 1.8% (equity 633.83 to 622.50) against SPY's 4.4% at 88.6% invested, and since the version-5 start it leads the shadow (+0.88% vs +0.24%); one day, not evidence about invested level. (3) A person may want to look at the SPY 200-day regime filter: if SPY is now about 1% above the line, the code filter and the VOO/VTI invalidations could trip together on one more down day. Limits and screen rules are not for the Reviewer to change.",
+      "evidence": [
+        "2026-11-05 close.json performance: agent_return 0.0375, shadow_return 0.0497, spy_return -0.04368, agent_invested_pct 0.8859; since_version agent_return 0.00878, shadow_return 0.00237, spy_return -0.0283.",
+        "2026-11-05 Market Analyst review: stance_held_up false; SPY would sit near 733 against an SMA of 727.12 (inference from the packet, not a dated mark).",
+        "Scorecard as of 2026-11-05: market-analyst 5 right, 3 wrong, 5 pending (0.625) against always-neutral 0.625, enough_data false; portfolio-manager, proposer and skeptic still have 0 graded 20-session calls, so no outcome lesson is supportable (earliest 20-session grades about 11-17)."
       ]
     },
     {

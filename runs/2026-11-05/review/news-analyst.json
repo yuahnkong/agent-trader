@@ -1,0 +1,18 @@
+{
+  "summary": "Today's news inputs end at 14:18Z, before the open, and show a mixed-futures tape after Wednesday's post-midterm rally (Dow +2.9%, oil -7%). They contain nothing that explains the close: SPY fell about 4.4% (spy_value 600.26 to 573.79), VOO and VTI fell 4.3-4.6%, BTC fell 5.7%, and IDXX (-4.0%) and MSM (-4.4%) fell with them. The only forward-looking warnings in the headlines were generic: Oxford Economics' recession-signal piece (chips down 23% in a month), Dan Ives calling for another 10-12% chip drop, and Cramer's warning that Friday's jobs report could repeal the midterm rally. I flagged none of these as a specific event for any holding, so the day's drop was a market-wide move my feed did not anticipate and cannot attribute. The account lost 1.8% against SPY's 4.4%, with 88.6% invested. No held name had a 4.01, 4.02, 5.02 or 1.01/2.01 filing in the 7-day window. No held-name headline in the inputs broke a thesis.",
+  "broken_theses": [
+    {
+      "symbol": "CARG",
+      "why": "Not broken yet but unresolved. The Q3 print was due after the close on 11-05. The inputs have no CARG headline and no filing (filings_7d is empty, the estimate is 11-05 with 0 days), so the result is unknown from my data. The thesis carries a live clause to sell on 11-06 after a negative surprise. The position closed +1.8% on the day at about $35.50 and +18.4% on cost, a 5.7% weight."
+    },
+    {
+      "symbol": "BTC/USD",
+      "why": "Fell 5.7% to about $75.9k (13.3 / 0.000175 BTC), roughly 1% above the ~$75.3k price stop, with the position at -9.3% on cost. The 'exchange failure or adverse regulatory action' clause is still untripped on the news: the Binance hack coverage today (Circle CEO, Bitwise) says it is contained, and the Capitol Hill crypto-probe and Trump Media items are risk talk, not action. The price stop is the live trigger and sits closer than the PM's 5% figure from earlier in the day. The PM should compare the close with the stop first thing on 11-06."
+    },
+    {
+      "symbol": "IDXX",
+      "why": "Fell 4.0% to about $670.7 (48.26 / 0.0719), with no IDXX headline or filing in the window. The earnings event is resolved (11-02 print, guide raised). The re-anchored $630 stop is about 6% away, down from 11.5% in the PM's reasoning. The thesis is intact on news, and the drop looks market or sector driven."
+    }
+  ],
+  "upcoming": "11-05 after close: CARG Q3 (company-confirmed), the only held-name print in the window, with the sell-on-negative plan live for 11-06. 11-06: October NFP, which Cramer framed as the test for the midterm rally; it matters most for IEF (nearest stop, 89.5), BND, BTC and the equity ETFs after a 4% day. 11-11: MSCI November index review results (announced 11-04), a company-specific date for the held MSCI position. 11-19: WMT estimate, approximate (last year's date plus 364), with no 8-K 8.01 context. 12-03: KR estimate, approximate. DPZ 2027-02-22, IDXX 2027-02-01, FAST 2027-01-19, MSM 2027-01-06, VRSN 2027-02-04, all estimates. Today's non-held prints: TPR (beat and raise), RL (beat), ONC (beat and raise), DBX and SBH (11-12). Standing risks: Iran/oil headlines, the AI-capex and chip selloff (Ives vs Lee), post-midterm crypto probes, and the Binance hack aftermath for BTC. Lessons L2 and L5 shaped this review: every held name's filings and dates were checked from the inputs (none had a 4.01, 4.02, 5.02 or 1.01), and the BTC and IDXX distances above use today's close marks, not the earlier marks in the PM text."
+}
