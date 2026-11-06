@@ -1,0 +1,55 @@
+{
+  "summary": "Cash is 61% of equity against an 80-90% invested target, so I am deploying about $165 across five asset-class-diverse buys: a broad ETF, two screened stocks, an energy name the market note favors, and a small BTC position. I skipped names with earnings inside about 5 trading days (VRSN, SAM, WDFC, DORM, EXLS, INCY, LOGI, CVS, GRMN) and Technology/growth ETFs given the market note's avoid list. L1 (anchor stops to expected fill) shaped every invalidation below: levels are stated relative to the actual fill, not the last close.",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "VTI",
+      "side": "buy",
+      "notional_usd": 50.0,
+      "fraction": null,
+      "thesis": "Default home for idle cash. The market-analyst note keeps the regime on (SPY 6.4% above its 200-day) with a neutral stance, and says broad US is fine to hold, with breadth (RSP positive) better than the cap-weighted index. VTI is lower-concentration than QQQ, which that note flags as the riskiest large sleeve. This builds the core of the 80-90% invested goal.",
+      "invalidation": "SPY closes below its 200-day average (722.77), which turns the regime filter off; or VTI falls more than 8% below the actual fill price.",
+      "sources": ["market-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "FAST",
+      "side": "buy",
+      "notional_usd": 40.0,
+      "fraction": null,
+      "thesis": "Fundamentals-analyst rank 8: lowest volatility on the menu (0.243), F-score 8/9, gross profitability 0.73 at the 89th sector percentile, operating cash flow (1,296M) above net income (1,258M). It has no earnings event inside the window in the news-analyst note. It adds an industrial-distribution exposure that does not overlap the consumer-staples names already held (DPZ, WMT) or the weak growth/tech complex.",
+      "invalidation": "A close more than 10% below the actual fill price, or a next filing showing cash flow from operations falling below net income by a wide margin (cash-backing test fails by more than about 10%).",
+      "sources": ["fundamentals-analyst", "news-analyst"]
+    },
+    {
+      "id": "P3",
+      "symbol": "CARG",
+      "side": "buy",
+      "notional_usd": 25.0,
+      "fraction": null,
+      "thesis": "Fundamentals-analyst rank 2: highest gross profitability on the menu (1.27, sector percentile 1.0), F-score 8/9, cash flow from operations about 1.9x net income, no dilution, and no earnings flag in the news-analyst note. Sized small because the market-analyst note says to avoid chasing Technology, volatility (0.394) is near the cutoff, and dollar volume (about 34.6M) is thin.",
+      "invalidation": "A close more than 12% below the actual fill price, or a news item showing earnings inside the next week that the news-analyst note missed.",
+      "sources": ["fundamentals-analyst", "news-analyst", "market-analyst"]
+    },
+    {
+      "id": "P4",
+      "symbol": "RRC",
+      "side": "buy",
+      "notional_usd": 30.0,
+      "fraction": null,
+      "thesis": "Energy is the market-analyst note's favored sector (21-day +8.8%, 18.8% above its 200-day), and RRC is the screen's top gross-profitability name in Energy (percentile 1.0, F-score 7, cash flow 1.17B vs net income 658M). Negative beta (-0.29) also diversifies the equity-heavy book. The news-analyst note flags the 10-28 earnings estimate as possibly stale because an 8-K 2.02 was filed on 10-14, so event risk is medium rather than high. Not ranked by the fundamentals-analyst; the F-score of 7 is at the minimum, with leverage up and gross margin not improved, hence the small size.",
+      "invalidation": "RRC reports and the stock gaps more than 7% below the actual fill price, or XLE closes below its 200-day average (now 18.8% above), ending the energy-leadership case.",
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P5",
+      "symbol": "BTC/USD",
+      "side": "buy",
+      "notional_usd": 20.0,
+      "fraction": null,
+      "thesis": "A small crypto slot, per the diversification strategy. The market-analyst note says the trend is positive (63-day +28%, 14% above its 200-day) and, if crypto is used, to size small and prefer BTC over ETH. The news-analyst note finds no exchange failures or new adverse regulatory action, with ETF inflows recovering. Kept well under the $29.96 room because of 44% volatility.",
+      "invalidation": "BTC closes below its 200-day average (about 14% below the current price of roughly $82.9k), or a new adverse regulatory action or exchange failure appears in the news.",
+      "sources": ["market-analyst", "news-analyst"]
+    }
+  ]
+}

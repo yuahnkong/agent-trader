@@ -1,0 +1,30 @@
+{
+  "stance": "neutral",
+  "confidence": 0.4,
+  "summary": "SPY is still 3.81% above its 200-day average but has slipped 2.64% over 21 days as a Technology-led selloff (XLK -6.85% over 5 days) is offset by rotation into defensives and the equal-weight index. The index is being pulled down by a narrow group while breadth holds, so a 5-day move beyond 1% in either direction is plausible and neither side is clearly favored. Keep sizing normal-to-cautious and avoid adding Technology and Nasdaq risk.",
+  "reasons": [
+    "Trend is intact but weakening: SPY 754.35 is 3.81% above its 200-day SMA (726.64), yet 5d -1.99%, 21d -2.64%, 63d -1.76%.",
+    "The damage is concentrated in mega-cap growth: QQQ 5d -4.99%, 21d -9.38%, only 0.92% above its 200-day; XLK 5d -6.85%, 21d -12.15%; XLC 21d -9.11% and 9.60% below its 200-day.",
+    "Breadth is holding: RSP (equal weight) 5d +0.80%, 21d +3.86%, 6.05% above its 200-day, while SPY is down. IWM is flat over 5d (-0.14%). This is rotation, not a broad liquidation.",
+    "Defensive sectors lead: XLV 21d +9.95%, XLP +9.76%, XLU +8.63%, XLRE +7.38%. Defensive leadership with a falling index usually marks cautious appetite, which argues against risk-on.",
+    "Volatility is only mildly bid: VIXY 5d +4.20%, 21d +9.55% (decaying product, read the move not the level), and SPY 20d realized vol is 11.18% vs 12.77% over 252d. There is no stress signal that would justify risk-off.",
+    "Rates and credit are calm: TLT 21d +5.63% but 5d -0.22% (long yields stopped falling); HYG 5d -0.28%, 21d +0.52%; LQD 5d -0.17%. Credit is not confirming a risk-off move.",
+    "Gold is weak, not a flight to safety: GLD 5d -3.50%, 21d -5.35%, 12.86% below its 200-day. Dollar is flat over 5d (UUP -0.38%).",
+    "My prior neutral calls were wrong on 10-26 (SPY -1.73%) and 10-27 (SPY -1.99%), both because of downside. With 20d realized vol of 11.18% a 5-day SPY standard deviation is roughly 1.6%, so moves beyond 1% are about as likely as not and neutral is only a modest favorite. I keep neutral because breadth and credit offset the momentum, but at low confidence and with downside the likelier miss. No lessons in learning.json apply to the Market Analyst."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Consumer Staples", "Utilities"],
+    "avoid": ["Technology", "Communication"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Prefer broad US core (VOO 21d -2.64%, VTI -2.47%, both about 3.7-3.9% above the 200-day) over Nasdaq (QQQ 21d -9.38%) and over international (VXUS 21d -4.19%, 63d -4.75%, 1.05% below its 200-day; VWO 21d -8.69%, 4.91% below). REITs are the strongest equity sleeve (VNQ 21d +6.57%, 1.84% above its 200-day).",
+    "bonds_gold": "Bonds are rallying: BND 21d +2.25%, IEF +2.87%, TLT +5.63%, all with low volatility (BND 3.96% vol), though IEF and TLT are still below their 200-days (-1.11%, -2.09%), so the trend is a bounce, not yet a regime change. Gold is risky: GLD 63d -7.80%, 12.86% below its 200-day, 28.8% volatility.",
+    "crypto": "Risky and weak: BTC 21d -6.93%, ETH 21d -8.98% (63d -6.04%) with annualized volatility of 44% and 60%. Both are still about 5.4-5.7% above their 200-days, so the long trend holds, but they trade as high-beta tech and have not bounced with the equal-weight index."
+  },
+  "watch": [
+    "Risk-off trigger: SPY closes below about 735 (roughly 2.5% lower, nearing the 200-day at 726.64) or RSP turns negative over 5d while VIXY keeps rising.",
+    "Risk-on trigger: XLK and QQQ stabilize (5d turns positive) while RSP and defensives keep their gains, which would show rotation ending without a broad decline.",
+    "Credit stress: HYG 5d worse than about -1%, or HYG falling while TLT rises, would signal growth fear.",
+    "Long yields: a renewed TLT drop (it is -0.22% over 5d after +5.63% over 21d) would hit the bond bounce and growth stocks together."
+  ]
+}

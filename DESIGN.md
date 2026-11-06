@@ -8,7 +8,8 @@ debate adds anything over a plain rules-based version of the same strategy.
 
 - Broker: Alpaca, **paper** account first, sized to ~$600 to match the real portfolio.
 - Cash account only. No margin, no shorting, no options.
-- Fractional shares, so ~8-10 positions of ~$60-75 each.
+- Fractional shares, so ~8-12 positions of ~$40-90 each across stocks, ETFs and a little crypto.
+- Target: mostly invested (~80-90%) within about a week of starting (owner's call, 2026-10-20).
 - Taxable account: favor holding winners past one year; avoid churn.
 
 ## Daily schedule (weekdays, scheduled tasks)
@@ -77,16 +78,42 @@ agents' calls helped, and drop or rework the ones that don't.
 - Annualized 252-day volatility in the calmer half of the eligible universe.
 - Data: free SEC EDGAR XBRL (point-in-time by filing date) + Alpaca market data.
 
+## Beyond the screen (added 2026-10-20)
+
+- ETF sleeve, fixed list: VOO, VTI, QQQ, VXUS, VWO, VNQ (equity); BND, IEF, TLT, GLD (defensive).
+- Crypto: BTC/USD and ETH/USD through Alpaca crypto, capped at 5% combined. No fundamentals to
+  argue over, 24/7 trading and ~3x stock volatility, so it stays a small satellite.
+- Shadow portfolio uses a fixed split for the same assets: 65% top 8 stocks (inverse-vol),
+  30% ETF sleeve (equal weight), 5% crypto (inverse-vol).
+
 ## Hard limits (Python, agents cannot override)
 
 - Max position size: 15% of portfolio.
-- Max trades per day: 3.
+- Max trades per day: 5 (raised from 3 on 2026-10-20).
+- Crypto (BTC, ETH) at most 5% of equity combined.
 - No same-day buy-and-sell round trips (avoids pattern-day-trader issues).
 - Wash-sale block: no buying a ticker within 30 days before/after selling it at a loss.
 - Inverse-volatility sizing.
-- Regime filter: S&P 500 below its 200-day MA blocks new buys (tested, not assumed).
+- Regime filter: S&P 500 below its 200-day MA blocks new buys of stocks, equity ETFs and crypto; bond and gold ETFs stay buyable (tested, not assumed).
 - Kill switch: portfolio down 15% from peak moves everything to cash and pauses trading.
 - Idempotent orders via `client_order_id`.
+
+## Learning loop (added 2026-10-20)
+
+Nothing is retrained; the agents get memory and a track record.
+
+- `pipeline learn` (post-close) grades every past call once 5 sessions have passed:
+  buys vs. SPY, PM rejections and serious Skeptic objections (right if the name lagged),
+  the market stance vs. SPY's next 5 days, high event-risk flags (right if the name moved
+  >3% vs. SPY). Written to `state/scorecard.json`.
+- The News Analyst's flags and notable headlines are kept for 60 days in
+  `state/memory/news.jsonl`, so later runs can see whether a story followed through.
+- A Reviewer agent (8th, post-close) keeps `state/lessons.json`: at most 20 active lessons,
+  each with cited evidence and a confidence level, retired when later results contradict
+  them. Changes to limits, the screen or the asset list go to `owner_suggestions` for a
+  person to decide.
+- Every agent reads `inputs/learning.json` (active lessons, its graded calls, news memory)
+  before it works.
 
 ## Evaluation
 
@@ -102,7 +129,8 @@ agents' calls helped, and drop or rework the ones that don't.
 ## Setup status
 
 - [x] GitHub repo created and connected
-- [ ] Alpaca paper account sized to $600, API keys generated
-- [ ] Environment network access: data.sec.gov, www.sec.gov,
-      paper-api.alpaca.markets, data.alpaca.markets
-- [ ] Environment variables: APCA_API_KEY_ID, APCA_API_SECRET_KEY
+- [x] Alpaca paper account sized to $600, API keys generated, cash-only config applied (2026-10-20)
+- [x] Environment network access: data.sec.gov, www.sec.gov,
+      paper-api.alpaca.markets, data.alpaca.markets (verified 2026-10-20)
+- [x] Environment variables: APCA_API_KEY_ID, APCA_API_SECRET_KEY
+- [x] Pipeline, screen, risk layer, agents, reports, shadow portfolio (2026-10-20)

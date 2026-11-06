@@ -1,0 +1,59 @@
+{
+ "date": "2026-10-22",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "KR",
+   "side": "buy",
+   "requested_usd": 20.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 20.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "2d3e17e0-90a3-414c-ac6f-bb64c0ede650",
+   "client_order_id": "at-20261022True-KR-buy",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "MSCI",
+   "side": "buy",
+   "requested_usd": 25.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 25.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "a379a1df-309e-4ae6-b884-2f06a233fbec",
+   "client_order_id": "at-20261022True-MSCI-buy",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "VTI",
+   "side": "buy",
+   "requested_usd": 25.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 25.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "ed6de1f3-8da1-4645-921e-bd438411e680",
+   "client_order_id": "at-20261022True-VTI-buy",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "CARG",
+   "side": "buy",
+   "requested_usd": 15.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 15.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "aa1a9482-54f4-443d-bc19-5bb4f730b67b",
+   "client_order_id": "at-20261022True-CARG-buy",
+   "order_status": "pending_new"
+  }
+ ]
+}

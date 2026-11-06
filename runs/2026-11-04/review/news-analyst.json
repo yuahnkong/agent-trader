@@ -1,0 +1,18 @@
+{
+  "summary": "Day was dominated by macro and politics, not company news. Democrats swept Congress; futures rose, gold went past $4,000, and BTC bounced about 5.5% on the day (position -4.2% on cost). Every held name's filings were checked: no 4.01, 4.02 or 5.02 items and no 1.01 deals on any holding. The only held name with earnings inside the 5-day window is CARG (11-05 after the close, file estimate 11-05). Held-name headlines were mild: Morgan Stanley raised IDXX to $810 (11-03) and Redburn to $700 (11-04) after the print, and Smart Insider flagged non-executive insider buying at MSM. DPZ has no filings or new headlines; the guidance-cut item flagged on 11-02 is still unconfirmed, with no 8-K and no echo in today's input. Non-held read-throughs: CVS beat and raised and announced a two-company split (H1 2028), SMG reported FY26 results with FY27 guidance in line, Apple guided December quarter revenue +7-10% with margin pressure from memory costs.",
+  "broken_theses": [
+    {
+      "symbol": "CARG",
+      "why": "Not broken, but the stored negative-surprise clause goes live tomorrow. Results are company-confirmed for 11-05 after the close (file estimate also 11-05, 1 day out); there are no filings or headlines in the input. The position is 5.5% of equity and +16% on cost after a +8.1% day, so it enters the print with a large gain to give back. The PM has said it will sell on 11-06 if the print is negative."
+    },
+    {
+      "symbol": "IDXX",
+      "why": "The stored thesis text still says earnings are estimated for 11-02, outside the window. That premise is stale: the print was reported 11-02 (8-K 2.02 and 10-Q on file), guidance was raised and post-print PT raises continue. This is a text fix, not a broken thesis, and the position is +26% on cost."
+    },
+    {
+      "symbol": "BTC/USD",
+      "why": "The thesis invalidates on an exchange failure or adverse regulatory action. Nothing today trips it. Headlines are about the Democratic sweep (fear spike in sentiment, then a 2% to 5% bounce), prediction-market impeachment odds, and a Binance-hack liquidation hangover. Regulators approving equity perpetual futures (11-03) is supportive, not adverse. Political risk (stricter oversight under a Democratic Congress) is a watch item and has not produced an action."
+    }
+  ],
+  "upcoming": "CARG results 11-05 after the close (reaction 11-06) is the one held-name earnings event in the window. The peer cluster on 11-05 (TPR, RL, ONC, DBX) is not held. SMG reported 11-04 (8-K 2.02 filed) and CVS reported 11-04 with an 8-K 7.01 on the split; neither is held. Held-name dates are all outside the window: WMT 11-19 (estimate), KR 12-03, FAST 2027-01-19, MSM 2027-01-06, VRSN 2027-02-04, MSCI 2027-01-27, IDXX 2027-02-01, DPZ 2027-02-22. For the crypto and ETF sleeves: the jobs report this week, Circle on 11-04, and the MSCI/Strategy index-exclusion decision on 11-11 (carried from earlier runs, not in today's input). Early reads on the new Congress (AI data-center buildout, defense and tariff policy) will move QQQ and VOO. Dan Ives says about 10% of planned US data centers may not happen, and Evercore's disputed-sweep scenario puts the S&P 500 down 10%. Open data gaps: DPZ's guidance-cut item remains unverified (no 8-K); the GPOR file estimate (11-03) has passed with no filing, and DBX's 10-28 8-K 5.02 and SMG's 10-16 8-K 5.02 were never read (neither is held). The dated input also shows a few mistakes to discount: one Benzinga crypto piece says 'October 3' for 11-03."
+}

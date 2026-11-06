@@ -1,0 +1,34 @@
+{
+  "summary": "The 42-name menu is clean overall: every candidate has fscore_computable 9, so no score leans on missing tests, and only GRMN and ONC carry a pre-computed flag (amended filings). The best combination of top-of-sector gross profitability, high F-score and cash flow well above net income is VRSN, DPZ and CARG, followed by IDXX and TPR. The main concerns are earnings not backed by cash at DORM (and marginally at GRMN, MLI, WDFC, AAPL), stale fiscal years at CLX, WDFC and AAPL, and several sector labels that look wrong (DPZ, MSCI, MCO, CART, FAST, CVS).",
+  "rankings": [
+    {"symbol": "VRSN", "rank": 1, "why": "The only F-score 9 on the menu, all nine tests computable and passing. gp_sector_pct 0.993 (gross profitability 1.10), and CFO of $1.09B is well above net income of $826M on $1.66B revenue.", "concerns": ""},
+    {"symbol": "DPZ", "rank": 2, "why": "gp_sector_pct 1.0 (gross profitability 1.15), F-score 8 of 9 computable, CFO $792M above net income $602M.", "concerns": "Failed leverage_not_up. Its sector label (Consumer Staples, SIC 'Wholesale-Groceries') does not fit a pizza franchisor, so the in-sector percentile is measured against the wrong peers."},
+    {"symbol": "CARG", "rank": 3, "why": "gp_sector_pct 1.0 (gross profitability 1.27), F-score 8, CFO $295M is nearly double net income of $156M.", "concerns": "Failed current_ratio_improved. vol_252d 0.394 is close to the 0.438 cutoff."},
+    {"symbol": "IDXX", "rank": 4, "why": "F-score 8, gp_sector_pct 0.941, CFO $1.18B above net income $1.06B on $4.30B revenue.", "concerns": "Only current_ratio_improved failed."},
+    {"symbol": "TPR", "rank": 5, "why": "F-score 8, gp_sector_pct 0.949, CFO $1.98B above net income $1.53B. Freshest fiscal year on the menu after UNFI (fy_end 2026-06-27).", "concerns": "vol_252d 0.414 is near the cutoff."},
+    {"symbol": "INCY", "rank": 6, "why": "F-score 8, gp_sector_pct 0.904, CFO $1.41B above net income $1.29B.", "concerns": "Failed asset_turnover_improved."},
+    {"symbol": "SAM", "rank": 7, "why": "F-score 8, gp_sector_pct 0.946, CFO $270M is roughly 2.5x net income of $108M.", "concerns": "Thin net income relative to $1.96B revenue."},
+    {"symbol": "ADBE", "rank": 8, "why": "gp_sector_pct 0.965, CFO $10.0B well above net income $7.13B, very liquid.", "concerns": "F-score 7: failed leverage_not_up and current_ratio_improved. vol_252d 0.413 is near the cutoff."},
+    {"symbol": "TTEK", "rank": 9, "why": "gp_sector_pct 1.0 (gross profitability 1.08), CFO $458M above net income $248M.", "concerns": "F-score 7 with roa_improved failed. fy_end 2025-09-28 is more than a year old, and a new 10-K should arrive around November."},
+    {"symbol": "MTCH", "rank": 10, "why": "F-score 8, gp_sector_pct 0.895, CFO $1.08B well above net income $613M, vol_252d 0.321.", "concerns": "Failed current_ratio_improved."}
+  ],
+  "red_flags": [
+    {"symbol": "DORM", "flag": "Accruals: CFO of $114M is only about 56% of net income of $204M (cfo_exceeds_net_income failed). Earnings are not backed by cash.", "severity": "high"},
+    {"symbol": "GRMN", "flag": "Amended 10-K/10-Q in the last two years (possible restatement), and CFO $1.633B is below net income $1.664B.", "severity": "medium"},
+    {"symbol": "ONC", "flag": "Amended 10-K/10-Q in the last two years (possible restatement). Also failed no_dilution and leverage_not_up, and net income is thin ($287M on $5.34B revenue).", "severity": "medium"},
+    {"symbol": "CLX", "flag": "Stale fiscal year: fy_end 2025-06-30 (known since 2025-08-08). The FY2026 10-K should already exist but is not in the data, so these metrics are over a year old.", "severity": "medium"},
+    {"symbol": "WDFC", "flag": "Stale fiscal year (fy_end 2025-08-31; FY2026 10-K due soon), and CFO $87.9M is below net income $91.0M.", "severity": "medium"},
+    {"symbol": "AAPL", "flag": "Stale fiscal year (fy_end 2025-09-27; new 10-K imminent), and CFO $111.5B is slightly below net income $112.0B.", "severity": "low"},
+    {"symbol": "MLI", "flag": "CFO $755M is slightly below net income $765M (accruals).", "severity": "low"},
+    {"symbol": "MSCI", "flag": "Sector label looks wrong: a financial data and index provider labelled Industrials. Under a financials label it might have been screened out. Also failed leverage_not_up.", "severity": "medium"},
+    {"symbol": "MCO", "flag": "Sector label looks wrong: a credit ratings agency labelled Industrials (SIC credit reporting). Arguably a financial, which the screen excludes. Also failed leverage_not_up.", "severity": "medium"},
+    {"symbol": "DPZ", "flag": "Sector label looks wrong: a restaurant franchisor labelled Consumer Staples / Wholesale-Groceries, so its peer percentile is distorted.", "severity": "low"},
+    {"symbol": "CART", "flag": "Sector label looks wrong: a grocery delivery platform labelled Industrials (Business Services).", "severity": "low"},
+    {"symbol": "FAST", "flag": "Sector label looks wrong: an industrial distributor labelled Consumer Discretionary (SIC Retail-Building Materials).", "severity": "low"},
+    {"symbol": "CVS", "flag": "Sector label (Consumer Staples, drug stores) misses its large insurance business. Also thin net income ($1.77B on $402B revenue), roa_improved and no_dilution failed.", "severity": "low"},
+    {"symbol": "TTEK", "flag": "Fiscal year aging (fy_end 2025-09-28). The same applies to SMG (2025-09-30), BLBD (2025-09-27) and SBH (2025-09-30).", "severity": "low"},
+    {"symbol": "UNFI", "flag": "Very thin net income ($84M on $31.2B revenue) and failed no_dilution. The score rests on CFO ($540M) rather than earnings.", "severity": "low"},
+    {"symbol": "CALX", "flag": "Net income of $17.9M is tiny next to CFO of $135M and revenue of $1.0B, so the ROA tests pass on a very small margin.", "severity": "low"}
+  ],
+  "holdings_notes": []
+}

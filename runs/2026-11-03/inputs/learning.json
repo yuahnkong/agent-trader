@@ -1,0 +1,1909 @@
+{
+ "lessons": [
+  {
+   "id": "L1",
+   "lesson": "Anchor stop prices to the expected fill, not the last reference close, whenever a name has gapped or is reacting to news. Check that the stated stop distance (e.g. 10%) still holds at the likely entry price before approving.",
+   "kind": "process",
+   "applies_to": [
+    "proposer",
+    "portfolio-manager"
+   ],
+   "evidence": [
+    "2026-10-20 DPZ: stop of $274.88 was set 10% under the $305.42 reference close, but the buy filled at $316.58 (about 3.7% higher), so the stop sat about 13% below entry instead of the intended 10%.",
+    "2026-10-20 MSCI rejected partly because its stop was anchored to the pre-earnings close (same flaw; not yet graded, pending).",
+    "2026-10-23 VRSN: filled at $292.23, 4.7% below the $306.48 menu close after the 10-22 print (a gap down). The PM anchored the stop to the fill per this lesson; a menu-close stop would have sat about 14% below the fill. Applied correctly, not a graded call (pending).",
+    "2026-10-26 VRSN: the PM anchored the stop (278) to the expected fill near $303, which filled at $303.08, so the stop sits about 8.3% under the fill as intended. Applied correctly, not graded.",
+    "2026-10-26 DPZ: the held position's invalidation ($274.88) is still anchored to the pre-fill reference close and sits about 13% below the $316.58 fill; the PM review flags it as unfixed. Re-anchor existing theses to the actual fill when reviewing held positions.",
+    "2026-10-27 MSM: the PM wrote the invalidation against the actual fill (filled at the $118.72 menu close, so the ~9% distance held). DPZ's $274.88 invalidation is still not re-anchored (PM and Fundamentals reviews both flag it); DPZ is -1.4% on the fill.",
+    "2026-10-28 BND: filled at $71.298 against the expected ~$71.3, and the PM anchored the invalidation (~$70.0) to that fill, so the L1 practice held for new buys. DPZ's $274.88 is still about 13% under its $316.58 fill (PM, News and Fundamentals reviews all flag it); the position is -2.25%.",
+    "2026-10-29 DPZ: the $274.88 invalidation is still anchored to the $305.42 reference close, about 13% under the $316.58 fill; PM, News and Fundamentals reviews all flag it again (position -0.96%). The PM applied L1 to the rejected VXUS buy. DPZ re-anchoring (about $285) has now gone unfixed for 7 sessions; it is a held-position action, not a new-buy one.",
+    "2026-10-30 DPZ: thesis in close.json still reads $274.88 (10% under the $305.42 reference close); the PM review calls it the 8th open session and says it cannot write the fix because it only writes decision and review files (position -0.9%). The gap is now structural, not an oversight: see owner_suggestions.",
+    "2026-11-02 DPZ: the PM wrote the re-anchored level (about $285, 10% under the $316.58 fill) into the decision reasoning and treats it as the invalidation from today, ending the 9-session drift in practice. The stored thesis in close.json still reads $274.88, so the owner suggestion on amending stored theses stands."
+   ],
+   "confidence": "low",
+   "added": "2026-10-20",
+   "last_confirmed": "2026-11-02",
+   "status": "active",
+   "retired_why": null
+  },
+  {
+   "id": "L2",
+   "lesson": "Never write 'no earnings event in the window' just because the news note doesn't mention a name. Check the name's own earnings estimate and recent 8-K 2.02 / 10-Q filings in the inputs, and say 'unverified' only if they are truly absent. The News Analyst should cover every symbol on the proposal menu, not only flagged ones, so the Portfolio Manager does not shrink positions for lack of data.",
+   "kind": "process",
+   "applies_to": [
+    "proposer",
+    "news-analyst",
+    "portfolio-manager"
+   ],
+   "evidence": [
+    "2026-10-21 FAST: proposer cited no earnings event 'in the news-analyst note', which never mentions FAST (Skeptic objection); the PM cut the size from $40 to $30 partly because the date was unverified. The News Analyst's close review then resolved it from filings already public (8-K 2.02 on 10-14, 10-Q on 10-19; next estimate 2027-01-19).",
+    "2026-10-21 RRC rejected partly because 'already reported' rested on an unread 8-K 2.02 from 10-14 (same gap; not yet graded, pending).",
+    "2026-10-21 CARG: earnings date left unverified at decision time; the close review puts the estimate at 11-05, outside the window (PM trimmed $25 to $15 partly for this).",
+    "2026-10-23 VRSN and SAM: the News Analyst resolved stale 'earnings today' estimates from 8-K 2.02 / 10-Q filings (both reported 10-22), and the PM sized VRSN with the date verified. Still open: RRC (10-14 8-K 2.02 aged out of the 7-day window, date unverified since 10-20) and SMG (8-K 5.02 from 10-16, unread since 10-20).",
+    "2026-10-26 RRC: the open date question was overtaken by the EQT all-stock acquisition (8-K 1.01 filed 10-26); the 10-14 8-K 2.02 is still unread. RRC was rejected on 10-21 partly on the unverified date and is +17% to +25% vs SPY since (pending, not graded). SMG 8-K 5.02 has now aged out of the window, still unread. VRSN, MSCI and the held names had their dates checked against filings.",
+    "2026-10-27 MSM: the proposal's earnings date was verified from the 8-K 2.02 and 10-K filed 10-22 (next about 2027-01-06) and the PM sized it with the date known. Still open: the WMT 8-K 8.01 from 10-23 is unread (News Analyst sees only item numbers); SMG now has a company-confirmed Q4 date of 11-04.",
+    "2026-10-28 INCY: the estimated 10-27 date passed with no 8-K 2.02, results headline or 10-Q; the Skeptic and PM read that as an imminent print and the PM rejected the buy on it (not yet graded). The News Analyst resolved GRMN, RRC, DORM, EXLS and LOGI from filings. Still open: WMT 8-K 8.01 (10-23) unread, CALX and CVS 10-28 dates unverified.",
+    "2026-10-29: the News Analyst resolved the 10-28/10-29 estimates for GRMN, HWM, LNG, BDC and INCY from filings or headlines and the 10-27 CART flag came true (DoorDash agreed to buy Instacart at $65, 8-K 1.01). Still open: WMT 8-K 8.01 (10-23) unread; CVS and CALX still show no results in the inputs.",
+    "2026-10-30: the News Analyst resolved INCY, HWM, LNG, BDC, EXEL, GRMN, LOGI, EXLS and RRC from 8-K 2.02 / 10-Q filings and caught that EXEL's 11-03 estimate is stale. Still open: the WMT 8-K 8.01 (10-23) is unread and ages out of the window; ULS and GPOR own dates unverified (not held).",
+    "2026-11-02: the News Analyst confirmed IDXX's print from the 8-K 2.02 and results headline, checked every held name's filings (no 4.01, 4.02 or 5.02) and listed held-name earnings dates (CARG 11-05 the only one inside the window). The WMT 8-K 8.01 (10-23) aged out unread, so that item closes by expiry, not by resolution."
+   ],
+   "confidence": "low",
+   "added": "2026-10-21",
+   "last_confirmed": "2026-11-02",
+   "status": "active",
+   "retired_why": null
+  },
+  {
+   "id": "L3",
+   "lesson": "Before claiming a proposal adds a new or favored sector, check the sector label in the fundamentals input and the sectors of positions already held. If the claim rests on economic exposure rather than the label, or a held peer overlaps, say so in the thesis and size for the overlap.",
+   "kind": "process",
+   "applies_to": [
+    "proposer",
+    "portfolio-manager"
+   ],
+   "evidence": [
+    "2026-10-22 MSCI: the proposer said Financials is a favored sector, but fundamentals.json labels MSCI as Industrials (Skeptic objection); the PM trimmed the size. Position -3.0% in 3 sessions, pending.",
+    "2026-10-27 MSM: the proposer called it a sector the account does not hold, but FAST is a held industrial MRO distributor; the PM halved the buy from $15 to $8 (MSM -0.3% on the day, pending).",
+    "2026-10-20 DPZ: its top-of-sector rank was partly an artifact of a wholesale-groceries mislabel, per the PM thesis (DPZ graded wrong at -1.35%, though not on this ground alone).",
+    "2026-10-28 INCY: the PM weighed Health Care overlap with IDXX (6.7% of equity, print about 11-02 after a second PT cut) as one sleeve when rejecting the buy. DPZ's Consumer Staples label is still a wholesale-groceries SIC artifact per the Fundamentals review.",
+    "2026-10-29 DPZ: the Fundamentals review again rests the thesis on absolute quality, not the Staples rank, and flags the label caveat for DPZ, FAST, MSM and MSCI. No new sector claim was made today.",
+    "2026-10-30: the PM counted WMT, DPZ and KR as about 26% Consumer Staples by label and used that as a reason not to add to them; the Fundamentals review repeats the label-stacking caveat. No new sector claim was made.",
+    "2026-11-02: no new sector claim (no proposals). The PM again counted DPZ, WMT and KR as about 26% Consumer Staples by label and cited the stack as a reason not to add; the Fundamentals review repeats that DPZ's Staples rank is a wholesale-groceries SIC artifact."
+   ],
+   "confidence": "low",
+   "added": "2026-10-27",
+   "last_confirmed": "2026-11-02",
+   "status": "active",
+   "retired_why": null
+  },
+  {
+   "id": "L4",
+   "lesson": "Before proposing a buy, check it against the Market Analyst's explicit preferences and say so in the thesis if it reverses one. Do not propose token-sized buys (about 1.5% of equity or less) justified only by asset-class diversification, and set the invalidation far enough from entry (not about 1%) that ordinary daily noise cannot trip it.",
+   "kind": "process",
+   "applies_to": [
+    "proposer",
+    "portfolio-manager"
+   ],
+   "evidence": [
+    "2026-10-29 VXUS $10 (1.7% of equity): the proposal reversed the Market Analyst's 'prefer US core over international' call (VXUS 21d -2.06%, 63d -1.03% vs SPY +4.39%), was a beta-1.12 equity fund (Implicator: 10% stress loss from -22.84 to -23.96, so no diversification), and its invalidation sat about 0.9% under entry. The Skeptic objected and the PM rejected it. This is a process check from the run files; the rejection's outcome is not graded and is not the evidence.",
+    "2026-10-30: the PM cited L4 for standing aside (a buy that keeps a 10% cash buffer would be about $9). Note the PM applied it to token size in general; the lesson itself is about token buys justified only by diversification. The Market Analyst's note also keeps the US-core preference (VXUS 21d -1.54%). Watch that L4 does not become a blanket reason to idle cash.",
+    "2026-11-02: the PM explicitly declined to cite L4 for the empty trade list and gave size (about $9 above the 10% buffer) and an event-heavy week as the reasons instead, which is the narrow reading the lesson intends. Cash is 11.4% and the account is 88.6% invested against the shadow's 99.0%; the PM says to look for a proposal when cash rises."
+   ],
+   "confidence": "low",
+   "added": "2026-10-29",
+   "last_confirmed": "2026-11-02",
+   "status": "active",
+   "retired_why": null
+  },
+  {
+   "id": "L5",
+   "lesson": "Review every held position on every run, including days with no trade: distance from price to the invalidation, earnings dates now inside the 5-day window versus what the thesis says, and thesis text that has gone stale. Where an invalidation clause is qualitative (e.g. 'exchange failure'), state in the reasoning whether it has tripped, and why. Write the re-anchored level or date into the decision reasoning rather than only flagging it. When a held name gaps far from the price its stop was written against, re-anchor the stop to the close and to the gain, and name any stop within about 2% of the market together with the dated catalysts.",
+   "kind": "process",
+   "applies_to": [
+    "portfolio-manager",
+    "proposer"
+   ],
+   "evidence": [
+    "2026-10-30 IDXX: the 10-20 thesis says earnings (11-02) are outside the 5-day window; the print is now one trading day out, the position fell 4.3% today with no news, and only the Skeptic's objection and the News Analyst's upcoming note brought the stale premise up. The PM did weigh it (stress loss about $3) and held knowingly; the thesis text is still stale.",
+    "2026-10-30 CARG: the thesis says earnings 11-05 are outside the window and invalidates on a negative surprise inside five trading days; the company confirmed 11-05 after the close (4 trading days out), so the clause is live on a 5.1% position (News Analyst broken_theses).",
+    "2026-10-30 BTC/USD: invalidation includes 'an exchange failure'; the record Binance hack (about $6.3B) arguably meets the wording and the News Analyst asked the PM to say explicitly whether it trips. The PM judged it contained (BTC about -3%, still within the 10% stop at about $75.3k, now about 2% away) but only in a closing review, not as a stated decision step.",
+    "2026-10-30 DPZ: invalidation anchored to the wrong close for 8 sessions (see L1); the PM raised it again without changing it. The common pattern across these four is held-position drift found by other agents rather than checked up front. This is a process lesson from the run files; none of these cases is a graded outcome.",
+    "2026-11-02 applied: the PM reviewed IDXX (print resolved, stop re-anchored to about $575), CARG (11-05 clause live), DPZ (stop re-anchored to about $285, unverified guidance-cut item turned into a numeric conditional sell) and BTC/USD (exchange-failure clause judged untripped, with the reasoning stated before the close).",
+    "2026-11-02 IDXX gap: the new $575 stop was set 10% under an intraday ~$639, but IDXX closed near $670 (+21.6%), so the stop is about 14% below the close and would give back most of the gain (PM review, weak point 1). The stop should be re-anchored to the close next session. This is the same drift L1 describes, caught by the PM's own close review.",
+    "2026-11-02 BTC/USD: closed near $76.7k, about 2% above the $75.3k price stop (position -8.4% on cost), with midterms on 11-03 and the 11-11 MSCI/Strategy decision ahead; the PM review asks that this be named in the next decision. Process evidence only, no graded outcome."
+   ],
+   "confidence": "low",
+   "added": "2026-10-30",
+   "last_confirmed": "2026-11-02",
+   "status": "active",
+   "retired_why": null
+  }
+ ],
+ "scorecard_summary": {
+  "portfolio-manager": {
+   "right": 0,
+   "wrong": 0,
+   "pending": 29,
+   "by_horizon": {
+    "5": {
+     "right": 14,
+     "wrong": 10,
+     "hit_rate": 0.583
+    },
+    "20": {
+     "right": 0,
+     "wrong": 0,
+     "hit_rate": null
+    },
+    "60": {
+     "right": 0,
+     "wrong": 0,
+     "hit_rate": null
+    }
+   },
+   "graded": 0,
+   "hit_rate": null,
+   "enough_data": false
+  },
+  "proposer": {
+   "right": 0,
+   "wrong": 0,
+   "pending": 29,
+   "by_horizon": {
+    "5": {
+     "right": 16,
+     "wrong": 8,
+     "hit_rate": 0.667
+    },
+    "20": {
+     "right": 0,
+     "wrong": 0,
+     "hit_rate": null
+    },
+    "60": {
+     "right": 0,
+     "wrong": 0,
+     "hit_rate": null
+    }
+   },
+   "graded": 0,
+   "hit_rate": null,
+   "enough_data": false
+  },
+  "skeptic": {
+   "right": 0,
+   "wrong": 0,
+   "pending": 22,
+   "by_horizon": {
+    "5": {
+     "right": 5,
+     "wrong": 13,
+     "hit_rate": 0.278
+    },
+    "20": {
+     "right": 0,
+     "wrong": 0,
+     "hit_rate": null
+    },
+    "60": {
+     "right": 0,
+     "wrong": 0,
+     "hit_rate": null
+    }
+   },
+   "graded": 0,
+   "hit_rate": null,
+   "enough_data": false
+  },
+  "market-analyst": {
+   "right": 6,
+   "wrong": 0,
+   "pending": 5,
+   "graded": 6,
+   "hit_rate": 1.0,
+   "enough_data": false
+  },
+  "news-analyst": {
+   "right": 39,
+   "wrong": 31,
+   "pending": 77,
+   "graded": 70,
+   "hit_rate": 0.557,
+   "enough_data": true
+  }
+ },
+ "graded_calls": [
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-22",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "CVS",
+   "claim": "Estimated earnings 10-28, 4 trading days out (approximate). Background: Aetna scaling back Medicare Advantage footprints (sector-wide), the PA insulin lawsuit n",
+   "sessions": 5,
+   "return": -0.0439,
+   "vs_spy": -0.051,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-22",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "GRMN",
+   "claim": "Estimated earnings 10-28, 4 trading days out (approximate). Only product launches.",
+   "sessions": 5,
+   "return": -0.0523,
+   "vs_spy": -0.0594,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-22",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "RRC",
+   "claim": "Estimated earnings 10-28, 4 trading days out (approximate). An 8-K 2.02 on 10-14 flagged in earlier runs has aged out of the 7-day window, so this input cannot ",
+   "sessions": 5,
+   "return": 0.2287,
+   "vs_spy": 0.2216,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-22",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "AAPL",
+   "claim": "Estimate 10-29 is 5 trading days out (right at the edge). A 10-20 Benzinga headline says earnings are Nov 2 (7 trading days), so the date is uncertain. Other ca",
+   "sessions": 5,
+   "return": 0.002,
+   "vs_spy": -0.0051,
+   "status": "wrong"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-22",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "BDC",
+   "claim": "Estimated earnings 10-29, 5 trading days out (approximate, so could fall inside or just outside the window). No headlines or filings.",
+   "sessions": 5,
+   "return": 0.0389,
+   "vs_spy": 0.0318,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-22",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "BJRI",
+   "claim": "Estimated earnings 10-29, 5 trading days out (approximate). No headlines or filings.",
+   "sessions": 5,
+   "return": 0.0764,
+   "vs_spy": 0.0693,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-22",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "HWM",
+   "claim": "Estimated earnings 10-29, 5 trading days out (approximate). No HWM-specific headlines (it only appears in a market roundup).",
+   "sessions": 5,
+   "return": 0.0654,
+   "vs_spy": 0.0584,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-22",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "LNG",
+   "claim": "Estimated earnings 10-29, 5 trading days out (approximate). Also exposed to Middle East and oil-price swings. Today's Qatar deal is a positive offset (see notab",
+   "sessions": 5,
+   "return": 0.1113,
+   "vs_spy": 0.1042,
+   "status": "right"
+  },
+  {
+   "agent": "market-analyst",
+   "kind": "stance",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "SPY",
+   "claim": "neutral",
+   "sessions": 5,
+   "return": -0.0056,
+   "vs_spy": null,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "DORM",
+   "claim": "Estimated earnings Mon 10-26, the next trading day (approximate). No headlines or filings.",
+   "sessions": 5,
+   "return": 0.086,
+   "vs_spy": 0.0916,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "EXLS",
+   "claim": "Estimated earnings 10-27, 2 trading days out (approximate). No headlines or filings.",
+   "sessions": 5,
+   "return": -0.0206,
+   "vs_spy": -0.015,
+   "status": "wrong"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "INCY",
+   "claim": "Estimated earnings 10-27, 2 trading days out (approximate). Only a Lighthouse Award press item and PT nudges (Leerink $154, TD Cowen $140, Piper Buy $130) in th",
+   "sessions": 5,
+   "return": 0.0404,
+   "vs_spy": 0.046,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "LOGI",
+   "claim": "Estimated earnings 10-27, 2 trading days out (approximate). No headlines or filings.",
+   "sessions": 5,
+   "return": -0.1289,
+   "vs_spy": -0.1233,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "CALX",
+   "claim": "Estimated earnings 10-28, 3 trading days out (approximate). Only product-launch press releases (GigaPro switches, SmartMDU).",
+   "sessions": 5,
+   "return": 0.0096,
+   "vs_spy": 0.0152,
+   "status": "wrong"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "CVS",
+   "claim": "Estimated earnings 10-28, 3 trading days out (approximate). Background is minor: Aetna scaling back Medicare Advantage footprints (sector-wide), PA insulin suit",
+   "sessions": 5,
+   "return": -0.0344,
+   "vs_spy": -0.0289,
+   "status": "wrong"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "GRMN",
+   "claim": "Estimated earnings 10-28, 3 trading days out (approximate). Only product launches.",
+   "sessions": 5,
+   "return": -0.0717,
+   "vs_spy": -0.0661,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "RRC",
+   "claim": "Estimated earnings 10-28, 3 trading days out. The 10-14 8-K 2.02 flagged in earlier runs is outside the 7-day window and there are no RRC filings or headlines n",
+   "sessions": 5,
+   "return": 0.2001,
+   "vs_spy": 0.2057,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "BDC",
+   "claim": "Estimated earnings 10-29, 4 trading days out (approximate). No headlines or filings.",
+   "sessions": 5,
+   "return": 0.0149,
+   "vs_spy": 0.0205,
+   "status": "wrong"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "BJRI",
+   "claim": "Estimated earnings 10-29, 4 trading days out (approximate). No headlines or filings.",
+   "sessions": 5,
+   "return": 0.1065,
+   "vs_spy": 0.1121,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "HWM",
+   "claim": "Estimated earnings 10-29, 4 trading days out (approximate). No HWM-specific news.",
+   "sessions": 5,
+   "return": 0.0716,
+   "vs_spy": 0.0772,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "LNG",
+   "claim": "Estimated earnings 10-29, 4 trading days out (approximate). Also exposed to Middle East and oil swings. Positive offsets: the QatarEnergy SPAs (4 MTPA through 2",
+   "sessions": 5,
+   "return": 0.106,
+   "vs_spy": 0.1116,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-23",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "QQQ",
+   "claim": "Escalation of the fragile AI/data-center thread from 10-20/21/22: Meta fell about 6% on higher AI capex, SOXL hit a six-month low (down 20%), Nvidia's AI warnin",
+   "sessions": 5,
+   "return": -0.0197,
+   "vs_spy": -0.0142,
+   "status": "wrong"
+  },
+  {
+   "agent": "market-analyst",
+   "kind": "stance",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "SPY",
+   "claim": "neutral",
+   "sessions": 5,
+   "return": -0.0173,
+   "vs_spy": null,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "RRC",
+   "claim": "EQT agreed to acquire Range in an all-stock deal (1 RRC = 0.987 EQT; pro forma EV over $50B), with an 8-K 1.01 filed today. A merger-arbitrage setup; the price ",
+   "sessions": 5,
+   "return": 0.017,
+   "vs_spy": 0.0343,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "DORM",
+   "claim": "Estimated earnings today, 10-26 (approximate; no results headline or 8-K 2.02 yet in the input). Wells Fargo cut its PT to $150 on 10-23 (Overweight kept), a mi",
+   "sessions": 5,
+   "return": 0.117,
+   "vs_spy": 0.1343,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "EXLS",
+   "claim": "Estimated earnings 10-27, 1 trading day out (approximate). No headlines or filings.",
+   "sessions": 5,
+   "return": 0.0182,
+   "vs_spy": 0.0355,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "INCY",
+   "claim": "Estimated earnings 10-27, 1 trading day out (approximate). Newsflow is a Genmab clinical collaboration (co-funding a Phase 1/2 colorectal cancer study), which i",
+   "sessions": 5,
+   "return": 0.0594,
+   "vs_spy": 0.0767,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "LOGI",
+   "claim": "Estimated earnings 10-27, 1 trading day out (approximate). Only a supply-chain decarbonization program announcement.",
+   "sessions": 5,
+   "return": -0.1396,
+   "vs_spy": -0.1223,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "CALX",
+   "claim": "Estimated earnings 10-28, 2 trading days out (approximate). No headlines or filings.",
+   "sessions": 5,
+   "return": -0.0411,
+   "vs_spy": -0.0238,
+   "status": "wrong"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "CVS",
+   "claim": "Estimated earnings 10-28, 2 trading days out (approximate). Only an Aetna provider-survey release and community items today, nothing material. Earlier backgroun",
+   "sessions": 5,
+   "return": -0.0434,
+   "vs_spy": -0.0261,
+   "status": "wrong"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "GRMN",
+   "claim": "Estimated earnings 10-28, 2 trading days out (approximate). No headlines or filings.",
+   "sessions": 5,
+   "return": -0.0636,
+   "vs_spy": -0.0463,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "AAPL",
+   "claim": "Date is uncertain: file estimate 10-29 (3 trading days) versus a Benzinga-cited Nov 2 (5 trading days, the edge of the window). Both fall inside or at the edge ",
+   "sessions": 5,
+   "return": -0.0163,
+   "vs_spy": 0.0011,
+   "status": "wrong"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "BDC",
+   "claim": "Estimated earnings 10-29, 3 trading days out (approximate). Only a Radiflow partnership press release.",
+   "sessions": 5,
+   "return": 0.0432,
+   "vs_spy": 0.0605,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "BJRI",
+   "claim": "Estimated earnings 10-29, 3 trading days out (approximate). Citigroup cut its PT to $70 from $75 (Neutral) on 10-23, a small negative into the print.",
+   "sessions": 5,
+   "return": 0.0903,
+   "vs_spy": 0.1077,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "HWM",
+   "claim": "Estimated earnings 10-29, 3 trading days out (approximate). No HWM-specific headline; it appears only in a market-wide earnings volatility roundup.",
+   "sessions": 5,
+   "return": 0.0959,
+   "vs_spy": 0.1132,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "LNG",
+   "claim": "Estimated earnings 10-29, 3 trading days out (approximate). Exposed to oil/Iran swings. The 10-22 QatarEnergy SPAs (4 MTPA through 2054) and JPMorgan raising it",
+   "sessions": 5,
+   "return": 0.0369,
+   "vs_spy": 0.0542,
+   "status": "right"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "BTC/USD",
+   "claim": "Fell to about $80k; Cowen reads sub-$83k closes as a fakeout with a $72k to $76k target. Bitcoin and gold are the two worst-performing major assets of 2026 (Bil",
+   "sessions": 5,
+   "return": -0.0321,
+   "vs_spy": -0.0147,
+   "status": "wrong"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-26",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "QQQ",
+   "claim": "Event-dense week for the index: Fed meeting, mega-cap earnings, $117 Friday oil with El-Erian warning of $150 if the Iran conflict widens, and a continuing AI-b",
+   "sessions": 5,
+   "return": -0.0437,
+   "vs_spy": -0.0263,
+   "status": "wrong"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-27",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "BTC/USD",
+   "claim": "Trading near $80k with support at $80k contested; bears cite $72k-$76k (Cowen), another analyst $63k-$75k after the midterms. ETF outflows ($635M on 10-22) and ",
+   "sessions": 5,
+   "return": -0.0319,
+   "vs_spy": -0.009,
+   "status": "wrong"
+  },
+  {
+   "agent": "news-analyst",
+   "kind": "high event risk",
+   "date": "2026-10-28",
+   "version": "3",
+   "horizon": 5,
+   "symbol": "BTC/USD",
+   "claim": "Fed decision today. Bitcoin is back around $80k after a rebound on 10-27 (ETF inflow $110M, crypto rose with stocks), but the contested-support story is intact:",
+   "sessions": 5,
+   "return": -0.0561,
+   "vs_spy": -0.0299,
+   "status": "wrong"
+  }
+ ],
+ "pending_calls": 162,
+ "news_memory": [
+  {
+   "date": "2026-10-29",
+   "run": "2026-10-29",
+   "symbol": "WMT",
+   "type": "headline",
+   "text": "FTC orders Walmart, Target, Uber, DoorDash, Instacart and others to disclose pricing and wage-setting data practices: A sector-wide information request, not an action against Walmart. Fits the shelf-label and dynamic-pricing scrutiny already noted for KR; low direct impact for now."
+  },
+  {
+   "date": "2026-10-29",
+   "run": "2026-10-29",
+   "symbol": "CVS",
+   "type": "headline",
+   "text": "Labor Department PBM disclosure rule (10-28); CVS ends SilverScript Choice PDP in 13 regions for 2027 (~950k enrollees): Regulatory headwind for Caremark spread economics plus a shrinking Part D footprint. The estimated 10-28 print has not appeared, so the date is unverified."
+  },
+  {
+   "date": "2026-10-29",
+   "run": "2026-10-29",
+   "symbol": "AAPL",
+   "type": "headline",
+   "text": "Apple reportedly tells suppliers to raise iPhone Duo production targets on strong demand: Supportive demand evidence set against the hinge-crack replacement program from 10-27. The earnings date (10-29 vs 11-02) remains the key uncertainty; Apple unveiled the touchscreen MacBook Pro on 10-28."
+  },
+  {
+   "date": "2026-10-29",
+   "run": "2026-10-29",
+   "symbol": "BTC/USD",
+   "type": "headline",
+   "text": "Bitcoin drops to $80,000 after Fed meeting; Cowen warns a hot PCE could trigger a Q4 selloff; Hagerty says the Strategic Bitcoin Reserve could expand after the CLARITY Act: Continues the contested-$80k story; price action and rate odds dominate. The legislative item is a mild structural positive but not binding. No exchange failure or adverse regulatory action."
+  },
+  {
+   "date": "2026-10-29",
+   "run": "2026-10-29",
+   "symbol": "DBX",
+   "type": "headline",
+   "text": "Dropbox cuts about 9% of staff; 8-K 2.02/2.05/5.02 filed 10-28: Carried from 10-28: the pre-announced in-line-or-better quarter lowers print risk, but the officer departure under item 5.02 remains unread."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "CLX",
+   "type": "high event risk",
+   "text": "Estimated earnings Mon 11-02, 1 trading day out (approximate). 8-K 5.02 filed 10-29: Fabian Garcia named CEO effective 2027-01-05, succeeding Linda Rendle. It is a planned handover, but it lands days before the print and on top of negative preview drift (JPMorgan Underweight/$83, UBS on pressured organic sales). Continues the 10-28 and 10-29 flags, which have not come to nothing.",
+   "event_date": "2026-11-02"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "IDXX",
+   "type": "high event risk",
+   "text": "Held position. Estimated earnings Mon 11-02, 1 trading day out (approximate). No IDXX headline or filing in the window; the last items are the two PT cuts (Jefferies $705 on 10-20, UBS $627 on 10-27, ratings kept).",
+   "event_date": "2026-11-02"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "AAPL",
+   "type": "high event risk",
+   "text": "The file estimate (10-29) has passed with no 8-K 2.02 or results headline, so the date is unverified. Benzinga pieces on 10-20, 10-27 and 10-28 cite Nov 2, which is 1 trading day out and looks likelier. Either way the print is inside the window. Mixed backdrop: iPhone Duo production being raised and Foxconn saying capacity suffices (positive) against SK Hynix warning of memory shortages through 2030 and rising component costs (margin headwind), plus the Duo hinge-crack replacement program from 10-27. Apple and Samsung are said to be dodging the worst of the smartphone chip meltdown. The AAPL-tagged Dell/HP story is a PC read-through, not Apple news.",
+   "event_date": "2026-11-02"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "MTCH",
+   "type": "high event risk",
+   "text": "Estimated earnings 11-03, 2 trading days out (approximate). No new headline today; the sell-side is split (TD Cowen Buy/$52 versus Wells Fargo Equal-Weight with PT cut to $39). No filings.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "ULS",
+   "type": "high event risk",
+   "text": "Estimated earnings 11-03, 2 trading days out. The company set its own Q3 date on 10-20, which is not in this input and may differ. Only a DJI certification release today.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "GPOR",
+   "type": "high event risk",
+   "text": "Estimated earnings 11-03, 2 trading days out. Gulfport scheduled its own release on 10-21, which is not in the input, so the true date is unverified. Gas names also trade around the EQT/Range deal. No filings or headlines.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "SMG",
+   "type": "high event risk",
+   "text": "Company-confirmed fiscal Q4 results 11-04, 3 trading days out. Only the Black Kow acquisition close (10-29) is new. The 10-16 8-K 5.02 (officer/director change) has aged out of the window and was never read, so management-change risk stays unverified (open L2 item).",
+   "event_date": "2026-11-04"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "TPR",
+   "type": "high event risk",
+   "text": "Earnings 11-05 (company-announced per the Barchart preview), 4 trading days out. Negative PT drift (UBS $200, Jefferies $125, Baird $150, Wells Fargo $150 on 10-29) with every rating kept; nothing new today. The 10-21 drift flag has not come to nothing.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "CARG",
+   "type": "high event risk",
+   "text": "Company-confirmed Q3 results 11-05 after the close (10-29 release), 4 trading days out. This replaces the earlier estimate. No filings or other headlines.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "RL",
+   "type": "high event risk",
+   "text": "Estimated earnings 11-05, 4 trading days out (approximate). Supportive sell-side drift (UBS Buy/$521, Deutsche $452); nothing new today.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "ONC",
+   "type": "high event risk",
+   "text": "Estimated earnings 11-05, 4 trading days out (approximate). No headlines or filings in the window.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "DBX",
+   "type": "medium event risk",
+   "text": "Estimated earnings 11-05, 4 trading days out, but Q3 was pre-announced in line or above guidance with the 9% headcount cut (8-K 2.02/2.05/5.02 on 10-28), which lowers print risk. The 5.02 officer change is still unread, so who is leaving is unknown.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "CART",
+   "type": "high event risk",
+   "text": "Deal event, not an earnings one. DoorDash agreed to buy Instacart at $65.00 a share (about $17B, at least 75% cash, close by 2028; 8-K 1.01/8.01 and 2.02 filed 10-29). Today four brokers downgraded (Citizens to Market Perform, Barclays to Equal-Weight with PT $65, Cantor to Neutral with PT $65, Needham to Hold). These are deal-driven moves to a capped-upside stock, not a broken operating story. NYC Mayor Mamdani's public objection adds to the regulatory exposure (FTC pricing information request on 10-28). Any buy is merger-arb with a long timeline. The 11-09 earnings estimate is moot.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "BJRI",
+   "type": "medium event risk",
+   "text": "The 10-29 estimate has passed with no 8-K and no results headline in the inputs, so the print date is unverified and may be imminent or already done. Only a Pizookie product launch in the window.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "CVS",
+   "type": "medium event risk",
+   "text": "The 10-28 estimate passed with no 8-K 2.02, 10-Q or results headline, although the file now rolls the next estimate to 2027-02-09, which suggests the quarter was reported. Unverified (open L2 item). Standing negatives: the Labor Department PBM disclosure rule (10-28) and the SilverScript Choice PDP exit in 13 regions for 2027 (about 950k enrollees). Today only corporate PR.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "CALX",
+   "type": "low event risk",
+   "text": "The 10-28 estimate passed with no filing or results headline, but the file now shows the next estimate as 2027-01-27, which suggests the quarter was reported. Unverified (open L2 item). Only a BOYCOM customer release today.",
+   "event_date": "2027-01-27"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "EXEL",
+   "type": "low event risk",
+   "text": "Resolved. Reported 10-29 (8-K 2.02, 10-Q): adj EPS $0.94 vs $0.80, sales $658.7M vs $646.5M; FY26 sales guide $2.50B-$2.55B affirmed. The 11-03 estimate in the file is stale.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "HWM",
+   "type": "low event risk",
+   "text": "Reported 10-29 (8-K 2.02, 10-Q): clean beat and raise (FY26 EPS guide $5.49-$5.51 vs $5.33 est) and a larger buyback. Event passed.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "LNG",
+   "type": "low event risk",
+   "text": "Reported 10-29 (8-K 2.02, 10-Q): EPS $5.65 vs $4.22, dividend raised to $0.625. The QatarEnergy SPAs still have no 8-K 1.01 in the window. Oil and Iran swings remain the macro risk.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "INCY",
+   "type": "low event risk",
+   "text": "Reported 10-29 (8-K 2.02, 10-Q); next estimate 2027-02-09. The event is passed and sell-side is turning positive (see notable).",
+   "event_date": "2027-02-09"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "BDC",
+   "type": "low event risk",
+   "text": "Reported 10-29 (8-K 2.02, 10-Q). Revenue beat, but a $11.4M net loss and a Q4 GAAP EPS guide of $0.24-$0.39 vs $1.73 est. Event passed, reaction negative.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "GRMN",
+   "type": "low event risk",
+   "text": "Reported 10-28 (beat and raise). Post-print PT moves are split (Morgan Stanley to $295, JPMorgan to $310, Barclays cut to $277), none changing ratings. Next estimate 2027-02-17.",
+   "event_date": "2027-02-17"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "LOGI",
+   "type": "low event risk",
+   "text": "Reported 10-27 (8-K 2.02), 10-Q filed 10-28 and noted 10-29. Next estimate 2027-01-26.",
+   "event_date": "2027-01-26"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "EXLS",
+   "type": "low event risk",
+   "text": "Reported 10-27 with a beat and raise; PT raises continue (TD Cowen $49, Stifel $48). Next estimate 2027-02-23.",
+   "event_date": "2027-02-23"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "RRC",
+   "type": "low event risk",
+   "text": "Reported 10-27 (8-K 2.02 filed 10-28). The remaining risk is the pending EQT all-stock deal (8-K 1.01 from 10-26), not operations. Nothing new today. Next estimate 2027-01-20.",
+   "event_date": "2027-01-20"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "DORM",
+   "type": "low event risk",
+   "text": "Reported 10-26 (8-K 2.02, 10-Q 10-27). No new news. Next estimate about 2027-02-24.",
+   "event_date": "2027-02-24"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "DPZ",
+   "type": "low event risk",
+   "text": "Held position. No news or filings today; next estimate 2027-02-22. The securities class action that survived a motion to dismiss (flagged 10-29) remains an overhang with no new step.",
+   "event_date": "2027-02-22"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "WMT",
+   "type": "low event risk",
+   "text": "Next estimate 2026-11-19. The 10-23 8-K 8.01 is still unread (item number only) and is about to age out of the 7-day window; probably routine (open L2 item). The Symbotic expansion (about $6B, 25 more distribution centers) and Apple Pay support are positives or immaterial. The FTC pricing-data information request from 10-28 is a sector-wide request, not an action against Walmart. The Burry 'mall dinosaur' item is a mis-tag (Build-A-Bear).",
+   "event_date": "2026-11-19"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "KR",
+   "type": "low event risk",
+   "text": "No Kroger news today; next estimate 2026-12-03. Shelf-label pricing scrutiny remains a sector theme.",
+   "event_date": "2026-12-03"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "MSCI",
+   "type": "low event risk",
+   "text": "Reported 10-20; next estimate 2027-01-27. The only MSCI-tagged item is about the MSCI India index review, which is index-provider output, not company news.",
+   "event_date": "2027-01-27"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "MCO",
+   "type": "low event risk",
+   "text": "Reported 10-21; next 2027-02-17. The Moody's AI-financing refinancing report is ratings-business commentary, not company risk.",
+   "event_date": "2027-02-17"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "VRSN",
+   "type": "low event risk",
+   "text": "Reported 10-22; next 2027-02-04. No news.",
+   "event_date": "2027-02-04"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "SAM",
+   "type": "low event risk",
+   "text": "Reported 10-22; next 2027-02-23. No news.",
+   "event_date": "2027-02-23"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "MSM",
+   "type": "low event risk",
+   "text": "Reported 10-22 (8-K 2.02, 10-K); next 2027-01-06. No news.",
+   "event_date": "2027-01-06"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "FAST",
+   "type": "low event risk",
+   "text": "Reported 10-14 (8-K 2.02), 10-Q 10-19; next 2027-01-19. No news.",
+   "event_date": "2027-01-19"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "WDFC",
+   "type": "low event risk",
+   "text": "Reported 10-21, 10-K 10-26; next 2027-01-07. No news.",
+   "event_date": "2027-01-07"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "MLI",
+   "type": "low event risk",
+   "text": "Reported 10-20; next 2027-02-02. No news or filings.",
+   "event_date": "2027-02-02"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "AYI",
+   "type": "low event risk",
+   "text": "10-K filed 10-23; next 2027-01-07. No new news.",
+   "event_date": "2027-01-07"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "SBH",
+   "type": "low event risk",
+   "text": "Company-scheduled Q4 call on 2026-11-10 (announced 10-28), 7 trading days out, outside the window. No headlines or filings.",
+   "event_date": "2026-11-10"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "TTEK",
+   "type": "low event risk",
+   "text": "Estimated earnings 11-11, outside the window. No headlines or filings.",
+   "event_date": "2026-11-11"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "BLBD",
+   "type": "low event risk",
+   "text": "Estimated earnings 11-23, outside the window. No headlines or filings.",
+   "event_date": "2026-11-23"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "ADSK",
+   "type": "low event risk",
+   "text": "Estimated earnings 11-24, outside the window. No news today.",
+   "event_date": "2026-11-24"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "BBY",
+   "type": "low event risk",
+   "text": "Estimated earnings 11-24, outside the window. The BBY-tagged item is about Balfour Beatty, not Best Buy.",
+   "event_date": "2026-11-24"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "UNFI",
+   "type": "low event risk",
+   "text": "Estimated earnings 12-01, outside the window. No headlines or filings.",
+   "event_date": "2026-12-01"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "WLY",
+   "type": "low event risk",
+   "text": "Estimated earnings 12-03, outside the window. No headlines or filings.",
+   "event_date": "2026-12-03"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "ADBE",
+   "type": "low event risk",
+   "text": "Estimated earnings 12-09, outside the window. No Adobe-specific news.",
+   "event_date": "2026-12-09"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "WINA",
+   "type": "low event risk",
+   "text": "Estimated earnings 2027-02-17. No headlines or filings.",
+   "event_date": "2027-02-17"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "BTC/USD",
+   "type": "high event risk",
+   "text": "Binance suffered what Benzinga calls the biggest crypto hack on record (about $6.3B, 10-29), and BTC fell about 3% to about $77k. The hack reportedly involved borrowing Ether against stablecoins. Trezor separately reported a suspected hardware implant in one of its devices. Analysts name $76.3k and $73k as support and one warns of a final Q4 selloff. Binance's solvency and any withdrawal limits are not covered in these headlines. Other pressure: a hawkish Fed (82% December hike odds), a hot-PCE selloff warning from Cowen, and the CLARITY Act at risk of midterm gridlock (O'Leary). Strategy (MSTR) reported Q3 on 10-29; Saylor said it does not need BTC or equity issuance to do the heavy lifting, and the stock is down 44% on the year. Constructive but non-binding: Hagerty on a Strategic Bitcoin Reserve, Google's crypto custody platform. Quantum-risk, Polymarket politics and price-target items are opinion.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "ETH/USD",
+   "type": "high event risk",
+   "text": "Tagged on the Binance hack coverage, which involved borrowing Ether against stablecoins, so DeFi lending is part of the story. The earlier relative-weakness thread (ETF outflows) is unchanged. No ETH-specific regulatory event. The risk is a spillover of the hack, not a new rule.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "QQQ",
+   "type": "high event risk",
+   "text": "The AI-capex worry flagged since 10-20 now has hard facts. Alphabet lost about $482B (about -12% on 10-29), Amazon fell more than 7% despite 39% AWS growth on $220B of AI spending and an earnings miss, and Intel slid on a deepening PC slump and memory shortages (Dell about -10%). Value beat the S&P by 4.2 points in October, the widest gap since 2001. Futures were mixed this morning. Hawkish-Fed backdrop: Trump says inflation is 'way down' while Chair Warsh says prices remain too high.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "VOO",
+   "type": "medium event risk",
+   "text": "Same backdrop as QQQ with a broader cushion (small caps rallied on 3.4% Q3 GDP; defensives led on 10-29). No VOO-specific event.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "VTI",
+   "type": "low event risk",
+   "text": "No VTI headline; same US-equity backdrop as VOO.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "TLT",
+   "type": "medium event risk",
+   "text": "No new rate event today after the 10-28 hold (two hike dissents), 82% December hike odds, a 10-year near 5% and September PCE at 3.6%. Duration risk skews to higher yields. Warsh plans fewer rate votes (six by 2028). No TLT-specific headline.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "IEF",
+   "type": "medium event risk",
+   "text": "Same hike-risk and 5% 10-year backdrop as TLT with shorter duration. No IEF-specific headline.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "BND",
+   "type": "low event risk",
+   "text": "Same rate backdrop with the lowest duration of the three. No BND headline.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "VNQ",
+   "type": "medium event risk",
+   "text": "Rate-sensitive: a 'borrowers pay' piece on high yields and costly oil, and December hike odds are a headwind. No VNQ-specific headline.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "VXUS",
+   "type": "low event risk",
+   "text": "No headline in the window; global exposure to the oil, Iran and rate backdrop.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "VWO",
+   "type": "low event risk",
+   "text": "No VWO headline; earlier EM notes (Brazil, China AI rout) carry over with nothing new.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "GLD",
+   "type": "low event risk",
+   "text": "No GLD headline. Higher-for-longer rate odds are a headwind after the sub-$4,000 break. The 11-24 'earnings' date is a data artifact.",
+   "event_date": null
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "BTC/USD",
+   "type": "headline",
+   "text": "Binance $6.3B hack; Bitcoin drops to $77,000 (also 'holds $77,000' and a Trezor hardware-tampering alert): The one hard crypto event of the day: the largest exchange hack on record. BTC fell only about 3%, which says the market is treating it as contained so far. Watch for Binance withdrawal limits or solvency statements, which are not in these headlines. Continues the contested-$80k thread from 10-27 to 10-29, and the break below $80k has now happened."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "ETH/USD",
+   "type": "headline",
+   "text": "Binance hack reportedly involved borrowing Ether against stablecoins: Ties ETH and DeFi lending to the incident, so spillover risk is larger for ETH than the headline price move shows."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "QQQ",
+   "type": "headline",
+   "text": "Alphabet's $482B wipeout; Amazon down 7% on a Q3 miss and $220B of AI spending; Intel flags a deepening PC slump: Continues the 10-20 to 10-29 AI-capex thread; Alphabet on 10-29 and now Amazon and Intel make three mega-cap prints the market read as capex worry. The rotation to value is visible in the data (IWD ahead of SPY by 4.2 points in October)."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "QQQ",
+   "type": "headline",
+   "text": "Trump says inflation 'way down'; Fed Chair Warsh warns prices remain 'too high' after the hold: Confirms the hawkish read of the 10-28 hold. Two dissents for a hike and 82% Polymarket odds of a December hike keep rate risk on the table for TLT, VNQ and growth."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "CART",
+   "type": "headline",
+   "text": "Four downgrades after the DoorDash deal (Citizens, Barclays, Cantor, Needham); Mamdani criticizes the $17B takeover: Continues the 10-23 to 10-29 takeover thread. The downgrades reflect upside capped at the $65 offer (Barclays and Cantor both set PT $65), not a change in the business. The political and FTC overhang makes this a long, regulatory-exposed merger-arb."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "CLX",
+   "type": "headline",
+   "text": "Clorox names Fabian Garcia CEO effective 2027-01-05 (8-K 5.02, filed 10-29): Planned succession, but the print is Monday. Leadership change plus two negative preview notes raises uncertainty around guidance tone. The 10-29 flag stands."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "INCY",
+   "type": "headline",
+   "text": "Oppenheimer upgrades Incyte to Outperform, PT $144; Evercore stays In-Line, PT raised to $127: Sell-side is turning positive after the 10-29 beat and raised guide. A 'top 10 forecasts' piece shows an analyst target 23% above the price. Benzinga's guide 'vs $5.929B est' remains inconsistent with the quarter and should not be read as a miss. Closes the 10-28 L2 item."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "HWM",
+   "type": "headline",
+   "text": "Susquehanna keeps Positive but cuts PT to $275; BNP Paribas cuts PT to $250 from $310: Odd after a clean beat, raise and buyback (10-29). The size of the BNP cut (about 19%) is out of line with the results, so it likely reflects valuation or the AI and aerospace rotation, but the inputs do not say. Unverified, so do not read it as a broken thesis."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "LNG",
+   "type": "headline",
+   "text": "Bernstein raises Cheniere PT to $312 from $283; QatarEnergy CEO says Qatar is buying US LNG as a Hormuz hedge: Follows the 10-29 beat and dividend raise. The Qatar commentary (two trains damaged and about three years to repair, more US purchases targeted by end-2026) is supportive of US LNG. The SPAs still have no 8-K 1.01 in the window. Oil and Iran swings remain the risk."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "AAPL",
+   "type": "headline",
+   "text": "SK Hynix warns Apple of chip shortages to 2030; Foxconn says capacity suffices for iPhone Duo; Dell and HP tumble on Intel's PC warning: Component-cost pressure is a margin question for the print (likely Mon 11-02, unverified), against strong Duo demand evidence. The Dell/HP story is a read-through for Macs, not Apple news."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "EXEL",
+   "type": "headline",
+   "text": "Exelixis Q3 adj EPS $0.94 vs $0.80, sales $658.7M vs $646.5M; FY26 sales guide of $2.50B-$2.55B affirmed: A beat with unchanged guidance. Resolves the 11-03 estimate, which is now stale."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "WMT",
+   "type": "headline",
+   "text": "Symbotic inks about $6B deal to put automation in 25 more Walmart distribution centers: A cost-efficiency capex plan for Walmart and mostly a Symbotic story. The 10-23 8-K 8.01 is still unread and is about to age out."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "BTC/USD",
+   "type": "headline",
+   "text": "Michael Saylor says Strategy does not need Bitcoin or equity to do the 'heavy lifting' (MSTR down 44% in a year): Strategy reported on 10-29, which closes the open item from 10-29. It follows the pause in BTC buying noted on 10-27 and is another sign of strain among treasury buyers. Datavault AI (10-28) is the smaller version."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "2026-10-30",
+   "symbol": "TPR",
+   "type": "headline",
+   "text": "No new Tapestry news after Wells Fargo's PT cut to $150: The four-cut PT drift (UBS, Jefferies, Baird, Wells Fargo) has not been followed by a fifth. The 11-05 print is 4 trading days out."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "AAPL",
+   "type": "high event risk",
+   "text": "Reports fiscal Q4 after the close today (Benzinga and TradingView both say Nov 2), which settles the 10-29 versus 11-02 uncertainty. Backdrop is mixed: Bank of America cut its FY27 iPhone forecast by 9M units, memory and component cost pressure, and the J595 home robot reportedly slipping to 2028, against iPhone Duo demand and Apple being the only Mag 7 name beating the S&P. Options imply a move to about $355. The Mag 7 AI-capex selloff makes the print a read on the whole group.",
+   "event_date": "2026-11-02"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "CLX",
+   "type": "high event risk",
+   "text": "File estimate is today and no 8-K 2.02 or results headline is in the inputs, so the print is unverified and probably after the close or imminent. Only the 8-K 5.02 (Fabian Garcia named CEO effective 2027-01-05, filed 10-29) is on file. Evercore upgraded to In-Line (from Underperform, PT $99) this morning, so preview sentiment is less negative than last week. Continues the 10-28 to 10-30 flags, which have not come to nothing.",
+   "event_date": "2026-11-02"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "MTCH",
+   "type": "high event risk",
+   "text": "Estimated earnings 11-03, 1 trading day out (approximate). No filings or headlines in the window. Sell-side was split last week (TD Cowen Buy/$52 versus Wells Fargo Equal-Weight/$39).",
+   "event_date": "2026-11-03"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "ULS",
+   "type": "high event risk",
+   "text": "Estimated earnings 11-03, 1 trading day out. The company set its own Q3 date on 10-20, which is not in this input and may differ, so the date is unverified. No headlines or filings.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "GPOR",
+   "type": "high event risk",
+   "text": "Estimated earnings 11-03, 1 trading day out. Gulfport scheduled its own release on 10-21, not visible here, so unverified. Gas names also trade around the EQT/Range deal. No headlines or filings.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "SMG",
+   "type": "high event risk",
+   "text": "Company-confirmed fiscal Q4 results 11-04 (per earlier runs), 2 trading days out. No filings or headlines in the window. The 10-16 8-K 5.02 was never read and has aged out, so management-change risk stays unverified.",
+   "event_date": "2026-11-04"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "CARG",
+   "type": "high event risk",
+   "text": "Company-confirmed Q3 results 11-05 after the close, 3 trading days out. Held position: the thesis invalidates on a negative surprise inside five trading days, so that clause is live (L5). No filings or headlines in the window.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "TPR",
+   "type": "high event risk",
+   "text": "Earnings 11-05 (company-announced per earlier runs), 3 trading days out. Four PT cuts in the prior week (UBS, Jefferies, Baird, Wells Fargo) with ratings held; nothing new in this window, so the drift flag has neither resolved nor been reversed.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "RL",
+   "type": "high event risk",
+   "text": "Estimated earnings 11-05, 3 trading days out (approximate). No news or filings in the window; earlier sell-side drift was supportive (UBS Buy/$521).",
+   "event_date": "2026-11-05"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "ONC",
+   "type": "high event risk",
+   "text": "Estimated earnings 11-05, 3 trading days out (approximate). Only a Benzinga filler piece in the window.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "DBX",
+   "type": "medium event risk",
+   "text": "Estimated earnings 11-05, 3 trading days out, but Q3 was pre-announced in line or above guidance with the 9% headcount cut (8-K 2.02/2.05/5.02 on 10-28), which lowers print risk. The 5.02 officer change is still unread and has aged out of the filings view. Not in the 7-day filings list today.",
+   "event_date": "2026-11-05"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "IDXX",
+   "type": "low event risk",
+   "text": "Held. Event passed: Q3 reported this morning (8-K 2.02 filed 11-02), EPS $4.01 vs $3.71, sales $1.214B vs $1.191B, FY26 EPS guide raised to $14.96-$15.16 and sales guide to $4.741B-$4.767B; stock about +20% per Benzinga. The stale thesis premise (earnings outside the window) is moot. BTIG suspended its Buy rating on 10-30, which looks like a pre-print or restriction action rather than a view change.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "EXEL",
+   "type": "low event risk",
+   "text": "The 11-03 estimate is stale: Q3 reported 10-29 (8-K 2.02, 10-Q). Post-print PT raises continue (HC Wainwright $78 today; TD Cowen $76, others $54-$60 on 10-30). A Benzinga 'may fall off a cliff' piece cites overbought RSI only.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "CART",
+   "type": "medium event risk",
+   "text": "Deal event, not earnings: DoorDash agreed to buy Instacart at $65 (about $17B, close by 2028; 8-K 1.01 on 10-29). Wedbush downgraded to Neutral with PT $65 and Deutsche set PT $65 (Hold) today, extending the Bernstein, Citizens, Barclays, Cantor and Needham downgrades. The 11-09 estimate is moot. Any position is merger-arb with FTC and political exposure.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "HWM",
+   "type": "low event risk",
+   "text": "Earnings passed (10-29 beat and raise, 8-K 2.02). The odd post-print PT cuts continue: BTIG to $280 from $340 today, after JPMorgan $285, BNP $250 and Susquehanna $275. Ratings are all kept, but the pattern is now five cuts after a clean beat.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "LNG",
+   "type": "low event risk",
+   "text": "Earnings passed (10-29). BMO raised its PT to $350; Cheniere announced a proposed senior notes offering due 2037 (refinancing, routine). A WSJ report says the US is pushing to restore Russian gas sales to Europe via Ukraine, a modest long-run negative for US LNG demand. Oil and Iran swings remain the macro risk.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "DPZ",
+   "type": "medium event risk",
+   "text": "Held. A fiscal.ai item dated 10-30 says Domino's lowered its fiscal 2026 U.S. net store opening target and operating income growth outlook on franchisee profitability and international headwinds. The source link is a Zacks comparison article, there is no 8-K in the window, and the date next to it may be an aggregator date, so treat it as unverified. If it is new, it is a guidance cut on a held name; if it echoes the 10-20 print, it is stale. The securities class action overhang (10-29) is unchanged. Next earnings 2027-02-22.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "WMT",
+   "type": "low event risk",
+   "text": "Next estimate 2026-11-19. The 10-23 8-K 8.01 has aged out of the filings window unread (open L2 item closed as unverifiable, probably routine). New: Base Power strategic investment and home-battery agreement (10-30), immaterial. FTC pricing-data request from 10-28 is sector-wide.",
+   "event_date": "2026-11-19"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "KR",
+   "type": "low event risk",
+   "text": "Next estimate 2026-12-03. No Kroger news in the window.",
+   "event_date": "2026-12-03"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "CVS",
+   "type": "low event risk",
+   "text": "The file now shows the next estimate as 2027-02-09, which implies the quarter was reported; no 8-K 2.02 in the 7-day window, so unverified. Today's items are noise (community health fair, a Mark Cuban comment on insurer overcharging, and a Shopify options story mis-tagged to CVS). The Labor Department PBM disclosure rule is a standing negative for Caremark.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "MSCI",
+   "type": "low event risk",
+   "text": "Next estimate 2027-01-27. The 10-30 item that MSCI will announce on 11-11 which firms (Strategy/MSTR named) face index exclusion is index-provider output, but it matters for crypto-treasury sentiment. MSCI also kept regular-hours closing prices for index calculation (10-31), routine.",
+   "event_date": "2027-01-27"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "MCO",
+   "type": "low event risk",
+   "text": "Next 2027-02-17. CEO of Moody's Ratings sold about $4.8M of stock (10-30), a routine insider sale.",
+   "event_date": "2027-02-17"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "INCY",
+   "type": "low event risk",
+   "text": "Reported 10-29; next 2027-02-09. No new items in this window.",
+   "event_date": "2027-02-09"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "BDC",
+   "type": "low event risk",
+   "text": "Reported 10-29 (8-K 2.02, 10-Q); next 2027-02-11. No new items.",
+   "event_date": "2027-02-11"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "GRMN",
+   "type": "low event risk",
+   "text": "Reported 10-28; next 2027-02-17. No new items.",
+   "event_date": "2027-02-17"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "LOGI",
+   "type": "low event risk",
+   "text": "Reported 10-27; next 2027-01-26. No new items.",
+   "event_date": "2027-01-26"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "EXLS",
+   "type": "low event risk",
+   "text": "Reported 10-27; next 2027-02-23. No new items.",
+   "event_date": "2027-02-23"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "DORM",
+   "type": "low event risk",
+   "text": "Reported 10-26; next 2027-02-24. No new items.",
+   "event_date": "2027-02-24"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "RRC",
+   "type": "low event risk",
+   "text": "Reported 10-27; the pending all-stock EQT deal (8-K 1.01, 10-26) is the live risk. A Halper Sadeh fairness investigation (10-30) is a law-firm solicitation, routine. Next 2027-01-20.",
+   "event_date": "2027-01-20"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "CALX",
+   "type": "low event risk",
+   "text": "The file now shows the next estimate as 2027-01-27, which implies the quarter was reported; no filing in the window, so unverified. No news.",
+   "event_date": "2027-01-27"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "BJRI",
+   "type": "low event risk",
+   "text": "The file now shows 2027-02-24, which implies the quarter was reported; no filing in the window, so unverified. No news.",
+   "event_date": "2027-02-24"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "VRSN",
+   "type": "low event risk",
+   "text": "Reported 10-22; next 2027-02-04. No news.",
+   "event_date": "2027-02-04"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "SAM",
+   "type": "low event risk",
+   "text": "No filings in the 7-day window (reported 10-22 per earlier runs); next 2027-02-23. No news.",
+   "event_date": "2027-02-23"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "MSM",
+   "type": "low event risk",
+   "text": "Reported 10-22 per earlier runs; next 2027-01-06. No news.",
+   "event_date": "2027-01-06"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "FAST",
+   "type": "low event risk",
+   "text": "Reported 10-14; next 2027-01-19. No news.",
+   "event_date": "2027-01-19"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "WDFC",
+   "type": "low event risk",
+   "text": "Reported 10-21, 10-K 10-26; next 2027-01-07. No news.",
+   "event_date": "2027-01-07"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "MLI",
+   "type": "low event risk",
+   "text": "Next 2027-02-02. No news or filings.",
+   "event_date": "2027-02-02"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "AYI",
+   "type": "low event risk",
+   "text": "Next 2027-01-07. No news or filings.",
+   "event_date": "2027-01-07"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "WINA",
+   "type": "low event risk",
+   "text": "Next 2027-02-17. No news or filings.",
+   "event_date": "2027-02-17"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "SBH",
+   "type": "low event risk",
+   "text": "Company-scheduled Q4 call on 11-10 per earlier runs (6 trading days out), outside the window. No news.",
+   "event_date": "2026-11-10"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "TTEK",
+   "type": "low event risk",
+   "text": "Estimated earnings 11-11, 7 trading days out, outside the window. No news.",
+   "event_date": "2026-11-11"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "BLBD",
+   "type": "low event risk",
+   "text": "Estimated earnings 11-23, outside the window. No news.",
+   "event_date": "2026-11-23"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "ADSK",
+   "type": "low event risk",
+   "text": "Estimated earnings 11-24, outside the window. No news.",
+   "event_date": "2026-11-24"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "BBY",
+   "type": "low event risk",
+   "text": "Estimated earnings 11-24, outside the window. The BBY-tagged Teesside substation story is about Balfour Beatty, not Best Buy.",
+   "event_date": "2026-11-24"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "UNFI",
+   "type": "low event risk",
+   "text": "Estimated earnings 12-01, outside the window. No news.",
+   "event_date": "2026-12-01"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "WLY",
+   "type": "low event risk",
+   "text": "Estimated earnings 12-03, outside the window. No news.",
+   "event_date": "2026-12-03"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "ADBE",
+   "type": "low event risk",
+   "text": "Estimated earnings 12-09, outside the window. Event risk is the sell-side: see notable (Redburn PT cut to $140 from $270).",
+   "event_date": "2026-12-09"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "BTC/USD",
+   "type": "high event risk",
+   "text": "Aftermath of the record $6.3B Binance hack: Binance replaced 90% of the stolen funds from company money, said it completed new security upgrades and resumed withdrawals in phases (next phase Tuesday), the FBI blames North Korea, and the Secret Service is investigating with Circle and others. BTC held its ground (Bitcoin outperformed gold last week). On the news alone the 'exchange failure' invalidation clause has not tripped: Binance is paying users back and reopening withdrawals, not failing. Open risks: the hack's DeFi lending spillover, Coinbase/Robinhood/Gemini stocks falling, a CFTC push to register exchanges (a regulatory shift, not yet a rule), Strategy resuming purchases (811 BTC, $65.5M) after its pause but facing the MSCI exclusion decision on 11-11, Circle earnings 11-04 before the open, and the midterms Tuesday (an analyst warns of a post-midterm correction). Nothing here is a hard regulatory or exchange failure.",
+   "event_date": "2026-11-03"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "ETH/USD",
+   "type": "medium event risk",
+   "text": "Tagged on the Binance coverage (the hack reportedly involved borrowing Ether against stablecoins). Bitmine added 8,573 ETH and held firm, but ETH ETFs posted their worst monthly outflows on record in October and a head-and-shoulders pattern is cited. Relative weakness thread unchanged; no ETH-specific rule.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "QQQ",
+   "type": "high event risk",
+   "text": "The AI-capex thread (10-20 onward) is now a rout: Nasdaq fell over 700 points on Friday with Intel down 29% and SMH down about 7%; Tom Sosnoff says the AMD/Micron selloff is 'just the beginning'; the Fear & Greed index is 26. Futures were up Monday ahead of Apple and Palantir earnings. Midterms Tuesday and the Iran war (Brent about $111, Trump saying it ends 'one way or the other') add event risk. Bullish counterweights are seasonal (S&P up 19 of 19 in midterm Nov-April windows).",
+   "event_date": "2026-11-02"
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "VOO",
+   "type": "medium event risk",
+   "text": "Same backdrop as QQQ with a broader cushion. Valuation metric dipping and rally 'hitting a wall' on AI jitters (10-31). Midterms and October NFP this week.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "VTI",
+   "type": "low event risk",
+   "text": "No VTI headline; same US-equity backdrop as VOO.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "VXUS",
+   "type": "low event risk",
+   "text": "No VXUS headline; exposed to the Iran/oil backdrop.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "VWO",
+   "type": "low event risk",
+   "text": "No VWO headline in the window.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "VNQ",
+   "type": "medium event risk",
+   "text": "No VNQ-specific headline. Rate-sensitive: December hike odds were 82% in earlier runs and nothing in this window changes that; October NFP this week.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "TLT",
+   "type": "medium event risk",
+   "text": "No new rate event in this window. The earlier hawkish hold (two dissents for a hike), a 10-year near 5% and 3.6% PCE stand; NFP is the next data point. Duration risk skews to higher yields.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "IEF",
+   "type": "medium event risk",
+   "text": "Same rate backdrop as TLT with shorter duration. No IEF headline.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "BND",
+   "type": "low event risk",
+   "text": "Same rate backdrop with the lowest duration of the three. No BND headline.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "GLD",
+   "type": "medium event risk",
+   "text": "Gold broke below key support and GLD/IAU outflows jumped (10-31), with NFP looming; another bounce-or-break moment. Other GLD items are filler. The 11-24 'earnings' date is a data artifact.",
+   "event_date": null
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "IDXX",
+   "type": "headline",
+   "text": "IDEXX Q3 EPS $4.01 beats $3.71; FY26 EPS guide raised to $14.96-$15.16 vs $14.82 est; stock about +20%: Held name. Clean beat and raise resolves the print risk that the 10-29 and 10-30 flags and the stale thesis premise (L5) pointed at; the PT cuts (Jefferies, UBS) that preceded it were wrong-footed. The move is large enough that the entry-relative position and any stop distance have changed materially, which is a sizing question for others, not a news one."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "AAPL",
+   "type": "headline",
+   "text": "Apple reports fiscal Q4 after the close today; BofA cuts FY27 iPhone forecast by 9M units; J595 home robot may slip to 2028: Print is today, so the date question is closed. The pre-print read is two-sided: demand evidence for iPhone Duo and the 'avoids the AI spending binge' narrative against component costs and a lowered unit forecast. Options imply a large move. Most other AAPL-tagged items (Musk, Tesla weekly, prediction-market previews, macro roundups) are noise."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "CLX",
+   "type": "headline",
+   "text": "Evercore ISI upgrades Clorox to In-Line from Underperform, PT $99: Softens the negative preview drift (JPMorgan Underweight/$83, UBS) just ahead of a print that has not yet appeared. The upgrade is to a neutral rating, not a bullish one, and the CEO transition (Garcia, effective 2027-01-05) still lands around the print."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "HWM",
+   "type": "headline",
+   "text": "BTIG lowers Howmet PT to $280 from $340, keeps Buy: Continues the 10-30 pattern of large PT cuts after a clean beat-and-raise (JPMorgan $285, Susquehanna $275, BNP $250). Ratings hold, so it reads as valuation or rotation out of aerospace and AI-adjacent names rather than a fundamental problem. Still unexplained by the inputs."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "LNG",
+   "type": "headline",
+   "text": "BMO raises Cheniere PT to $350; senior notes due 2037 offered; WSJ: US pushes to restore Russian gas to Europe via Ukraine: PT drift keeps rising after the 10-29 beat and dividend raise. The notes offering is refinancing. The Russian gas report is a long-dated competitive risk to US LNG and is only a headline so far."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "CART",
+   "type": "headline",
+   "text": "Wedbush downgrades Maplebear to Neutral (PT $65); Deutsche Bank PT to $65 from $50, Hold: More deal-driven moves to a capped-upside stock. Continues the 10-23 to 10-30 takeover thread; nothing changes the $65 deal terms. Merger-arb only."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "ADBE",
+   "type": "headline",
+   "text": "Rothschild & Co Redburn lowers Adobe PT to $140 from $270: A cut of nearly half on a single name is rare and fits the AI-disruption rout in software and chips. The rest of the ADBE items are filler. No filing or earnings event until 12-09, so this is a sentiment signal only."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "DPZ",
+   "type": "headline",
+   "text": "Domino's lowers fiscal 2026 U.S. store-opening target and operating income growth outlook (fiscal.ai, dated 10-30): Held name. If new, this is a guidance cut on top of the 10-26 DA Davidson PT cut and the surviving class action. The only source is an aggregator summary linked to a Zacks comparison piece, and no 8-K is in the window, so it may echo the 10-20 results. Worth checking whether it reflects a new disclosure."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "BTC/USD",
+   "type": "headline",
+   "text": "Binance finishes security upgrades, resumes withdrawals in phases; replaces 90% of stolen crypto; FBI blames North Korea: The incident is moving from crisis to cleanup. Withdrawals are reopening and 98% of users stayed, so an exchange failure is not evidenced. Continues the 10-30 flag, which has so far come to less than feared on price (BTC about flat through the weekend). Follow-through to watch: Tuesday's withdrawal phase, exchange-stock weakness, and any CFTC move toward a federal registration option."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "BTC/USD",
+   "type": "headline",
+   "text": "Strategy buys 811 BTC for $65.5M after pausing; MSCI to announce index exclusion rules on 11-11 with Strategy a named candidate: Ends the 10-27 purchase pause but at a small size, and sets a dated passive-selling risk for the biggest treasury holder (a headline cites about $2.8B of potential passive selling). The 10-28 Datavault credibility hit and Strategy strain thread continues; this is the first dated catalyst."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "QQQ",
+   "type": "headline",
+   "text": "Nasdaq drops over 700 points as Intel falls 29% and chips sink; Sosnoff says AMD/Micron selloff is 'just the beginning': Continues and deepens the AI-capex thread (Alphabet, Amazon, Intel). Hard price damage now, not just worry. Futures bounced Monday, so Apple and Palantir prints and the midterms are the next tests."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "GLD",
+   "type": "headline",
+   "text": "Gold falls below key support as GLD ETF outflows jump: Adds to the sub-$4,000 break noted 10-29. Outflows with NFP ahead keep GLD a risk to hold as a diversifier this week."
+  },
+  {
+   "date": "2026-11-02",
+   "run": "2026-11-02",
+   "symbol": "EXEL",
+   "type": "headline",
+   "text": "HC Wainwright raises Exelixis PT to $78 (Buy): Continues the post-beat PT raises from 10-30. A Benzinga overbought-RSI piece is technical noise. The 11-03 earnings estimate is stale because the company reported 10-29."
+  }
+ ],
+ "note": "Trade calls are graded at 20 sessions; a hit rate means little until `enough_data` is true (30+ graded calls). Lessons come from a handful of trades; treat each as a hypothesis with the evidence it cites, not a rule. Hard limits are in code and lessons can't change them."
+}

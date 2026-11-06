@@ -1,0 +1,38 @@
+{
+  "summary": "The main risk today is the earnings calendar. Eight names have estimated reports within 5 trading days (MCO and WDFC tomorrow, SAM and VRSN on 10-22, DORM on 10-26, and EXLS, INCY and LOGI on 10-27), and the only notable 8-K item is a 5.02 officer change at SMG. Most company-specific news is about AAPL (a Loop downgrade to Hold, an Oct 28 product event, earnings likely Nov 2, and EU/UK regulatory pressure). MSCI and MLI already reported this morning, and KR reaffirmed guidance and set long-term targets. Earnings dates are estimates (last year's date + 364 days) unless noted.",
+  "event_risk": [
+    {"symbol": "MCO", "risk": "high", "why": "Estimated earnings in 1 trading day; approximate date.", "date": "2026-10-21"},
+    {"symbol": "WDFC", "risk": "high", "why": "Estimated earnings in 1 trading day; approximate date.", "date": "2026-10-21"},
+    {"symbol": "SAM", "risk": "high", "why": "Estimated earnings in 2 trading days; approximate date.", "date": "2026-10-22"},
+    {"symbol": "VRSN", "risk": "high", "why": "Estimated earnings in 2 trading days; approximate date. Wedbush raised its PT to $351 ahead of the print.", "date": "2026-10-22"},
+    {"symbol": "DORM", "risk": "high", "why": "Estimated earnings in 4 trading days; approximate date.", "date": "2026-10-26"},
+    {"symbol": "EXLS", "risk": "high", "why": "Estimated earnings in 5 trading days; approximate date, could fall just outside the window.", "date": "2026-10-27"},
+    {"symbol": "INCY", "risk": "high", "why": "Estimated earnings in 5 trading days; approximate date, could fall just outside the window.", "date": "2026-10-27"},
+    {"symbol": "LOGI", "risk": "high", "why": "Estimated earnings in 5 trading days; approximate date. Also filed an 8-K on 10-13 with item 5.03 (bylaw/charter amendment), which is routine.", "date": "2026-10-27"},
+    {"symbol": "SMG", "risk": "medium", "why": "8-K item 5.02 (officer/director change) filed 2026-10-16; details not in the input and worth checking. Estimated earnings 11-04.", "date": "2026-10-16"},
+    {"symbol": "AAPL", "risk": "medium", "why": "The estimate says 10-29, but a Benzinga headline says earnings are Nov 2 (about 9 trading days out). There is also an Oct 28 product event, so two catalysts land just outside the 5-day window.", "date": "2026-11-02"},
+    {"symbol": "CALX", "risk": "medium", "why": "Estimated earnings 10-28 (6 trading days); with an approximate date this could land inside the 5-day window.", "date": "2026-10-28"},
+    {"symbol": "CVS", "risk": "medium", "why": "Estimated earnings 10-28 (6 trading days); approximate date.", "date": "2026-10-28"},
+    {"symbol": "GRMN", "risk": "medium", "why": "Estimated earnings 10-28 (6 trading days); approximate date.", "date": "2026-10-28"},
+    {"symbol": "RRC", "risk": "medium", "why": "Estimated earnings 10-28 (6 trading days); approximate date. The 10-14 8-K (item 2.02) was probably an operational/preliminary update.", "date": "2026-10-28"},
+    {"symbol": "BDC", "risk": "medium", "why": "Estimated earnings 10-29 (7 trading days); approximate date.", "date": "2026-10-29"},
+    {"symbol": "BJRI", "risk": "medium", "why": "Estimated earnings 10-29 (7 trading days); approximate date.", "date": "2026-10-29"},
+    {"symbol": "HWM", "risk": "medium", "why": "Estimated earnings 10-29 (7 trading days); approximate date.", "date": "2026-10-29"},
+    {"symbol": "LNG", "risk": "medium", "why": "Estimated earnings 10-29 (7 trading days); approximate date.", "date": "2026-10-29"},
+    {"symbol": "MSCI", "risk": "low", "why": "Already reported Q3 on 10-20 (8-K 2.02), so the 10-27 estimate is stale and the earnings event has passed.", "date": "2026-10-20"},
+    {"symbol": "MLI", "risk": "low", "why": "Reported Q3 on 10-20 (8-K 2.02); the event has passed but the stock may still be reacting today.", "date": "2026-10-20"}
+  ],
+  "notable": [
+    {"symbol": "AAPL", "headline": "Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330", "read": "A sell-side downgrade right before a busy catalyst stretch (Oct 28 MacBook Pro event, Nov 2 earnings) with market cap above $5T. It is a counterweight to the strong iPhone Duo demand reports (82-day lead times)."},
+    {"symbol": "AAPL", "headline": "UK CMA proposals on iPhone contactless access; Poland orders App Tracking Transparency changes", "read": "Regulatory pressure in Europe is piling up on services and fees. Neither is immediately material, but the direction is negative for platform economics."},
+    {"symbol": "AAPL", "headline": "Apple Commits Up To $100M With American Manufacturing Program Partner Perryman for iPhone Duo Titanium", "read": "A small dollar amount; mainly signals onshoring and tariff positioning. Combined with the Russia tariff waiver it modestly lowers tariff overhang."},
+    {"symbol": "KR", "headline": "Kroger Sets 7%-11% Annual EPS Growth Target Through 2029, Reaffirms 2026 Outlook", "read": "Investor-day update (8-K 7.01): FY26 guidance of $5.10-$5.30 brackets the $5.21 consensus, and the multi-year targets give clearer visibility. A stabilizing development, not a surprise."},
+    {"symbol": "MSCI", "headline": "MSCI Q3 Adj. EPS $5.11 Beats $5.02 Estimate, Sales $892M Beat", "read": "A clean beat on both EPS and revenue; the earnings risk is behind it."},
+    {"symbol": "MLI", "headline": "Mueller Industries Q3 EPS $1.00 Misses $1.05 Estimate, Sales $1.419B Beat $1.285B Estimate", "read": "Mixed print: a big revenue beat (likely copper pricing) but an EPS miss points to margin pressure."},
+    {"symbol": "WMT", "headline": "Evercore raises PT to $130; Deutsche Bank upgrade; Walmart+/Sam's Club bundle at $120/year", "read": "Sell-side momentum is clustering positively (BofA also reiterated Buy on ad revenue). The membership bundle supports recurring revenue. Earnings around 11-19 (estimate)."},
+    {"symbol": "CLX", "headline": "JP Morgan Maintains Underweight on Clorox, Lowers Price Target to $83", "read": "Continued bearish sell-side stance going into estimated earnings on 11-02."},
+    {"symbol": "TPR", "headline": "UBS Maintains Buy on Tapestry, Lowers Price Target to $200", "read": "The rating holds, but the target cut trims expected upside ahead of earnings around 11-05."},
+    {"symbol": "MTCH", "headline": "Evercore ISI Group Upgrades Match Group to Outperform, Raises Price Target to $53", "read": "A rating change rather than a routine PT tweak; a positive sentiment shift ahead of earnings around 11-03."},
+    {"symbol": "CART", "headline": "Instacart agrees to $5M settlement with U.S. authorities over PERM recruitment discrimination", "read": "Financially immaterial; headline risk only. A separate story tags CART about a grocery-chain cyber incident, but it doesn't say Instacart is directly involved."}
+  ]
+}
