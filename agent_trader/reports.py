@@ -134,6 +134,8 @@ def close_report(run: Path) -> Path:
     for name in AGENTS:
         rv = _load(run / "review" / f"{name}.json") or {}
         for f in rv.get("broken_theses", []):
+            if not isinstance(f, dict):
+                continue
             flags.setdefault(f.get("symbol"), []).append(f"{name}: {f.get('why', '')}")
     for p in close.get("positions", []):
         lines.append(
