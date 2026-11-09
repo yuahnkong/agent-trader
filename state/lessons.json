@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-09",
   "lessons": [
     {
       "id": "L1",
@@ -19,11 +19,12 @@
         "2026-11-02 DPZ: the PM wrote the re-anchored level (about $285, 10% under the $316.58 fill) into the decision reasoning and treats it as the invalidation from today, ending the 9-session drift in practice. The stored thesis in close.json still reads $274.88, so the owner suggestion on amending stored theses stands.",
         "2026-11-03 DPZ: the PM again wrote the re-anchored level (about $285, 10% under the $316.58 fill) into the decision reasoning; close.json's stored thesis still reads $274.88 and the Fundamentals review flags it. IDXX's stored stop ($500.22) is stale in the same way; the PM re-anchored it to about $600 in the decision text.",
         "2026-11-04 applied and stored: the PM wrote DPZ ($285, 10% under the $316.58 fill), IDXX ($620, re-anchored from the $600 level that was set against the $667 close) and CARG into decision.json thesis_updates, and close.json theses now carry the new invalidations; the Fundamentals review says this closes the L1/L5 gap. The thesis_updates field is the working route for stored amendments. IDXX's thesis prose still says earnings are estimated 11-02.",
-        "2026-11-06 applied: the PM re-anchored the VOO and VTI SPY-200-day invalidations to the 727.38 line the regime filter uses (stored 723.99 and 723.23 were stale) through thesis_updates, and the IDXX earnings text was refreshed. DPZ's $285 level stands in close.json."
+        "2026-11-06 applied: the PM re-anchored the VOO and VTI SPY-200-day invalidations to the 727.38 line the regime filter uses (stored 723.99 and 723.23 were stale) through thesis_updates, and the IDXX earnings text was refreshed. DPZ's $285 level stands in close.json.",
+        "2026-11-09 VNQ: the stop was written as 'about $90.5 if it fills near the 95.73 reference close; re-anchor to the real fill'. It filled at 96.81 (1.1% higher), so the stored $90.5 sits about 6.5% under the fill, not the intended 5%, and the conditional wording is still in close.json (PM review). Same pattern as MSM's 'roughly $108 only if it fills near the menu close' (10-27). Where the fill is not known at decision time, state the stop as a percentage of the actual fill and write the number into thesis_updates at the next run. Applied correctly the same day: the VOO/VTI SPY-line re-anchor and the BTC/USD stop (10% under the 83,685.83 fill) that fired."
       ],
       "confidence": "low",
       "added": "2026-10-20",
-      "last_confirmed": "2026-11-06",
+      "last_confirmed": "2026-11-09",
       "status": "active",
       "retired_why": null
     },
@@ -45,11 +46,12 @@
         "2026-11-02: the News Analyst confirmed IDXX's print from the 8-K 2.02 and results headline, checked every held name's filings (no 4.01, 4.02 or 5.02) and listed held-name earnings dates (CARG 11-05 the only one inside the window). The WMT 8-K 8.01 (10-23) aged out unread, so that item closes by expiry, not by resolution.",
         "2026-11-03: the News Analyst resolved stale estimates from filings and headlines (CALX reported 11-02, ULS 11-03, MTCH 11-02, EXEL 10-29, AAPL 11-02 with the headline date right and the file's 10-29 wrong, IDXX stale 11-02 estimate) and listed held-name dates. Still open: GPOR (file estimate today, no filing, company date not in input), BJRI, SMG's 10-16 8-K 5.02 and DBX's 10-28 8-K 5.02, both unread.",
         "2026-11-04: the News Analyst checked every held name's filings (no 4.01, 4.02, 5.02 or 1.01), confirmed CARG 11-05 after the close as the only held-name print in the window, and listed the other held dates (WMT 11-19, KR 12-03, MSM 2027-01-06 and so on). Still open and not held: GPOR (11-03 estimate passed, no filing), DBX and SMG 8-K 5.02 unread; DPZ's guidance-cut item remains unverified.",
-        "2026-11-06: the News Analyst checked every held name's own earnings date and filings (no 4.01, 4.02, 5.02 or large 1.01/2.01), resolved GPOR, DBX and BJRI from their 11-04/11-05 8-K 2.02 filings, and listed next dates for all held names. DBX's 11-05 8-K 7.01/8.01 is unreadable from item numbers (not held); DPZ's guidance-cut item is still unconfirmed."
+        "2026-11-06: the News Analyst checked every held name's own earnings date and filings (no 4.01, 4.02, 5.02 or large 1.01/2.01), resolved GPOR, DBX and BJRI from their 11-04/11-05 8-K 2.02 filings, and listed next dates for all held names. DBX's 11-05 8-K 7.01/8.01 is unreadable from item numbers (not held); DPZ's guidance-cut item is still unconfirmed.",
+        "2026-11-09: the News Analyst checked held names' filings (no 4.01, 4.02, 5.02 or large 1.01/2.01), listed each held name's next earnings date and found VNQ event-free before the buy. Open and not held: DBX's 11-05 8-K 7.01/8.01 unreadable from item numbers; DPZ's guidance-cut item is ten sessions old with no filing or second source."
       ],
       "confidence": "low",
       "added": "2026-10-21",
-      "last_confirmed": "2026-11-06",
+      "last_confirmed": "2026-11-09",
       "status": "active",
       "retired_why": null
     },
@@ -68,11 +70,12 @@
         "2026-11-02: no new sector claim (no proposals). The PM again counted DPZ, WMT and KR as about 26% Consumer Staples by label and cited the stack as a reason not to add; the Fundamentals review repeats that DPZ's Staples rank is a wholesale-groceries SIC artifact.",
         "2026-11-03: no new sector claim (no proposals). The PM counted WMT, DPZ and KR as about 26% Consumer Staples by label and used it as a reason not to add; WMT and KR both fell about 2.3% together on the day, which is what the stacking concern predicts (one day, not graded evidence). The Fundamentals review repeats that MSCI is labelled Industrials and DPZ's Staples rank is a SIC artifact.",
         "2026-11-04: no new sector claim (no proposals). The PM again cited the roughly 26% Consumer Staples stack (WMT, DPZ, KR) as the reason not to add; the Fundamentals review repeats the label caveats for DPZ and MSCI. All three staples rose 3-5% on the day, so the stacking concern was not tested on the downside (one day, not evidence).",
-        "2026-11-06: no new sector claim (no proposals). The PM kept treating WMT, DPZ and KR as one roughly 26% Consumer Staples bet and did not add; on the day they fell together (WMT -1.9%, DPZ -2.3%, KR -2.5%) while SPY was roughly flat, as the stacking concern predicts. The PM, News, Fundamentals and Market reviews all say staples were not a shelter. One day, not graded evidence."
+        "2026-11-06: no new sector claim (no proposals). The PM kept treating WMT, DPZ and KR as one roughly 26% Consumer Staples bet and did not add; on the day they fell together (WMT -1.9%, DPZ -2.3%, KR -2.5%) while SPY was roughly flat, as the stacking concern predicts. The PM, News, Fundamentals and Market reviews all say staples were not a shelter. One day, not graded evidence.",
+        "2026-11-09: the PM again counted WMT, DPZ and KR as about 26% Consumer Staples by label and added none; the VNQ proposal was checked for overlap (no held REIT). On a +2.4% SPY day the staples were flat (WMT +0.06%, DPZ -0.03%, KR -0.67%), so they neither sheltered nor led. One day, not graded evidence."
       ],
       "confidence": "low",
       "added": "2026-10-27",
-      "last_confirmed": "2026-11-06",
+      "last_confirmed": "2026-11-09",
       "status": "active",
       "retired_why": null
     },
@@ -87,11 +90,12 @@
         "2026-11-02: the PM explicitly declined to cite L4 for the empty trade list and gave size (about $9 above the 10% buffer) and an event-heavy week as the reasons instead, which is the narrow reading the lesson intends. Cash is 11.4% and the account is 88.6% invested against the shadow's 99.0%; the PM says to look for a proposal when cash rises.",
         "2026-11-03: the PM again declined to cite L4 for the empty trade list (size, with about $8.8 above the 10% buffer, and an event-heavy day were the reasons) and said to look for a non-Technology, non-Staples name if cash rises. The narrow reading held; the Proposer made no proposals.",
         "2026-11-04: the PM again named size (about $8 above the 10% buffer) and the 11-05 print cluster as its reasons and said L4 was not a blanket idle-cash rule; its review asks the Proposer for a named non-Technology, non-Staples candidate next run. Cash is 11.3% and the account 88.8% invested against the shadow's 99.3%.",
-        "2026-11-06: the PM again said L4 was not its reason for the empty trade list (size, about $9 above the 10% buffer, the risk-off stance and the payrolls print were) and named INCY as the first candidate when cash rises, which meets the earlier request for a non-Technology, non-Staples name. The Proposer made no proposals."
+        "2026-11-06: the PM again said L4 was not its reason for the empty trade list (size, about $9 above the 10% buffer, the risk-off stance and the payrolls print were) and named INCY as the first candidate when cash rises, which meets the earlier request for a non-Technology, non-Staples name. The Proposer made no proposals.",
+        "2026-11-09: the PM cut the VNQ buy from $20 to $12 citing L4 (about 1.9% of equity, justified by the Market Analyst's Real Estate tilt and low beta, not diversification alone) and said the buy was roughly a swap for the BTC proceeds. It named INCY as the next candidate if cash rises, and noted the account was about 10 points less invested than the shadow on a +2.4% day. The narrow reading held; the review calls this the cost of caution, not evidence that L4 is wrong."
       ],
       "confidence": "low",
       "added": "2026-10-29",
-      "last_confirmed": "2026-11-06",
+      "last_confirmed": "2026-11-09",
       "status": "active",
       "retired_why": null
     },
@@ -115,11 +119,13 @@
         "2026-11-05 applied: the PM reviewed every held name (CARG explicit hold through the after-close print with dollar risk, BTC exchange-failure clause untripped, IEF and BND nearest stops, VOO/VTI against the SPY 200-day) and routed the IDXX re-anchor ($620 to $630) through thesis_updates into close.json. Process evidence only.",
         "2026-11-05 caveat on the 'stale marks' framing: the PM's review and the Fundamentals and News reviews compare the decision text (pre-open inputs, ending 14:18Z) with close.json after SPY fell about 4.4% in the session. The drop came after the decision, so the gap is not a computation error. What the day does show is that the IDXX $630 stop, set 10% under about $700, is about 6% under the $670.7 close, BTC/USD (about $75.9k) is about 1% above its $75.3k stop, MSM is about 2.6% from its stop, and VOO/VTI invalidate on SPY's 200-day line, which the Market Analyst reads as roughly 1% away. That is why the lesson now asks for distances on a lower mark. Process evidence only, no graded outcome.",
         "2026-11-06 applied: the PM reviewed every held name with distances on the current and a 4-5% lower mark (BTC/USD about 0.3% above its $75.3k stop with a written rule to sell in full next session on a close below; VOO/VTI against the 200-day; IDXX, MSM, CARG dollar risk at a 10% gap) and stated the exchange-failure clause untripped. The close shows BTC/USD at about $75.8k (0.7% above the stop).",
-        "2026-11-06 stale numbers in stored text: the CARG thesis_update written pre-open says 'about 5.6% of equity and +14.7% on cost'; after CARG fell 6.7% the close shows 5.2% and +7.5%, and the Fundamentals review flags the text as stale. The PM's IDXX estimate (about $660, 4.5% from the $630 stop) was also off against the $676 close (about 7%). Marks derived from market_value/qty are intraday and can be wrong by ~2%. Keep weight and return-on-cost figures out of stored thesis text (they go stale overnight) and quote stop distances as a range or from the stored close. Process evidence only."
+        "2026-11-06 stale numbers in stored text: the CARG thesis_update written pre-open says 'about 5.6% of equity and +14.7% on cost'; after CARG fell 6.7% the close shows 5.2% and +7.5%, and the Fundamentals review flags the text as stale. The PM's IDXX estimate (about $660, 4.5% from the $630 stop) was also off against the $676 close (about 7%). Marks derived from market_value/qty are intraday and can be wrong by ~2%. Keep weight and return-on-cost figures out of stored thesis text (they go stale overnight) and quote stop distances as a range or from the stored close. Process evidence only.",
+        "2026-11-09 applied: the PM stated before the order that BTC/USD's stored stop had tripped (11-06 close 74,756 vs about 75,317), said the exchange-failure clause was untripped and why, sold in full, sequenced the sell before the buy to protect the cash buffer, and gave distances on the current and a 4-5% lower mark for IDXX, MSM, BND, IEF and VOO/VTI. Process evidence only.",
+        "2026-11-09 upside-day gap: the market rose 2.4% after the pre-open inputs, so IDXX closed near $707 against the $630 stop (about 11% under, up 27% on cost) where the decision text said about 7% under a $676 mark. The PM's review asks for the same lower/higher-mark check on upside days when a trim or re-anchor could be due. Consider re-anchoring IDXX toward the gain at the next review, as on 11-04. Process evidence only."
       ],
       "confidence": "low",
       "added": "2026-10-30",
-      "last_confirmed": "2026-11-06",
+      "last_confirmed": "2026-11-09",
       "status": "active",
       "retired_why": null
     }
@@ -196,6 +202,15 @@
       "evidence": [
         "2026-11-06 close.json: agent_return 0.02722, shadow_return 0.03286, spy_return -0.04069; since_version agent -0.00122, shadow -0.01371, spy -0.02526; agent_invested_pct 0.8855, shadow 0.993.",
         "Scorecard as of 2026-11-06: portfolio-manager 5-session 16 right, 13 wrong (0.552), proposer 21 right, 8 wrong (0.724), skeptic 5 right, 17 wrong (0.227); 20-session graded counts are 0 for all three, so none has enough_data (news-analyst has 135 graded, hit rate 0.644, but no news-analyst outcome pattern is shown here)."
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "suggestion": "Hypotheses to watch, not rules. (1) The Market Analyst's risk-off 0.45 call (11-06) met a +2.4% SPY day one; its own review says SPY would need to fall about 3.4% over the next four sessions to grade right, so it is likely wrong when graded. Its record is 6 right, 4 wrong of 10 graded (0.6), level with always-neutral (0.6), and it has not reached 30 graded calls, so no lesson about trusting or discounting it is supportable. (2) The BTC/USD stop fired as written and the position was a small loss (about $1.60); the sale's own test (a close back above about 80,000 within 5 sessions) is open. (3) Since the version-5 start (11-03) the agent is +1.02% against the shadow's -0.06% and SPY's -0.22%, but over the full period it trails the shadow (+3.90% vs +4.66%) and is 88.6% invested against 99.3%; one short window, not evidence about invested level. (4) The earliest 20-session grades (the 10-20 calls) arrive about 11-17; until then no outcome lesson for the PM, Proposer or Skeptic is supportable.",
+      "evidence": [
+        "2026-11-09 Market Analyst review: stance_held_up false, SPY benchmark 575.58 to 589.21, VOO +2.4%, VTI +2.5%; scorecard as of 2026-11-09 shows market-analyst 6 right, 4 wrong, 5 pending, enough_data false.",
+        "2026-11-09 close.json: agent_return 0.039, shadow_return 0.04664, spy_return -0.01799; since_version agent 0.01024, shadow -0.00055, spy -0.00219; agent_invested_pct 0.8855, shadow 0.9932.",
+        "Scorecard 5-session hit rates: portfolio-manager 0.552 (16 right, 13 wrong), proposer 0.724 (21 of 29), skeptic 0.227 (5 of 22); 20-session graded counts are 0 for all three."
       ]
     },
     {

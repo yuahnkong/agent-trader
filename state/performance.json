@@ -250,5 +250,19 @@
   "agent_invested_pct": 0.8855,
   "shadow_invested_pct": 0.9932,
   "version": "5"
+ },
+ {
+  "date": "2026-11-09",
+  "agent_equity": 623.4,
+  "shadow_value": 627.98,
+  "spy_value": 589.21,
+  "agent_return": 0.039,
+  "shadow_return": 0.04664,
+  "spy_return": -0.01799,
+  "agent_invested_return": 0.045395,
+  "shadow_invested_return": 0.046716,
+  "agent_invested_pct": 0.8855,
+  "shadow_invested_pct": 0.9932,
+  "version": "5"
  }
 ]
