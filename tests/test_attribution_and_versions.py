@@ -44,6 +44,7 @@ def test_version_lookup_orders_sessions_within_a_day():
     assert config.version_for("2026-10-28") == "3"
     assert config.version_for("2026-10-29") == "4"
     assert config.version_for("2026-11-04") == "5"
+    assert config.version_for("2026-11-11") == "6"
 
 
 def test_since_version_rebases_on_the_last_close_before_it():

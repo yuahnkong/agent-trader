@@ -28,6 +28,16 @@ def _share(x) -> str:
     return "n/a" if x is None else f"{x:.0%}"
 
 
+def _stop(s: dict | None, sym: str) -> str:
+    if not s or s.get("status") == "missing":
+        return "none set"
+    on = "" if s.get("stop_on") in (None, sym) else f"{s['stop_on']} "
+    if s.get("pct_above_stop") is None:
+        return f"{on}{s['stop_price']:g} (no mark)"
+    flag = {"tripped": " **TRIPPED**", "near": " near"}.get(s["status"], "")
+    return f"{on}{s['stop_price']:g} ({s['pct_above_stop']:+.1%}){flag}"
+
+
 def open_report(run: Path, execution: dict) -> Path:
     day = run.name
     market = _load(run / "inputs" / "market.json") or {}
@@ -70,6 +80,8 @@ def open_report(run: Path, execution: dict) -> Path:
                 lines.append(f"- {c.get('proposal_id', '?')}: {c.get('case_against') or c.get('summary', '')}")
             lines.append("")
 
+    if port.get("stop_alerts"):
+        lines += ["## Stops", "", *[f"- {a}" for a in port["stop_alerts"]], ""]
     lines += ["## Portfolio Manager", "", decision.get("reasoning", "(no reasoning recorded)"), ""]
     lines += ["## Risk layer and orders", "", "| Trade | Requested | Result | Order |", "|---|---|---|---|"]
     for v in execution.get("verdicts", []):
@@ -129,7 +141,8 @@ def close_report(run: Path) -> Path:
     ]
     fills = close.get("fills_today", [])
     lines += [f"- {f['side']} {f['qty']} {f['symbol']} @ {f['price']}" for f in fills] or ["None."]
-    lines += ["", "## Positions", "", "| Symbol | Value | Weight | Unrealized | Thesis broken? |", "|---|---|---|---|---|"]
+    lines += ["", "## Positions", "", "| Symbol | Value | Weight | Unrealized | Stop | Thesis broken? |",
+              "|---|---|---|---|---|---|"]
     flags = {}
     for name in AGENTS:
         rv = _load(run / "review" / f"{name}.json") or {}
@@ -140,10 +153,13 @@ def close_report(run: Path) -> Path:
     for p in close.get("positions", []):
         lines.append(
             f"| {p['symbol']} | {_money(p['market_value'])} | {p['weight']:.1%} | "
-            f"{_money(p['unrealized_pl'])} ({p['unrealized_plpc']:+.1%}) | {'; '.join(flags.get(p['symbol'], [])) or 'no'} |"
+            f"{_money(p['unrealized_pl'])} ({p['unrealized_plpc']:+.1%}) | {_stop(p.get('stop'), p['symbol'])} | "
+            f"{'; '.join(flags.get(p['symbol'], [])) or 'no'} |"
         )
     if not close.get("positions"):
-        lines.append("| all cash | | | | |")
+        lines.append("| all cash | | | | | |")
+    if close.get("stop_alerts"):
+        lines += ["", "Stops to watch: " + "; ".join(close["stop_alerts"]) + "."]
     shadow_trades = close.get("shadow_trades", [])
     if shadow_trades:
         lines += ["", "## Shadow rebalance", ""]

@@ -288,6 +288,10 @@ def execute(dry_run: bool = False, session: str | None = None) -> int:
                      "order_id": sent["id"], "client_order_id": cid(t), "order_status": sent["status"]})
 
     verdicts = review(fresh, ctx)
+    for t in fresh:
+        if str(t.get("side", "")).lower() == "buy" and not theses._price(t.get("stop_price")):
+            notes.append(f"{str(t.get('symbol', '')).upper()} buy has no numeric stop_price; "
+                         "its stop can't be tracked until the PM sets one.")
     session = _session_today(alpaca, today)
     if not session:
         notes.append("Market is closed today; no orders sent.")
@@ -406,6 +410,8 @@ def close() -> int:
         notes.append(f"KILL SWITCH: {reason}. Sell orders queued for the next open; trading paused.")
     trading.save()
 
+    current = theses.open_theses(set(held))
+    stops = theses.stop_check(current, last, held)
     fills = [f for f in alpaca.fills(after=today - timedelta(days=1))
              if datetime.fromisoformat(f["transaction_time"].replace("Z", "+00:00"))
              .astimezone(config.MARKET_TZ).date() == today]
@@ -427,11 +433,13 @@ def close() -> int:
              "weight": float(p["market_value"]) / equity if equity else 0.0,
              "unrealized_pl": float(p["unrealized_pl"]), "unrealized_plpc": float(p["unrealized_plpc"]),
              "change_today": float(p.get("change_today") or 0),
+             "stop": stops[p["symbol"]],
              "lots": [{"qty": l.qty, "cost": l.price, "opened": l.opened.isoformat()} for l in led.lots.get(p["symbol"], [])]}
             for p in positions
         ],
         "todays_decisions": decisions,
-        "theses": theses.open_theses(set(held)),
+        "theses": current,
+        "stop_alerts": theses.stop_alerts(stops),
         "shadow_trades": shadow_trades,
         "shadow_holdings": {s: round(q, 6) for s, q in shadow.shares.items()},
         "recent_performance": load_performance()[-10:],

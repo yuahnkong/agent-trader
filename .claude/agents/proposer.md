@@ -47,9 +47,14 @@ strong reason to sell. Doing nothing is a valid proposal set when the evidence i
 Every proposal needs a thesis that cites which research note supports it, and an
 invalidation: a concrete, checkable condition that would prove it wrong.
 
+Every buy proposal needs a numeric `stop_price`: the close at or below which the thesis
+is wrong. Anchor it to the likely fill, not a stale reference close.
+
 Review the held book too, on every run. Each position in `inputs/portfolio.json` carries
-its current `thesis` and `invalidation`. If a position's invalidation has tripped, propose
-selling it (fraction 1.0), or, if you think it shouldn't be sold, say why in `summary`. A
+its current `thesis`, `invalidation` and a `stop` block computed by Python, and
+`stop_alerts` lists the positions at or near their stops. If a stop shows `tripped`, or a
+qualitative invalidation clause has tripped, propose selling the position (fraction 1.0),
+or, if you think it shouldn't be sold, say why in `summary`. A
 stop that only needs re-anchoring is the Portfolio Manager's job (`thesis_updates`); don't
 spend a trade slot on it.
 
@@ -67,6 +72,7 @@ Write `runs/YYYY-MM-DD/agents/proposer.json`:
       "fraction": null,
       "thesis": "...",
       "invalidation": "...",
+      "stop_price": 51.5,
       "sources": ["fundamentals-analyst", "market-analyst"]
     }
   ]

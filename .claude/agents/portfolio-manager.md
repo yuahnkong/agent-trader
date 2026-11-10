@@ -43,13 +43,16 @@ Write `runs/YYYY-MM-DD/decision.json`:
       "notional_usd": 55.0,
       "fraction": null,
       "thesis": "the thesis as approved",
-      "invalidation": "the condition that would make us sell"
+      "invalidation": "the condition that would make us sell",
+      "stop_price": 51.5,
+      "stop_on": null
     }
   ],
   "rejected": [{"proposal_id": "P2", "why": "..."}],
   "thesis_updates": [
     {"symbol": "IDXX", "invalidation": "close below $600 (10% under the $667 post-earnings close)",
-     "thesis": null, "why": "the old $575 stop would give back most of the earnings gain"}
+     "stop_price": 600, "stop_on": null, "thesis": null,
+     "why": "the old $575 stop would give back most of the earnings gain"}
   ]
 }
 ```
@@ -58,7 +61,18 @@ For sells set `notional_usd` to null and `fraction` in (0, 1]. `trades` may be e
 
 Each held position in `inputs/portfolio.json` carries its current `thesis` and
 `invalidation`, and `invalidation_set` gives the run that last set it. Check every held
-name against its invalidation. When you re-anchor a stop, or a thesis has gone stale, put
+name against its invalidation.
+
+**Numeric stops.** Every buy and every held position needs a `stop_price`: the close at or
+below which the price part of the invalidation has tripped. Set `stop_on` to another
+symbol only when the stop is on that symbol's close (VOO and VTI use `"SPY"` with the
+200-day level); otherwise leave it null. Python computes each position's `stop` block
+(mark, `pct_above_stop`, `status`: ok, near, tripped or missing) and the `stop_alerts`
+list. Quote those figures instead of working distances out by hand, and don't repeat the
+arithmetic in your reasoning. Any held position whose stop shows `missing` gets a
+`thesis_updates` entry with a `stop_price` today, taken from the level its invalidation
+text already states. Qualitative clauses (an exchange failure, a guidance cut) stay in
+the `invalidation` text; Python can't check those, so you still judge them. When you re-anchor a stop, or a thesis has gone stale, put
 the new level in `thesis_updates` (leave `thesis` null to keep the old text). Saying it only
 in `reasoning` doesn't stick: tomorrow's agents and tonight's reviewers read the stored
 level, not your prose. Updates apply only to symbols already held. `thesis_updates` may

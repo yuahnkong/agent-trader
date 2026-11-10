@@ -40,6 +40,9 @@ Rules:
   one clear, explainable mistake (a missed earnings date, an ignored red flag). Cite them by
   date and symbol. One day's price move is not evidence.
 - Confidence: `low` (1-2 cases), `medium` (3-5), `high` (6+ and the scorecard agrees).
+- Stop distances, marks and stop status are computed by Python (each position's `stop`
+  block and `stop_alerts`). Don't write lessons that tell agents to do that arithmetic by
+  hand; a lesson about stops should be about where to set one, not how to measure it.
 - Keep at most 20 active lessons. Merge duplicates. Retire a lesson (`status: "retired"`,
   with `retired_why`) when later graded calls contradict it, and say so; don't delete it.
 - Learn from the news memory too: if a kind of headline (downgrades, guidance cuts, 8-K

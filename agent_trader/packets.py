@@ -25,7 +25,7 @@ from .risk import Context, Position, kill_switch_tripped, max_position_usd
 from .screen import SlimSec, median_vol, sec_ticker
 from .sec import SecClient
 from .state import Trading
-from .theses import open_theses
+from .theses import open_theses, stop_alerts, stop_check
 
 # Free proxies for what the Market Analyst would ideally read. Only SEC and Alpaca are
 # reachable from the run environment, so VIX, yields and credit come from ETFs.
@@ -190,6 +190,8 @@ def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, clo
         betas[sym] = None if b is None else round(b, 3)
     drop = sum(-0.10 * (betas.get(s) or 1.0) * mv for s, mv in held.items())
     current = open_theses(set(held))
+    marks = {s: float(c.iloc[-1]) for s, c in closes.items() if len(c)}
+    stops = stop_check(current, marks, list(held))
     blocked = {}
     for sym in menu_syms:
         loss = ctx.last_loss_sale.get(sym)
@@ -217,9 +219,12 @@ def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, clo
              # The thesis in force, including any invalidation re-anchored via thesis_updates.
              "thesis": current.get(p["symbol"], {}).get("thesis"),
              "invalidation": current.get(p["symbol"], {}).get("invalidation"),
-             "invalidation_set": current.get(p["symbol"], {}).get("updated")}
+             "invalidation_set": current.get(p["symbol"], {}).get("updated"),
+             # Computed by Python from the last completed close; don't redo this by hand.
+             "stop": stops[p["symbol"]]}
             for p in positions
         ],
+        "stop_alerts": stop_alerts(stops),
         "buy_caps_usd": {sym: cap(sym) for sym in sorted(menu_syms)},
         "asset_classes": {sym: ctx.asset_class.get(sym, "stock") for sym in sorted(menu_syms)},
         "crypto": {"max_pct_of_equity": config.MAX_CRYPTO_PCT, "held_usd": round(ctx.crypto_held(), 2),

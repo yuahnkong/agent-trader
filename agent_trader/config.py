@@ -97,6 +97,8 @@ VERSIONS = [
     ("5", "2026-11-04", "Stored invalidations: the PM re-anchors stops via thesis_updates and every "
                         "agent sees each holding's current thesis; stance graded on a symmetric 1% band "
                         "against never-changing baselines; Skeptic sizing/data objections not graded."),
+    ("6", "2026-11-11", "Numeric stops: buys and held positions carry stop_price (stop_on for SPY-line "
+                        "stops); Python computes distance and status for every position and lists stop alerts."),
 ]
 
 

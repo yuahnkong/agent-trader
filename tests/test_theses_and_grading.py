@@ -91,3 +91,37 @@ def test_scorecard_baselines_and_skeptic_tags(tmp_path, monkeypatch):
     assert ma["baselines"]["always risk-on"] == 1.0
     skeptic = [c for c in card["calls"] if c["agent"] == "skeptic"]
     assert len(skeptic) == 1 and skeptic[0]["claim"] == "will lag"
+
+
+def test_stop_price_set_on_buy_raised_by_update_and_kept_on_add(tmp_path):
+    from agent_trader.theses import stop_check
+    write(tmp_path, "2026-11-11", {"trades": [
+        {**buy("IDXX", "close below 600"), "stop_price": 600},
+        {**buy("VOO", "SPY below 200-day"), "stop_price": 727.98, "stop_on": "spy"},
+        buy("KR", "8% under fill")]})
+    write(tmp_path, "2026-11-12", {"trades": [buy("IDXX", "adds, no stop given")], "thesis_updates": [
+        {"symbol": "IDXX", "stop_price": "640"}, {"symbol": "KR", "stop_price": -1}]})
+    t = open_theses(runs_dir=tmp_path)
+    assert t["IDXX"]["stop_price"] == 640.0 and t["IDXX"]["stop_on"] == "IDXX"
+    assert t["VOO"]["stop_on"] == "SPY"
+    assert t["KR"]["stop_price"] is None  # a bad number is ignored, not stored
+    checks = stop_check(t, {"IDXX": 650.0, "SPY": 720.0, "KR": 60.0}, ["IDXX", "VOO", "KR", "BND"])
+    assert checks["IDXX"]["status"] == "near" and checks["IDXX"]["pct_above_stop"] == 0.0156
+    assert checks["VOO"]["status"] == "tripped" and checks["VOO"]["mark"] == 720.0
+    assert checks["KR"]["status"] == checks["BND"]["status"] == "missing"
+
+
+def test_stop_alerts_order_and_report_column():
+    from agent_trader.reports import _stop
+    from agent_trader.theses import stop_alerts
+    checks = {
+        "A": {"stop_price": 10.0, "stop_on": "A", "mark": 12.0, "pct_above_stop": 0.2, "status": "ok"},
+        "B": {"stop_price": 10.0, "stop_on": "B", "mark": 10.2, "pct_above_stop": 0.02, "status": "near"},
+        "C": {"stop_price": 10.0, "stop_on": "C", "mark": 9.5, "pct_above_stop": -0.05, "status": "tripped"},
+        "D": {"stop_price": None, "stop_on": "D", "mark": None, "pct_above_stop": None, "status": "missing"},
+    }
+    alerts = stop_alerts(checks)
+    assert [a[0] for a in alerts] == ["C", "B", "D"]
+    assert _stop(checks["C"], "C") == "10 (-5.0%) **TRIPPED**"
+    assert _stop(checks["D"], "D") == "none set"
+    assert _stop({**checks["A"], "stop_on": "SPY"}, "A") == "SPY 10 (+20.0%)"
