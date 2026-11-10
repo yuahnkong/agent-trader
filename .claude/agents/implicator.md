@@ -19,6 +19,8 @@ and why.
 
 
 For each proposal, check what it does to the whole portfolio if executed:
+- Start from `exposure` in the portfolio packet: current weights by sector bucket and
+  sleeve, already computed (use `bucket`, not the SIC `screen_label`, for sector claims).
 - Concentration: resulting weight versus the 15% cap, sector weight after the trade, and
   the mix across asset classes (stocks, equity ETFs, bond/gold ETFs, crypto). Watch for
   overlap between a stock and an ETF that already holds it (VOO and QQQ hold the big US

@@ -98,7 +98,10 @@ VERSIONS = [
                         "agent sees each holding's current thesis; stance graded on a symmetric 1% band "
                         "against never-changing baselines; Skeptic sizing/data objections not graded."),
     ("6", "2026-11-11", "Numeric stops: buys and held positions carry stop_price (stop_on for SPY-line "
-                        "stops); Python computes distance and status for every position and lists stop alerts."),
+                        "stops); Python computes distance and status for every position and lists stop alerts. "
+                        "Python-computed exposure by sector bucket; a weekly holdings review (hold/trim/sell "
+                        "per position, graded at 20 sessions, challenged by the Skeptic); lessons capped at 8; "
+                        "L1 and L5 retired into code and L7."),
 ]
 
 

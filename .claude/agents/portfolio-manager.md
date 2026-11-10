@@ -63,6 +63,10 @@ Each held position in `inputs/portfolio.json` carries its current `thesis` and
 `invalidation`, and `invalidation_set` gives the run that last set it. Check every held
 name against its invalidation.
 
+**Weekly holdings review.** On days the Proposer wrote a `holdings_review`, read it with
+the Skeptic's challenges to it. You can't trade a verdict directly, only the proposals that
+come with it, but say in `reasoning` which verdicts you disagree with and why.
+
 **Numeric stops.** Every buy and every held position needs a `stop_price`: the close at or
 below which the price part of the invalidation has tripped. Set `stop_on` to another
 symbol only when the stop is on that symbol's close (VOO and VTI use `"SPY"` with the

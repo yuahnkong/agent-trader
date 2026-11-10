@@ -43,7 +43,10 @@ Rules:
 - Stop distances, marks and stop status are computed by Python (each position's `stop`
   block and `stop_alerts`). Don't write lessons that tell agents to do that arithmetic by
   hand; a lesson about stops should be about where to set one, not how to measure it.
-- Keep at most 20 active lessons. Merge duplicates. Retire a lesson (`status: "retired"`,
+- Keep at most 8 active lessons, each at most about 60 words. A lesson that keeps growing
+  is a checklist, not a lesson: split off what is now enforced in code or prompts and retire
+  it, and merge lessons that say the same thing. When you would exceed 8, retire the
+  weakest-evidenced one. Merge duplicates. Retire a lesson (`status: "retired"`,
   with `retired_why`) when later graded calls contradict it, and say so; don't delete it.
 - Learn from the news memory too: if a kind of headline (downgrades, guidance cuts, 8-K
   item 5.02 departures) was followed by moves the agents didn't anticipate, that's a lesson

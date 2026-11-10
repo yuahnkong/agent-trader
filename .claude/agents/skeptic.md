@@ -28,6 +28,10 @@ numbers exist in the inputs.
 
 If there are no proposals, argue briefly whether standing aside was the wrong call.
 
+If `agents/proposer.json` has a `holdings_review`, also challenge the weakest `hold`
+verdicts (at least two, if there are that many): make the case that the position should be
+trimmed or sold today. Use `"proposal_id": "HOLD-<SYMBOL>"` for these challenges.
+
 Tag each challenge with what it's `about`. Use `direction` if you think the price will
 lag the market (the thesis is wrong), `timing` if the trade is premature (e.g. earnings
 inside 5 days), `sizing` if the amount or the concentration is wrong, and `data` if a cited

@@ -93,7 +93,8 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
     for run in runs:
         for f in ("agents/proposer.json", "decision.json", "agents/news-analyst.json"):
             data = _load(run / f) or {}
-            for row in data.get("proposals", []) + data.get("trades", []) + data.get("event_risk", []):
+            for row in (data.get("proposals", []) + data.get("trades", []) + data.get("event_risk", [])
+                        + (data.get("holdings_review") or [])):
                 if row.get("symbol"):
                     symbols.add(config.canonical_symbol(row["symbol"]))
     closes = _closes(alpaca, symbols, first - timedelta(days=10))
@@ -141,8 +142,21 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
             if p.get("symbol"):
                 grade("proposer", "proposed " + str(p.get("side")), day, config.canonical_symbol(p["symbol"]),
                       p.get("thesis", "")[:160], 1 if p.get("side") == "buy" else -1)
+        # Weekly holdings review: "hold" is a claim the position will beat SPY, "trim" or
+        # "sell" that it will lag. Kept under its own agent key so it doesn't swamp the
+        # Proposer's record on new trades.
+        for h in (_load(run / "agents/proposer.json") or {}).get("holdings_review", []) or []:
+            verdict = str(h.get("verdict", "")).lower()
+            if h.get("symbol") and verdict in ("hold", "trim", "sell"):
+                grade("holdings-review", f"review: {verdict}", day, config.canonical_symbol(h["symbol"]),
+                      str(h.get("why", ""))[:160], 1 if verdict == "hold" else -1)
         for c in (_load(run / "agents/skeptic.json") or {}).get("challenges", []):
             p = props.get(c.get("proposal_id"), {})
+            pid = str(c.get("proposal_id", ""))
+            if pid.upper().startswith("HOLD-"):
+                # A challenge to a "hold" verdict argues the holding should be trimmed or
+                # sold, so it's graded like an objection to a buy.
+                p = {"symbol": pid[5:].strip(), "side": "hold"}
             # Sizing and data objections can be right while the stock rises, so only
             # objections about direction or timing are graded by price. Untagged ones
             # (before the tag existed) are graded as before.
@@ -151,7 +165,7 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
             if p.get("symbol") and c.get("severity") in ("fatal", "serious"):
                 grade("skeptic", f"{c['severity']} objection to {p.get('side')}", day,
                       config.canonical_symbol(p["symbol"]), c.get("case_against", "")[:160],
-                      -1 if p.get("side") == "buy" else 1)
+                      -1 if p.get("side") in ("buy", "hold") else 1)
         stance = (_load(run / "agents/market-analyst.json") or {}).get("stance")
         # A second run the same day (e.g. "-pm") would grade the same SPY week twice.
         if stance and spy is not None and day.isoformat() not in stance_days:
@@ -209,6 +223,8 @@ def build_scorecard(alpaca: AlpacaClient | None = None) -> dict:
                 "market stance": f"over 5 sessions, risk-on right if SPY rose more than {STANCE_BAND:.0%}, risk-off if it "
                                  f"fell more than {STANCE_BAND:.0%}, neutral if it moved {STANCE_BAND:.0%} or less; "
                                  "compare the hit rate with `baselines` (a stance that never changed)",
+                "holdings review": f"hold right if the position beat SPY over {PRIMARY_HORIZON} sessions; "
+                                   "trim or sell right if it lagged",
                 "high event risk": "right if the symbol moved more than 3% relative to SPY within 5 sessions",
             }}
 

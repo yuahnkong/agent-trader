@@ -9,6 +9,13 @@ Run from the repo root. `D` below is today's date in New York (`TZ=America/New_Y
 and `R` is `runs/D`. Stop and report if any step fails; never hand-edit a decision to get
 past the risk layer.
 
+**Scheduled runs don't change code.** Write only to `runs/`, `state/`, `reports/` and
+`logs/`. Never edit `agent_trader/`, `tests/`, `.claude/` or the docs, even to fix a bug you
+hit: results only compare within a system version, and an unreviewed change breaks that.
+If a step crashes, commit what was produced, put the traceback and the failing command in
+the report (or in `runs/D/ERROR.md` if no report was written), say so in the headline, and
+stop. The owner fixes code from an interactive session.
+
 **Launching an agent.** Use the agent's own type (e.g. `subagent_type: market-analyst`).
 If the session reports that type as not found (agent files added after the session
 started aren't loaded), use `general-purpose` with this prompt prefix instead:

@@ -25,6 +25,7 @@ from .risk import Context, Position, kill_switch_tripped, max_position_usd
 from .screen import SlimSec, median_vol, sec_ticker
 from .sec import SecClient
 from .state import Trading
+from .exposure import exposure
 from .theses import open_theses, stop_alerts, stop_check
 
 # Free proxies for what the Market Analyst would ideally read. Only SEC and Alpaca are
@@ -165,6 +166,24 @@ def account_context(alpaca: AlpacaClient, trading: Trading, menu: dict, closes, 
     return acct, positions, led, ctx
 
 
+HOLDINGS_REVIEW_DAYS = 7
+
+
+def holdings_review_due(today: date) -> bool:
+    """The Proposer reviews every holding once a week: due when no run in the last
+    HOLDINGS_REVIEW_DAYS - 1 days wrote a holdings_review."""
+    cutoff = (today - timedelta(days=HOLDINGS_REVIEW_DAYS - 1)).isoformat()
+    for f in config.RUNS_DIR.glob("*/agents/proposer.json"):
+        if f.parent.parent.name[:10] < cutoff or f.parent.parent.name[:10] >= today.isoformat():
+            continue
+        try:
+            if json.loads(f.read_text()).get("holdings_review"):
+                return False
+        except (OSError, json.JSONDecodeError):
+            continue
+    return True
+
+
 def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, closes, today: date,
                      sleeves: list[dict] | None = None) -> dict:
     sleeves = sleeves or []
@@ -225,6 +244,8 @@ def portfolio_packet(acct, positions, led: Ledger, ctx: Context, menu: dict, clo
             for p in positions
         ],
         "stop_alerts": stop_alerts(stops),
+        "exposure": exposure(held, ctx.equity, {m["symbol"]: m.get("sector") for m in menu["menu"]}),
+        "holdings_review_due": holdings_review_due(today),
         "buy_caps_usd": {sym: cap(sym) for sym in sorted(menu_syms)},
         "asset_classes": {sym: ctx.asset_class.get(sym, "stock") for sym in sorted(menu_syms)},
         "crypto": {"max_pct_of_equity": config.MAX_CRYPTO_PCT, "held_usd": round(ctx.crypto_held(), 2),

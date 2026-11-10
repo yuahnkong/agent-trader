@@ -58,6 +58,19 @@ or, if you think it shouldn't be sold, say why in `summary`. A
 stop that only needs re-anchoring is the Portfolio Manager's job (`thesis_updates`); don't
 spend a trade slot on it.
 
+**Weekly holdings review.** When `holdings_review_due` in `inputs/portfolio.json` is true,
+give every held position a verdict in `holdings_review`: `hold`, `trim` or `sell`, with a
+one-sentence reason that would justify buying it today at this price if you say `hold`.
+"Already own it" and "avoid churn" are not reasons on their own. Each verdict is graded
+against SPY over 20 sessions (hold is right if it beats SPY, trim or sell if it lags), so
+say what you actually expect. A `trim` or `sell` verdict should come with a matching
+proposal unless the trade slots or tax timing (`long_term_on`) argue against it; say which.
+Leave `holdings_review` empty when it isn't due.
+
+Use `exposure` in the portfolio packet for sector and sleeve weights (`bucket` is the
+sector to reason with; `screen_label` is the SIC label the screen ranks within). Don't add
+weights up by hand.
+
 Write `runs/YYYY-MM-DD/agents/proposer.json`:
 
 ```json
@@ -75,7 +88,8 @@ Write `runs/YYYY-MM-DD/agents/proposer.json`:
       "stop_price": 51.5,
       "sources": ["fundamentals-analyst", "market-analyst"]
     }
-  ]
+  ],
+  "holdings_review": [{"symbol": "WMT", "verdict": "hold | trim | sell", "why": "..."}]
 }
 ```
 

@@ -125,3 +125,45 @@ def test_stop_alerts_order_and_report_column():
     assert _stop(checks["C"], "C") == "10 (-5.0%) **TRIPPED**"
     assert _stop(checks["D"], "D") == "none set"
     assert _stop({**checks["A"], "stop_on": "SPY"}, "A") == "SPY 10 (+20.0%)"
+
+
+def test_exposure_buckets_override_sic_misfits():
+    from agent_trader.exposure import exposure
+    e = exposure({"DPZ": 60.0, "WMT": 70.0, "VOO": 80.0, "VTI": 40.0, "BND": 30.0, "BTC/USD": 10.0},
+                 equity=300.0, menu_sectors={"DPZ": "Consumer Staples", "WMT": "Consumer Staples"})
+    assert e["by_bucket"]["Consumer Staples"] == round(70 / 300, 4)
+    assert e["by_bucket"]["Consumer Discretionary"] == 0.2
+    assert e["us_index_etfs_pct"] == 0.4 and e["cash_pct"] == round(10 / 300, 4)
+    dpz = next(r for r in e["positions"] if r["symbol"] == "DPZ")
+    assert (dpz["bucket"], dpz["screen_label"]) == ("Consumer Discretionary", "Consumer Staples")
+
+
+def test_holdings_review_due_weekly(tmp_path, monkeypatch):
+    from agent_trader import packets
+    monkeypatch.setattr(config, "RUNS_DIR", tmp_path)
+    assert packets.holdings_review_due(date(2026, 11, 11))
+    (tmp_path / "2026-11-11" / "agents").mkdir(parents=True)
+    (tmp_path / "2026-11-11" / "agents" / "proposer.json").write_text(
+        json.dumps({"holdings_review": [{"symbol": "WMT", "verdict": "hold"}]}))
+    assert packets.holdings_review_due(date(2026, 11, 11))  # today's own run doesn't count
+    assert not packets.holdings_review_due(date(2026, 11, 16))
+    assert packets.holdings_review_due(date(2026, 11, 18))
+
+
+def test_holdings_review_and_hold_challenges_are_graded(tmp_path, monkeypatch):
+    monkeypatch.setattr(config, "RUNS_DIR", tmp_path)
+    days = [date(2026, 9, 1) + timedelta(days=i) for i in range(40)]
+    spy = {d: 100.0 for d in days}
+    up = {d: 50 * (1.01 ** i) for i, d in enumerate(days)}
+    run = tmp_path / days[0].isoformat()
+    (run / "agents").mkdir(parents=True)
+    (run / "agents" / "proposer.json").write_text(json.dumps({"proposals": [], "holdings_review": [
+        {"symbol": "UP", "verdict": "hold", "why": "keeps compounding"},
+        {"symbol": "UP", "verdict": "sell", "why": "contradicts itself, for the test"}]}))
+    (run / "agents" / "skeptic.json").write_text(json.dumps({"challenges": [
+        {"proposal_id": "HOLD-UP", "severity": "serious", "about": "direction", "case_against": "trim it"}]}))
+    card = learning.build_scorecard(FakeAlpaca({"SPY": spy, "UP": up}))
+    hr = card["summary"]["holdings-review"]
+    assert (hr["right"], hr["wrong"]) == (1, 1)
+    sk = [c for c in card["calls"] if c["agent"] == "skeptic"]
+    assert len(sk) == 1 and sk[0]["status"] == "wrong" and sk[0]["kind"] == "serious objection to hold"
