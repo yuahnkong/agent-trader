@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "lessons": [
   {
    "id": "L1",
@@ -56,11 +56,12 @@
     "2026-11-04: the News Analyst checked every held name's filings (no 4.01, 4.02, 5.02 or 1.01), confirmed CARG 11-05 after the close as the only held-name print in the window, and listed the other held dates (WMT 11-19, KR 12-03, MSM 2027-01-06 and so on). Still open and not held: GPOR (11-03 estimate passed, no filing), DBX and SMG 8-K 5.02 unread; DPZ's guidance-cut item remains unverified.",
     "2026-11-06: the News Analyst checked every held name's own earnings date and filings (no 4.01, 4.02, 5.02 or large 1.01/2.01), resolved GPOR, DBX and BJRI from their 11-04/11-05 8-K 2.02 filings, and listed next dates for all held names. DBX's 11-05 8-K 7.01/8.01 is unreadable from item numbers (not held); DPZ's guidance-cut item is still unconfirmed.",
     "2026-11-09: the News Analyst checked held names' filings (no 4.01, 4.02, 5.02 or large 1.01/2.01), listed each held name's next earnings date and found VNQ event-free before the buy. Open and not held: DBX's 11-05 8-K 7.01/8.01 unreadable from item numbers; DPZ's guidance-cut item is ten sessions old with no filing or second source.",
-    "2026-11-10: the News Analyst found no 8-K on any holding in the 7-day window, listed held-name dates, and flagged WMT's ~11-19 date as an estimate (last year's date + 364 days) to confirm before it enters the 5-day window around 11-12. DPZ's guidance-cut item is still unconfirmed."
+    "2026-11-10: the News Analyst found no 8-K on any holding in the 7-day window, listed held-name dates, and flagged WMT's ~11-19 date as an estimate (last year's date + 364 days) to confirm before it enters the 5-day window around 11-12. DPZ's guidance-cut item is still unconfirmed.",
+    "2026-11-11 applied: INCY's dates were verified from filings before the buy (reported 10-29, next 2027-02-09) and the PM cited them. The News Analyst checked every held name's own estimate and filings (none in the 7-day window), caught SBH's stale 11-12 estimate (it reported 11-10 per 8-K 2.02 and 10-K) and kept WMT's ~11-19 date marked as an unconfirmed estimate. DPZ's 10-30 guidance-cut item is closed as having come to nothing after nine sessions with no filing or second source."
    ],
    "confidence": "low",
    "added": "2026-10-21",
-   "last_confirmed": "2026-11-10",
+   "last_confirmed": "2026-11-11",
    "status": "active",
    "retired_why": null
   },
@@ -84,11 +85,12 @@
     "2026-11-04: no new sector claim (no proposals). The PM again cited the roughly 26% Consumer Staples stack (WMT, DPZ, KR) as the reason not to add; the Fundamentals review repeats the label caveats for DPZ and MSCI. All three staples rose 3-5% on the day, so the stacking concern was not tested on the downside (one day, not evidence).",
     "2026-11-06: no new sector claim (no proposals). The PM kept treating WMT, DPZ and KR as one roughly 26% Consumer Staples bet and did not add; on the day they fell together (WMT -1.9%, DPZ -2.3%, KR -2.5%) while SPY was roughly flat, as the stacking concern predicts. The PM, News, Fundamentals and Market reviews all say staples were not a shelter. One day, not graded evidence.",
     "2026-11-09: the PM again counted WMT, DPZ and KR as about 26% Consumer Staples by label and added none; the VNQ proposal was checked for overlap (no held REIT). On a +2.4% SPY day the staples were flat (WMT +0.06%, DPZ -0.03%, KR -0.67%), so they neither sheltered nor led. One day, not graded evidence.",
-    "2026-11-10: no new sector claim (no proposals). The PM named INCY as the next candidate and said it would be sized for the IDXX Health Care overlap. The Fundamentals review notes FAST's stored thesis still calls it a non-overlapping Consumer Discretionary exposure, though MSM (the same industrial MRO business) has been held since 10-27; treat FAST and MSM as one sleeve."
+    "2026-11-10: no new sector claim (no proposals). The PM named INCY as the next candidate and said it would be sized for the IDXX Health Care overlap. The Fundamentals review notes FAST's stored thesis still calls it a non-overlapping Consumer Discretionary exposure, though MSM (the same industrial MRO business) has been held since 10-27; treat FAST and MSM as one sleeve.",
+    "2026-11-11 applied: INCY was sized for the IDXX overlap (Health Care about 10.5% by bucket, $17 cut to $15). The PM treated FAST and MSM as one industrial MRO sleeve, sold MSM in full and rewrote FAST's thesis to say Industrials by bucket with no 'no overlap' claim; the Fundamentals review agrees the bucket reading fits FAST better than its Consumer Discretionary SIC label. The MSM sale's own 20-session test is pending."
    ],
    "confidence": "low",
    "added": "2026-10-27",
-   "last_confirmed": "2026-11-10",
+   "last_confirmed": "2026-11-11",
    "status": "active",
    "retired_why": null
   },
@@ -108,11 +110,12 @@
     "2026-11-04: the PM again named size (about $8 above the 10% buffer) and the 11-05 print cluster as its reasons and said L4 was not a blanket idle-cash rule; its review asks the Proposer for a named non-Technology, non-Staples candidate next run. Cash is 11.3% and the account 88.8% invested against the shadow's 99.3%.",
     "2026-11-06: the PM again said L4 was not its reason for the empty trade list (size, about $9 above the 10% buffer, the risk-off stance and the payrolls print were) and named INCY as the first candidate when cash rises, which meets the earlier request for a non-Technology, non-Staples name. The Proposer made no proposals.",
     "2026-11-09: the PM cut the VNQ buy from $20 to $12 citing L4 (about 1.9% of equity, justified by the Market Analyst's Real Estate tilt and low beta, not diversification alone) and said the buy was roughly a swap for the BTC proceeds. It named INCY as the next candidate if cash rises, and noted the account was about 10 points less invested than the shadow on a +2.4% day. The narrow reading held; the review calls this the cost of caution, not evidence that L4 is wrong.",
-    "2026-11-10: the PM stood aside with no proposals and gave size (about $9.5 above the 10% buffer) and the CPI print as its reasons, saying explicitly that L4 is not a blanket idle-cash rule. Account 88.5% invested. The narrow reading held."
+    "2026-11-10: the PM stood aside with no proposals and gave size (about $9.5 above the 10% buffer) and the CPI print as its reasons, saying explicitly that L4 is not a blanket idle-cash rule. Account 88.5% invested. The narrow reading held.",
+    "2026-11-11 applied: INCY was bought at $15 (about 2.4% of equity) on the Market Analyst's top favored sector, not on diversification, funded partly by the MSM sale; the account is now 89.7% invested. The PM's review says the remaining gap to the shadow is cash drag and asks that cash above the buffer keep going into stated tilts. The narrow reading held."
    ],
    "confidence": "low",
    "added": "2026-10-29",
-   "last_confirmed": "2026-11-10",
+   "last_confirmed": "2026-11-11",
    "status": "active",
    "retired_why": null
   },
@@ -153,7 +156,7 @@
   },
   {
    "id": "L6",
-   "lesson": "Store only durable text in theses and invalidations: a dollar stop with its distance from the actual fill (not from 'the ~$X mark'), moving lines such as the SPY 200-day as 'the 200-day SMA the regime filter computes' with the number only as a dated reference, and measurable clauses instead of vague ones like 'yields materially higher'. Keep weight and return-on-cost figures out. Use thesis_updates at the next run to fix stored text that is conditional on a fill or has gone stale (a passed event, an overlap now held).",
+   "lesson": "Store only durable, checkable text in theses and invalidations: a dollar stop with its distance from the actual fill (never conditional on a fill or 'the ~$X mark'), moving lines named as what the code computes (e.g. 'the 200-day SMA the regime filter computes') with any number dated, and only clauses the agents' inputs can measure. Keep weight and return-on-cost figures out. Fix stale or conditional text through thesis_updates at the next run.",
    "kind": "process",
    "applies_to": [
     "portfolio-manager",
@@ -164,11 +167,13 @@
     "2026-11-10 DPZ and IDXX: the new stops were stored as 'about 10% under the ~$333 mark' and 'about 9% under the ~$700 mark'; at the close the distances were 9.1% and 8.1% (PM review weak point 3).",
     "VOO/VTI: the SPY 200-day figure was restated through thesis_updates on 11-06 (723.99 and 723.23 to 727.38) and 11-09 (to 727.64), and is stale again on 11-10 (the Market Analyst reads 727.98). The average moves daily, so any stored number needs a fix every few sessions.",
     "MSM: 'roughly $108 only if it fills near the menu close' has been stored since 10-27 after a fill at exactly $118.72; VNQ's similar conditional $90.5 was fixed on 11-10 (see L1).",
-    "2026-11-10 stale text (Fundamentals and PM reviews): FAST still says its earnings date was never verified (reported 10-14, next 2027-01-19) and that it overlaps no held name (MSM held since 10-27); IEF and BND still refer to 'the Fed decision this week' and a 'post-Fed reassessment' from the 10-28 meeting; IEF's 'yields materially higher' clause cannot be checked from the inputs."
+    "2026-11-10 stale text (Fundamentals and PM reviews): FAST still says its earnings date was never verified (reported 10-14, next 2027-01-19) and that it overlaps no held name (MSM held since 10-27); IEF and BND still refer to 'the Fed decision this week' and a 'post-Fed reassessment' from the 10-28 meeting; IEF's 'yields materially higher' clause cannot be checked from the inputs.",
+    "2026-11-11 applied in part: through thesis_updates the PM restated all 14 stored invalidations with numeric stops measured from actual fills (DPZ, IDXX, VRSN, MSM no longer refer to a mark or an expected fill), dated the SPY 200-day reference (728.3 as of 11-10), removed CARG's weight and return figures, fixed FAST's stale date and overlap text, and replaced IEF's 'yields materially higher' with a 200-day test.",
+    "2026-11-11 still wrong the same day (PM, News and Fundamentals reviews): INCY's new stop is measured from the 11-10 close and says 'will be restated at the next run' ($110 is about 7.9% under the $119.37 fill, not 10%); BND's new thesis stores a weight figure ('near 9% of equity'); and INCY's 'trails XLV by more than 8 points over 21 days' cannot be checked because INCY's own price series is not in the packet (Skeptic flagged it, PM accepted it unfixed). That is why the lesson now says 'only clauses the agents' inputs can measure'."
    ],
    "confidence": "medium",
    "added": "2026-11-10",
-   "last_confirmed": "2026-11-10",
+   "last_confirmed": "2026-11-11",
    "status": "active",
    "retired_why": null
   },
@@ -181,11 +186,13 @@
     "proposer"
    ],
    "evidence": [
-    "Carries over L5's evidence (2026-10-29 to 2026-11-10: stale DPZ/IDXX stops, BTC stop distance misquoted at 2.3% vs about 3%, VNQ stop 6.5% from the fill not 5%). The arithmetic errors are now prevented in code; the qualitative-clause checks are not."
+    "Carries over L5's evidence (2026-10-29 to 2026-11-10: stale DPZ/IDXX stops, BTC stop distance misquoted at 2.3% vs about 3%, VNQ stop 6.5% from the fill not 5%). The arithmetic errors are now prevented in code; the qualitative-clause checks are not.",
+    "2026-11-11 applied: the day after the hot CPI, the PM stated for every rate- or macro-conditioned clause whether it had tripped, with the measured values (BND: TLT 2.30% and IEF 1.24% below their 200-day, short of 3%; VNQ: TLT clause and Real Estate not avoided; IEF: no Fed outcome since 10-28; VOO: RSP 21d +3.61%; WMT: XLP 21d +7.84%), judged DPZ's guidance-cut and KR's cyber clauses untripped and why, and stored a stop_price for all 14 positions, none now 'missing'. This fixes the 11-10 miss on BND and IEF.",
+    "2026-11-11 open: WMT's stop was raised to $116 as the protection for an 11.9% position going into an unconfirmed ~11-19 print. The PM's own review notes a close-based stop does not protect against a gap through it. Not a mistake yet; check after the print (see owner_suggestions)."
    ],
    "confidence": "medium",
    "added": "2026-11-10",
-   "last_confirmed": "2026-11-10",
+   "last_confirmed": "2026-11-11",
    "status": "active",
    "retired_why": null
   }
@@ -200,7 +207,8 @@
     "2026-10-26: SMG's 10-16 8-K 5.02 has aged out of the window with its detail never shown (flagged on 10-20, 10-21, 10-22, 10-23, 10-26). RRC's 10-14 8-K 2.02 is still unread.",
     "2026-10-28: WMT's 10-23 8-K 8.01 is also unread (News Analyst sees item numbers only), and SMG's 5.02 is still unread with earnings confirmed for 11-04.",
     "2026-10-29: WMT's 10-23 8-K 8.01 is still unread (News and Fundamentals reviews both list it as the open L2 item).",
-    "2026-10-30: WMT's 8-K 8.01 is still unread and ages out of the 7-day window; the News Analyst says no further action is possible from this input."
+    "2026-10-30: WMT's 8-K 8.01 is still unread and ages out of the 7-day window; the News Analyst says no further action is possible from this input.",
+    "2026-11-11: BLBD's new 8-K 5.02/9.01 (11-10) is again readable only by item number (not held; News Analyst: 'read before any buy')."
    ]
   },
   {
@@ -277,7 +285,8 @@
    "date": "2026-11-02",
    "suggestion": "Refresh the fundamentals menu after the Q3 filings. The Fundamentals Analyst says the menu (as of 2026-10-27) holds prior-fiscal-year cash-flow figures for VRSN, MSCI, MSM and IDXX, so it cannot confirm or break the theses written around those prints. This is a data-input change, not a limit or screen rule.",
    "evidence": [
-    "2026-11-02 Fundamentals review, update point 4: the menu predates the Q3 prints for VRSN, MSCI, MSM and IDXX (reported 10-20 to 10-22 or 11-02) and its figures have not been re-tested."
+    "2026-11-02 Fundamentals review, update point 4: the menu predates the Q3 prints for VRSN, MSCI, MSM and IDXX (reported 10-20 to 10-22 or 11-02) and its figures have not been re-tested.",
+    "2026-11-11 Fundamentals review: the screen still uses FY2025 10-Ks for DPZ, CARG, IDXX, INCY, MSCI, VRSN and FAST, and KR's and WMT's latest fiscal years ended 2026-01-31, so every 'fundamentals' clause in a stored thesis is tested against data 9-11 months old. INCY was bought today on those figures."
    ]
   },
   {
@@ -288,6 +297,32 @@
     "Pending 20-session readings (not grades): RRC 10-21 rejected vs_spy +0.2223 at 14 sessions, MSCI 10-20 rejected +0.135 and CARG 10-20 rejected +0.1174 at 15 sessions, IDXX 10-20 approved +0.2735.",
     "2026-11-10 close.json: agent_return 0.03758, shadow_return 0.04632, spy_return -0.02161; since_version agent 0.00886, shadow -0.00086, spy -0.00587; agent_invested_pct 0.885, shadow 0.995.",
     "2026-11-10 Market Analyst review: broken_theses lists bonds as ballast; stance_held_up true (provisional, 1 of 5 sessions)."
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "suggestion": "Check how the scorecard grades the News Analyst's index-level 'high event risk' flags (QQQ, VOO) before anyone draws a lesson from them. Of the 8 graded QQQ backdrop flags, 2 are right and 6 wrong, yet in 4 of the 6 'wrong' cases QQQ fell 2-5% over the five sessions. The flags appear to be graded against SPY, which QQQ and VOO largely move with, so an index flag may be close to ungradeable as built. The News Analyst's 0.646 overall hit rate comes mostly from single-name earnings flags. These are 5-session grades only, so this is a scoring question for a person, not a lesson.",
+   "evidence": [
+    "Scorecard QQQ news-analyst flags graded wrong: 10-23 (return -1.97%, vs_spy -1.42%), 10-26 (-4.37%, -2.63%), 10-27 (-4.99%, -3.00%), 10-30 (-4.98%, -2.28%), 11-02 (-0.26%, -0.33%), 11-04 (-0.23%, +0.69%); graded right: 10-28 (-4.64%, -3.93%), 10-29 (-9.55%, -4.82%). Pending: 11-05, 11-06, 11-09, 11-10 QQQ and 11-06 VOO.",
+    "2026-11-11 News review: 'The 11-10 QQQ/VOO high/medium risk backdrop flags look wrong at the one-day horizon again, which matches their graded pattern: right on direction over the AI-capex selloff, mostly wrong at 5 days.'",
+    "Scorecard as of 2026-11-11: news-analyst 104 right, 57 wrong (0.646), enough_data true."
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "suggestion": "Data input: add each held single name's own price series (at least 21-day and since-fill returns) to the packet, or the relative-performance clauses the PM now stores cannot be checked. INCY invalidates on trailing XLV by 8 points over 21 days and IDXX on lagging XLV by 5 points over 21 days, but only sector ETFs have 21-day returns in the inputs. This is a data-input change, not a limit or screen rule.",
+   "evidence": [
+    "2026-11-11 Skeptic objection to INCY and PM review weak point 2: no INCY price series in the packet, so the XLV clause cannot be measured; accepted without a fix.",
+    "2026-11-11 decision: IDXX's XLV clause was checked by comparing IDXX's since-fill gain (about 25%) with XLV's 21-day return (+9.8%), which is not the clause's 21-day window."
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "suggestion": "Hypotheses to watch, not rules. (1) Over the whole run the agent's invested return (+5.04%) now beats the shadow's (+4.42%) while total return trails (+4.34% vs +4.42%) at 89.7% vs 99.5% invested, so the remaining gap is cash drag; on the first full version-6 day the agent rose 0.56% against SPY's 1.32% and the shadow's -0.21%. One day and no 20-session grades beyond BTC/USD, so this is not evidence about invested level. (2) WMT (about 11.9% of equity) goes into an unconfirmed ~11-19 print with a $116 close-based stop and no trim proposed; after the print, check whether it gapped through the stop before writing any lesson about trimming near-cap names ahead of earnings. (3) The Market Analyst is 8 right, 4 wrong (0.667), level with always-neutral (0.667), with 12 graded calls. (4) The first 20-session grades for the 10-20 calls (DPZ, IDXX, MSCI, VOO, WMT, CARG) arrive about 11-17; they sit at 16 sessions today.",
+   "evidence": [
+    "2026-11-11 close.json performance: agent_return 0.04343, shadow_return 0.04416, spy_return -0.0087; agent_invested_return 0.050403, shadow_invested_return 0.044219; agent_invested_pct 0.897, shadow 0.995; since_version (v6 from 11-10) agent 0.00564, shadow -0.00206, spy 0.0132.",
+    "2026-11-11 decision and PM review: WMT stop raised from about $110 to $116; review lesson 4 says a close-based stop is not pre-earnings protection.",
+    "Scorecard as of 2026-11-11: portfolio-manager and proposer 0 right, 1 wrong at 20 sessions (BTC/USD); skeptic 0 graded at 20; market-analyst 8-4 vs always-neutral 0.667; only news-analyst has enough_data."
    ]
   }
  ]
