@@ -1,0 +1,32 @@
+{
+  "stance": "risk-off",
+  "confidence": 0.45,
+  "summary": "SPY is still 4.28% above its 200-day (759.81 vs 728.65), but every momentum window is negative (5d -0.91%, 21d -2.34%, 63d -2.08%). Rates, the dollar, volatility and credit are all moving against equities after the hot CPI. Realized vol has jumped to 22.6% (20d) from 13.7% (252d), so a move of more than 1% over 5 sessions is more likely than a flat week, and the evidence tilts that move lower. Keep equity appetite and new sizing small, favor the defensive sectors that are leading, and treat long bonds and gold as unreliable hedges for now.",
+  "reasons": [
+    "Trend is intact but fading: SPY is 4.28% above its 200-day (sma200 728.65), yet its returns are negative over 5d (-0.91%), 21d (-2.34%) and 63d (-2.08%).",
+    "Volatility regime has shifted: SPY 20-day realized vol is 22.6% against 13.7% over 252 days, and VIXY is up 3.48% over 5d and 5.68% over 21d. Short-term volatility is rising, not fading.",
+    "Rates are pressuring equities: TLT -1.03% and IEF -0.79% over 5d (long yields up), with TLT 2.23% and IEF 1.31% below their 200-day. Even SHY is -0.23% over 5d, which matches the front end repricing on hike odds (news memory: hot October CPI, 10-year near 5%, a 50bp Dec 9 hike being debated).",
+    "The dollar is firming: UUP +1.56% over 5d, +4.15% over 63d and 4.81% above its 200-day. That tightens financial conditions and weighs on international and crypto.",
+    "Credit is softening slightly: HYG -0.22% and LQD -0.52% over 5d, with HYG now 0.18% below its 200-day and LQD 1.32% below. This is a mild warning, not stress.",
+    "Former leadership is broken: QQQ 21d -7.15% and only 1.43% above its 200-day; XLK 21d -11.17% and 63d -8.50%. Eight of eleven sector SPDRs fell over 5d; only Communication (+3.47%), Industrials (+0.89%) and Utilities (+0.48%) rose, and the leaders XLV and XLP were also down on the week (-0.37%, -0.53%).",
+    "Risk appetite gauges are weak: BTC 21d -12.01% and ETH 21d -16.90%, with ETH 4.51% below its 200-day.",
+    "Counterweight that keeps confidence moderate: breadth is better than the cap-weighted index. RSP is 21d +4.38% and 7.32% above its 200-day, against SPY 21d -2.34%, so the damage is concentrated in mega-cap tech and is not broad liquidation.",
+    "Track record context: my graded record is 8 right of 12 (0.667), which only equals the always-neutral baseline (0.667), and my last three graded calls were all neutral. Neutral has no edge to defend, and with 20d vol at 22.6% the 1% band is narrow, so I am taking the side the rates, dollar and volatility evidence favors."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Consumer Staples"],
+    "avoid": ["Technology", "Communication", "Energy"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Prefer broad US core (VOO 21d -2.36%, VTI 21d -1.85%, both about 4.2-4.3% above their 200-day) over QQQ (21d -7.15%, 1.43% above its 200-day, vol 21.6%). International is unattractive with the dollar rising: VXUS 21d -1.30% and only 0.24% above its 200-day; VWO 21d -4.12% and 1.66% below. I am downgrading VNQ from my earlier Real Estate preference to hold-not-add. It is 21d +6.45% and 3.70% above its 200-day, but XLRE lost 1.17% over 5d as yields rose, and it is the most rate-exposed equity sleeve.",
+    "bonds_gold": "Duration is not working as a hedge right now. TLT is 2.23% below its 200-day and -1.03% over 5d, IEF 1.31% below and -0.79% over 5d, and BND 0.62% below its 200-day. Bonds are falling with stocks on the rates shock, so short duration (SHY, 0.53% above its 200-day) is the only steady defensive sleeve. Gold is in a downtrend and is risky: GLD 21d -4.32%, 63d -8.47%, 10.89% below its 200-day, with vol at 29.0% and a strong dollar against it.",
+    "crypto": "High risk and trending down. BTC is 21d -12.01% and only 1.11% above its 200-day, with vol at 44.1%. ETH is 21d -16.90%, 63d -16.77% and 4.51% below its 200-day, with vol at 60.2%. Rising yields and a firm dollar are headwinds, so I would not add."
+  },
+  "watch": [
+    "SPY 5d return turning positive while VIXY's 5d move turns negative would argue for neutral or risk-on; a SPY close back toward the prior highs with RSP still leading would confirm the breadth story over the rates story.",
+    "TLT and IEF stabilizing (5d returns turning positive) or UUP's 5d move reversing would remove the main macro headwind.",
+    "HYG holding at or regaining its 200-day versus falling further below it; a widening slide in HYG and LQD would raise confidence in risk-off.",
+    "SPY's distance from its 200-day (4.28% today, sma200 728.65): a fall toward that line would bring the regime filter into play.",
+    "Event risk: Fed speakers ahead of the Dec 9 FOMC (25bp vs 50bp debate) and the AI-capex thread in mega-cap tech (QQQ, XLK)."
+  ]
+}
