@@ -1,0 +1,55 @@
+{
+  "summary": "If all five fill, the book rotates out of rate-sensitive sleeves (VNQ, IEF, a third of WMT) into Health Care and Staples stocks. Cash ends near 12.2% ($76.41), no position or bucket breaks 15%, and the beta-based 10% stress loss gets slightly worse, from -$22.48 to -$22.71, because EXEL's add (-$1.57) outweighs the sells. The main portfolio-level effect is that Health Care becomes the largest sector bucket at about 14.5%, and two of its three names (INCY and EXEL) are oncology drug makers. Lessons: none in learning.json names the Implicator in applies_to, and the file has no graded Implicator calls. I followed L3's method anyway and made every sector claim by `bucket`, not `screen_label`. Sequencing matters: if the buys fill and the sells don't, cash falls to $24.78 (about 4.0%), well below the 10% buffer the PM has kept.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "Removes VNQ ($11.93, 1.9% of equity). The Real Estate bucket goes from 1.9% to 0. Equity ETFs go from 23.3% to 21.4% of equity (VOO plus VTI only), and the US broad equity ETF bucket stays at 21.4%.",
+      "overlap": "This reduces overlap. VNQ was the only Real Estate holding, and its stored role was a low-beta, rate-sensitive sleeve. Selling it lowers rate exposure along with P3, so the book's remaining rate-sensitive holding is BND (6.3%).",
+      "tax": "One lot of 0.123851 sh at $96.81, opened 2026-11-09 (4 days held), long_term_on 2027-11-10, so it is short-term. The realized loss is about -$0.06. Holding period has no tax cost here.",
+      "wash_sale": "none, as long as VNQ is not rebought for 30 days (through about 2026-12-13). The sale closes the whole 11-09 lot, so no replacement shares remain. This is a full exit, not a partial loss sale after a buy.",
+      "summary": "Clean exit: the tax cost is negligible, Real Estate goes to zero, and the stress loss improves by $0.39 (-3.25 per $100 x $11.93)."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "Sells about $24.87 (0.33 x $75.37 market value). WMT goes from 12.0% to about 8.1% of equity and drops from the 2nd-largest holding to the 4th, behind VOO 13.6%, DPZ 11.2% and IDXX 8.1%. The Consumer Staples bucket goes from 15.5% to about 11.5% after the trim and to about 13.9% after P5's KR add. By SIC label (with DPZ added), the stack falls from about 26.6% to about 25.1%.",
+      "overlap": "WMT is a top S&P 500 weight, so it already appears again inside VOO and VTI. The trim lowers that look-through overlap slightly. Combined with P5, this is a rotation within Staples. The bucket ends about 1.6 points lower, not flat.",
+      "tax": "One lot of 0.591242 sh at $118.378, opened 2026-10-20, long_term_on 2027-10-21, about 11 months away. It is short-term whenever it is sold, so trimming now does not forfeit a long-term rate. The realized short-term gain on the third is about $1.5 at the $126.19 stop-block mark, or about $1.8 at the price implied by the packet's market value ($127.47). Small either way.",
+      "wash_sale": "none: it is a gain sale, and WMT is not in recent_realized.",
+      "summary": "Good concentration fix before a confirmed 11-19 print. The tax cost is small and unavoidable. The stress loss gets slightly worse ($0.13 less offset from WMT's +0.51 per $100), but that comes from WMT's near-zero beta, so it is not a real increase in risk."
+    },
+    {
+      "proposal_id": "P3",
+      "concentration": "Removes IEF ($14.83, 2.4% of equity). The Bonds bucket goes from 8.7% to 6.3%, all of it BND. The asset mix ends at about 60.1% stocks, 21.4% equity ETFs, 6.3% bond ETFs, 0% gold, 0% crypto and 12.2% cash.",
+      "overlap": "This reduces Treasury-duration overlap with BND. Afterward the book holds one bond fund. BND is itself 0.9% above its $70 stop, so if that stop trips the book would have no bonds at all, with cash as the only non-equity reserve.",
+      "tax": "One lot of 0.164386 sh at $91.188, opened 2026-10-26, long_term_on 2027-10-27, so it is short-term. The realized loss is about -$0.16.",
+      "wash_sale": "none, as long as IEF is not rebought within 30 days (through about 2026-12-13). IEF is on buys_allowed_when_regime_off, so a later regime-off rebuy is possible and must be blocked inside that window. BND (aggregate index) and TLT (20+ year) track different indexes from IEF, so holding or buying them is not a substantially identical replacement on the usual reading.",
+      "summary": "Small, cheap exit. It improves the stress loss by $0.15 (-1.03 per $100 x $14.83) but leaves a single bond sleeve that is itself near its stop."
+    },
+    {
+      "proposal_id": "P4",
+      "concentration": "Buys $25, about 4.0% of equity, under the $75.93 cap and far below the 15% position cap. The Health Care bucket goes from 10.5% to about 14.5% (IDXX 8.1%, EXEL 4.0%, INCY 2.4%). That makes Health Care the largest sector bucket, above Staples at 13.9% after P2 and P5 and Consumer Discretionary at 11.2%. Only the US broad ETF bucket (21.4%) is larger.",
+      "overlap": "Real theme overlap. EXEL (cabozantinib, oncology) and INCY (oncology and inflammation) share oncology-drug, trial-readout and drug-pricing risk, so about 6.4% of equity would ride one single-name biotech theme. IDXX (animal diagnostics) is a different business, but it shares the sector tilt and has the highest beta in the bucket (0.831). EXEL is a mid-cap outside the S&P 500, so its look-through overlap with VOO is nil and with VTI is negligible.",
+      "tax": "n/a (buy). This opens a new short-term lot. It would turn long-term on about 2027-11-14.",
+      "wash_sale": "none: EXEL has no loss sale in recent_realized, and buy_blocked lists only BTC/USD.",
+      "summary": "Sizing fits the caps, but this is the largest stress add in the slate (-6.28 per $100 x $25 = -$1.57). It turns Health Care into the book's biggest sector bet, with doubled-up oncology risk."
+    },
+    {
+      "proposal_id": "P5",
+      "concentration": "Buys $15. KR goes from 3.4% to about 5.8% of equity ($36.61), under the $64.13 cap. Staples by bucket ends at about 13.9% (WMT 8.1%, KR 5.8%), down from 15.5% only because P2 trims WMT. If P2 fails to fill, Staples rises to about 17.9%.",
+      "overlap": "This adds to a sector the book already holds (the WMT-KR grocery stack the PM has treated as one bet). It is a sound rotation only when paired with P2. KR is also an S&P 500 member, so it has small look-through overlap with VOO and VTI.",
+      "tax": "n/a (buy). This adds a second short-term lot next to the 10-22 lot at $64.88, which is in a gain. FIFO on any later sale would take the 10-22 lot first.",
+      "wash_sale": "none: KR has no loss sale in recent_realized.",
+      "summary": "Acceptable only together with P2. On its own it pushes Staples above 15%. Its +$0.92 stress offset (+6.14 per $100) rests on a -0.614 beta that the stored thesis already calls a statistical artifact, so the post-trade stress figure flatters the book by about that amount."
+    }
+  ],
+  "stress_10pct_drop": {
+    "before_usd": -22.48,
+    "after_usd": -22.71
+  },
+  "notes": [
+    "Stress arithmetic (per-$100 figures x dollars): VNQ sell +0.39 (11.93 x 3.25%), WMT trim -0.13 (24.87 x 0.51%), IEF sell +0.15 (14.83 x 1.03%), EXEL buy -1.57 (25 x 6.28%), KR buy +0.92 (15 x 6.14%). Net -0.24, so -22.48 becomes -22.71. If KR's negative beta is treated as 0, the after figure is about -23.63.",
+    "Crypto: no position and no proposal. The 5% cap is not engaged, and BTC/USD stays wash-sale blocked after the 11-09 loss sale.",
+    "Cash path: 64.78 + 11.93 + 24.87 + 14.83 - 40.00 = 76.41 (about 12.2% of equity) if all fill. If only the buys fill, cash is 24.78 (about 4.0%). The sells should execute before the buys.",
+    "Largest positions after all fills: VOO 13.6%, DPZ 11.2%, IDXX 8.1%, WMT 8.1%, VTI 7.8%, BND 6.3%, VRSN 5.9%, KR 5.8%, CARG 5.3%, FAST 5.1%, MSCI 4.3%, EXEL 4.0%, INCY 2.4%. None is near the 15% cap except VOO, which this slate does not touch."
+  ]
+}

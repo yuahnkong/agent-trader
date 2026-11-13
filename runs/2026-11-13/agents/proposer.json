@@ -1,0 +1,61 @@
+{
+  "summary": "Three sells and two buys. Sell all of VNQ because its stored invalidation clause has tripped: TLT is 3.65% below its 200-day, past the 3% line, and the Market Analyst is risk-off. Trim WMT by one-third ahead of its 11-19 print, which the company has now confirmed. Sell IEF because, per L8, the Market Analyst says duration is not hedging, and IEF is 0.8% from its stop. Put part of the proceeds into the Market Analyst's two favored defensive sectors: EXEL (Health Care) for $25 and KR (Staples) for $15. Together the buys ($40) fit inside today's $64.78 cash even if no sell fills. If everything fills, cash ends near 12% of equity, which I accept given the risk-off stance and Nvidia's 11-17 print. Holdings check (L7): only VNQ's clause has tripped. VOO and VTI hold (SPY 757.12 vs a 200-day of 728.98; RSP 21d +4.07%). WMT holds (XLP 21d +5.81%, above +3%; close 126.19 vs a $119 stop). BND's clause needs a risk-on stance, so it has not tripped. IEF is 2.09% below its 200-day, short of 3%. Nothing tripped for DPZ (Baird upgrade, no filing), KR (cyber incident unconfirmed), CARG, MSCI, VRSN, INCY, IDXX or FAST (no guidance cut or negative 8-K in the window). Under L8, BND's 'bond ballast for an equity-heavy book' role is contradicted by today's Market Analyst note. I don't defend it on that role. It is the next sell candidate, 0.9% above its $70 stop, and the PM should restate it through thesis_updates as a low-volatility reserve, not an equity hedge. Also through thesis_updates: MSCI's 'adds a sector the book does not hold' and VTI's stored weight figure are still stale (L3, L6).",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "VNQ",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 1.0,
+      "thesis": "VNQ's stored invalidation has tripped. The second clause reads 'TLT closes more than 3% below its 200-day average while the Market Analyst is risk-off or lists Real Estate under avoid'. Today's market-analyst note puts TLT 3.65% below its 200-day and gives the stance as risk-off (confidence 0.4). The note also says VNQ is 'not a favored sleeve' because it is rate-sensitive while TLT is down 2.70% over 5 days. The 11-12 thesis already named VNQ the first equity sleeve to cut. At about 1.9% of equity it has become the kind of token sleeve L4 warns about, with no live premise left. Tax cost is nil: about -$0.06, short-term. The news-analyst note keeps it at medium rates risk into the 12-09 FOMC.",
+      "invalidation": "The sale is wrong if, within 20 sessions, VNQ beats SPY while TLT closes back above its 200-day average (that is, rates stop pressuring REITs).",
+      "stop_price": null,
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "WMT",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 0.33,
+      "thesis": "Pre-print trim, as the PM asked on 11-12. The news-analyst note now has the company confirming the Q3 release for 11-19, 4 trading days out (the date is verified, per L2). Nine or more PT raises came in five sessions (Wells Fargo $135 today, UBS $149, JPMorgan $145 and others), so expectations are crowded bullish. At 12.0% of equity, WMT is the largest single stock. Its $119 stop is a close-based level and does not protect against a gap on the print (L7 open item). The trim also eases the Staples stack with KR (15.5% by bucket, L3). The rest stays, because Staples is still a Market Analyst favored sector (XLP 63d +6.47%, 8.38% above its 200-day). Tax: all shares are in one lot from 10-20 that turns long-term only on 2027-10-21, so waiting doesn't change the treatment. The short-term gain on the trimmed third is about $1.8.",
+      "invalidation": "The trim is wrong if WMT reports on 11-19 without a guidance cut and closes at or above $135 within 5 sessions after the print.",
+      "stop_price": null,
+      "sources": ["news-analyst", "market-analyst"]
+    },
+    {
+      "id": "P3",
+      "symbol": "IEF",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 1.0,
+      "thesis": "L8 applies. IEF's stored role is a 'diversifier for an equity-heavy book'. Today's market-analyst note says 'duration is not working as a hedge'. IEF fell 1.91% over 5 days while SPY rose 3.29%, it sits 2.09% below its 200-day, and the note says not to count on duration. The news-analyst note keeps the 12-09 hike path (25bp or 50bp) live with yields rising again on 11-12. The mark of 90.21 is only 0.8% above the $89.50 stop. The stored thesis already names IEF 'the first bond to cut'. I'd rather exit on the evidence now than on a stop print, and I keep BND as the single low-volatility bond reserve. Tax: a small short-term loss of about $0.16; I won't rebuy IEF within the 30-day wash-sale window.",
+      "invalidation": "The sale is wrong if IEF closes above $92.00 (about 2% above today's 90.21 mark) within 20 sessions, which would mean the rates pressure has reversed.",
+      "stop_price": null,
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P4",
+      "symbol": "EXEL",
+      "side": "buy",
+      "notional_usd": 25.0,
+      "fraction": null,
+      "thesis": "Health Care is the Market Analyst's top favored sector (XLV 21d +7.97%, 63d +12.66%, 18.05% above its 200-day), so this follows his preference and does not reverse one (L4). It is not a diversification-only token buy: $25 is about 4.0% of equity. From inputs/fundamentals.json: F-score 7 of 9 (fails current ratio and gross margin), gp_sector_pct 0.935, CFO $884.3M against net income $782.6M, vol 0.340, beta 0.628 (-$6.28 per $100 in a 10% market drop). No red flag in the fundamentals-analyst note. Event check (L2): it reported 10-29 per filings (11-03 learning record), and the news-analyst note lists next earnings 2027-01-11 with no news or filings in the window. Overlap (L3): the Health Care bucket already holds IDXX (8.1%) and INCY (2.4%). INCY is also an oncology drug maker, so EXEL and INCY share single-name biotech and drug-pricing risk. Health Care goes to about 14% by bucket. That is why this is $25 and not the $75.93 cap.",
+      "invalidation": "EXEL closes at or below $65.00 (about 9.4% under the $71.74 menu close of 11-10). Also wrong if an 8-K reports a guidance cut or a failed pivotal trial, or if the fundamentals screen drops EXEL from the menu.",
+      "stop_price": 65.0,
+      "sources": ["market-analyst", "news-analyst", "fundamentals-analyst"]
+    },
+    {
+      "id": "P5",
+      "symbol": "KR",
+      "side": "buy",
+      "notional_usd": 15.0,
+      "fraction": null,
+      "thesis": "Consumer Staples is the Market Analyst's second favored sector (XLP 63d +6.47%, 8.38% above its 200-day). This moves Staples exposure from the event-heavy WMT, being trimmed before its 11-19 print, to KR, whose Q3 call is company-confirmed for 12-03, 14 trading days out per the news-analyst note (L2 verified). Goldman raised its PT to $77 on 11-10. From inputs/fundamentals.json: F-score 7, gp_sector_pct 0.890, CFO $7.31B against net income $1.02B. Its -0.61 beta is a statistical artifact, not a hedge, as the stored thesis says. Overlap (L3): after the WMT trim the Staples bucket falls from 15.5% to roughly 14% even with this add, so this is a rotation within the sector, not more of it. $15 is about 2.4% of equity, justified by the sector tilt, not by diversification (L4).",
+      "invalidation": "KR closes at or below $64.00 (about 8.3% under the 69.81 mark), or the 10-17 grocery-chain cyber incident is confirmed to be Kroger, or KR cuts guidance at the 12-03 print.",
+      "stop_price": 64.0,
+      "sources": ["market-analyst", "news-analyst", "fundamentals-analyst"]
+    }
+  ],
+  "holdings_review": []
+}

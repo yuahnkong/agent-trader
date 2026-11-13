@@ -1,0 +1,54 @@
+{
+  "summary": "The weakest proposals are the two buys. EXEL (P4) adds a $25 single-name oncology bet on top of INCY, uses annual data from before its 10-29 print, and sets its stop from a three-session-old menu close. It is also funded from lower-beta sleeves on a risk-off day. The KR add (P5) is a second Staples bet that only makes sense if the WMT trim fills, and it sets the stop from the mark rather than a fill. The three sells mostly hold up: VNQ's clause has really tripped. The IEF sale has a consistency problem, because BND is twice its size and fails the same L8 test but is kept. No Reviewer lesson names the Skeptic and I have no graded calls yet. My 5-day record is 5 right and 17 wrong, so I tag `direction` only where I have price evidence and use `sizing` or `data` everywhere else.",
+  "challenges": [
+    {
+      "proposal_id": "P4",
+      "case_against": "This is concentration on a risk-off day. Health Care is already 10.5% by bucket (IDXX 8.09%, INCY 2.41%), and $25 takes it to about 14.5%. EXEL and INCY are both oncology drug makers, so about $40 of the book would ride on the same trial, label and drug-pricing headlines. A failed pivotal trial would hit a $25 single-name biotech harder than the 0.628 beta implies. The proposal also says the buys fit inside cash 'even if no sell fills', but that leaves $24.78 cash, about 4.0% of equity, well under the 10% buffer the PM has kept. The buy is also funded from the book's lowest-beta sleeves: VNQ (beta 0.325) and IEF (0.103). On the Market Analyst's own risk-off call (confidence 0.4), the swap raises equity beta. Health Care is also the most stretched sector in the packet: XLV is 18.05% above its 200-day and +12.66% over 63d, and it lagged the bounce at +1.58% over 5d against SPY's +3.29%. Finally, the Fundamentals Analyst did not put EXEL in his top ten (INCY is rank 10), so 'no red flag' is not the same as an endorsement. FTDR, TPR, NYT and AAPL all rank above it.",
+      "severity": "serious",
+      "about": "sizing",
+      "what_would_change_my_mind": "A size of $12 to $15, so Health Care stays near 12.5% and the combined INCY+EXEL oncology weight stays under about 5%. Or making the buy conditional on the VNQ and IEF sells filling, so the cash buffer is never breached."
+    },
+    {
+      "proposal_id": "P4",
+      "case_against": "The quality case rests on stale numbers. The fundamentals row uses FY ended 2026-01-02 (known since 2026-02-10), ten months old. That predates the 10-29 Q3 print, and the inputs have no headline or figures from that print. Nobody has checked whether Q3 confirmed or contradicted the F-score. The F-score also fails gross_margin_improved, which matters for a company built around one franchise drug. The $65.00 stop is measured from the $71.74 menu close of 11-10. The packet has no current EXEL price, so the 'about 9.4%' distance is not measured from today's mark or from a fill. Under L6 it will need restating after the fill. The next-earnings date 2027-01-11 is a file estimate (59 days), not company-confirmed. That is fine for the 5-day window but should not go into the thesis as fact.",
+      "severity": "minor",
+      "about": "data",
+      "what_would_change_my_mind": "Any Q3 figure or results headline from the 10-29 print showing revenue and cash flow held up. Plus a stop that is restated from the actual fill price at the next run."
+    },
+    {
+      "proposal_id": "P5",
+      "case_against": "This is a second Staples bet presented as a rotation. KR is already held at 3.45%, so this is an add. The 'Staples falls from 15.5% to roughly 14%' math works only if the WMT trim (P2) fills first. On its own the add takes Staples to about 17.9% by bucket, the largest sector sleeve. L3's evidence shows WMT and KR moving together on down days (11-03 both about -2.3%; 11-06 WMT -1.9%, KR -2.5% with SPY flat). Trimming WMT and adding KR therefore leaves the same factor bet with a different earnings date. KR is also already +7.6% from the $64.88 fill (mark 69.81) and +2.6% over the 68.01 menu close in two sessions, so the add chases. XLP was -0.21% over 5d while SPY rose 3.29%. If Nvidia's 11-17 print extends the tech bounce, Staples is the sleeve that lags. The stated reason is the sector tilt alone, at 2.4% of equity, which comes close to the token-size pattern L4 warns about.",
+      "severity": "serious",
+      "about": "sizing",
+      "what_would_change_my_mind": "Make the add explicitly conditional on P2 filling, so Staples cannot rise above its current 15.5%. Or hold the $15 as cash until after WMT's 11-19 print shows whether the Staples bid survives it."
+    },
+    {
+      "proposal_id": "P5",
+      "case_against": "The new $64.00 stop is measured 'about 8.3% under the 69.81 mark', not from a fill, which is the conditional/mark wording L6 says to keep out of stored text. It would also replace the live $59.70 stop (8% under the $64.88 fill) for the whole combined position, and nothing says so. After the add the average cost will be about $66.6, so $64.00 sits only about 4% under the new average. Ordinary noise for a stock with 0.30 vol could trip that, which runs against L4's invalidation-distance point. The cited fundamentals check out (F7, gp_sector_pct 0.890, CFO $7.31B against NI $1.02B, Goldman $77 on 11-10). The failed F-score tests are roa_improved and current_ratio_improved, and the proposal did not mention them.",
+      "severity": "minor",
+      "about": "data",
+      "what_would_change_my_mind": "A stop stated against the new blended average cost after the fill, at a distance that matches the 8-10% used for the other single stocks."
+    },
+    {
+      "proposal_id": "P3",
+      "case_against": "Neither IEF invalidation has tripped. IEF is 2.09% below its 200-day against a 3% line, and the 90.21 mark is above the $89.50 stop. The sale rests on L8, but L8 hits BND equally: its stored thesis is literally 'bond ballast for an equity-heavy book'. BND is 6.32% of equity against IEF's 2.36%, and BND is also NEAR its stop (+0.9%). Selling the smaller bond and keeping the larger one fixes the wrong half of the L8 problem. On direction, IEF has already fallen 1.91% in 5 days, and the news memory puts hike odds for 12-09 near 99%. Much of the rate shock is priced, and a further leg needs a 50bp hike. Selling 0.8% above the stop saves at most about $0.12 versus letting the stop work. The proceeds partly fund a 0.628-beta biotech. The book is left with less of the one asset the regime filter allows buying when it turns off, on a day the Market Analyst is risk-off.",
+      "severity": "minor",
+      "about": "direction",
+      "what_would_change_my_mind": "IEF closing below $89.50 (the stop would have done the job anyway), or TLT and IEF falling further while SPY holds, which would confirm bonds are not hedging beyond the two or three days of evidence L8 itself calls ungraded."
+    },
+    {
+      "proposal_id": "P2",
+      "case_against": "The one-third trim is a compromise that doesn't fully address either risk. If the worry is a gap through the close-based $119 stop on a 12.0% position, two-thirds (about 8% of equity) stays exposed to that gap. If the thesis is intact, the trim sells a Market Analyst favored-sector name (XLP 21d +5.81%, 8.38% above its 200-day) four sessions before a print the sell side keeps raising into. The invalidation is also too lenient on the proposer. 'Wrong if WMT closes at or above $135 within 5 sessions after the print' needs about a 7% rise from the 126.19 mark. The trim could underperform SPY on a modest beat and never be marked wrong. The stated short-term gain (about $1.8) uses the market_value price (about 127.47), not the 126.19 stop mark; the two marks differ in the packet. This case is weak: earnings inside 5 days is exactly when trimming is justified, and the PM asked for it.",
+      "severity": "minor",
+      "about": "sizing",
+      "what_would_change_my_mind": "Nothing much. I'd accept the trim with a fairer test, such as 'wrong if WMT beats SPY by more than 3 points over the 5 sessions after the print'."
+    },
+    {
+      "proposal_id": "P1",
+      "case_against": "This case is weak because the stored clause has tripped: TLT is 3.65% below its 200-day and the stance is risk-off. The strongest objection is that the clause is a proxy the price is not confirming. TLT fell 2.70% over 5d, yet XLRE was +0.14% and VNQ is 21d +6.74%, 3.29% above its 200-day via XLRE, and 4.8% above its own $92 stop. REITs are not trading the rate move the clause assumes. VNQ (beta 0.325) is also the lowest-beta equity sleeve in the book, and on a risk-off call its proceeds go partly into EXEL at nearly twice the beta. At 1.9% of equity the stakes are small either way.",
+      "severity": "minor",
+      "about": "direction",
+      "what_would_change_my_mind": "XLRE or VNQ starting to fall with TLT, which would show the rate channel is live. I would then fully agree with the sale, as I largely do now."
+    }
+  ]
+}
