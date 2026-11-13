@@ -1,0 +1,49 @@
+{
+  "summary": "All five buys fit their caps and none trigger tax or wash-sale issues, since there are no sells and no recent realized losses. The main portfolio-level issue is that VTI stacks on VOO, putting about 18.4% of equity in near-identical broad US large-cap exposure, while the 10% market-drop loss roughly doubles from about $9.24 to about $20.04.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "VTI $50 is 8.3% of equity ($599.29) and under its $89.89 buy cap. Combined with VOO ($60.14, 10.0%), the broad US large-cap sleeve would be $110.14, or 18.4% of equity, above the 15% single-position cap if the two are treated as one exposure.",
+      "overlap": "VTI and VOO hold essentially the same mega-cap US names, so this is mostly a second copy of the exposure already held, not new diversification. Stocks held (WMT, DPZ, IDXX) and bought (FAST, CARG, RRC) are probably also inside VTI at small weights.",
+      "tax": "Buy only, no lots sold. The new lot starts its holding period today and turns long-term one year later.",
+      "wash_sale": "none",
+      "summary": "Within the single-ticker limit, but it duplicates VOO. Consider a smaller size or a different sleeve (VXUS, bonds, gold) to avoid an 18.4% effective US-index weight."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "FAST $40 is 6.7% of equity, well under the 15% cap and its $89.89 buy cap. The fundamentals file classifies it as Consumer Discretionary (SIC: retail building materials), not Industrials as the proposal's thesis implies.",
+      "overlap": "Little overlap with the Consumer Staples names held (DPZ, WMT, together $134.14, 22.4% of equity). It adds a first Consumer Discretionary position, so the sector label in the thesis does not match the data, but the diversification claim holds. Beta 0.53 gives a stress loss of $2.11.",
+      "tax": "Buy only, no lots sold.",
+      "wash_sale": "none",
+      "summary": "Fits the limits and adds a new sector. Low risk to the portfolio."
+    },
+    {
+      "proposal_id": "P3",
+      "concentration": "CARG $25 is 4.2% of equity, under its $59.90 buy cap. Technology sector after the trade is 4.2%, the only Technology exposure apart from whatever is inside VOO and VTI.",
+      "overlap": "Adds a small Technology position, though the market note says to avoid chasing that sector. The size is modest, so the added tilt is minor. Volatility of 0.394 is close to the 0.438 screen cutoff.",
+      "tax": "Buy only, no lots sold.",
+      "wash_sale": "none",
+      "summary": "Small and within limits. A thin dollar volume (about $34.6M) is an execution concern, not a concentration one."
+    },
+    {
+      "proposal_id": "P4",
+      "concentration": "RRC $30 is 5.0% of equity, under its $73.78 buy cap. It would be the only Energy position, so Energy sector weight after the trade is 5.0%.",
+      "overlap": "No overlap with current holdings. The stress table credits RRC with a +$0.88 gain in a 10% market drop because its beta is -0.29, but that is a statistical beta for a commodity-linked natural gas producer, not a hedge, and could easily flip sign in a drop driven by energy prices or earnings. Do not count it as protection. Earnings are estimated 10-28, about 5 trading days out.",
+      "tax": "Buy only, no lots sold.",
+      "wash_sale": "none",
+      "summary": "Within limits and diversifying by sector, but the negative-beta benefit is unreliable and an earnings date sits close."
+    },
+    {
+      "proposal_id": "P5",
+      "concentration": "BTC/USD $20 is 3.3% of equity, under the 5% crypto cap and its $29.96 room (held $0 today). Crypto would be the only crypto exposure and the riskiest sleeve per dollar.",
+      "overlap": "No overlap with equities. Beta to SPY is 1.62, giving a stress loss of $3.24, the largest per-dollar figure among the five (16.2 per $100). The beta understates real risk: the proposal cites 44% annualized volatility, which I could not check against the market packet's sleeves because that file is not among my inputs.",
+      "tax": "Buy only, no lots sold.",
+      "wash_sale": "none",
+      "summary": "Within the crypto cap. Highest risk per dollar; the $20 size keeps the damage small."
+    }
+  ],
+  "stress_10pct_drop": {
+    "before_usd": -9.24,
+    "after_usd": -20.04
+  }
+}

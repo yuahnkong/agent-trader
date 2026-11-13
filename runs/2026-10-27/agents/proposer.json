@@ -1,0 +1,25 @@
+{
+  "summary": "Account is about 85% invested with $88 cash; two small buys bring cash near the 10% buffer ahead of tomorrow's Fed decision. One adds a fresh, event-clear quality stock (MSM) and one adds international diversification (VXUS). No sells, no crypto, no new US index exposure (VOO and VTI are already about 23% of equity).",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "MSM",
+      "side": "buy",
+      "notional_usd": 15.0,
+      "fraction": null,
+      "thesis": "Fundamentals-analyst rank 4: the only other 9/9 F-score besides VRSN, all tests computable, newest 10-K on the menu (FY end 2026-08-29, known 2026-10-22), cfo $306M vs net income $223M. News-analyst: it already reported on 10-22 and Barclays raised its PT to $159 on 10-26, so there is no earnings event inside the window (next estimate 2027-01-06, verified against the 10-22 filing per L2). Adds an industrial distributor, a sector we do not hold, at low volatility (0.32) and moderate beta (0.72). Sized small because gp 0.65 is the weakest profitability on the analyst's top list and the sector label is questionable.",
+      "invalidation": "Close below about $108 (roughly 9% under the $118.72 menu close; re-anchor to the actual fill per L1 if it gaps), or a new 8-K showing a guidance cut or restatement of the FY2026 results.",
+      "sources": ["fundamentals-analyst", "news-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "VXUS",
+      "side": "buy",
+      "notional_usd": 10.0,
+      "fraction": null,
+      "thesis": "Strategy calls for broad diversification and we hold no non-US equity. Market-analyst: VXUS 21d -4.31% and about at its 200-day (-0.41%) with 17% volatility, so it is a pullback to trend support, not a break; US exposure is already heavy and tech-led. News-analyst rates it low event risk with no VXUS headline, with Brazil and China AI selloffs as the sentiment drag (small starting size reflects that). The market-analyst is neutral on international, so this is a modest allocation, not a conviction call.",
+      "invalidation": "VXUS closes more than 3% below its 200-day average (it is currently -0.41%, so a close near 80.0 vs the 82.63 reference), which would confirm the emerging-market weakness spreading into developed markets.",
+      "sources": ["market-analyst", "news-analyst"]
+    }
+  ]
+}

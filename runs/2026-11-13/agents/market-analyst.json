@@ -1,0 +1,32 @@
+{
+  "stance": "risk-off",
+  "confidence": 0.4,
+  "summary": "SPY rebounded +3.29% over 5 days and is 3.86% above its 200-day, but that rebound came with no support from bonds, credit, the dollar or gold. TLT fell 2.70%, LQD 1.54% and HYG 0.39% while UUP rose 1.73% over the same window, so this looks like a tech-led bounce (XLK 5d +7.01% against 21d -8.75%) inside a downtrend, with Nvidia reporting on 11-17 inside the grading window. Lean defensive within equities (Health Care, Staples), keep US core over international, and do not count on duration or gold to hedge. The regime filter stays on.",
+  "reasons": [
+    "Neutral is the least likely outcome right now. SPY 20-day realized vol is 22.6% against a 252-day 13.7%, so a 5-session move of more than 1% either way is the base case. My graded record (61.5%) only matches the always-neutral baseline (0.615), and the one neutral call that missed (11-05) missed on a +3.29% move. That is why I am choosing a direction instead of defaulting.",
+    "The trend behind the bounce is still down. SPY is +3.29% over 5d but -1.62% over 21d and -2.23% over 63d. QQQ is +6.35% over 5d, -5.59% over 21d and -5.77% over 63d, and sits only 1.06% above its 200-day.",
+    "Credit did not confirm the equity rally. LQD fell 1.54% and HYG fell 0.39% over 5d while SPY rose 3.29%. LQD is 2.17% and HYG 0.66% below their 200-day averages.",
+    "Long yields are rising fast. TLT is -2.70% over 5d and 3.65% below its 200-day, and IEF is -1.91% over 5d and 2.09% below. UUP is +1.73% over 5d, +4.66% over 63d and 5.0% above its 200-day, so financial conditions are tightening (background: news memory has hike odds for the 12-09 FOMC near certain after the hot CPI).",
+    "Liquidity-sensitive assets are breaking down. GLD is -5.49% over 5d, -11.6% over 63d and 13.26% below its 200-day. BTC is -12.22% over 21d and 2.34% below its 200-day; ETH is -15.46% over 21d and 6.13% below its 200-day.",
+    "Leadership in the bounce is the weakest group. XLK led at +7.01% over 5d after -8.75% over 21d and -8.44% over 63d, with XLC +3.09% over 5d against 21d -2.94% and 3.89% below its 200-day. Nvidia's 11-17 print and the reported CEO succession review (news memory, 11-12) fall inside the next 5 sessions and hit that leadership directly.",
+    "Against my stance: breadth is healthy. RSP is +4.07% over 21d and 6.33% above its 200-day versus SPY's -1.62% over 21d, 8 of 11 sectors are above their 200-day, and VIXY fell 17.48% over 5d. That is why confidence is only 0.4.",
+    "No Reviewer lesson names the Market Analyst, so none shaped this call. L8 (PM/Proposer) is relevant to how this note is read: bonds are again falling with stocks' risk appetite rising, not hedging it."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Consumer Staples"],
+    "avoid": ["Technology", "Communication", "Industrials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Prefer US core (VOO 3.89% above its 200-day, 21d -1.62%) over international: VXUS is 63d -5.57% and 0.71% below its 200-day, and VWO is 21d -4.19% and 3.01% below. QQQ is the riskiest equity sleeve, with 21d -5.59%, only 1.06% above its 200-day and the most exposure to the 11-17 Nvidia print. VNQ (21d +6.74%, 5d about flat via XLRE +0.14%) has momentum but is rate-sensitive with TLT -2.70% over 5d, so it is not a favored sleeve. Health Care (XLV 21d +7.97%, 63d +12.66%, 18.05% above its 200-day) and Staples (XLP 63d +6.47%, 8.38% above its 200-day) are the defensive leaders.",
+    "bonds_gold": "Duration is not working as a hedge. TLT -2.70% and IEF -1.91% over 5d fell during an equity rally, both are below their 200-day (3.65% and 2.09%), and BND is 1.24% below its 200-day. Only short duration is holding (SHY 0.32% above its 200-day, 21d +0.27%). Gold is in a broken trend at -13.26% from its 200-day with 5d -5.49% and a rising dollar, so it is not a hedge either.",
+    "crypto": "Risky. BTC 21d -12.22% and ETH 21d -15.46%, both below their 200-day (2.34% and 6.13%), with 252-day vol of 44% and 60%. Crypto is trading as high-beta rates and AI risk, so it would amplify a down move, not diversify it."
+  },
+  "watch": [
+    "Credit turning: if HYG and LQD stop falling and TLT stabilizes while SPY holds its 5d gain, the bounce has confirmation and I would move to neutral or risk-on.",
+    "VIXY reversing its 17.48% 5d drop with a short-term rise would confirm risk-off; continued decay would argue against it.",
+    "QQQ losing its 1.06% cushion over its 200-day, or SPY giving back the +3.29% 5d move, would raise confidence in risk-off.",
+    "Nvidia's 11-17 print and any CEO decision: a clean print could extend the tech bounce and invalidate this call.",
+    "RSP breadth: if RSP keeps leading (21d +4.07%) while XLK fades, the market can drift rather than fall, which favors neutral.",
+    "UUP's 5d +1.73% and TLT's 5d -2.70%: further dollar strength and long-yield rises feed risk-off; a reversal in both removes one of its main supports."
+  ]
+}

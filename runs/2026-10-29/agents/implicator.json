@@ -1,0 +1,14 @@
+{
+  "summary": "The single $10 VXUS buy is small and passes every portfolio check: it ends at 1.7% of equity, leaves cash at about 10.0%, adds no tax or wash-sale issue, and raises the 10% drop loss by about $1.12. Its main drawback is that VXUS carries a beta of 1.12, so it adds to market risk instead of cushioning it.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "VXUS goes from 0% to about 1.7% of equity ($10 of $603.12), far under the 15% cap and well inside its $90.47 buy cap. Cash falls from $70.42 (11.7%) to $60.42 (about 10.0%), which just reaches the 10% buffer. Asset-class mix after the trade: individual stocks about $326.5 (54.1%), equity ETFs $137.2 rising to $147.2 (22.7% to 24.4%), bond ETFs $55.1 (9.1%: BND $40.1, IEF $15.0), crypto $14.0 (2.3%, under the 5% cap), cash 10.0%. No gold. Largest holdings stay VOO 14.4% (under the 15% cap, with only $3.35 of buy room) and WMT 11.7%.",
+      "overlap": "Low. VXUS holds non-US stocks, so it does not duplicate VOO or VTI, which hold US names. The only touch is a sliver of foreign-listed names such as LOGI, which the portfolio does not hold. It does lift equity-ETF exposure to 24.4% of the account, and VXUS has the highest beta of the ETFs held (1.12 vs VOO 0.995, VTI 1.01), so it is correlated risk-on exposure, not a hedge. Cheap diversification by geography, little by risk.",
+      "tax": "Buy only, so no lots are sold and nothing is realized. The new lot starts its holding clock today and reaches long-term status around 2027-10-30.",
+      "wash_sale": "none: recent_realized is empty and buy_blocked is empty, so there are no loss sales within 30 days and no existing VXUS lot to trip a partial-loss rule.",
+      "summary": "Approve-able on portfolio grounds: tiny size, no cap or sector issue, no tax or wash-sale issue; it is diversification by geography, not by beta, and uses the last of the cash above the 10% buffer."
+    }
+  ],
+  "stress_10pct_drop": {"before_usd": -22.84, "after_usd": -23.96}
+}

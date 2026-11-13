@@ -1,0 +1,6 @@
+{
+  "summary": "Added L6 (process, medium confidence). It covers what may go into stored thesis text: fixed fill-anchored stops, the SPY 200-day by rule rather than by number, measurable clauses, and no weight or return figures. Five cases support it (CARG weight text, the DPZ and IDXX mark-relative stops, the repeated VOO/VTI 200-day restatements, MSM's conditional wording, and stale FAST/IEF/BND text). I also extended L5 to cover volatility-unit distances for bond funds and to require stating every macro-conditioned clause on print days, because the PM skipped the BND and IEF clauses on the hot-CPI day. L1 through L5 are confirmed from today's run files. The first 20-session grade (BTC/USD 10-21, wrong) is logged only as an owner hypothesis, since no trading agent has enough_data.",
+  "added": ["L6"],
+  "retired": [],
+  "confirmed": ["L1", "L2", "L3", "L4", "L5"]
+}

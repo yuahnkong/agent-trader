@@ -1,0 +1,11 @@
+{
+  "summary": "All four proposals (KR $20, MSCI $25, VTI $25, CARG $15) were approved at reduced size and filled at the open (13:30 UTC). The reasoning holds up after the close. Staging about $85 into a risk-off open was sensible, and each cut matched the Skeptic's strongest objection (KR for staples stacking, VTI for duplicating VOO, CARG for averaging a one-day-old position). Day P&L was +$5.71 and equity was $604.52 (+0.75% since start) against SPY -0.33% and the shadow portfolio +1.11%. All four new lots are green or near flat except VTI (-0.6%), and that is market beta, not a broken thesis. This is one day of results, so I judge the process rather than the P&L: the earnings-date checks (L2) and the fill-anchored invalidations (L1) were applied as claimed. Open weaknesses: cash is still about 32% of equity (roughly $195) against the owner's goal of being mostly invested within about a week. Staples (WMT, DPZ, KR) now total about 26% of equity, above the 22.5% I flagged as a concern. VOO and VTI together are about 18% and overlap heavily. BTC is down 2.9% on the day and is the weakest lot.",
+  "broken_theses": [],
+  "lessons": [
+    "Staples concentration drifted to about 26% of equity (WMT 11.8%, DPZ 10.8%, KR 3.4%) even after I cut KR for that reason. Next time, set an explicit staples cap (for example 25%) and size against it, instead of shrinking each proposal by feel.",
+    "VOO and VTI hold nearly the same exposure. Before adding more US broad-market ETF, prefer sleeve diversifiers (international, bonds, gold) so deploying cash also diversifies the book.",
+    "Cash is about 32% after the staged buys. Keep deploying in tranches, but name the date and the condition for the next tranche so idle cash is a deliberate choice rather than drift.",
+    "Fill-anchored invalidations (L1) worked as intended. With fractional lots, such as CARG's two lots at 31.50 and 31.28, always state the stop against the blended average cost.",
+    "A one-day move of a few percent in the new names (KR +4.2%, CARG +4.3%, MSCI +2.5%) is not evidence for the thesis. Do not enlarge on strength, and re-judge each name against its invalidation level."
+  ]
+}

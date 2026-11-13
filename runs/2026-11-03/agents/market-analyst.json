@@ -1,0 +1,31 @@
+{
+  "stance": "neutral",
+  "confidence": 0.6,
+  "summary": "The trend filter still passes (SPY 752.10, 3.55% above its 200-day at 726.3), but leadership has rotated hard out of tech into defensives and the cap-weighted index is slipping. Keep normal appetite for broad and equal-weight exposure, avoid adding to tech or growth, and do not stretch size into an event-heavy week.",
+  "reasons": [
+    "Regime is on: SPY 752.10 vs 200-day 726.3, +3.55% above, with 20-day realized vol 11.35% vs 12.77% over 252 days, so no stress in realized volatility.",
+    "Cap-weighted index is weak: SPY 5d -1.73%, 21d -2.28%, 63d -2.25%; QQQ 21d -9.14% and only +0.35% above its 200-day, so Nasdaq is close to losing its trend line.",
+    "Breadth is better than the headline: RSP (equal weight) 21d +4.89% and +6.46% above its 200-day, IWM 5d +0.78%; the damage is concentrated in mega-cap tech and communication.",
+    "Sector rotation is defensive: XLP 21d +12.79%, XLV +11.08%, XLB +9.84%, XLU +9.64% lead, while XLK is -12.81% (5d -6.49%) and XLC -9.12% (63d -10.22%, 10.7% under its 200-day).",
+    "Rates are falling: TLT 21d +5.92%, IEF +3.10%, BND +2.35% (long yields down), though TLT and IEF are still 1.4% and 0.75% under their 200-days and 63d returns are flat to negative, so the bond rally is a bounce, not yet a trend.",
+    "Fear gauge is rising in the short term: VIXY 5d +4.95%, 21d +10.23% (read the moves, not the level), consistent with a tech sell-off but not a panic.",
+    "Credit is steady, not stressed: HYG 5d +0.12%, 21d +0.50%, LQD 21d +2.24%; HYG is 0.77% under its 200-day, so no credit signal to turn risk-off.",
+    "Dollar is firm (UUP 63d +2.84%, 3.68% above its 200-day) and gold is weak (GLD 21d -4.86%, 12.35% under its 200-day), so neither is a flight-to-safety signal."
+  ],
+  "sector_tilts": {
+    "favor": ["Consumer Staples", "Health Care", "Materials"],
+    "avoid": ["Technology", "Communication", "Energy"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Prefer US broad and equal-weight exposure over growth: VOO/VTI 21d about -2.2% and 3.4% above their 200-days, RSP is the strongest broad index (21d +4.89%). Avoid QQQ (21d -9.14%, +0.35% over its 200-day, vol 20.3%). International and EM remain weaker than US core (VXUS 21d -3.32%, 63d -4.29%, 0.62% under its 200-day; VWO 21d -6.48%, 4.3% under), so keep the US-core preference. VNQ is the one equity sleeve rallying (21d +6.21%) but its 63d is -3.07%, so treat it as a bounce.",
+    "bonds_gold": "Bonds are attractive as ballast: BND 21d +2.35% on vol of 3.96%, IEF 21d +3.10% on vol of 4.97%; both sit just under their 200-days (-0.31%, -0.75%). TLT has the strongest bounce (21d +5.92%) but carries about 9.6% vol. Gold is unattractive: GLD 12.35% under its 200-day, 21d -4.86%, vol 28.8%.",
+    "crypto": "Risky and weak: BTC 21d -6.2%, ETH 21d -7.95% and 63d -8.82%, vol 44% and 61%. BTC is 4.81% over its 200-day, so the trend is intact but thin. No case for adding; ETH is the weaker of the two."
+  },
+  "watch": [
+    "SPY closing below its 200-day (726.3, about 3.4% below the current 752.10) would end the regime pass and move the stance to risk-off.",
+    "QQQ falling under its 200-day (only 0.35% above) or XLK extending its slide past its 21d -12.81% would confirm a growth-led break.",
+    "Rotation broadening into the cap-weighted index: XLK and QQQ stabilizing while RSP stays strong would move the stance toward risk-on.",
+    "VIXY continuing to climb (21d +10.23% now) alongside HYG breaking lower would signal stress spreading to credit.",
+    "TLT rolling over (a reversal of the 21d +5.92% bounce) would mean long yields are rising again, a headwind for the equity multiple."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "summary": "No new lessons: nothing new meets the evidence bar, and no agent has enough_data for outcome lessons, so I added evidence and refreshed last_confirmed on L1-L5. I folded one clause into L5 (compute stop distances and weights from the latest mark and restate dollar risk after a big up day) because the PM's reasoning used stale marks for the second day running, and added an owner suggestion with hypotheses on thesis amendment, the Market Analyst's neutral baseline and the invested-level gap.",
+  "added": [],
+  "retired": [],
+  "confirmed": ["L1", "L2", "L3", "L4", "L5"]
+}

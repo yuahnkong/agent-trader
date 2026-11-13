@@ -1,0 +1,43 @@
+{
+  "summary": "Best combination of profitability and cash backing is VRSN (F-score 9/9, gp_sector_pct 0.993, cfo $1.09B vs net income $826M), then CARG and MSM. I applied L3 by checking sector labels: several names carry labels that do not match the business (DPZ, FAST, MSM, AYI, CARG, CART, MSCI, MCO, HWM), so their sector percentiles and any 'new sector' claims need care. Names with live deal or event situations (RRC, CART, AAPL) or weak cash conversion (DORM, GRMN, ONC) are left out of the ranking.",
+  "rankings": [
+    {"symbol": "VRSN", "rank": 1, "why": "Only 9/9 F-score with all 9 tests computable, gp_sector_pct 0.993 (gross profitability 1.10), cfo $1,091M is 1.32x net income $826M, no dilution, leverage down, current ratio improved.", "concerns": "Label is Technology and the account already holds it. Fundamentals are fully reported through FY2025 (known since 2026-02-05), so nothing new has arrived."},
+    {"symbol": "CARG", "rank": 2, "why": "Highest gross profitability among the tested names (1.27) at gp_sector_pct 1.0, F-score 8/9, cfo $295M is about 1.9x net income $156M, leverage not up, no dilution.", "concerns": "current_ratio_improved is false. Technology label for an auto marketplace (economic exposure is consumer-cyclical, per L3). Already held; sector label and overlap should be handled by the PM."},
+    {"symbol": "MSM", "rank": 3, "why": "F-score 9/9, all tests computable, cfo $306.5M is 1.38x net income $222.6M, fresh fiscal year (FY ending 2026-08-29, known since 2026-10-22), vol 0.318.", "concerns": "gp_sector_pct is only 0.824, the lowest of my top ten. Labelled Consumer Discretionary but it is an industrial MRO distributor, the same business as held FAST (L3 overlap)."},
+    {"symbol": "TPR", "rank": 4, "why": "F-score 8/9, gp_sector_pct 0.943 (gross profitability 0.93), cfo $1,979M is 1.30x net income $1,528M, fiscal year is recent (FY ending 2026-06-27).", "concerns": "current_ratio_improved is false. Fundamentals are sound but this rank says nothing about the sell-side PT cuts in the news memory."},
+    {"symbol": "EXLS", "rank": 5, "why": "F-score 8/9, cfo $351M is 1.40x net income $251M, leverage not up, no dilution, margin and turnover both improved.", "concerns": "gp_sector_pct 0.912 is mid-pack and vol 0.430 sits near the 0.44 cutoff. current_ratio_improved is false. Latest annual data is FY2025."},
+    {"symbol": "SAM", "rank": 6, "why": "F-score 8/9, gp_sector_pct 0.945, cfo $270M is 2.5x net income $108M, so earnings are well backed by cash.", "concerns": "Thin earnings (net income $108M on revenue $1.96B). Current ratio worsened. Dollar volume only $33M."},
+    {"symbol": "MTCH", "rank": 7, "why": "F-score 8/9, cfo $1,080M is 1.76x net income $613M, leverage not up, no dilution.", "concerns": "gp_sector_pct 0.894 is the lowest in my list apart from MSM. current_ratio_improved is false."},
+    {"symbol": "DPZ", "rank": 8, "why": "gp_sector_pct 1.0, gross profitability 1.15, F-score 8/9, cfo $792M is 1.32x net income $602M, margin and turnover improved.", "concerns": "leverage_not_up is false. SIC reads Wholesale-Groceries and the Consumer Staples label is a mislabel for a pizza franchisor, so the 1.0 percentile is partly an artifact (per L3 and the PM thesis). Ranked low for that reason."},
+    {"symbol": "TTEK", "rank": 9, "why": "gp_sector_pct 1.0, gross profitability 1.08, cfo $458M is 1.85x net income $248M, no dilution, leverage not up.", "concerns": "F-score is only 7/9 and roa_improved is false. fy_end 2025-09-28 is over 13 months old, so the data is stale."},
+    {"symbol": "IDXX", "rank": 10, "why": "F-score 8/9, gp_sector_pct 0.942, vol 0.319, cfo $1,182M above net income $1,059M (1.12x).", "concerns": "Thin cash cushion over earnings (1.12x). current_ratio_improved is false. Already held, in Health Care alongside the INCY overlap noted in L3."}
+  ],
+  "red_flags": [
+    {"symbol": "GRMN", "flag": "Amended 10-K/10-Q in the last two years (possible restatement), and cfo $1,633M is below net income $1,664M (cfo_exceeds_net_income false). Also labelled Industrials for a consumer-electronics maker.", "severity": "high"},
+    {"symbol": "ONC", "flag": "Amended 10-K/10-Q flag, leverage up and dilution (no_dilution false), F-score only 7/9.", "severity": "high"},
+    {"symbol": "DORM", "flag": "cfo $113.6M is only 0.56x net income $204.2M, a clear accrual concern; gp_sector_pct only 0.816.", "severity": "high"},
+    {"symbol": "RRC", "flag": "Pending all-stock EQT acquisition (per the news memory) means the price no longer reflects fundamentals. F-score 7/9 with leverage up and gross margin not improved.", "severity": "medium"},
+    {"symbol": "CART", "flag": "Reported takeover talks with DoorDash; Industrials label for a grocery-delivery marketplace; gross_margin_improved false; vol 0.434 is near the cutoff.", "severity": "medium"},
+    {"symbol": "AAPL", "flag": "cfo $111.5B is just below net income $112.0B (cfo_exceeds_net_income false) and fy_end 2025-09-27 is a year old; the new fiscal year's 10-K has not yet been picked up.", "severity": "medium"},
+    {"symbol": "MLI", "flag": "cfo $755M is slightly below net income $765M and asset turnover fell; the Pomerantz notice in the news memory is only a solicitation.", "severity": "low"},
+    {"symbol": "CALX", "flag": "Net income of $17.9M against cfo of $135M is a very large gap, so earnings are depressed by non-cash items or charges; current ratio worsened; a Communication label for an equipment maker.", "severity": "medium"},
+    {"symbol": "TTEK", "flag": "fy_end 2025-09-28 is stale, along with SMG (2025-09-30), BLBD (2025-09-27), SBH (2025-09-30) and CLX (2025-06-30, the oldest at roughly 16 months); fundamentals may lag the business.", "severity": "medium"},
+    {"symbol": "DPZ", "flag": "SIC description is Wholesale-Groceries, producing a Consumer Staples label and an inflated sector percentile; leverage_not_up false.", "severity": "medium"},
+    {"symbol": "FAST", "flag": "Labelled Consumer Discretionary (SIC Retail-Building Materials) but it is an industrial MRO distributor like MSM; cfo only 1.03x net income and gross margin not improved.", "severity": "low"},
+    {"symbol": "AYI", "flag": "Labelled Technology for a lighting and building-controls maker; its gp_sector_pct of 0.831 is measured against the wrong peer group.", "severity": "low"},
+    {"symbol": "MSCI", "flag": "Labelled Industrials; the business is financial-data and index products, so sector comparisons are unreliable. leverage_not_up false.", "severity": "low"},
+    {"symbol": "MCO", "flag": "Labelled Industrials (SIC consumer credit reporting) for a ratings and analytics business; leverage up.", "severity": "low"},
+    {"symbol": "HWM", "flag": "Labelled Materials (SIC nonferrous metals) for an aerospace components maker; gross profitability only 0.25 and the 0.857 percentile is against the wrong peers.", "severity": "low"},
+    {"symbol": "WDFC", "flag": "Dollar volume of $22.6M is only just above the $20M liquidity floor; roa_improved and current_ratio_improved are both false.", "severity": "low"},
+    {"symbol": "WINA", "flag": "Dilution (no_dilution false), current ratio worse, and dollar volume $20.55M is barely above the floor; tiny balance sheet ($24.9M assets).", "severity": "medium"},
+    {"symbol": "UNFI", "flag": "Dilution; net income $84M on revenue $31.2B is very thin; dollar volume $25M.", "severity": "low"},
+    {"symbol": "CVS", "flag": "Dilution and roa_improved false; net income $1.77B on revenue $402B is very thin; cfo $10.6B is 6x net income, so earnings quality depends on large non-cash items.", "severity": "low"}
+  ],
+  "holdings_notes": [
+    {"symbol": "VOO", "note": "Broad-market ETF, so it is not eligible for a single-stock screen on gross profitability or F-score. Falling off the menu is by construction, not a signal; nothing to review on fundamentals."},
+    {"symbol": "VTI", "note": "Same as VOO: an ETF the stock screen cannot include. Not a fundamental concern, though it overlaps heavily with VOO (a sizing point for the PM, not me)."},
+    {"symbol": "BND", "note": "Bond ETF; no SEC-derived metrics apply. Absence from the menu is expected and carries no review signal."},
+    {"symbol": "IEF", "note": "Treasury ETF; no financial-statement tests apply. Absence from the menu is expected and carries no review signal."},
+    {"symbol": "BTC/USD", "note": "Crypto has no filings, revenue or cash flow, so this screen cannot assess it. Any review has to rest on the Market and News analysts, not on fundamentals."}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+ "date": "2026-10-20",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "VOO",
+   "side": "buy",
+   "requested_usd": 60.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 60.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "d119fe9f-0feb-47c9-ad5c-99e76d01268a",
+   "client_order_id": "at-20261020True-VOO-buy",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "WMT",
+   "side": "buy",
+   "requested_usd": 70.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 70.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "55fb55ac-519c-49a1-93c4-1b392cc9cd37",
+   "client_order_id": "at-20261020True-WMT-buy",
+   "order_status": "pending_new"
+  }
+ ]
+}

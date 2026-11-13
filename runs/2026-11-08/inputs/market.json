@@ -1,0 +1,380 @@
+{
+ "regime": {
+  "as_of": "2026-11-06",
+  "spy_close": 735.29,
+  "sma200": 727.64,
+  "above_sma200": true,
+  "pct_from_sma200": 0.0105
+ },
+ "spy_realized_vol_20d": 0.2022,
+ "spy_realized_vol_252d": 0.13597234987731494,
+ "broad": [
+  {
+   "symbol": "SPY",
+   "label": "S&P 500",
+   "as_of": "2026-11-06",
+   "close": 735.29,
+   "ret_5d": -0.027,
+   "ret_21d": -0.0499,
+   "ret_63d": -0.0465,
+   "pct_from_sma200": 0.0105
+  },
+  {
+   "symbol": "QQQ",
+   "label": "Nasdaq 100",
+   "as_of": "2026-11-06",
+   "close": 656.1,
+   "ret_5d": -0.0498,
+   "ret_21d": -0.1224,
+   "ret_63d": -0.0889,
+   "pct_from_sma200": -0.0349
+  },
+  {
+   "symbol": "IWM",
+   "label": "Russell 2000 (small caps)",
+   "as_of": "2026-11-06",
+   "close": 273.67,
+   "ret_5d": -0.0203,
+   "ret_21d": -0.0141,
+   "ret_63d": -0.0853,
+   "pct_from_sma200": -0.0157
+  },
+  {
+   "symbol": "RSP",
+   "label": "S&P 500 equal weight (breadth)",
+   "as_of": "2026-11-06",
+   "close": 216.05,
+   "ret_5d": -0.0104,
+   "ret_21d": 0.0197,
+   "ret_63d": -0.0153,
+   "pct_from_sma200": 0.0433
+  },
+  {
+   "symbol": "VIXY",
+   "label": "short-term VIX futures (volatility proxy; decays over time)",
+   "as_of": "2026-11-06",
+   "close": 21.03,
+   "ret_5d": 0.1423,
+   "ret_21d": 0.2745,
+   "ret_63d": 0.0757,
+   "pct_from_sma200": -0.1059
+  },
+  {
+   "symbol": "SHY",
+   "label": "1-3y Treasuries",
+   "as_of": "2026-11-06",
+   "close": 81.63,
+   "ret_5d": 0.0022,
+   "ret_21d": 0.0084,
+   "ret_63d": 0.0063,
+   "pct_from_sma200": 0.0095
+  },
+  {
+   "symbol": "IEF",
+   "label": "7-10y Treasuries",
+   "as_of": "2026-11-06",
+   "close": 91.86,
+   "ret_5d": 0.0045,
+   "ret_21d": 0.0304,
+   "ret_63d": 0.0007,
+   "pct_from_sma200": -0.0034
+  },
+  {
+   "symbol": "TLT",
+   "label": "20y+ Treasuries",
+   "as_of": "2026-11-06",
+   "close": 81.92,
+   "ret_5d": 0.0052,
+   "ret_21d": 0.0565,
+   "ret_63d": 0.0104,
+   "pct_from_sma200": -0.0108
+  },
+  {
+   "symbol": "HYG",
+   "label": "high-yield credit",
+   "as_of": "2026-11-06",
+   "close": 77.23,
+   "ret_5d": 0.0026,
+   "ret_21d": 0.0064,
+   "ret_63d": -0.0135,
+   "pct_from_sma200": -0.0034
+  },
+  {
+   "symbol": "LQD",
+   "label": "investment-grade credit",
+   "as_of": "2026-11-06",
+   "close": 104.53,
+   "ret_5d": 0.0064,
+   "ret_21d": 0.024,
+   "ret_63d": -0.0012,
+   "pct_from_sma200": -0.0081
+  },
+  {
+   "symbol": "GLD",
+   "label": "gold",
+   "as_of": "2026-11-06",
+   "close": 372.52,
+   "ret_5d": 0.0471,
+   "ret_21d": -0.0161,
+   "ret_63d": -0.0746,
+   "pct_from_sma200": -0.0942
+  },
+  {
+   "symbol": "UUP",
+   "label": "US dollar",
+   "as_of": "2026-11-06",
+   "close": 29.13,
+   "ret_5d": 0.0045,
+   "ret_21d": 0.0052,
+   "ret_63d": 0.0352,
+   "pct_from_sma200": 0.0416
+  }
+ ],
+ "sectors": [
+  {
+   "symbol": "XLV",
+   "label": "Health Care",
+   "as_of": "2026-11-06",
+   "close": 184.8,
+   "ret_5d": -0.0004,
+   "ret_21d": 0.099,
+   "ret_63d": 0.1013,
+   "pct_from_sma200": 0.1664
+  },
+  {
+   "symbol": "XLP",
+   "label": "Consumer Staples",
+   "as_of": "2026-11-06",
+   "close": 90.08,
+   "ret_5d": 0.0074,
+   "ret_21d": 0.0798,
+   "ret_63d": 0.0673,
+   "pct_from_sma200": 0.0746
+  },
+  {
+   "symbol": "XLRE",
+   "label": "Real Estate",
+   "as_of": "2026-11-06",
+   "close": 44.0,
+   "ret_5d": 0.0192,
+   "ret_21d": 0.0771,
+   "ret_63d": -0.0007,
+   "pct_from_sma200": 0.0266
+  },
+  {
+   "symbol": "XLB",
+   "label": "Materials",
+   "as_of": "2026-11-06",
+   "close": 51.95,
+   "ret_5d": -0.015,
+   "ret_21d": 0.0544,
+   "ret_63d": -0.0187,
+   "pct_from_sma200": 0.0218
+  },
+  {
+   "symbol": "XLF",
+   "label": "Financials",
+   "as_of": "2026-11-06",
+   "close": 57.16,
+   "ret_5d": 0.0115,
+   "ret_21d": 0.054,
+   "ret_63d": -0.0078,
+   "pct_from_sma200": 0.068
+  },
+  {
+   "symbol": "XLY",
+   "label": "Consumer Discretionary",
+   "as_of": "2026-11-06",
+   "close": 117.58,
+   "ret_5d": 0.0191,
+   "ret_21d": 0.0525,
+   "ret_63d": -0.0153,
+   "pct_from_sma200": 0.0215
+  },
+  {
+   "symbol": "XLU",
+   "label": "Utilities",
+   "as_of": "2026-11-06",
+   "close": 43.13,
+   "ret_5d": -0.0069,
+   "ret_21d": 0.0502,
+   "ret_63d": 0.0075,
+   "pct_from_sma200": -0.016
+  },
+  {
+   "symbol": "XLI",
+   "label": "Industrials",
+   "as_of": "2026-11-06",
+   "close": 162.67,
+   "ret_5d": -0.0283,
+   "ret_21d": -0.034,
+   "ret_63d": -0.1165,
+   "pct_from_sma200": -0.0578
+  },
+  {
+   "symbol": "XLE",
+   "label": "Energy",
+   "as_of": "2026-11-06",
+   "close": 61.62,
+   "ret_5d": -0.12,
+   "ret_21d": -0.0555,
+   "ret_63d": 0.0301,
+   "pct_from_sma200": 0.052
+  },
+  {
+   "symbol": "XLC",
+   "label": "Communication",
+   "as_of": "2026-11-06",
+   "close": 104.79,
+   "ret_5d": 0.0489,
+   "ret_21d": -0.065,
+   "ret_63d": -0.0598,
+   "pct_from_sma200": -0.065
+  },
+  {
+   "symbol": "XLK",
+   "label": "Technology",
+   "as_of": "2026-11-06",
+   "close": 164.74,
+   "ret_5d": -0.0823,
+   "ret_21d": -0.1671,
+   "ret_63d": -0.1148,
+   "pct_from_sma200": -0.0304
+  }
+ ],
+ "sleeves": [
+  {
+   "symbol": "VOO",
+   "name": "S&P 500",
+   "asset_class": "etf",
+   "kind": "equity",
+   "close": 675.99,
+   "vol_252d": 0.13535437707943151,
+   "ret_21d": -0.0496,
+   "ret_63d": -0.0463,
+   "pct_from_sma200": 0.0109
+  },
+  {
+   "symbol": "VTI",
+   "name": "Total US stock market",
+   "asset_class": "etf",
+   "kind": "equity",
+   "close": 361.93,
+   "vol_252d": 0.13745613855221372,
+   "ret_21d": -0.0464,
+   "ret_63d": -0.0492,
+   "pct_from_sma200": 0.0095
+  },
+  {
+   "symbol": "QQQ",
+   "name": "Nasdaq 100",
+   "asset_class": "etf",
+   "kind": "equity",
+   "close": 656.1,
+   "vol_252d": 0.2134812878620215,
+   "ret_21d": -0.1224,
+   "ret_63d": -0.0889,
+   "pct_from_sma200": -0.0349
+  },
+  {
+   "symbol": "VXUS",
+   "name": "International developed + emerging stocks",
+   "asset_class": "etf",
+   "kind": "equity",
+   "close": 80.92,
+   "vol_252d": 0.1764469925107212,
+   "ret_21d": -0.0378,
+   "ret_63d": -0.0663,
+   "pct_from_sma200": -0.0272
+  },
+  {
+   "symbol": "VWO",
+   "name": "Emerging-market stocks",
+   "asset_class": "etf",
+   "kind": "equity",
+   "close": 55.29,
+   "vol_252d": 0.18062321403593448,
+   "ret_21d": -0.0645,
+   "ret_63d": -0.0819,
+   "pct_from_sma200": -0.0498
+  },
+  {
+   "symbol": "VNQ",
+   "name": "US real estate (REITs)",
+   "asset_class": "etf",
+   "kind": "equity",
+   "close": 95.73,
+   "vol_252d": 0.14224791006901766,
+   "ret_21d": 0.0714,
+   "ret_63d": -0.0057,
+   "pct_from_sma200": 0.0248
+  },
+  {
+   "symbol": "BND",
+   "name": "Total US bond market",
+   "asset_class": "etf",
+   "kind": "defensive",
+   "close": 71.59,
+   "vol_252d": 0.039807491908536656,
+   "ret_21d": 0.0232,
+   "ret_63d": 0.0028,
+   "pct_from_sma200": 0.0005
+  },
+  {
+   "symbol": "IEF",
+   "name": "7-10 year Treasuries",
+   "asset_class": "etf",
+   "kind": "defensive",
+   "close": 91.86,
+   "vol_252d": 0.050007384605237036,
+   "ret_21d": 0.0304,
+   "ret_63d": 0.0007,
+   "pct_from_sma200": -0.0034
+  },
+  {
+   "symbol": "TLT",
+   "name": "20+ year Treasuries",
+   "asset_class": "etf",
+   "kind": "defensive",
+   "close": 81.92,
+   "vol_252d": 0.09565349456479251,
+   "ret_21d": 0.0565,
+   "ret_63d": 0.0104,
+   "pct_from_sma200": -0.0108
+  },
+  {
+   "symbol": "GLD",
+   "name": "Gold",
+   "asset_class": "etf",
+   "kind": "defensive",
+   "close": 372.52,
+   "vol_252d": 0.28954856483920655,
+   "ret_21d": -0.0161,
+   "ret_63d": -0.0746,
+   "pct_from_sma200": -0.0942
+  },
+  {
+   "symbol": "BTC/USD",
+   "name": "Bitcoin",
+   "asset_class": "crypto",
+   "kind": "crypto",
+   "close": 75757.35,
+   "vol_252d": 0.44225676660573077,
+   "ret_21d": -0.0691,
+   "ret_63d": -0.0512,
+   "pct_from_sma200": 0.0351
+  },
+  {
+   "symbol": "ETH/USD",
+   "name": "Ether",
+   "asset_class": "crypto",
+   "kind": "crypto",
+   "close": 2236.9,
+   "vol_252d": 0.6020926456871034,
+   "ret_21d": -0.0679,
+   "ret_63d": -0.098,
+   "pct_from_sma200": 0.0376
+  }
+ ],
+ "note": "Yields, VIX and credit spreads are ETF proxies; TLT down = long yields up. The regime filter (SPY vs 200-day SMA) is enforced in code regardless of stance; when it is off, only the defensive ETFs (kind 'defensive') can be bought. `sleeves` are the ETFs and crypto the agents may buy besides screened stocks; crypto vol is annualized over 365 days."
+}

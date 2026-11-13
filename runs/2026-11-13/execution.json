@@ -1,0 +1,73 @@
+{
+ "date": "2026-11-13",
+ "version": "6",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "VNQ",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.123850841",
+   "resized": false,
+   "order_id": "d2fb57d9-e90c-43b7-aa72-41d5b31d39fb",
+   "client_order_id": "at-20261113True-VNQ-sell",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "WMT",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.195109733",
+   "resized": false,
+   "order_id": "943c078c-2be3-4e55-bb71-805a21378471",
+   "client_order_id": "at-20261113True-WMT-sell",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "IEF",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.164385664",
+   "resized": false,
+   "order_id": "3c57a7e0-e873-4926-90f8-aec49df4f6e2",
+   "client_order_id": "at-20261113True-IEF-sell",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "EXEL",
+   "side": "buy",
+   "requested_usd": 15.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 15.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "99663512-6f6c-47f1-a377-8862481c6b78",
+   "client_order_id": "at-20261113True-EXEL-buy",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "KR",
+   "side": "buy",
+   "requested_usd": 15.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 15.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "2c4cbe56-da48-4be3-9631-5d71a4e1a75e",
+   "client_order_id": "at-20261113True-KR-buy",
+   "order_status": "pending_new"
+  }
+ ]
+}

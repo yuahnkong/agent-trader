@@ -1,0 +1,32 @@
+{
+  "stance": "neutral",
+  "confidence": 0.6,
+  "summary": "The long-term trend is intact (SPY 6.49% above its 200-day) but the index is going nowhere (5d -0.10%, 21d +1.06%) and leadership is defensive and energy-led rather than growth-led. Keep normal appetite for broad US equity, don't add risk aggressively, and stay cautious on crypto, gold and Communication.",
+  "reasons": [
+    "Regime is on: SPY closed 772.31 vs a 725.22 200-day average (+6.49%), with 63-day return +4.39%. This supports holding broad equity, not stepping up risk.",
+    "Momentum is flat: SPY 5d -0.10% and 21d +1.06%, and 20-day realized vol is low at 0.0999 vs 0.1267 over 252 days, so there is no stress signal, but also no thrust.",
+    "Leadership is rotational and defensive: XLE 21d +11.23%, XLU +7.00%, XLP +6.10%, XLV +5.27%, while QQQ is -1.67% over 21 days and XLK -1.80%. That is not a clean risk-on pattern.",
+    "Breadth is better than the cap-weighted index over 21 days: RSP +3.79% vs SPY +1.06%; IWM 5d +1.74% but 63d -3.61% and only 1.37% above its 200-day, so small caps are bouncing without a durable trend.",
+    "Communication is the weak spot: XLC 5d -5.35%, 21d -7.47%, 8.32% below its 200-day.",
+    "Bonds are rallying: TLT 21d +3.94% (long yields falling), IEF +1.92%, BND +1.73%, LQD +2.06%, but IEF/TLT are still 1.82% / 2.73% below their 200-days and 63d returns are negative (-1.51% / -1.01%). A relief bounce within a weaker trend.",
+    "Credit is steady, not stressed: HYG 5d +0.79%, 21d +0.74%, and LQD 21d +2.06%. VIXY is up 2.22% over 5 days (21d +2.04%) but is -19.22% over 63 days, a mild uptick in hedging from a low base.",
+    "Dollar is firm (UUP 63d +3.27%, 4.13% above its 200-day) and gold is weak (GLD 21d -2.45%, 9.68% below its 200-day), so gold is not acting as a haven right now.",
+    "Crypto is correcting: BTC 21d -2.43% and ETH 21d -8.41% (63d -5.97%) with annualized vol 0.44 and 0.61."
+  ],
+  "sector_tilts": {
+    "favor": ["Energy", "Health Care", "Consumer Staples"],
+    "avoid": ["Communication", "Industrials", "Real Estate"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Broad US is acceptable to hold: VOO/VTI are about 6.5% and 6.1% above their 200-days with 63d +4.39% / +3.78%. QQQ is the laggard (21d -1.67%) despite 7.09% above its 200-day, so don't chase growth. VXUS (21d -2.06%) and VWO (21d -4.36%, 2.03% below its 200-day) look weak; VNQ is soft (63d -6.94%). Prefer US core over international and REITs.",
+    "bonds_gold": "Bonds are bouncing (TLT 21d +3.94%, BND +1.73%) with low vol for BND (0.040), a reasonable ballast, but the 63d trend is still negative and IEF/TLT sit below their 200-days, so size modestly and favor shorter duration (SHY 21d +0.68%, above its 200-day). Gold looks risky despite oversold: GLD 9.68% below its 200-day, vol 0.286, 5d -1.44%.",
+    "crypto": "Risky. BTC (about $81.3k, 21d -2.43%, still 11.2% above its 200-day) holds its long-term trend but is correcting; ETH is weaker (21d -8.41%, 63d -5.97%). Vol is 0.44 and 0.61. Keep any crypto exposure small and prefer BTC over ETH."
+  },
+  "watch": [
+    "SPY losing its 200-day average (now 725.22, 6.49% below the close) would end the regime and push the stance to risk-off.",
+    "A sharp rise in VIXY beyond the current +2.22% 5-day move together with HYG turning down (currently +0.79% 5d) would signal stress.",
+    "QQQ and XLK continuing to lag (21d -1.67% / -1.80%) while XLC extends its drop (5d -5.35%) would argue for a more defensive stance.",
+    "Defensive rotation reversing (XLU, XLP, XLV) with QQQ and IWM leading on rising breadth would justify moving to risk-on.",
+    "TLT falling back (long yields rising) or a stronger dollar (UUP 63d +3.27%) would add pressure on equities, bonds and gold."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "summary": "The rotation is small and clean at the portfolio level. Selling MSM leaves one industrial MRO name (FAST, 5.1%), and the INCY buy takes Health Care from 8.1% to about 10.8% across two names, making it the third-largest bucket. The MSM sale is a tiny short-term gain with no wash-sale issue. The 10% market-drop loss barely moves, from -$22.57 to about -$22.68, because the lower-beta INCY dollars almost offset the MSM dollars sold. No lesson in learning.json names the Implicator and I have no graded calls. I used bucket, not screen_label, for every sector figure, which is the method L3 sets for the proposer and PM.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "Sells the whole MSM position, about $8.09 (1.30% of $622.01 equity). By bucket, Industrials falls from 6.40% to 5.10%, and FAST is then the only name in it. Stocks go from 56.0% to 54.7% of equity before P2. Equity ETFs (VOO+VTI 21.75%), bonds (BND+IEF 8.81%), real estate (VNQ 1.93%) and crypto (0%) are unchanged. Cash rises to about $79.71 (12.8%) until P2 spends it. No position nears the 15% cap because of this trade. VOO stays at 13.81%, the closest to the cap.",
+      "overlap": "This trade reduces overlap. MSM and FAST are the same industrial MRO distribution business. Both are filed as Consumer Discretionary by SIC screen_label and as Industrials by bucket, and the Fundamentals review says to treat them as one sleeve. Selling MSM folds them into a single 5.1% exposure. Neither has meaningful look-through weight inside VOO/VTI.",
+      "tax": "There is one FIFO lot: 0.067301 sh at $118.72, opened 2026-10-27 and held 15 days, short-term. It turns long-term on 2027-10-28, about 351 days away, so the sale gives up no near-term long-term treatment. At the $119.30 mark the realized gain is about +$0.10 short-term, which is immaterial.",
+      "wash_sale": "none: the sale is at a gain and the whole position is sold, so no partial loss sale follows the 10-27 buy. recent_realized and buy_blocked list only BTC/USD.",
+      "summary": "A clean consolidation with negligible tax and no wash-sale risk. It removes the duplicated MRO exposure and cuts the 10%-drop loss by about $0.67, since MSM has the higher beta (0.824)."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "A $17 buy is 2.73% of equity, far under the 15% cap and the $77.70 buy cap. Health Care goes from 8.06% (IDXX $50.12) to about 10.79% ($67.12), so the bucket order after both trades is US broad equity ETF 21.75%, Consumer Staples 15.21%, Health Care 10.79%, Consumer Discretionary 10.73%. Stocks end at about 57.4% of equity (from 56.0%), and cash ends at about $62.71, or 10.08%. That keeps the 10% buffer with about $0.50 to spare, so a fill a little above $17 would put cash just below the buffer. Invested goes from 88.5% to about 89.9%. Crypto stays at 0%.",
+      "overlap": "This adds to Health Care, where IDXX is already held. The businesses differ (animal diagnostics versus oncology and inflammation drugs), so stock-specific risk is not shared. Both still ride the same XLV sector flows that the Market Analyst's tilt depends on. If that tilt reverses, about 10.8% of equity moves with it, and the IDXX invalidation clause and the INCY invalidation clause are both measured against XLV. Look-through overlap with VOO/VTI is negligible: INCY is at most a very small index weight, a judgment that is not in the inputs. INCY adds to no Technology or Staples stack.",
+      "tax": "This is a buy, so there is no realized tax now. It opens a new short-term lot.",
+      "wash_sale": "none: INCY has never been sold at a loss (recent_realized shows only BTC/USD on 11-09), and buy_blocked lists only BTC/USD.",
+      "summary": "Acceptable at the portfolio level. Its 0.456 beta adds about -$0.78 in a 10% drop, and Health Care rises to a two-name 10.8%. The risk beta does not capture is biotech single-name event risk (trial readouts and guidance), which the invalidation partly covers. Size is fine as proposed, but the cash buffer is thin if the fill runs over $17."
+    }
+  ],
+  "stress_10pct_drop": {
+    "before_usd": -22.57,
+    "after_usd": -22.68
+  },
+  "notes": "Stress arithmetic: MSM sold, $8.09 x -8.24/100 = -$0.67 removed. INCY bought, $17.00 x -4.56/100 = -$0.78 added. -22.57 + 0.67 - 0.78 = -22.68. The net change is -$0.11 because the rotation puts about $8.91 more into equities. No crypto proposal, so the crypto volatility check does not apply. For context, by bucket Consumer Staples is 15.2% (WMT and KR) and DPZ sits separately in Consumer Discretionary at 10.7%. The PM's 'about 26% Staples' figure counts by screen_label. Neither proposal changes it."
+}

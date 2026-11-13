@@ -1,0 +1,2730 @@
+{
+ "window_hours": 72,
+ "headlines": [
+  {
+   "id": 62864837,
+   "created_at": "2026-11-04T14:08:29Z",
+   "headline": "CVS Health Q3 2026 Earnings Call Transcript",
+   "summary": "CVS Health (NYSE:CVS) reported third-quarter financial results on Wednesday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62864837/cvs-health-q3-2026-earnings-call-transcript"
+  },
+  {
+   "id": 62864823,
+   "created_at": "2026-11-04T14:08:06Z",
+   "headline": "Incyte To Present New Data On Its 30 Abstracts At American Society Of Hematology Annual Meeting",
+   "summary": "",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62864823/incyte-present-new-data-its-30-abstracts-american-society-hematology-annual-meeting"
+  },
+  {
+   "id": 62864066,
+   "created_at": "2026-11-04T13:57:11Z",
+   "headline": "Dan Ives Says Democratic Sweep Will Slow AI Buildout, Estimates 10% Of Planned US Data Centers \u2018Will Not Happen Now\u2019",
+   "summary": "Dan Ives says Democrats\u2019 sweep could slow U.S. AI infrastructure growth, with 10% of planned data centers now at risk.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/62864066/dan-ives-says-democratic-sweep-will-slow-ai-buildout-estimates-10-of-planned-us-data-centers-will-not-happen-now"
+  },
+  {
+   "id": 62863972,
+   "created_at": "2026-11-04T13:55:15Z",
+   "headline": "Gold, Silver Add $1 Trillion After US Midterm Results: 4 ETFs to Trade As Rally Heats Up",
+   "summary": "Gold and silver add $1 trillion after the Democratic midterm sweep. Here are four ETFs to watch for today&#39;s trading opportunities.",
+   "symbols": [
+    "GLD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62863972/gold-silver-add-1-trillion-after-us-midterm-results-4-etfs-to-trade-as-rally-heats-up"
+  },
+  {
+   "id": 62854452,
+   "created_at": "2026-11-04T13:40:09Z",
+   "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise as Democrats Take Control of Congress\u2014AMD, AMGN, NVO in Focus (UPDATED)",
+   "summary": "U.S. stocks rose on Wednesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures advanced, following Tuesday&#39;s mixed close.",
+   "symbols": [
+    "BTC/USD",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62854452/stock-market-today-dow-jones-sp-500-futures-rise-as-democrats-take-control-of-congress-amd-amgn-nvo-in-focus"
+  },
+  {
+   "id": 62862465,
+   "created_at": "2026-11-04T13:19:04Z",
+   "headline": "CVS Health Exec Says Expects Margin Improvements In Its Healthcare Benefits Business In 2027; Expects To Deliver At Least $8.65 In Adjusted EPS In 2027; Expects Health Services Segment To Generate Adjusted Operating Income Of At Least $7B In 2027",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62862465/cvs-health-exec-says-expects-margin-improvements-its-healthcare-benefits-business-2027-expects-deliv"
+  },
+  {
+   "id": 62862271,
+   "created_at": "2026-11-04T13:12:35Z",
+   "headline": "Midterms' Blue Sweep Hits the 'Trump Trade': SpaceX, Tesla and Defense Stocks Sink",
+   "summary": "Democrats won both chambers of Congress, and the Trump trade cracked: SpaceX, Tesla, defense contractors and Trump Media fell premarket as futures rose.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62862271/midterm-blue-sweep-trump-trade-spacex-tesla-defense-stocks"
+  },
+  {
+   "id": 62861180,
+   "created_at": "2026-11-04T12:55:24Z",
+   "headline": "What's Going On With Alibaba Stock Wednesday?",
+   "summary": "BABA jumps 4% premarket. Explore how China policy support, Qwen AI expansion, Apple integration, and upcoming earnings are lifting Alibaba.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62861180/whats-going-on-with-alibaba-stock-wednesday-5"
+  },
+  {
+   "id": 62861114,
+   "created_at": "2026-11-04T12:52:16Z",
+   "headline": "Bitcoin Rallies 2%: Could Tightening Supply Spark a Bigger Rally?",
+   "summary": "Bitcoin rises 2% as shrinking tradable supply and record shark-wallet accumulation fuel hopes of a supply squeeze, though ownership concentration poses",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62861114/bitcoin-rallies-2-could-tightening-supply-spark-a-bigger-rally"
+  },
+  {
+   "id": 112631920,
+   "created_at": "2026-11-04T12:32:54Z",
+   "headline": "The Scotts Miracle-Gro Company Reports Fiscal 2026 Full-Year Results",
+   "summary": "The Scotts Miracle-Gro Company announced its financial results for the fourth quarter and full fiscal year ended September 30, 2026, reporting adjusted earnings per share that exceeded guidance.",
+   "symbols": [
+    "SMG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/04/3395137/33079/en/scottsmiracle-gro-reports-strong-fiscal-2026-full-year-results.html"
+  },
+  {
+   "id": 112631373,
+   "created_at": "2026-11-04T12:32:46Z",
+   "headline": "Analyst Price Target Update for The Clorox Company",
+   "summary": "An analyst has updated the 12-month price target for The Clorox Company to $94.38.",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://ru.tradingview.com/news/tradingview:89395bddbafbb:0/"
+  },
+  {
+   "id": 112631354,
+   "created_at": "2026-11-04T12:32:37Z",
+   "headline": "Rothschild & Co Redburn Adjusts Price Target on IDEXX Laboratories to $700 From $665",
+   "summary": "Rothschild & Co Redburn has updated its price target for IDEXX Laboratories, increasing it to $700 from the previous $665.",
+   "symbols": [
+    "IDXX"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/rothschild-co-redburn-adjusts-price-target-on-idexx-laboratories-to-700-from-665-ce785fdfdb8cf624"
+  },
+  {
+   "id": 112631326,
+   "created_at": "2026-11-04T12:32:17Z",
+   "headline": "Incyte's Ruxolitinib Phosphate Cream Approved in Singapore for Vitiligo",
+   "summary": "Incyte's partner, Rxilient Medical, received approval from the Singapore Health Sciences Authority for ruxolitinib phosphate cream (marketed as Lumirix) to treat non-segmental vitiligo.",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://tw.tradingview.com/news/reuters.com,2026-11-04:newsml_ACN111363:0/"
+  },
+  {
+   "id": 112631271,
+   "created_at": "2026-11-04T12:31:46Z",
+   "headline": "CVS Health Announces Plan to Separate into Two Independent Companies",
+   "summary": "CVS Health plans to split its business into two separate publicly traded companies by 2028, with one entity focusing on health insurance and pharmacy benefits and the other on retail pharmacy operations.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261104108/cvs-health-plans-to-split-in-two-heres-what-is-driving-the-massive-healthcare-breakup"
+  },
+  {
+   "id": 112630849,
+   "created_at": "2026-11-04T12:31:46Z",
+   "headline": "CVS Health Reports Third Quarter 2026 Financial Results and Raises Full-Year Guidance",
+   "summary": "CVS Health reported Q3 2026 revenue of $108.4 billion and raised its full-year 2026 financial outlook.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/cvs-health-corporation-reports-third-quarter-2026-results-and-raises-full-year-2026-guidance-302928358.html"
+  },
+  {
+   "id": 112630841,
+   "created_at": "2026-11-04T12:31:38Z",
+   "headline": "Apple Issues December-Quarter Revenue Guidance and Warns of Margin Pressures",
+   "summary": "Apple Inc. projected 7%\u201310% revenue growth for the December quarter while cautioning that rising memory and storage costs may impact profit margins.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:67f2ef4c1e0a9:0-key-facts-apple-inc-falls-nvidia-leads-costs-rise-iphone-delays/"
+  },
+  {
+   "id": 62860026,
+   "created_at": "2026-11-04T12:26:29Z",
+   "headline": "CVS Health Q3 Includes $193M Omnicare Guarantee Charge",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CVS"
+  },
+  {
+   "id": 62860005,
+   "created_at": "2026-11-04T12:26:20Z",
+   "headline": "CVS Health Q3 Medical Benefit Ratio 91.3% vs 92.8% YoY; Medical Membership 26.1M",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CVS"
+  },
+  {
+   "id": 62859993,
+   "created_at": "2026-11-04T12:26:10Z",
+   "headline": "CVS Health Sees FY26 Revenue At Least $420.0B",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CVS"
+  },
+  {
+   "id": 62859971,
+   "created_at": "2026-11-04T12:25:57Z",
+   "headline": "CVS Health Raises FY26 Cash Flow From Operations Guidance To At Least $15.5B From At Least $11.5B",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CVS"
+  },
+  {
+   "id": 62859960,
+   "created_at": "2026-11-04T12:25:46Z",
+   "headline": "CVS Health Raises FY26 Adj EPS Guidance To At Least $8.20 From $7.90-$8.10; GAAP EPS To At Least $6.98 From $6.84-$7.04",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/CVS"
+  },
+  {
+   "id": 62859713,
+   "created_at": "2026-11-04T12:22:14Z",
+   "headline": "Bitcoin Fear Spikes on Democrat Sweep but $79,000 Could Flip the Script",
+   "summary": "Bitcoin sentiment collapses on Democratic midterm gains, but Santiment says a move above $79,000 could spark a reversal.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62859713/bitcoin-fear-spikes-on-democrat-sweep-but-79000-could-flip-the-script"
+  },
+  {
+   "id": 62858022,
+   "created_at": "2026-11-04T12:00:58Z",
+   "headline": "Scotts Miracle Gro Sees FY2027 Adj EPS $4.70-$4.90 vs $4.71 Est; Sees Sales $3.355B-$3.420B vs $3.361B Est",
+   "summary": "",
+   "symbols": [
+    "SMG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62858022/scotts-miracle-gro-sees-fy2027-adj-eps-4-70-4-90-vs-4-71-est-sees-sales-3-355b-3-420b-vs-3-361b-est"
+  },
+  {
+   "id": 62857696,
+   "created_at": "2026-11-04T11:56:56Z",
+   "headline": "Scotts Miracle Gro Q4 Adj. EPS $(2.16) Beats $(2.21) Estimate, Sales $302.900M Miss $306.098M Estimate",
+   "summary": "",
+   "symbols": [
+    "SMG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/SMG"
+  },
+  {
+   "id": 62857557,
+   "created_at": "2026-11-04T11:55:51Z",
+   "headline": "CVS Says Sale Of Omicare Assets Probable In Q4 2026",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62857557/cvs-says-sale-omicare-assets-probable-q4-2026"
+  },
+  {
+   "id": 62857349,
+   "created_at": "2026-11-04T11:50:58Z",
+   "headline": "AMD\u2019s $17 Billion Answer, Apple's AI Bill And Next 3 Trading Days",
+   "summary": "GROWTH IS REAL. SO ARE THE BILLS.\n\n\n\nAMD and Arista delivered fresh evidence that companies are spending heavily on AI infrastructure: the chips, servers and networking equipment that make AI work. That spending does",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/11/62857349/amd-17-billion-answer-apple-ai-bill-jobs-test-next"
+  },
+  {
+   "id": 62856660,
+   "created_at": "2026-11-04T11:35:52Z",
+   "headline": "CVS Confirms To Split Company Into Two Publicly Traded Entities, With A Healthcare Solutions Pure-Play Comprising Aetna, CVS Caremark, CVS Specialty, Oak Street Health And Signify Health; Retail Pharmacies And Community Health Will Make Up Other Company; Planned To Be Completed In H1 2028",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62856660/cvs-confirms-split-company-two-publicly-traded-entities-healthcare-solutions-pure-play-comprising-ae"
+  },
+  {
+   "id": 62856469,
+   "created_at": "2026-11-04T11:32:20Z",
+   "headline": "CVS Health FY2026  Adj EPS expected to be more than $8.20 vs $8.04 Est; FY2026  Revenue expected to be more than $420.000B vs $417.731B Est",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62856469/cvs-health-fy2026-adj-eps-expected-be-more-8-20-vs-8-04-est-fy2026-revenue-expected-be-more-420-000b"
+  },
+  {
+   "id": 62856457,
+   "created_at": "2026-11-04T11:32:14Z",
+   "headline": "CVS Health FY2026  GAAP EPS expected to be more than $6.98 vs $6.67 Est",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62856457/cvs-health-fy2026-gaap-eps-expected-be-more-6-98-vs-6-67-est"
+  },
+  {
+   "id": 112607621,
+   "created_at": "2026-11-04T11:31:56Z",
+   "headline": "DZ Bank Downgrades Apple to Sell",
+   "summary": "DZ Bank has downgraded Apple Inc. from \"Hold\" to \"Sell,\" setting a price target of $300.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/dz-bank-downgrades-apple-to-sell-from-hold-price-target-is-300-ce785fdfd889f724"
+  },
+  {
+   "id": 112607248,
+   "created_at": "2026-11-04T11:31:50Z",
+   "headline": "Citigroup Downgrades Adobe to Sell",
+   "summary": "Citigroup has downgraded Adobe's stock rating from Neutral to Sell, setting a price target of $207.",
+   "symbols": [
+    "ADBE"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/citigroup-downgrades-adobe-to-sell-from-neutral-price-target-is-207-ce785fdfd889f322"
+  },
+  {
+   "id": 112607243,
+   "created_at": "2026-11-04T11:31:42Z",
+   "headline": "Autodesk Confirmed as Participant for Big 5 Global 2026",
+   "summary": "Autodesk is among the companies confirmed to participate in the Big 5 Global construction industry event taking place in Dubai in November 2026.",
+   "symbols": [
+    "ADSK"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/954439057/big-5-global-connects-kuwaiti-suppliers-with-new-business-opportunities-across-measa"
+  },
+  {
+   "id": 62856301,
+   "created_at": "2026-11-04T11:30:44Z",
+   "headline": "CVS Health Q3 Adj. EPS $2.09 Beats $1.65 Estimate, Sales $108.399B Beat $104.695B Estimate",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/earnings/26/11/62856301/cvs-health-q3-adj-eps-2-09-beats-1-65-estimate-sales-108-399b-beat-104-695b-estimate"
+  },
+  {
+   "id": 62854548,
+   "created_at": "2026-11-04T10:27:16Z",
+   "headline": "Democratic Sweep Drops Dollar, Pushing Gold Past $4,000 Toward Key Test",
+   "summary": "Gold rebounds past $4,000 as midterm election results hit the US dollar and bond yields. Discover key price levels and resistance zones.",
+   "symbols": [
+    "GLD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/11/62854548/democratic-sweep-drops-dollar-pushing-gold-past-4000-toward-key-test"
+  },
+  {
+   "id": 62853988,
+   "created_at": "2026-11-04T09:38:01Z",
+   "headline": "Nancy Pelosi Backs Hakeem Jeffries for House Speaker \u2014 Crypto Bettors Agree, Giving Him 95% Odds",
+   "summary": "Cryptocurrency punters are strongly betting on Chuck Schumer Hakeem Jeffries taking top leadership roles in Congress.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62853988/nancy-pelosi-backs-hakeem-jeffries-for-house-speaker-crypto-bettors-agree-giving-him-95-odds"
+  },
+  {
+   "id": 62853100,
+   "created_at": "2026-11-04T07:40:16Z",
+   "headline": "Jack Dorsey-Led Block's Stock Has Popped Over 16% This Year; Now the CEO Sees AI Agent Opportunities Amid Sinking Bitcoin Ecosystem Profits",
+   "summary": "Block Inc. CEO Jack Dorsey said on Tuesday, November 3, the company sees an opportunity for AI agents to handle routine business operations across its Cash App and Square platforms.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62853100/jack-dorsey-led-blocks-stock-has-popped-over-16-this-year-now-the-ceo-sees-ai-agent-opportunities-amid-sinking-bitcoin-ecosystem-profits"
+  },
+  {
+   "id": 62852886,
+   "created_at": "2026-11-04T07:18:38Z",
+   "headline": "'Worst Possible Combination:' Top Analyst Warns of Trump White House With Democratic Congress \u2014 Here's What the S&P 500 Has Historically Averaged",
+   "summary": "S&amp;P 500 data shows gridlock is the market&#39;s best scenario at 15.1%, while a GOP president and Dem Congress is the worst at 4.9%.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62852886/worst-possible-combination-top-analyst-warns-of-trump-white-house-with-democratic-congress-heres-what-the-sp-500-has-historically-averaged"
+  },
+  {
+   "id": 62852873,
+   "created_at": "2026-11-04T07:17:40Z",
+   "headline": "Nasdaq Jumps Over 200 Points as Chip Stocks Gain: Fear & Greed Index Remains in \u2018Extreme Fear\u2019 Zone",
+   "summary": "Markets closed mixed as CNN Fear &amp; Greed stayed at 19 (Extreme Fear); Nasdaq rose 0.83%, Dow fell, Apple dropped and Aehr surged 26%.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/62852873/nasdaq-jumps-over-200-points-as-chip-stocks-gain-fear-greed-index-remains-in-extreme-fear-zone"
+  },
+  {
+   "id": 62851870,
+   "created_at": "2026-11-04T06:23:28Z",
+   "headline": "Trump May Be Impeached \u2018Multiple Times\u2019 if Dems Have the House, Warns Ted Cruz \u2014 Crypto Bettors Raise the Stakes",
+   "summary": "Cryptocurrency punters sharply raised odds that President Donald Trump would be impeached before his term ends, as early midterm results pointed to a Democratic sweep of Congress.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62851870/trump-impeachment-odds-midterms-ted-cruz"
+  },
+  {
+   "id": 62851581,
+   "created_at": "2026-11-04T05:57:08Z",
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will the S&amp;P 500 open higher? Polymarket odds plunge to 22% as Wall Street digests midterm results, a tech futures drop, and key earnings.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62851581/stock-market-will-sp-500-open-up-or-down-today-72"
+  },
+  {
+   "id": 62851139,
+   "created_at": "2026-11-04T04:24:22Z",
+   "headline": "Jim Cramer\u2019s \u2018Crypto Put Us on\u2019 Post Sets Off Speculation: Here\u2019s What People Are Saying",
+   "summary": "Market commentator and television personality Jim Cramer&#39;s vague social media post on cryptocurrency left many people puzzled on Tuesday, November 3.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62851139/jim-cramer-crypto-cryptic-post-bottom-signal"
+  },
+  {
+   "id": 112532300,
+   "created_at": "2026-11-04T03:01:52Z",
+   "headline": "CVS Health Explores Potential Separation of Retail Pharmacy Business",
+   "summary": "CVS Health is reportedly considering a strategic separation of its retail pharmacy division from its insurance and pharmacy benefit management operations.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:9ca831348094b:0-cvs-stock-rises-after-hours-on-alleged-pharmacy-spin-off-ahead-of-q3-earnings-report/"
+  },
+  {
+   "id": 112532296,
+   "created_at": "2026-11-04T03:01:44Z",
+   "headline": "Walmart-Backed OnePay Enables Stablecoin Deposits",
+   "summary": "OnePay, a fintech app backed by Walmart, has launched a feature allowing customers to deposit stablecoins directly into their checking accounts.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/cybersecurity/2026/walmart-backed-onepay-lets-customers-turn-stablecoins-into-checking-dollars/"
+  },
+  {
+   "id": 112532252,
+   "created_at": "2026-11-04T03:01:41Z",
+   "headline": "Apple Announces AI-Powered Health App and Developer Tools",
+   "summary": "Apple unveiled a redesigned, AI-powered Health app and new developer tools for Siri AI integration, with features set to roll out in upcoming software updates.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/fitness/2026/apple-readies-launch-of-ai-powered-health-app/"
+  },
+  {
+   "id": 112532295,
+   "created_at": "2026-11-04T03:01:41Z",
+   "headline": "Moody's Participates in RealAssets Technologies & Labs Conference on Financial Infrastructure",
+   "summary": "Representatives from Moody's participated in a conference in New York focused on the evolution of blockchain-based financial infrastructure and the role of stablecoins.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394515/0/en/assets-on-blockchain-2026-marks-a-turning-point-from-tokenization-to-functioning-financial-markets.html"
+  },
+  {
+   "id": 62850799,
+   "created_at": "2026-11-04T02:49:46Z",
+   "headline": "Democrats Are Now Crypto Punters' Favorite to Flip Senate and House With 98% Odds \u2014 Peter Schiff Takes a Dig at Republicans as Early Results Roll In",
+   "summary": "Cryptocurrency punters are almost certain that Democrats will sweep both the Senate and the House, as the first midterm results roll in.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62850799/midterm-elections-democrats-republicans-prediction-market-peter-schiff"
+  },
+  {
+   "id": 62850423,
+   "created_at": "2026-11-04T01:31:05Z",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Surrender Early Gains as Midterm Polls Close\u2014Analyst Sees \u2018Sell the Rumor, Buy the News\u2019 Play",
+   "summary": "Leading cryptocurrencies retreated late Tuesday, October 3, evening as investors awaited the outcome of the midterm elections.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62850423/bitcoin-ethereum-xrp-dogecoin-midterm-elections"
+  },
+  {
+   "id": 62849653,
+   "created_at": "2026-11-03T23:31:57Z",
+   "headline": "'CVS Will Break Off Its Namesake Pharmacies; The Company Will Split Its Retail Pharmacies From Its Insurance And Pharmacy-Benefit Operations' - WSJ",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62849653/cvs-will-break-its-namesake-pharmacies-company-will-split-its-retail-pharmacies-its-insurance-and-ph"
+  },
+  {
+   "id": 112388664,
+   "created_at": "2026-11-03T23:02:18Z",
+   "headline": "Scotts Miracle-Gro Declares Quarterly Cash Dividend",
+   "summary": "The Scotts Miracle-Gro Company announced that its Board of Directors has approved a quarterly cash dividend of $0.66 per share.",
+   "symbols": [
+    "SMG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394782/33079/en/the-scotts-miracle-gro-company-announces-quarterly-dividend-payment.html"
+  },
+  {
+   "id": 112388628,
+   "created_at": "2026-11-03T23:02:10Z",
+   "headline": "Chord Acquires Zenlytic, Expanding Enterprise AI Customer Base",
+   "summary": "Chord, an AI-native commerce data platform, has acquired business intelligence firm Zenlytic, adding Domino's to its enterprise customer portfolio.",
+   "symbols": [
+    "DPZ"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/chord-expands-into-enterprise-ai-with-zenlytic-acquisition-adding-verizon-jcrew-dominos-and-stanley-black--decker-as-customers-302926600.html"
+  },
+  {
+   "id": 112388565,
+   "created_at": "2026-11-03T23:01:55Z",
+   "headline": "UBS Maintains Match Group at Neutral, Raises Price Target to $43",
+   "summary": "UBS has maintained a Neutral rating on Match Group and raised its price target from $38 to $43.",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:9b13a96f5ebfb:0-ubs-maintains-match-group-at-neutral-raises-price-target-to-43-from-38/?mobileapp_new=true"
+  },
+  {
+   "id": 112388547,
+   "created_at": "2026-11-03T23:01:47Z",
+   "headline": "Exelixis Announces Management Participation in November Investor Conferences",
+   "summary": "Exelixis, Inc. announced that its management team will participate in fireside chats at two upcoming healthcare investor conferences in November 2026.",
+   "symbols": [
+    "EXEL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/health/pharmaceutical"
+  },
+  {
+   "id": 62848556,
+   "created_at": "2026-11-03T22:38:06Z",
+   "headline": "'CVS Health moves to dismantle $117B healthcare empire'- Financial Times",
+   "summary": "",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62848556/cvs-health-moves-dismantle-117b-healthcare-empire-financial-times"
+  },
+  {
+   "id": 112321507,
+   "created_at": "2026-11-03T22:31:49Z",
+   "headline": "SenesTech Products Now Available via Walmart Fulfillment Services",
+   "summary": "SenesTech, Inc. has transitioned its Evolve product line to Walmart Fulfillment Services to enhance delivery speed and reach.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394704/0/en/senestech-expands-e-commerce-reach-through-walmart-fulfillment-services.html"
+  },
+  {
+   "id": 62846923,
+   "created_at": "2026-11-03T22:01:50Z",
+   "headline": "2026 Midterms Prediction Market Odds Update: Democratic Senate Chances Fall to 73%",
+   "summary": "Prediction markets show Democrats favored to sweep the 2026 midterms, but their odds of winning the Senate have slipped to 73% on Kalshi.",
+   "symbols": [
+    "BTC/USD",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62846923/2026-midterms-prediction-market-odds-update-democratic-senate-chances-fall-to-73"
+  },
+  {
+   "id": 112203515,
+   "created_at": "2026-11-03T21:31:50Z",
+   "headline": "Walmart Expands AI Shopping Agent 'Sparky' Capabilities",
+   "summary": "Walmart has introduced new image-based features to its AI shopping agent, Sparky, and is expanding its availability to Canada, Mexico, and Sam's Club members.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/walmarts-updated-ai-agent-turns-pictures-into-shopping-lists/"
+  },
+  {
+   "id": 112203508,
+   "created_at": "2026-11-03T21:31:47Z",
+   "headline": "TD Cowen and Scotiabank Update Price Targets for Cheniere Energy",
+   "summary": "Analysts at TD Cowen and Scotiabank have maintained their positive ratings on Cheniere Energy while raising their respective price targets.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:cf0150585745c:0-td-cowen-maintains-cheniere-energy-at-buy-raises-price-target-to-352-from-325/"
+  },
+  {
+   "id": 62839772,
+   "created_at": "2026-11-03T20:34:05Z",
+   "headline": "Could Bitcoin Solve America's $40 Trillion Debt Crisis?",
+   "summary": "Bitcoin strategist Andrew Hohns proposes reserves and BitBonds to ease U.S. debt, plus BTC-linked lending to address real estate refinancing.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62839772/could-bitcoin-solve-americas-40-trillion-debt-crisis"
+  },
+  {
+   "id": 62839693,
+   "created_at": "2026-11-03T20:31:01Z",
+   "headline": "ARM, McDonald's On Deck Wednesday As AI Demand, Consumer Spending Face Test",
+   "summary": "ARM Holdings headlines Wednesday\u2019s reports, with investors looking for evidence that AI-related demand can support the chip designer after a sharp stock pullback. McDonald\u2019s, Novo Nordisk, Uber Technologies, CVS Health",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62839693/arm-mcdonalds-on-deck-wednesday-as-ai-demand-consumer-spending-face-test"
+  },
+  {
+   "id": 62839577,
+   "created_at": "2026-11-03T20:28:22Z",
+   "headline": "Byron Donalds Could Be Next Florida Governor: Here Are the Stocks He's Been Buying in 2026",
+   "summary": "Republican Congressman Byron Donalds could be the next Florida governor. Here are the stocks he has been buying in 2026.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62839577/byron-donalds-could-be-next-florida-governor-here-are-the-stocks-hes-been-buying-in-2026"
+  },
+  {
+   "id": 62838995,
+   "created_at": "2026-11-03T20:08:43Z",
+   "headline": "Growth And Cyclical Lead Sectors Tuesday",
+   "summary": "Four sectors are higher and six are lower among those with available change data in Tuesday&#39;s regular session, with growth and cyclical sectors splitting the top of the table. The leaders are separated rather than clustered, with no single gap clearly standing apart from the other breaks across the table.",
+   "symbols": [
+    "QQQ",
+    "WMT"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62838995/growth-and-cyclical-lead-sectors-tuesday"
+  },
+  {
+   "id": 62838855,
+   "created_at": "2026-11-03T20:04:16Z",
+   "headline": "Could Midterm Elections Solve Washington's $1.36 Trillion Interest Bill?",
+   "summary": "Gridlock may calm Treasury yields, but interest costs hit a record $1.36 trillion in fiscal 2026 and economists see them rising whatever the midterm result.",
+   "symbols": [
+    "TLT"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/bonds/26/11/62838855/midterms-interest-bill-treasury-yields-gridlock"
+  },
+  {
+   "id": 62838223,
+   "created_at": "2026-11-03T19:45:13Z",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Steady Ahead of Midterm Results",
+   "summary": "Bitcoin holds near $77,000 ahead of U.S. midterms as ETF outflows and $353M liquidations weigh; analysts see a potential uptrend resuming.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62838223/bitcoin-ethereum-xrp-dogecoin-steady-ahead-of-midterm-results"
+  },
+  {
+   "id": 62837162,
+   "created_at": "2026-11-03T19:14:56Z",
+   "headline": "S&P 500 Could Win No Matter Who Wins the Midterms: 5 ETFs to Watch Under JPMorgan's 4 Scenarios",
+   "summary": "JPMorgan sees the S&amp;P 500 holding firm across all four midterm scenarios. Here are five ETFs to watch for potential policy-driven gains.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/62837162/sp-500-could-win-no-matter-who-wins-the-midterms-5-etfs-to-watch-under-jpmorgans-4-scenarios"
+  },
+  {
+   "id": 111918789,
+   "created_at": "2026-11-03T19:02:37Z",
+   "headline": "MSC Industrial Direct Identified as 'Pick of the Week' by Smart Insider Following Non-Executive Share Purchases",
+   "summary": "MSC Industrial Direct has been highlighted by Smart Insider as a 'Pick of the Week' following recent share purchases by non-executive insiders.",
+   "symbols": [
+    "MSM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/msc-industrial-direct-pick-of-the-week-at-smart-insider-following-non-executive-share-purchases-ce785fdedb8df321"
+  },
+  {
+   "id": 111918783,
+   "created_at": "2026-11-03T19:02:35Z",
+   "headline": "EXL Recognized as Leader and Star Performer in Everest Group's 2026 CXM PEAK Matrix Assessment",
+   "summary": "EXL has been named a Leader and Star Performer in the Everest Group Customer Experience Management (CXM) PEAK Matrix Assessment for the Americas in 2026.",
+   "symbols": [
+    "EXLS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394237/9060/en/exl-recognized-as-a-leader-and-star-performer-in-the-everest-group-customer-experience-management-peak-matrix-assessment-2026.html"
+  },
+  {
+   "id": 111918776,
+   "created_at": "2026-11-03T19:02:31Z",
+   "headline": "BofA Securities Adjusts Price Target on Match Group to $43",
+   "summary": "BofA Securities has adjusted its price target for Match Group, Inc. to $43 from $41.",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bofa-securities-adjusts-price-target-on-match-to-43-from-41-ce785fdedb8df324"
+  },
+  {
+   "id": 111918773,
+   "created_at": "2026-11-03T19:02:31Z",
+   "headline": "Barclays Maintains Match Group at Overweight, Raises Price Target to $52",
+   "summary": "Barclays has maintained an Overweight rating on Match Group and increased its price target from $51 to $52.",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:ae0ca1537de13:0-barclays-maintains-match-group-at-overweight-raises-price-target-to-52-from-51/"
+  },
+  {
+   "id": 111918772,
+   "created_at": "2026-11-03T19:02:31Z",
+   "headline": "Deutsche Bank Raises Price Target on Match Group to $50 From $45",
+   "summary": "Deutsche Bank has increased its price target for Match Group, Inc. from $45 to $50 while maintaining a Buy rating.",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/deutsche-bank-raises-price-target-on-match-group-to-50-from-45-keeps-buy-rating-ce785fded88df125"
+  },
+  {
+   "id": 111918743,
+   "created_at": "2026-11-03T19:02:16Z",
+   "headline": "Deckers Outdoor Corporation Raises Fiscal 2027 EPS Guidance",
+   "summary": "Deckers Outdoor Corporation has updated its fiscal 2027 earnings per share (EPS) guidance to a range of $7.80 to $7.95, citing international demand and tariff-related factors.",
+   "symbols": [
+    "DECK"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/zacks:042c6dcd2094b:0-deckers-rides-international-strength-as-hoka-ugg-demand-holds-firm/"
+  },
+  {
+   "id": 111918695,
+   "created_at": "2026-11-03T19:02:00Z",
+   "headline": "TD Cowen Maintains Buy Rating and Raises Price Target for Cheniere Energy",
+   "summary": "TD Cowen has reaffirmed its 'Buy' rating on Cheniere Energy and increased its price target from $325 to $352.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:cf0150585745c:0-td-cowen-maintains-cheniere-energy-at-buy-raises-price-target-to-352-from-325/"
+  },
+  {
+   "id": 111918685,
+   "created_at": "2026-11-03T19:01:56Z",
+   "headline": "Evercore ISI Group Maintains Tapestry at Outperform, Lowers Price Target to $145",
+   "summary": "Evercore ISI Group has maintained its 'Outperform' rating on Tapestry, Inc. while adjusting its price target downward from $160 to $145.",
+   "symbols": [
+    "TPR"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:c9efd1e4c0d75:0-evercore-isi-group-maintains-tapestry-at-outperform-lowers-price-target-to-145-from-160/"
+  },
+  {
+   "id": 111916938,
+   "created_at": "2026-11-03T19:01:21Z",
+   "headline": "Apple Releases First Betas of iOS 27.3 and macOS Golden Gate 27.3",
+   "summary": "Apple has released the first developer betas for iOS 27.3, iPadOS 27.3, and macOS Golden Gate 27.3, introducing Apple Intelligence features for users in China.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/kkp59lh/"
+  },
+  {
+   "id": 62836578,
+   "created_at": "2026-11-03T18:58:07Z",
+   "headline": "Apple Stock at \u2018Extreme Overvaluation\u2019: Analysts See Slowing Revenue Growth",
+   "summary": "Apple analysts are worried about revenue growth slowing for the company, along with lower gross margins.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62836578/apple-stock-at-extreme-overvaluation-analysts-see-slowing-revenue-growth"
+  },
+  {
+   "id": 62836517,
+   "created_at": "2026-11-03T18:56:35Z",
+   "headline": "This Midterm Nightmare Scenario Puts S&P 500 Down 10% by Year-End, Evercore Warns",
+   "summary": "Evercore warns a disputed Democratic sweep plus deeper Iran involvement could send the S&amp;P 500 down 10% to 6,800, erasing 2026 gains.",
+   "symbols": [
+    "QQQ",
+    "VOO"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62836517/this-midterm-nightmare-scenario-puts-sp-500-down-10-by-year-end-evercore-warns"
+  },
+  {
+   "id": 62836190,
+   "created_at": "2026-11-03T18:45:07Z",
+   "headline": "'Heavy' Bitcoin Needs to Reclaim $80,000 to Invalidate Bears: Report",
+   "summary": "Bitcoin fell below $80K after Binance\u2019s hack triggered $1.5B in liquidations. Weak spot demand persists; $78K and $76.8K are key support levels.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62836190/heavy-bitcoin-needs-to-reclaim-80000-to-invalidate-bears-report"
+  },
+  {
+   "id": 62836078,
+   "created_at": "2026-11-03T18:42:30Z",
+   "headline": "Citigroup Maintains Neutral on Match Group, Raises Price Target to $45",
+   "summary": "",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62836078/citigroup-maintains-neutral-match-group-raises-price-target-45"
+  },
+  {
+   "id": 62835644,
+   "created_at": "2026-11-03T18:31:42Z",
+   "headline": "Apple Announces Redesigned Health App Expands Language Support",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62835644/apple-announces-redesigned-health-app-expands-language-support"
+  },
+  {
+   "id": 62835273,
+   "created_at": "2026-11-03T18:22:10Z",
+   "headline": "RIOT, COIN, MSTR Jump up to 16%: What Is Going On With Crypto Stocks?",
+   "summary": "Riot jumps 16% as crypto stocks outpace Bitcoin and XRP on Election Day after regulators approve equity perpetual futures.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62835273/riot-coin-mstr-jump-up-to-16-what-is-going-on-with-crypto-stocks"
+  },
+  {
+   "id": 62835163,
+   "created_at": "2026-11-03T18:20:08Z",
+   "headline": "Why Is CleanSpark Stock Surging on Tuesday?",
+   "summary": "CleanSpark Inc. (NASDAQ: CLSK) stock climbed more than 11% on Tuesday alongside gains in Bitcoin and tech equities. Here is what is driving the move.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62835163/why-is-cleanspark-stock-surging-on-tuesday"
+  },
+  {
+   "id": 62835059,
+   "created_at": "2026-11-03T18:17:29Z",
+   "headline": "JP Morgan Maintains Overweight on Apple, Lowers Price Target to $355",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62835059/jp-morgan-maintains-overweight-apple-lowers-price-target-355"
+  },
+  {
+   "id": 62834558,
+   "created_at": "2026-11-03T18:06:14Z",
+   "headline": "Clorox Shares Rally After Q1 Earnings Beat",
+   "summary": "Shares of Clorox Co (NYSE:CLX) are trading higher on Tuesday after the company reported better-than-expected first-quarter financial results. Clorox also affirmed its FY27 adjusted EPS guidance above estimates.",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62834558/clorox-shares-rally-after-q1-earnings-beat"
+  },
+  {
+   "id": 62834276,
+   "created_at": "2026-11-03T18:00:10Z",
+   "headline": "Bitcoin Could Face Third and Final 2026 Low in Q4 if S&P500 Drops, Analyst Cautions",
+   "summary": "Bitcoin could form a third low as Benjamin Cowen warns the S&amp;P 500 remains one of the last major indexes left to fall.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62834276/bitcoin-could-face-third-and-final-2026-low-in-q4-if-sp500-drops-analyst-cautions"
+  },
+  {
+   "id": 62834251,
+   "created_at": "2026-11-03T17:59:29Z",
+   "headline": "Why Is Galaxy Digital Stock Surging on Tuesday?",
+   "summary": "Galaxy Digital stock gained more than 12% on Tuesday following Bitcoin stabilization and supportive broader market sentiment.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62834251/why-is-galaxy-digital-stock-surging-on-tuesday-2"
+  },
+  {
+   "id": 62833944,
+   "created_at": "2026-11-03T17:52:44Z",
+   "headline": "QUICK SPARK: Trump Celebrates Republican Victory in Guam \u2014 'Wow, Hopefully an Indication for Things to Come!'",
+   "summary": "Trump touts Republican gains in Guam, while Texas races tighten as Talarico offers bipartisanship and Abbott seeks a fourth term.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62833944/trump-celebrates-republican-victory-in-guam-wow-hopefully-an-indication-for-things-to-come"
+  },
+  {
+   "id": 62833774,
+   "created_at": "2026-11-03T17:49:16Z",
+   "headline": "AMD Earnings To Test Whether PC Weakness Is Intel-Specific, Apple\u2019s AI Agent Problem",
+   "summary": "\n\n\n\nElection Day Crosscurrents\n\n\n\nPlease click here for an enlarged chart of Invesco QQQ Trust Series 1 (NASDAQ:QQQ).\n\n\n\nNote the following:\n\n\n\n\nThe chart shows QQQ dipped into zone 2 (support).\n\n\n\nThe chart shows QQQ",
+   "symbols": [
+    "AAPL",
+    "BTC/USD",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/11/62833774/amd-earnings-to-test-whether-pc-weakness-is-intel-specific-apples-ai-agent-problem"
+  },
+  {
+   "id": 62833671,
+   "created_at": "2026-11-03T17:48:02Z",
+   "headline": "Coinbase Stock Pops: What's Going On?",
+   "summary": "Coinbase Global Inc. (NASDAQ: COIN) shares are soaring Tuesday. Cryptocurrencies are seemingly bouncing back from last week&#39;s selloff.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62833671/coinbase-stock-pops-whats-going-on"
+  },
+  {
+   "id": 62833555,
+   "created_at": "2026-11-03T17:44:55Z",
+   "headline": "QUICK SPARK: Bitcoin Finishes Higher 1 Year After Every US Midterm Election Since Its Launch",
+   "summary": "Bitcoin ETF inflows, institutional demand, whale accumulation and low reserves may support another rally.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62833555/bitcoin-finishes-higher-1-year-after-every-us-midterm-election"
+  },
+  {
+   "id": 62833513,
+   "created_at": "2026-11-03T17:44:17Z",
+   "headline": "JP Morgan Maintains Underweight on Clorox, Raises Price Target to $86",
+   "summary": "",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62833513/jp-morgan-maintains-underweight-clorox-raises-price-target-86"
+  },
+  {
+   "id": 62833444,
+   "created_at": "2026-11-03T17:42:46Z",
+   "headline": "What's Going on with Microsoft Stock on Tuesday?",
+   "summary": "Microsoft stock climbs as 48% Azure cloud growth fuels an AI tech rebound, while analysts debate massive infrastructure spending.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62833444/whats-going-on-with-microsoft-stock-on-tuesday"
+  },
+  {
+   "id": 62832972,
+   "created_at": "2026-11-03T17:35:21Z",
+   "headline": "Morgan Stanley Maintains Overweight on IDEXX Laboratories, Raises Price Target to $810",
+   "summary": "",
+   "symbols": [
+    "IDXX"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62832972/morgan-stanley-maintains-overweight-idexx-laboratories-raises-price-target-810"
+  },
+  {
+   "id": 62832947,
+   "created_at": "2026-11-03T17:34:37Z",
+   "headline": "Scotiabank Maintains Sector Outperform on Cheniere Energy, Raises Price Target to $327",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62832947/scotiabank-maintains-sector-outperform-cheniere-energy-raises-price-target-327"
+  },
+  {
+   "id": 62832844,
+   "created_at": "2026-11-03T17:32:51Z",
+   "headline": "Chinese Tape Maker Soars 787% in Market Debut as Beijing Moves to Halt New IPO Filings",
+   "summary": "Crown New Materials surged 787% on debut as Beijing moved to restrict new IPO filings amid a speculative stock-market boom.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62832844/china-ipo-surge"
+  },
+  {
+   "id": 62832703,
+   "created_at": "2026-11-03T17:29:29Z",
+   "headline": "Peter Schiff Challenges Saylor After Strategy Spends $2.25B on Buybacks",
+   "summary": "Peter Schiff warns Strategy\u2019s $133 million buyback cash could run out within days, putting STRC\u2019s price support at risk.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62832703/peter-schiff-challenges-saylor-after-strategy-spends-2-25b-on-buybacks"
+  },
+  {
+   "id": 62832701,
+   "created_at": "2026-11-03T17:29:26Z",
+   "headline": "Riot Platforms Stock Flies Ahead of Earnings: What's Going On?",
+   "summary": "Riot Platforms Inc. (NASDAQ: RIOT) shares are jumping Tuesday ahead of its third-quarter earnings report, due after the market closes today.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62832701/riot-platforms-stock-flies-ahead-of-earnings-whats-going-on"
+  },
+  {
+   "id": 62832505,
+   "created_at": "2026-11-03T17:24:36Z",
+   "headline": "Nasdaq 100 Gets a Lift As Nvidia Overtakes Apple: Stock Market Today",
+   "summary": "Apple&#39;s memory-cost margin warning hands Nvidia the top market value as chipmakers rebound. Here&#39;s what&#39;s happening in the stock market today.",
+   "symbols": [
+    "AAPL",
+    "BTC/USD",
+    "QQQ",
+    "VOO"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62832505/stock-market-today-nvidia-overtakes-apple-chip-rally-nasdaq-jolts-yields"
+  },
+  {
+   "id": 62831862,
+   "created_at": "2026-11-03T17:09:39Z",
+   "headline": "Midterm Result Will Be 'Non-Event' for Bitcoin in 6 Months, Bitwise Exec Says",
+   "summary": "Bitcoin\u2019s midterm test will fade within months, Bitwise says, calling its resilience a coiled spring toward $1.6 million.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62831862/midterm-result-will-be-non-event-for-bitcoin-in-6-months-bitwise-exec-says"
+  },
+  {
+   "id": 62831428,
+   "created_at": "2026-11-03T17:02:46Z",
+   "headline": "Fabrinet, EverQuote, Lattice Semiconductor, Fiserv And Other Big Stocks Moving Higher On Tuesday",
+   "summary": "U.S. stocks mixed as Dow fell 200 points; Fabrinet surged 13.7% on strong results, guidance and buyback, while several small caps rallied.",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62831428/fabrinet-everquote-lattice-semiconductor-fiserv-and-other-big-stocks-moving-higher-on-tuesday"
+  },
+  {
+   "id": 62831384,
+   "created_at": "2026-11-03T17:01:40Z",
+   "headline": "EXCLUSIVE: Top 12 Most-Searched Tickers in October on Benzinga Pro \u2013 SpaceX Soars, Micron Rises, Nvidia Falls, CoreWeave and Microsoft Join List",
+   "summary": "Among Benzinga Pro\u2019s October most-searched stocks are SPY, Micron, SpaceX and Tesla, with Micron delivering the strongest YTD gain at 164.3%.",
+   "symbols": [
+    "AAPL",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62831384/exclusive-top-12-most-searched-tickers-in-october-on-benzinga-pro-spacex-soars-micron-rises-nvidia-falls-coreweave-and-microsoft-join-list"
+  },
+  {
+   "id": 62831135,
+   "created_at": "2026-11-03T16:56:09Z",
+   "headline": "Truist Securities Maintains Hold on Match Group, Raises Price Target to $44",
+   "summary": "",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62831135/truist-securities-maintains-hold-match-group-raises-price-target-44"
+  },
+  {
+   "id": 62829579,
+   "created_at": "2026-11-03T16:25:06Z",
+   "headline": "Bitcoin, XRP, Ethereum Sentiment Tanks but One Coin Is Holding Its Ground",
+   "summary": "Bitcoin and XRP sentiment sinks to contrarian buy levels as Ethereum holds firm and traders eye an Election Day low.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62829579/bitcoin-xrp-ethereum-sentiment-tanks-but-one-coin-is-holding-its-ground"
+  },
+  {
+   "id": 62828847,
+   "created_at": "2026-11-03T16:09:50Z",
+   "headline": "UBS Maintains Neutral on Match Group, Raises Price Target to $43",
+   "summary": "",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62828847/ubs-maintains-neutral-match-group-raises-price-target-43"
+  },
+  {
+   "id": 111620855,
+   "created_at": "2026-11-03T16:01:37Z",
+   "headline": "Bio-K+ Expands Pro Line Distribution to Walmart",
+   "summary": "Bio-K+ has introduced its professional-grade Pro Line of probiotic capsules to Walmart stores.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/bio-k-expands-north-american-retail-footprint-strengthening-growth-and-category-leadership-842831989.html"
+  },
+  {
+   "id": 62828216,
+   "created_at": "2026-11-03T16:00:15Z",
+   "headline": "UBS Maintains Neutral on IDEXX Laboratories, Raises Price Target to $700",
+   "summary": "",
+   "symbols": [
+    "IDXX"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62828216/ubs-maintains-neutral-idexx-laboratories-raises-price-target-700"
+  },
+  {
+   "id": 62828023,
+   "created_at": "2026-11-03T15:58:13Z",
+   "headline": "Apple's Margin Problem Is Micron's Pricing Power: Why Memory Stocks Are Bouncing Today",
+   "summary": "Apple&#39;s margin squeeze is lifting memory stocks. Micron, Sandisk, Western Digital and Seagate rally as Apple says memory prices will keep rising.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62828023/memory-stocks-apple-margin-micron-sandisk-pricing-power"
+  },
+  {
+   "id": 62827890,
+   "created_at": "2026-11-03T15:56:02Z",
+   "headline": "UBS Maintains Neutral on Clorox, Raises Price Target to $96",
+   "summary": "",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62827890/ubs-maintains-neutral-clorox-raises-price-target-96"
+  },
+  {
+   "id": 62827529,
+   "created_at": "2026-11-03T15:49:48Z",
+   "headline": "UBS Maintains Neutral on Apple, Raises Price Target to $340",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62827529/ubs-maintains-neutral-apple-raises-price-target-340"
+  },
+  {
+   "id": 62827512,
+   "created_at": "2026-11-03T15:49:26Z",
+   "headline": "Evercore ISI Group Maintains Outperform on Tapestry, Lowers Price Target to $145",
+   "summary": "",
+   "symbols": [
+    "TPR"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62827512/evercore-isi-group-maintains-outperform-tapestry-lowers-price-target-145"
+  },
+  {
+   "id": 62826836,
+   "created_at": "2026-11-03T15:37:54Z",
+   "headline": "Evercore ISI Group Maintains Outperform on Match Group, Lowers Price Target to $51",
+   "summary": "",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62826836/evercore-isi-group-maintains-outperform-match-group-lowers-price-target-51"
+  },
+  {
+   "id": 62826818,
+   "created_at": "2026-11-03T15:37:29Z",
+   "headline": "Wells Fargo Maintains Equal-Weight on Match Group, Lowers Price Target to $38",
+   "summary": "",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62826818/wells-fargo-maintains-equal-weight-match-group-lowers-price-target-38"
+  },
+  {
+   "id": 62826658,
+   "created_at": "2026-11-03T15:34:18Z",
+   "headline": "TD Cowen Maintains Buy on Cheniere Energy, Raises Price Target to $352",
+   "summary": "",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62826658/td-cowen-maintains-buy-cheniere-energy-raises-price-target-352"
+  },
+  {
+   "id": 62829228,
+   "created_at": "2026-11-03T15:28:00Z",
+   "headline": "US Stocks Mixed; Apple Shares Slide After Q4 Results",
+   "summary": "U.S. stocks mixed: Dow fell, while Nasdaq and S&amp;P rose. Apple dropped despite strong earnings; oil, silver and copper declined.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/62829228/us-stocks-mixed-apple-shares-slide-after-q4-results"
+  },
+  {
+   "id": 62825582,
+   "created_at": "2026-11-03T15:13:05Z",
+   "headline": "Wells Fargo Maintains Equal-Weight on Clorox, Raises Price Target to $90",
+   "summary": "",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62825582/wells-fargo-maintains-equal-weight-clorox-raises-price-target-90"
+  },
+  {
+   "id": 62825264,
+   "created_at": "2026-11-03T15:07:57Z",
+   "headline": "CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon\u2019s Role As An Apple Distributor",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/government/26/11/62825264/cnmc-initiates-sanction-proceedings-against-apple-amazon-companies-failed-comply-cease-and-desist-or"
+  },
+  {
+   "id": 62824244,
+   "created_at": "2026-11-03T14:54:54Z",
+   "headline": "JPMorgan Sees 66% Chance of Blue Sweep: What Does It Mean for Crypto?",
+   "summary": "Bitcoin and XRP face four midterm outcomes, with a Republican sweep offering the clearest path to revive crypto bills.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62824244/jpmorgan-sees-66-chance-of-blue-sweep-what-does-it-mean-for-crypto"
+  },
+  {
+   "id": 62824203,
+   "created_at": "2026-11-03T14:54:19Z",
+   "headline": "Barclays Maintains Overweight on Match Group, Raises Price Target to $52",
+   "summary": "",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62824203/barclays-maintains-overweight-match-group-raises-price-target-52"
+  },
+  {
+   "id": 62823094,
+   "created_at": "2026-11-03T14:39:25Z",
+   "headline": "Calix Q3 2026 Earnings Call Transcript",
+   "summary": "Calix (NYSE:CALX) reported third-quarter financial results on Tuesday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+   "symbols": [
+    "CALX"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62823094/calix-q3-2026-earnings-call-transcript"
+  },
+  {
+   "id": 62822561,
+   "created_at": "2026-11-03T14:33:40Z",
+   "headline": "Binance Says ~$2.85B In Digital Assets Have Been Frozen Or Intercepted; Says Hackers Used Bogus Job Interview To Hack Employee And Steal Cryptocurrency; Attacker Exploited Unauthorized Access To An Internal Wallet Signing Service To Initiate Transactions Outside The Normal Withdrawal Process",
+   "summary": "",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/cryptocurrency/26/11/62822561/binance-says-2-85b-digital-assets-have-been-frozen-or-intercepted-says-hackers-used-bogus-job-interv"
+  },
+  {
+   "id": 111491007,
+   "created_at": "2026-11-03T14:33:25Z",
+   "headline": "Stephens Initiates Coverage of Dropbox with Equal-Weight Rating",
+   "summary": "Stephens & Co. has initiated coverage of Dropbox, Inc. with an \"Equal-Weight\" rating and a price target of $39.",
+   "symbols": [
+    "DBX"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/stephens-initiates-dropbox-at-equalweight-with-39-price-target-ce785fded98ef527"
+  },
+  {
+   "id": 111489563,
+   "created_at": "2026-11-03T14:32:29Z",
+   "headline": "Adobe Introduces New Program for Startups",
+   "summary": "Adobe has launched a new initiative providing eligible startups with 12 months of complimentary access to its creative and document management software suite.",
+   "symbols": [
+    "ADBE"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.varindia.com/news/introducing-adobe-for-startups"
+  },
+  {
+   "id": 111489545,
+   "created_at": "2026-11-03T14:32:10Z",
+   "headline": "Moody's Ratings Issues Multiple Credit Rating Actions",
+   "summary": "Moody's Ratings announced several credit rating actions on November 3, 2026, including assignments and upgrades for various corporate and structured finance entities.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://ratings.moodys.com/ratings-news"
+  },
+  {
+   "id": 111488211,
+   "created_at": "2026-11-03T14:31:52Z",
+   "headline": "Kenmore Floor Care Expands Retail Presence to Walmart Stores",
+   "summary": "Kenmore Floor Care has launched its product line in more than 1,500 Walmart locations across the United States.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/kenmore-floor-care-expands-nationwide-retail-presence-with-launch-in-more-than-1-500-walmart-stores-302927841.html"
+  },
+  {
+   "id": 111488209,
+   "created_at": "2026-11-03T14:31:52Z",
+   "headline": "Hostess Launches Stuffed Coffee Cakes Exclusively at Walmart",
+   "summary": "Hostess has introduced a new 'Stuffed Coffee Cakes' product line, available exclusively at Walmart stores.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/hostess-kicks-off-the-holidays-with-a-fresh-lineup-of-baked-snacks-to-enjoy-all-season-long-302927347.html"
+  },
+  {
+   "id": 62822395,
+   "created_at": "2026-11-03T14:31:13Z",
+   "headline": "'All Roads Lead To Bitcoin,' Says Bitwise Exec Matt Hougan In Light of AI Bubble",
+   "summary": "Bitcoin may benefit under any AI outcome, with institutional adoption supporting a slower bull market despite near-term volatility and macro uncertainty.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62822395/all-roads-lead-to-bitcoin-says-bitwise-exec-matt-hougan-in-light-of-ai-bubble"
+  },
+  {
+   "id": 62822308,
+   "created_at": "2026-11-03T14:30:31Z",
+   "headline": "UL Solutions Q3 2026 Earnings Call Transcript",
+   "summary": "UL Solutions (NYSE:ULS) reported third-quarter financial results on Tuesday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62822308/ul-solutions-q3-2026-earnings-call-transcript"
+  },
+  {
+   "id": 62822021,
+   "created_at": "2026-11-03T14:27:02Z",
+   "headline": "UL Solutions Sold DQS Holding Stake For ~$117M; Proceeds Used To Repay Revolver",
+   "summary": "",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/ULS"
+  },
+  {
+   "id": 62822009,
+   "created_at": "2026-11-03T14:26:50Z",
+   "headline": "UL Solutions Completed ~$686M Acquisition Of Eurofins\u2019 Electrical & Electronics Business Oct. 1",
+   "summary": "",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/ULS"
+  },
+  {
+   "id": 62822007,
+   "created_at": "2026-11-03T14:26:39Z",
+   "headline": "UL Solutions Q3 Organic Revenue Growth 7.0%; Adj. EBITDA Margin 28.6% vs 27.7% YoY",
+   "summary": "",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/ULS"
+  },
+  {
+   "id": 62821993,
+   "created_at": "2026-11-03T14:26:29Z",
+   "headline": "UL Solutions Sees FY26 Effective Tax Rate ~26%, Capex ~8.5% Of Revenue",
+   "summary": "",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/ULS"
+  },
+  {
+   "id": 62821951,
+   "created_at": "2026-11-03T14:26:17Z",
+   "headline": "UL Solutions Affirms FY26 Adj. EBITDA Margin ~27.0%",
+   "summary": "",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/ULS"
+  },
+  {
+   "id": 62821950,
+   "created_at": "2026-11-03T14:26:06Z",
+   "headline": "UL Solutions Now Sees FY26 Organic Revenue Growth ~6.5%",
+   "summary": "",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/ULS"
+  },
+  {
+   "id": 62821162,
+   "created_at": "2026-11-03T14:18:01Z",
+   "headline": "Argus Research Maintains Buy on Apple, Raises Price Target to $400",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62821162/argus-research-maintains-buy-apple-raises-price-target-400"
+  },
+  {
+   "id": 62820887,
+   "created_at": "2026-11-03T14:14:08Z",
+   "headline": "Barclays Maintains Underweight on Apple, Raises Price Target to $261",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62820887/barclays-maintains-underweight-apple-raises-price-target-261"
+  },
+  {
+   "id": 62820851,
+   "created_at": "2026-11-03T14:13:17Z",
+   "headline": "Susquehanna Maintains Positive on Match Group, Raises Price Target to $50",
+   "summary": "",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62820851/susquehanna-maintains-positive-match-group-raises-price-target-50"
+  },
+  {
+   "id": 62820652,
+   "created_at": "2026-11-03T14:09:59Z",
+   "headline": "TD Cowen Maintains Buy on Apple, Lowers Price Target to $390",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62820652/td-cowen-maintains-buy-apple-lowers-price-target-390"
+  },
+  {
+   "id": 111454697,
+   "created_at": "2026-11-03T14:05:38Z",
+   "headline": "Valdor Technology International Inc. Closes Debt Settlement Agreements",
+   "summary": "Valdor Technology International Inc. has settled $225,750 in outstanding debt by issuing 1,505,000 common shares to six arm's-length creditors.",
+   "symbols": [
+    "VTI"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.thenewswire.com/press-releases/1BglFDpRq-valdor-announces-closing-of-debt-settlements.html"
+  },
+  {
+   "id": 111453392,
+   "created_at": "2026-11-03T14:04:48Z",
+   "headline": "Questcorp Mining Completes Acquisition of 100% Interest in North Island Copper Project",
+   "summary": "Questcorp Mining Inc. has finalized the acquisition of the remaining 49% interest in the North Island Copper Project in British Columbia, securing full ownership of the property.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/322173/Questcorp-Mining-Completes-Acquisition-of-100-Interest-in-North-Island-Copper-Project"
+  },
+  {
+   "id": 62819832,
+   "created_at": "2026-11-03T14:00:37Z",
+   "headline": "DA Davidson Maintains Neutral on Apple, Raises Price Target to $295",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62819832/da-davidson-maintains-neutral-apple-raises-price-target-295"
+  },
+  {
+   "id": 62819110,
+   "created_at": "2026-11-03T13:51:33Z",
+   "headline": "Stephens & Co. Initiates Coverage On Dropbox with Equal-Weight Rating, Announces Price Target of $39",
+   "summary": "",
+   "symbols": [
+    "DBX"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62819110/stephens-co-initiates-coverage-dropbox-equal-weight-rating-announces-price-target-39"
+  },
+  {
+   "id": 62818841,
+   "created_at": "2026-11-03T13:47:05Z",
+   "headline": "Keybanc Reiterates Underweight on Apple, Maintains $250 Price Target",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62818841/keybanc-reiterates-underweight-apple-maintains-250-price-target"
+  },
+  {
+   "id": 62818715,
+   "created_at": "2026-11-03T13:43:07Z",
+   "headline": "Apple To $350? Here Are 10 Top Analyst Forecasts For Tuesday",
+   "summary": "Analysts raised targets for TEM, TWLO, UPWK, MRSH and PLTR; cut MRVL and AAPL targets, with upgrades for TWLO and MRSH.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62818715/apple-to-350-here-are-10-top-analyst-forecasts-for-tuesday"
+  },
+  {
+   "id": 62808089,
+   "created_at": "2026-11-03T13:23:41Z",
+   "headline": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as Trump Touts Iran Settlement Hopes \u2014 AAPL, PLTR, AMD in Focus (UPDATED)",
+   "summary": "U.S. stocks were mixed on Tuesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moved in different directions.",
+   "symbols": [
+    "AAPL",
+    "BTC/USD",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62808089/stock-market-today-dow-sp-500-futures-mixed-as-trump-touts-iran-settlement-hopes-aapl-pltr-amd-in-focus"
+  },
+  {
+   "id": 62817374,
+   "created_at": "2026-11-03T13:19:07Z",
+   "headline": "This Twilio Analyst Is No Longer Bearish; Here Are Top 5 Upgrades For Tuesday",
+   "summary": "Analysts upgraded Twilio, Marsh &amp; McLennan, Howmet Aerospace and Aon, raising targets; another analyst moved Aon to Market Perform.",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/11/62817374/this-twilio-analyst-is-no-longer-bearish-here-are-top-5-upgrades-for-tuesday"
+  },
+  {
+   "id": 62816418,
+   "created_at": "2026-11-03T13:02:11Z",
+   "headline": "Dan Ives Calls Tech Selloff a 'Gut Check' \u2014 Names His Top Stocks to Own for the Next 5 Years",
+   "summary": "Dan Ives calls the tech selloff a &#34;gut check&#34; and reveals his top 4 tech stocks to own for the next 5 years, including Nvidia and Apple.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62816418/dan-ives-calls-tech-selloff-a-gut-check-names-his-top-stocks-to-own-for-the-next-5-years"
+  },
+  {
+   "id": 62816416,
+   "created_at": "2026-11-03T13:02:05Z",
+   "headline": "Adeia Posts Downbeat Q3 Earnings, Joins Bioventus, Apple And Other Big Stocks Moving Lower In Tuesday\u2019s Pre-Market Session",
+   "summary": "U.S. futures mixed as Adeia plunges 23% after missing Q3 estimates and cutting FY26 guidance; Bioventus, Emergent and others also fall premarket.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62816416/adeia-posts-downbeat-q3-earnings-joins-bioventus-apple-and-other-big-stocks-moving-lower-in-tuesdays-pre-market-session"
+  },
+  {
+   "id": 111405255,
+   "created_at": "2026-11-03T13:01:58Z",
+   "headline": "Garmin Launches Descent X10 Dive Computer",
+   "summary": "Garmin has introduced the Descent X10, a new dive computer featuring a rental mode for commercial use and a sustainable design made from recycled materials.",
+   "symbols": [
+    "GRMN"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://es.tradingview.com/news/tradingview:6a866bbd4e341:0/"
+  },
+  {
+   "id": 62815872,
+   "created_at": "2026-11-03T12:45:06Z",
+   "headline": "How To Earn $500 A Month From CVS Health Stock Ahead Of Q3 Earnings",
+   "summary": "CVS expects Q3 EPS of $1.65 and $104.69B revenue. Its 3.01% dividend requires about $199,679 invested to earn $500 monthly.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/11/62815872/how-to-earn-500-a-month-from-cvs-health-stock-q3-earnings"
+  },
+  {
+   "id": 111385924,
+   "created_at": "2026-11-03T12:32:23Z",
+   "headline": "UL Solutions Inc. Reports Third Quarter 2026 Financial Results",
+   "summary": "UL Solutions Inc. announced its financial results for the third quarter ended September 30, 2026, highlighting record revenue and margin expansion.",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/technology/security"
+  },
+  {
+   "id": 111385356,
+   "created_at": "2026-11-03T12:31:52Z",
+   "headline": "Ralph Lauren Named American Menswear Designer of the Year at 2026 CFDA Fashion Awards",
+   "summary": "Ralph Lauren was honored as the American Menswear Designer of the Year at the 2026 CFDA Fashion Awards held at the American Museum of Natural History.",
+   "symbols": [
+    "RL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://smb.americanpress.com/article/WINNERS-ANNOUNCED-AT-THE-2026-CFDA-FASHION-AWARDS-PRESENTED-BY-AMAZON-FASHION/6ae98d25cd0777acc0a66cb8"
+  },
+  {
+   "id": 62814919,
+   "created_at": "2026-11-03T12:20:31Z",
+   "headline": "Jim Cramer Likes This Industrial Stock: \u2018It\u2019s Come Down A Great Deal\u2019",
+   "summary": "Cramer recommends Howmet and J&amp;J, prefers Micron over Western Digital, criticizes Nebius, and favors Lam Research over KLA.",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62814919/jim-cramer-likes-this-industrial-stock-its-come-down-a-great-deal"
+  },
+  {
+   "id": 62813800,
+   "created_at": "2026-11-03T12:06:15Z",
+   "headline": "Cantor Fitzgerald Maintains Overweight on EMCOR Group, Lowers Price Target to $920",
+   "summary": "",
+   "symbols": [
+    "EME"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62813800/cantor-fitzgerald-maintains-overweight-emcor-group-lowers-price-target-920"
+  },
+  {
+   "id": 62813047,
+   "created_at": "2026-11-03T12:00:54Z",
+   "headline": "UL Solutions Q3 Adj. EPS $0.62 Beats $0.61 Estimate, Sales $823.000M Beat $815.718M Estimate",
+   "summary": "",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/quote/ULS"
+  },
+  {
+   "id": 62812949,
+   "created_at": "2026-11-03T12:00:07Z",
+   "headline": "Apple\u2019s Siri AI Could Become a Paid Upgrade \u2014 CEO John Ternus Reveals Plans to Charge for More Server-Side Apple Intelligence Usage",
+   "summary": "Apple says users will be able to pay for expanded Siri AI capacity as server-side usage limits and inference costs come into focus.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62812949/apples-siri-ai-could-become-a-paid-upgrade-ceo-john-ternus-reveals-plans-to-charge-for-more-server-side-apple-intelligence-usage"
+  },
+  {
+   "id": 62812726,
+   "created_at": "2026-11-03T11:58:01Z",
+   "headline": "Baird Maintains Outperform on Apple, Raises Price Target to $340",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62812726/baird-maintains-outperform-apple-raises-price-target-340"
+  },
+  {
+   "id": 111357154,
+   "created_at": "2026-11-03T11:31:56Z",
+   "headline": "Operational disruption at Sabine Pass LNG facility",
+   "summary": "Cheniere Energy's Sabine Pass LNG facility experienced a reduction in natural gas intake, with data suggesting two of its six liquefaction trains may be offline.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:27e2dbe2c4d23:0-key-facts-sabine-pass-lng-intake-drops-offering-may-fund-debt-capex/"
+  },
+  {
+   "id": 111357152,
+   "created_at": "2026-11-03T11:31:56Z",
+   "headline": "KeyBanc Upgrades Howmet Aerospace to Overweight",
+   "summary": "KeyBanc has upgraded the rating for Howmet Aerospace from Sector Weight to Overweight, reflecting a positive shift in the firm's outlook for the company.",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003324010"
+  },
+  {
+   "id": 111356682,
+   "created_at": "2026-11-03T11:31:36Z",
+   "headline": "Walmart Canada Launches AI Shopping Assistant 'Sparky'",
+   "summary": "Walmart Canada has introduced a new artificial intelligence-powered shopping assistant named Sparky to enhance the digital customer experience.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-medien/bnn-bloomberg.htm"
+  },
+  {
+   "id": 62810034,
+   "created_at": "2026-11-03T11:07:04Z",
+   "headline": "Keybanc Upgrades Howmet Aerospace to Overweight, Announces $237 Price Target",
+   "summary": "",
+   "symbols": [
+    "HWM"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62810034/keybanc-upgrades-howmet-aerospace-overweight-announces-237-price-target"
+  },
+  {
+   "id": 62809295,
+   "created_at": "2026-11-03T10:54:49Z",
+   "headline": "'Marking Their Calendar': Tom Lee Says Investors Don't Have 'Conviction' to Buy the Dip Until After Midterms",
+   "summary": "Tech stocks have taken a beating, and Fundstrat\u2019s Tom Lee says investors who want to buy the dip are waiting until after the midterms.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62809295/tom-lee-investors-wait-until-after-midterms-buy-dip"
+  },
+  {
+   "id": 62809108,
+   "created_at": "2026-11-03T10:48:09Z",
+   "headline": "Apple Is the 'Mack Daddy' of Tech, Says Longtime Bull Who Defends Its Steep Valuation",
+   "summary": "Apple stock falls 4% despite beating Q4 expectations as rising memory costs and high valuation worry investors.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62809108/apple-is-the-mack-daddy-of-tech-says-longtime-bull-who-defends-its-steep-valuation"
+  },
+  {
+   "id": 62809097,
+   "created_at": "2026-11-03T10:47:40Z",
+   "headline": "Howard Marks Questions Anthropic's $1.5 Trillion-Plus Valuation: 'Can We Really Fool Ourselves Into Thinking We Know...'",
+   "summary": "Howard Marks says AI firms like Anthropic defy traditional valuation due to unpredictable growth, urging skepticism as tech stocks retreat.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/ipos/26/11/62809097/howard-marks-questions-anthropics-1-5-trillion-plus-valuation-can-we-really-fool-ourselves-into-thinking-we-know"
+  },
+  {
+   "id": 62808848,
+   "created_at": "2026-11-03T10:38:27Z",
+   "headline": "Morgan Stanley Maintains Overweight on Apple, Lowers Price Target to $350",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62808848/morgan-stanley-maintains-overweight-apple-lowers-price-target-350"
+  },
+  {
+   "id": 62808316,
+   "created_at": "2026-11-03T10:25:32Z",
+   "headline": "'Throwback to 1984:' Apple's Mac Business Just Surged 24% \u2014 Top Analyst Says the Real Boom Is Only Getting Started",
+   "summary": "Gene Munster predicts an AI-driven Mac super cycle, forecasting 15%+ growth fueled by education deals and Apple\u2019s affordable MacBook Neo.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62808316/throwback-to-1984-apples-mac-business-just-surged-24-top-analyst-says-the-real-boom-is-only-getting-started"
+  },
+  {
+   "id": 62808278,
+   "created_at": "2026-11-03T10:19:54Z",
+   "headline": "$80 Billion Hedge Fund Braces for Bear Market",
+   "summary": "Paul Singer&#39;s Elliott warns a massive bear market looms. See how the $80B fund is hedging against AI hype and market excess.",
+   "symbols": [
+    "GLD",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62808278/80-billion-hedge-fund-braces-for-bear-market"
+  },
+  {
+   "id": 62807858,
+   "created_at": "2026-11-03T09:41:05Z",
+   "headline": "Did Binance\u2019s $6.3 Billion Hack Trigger XRP Ledger\u2019s Network Activity Spike? On-Chain Analytics Firm Thinks So",
+   "summary": "Blockchain analytics firm Santiment highlighted XRP Ledger&#39;s strong network growth on Monday, October, even as the price hovered around $1.25.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62807858/did-binances-6-3-billion-hack-trigger-xrp-ledgers-network-activity-spike-on-chain-analytics-firm-thinks-so"
+  },
+  {
+   "id": 62807521,
+   "created_at": "2026-11-03T09:02:52Z",
+   "headline": "Tom Lee Says 'We Are at the Bottom' as Tech Sell-Off Rocks Markets \u2014 But He Still Sees S&P 500 Above 8,200 By Year-End",
+   "summary": "Fundstrat&#39;s Tom Lee calls a market bottom, maintaining his S&amp;P 500 year-end target above 8,200 as the AI market remains very tight.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/62807521/tom-lee-says-we-are-at-the-bottom-as-tech-sell-off-rocks-markets-but-he-still-sees-sp-500-above-8200-by-year-end"
+  },
+  {
+   "id": 62807399,
+   "created_at": "2026-11-03T08:49:14Z",
+   "headline": "XYZ Stock Has Climbed 18% in 2026 \u2014 Jack Dorsey's Block Eyes 6th Straight Earnings Beat Ahead of Q3 Results",
+   "summary": "Block Inc. will report financials for the third quarter after the market close today, November 3, as the fintech company aims to extend its earnings-beat streak to five straight quarters.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62807399/block-q3-earnings-preview-jack-dorsey-xyz"
+  },
+  {
+   "id": 62806799,
+   "created_at": "2026-11-03T07:58:17Z",
+   "headline": "Apple CEO Says Memory Prices Are \u2018Unprecedented\u2019 and Could Keep Climbing \u2014 iPhone, Mac and iPad Costs Face Fresh Pressure After Recent Price Hikes",
+   "summary": "Apple warns of unprecedented memory price increases and expects Mac and iPad supply constraints to persist through the December quarter.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62806799/apple-ceo-says-memory-prices-are-unprecedented-and-could-keep-climbing-iphone-mac-and-ipad-costs-face-fresh-pressure-after-recent-price-hikes"
+  },
+  {
+   "id": 62806430,
+   "created_at": "2026-11-03T07:01:27Z",
+   "headline": "Pfizer, Apple and 3 Stocks to Watch Heading Into Tuesday",
+   "summary": "Pfizer and Keurig Dr Pepper report earnings; Apple, Palantir and AMD draw attention after results, guidance and trading moves.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62806430/pfizer-apple-and-3-stocks-to-watch-heading-into-tuesday"
+  },
+  {
+   "id": 62806278,
+   "created_at": "2026-11-03T06:16:52Z",
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will the S&amp;P 500 open higher? Polymarket odds dip to 45% as Wall Street navigates Election Day, AMD earnings, and a volatile oil market.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62806278/stock-market-will-sp-500-open-up-or-down-today-71"
+  },
+  {
+   "id": 62806242,
+   "created_at": "2026-11-03T06:11:53Z",
+   "headline": "'They Don't Want to Talk About It': Top Analyst Says Apple Has a Siri Problem in an Era of Personalized Agents",
+   "summary": "Analyst Gene Munster warns that AI agents could threaten Apple&#39;s ecosystem as questions mount over its AI strategy.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62806242/apple-ai-agents-siri-earnings"
+  },
+  {
+   "id": 62806120,
+   "created_at": "2026-11-03T05:56:10Z",
+   "headline": "Elon Musk Will Launch a US Phone Plan? Crypto Bettors Raise Odds SpaceX Becomes a Mobile Carrier in 2027",
+   "summary": "Cryptocurrency punters sharply raised odds on Monday, October 2, that Space Exploration Technologies Corp. will become a full-service U.S. mobile carrier next year.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62806120/elon-musk-will-launch-a-us-phone-plan-crypto-bettors-raise-odds-spacex-becomes-a-mobile-carrier-in-2027"
+  },
+  {
+   "id": 62805966,
+   "created_at": "2026-11-03T04:50:29Z",
+   "headline": "Trump's \u2018Mr. Veto\u2019 Threat Hangs Over Wall Street: Tech Sell-Off Is \u2018More Than Just A Correction,\u2019 Analyst Says",
+   "summary": "Tuesday&#39;s midterms follow a rough month for tech stocks, and Democratic odds have investors preparing for political gridlock.",
+   "symbols": [
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62805966/midterms-set-stage-two-years-political-gridlock-kobeissi-letter"
+  },
+  {
+   "id": 62805874,
+   "created_at": "2026-11-03T04:13:31Z",
+   "headline": "Trump Gives \u2018Exceptional\u2019 Greg Abbott His \u2018Complete and Total\u2019 Endorsement: Crypto Bettors Weigh Odds of Texas Governor\u2019s Record Fourth Term",
+   "summary": "Cryptocurrency bettors increasingly expect Greg Abbott (R) to win reelection and secure a fourth term as Texas governor.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62805874/midterm-elections-texas-will-greg-abbot-come-back-as-governor"
+  },
+  {
+   "id": 62805810,
+   "created_at": "2026-11-03T03:25:37Z",
+   "headline": "Jim Cramer Calls Out 'Pretty Thick' Negativity on Apple, Palantir and Marvell: 'No Matter What They Say, It Isn't Enough'",
+   "summary": "CNBC\u2019s Jim Cramer is not buying Monday\u2019s selloff in Apple, Palantir and Marvell as the tech slump stretches into a new week.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62805810/jim-cramer-says-negativity-toward-apple-palantir-marvell-pretty-thick"
+  },
+  {
+   "id": 111260678,
+   "created_at": "2026-11-03T03:01:48Z",
+   "headline": "Cheniere Energy Prices $1.2 Billion Senior Notes Offering",
+   "summary": "Cheniere Energy, Inc. announced the pricing of $1.2 billion in senior notes due 2037, with proceeds intended for general corporate purposes including debt refinancing.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:550e1238d094b:0-cheniere-prices-1-2b-of-senior-notes-due-2037/"
+  },
+  {
+   "id": 62805686,
+   "created_at": "2026-11-03T02:56:06Z",
+   "headline": "\u2018Absurd Rhetoric\u2019: Kim Jong Un\u2019s Sister Dismisses $6.3 Billion Binance Hack Accusation Against North Korea, Calls It a \u2018Grave Political Provocation\u2019",
+   "summary": "North Korea rejected on Monday, October 2, U.S. allegations that it carried out a cryptocurrency theft exceeding $6 billion from Binance, the world&#39;s largest cryptocurrency trading platform.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62805686/kim-jong-un-north-korea-denies-role-binance-hack"
+  },
+  {
+   "id": 62805659,
+   "created_at": "2026-11-03T02:49:34Z",
+   "headline": "iPhone Owners Can Get Up to $95 From Apple Over Siri Promises: Here\u2019s How to Claim",
+   "summary": "Apple\u2019s $250 million AI settlement lets eligible iPhone buyers claim up to $95, with claims due Dec. 21, 2026.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62805659/apple-iphone-siri-settlement-95-claim-how-to"
+  },
+  {
+   "id": 62805591,
+   "created_at": "2026-11-03T02:18:17Z",
+   "headline": "Cathie Wood Sells $2.3 Million Of Peter Thiel-Backed Bullish Shares, Ark Adds Crypto Names Coinbase, Circle, Robinhood",
+   "summary": "Ark bought an estimated $3.4 million of Coinbase on the day Morgan Stanley downgraded the shares.",
+   "symbols": [
+    "BTC/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/62805591/cathie-wood-sells-2-3m-of-peter-thiel-backed-bullish-stock-ark-adds-crypto-names-coinbase-circle-robinhood"
+  },
+  {
+   "id": 62805511,
+   "created_at": "2026-11-03T01:50:23Z",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Extend Decline: Analyst Dismisses Midterm 'Fear,' Says Even if Democrats Win, 'Nothing Big' Likely to Happen",
+   "summary": "Major cryptocurrencies declined on Monday, November 2, amid the fallout from the Binance hack and uncertainty ahead of the U.S. midterm elections.",
+   "symbols": [
+    "BTC/USD",
+    "ETH/USD"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62805511/bitcoin-ethereum-xrp-dogecoin-crypto-midterms"
+  },
+  {
+   "id": 62805372,
+   "created_at": "2026-11-03T01:16:25Z",
+   "headline": "Apple, Palantir, Marvell Technology, Oracle and Aehr Test Systems: Why These 5 Stocks Are on Investors' Radars Today",
+   "summary": "Major indices closed mixed on Monday, with the Dow Jones Industrial Average gaining 0.41% to 51,983.98.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62805372/apple-palantir-marvell-technology-oracle-and-aehr-test-systems-why-these-5-stocks-are-on-investors-radars-today"
+  },
+  {
+   "id": 111254708,
+   "created_at": "2026-11-03T00:01:17Z",
+   "headline": "Apple Reports Record Fiscal Fourth-Quarter Results",
+   "summary": "Apple announced record-breaking revenue of $114.5 billion for its fiscal fourth quarter, marking a 12% increase year-over-year and the company's best fiscal year to date.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/4etili1/"
+  },
+  {
+   "id": 62804611,
+   "created_at": "2026-11-02T23:06:55Z",
+   "headline": "Apple Q4 2026 Earnings Call Transcript",
+   "summary": "Apple (NASDAQ:AAPL) reported fourth-quarter financial results on Monday. The transcript from the company\u2019s fourth-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804611/apple-q4-2026-earnings-call-transcript"
+  },
+  {
+   "id": 111133423,
+   "created_at": "2026-11-02T23:03:07Z",
+   "headline": "Twisted Tea Announces Return of '25 Days of Twistmas' Holiday Calendar",
+   "summary": "The Boston Beer Company's Twisted Tea brand is bringing back its limited-edition holiday calendar featuring 25 tallboy cans of various flavors.",
+   "symbols": [
+    "SAM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393544/0/en/twisted-tea-is-making-the-holiday-countdown-even-more-twisted-with-its-25-days-of-twistmas-calendar.html"
+  },
+  {
+   "id": 111131326,
+   "created_at": "2026-11-02T23:02:34Z",
+   "headline": "Calix Releases Third Quarter 2026 Financial Results",
+   "summary": "Calix, Inc. announced its unaudited financial results for the third quarter of 2026, which are available in a letter to stockholders on the company's investor relations website.",
+   "symbols": [
+    "CALX"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/technology/internet"
+  },
+  {
+   "id": 111131270,
+   "created_at": "2026-11-02T23:02:20Z",
+   "headline": "Dorman Products Launches New OE FIX\u00ae Engine Oil Filter Housing",
+   "summary": "Dorman Products has introduced a new OE FIX\u00ae engine oil filter housing (part number 926-611) designed for select Genesis, Hyundai, and Kia vehicles.",
+   "symbols": [
+    "DORM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393783/0/en/dorman-expands-oil-filter-housing-portfolio-with-a-new-oe-fix-solution-for-select-genesis-hyundai-and-kia-vehicles.html"
+  },
+  {
+   "id": 111131264,
+   "created_at": "2026-11-02T23:02:19Z",
+   "headline": "Wells Fargo Maintains Overweight Rating and Raises Price Target for The Scotts Miracle-Gro Company",
+   "summary": "Wells Fargo has reaffirmed its 'Overweight' rating on The Scotts Miracle-Gro Company and increased its price target from $60 to $71.",
+   "symbols": [
+    "SMG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://fr.tradingview.com/news/tradingview:6e00314b74a22:0-wells-fargo-maintains-scotts-miracle-gro-at-overweight-raises-price-target-to-71-from-60/"
+  },
+  {
+   "id": 111131225,
+   "created_at": "2026-11-02T23:02:08Z",
+   "headline": "Law Firms Investigate Proposed Acquisition of Instacart by DoorDash",
+   "summary": "Multiple law firms have launched investigations into the proposed $17 billion acquisition of Maplebear Inc. (d.b.a. Instacart) by DoorDash, Inc. to determine if the deal provides fair value to shareholders.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8594815/maplebear-investor-alert-kahn-swick-foti-llc-investigates-adequacy-of-price-and-process-in-proposed-sale-of-maplebear-inc-d-b-a-instacart-cart"
+  },
+  {
+   "id": 111131209,
+   "created_at": "2026-11-02T23:02:04Z",
+   "headline": "Jason Bonfig Appointed as CEO of Best Buy",
+   "summary": "Jason Bonfig has officially succeeded Corie Barry as the sixth CEO of Best Buy, effective November 1, 2026.",
+   "symbols": [
+    "BBY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://businesschief.com/news/new-best-buy-ceo-jason-bonfig-is-black-friday-dead-in-2026"
+  },
+  {
+   "id": 62804511,
+   "created_at": "2026-11-02T23:01:58Z",
+   "headline": "Clorox Q1 2027 Earnings Call Transcript",
+   "summary": "Clorox (NYSE:CLX) reported first-quarter financial results on Monday. The transcript from the company\u2019s first-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804511/clorox-q1-2027-earnings-call-transcript"
+  },
+  {
+   "id": 111131170,
+   "created_at": "2026-11-02T23:01:55Z",
+   "headline": "Barclays Adjusts Price Target on MSCI Inc.",
+   "summary": "Barclays analyst Manav Patnaik maintained a Buy rating on MSCI Inc. and raised the price target to $760 from $735.",
+   "symbols": [
+    "MSCI"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003173708/barclays-maintains-msci-inc-mscius-with-buy-rating-raises-target"
+  },
+  {
+   "id": 111131168,
+   "created_at": "2026-11-02T23:01:55Z",
+   "headline": "VeriSign Releases Domain Name Industry Brief for September 2026 Quarter",
+   "summary": "VeriSign announced that global domain name registrations reached 411.6 million by the end of the September 2026 quarter, representing an 8.7% year-over-year increase.",
+   "symbols": [
+    "VRSN"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://thetimes.com.au/australia/53621-271-004-domain-names-in-a-day-the-internets-continuing-vote-of-confidence-in-enterprise"
+  },
+  {
+   "id": 111131163,
+   "created_at": "2026-11-02T23:01:53Z",
+   "headline": "The Clorox Company Reports First-Quarter Fiscal Year 2027 Results",
+   "summary": "The Clorox Company reported a 33% increase in net sales to $1.91 billion for the first quarter of fiscal year 2027, driven by the acquisition of GOJO and the lapping of prior-year inventory drawdowns.",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/clorox-reports-q1-fiscal-year-2027-results-updates-outlook-302926739.html"
+  },
+  {
+   "id": 111131160,
+   "created_at": "2026-11-02T23:01:52Z",
+   "headline": "Match Group Announces Third Quarter 2026 Financial Results",
+   "summary": "Match Group reported its third-quarter 2026 financial results, highlighting a return to year-over-year growth in daily active users for Tinder and the declaration of a quarterly cash dividend.",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/match-group-announces-third-quarter-results-302926778.html"
+  },
+  {
+   "id": 111129246,
+   "created_at": "2026-11-02T23:01:44Z",
+   "headline": "Kroger Announces Strategic Procurement Overhaul and $4 Billion Cost Savings Target",
+   "summary": "Kroger unveiled an updated procurement strategy during its October 2026 Investor Update, aiming to achieve $4 billion in structural cost savings by 2029 through direct sourcing and digital transformation.",
+   "symbols": [
+    "KR"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://procurementmag.com/news/why-kroger-is-direct-sourcing-a-us-2bn-cost-takeout-plan"
+  },
+  {
+   "id": 62804499,
+   "created_at": "2026-11-02T23:01:34Z",
+   "headline": "Match Group Q3 2026 Earnings Call Transcript",
+   "summary": "Match Group (NASDAQ:MTCH) reported third-quarter financial results on Monday. The transcript from the company\u2019s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804499/match-group-q3-2026-earnings-call-transcript"
+  },
+  {
+   "id": 62804236,
+   "created_at": "2026-11-02T22:46:19Z",
+   "headline": "Tech Selloff Doesn\u2019t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks",
+   "summary": "Dan Ives shares his top AI stock picks after last week&#39;s selloff.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62804236/tech-selloff-doesnt-spook-dan-ives-for-halloween-here-are-his-6-ai-stock-picks"
+  },
+  {
+   "id": 62804210,
+   "created_at": "2026-11-02T22:45:20Z",
+   "headline": "Apple CFO Says Co.'s Manufacturing Purchase Obligations Increased By $33B Between June And September Quarters",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804210/apple-cfo-says-co-s-manufacturing-purchase-obligations-increased-33b-between-june-and-september-quar"
+  },
+  {
+   "id": 62804162,
+   "created_at": "2026-11-02T22:40:58Z",
+   "headline": "Apple CFO Says\u00a0We See Pricing For Memory Purchases Continuing To Increase",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62804162/apple-cfo-says-we-see-pricing-memory-purchases-continuing-increase"
+  },
+  {
+   "id": 62803924,
+   "created_at": "2026-11-02T22:33:10Z",
+   "headline": "Apple CFO Says Higher Memory Costs, Siri AI Development Expenses Will Affect Gross Margin",
+   "summary": "",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62803924/apple-cfo-says-higher-memory-costs-siri-ai-development-expenses-will-affect-gross-margin"
+  }
+ ],
+ "events": {
+  "AAPL": {
+   "filings_7d": [
+    {
+     "form": "10-K",
+     "filed": "2026-11-03",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-02",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-01-28",
+   "days_to_earnings": 85
+  },
+  "ADBE": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-09",
+   "days_to_earnings": 35
+  },
+  "ADSK": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 20
+  },
+  "AYI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-07",
+   "days_to_earnings": 64
+  },
+  "BBY": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 20
+  },
+  "BDC": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000042/bdc-20260927.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000039/bdc-20261029.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-11",
+   "days_to_earnings": 99
+  },
+  "BJRI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-24",
+   "days_to_earnings": 112
+  },
+  "BLBD": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-23",
+   "days_to_earnings": 19
+  },
+  "CALX": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-11-03",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/1406666/000140666626000044/calx-20260926.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-02",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1406666/000140666626000040/calx-20261102.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 84
+  },
+  "CARG": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-05",
+   "days_to_earnings": 1
+  },
+  "CART": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "1.01,8.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1579091/000119312526437075/d171568d8k.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1579091/000119312526437014/d24470d8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-11-09",
+   "days_to_earnings": 5
+  },
+  "CLX": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-11-02",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000046/clx-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-02",
+     "items": "2.02,7.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/clx-20261102.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "5.02,7.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/21076/000120677426000586/clx4708451-8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-02",
+   "days_to_earnings": 90
+  },
+  "CVS": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-11-04",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000108/cvs-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-04",
+     "items": "7.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/64803/000119312526446150/d148827d8k.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-04",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000107/cvs-20261104.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-09",
+   "days_to_earnings": 97
+  },
+  "DBX": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-10-28",
+     "items": "2.02,2.05,5.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1467623/000146762326000052/dbx-20261028.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-11-05",
+   "days_to_earnings": 1
+  },
+  "DECK": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/910521/000162828026068116/deck-20260930.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-01-28",
+   "days_to_earnings": 85
+  },
+  "DORM": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-24",
+   "days_to_earnings": 112
+  },
+  "DPZ": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-22",
+   "days_to_earnings": 110
+  },
+  "EME": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000132/eme-20261029.htm"
+    },
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000130/eme-20260930.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-25",
+   "days_to_earnings": 113
+  },
+  "EXEL": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/939767/000093976726000116/exel-20261002.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/939767/000093976726000114/exel-20261029.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-11-03",
+   "days_to_earnings": -1
+  },
+  "EXLS": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-23",
+   "days_to_earnings": 111
+  },
+  "FAST": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-19",
+   "days_to_earnings": 76
+  },
+  "GLD": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 20
+  },
+  "GPOR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-03",
+   "days_to_earnings": -1
+  },
+  "GRMN": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-28",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/1121788/000119312526435070/grmn-20260926.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-28",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1121788/000119312526435066/grmn-20261028.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 105
+  },
+  "HWM": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000036/hwm-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/4281/000110465926119857/tm2628456d1_8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-11",
+   "days_to_earnings": 99
+  },
+  "IDXX": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-11-02",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/874716/000087471626000135/idxx-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-02",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926120892/tm2628647d1_8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-01",
+   "days_to_earnings": 89
+  },
+  "INCY": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000066/incy-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000063/incy-20261029.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-09",
+   "days_to_earnings": 97
+  },
+  "KR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-03",
+   "days_to_earnings": 29
+  },
+  "LNG": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-03",
+     "items": "1.01,7.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/3570/000119312526444411/d119932d8k.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "items": "2.02,7.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/3570/000000357026000040/lng-20261029.htm"
+    },
+    {
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/3570/000000357026000038/lng-20260930.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-25",
+   "days_to_earnings": 113
+  },
+  "LOGI": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-10-28",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/1032975/000103297526000063/logi-20260930.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-01-26",
+   "days_to_earnings": 83
+  },
+  "LRN": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-26",
+   "days_to_earnings": 83
+  },
+  "MCO": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 105
+  },
+  "MLI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-02",
+   "days_to_earnings": 90
+  },
+  "MSCI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 84
+  },
+  "MSM": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-06",
+   "days_to_earnings": 63
+  },
+  "MTCH": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-11-03",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/891103/000089110326000163/mtch-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-02",
+     "items": "2.02,7.01,8.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/891103/000089110326000161/mtch-20261102.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-11-03",
+   "days_to_earnings": -1
+  },
+  "ONC": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-05",
+   "days_to_earnings": 1
+  },
+  "RL": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-05",
+   "days_to_earnings": 1
+  },
+  "RRC": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-10-28",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/315852/000119312526435073/d174576d8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-01-20",
+   "days_to_earnings": 77
+  },
+  "SAM": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-23",
+   "days_to_earnings": 111
+  },
+  "SBH": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-12",
+   "days_to_earnings": 8
+  },
+  "SMG": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-04",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/825542/000082554226000061/smg-20261104.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-11-04",
+   "days_to_earnings": 0
+  },
+  "TPR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-05",
+   "days_to_earnings": 1
+  },
+  "TTEK": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-11",
+   "days_to_earnings": 7
+  },
+  "ULS": {
+   "filings_7d": [
+    {
+     "form": "10-Q",
+     "filed": "2026-11-03",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/1901440/000190144026000031/uls-20260930.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-03",
+     "items": "2.02,7.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1901440/000190144026000029/uls-20261103.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-11-03",
+   "days_to_earnings": -1
+  },
+  "UNFI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-01",
+   "days_to_earnings": 27
+  },
+  "VRSN": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-04",
+   "days_to_earnings": 92
+  },
+  "WDFC": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-07",
+   "days_to_earnings": 64
+  },
+  "WINA": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 105
+  },
+  "WLY": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-03",
+   "days_to_earnings": 29
+  },
+  "WMT": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-19",
+   "days_to_earnings": 15
+  }
+ },
+ "note": "next_earnings_estimate is last year's results date + 364 days, not a confirmed date. 8-K items: 2.02 results, 5.02 officer changes, 1.01 material agreements, 4.01 auditor change, 4.02 non-reliance on prior financials."
+}
