@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "lessons": [
   {
    "id": "L1",
@@ -58,11 +58,12 @@
     "2026-11-09: the News Analyst checked held names' filings (no 4.01, 4.02, 5.02 or large 1.01/2.01), listed each held name's next earnings date and found VNQ event-free before the buy. Open and not held: DBX's 11-05 8-K 7.01/8.01 unreadable from item numbers; DPZ's guidance-cut item is ten sessions old with no filing or second source.",
     "2026-11-10: the News Analyst found no 8-K on any holding in the 7-day window, listed held-name dates, and flagged WMT's ~11-19 date as an estimate (last year's date + 364 days) to confirm before it enters the 5-day window around 11-12. DPZ's guidance-cut item is still unconfirmed.",
     "2026-11-11 applied: INCY's dates were verified from filings before the buy (reported 10-29, next 2027-02-09) and the PM cited them. The News Analyst checked every held name's own estimate and filings (none in the 7-day window), caught SBH's stale 11-12 estimate (it reported 11-10 per 8-K 2.02 and 10-K) and kept WMT's ~11-19 date marked as an unconfirmed estimate. DPZ's 10-30 guidance-cut item is closed as having come to nothing after nine sessions with no filing or second source.",
-    "2026-11-12 applied: the News Analyst checked all 14 holdings' filings (no 8-K, 10-Q or 10-K in the 7-day window), listed every held name's next date, and kept WMT's ~11-19 date marked as last year's date + 364 days, now inside the 5-day window with no confirming headline or filing; it closed SBH's stale 11-12 estimate and TTEK's 11-11 print from the 8-K 2.02."
+    "2026-11-12 applied: the News Analyst checked all 14 holdings' filings (no 8-K, 10-Q or 10-K in the 7-day window), listed every held name's next date, and kept WMT's ~11-19 date marked as last year's date + 364 days, now inside the 5-day window with no confirming headline or filing; it closed SBH's stale 11-12 estimate and TTEK's 11-11 print from the 8-K 2.02.",
+    "2026-11-13 applied: WMT's 11-19 date is now company-confirmed (the 11-12 earnings-call-date item), closing the open estimate; the PM cited it for the one-third trim. EXEL's dates were taken from filings before the buy (reported 10-29) with the 2027-01-11 next date marked as a file estimate. The News Analyst checked all 13 holdings' own estimates and filings (none in the 7-day window)."
    ],
    "confidence": "low",
    "added": "2026-10-21",
-   "last_confirmed": "2026-11-12",
+   "last_confirmed": "2026-11-13",
    "status": "active",
    "retired_why": null
   },
@@ -88,11 +89,12 @@
     "2026-11-09: the PM again counted WMT, DPZ and KR as about 26% Consumer Staples by label and added none; the VNQ proposal was checked for overlap (no held REIT). On a +2.4% SPY day the staples were flat (WMT +0.06%, DPZ -0.03%, KR -0.67%), so they neither sheltered nor led. One day, not graded evidence.",
     "2026-11-10: no new sector claim (no proposals). The PM named INCY as the next candidate and said it would be sized for the IDXX Health Care overlap. The Fundamentals review notes FAST's stored thesis still calls it a non-overlapping Consumer Discretionary exposure, though MSM (the same industrial MRO business) has been held since 10-27; treat FAST and MSM as one sleeve.",
     "2026-11-11 applied: INCY was sized for the IDXX overlap (Health Care about 10.5% by bucket, $17 cut to $15). The PM treated FAST and MSM as one industrial MRO sleeve, sold MSM in full and rewrote FAST's thesis to say Industrials by bucket with no 'no overlap' claim; the Fundamentals review agrees the bucket reading fits FAST better than its Consumer Discretionary SIC label. The MSM sale's own 20-session test is pending.",
-    "2026-11-12: no new sector claim (no proposals). The Fundamentals review flags that MSCI's stored thesis still says it 'adds a sector the book does not hold', although FAST is now filed as Industrials by bucket and MSCI's label is also Industrials; the PM should restate it through thesis_updates (see L6)."
+    "2026-11-12: no new sector claim (no proposals). The Fundamentals review flags that MSCI's stored thesis still says it 'adds a sector the book does not hold', although FAST is now filed as Industrials by bucket and MSCI's label is also Industrials; the PM should restate it through thesis_updates (see L6).",
+    "2026-11-13 applied: EXEL was cut from $25 to $15 for the Health Care overlap (bucket about 12.9%) and the INCY+EXEL oncology pair (about 4.8%); KR's add was described as the same Staples factor bet as WMT, not diversification; MSCI's thesis was restated to say it is the only Financials-bucket name with an Industrials label. The Fundamentals review notes the DPZ/WMT/KR label stack is still about 25% by SIC label."
    ],
    "confidence": "low",
    "added": "2026-10-27",
-   "last_confirmed": "2026-11-11",
+   "last_confirmed": "2026-11-13",
    "status": "active",
    "retired_why": null
   },
@@ -114,11 +116,12 @@
     "2026-11-09: the PM cut the VNQ buy from $20 to $12 citing L4 (about 1.9% of equity, justified by the Market Analyst's Real Estate tilt and low beta, not diversification alone) and said the buy was roughly a swap for the BTC proceeds. It named INCY as the next candidate if cash rises, and noted the account was about 10 points less invested than the shadow on a +2.4% day. The narrow reading held; the review calls this the cost of caution, not evidence that L4 is wrong.",
     "2026-11-10: the PM stood aside with no proposals and gave size (about $9.5 above the 10% buffer) and the CPI print as its reasons, saying explicitly that L4 is not a blanket idle-cash rule. Account 88.5% invested. The narrow reading held.",
     "2026-11-11 applied: INCY was bought at $15 (about 2.4% of equity) on the Market Analyst's top favored sector, not on diversification, funded partly by the MSM sale; the account is now 89.7% invested. The PM's review says the remaining gap to the shadow is cash drag and asks that cash above the buffer keep going into stated tilts. The narrow reading held.",
-    "2026-11-12: the PM stood aside with no proposals, gave size (cash about $2 above the 10% buffer) as the reason and said L4 is not a blanket idle-cash rule; account 89.7% invested. The narrow reading held. The PM review asks whether VNQ, now held without its original reason, has become the kind of token sleeve this lesson warns against; that is a question for the next run, not yet a miss."
+    "2026-11-12: the PM stood aside with no proposals, gave size (cash about $2 above the 10% buffer) as the reason and said L4 is not a blanket idle-cash rule; account 89.7% invested. The narrow reading held. The PM review asks whether VNQ, now held without its original reason, has become the kind of token sleeve this lesson warns against; that is a question for the next run, not yet a miss.",
+    "2026-11-13 applied: VNQ (about 1.9% of equity) was sold once its stored TLT clause tripped and the PM said it had no live premise left, which answers the 11-12 question. Cash rose to about 13.7%; the PM named the 11-17 Nvidia and 11-19 WMT prints as the reason and said L4 is not. Its review commits to deploying cash above the buffer into favored sectors after 11-19 or giving a new specific reason."
    ],
    "confidence": "low",
    "added": "2026-10-29",
-   "last_confirmed": "2026-11-12",
+   "last_confirmed": "2026-11-13",
    "status": "active",
    "retired_why": null
   },
@@ -159,7 +162,7 @@
   },
   {
    "id": "L6",
-   "lesson": "Store only durable, checkable text in theses and invalidations: a dollar stop with its distance from the actual fill (never conditional on a fill or 'the ~$X mark'), moving lines named as what the code computes (e.g. 'the 200-day SMA the regime filter computes') with any number dated, and only clauses the agents' inputs can measure. Keep weight and return-on-cost figures out. Fix stale or conditional text through thesis_updates at the next run.",
+   "lesson": "Store only durable, checkable thesis text: a dollar stop measured from the actual fill, or from the blended average cost after an add (never from a menu close, a mark or an expected fill); moving lines named as what the code computes, with any number dated; only clauses the inputs can measure; no weight or return figures. Fix an accepted stop-wording objection in the same decision, and other stale text at the next run.",
    "kind": "process",
    "applies_to": [
     "portfolio-manager",
@@ -173,11 +176,13 @@
     "2026-11-10 stale text (Fundamentals and PM reviews): FAST still says its earnings date was never verified (reported 10-14, next 2027-01-19) and that it overlaps no held name (MSM held since 10-27); IEF and BND still refer to 'the Fed decision this week' and a 'post-Fed reassessment' from the 10-28 meeting; IEF's 'yields materially higher' clause cannot be checked from the inputs.",
     "2026-11-11 applied in part: through thesis_updates the PM restated all 14 stored invalidations with numeric stops measured from actual fills (DPZ, IDXX, VRSN, MSM no longer refer to a mark or an expected fill), dated the SPY 200-day reference (728.3 as of 11-10), removed CARG's weight and return figures, fixed FAST's stale date and overlap text, and replaced IEF's 'yields materially higher' with a 200-day test.",
     "2026-11-11 still wrong the same day (PM, News and Fundamentals reviews): INCY's new stop is measured from the 11-10 close and says 'will be restated at the next run' ($110 is about 7.9% under the $119.37 fill, not 10%); BND's new thesis stores a weight figure ('near 9% of equity'); and INCY's 'trails XLV by more than 8 points over 21 days' cannot be checked because INCY's own price series is not in the packet (Skeptic flagged it, PM accepted it unfixed). That is why the lesson now says 'only clauses the agents' inputs can measure'.",
-    "2026-11-12 applied: through thesis_updates the PM re-dated the SPY 200-day (728.65 as of 11-11) for VOO and VTI, measured INCY's $110 stop from the $119.37 fill, dropped the unmeasurable 'trails XLV' clauses from INCY and IDXX, and removed weight figures from BND, WMT and KR. Still stale in close.json: VTI's thesis keeps 'Resulting US broad-ETF weight is about 18.4%', and MSCI's says it 'adds a sector the book does not hold' (Fundamentals review)."
+    "2026-11-12 applied: through thesis_updates the PM re-dated the SPY 200-day (728.65 as of 11-11) for VOO and VTI, measured INCY's $110 stop from the $119.37 fill, dropped the unmeasurable 'trails XLV' clauses from INCY and IDXX, and removed weight figures from BND, WMT and KR. Still stale in close.json: VTI's thesis keeps 'Resulting US broad-ETF weight is about 18.4%', and MSCI's says it 'adds a sector the book does not hold' (Fundamentals review).",
+    "2026-11-13 applied: through thesis_updates the PM removed VTI's weight figure, restated MSCI's sector text, replaced WMT's 'unconfirmed' date and re-dated the SPY 200-day (728.98 as of 11-12) for VOO and VTI.",
+    "2026-11-13 missed, two new stops: EXEL's $65 is stored as 'about 9.4% under the $71.74 menu close of 11-10' but filled at $69.04, so it is about 5.8% under the fill; the Skeptic flagged this and the PM accepted it unfixed (PM and Fundamentals reviews). KR's $61.50 after the add is measured from the 10-22 fill and 'the $69.81 mark on 11-13' instead of the blended cost (about $67.06; about 8.3% under it). Same pattern as INCY on 11-11 ('will be restated at the next run'), which is why the lesson now says to fix an accepted wording objection in the same decision and names blended cost."
    ],
    "confidence": "medium",
    "added": "2026-11-10",
-   "last_confirmed": "2026-11-12",
+   "last_confirmed": "2026-11-13",
    "status": "active",
    "retired_why": null
   },
@@ -193,11 +198,12 @@
     "Carries over L5's evidence (2026-10-29 to 2026-11-10: stale DPZ/IDXX stops, BTC stop distance misquoted at 2.3% vs about 3%, VNQ stop 6.5% from the fill not 5%). The arithmetic errors are now prevented in code; the qualitative-clause checks are not.",
     "2026-11-11 applied: the day after the hot CPI, the PM stated for every rate- or macro-conditioned clause whether it had tripped, with the measured values (BND: TLT 2.30% and IEF 1.24% below their 200-day, short of 3%; VNQ: TLT clause and Real Estate not avoided; IEF: no Fed outcome since 10-28; VOO: RSP 21d +3.61%; WMT: XLP 21d +7.84%), judged DPZ's guidance-cut and KR's cyber clauses untripped and why, and stored a stop_price for all 14 positions, none now 'missing'. This fixes the 11-10 miss on BND and IEF.",
     "2026-11-11 open: WMT's stop was raised to $116 as the protection for an 11.9% position going into an unconfirmed ~11-19 print. The PM's own review notes a close-based stop does not protect against a gap through it. Not a mistake yet; check after the print (see owner_suggestions).",
-    "2026-11-12 applied: the PM reviewed every holding from its stop block (nothing tripped; BND and IEF NEAR), stated each qualitative clause untripped and why (WMT XLP 21d +8.62%, RSP 21d positive for VOO/VTI, no guidance cut or negative 8-K for CARG, MSCI, VRSN, INCY, DPZ, KR cyber unconfirmed), and checked the rate-conditioned BND, IEF and VNQ clauses against the Market Analyst's 200-day distances. WMT: stop raised to $119 (about breakeven) and the Proposer asked for a one-third trim before the unconfirmed ~11-19 print; the next run should say whether the trim came."
+    "2026-11-12 applied: the PM reviewed every holding from its stop block (nothing tripped; BND and IEF NEAR), stated each qualitative clause untripped and why (WMT XLP 21d +8.62%, RSP 21d positive for VOO/VTI, no guidance cut or negative 8-K for CARG, MSCI, VRSN, INCY, DPZ, KR cyber unconfirmed), and checked the rate-conditioned BND, IEF and VNQ clauses against the Market Analyst's 200-day distances. WMT: stop raised to $119 (about breakeven) and the Proposer asked for a one-third trim before the unconfirmed ~11-19 print; the next run should say whether the trim came.",
+    "2026-11-13 applied: the PM reviewed every holding from its stop block (no price stop tripped; IEF and BND NEAR), found VNQ's qualitative TLT clause tripped (TLT 3.65% below its 200-day under a risk-off stance) and sold it, stated the other clauses untripped with values (SPY 3.91% above the 200-day, RSP 21d +4.07%, XLP 21d +5.81%, DPZ upgrade with no filing, KR cyber unconfirmed), and ordered the one-third WMT trim before the confirmed 11-19 print, answering the 11-12 question."
    ],
    "confidence": "medium",
    "added": "2026-11-10",
-   "last_confirmed": "2026-11-12",
+   "last_confirmed": "2026-11-13",
    "status": "active",
    "retired_why": null
   },
@@ -213,11 +219,12 @@
     "2026-11-12 IEF: the PM declined the Skeptic's cut partly because IEF is 'a small hedge for an equity drawdown', on the morning the Market Analyst's note said duration was not hedging and bonds were falling with stocks after the hot CPI. The PM review calls this the weakest part of the reasoning. The check is the contradiction between two same-day run files, not IEF's price that day.",
     "2026-11-12 VNQ, done right: after the Skeptic showed the stored premise (Market Analyst favor) was gone, the PM restated VNQ's thesis on its remaining merits and named it the first equity sleeve to cut.",
     "2026-11-12 BND: the stored thesis still calls it 'low-vol bond ballast for an equity-heavy book' under the same Market Analyst note; its role was not restated.",
-    "Background, not the evidence: the Market Analyst's 11-10 review recorded bonds as ballast failing on the CPI day (IEF -0.83%, BND -0.71% vs VOO -0.29%), and on 11-12 IEF -0.84% and BND -0.62% while SPY fell about 0.35%. Two days of price moves are not graded evidence that bonds do not hedge."
+    "Background, not the evidence: the Market Analyst's 11-10 review recorded bonds as ballast failing on the CPI day (IEF -0.83%, BND -0.71% vs VOO -0.29%), and on 11-12 IEF -0.84% and BND -0.62% while SPY fell about 0.35%. Two days of price moves are not graded evidence that bonds do not hedge.",
+    "2026-11-13 applied: with the Market Analyst again saying duration is not hedging, the PM sold IEF under L8 rather than defending it as a hedge, and restated BND's role through thesis_updates as a low-volatility reserve, 'not an equity hedge', and named it the next sell candidate. The Skeptic raised BND's contradiction and the PM fixed it the same day. The IEF sale's own 20-session test is pending."
    ],
    "confidence": "low",
    "added": "2026-11-12",
-   "last_confirmed": "2026-11-12",
+   "last_confirmed": "2026-11-13",
    "status": "active",
    "retired_why": null
   }
@@ -233,7 +240,8 @@
     "2026-10-28: WMT's 10-23 8-K 8.01 is also unread (News Analyst sees item numbers only), and SMG's 5.02 is still unread with earnings confirmed for 11-04.",
     "2026-10-29: WMT's 10-23 8-K 8.01 is still unread (News and Fundamentals reviews both list it as the open L2 item).",
     "2026-10-30: WMT's 8-K 8.01 is still unread and ages out of the 7-day window; the News Analyst says no further action is possible from this input.",
-    "2026-11-11: BLBD's new 8-K 5.02/9.01 (11-10) is again readable only by item number (not held; News Analyst: 'read before any buy')."
+    "2026-11-11: BLBD's new 8-K 5.02/9.01 (11-10) is again readable only by item number (not held; News Analyst: 'read before any buy').",
+    "2026-11-13: FTDR's new 8-K 5.02 (11-12) cannot be read from item numbers and has no explaining headline; BLBD's 11-10 5.02 is still unread with an 11-23 estimate (neither held)."
    ]
   },
   {
@@ -311,7 +319,8 @@
    "suggestion": "Refresh the fundamentals menu after the Q3 filings. The Fundamentals Analyst says the menu (as of 2026-10-27) holds prior-fiscal-year cash-flow figures for VRSN, MSCI, MSM and IDXX, so it cannot confirm or break the theses written around those prints. This is a data-input change, not a limit or screen rule.",
    "evidence": [
     "2026-11-02 Fundamentals review, update point 4: the menu predates the Q3 prints for VRSN, MSCI, MSM and IDXX (reported 10-20 to 10-22 or 11-02) and its figures have not been re-tested.",
-    "2026-11-11 Fundamentals review: the screen still uses FY2025 10-Ks for DPZ, CARG, IDXX, INCY, MSCI, VRSN and FAST, and KR's and WMT's latest fiscal years ended 2026-01-31, so every 'fundamentals' clause in a stored thesis is tested against data 9-11 months old. INCY was bought today on those figures."
+    "2026-11-11 Fundamentals review: the screen still uses FY2025 10-Ks for DPZ, CARG, IDXX, INCY, MSCI, VRSN and FAST, and KR's and WMT's latest fiscal years ended 2026-01-31, so every 'fundamentals' clause in a stored thesis is tested against data 9-11 months old. INCY was bought today on those figures.",
+    "2026-11-13: EXEL was bought on annual figures that predate its 10-29 Q3 print, and its invalidation includes 'the fundamentals screen drops EXEL from the menu'; the PM and Fundamentals review both note the Q3 figures are not in the inputs (same for VRSN, 10-22)."
    ]
   },
   {
@@ -357,6 +366,15 @@
     "2026-11-12 close.json: agent_return 0.04182, shadow_return 0.04138, spy_return -0.01221; agent_invested_pct 0.8966, shadow 0.995; since_version (v6 from 11-10) agent 0.00409, shadow -0.00472, spy 0.00961; stop_alerts BND +0.9%, IEF +0.8%.",
     "2026-11-12 Market Analyst review: SPY 757.12 vs 759.81 reference, 3.9% above the 728.65 200-day; IEF -0.84%, BND -0.62% on the day.",
     "Scorecard as of 2026-11-12: portfolio-manager and proposer 0 right, 1 wrong at 20 sessions; skeptic 0 graded at 20 (5-session 5 right, 17 wrong); market-analyst 8-5, always-neutral 0.615; only news-analyst has enough_data (106 right, 57 wrong, 0.65)."
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "suggestion": "Hypotheses to watch, not rules. (1) The rotation sold low-beta sleeves (VNQ, IEF, part of WMT) and left cash at about 13.7% of equity (86.3% invested vs the shadow's 99.5%); the PM committed to deploy above the 10% buffer after the 11-19 WMT print or give a new reason. Check on 11-20 whether that happened; if BND's stop (0.8% away) trips first, cash nears 20%. (2) The agent's total return (+4.72%) leads the shadow's (+4.16%) for a second close; a few sessions, not evidence about invested level. (3) The Market Analyst is 8 right, 6 wrong (0.571), level with always-neutral (0.571), with 14 graded calls; its risk-off 0.4 call from 11-13 needs SPY about 0.7% lower by 11-19. (4) No new 20-session grade since BTC/USD. The 10-20 calls sit at 18 sessions and grade about 11-17; several rejected buys lead SPY on the interim reading (RRC 10-21 +23.1%, MSCI 10-20 +13.5%, CARG 10-20 +11.9%). When they grade, separate sound process (unverified dates, buying into the opening reaction) from outcome before any lesson about the PM or the Skeptic. (5) The WMT trim's test is WMT vs SPY over the 5 sessions after 11-19 (stored wording); the 11-13 close above the trim price is one day.",
+   "evidence": [
+    "2026-11-13 close.json: agent_return 0.04718, shadow_return 0.04164, spy_return -0.0158; agent_invested_pct 0.8633, shadow 0.995; since_version (v6 from 11-10) agent 0.00925, shadow -0.00447, spy 0.00594; BND stop status near, pct_above_stop 0.008.",
+    "2026-11-13 PM review lessons 5 and 6 (idle-cash commitment expiring after 11-19; WMT trim test).",
+    "Scorecard as of 2026-11-13: portfolio-manager and proposer 0 right, 1 wrong at 20 sessions (BTC/USD, vs_spy -0.0987); skeptic 0 graded at 20 (5-session 5 right, 17 wrong); market-analyst 8-6, always-neutral 0.571; only news-analyst has enough_data (106 right, 59 wrong, 0.642). Pending 20-session readings (not grades): RRC 10-21 +0.2312 at 17 sessions, MSCI 10-20 +0.135 and CARG 10-20 +0.1186 at 18 sessions."
    ]
   }
  ]
