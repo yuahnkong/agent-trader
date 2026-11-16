@@ -1,0 +1,6 @@
+{
+  "summary": "Added L9 (a process lesson): before adding to a holding that shares a stop with others, state the combined weight one close would trip and size the group as one position. The evidence is the 11-16 VTI add, which left about 23.5% of equity on one SPY-200-day stop, now NEAR, without the decision saying so. L6 now asks that a stop's text and stop_price agree and that a new buy's stop be restated from its fill, after MCO's '8% below avg_entry_price' text disagreed with its $470 placeholder stop; L2, L3, L4, L6, L7 and L8 were applied today and are confirmed. There are still no new outcome lessons, because the PM and Proposer have one 20-session grade each and the 10-20 calls grade on 11-17. The hypotheses and the WMT unread-8-K and stale-menu evidence went to owner_suggestions.",
+  "added": ["L9"],
+  "retired": [],
+  "confirmed": ["L2", "L3", "L4", "L6", "L7", "L8"]
+}
