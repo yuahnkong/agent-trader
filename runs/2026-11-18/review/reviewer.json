@@ -1,0 +1,6 @@
+{
+  "summary": "No new lessons. L7 now covers soft conditions in thesis text, because FAST's 'marginal hold if XLI keeps lagging' was met with no verdict. L8 now requires the Proposer to give a named sell candidate a sell proposal or an explicit hold verdict, because MCO was named with no way to act. L2 was trimmed, and evidence was added to L2, L3, L4, L6 and L9. Two owner suggestions were added: compute the SPY 200-day stop in code and route tripped stops into a sell proposal; and a hypotheses note on the 10-21 20-session grades (PM 7-4, Proposer 10-1, Skeptic 0-7). That note adds no outcome lesson, since only the News Analyst has enough_data.",
+  "added": [],
+  "retired": [],
+  "confirmed": ["L2", "L3", "L4", "L6", "L7", "L8", "L9"]
+}

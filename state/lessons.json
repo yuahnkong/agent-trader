@@ -446,6 +446,24 @@
     "Follow-up buys (pending): CARG 10-21 +0.1488 at 19 sessions; MSCI 10-22 +0.0708 at 18 sessions. RRC 10-21 rejected +0.2058 at 19 sessions, grades next.",
     "2026-11-17 close.json: agent_return 0.03463, shadow_return 0.0222, spy_return -0.04441; agent_invested_pct 0.8858, shadow 0.994; since_version agent -0.00284, shadow -0.02305, spy -0.0233."
    ]
+  },
+  {
+   "date": "2026-11-18",
+   "suggestion": "Code, for a person to decide (not a limit or screen rule): (1) let a stop be defined as 'SPY closes below its 200-day SMA' and have Python compute the line each run, as the regime filter already does, instead of storing a fixed number the PM re-dates by hand; (2) when any stored stop trips, have the pipeline put a sell proposal (or order) in front of the PM, since the PM can approve or shrink proposals but cannot originate a sale.",
+   "evidence": [
+    "The VOO/VTI SPY line has been re-dated through thesis_updates on 11-06, 11-09, 11-11, 11-12, 11-13, 11-16, 11-17 and 11-18 (L6 evidence).",
+    "2026-11-18 close: SPY 730.20 against the stored 729.79 (+0.06%), a line dated the 11-17 close; the PM review says the stop block's NEAR status may already be wrong against today's line, with VOO and VTI about 23.3% of equity on it.",
+    "2026-11-18 PM review: 'I can approve or shrink proposals but cannot originate a sale', which applies both to the shared SPY stop and to MCO (named first sell candidate, 2.4% above its $470 stop, no proposal)."
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "suggestion": "Hypotheses to watch, not rules. (1) The 10-21 calls graded at 20 sessions: approved VTI (+0.4% vs SPY), FAST (+8.9%) and CARG (+16.8%) right; the rejected RRC buy wrong (+22.1%). Totals at 20 sessions: portfolio-manager 7-4, proposer 10-1, skeptic 0-7. All three PM rejections graded so far (MSCI and CARG 10-20, RRC 10-21) went wrong, each after a Skeptic serious objection; MSCI and CARG were bought one or two sessions later, and RRC's gain came mostly from the 10-26 EQT all-stock bid, which the 10-21 inputs could not show. Separate the process behind each rejection (labels L3 calls artifacts, an unverified date, buying into an opening reaction) from the outcome. (2) Of the Skeptic's 0-7, the VTI objection was about duplicating VOO (graded wrong on a +0.36% vs SPY move, essentially flat) and the FAST objection was the unverified earnings date that became L2; neither is a direction call. A person should decide whether duplication, sizing and data-gap objections belong in the direction grade. Every agent but the News Analyst is far under 30 graded calls, so no outcome lesson. (3) The Market Analyst is 9-8 (0.529) against always-neutral 0.471, 17 graded calls. (4) Over the full run the agent is +3.56% against the shadow's +2.82% and SPY's -4.73% at 88.5% vs 99.4% invested; since the 11-10 version, -0.19% against -1.73% and -2.63%. A short, falling window, not evidence about invested level. (5) Next checks: WMT's 11-19 print against the close-based $119 stop; whether SPY's 0.06% cushion holds and, if it trips, whether both sales are put up in that run; a sell-or-hold verdict on MCO; and the post-11-19 deployment commitment sized against buckets.",
+   "evidence": [
+    "Scorecard as of 2026-11-18 by_horizon 20: portfolio-manager 7-4 (0.636), proposer 10-1 (0.909), skeptic 0-7 (0.0); 5-session portfolio-manager 20-13, proposer 25-8, skeptic 5-20; market-analyst 9-8 (0.529) against always-neutral 0.471; news-analyst 114-62 (0.648), the only agent with enough_data.",
+    "20-session grades of 10-21 calls: PM approved VTI vs_spy +0.0036, FAST +0.0886, CARG +0.1683 (right); PM rejected RRC +0.2213 (wrong); Skeptic objections VTI, FAST, CARG, RRC (all wrong); Proposer VTI, FAST, CARG, RRC (right). BTC/USD 10-21 already graded wrong.",
+    "2026-11-18 close.json: agent_return 0.03558, shadow_return 0.02818, spy_return -0.04733; agent_invested_pct 0.885, shadow 0.994; since_version agent -0.00193, shadow -0.01734, spy -0.02629; stop_alerts VOO and VTI NEAR at +0.06%, MCO NEAR at +2.4%."
+   ]
   }
  ]
 }
