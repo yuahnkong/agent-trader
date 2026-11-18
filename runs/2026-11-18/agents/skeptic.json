@@ -1,0 +1,54 @@
+{
+  "summary": "P1 (sell half of VTI) is mostly a timing and sizing call dressed as a direction call: the stored SPY 200-day stop already sells the whole group one close lower, the 21-day data shows VTI beating VOO and SPY in this tech-led drop, and the 'harvest about $1.2' ignores the 11-16 VTI lot bought two sessions ago (wash-sale). Among the holds, MCO is weakest: its stored premise (Financials favored) is gone from today's Market Analyst note and it is 3.07% above its stop. WMT goes into tomorrow's print, and VOO is the half of the pair the data says to cut, not VTI. No lesson in learning.json names the Skeptic. My graded record (0 of 3 right at 20 sessions, 5 of 18 at 5) is why I tag direction only where the inputs show it and rate most direction objections minor.",
+  "challenges": [
+    {
+      "proposal_id": "P1",
+      "case_against": "The thesis says VTI's extra small- and mid-cap exposure 'should lag SPY in a broad risk-off tape', and its own invalidation is 'VTI beats SPY over 20 sessions'. The inputs cut the other way over the horizon that matters. In this tech-led drop VTI's 21d is -4.09% against VOO -4.46% and SPY -4.44% (market.json). IWM's 21d is -0.82%, far better than SPY's, and QQQ's 21d is -8.55% and XLK's -12.21%. The pain is in mega-cap tech, and VOO carries more of it than VTI. The proposer's support is IWM's 5d (-4.11%) and its position 3.43% below its 200-day. That is one week against a 21-day record that points the other way, and over 63d VTI (-4.97%) lagged VOO (-4.53%) only slightly. With betas of 1.007 and 0.995, VTI against SPY is close to a tracking call. If the Nvidia print sets off a mega-cap rebound, VTI lags. If tech keeps leading down, VTI beats SPY. Neither outcome supports the stated thesis, and the grading will measure exactly this relative call.",
+      "severity": "minor",
+      "about": "direction",
+      "what_would_change_my_mind": "IWM and RSP keep lagging SPY on 21d, not just 5d, with QQQ stabilising. That would mean the selloff has rotated from mega-cap tech into small and mid caps, and VTI's extra exposure would then be the weaker half."
+    },
+    {
+      "proposal_id": "P1",
+      "case_against": "The trade is premature. It does early, and in part, what the stored stop does in full one close later. SPY is 0.36% above 729.79, and a close below it sells all of VOO and VTI anyway (the PM pre-committed to selling both together on 11-17, per L9's evidence). Selling half of VTI now protects only against the gap beyond the line on the day the stop trips, which is about 0.4% plus that day's overshoot on $31, or roughly $0.2 to $0.6. The cost is selling after a -2.33% 5-day move, with VIXY +15.69% and 20-day realized vol at 23.3%. That is where the Market Analyst says his own call is most likely to fail ('a reflex rally from a 2.3% five-day drop is the main way this call fails'; his 11-06 risk-off after a sharp drop graded wrong on a +2.59% bounce). The Nvidia print came after the 11-17 close and its reaction is not in this packet (Market Analyst and News Analyst both say so). Selling right before that information prices in is selling blind. It also reverses the PM's own 11-16 VTI add after two sessions, which is whipsaw. If the stop is the plan, let it work. If it is not trusted, the fix is to move or restate the stop, not to sell half in front of it.",
+      "severity": "serious",
+      "about": "timing",
+      "what_would_change_my_mind": "Evidence that the Nvidia reaction was negative before the open (QQQ/XLK gapping lower), or a reason the close-based stop would fail badly (e.g. a dated macro print on 11-18 or 11-19). The News Analyst lists none before the 12-09 FOMC."
+    },
+    {
+      "proposal_id": "P1",
+      "case_against": "Where the proceeds go is the sizing problem. P1 lifts cash from 11.47% to about 16.5% ($71.02 + about $31.25 on $619.41 equity; the arithmetic checks) and plans to redeploy into 'Staples or Health Care names with their own stops' after WMT's 11-19 print. Staples is already 16.45% by bucket (WMT, KR, SAM), and DPZ's Staples screen label adds 11.47% more of the same label stack. Health Care is 12.8% (IDXX, INCY, EXEL, with INCY and EXEL sharing oncology risk). L3's evidence shows these names fall together on down days, so moving broad beta into them concentrates factor risk rather than reducing it. The L9 argument also overreaches. L9 says to size the shared-stop group as one position when adding and to state the combined weight. It does not call for trimming a group sized deliberately (the PM did that on 11-17). If the concern is 23.5% on one line, the cleaner fix is a choice of which half to cut (see HOLD-VOO), not a cash build waiting for a single-stock print.",
+      "severity": "minor",
+      "about": "sizing",
+      "what_would_change_my_mind": "A named redeployment target outside the Staples and Health Care buckets, or a plan that holds the proceeds as cash without a pre-committed concentration into buckets that already move together."
+    },
+    {
+      "proposal_id": "P1",
+      "case_against": "The tax line is wrong. The thesis says the sale 'harvests about $1.2' with the only cost a 30-day block on rebuying. But 0.04063 VTI shares were bought on 11-16 at $368.94 (portfolio.json lots), two days before this loss sale. Under the wash-sale rule, a purchase within 30 days before the sale counts as replacement shares too. Selling half (about 0.0866 shares) by FIFO takes the 10-21 lot ($378.34) and part of the 10-22 lot ($375.95), a loss of about $1.5 at $360.19. Roughly 0.0406/0.0866, or nearly half, of that loss would be deferred into the 11-16 lot's basis, not harvested. The dollars are tiny, but the claim as written is not supported by the lot data, and the 30-day block is only half the wash-sale picture.",
+      "severity": "minor",
+      "about": "data",
+      "what_would_change_my_mind": "If the account's wash-sale handling ignores purchases before the sale (the buy_blocked list only shows forward blocks), say so explicitly and drop the 'harvests' claim rather than stating a number."
+    },
+    {
+      "proposal_id": "HOLD-MCO",
+      "case_against": "Sell MCO today. Its stored thesis rests on 'Financials is a Market Analyst favored sector (XLF 21d +6.17%, 9.35% above its 200-day)'. Today's Market Analyst favors Staples, Health Care and Utilities only. Financials is gone from the list, and XLF's 21d has fallen to +3.65% with a 5d of -2.09%. The exposure packet buckets MCO as Industrials, which he explicitly avoids, though L3 says to check that against the business. Under L8's logic, the premise the hold rests on has been contradicted in a same-day note, and the proposer's review does not restate it. The proposer instead names the headwinds himself: 'rising yields and soft IG credit'. The Market Analyst's numbers back that up: TLT 3.78% below its 200-day, LQD -1.10% over 5d and 2.41% below its 200-day, HYG 1.10% below. Those are the conditions that slow ratings issuance. MCO fell 4.3% on 11-17 and sits 3.07% above its $470 stop, the closest held name to its line. It is -4.8% on cost after two sessions, and the 11-13 8-K 8.01 is still only inferred to be a notes offering. Waiting for the stop means taking most of the remaining 3% loss for a position with no live premise.",
+      "severity": "serious",
+      "about": "direction",
+      "what_would_change_my_mind": "The Market Analyst restoring Financials to his favor list, or LQD and HYG retaking their 200-days (credit easing), or the PM restating MCO's thesis on a premise the inputs still support, such as quality and low beta alone, as was done for VNQ on 11-12."
+    },
+    {
+      "proposal_id": "HOLD-WMT",
+      "case_against": "Trim WMT again before the 11-19 print, tomorrow and company-confirmed. It is still 8.08% of equity, the largest single stock after DPZ. It goes into the print after about eleven PT raises in eight sessions (latest BNP $144), which by the News Analyst's own read sets a crowded, high bar. The $119 stop is close-based, so a post-print gap goes straight through it, as the 11-11 L7 evidence and the PM's own review already noted. The proposer also misstates the cushion. $119 is 6.7% under the $127.52 mark; 7.16% is the distance above the stop, not below the mark (the same slip appears for IDXX's $640, 7.3% under the mark, not 7.85%). WMT moves with KR and SAM, Staples is 16.45% by bucket, and the proposer wants more Staples after the print, so a miss lands on the whole sleeve at once. The confused 11-17 'Walmart Reports Q3 ... Raises Outlook' headline adds noise to how the print will be read. That does not lower the risk.",
+      "severity": "minor",
+      "about": "timing",
+      "what_would_change_my_mind": "An 8-K 2.02 showing the print has already happened (which would make the 11-17 headline real and the event passed), or a reason the one-third trim on 11-13 was already sized for a gap of this kind."
+    },
+    {
+      "proposal_id": "HOLD-VOO",
+      "case_against": "If one half of the shared-stop pair should be cut, the inputs say it is VOO, not VTI. VOO is the bigger weight (13.43% vs 10.09%) and the closer one to the 15% cap. Its 21d (-4.46%) is worse than VTI's (-4.09%) in a drop led by QQQ (-8.55%) and XLK (-12.21%), and VOO holds more of that mega-cap tech weight. It sits 0.37% above its own 200-day, about the same as VTI's 0.17%. The Market Analyst said 'do not add to VOO or VTI' about both equally. He gave no preference for VOO over VTI. The proposer's reason for keeping VOO as 'the core' is the 'prefer US core over international' line, and VTI satisfies it equally. VOO also has no recent lot to wash against: its newest lot is from 10-26, so a VOO loss sale today would harvest cleanly, unlike VTI's.",
+      "severity": "minor",
+      "about": "sizing",
+      "what_would_change_my_mind": "Inputs showing small and mid caps leading the decline on 21d, not just 5d, which would make VTI the riskier half."
+    }
+  ]
+}
