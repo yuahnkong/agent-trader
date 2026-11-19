@@ -1,0 +1,6 @@
+{
+  "summary": "L7 now names the Proposer and Skeptic and asks for a same-run sell proposal for any stored clause that is already met, because on 11-19 the VOO/VTI RSP clause was met before the open but only the PM checked it, so about 23% of equity was held through SPY's -1.96% day with no sale available; L2, L3, L4, L6, L8 and L9 were applied and gained dated evidence (MCO sold as the named L8 candidate, the SPY line re-dated and then tripped). The 10-22 calls graded at 20 sessions (PM 11-4, Proposer 14-1, Skeptic 0-9), but none of these agents has enough_data, so the outcome patterns, the answered WMT print question and the next checks go into owner_suggestions, with new evidence added to the 11-18 request for pipeline-generated sell proposals.",
+  "added": [],
+  "retired": [],
+  "confirmed": ["L2", "L3", "L4", "L6", "L7", "L8", "L9"]
+}

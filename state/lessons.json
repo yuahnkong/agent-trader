@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "lessons": [
   {
    "id": "L1",
@@ -62,11 +62,12 @@
     "2026-11-13 applied: WMT's 11-19 date is now company-confirmed (the 11-12 earnings-call-date item), closing the open estimate; the PM cited it for the one-third trim. EXEL's dates were taken from filings before the buy (reported 10-29) with the 2027-01-11 next date marked as a file estimate. The News Analyst checked all 13 holdings' own estimates and filings (none in the 7-day window).",
     "2026-11-16 applied: MCO's next date (2027-02-17) came from the News Analyst's filings check before the buy and the PM cited it; the News Analyst listed every held name's next date against its own estimate and filings. Open on a held name: WMT's 8-K 5.02 (filed 11-16) is readable only by item number three sessions before the confirmed 11-19 print; the News Analyst says so rather than calling it routine (see owner_suggestions 2026-10-23).",
     "2026-11-17 applied: SAM's next date (2027-02-23) came from the News Analyst's filings check before the buy and the PM cited it. The WMT 8-K 5.02 open since 11-16 was matched to the 11-16 Joe Creed board-appointment headline, stated as an inference, two sessions before the 11-19 print. Still unread: SAM's 11-13 8-K 8.01 (the PM dropped it from the stored clauses as unmeasurable) and FTDR's 11-12 8-K 5.02 (not held).",
-    "2026-11-18 applied: the News Analyst checked every held name's own estimate and filings from the events block (nothing new beyond the WMT, MCO, INCY and SAM filings already handled), listed each next date, and read the 11-17 'Walmart Reports Q3' headline as a mis-summarized preview because no 8-K 2.02 exists, keeping WMT's 11-19 date as company-confirmed; the PM followed that reading. Still unread: SAM's 11-13 8-K 8.01 (ages out about 11-20); BLBD's 11-10 5.02 aged out unread (not held). Lesson text trimmed to about 60 words; meaning unchanged."
+    "2026-11-18 applied: the News Analyst checked every held name's own estimate and filings from the events block (nothing new beyond the WMT, MCO, INCY and SAM filings already handled), listed each next date, and read the 11-17 'Walmart Reports Q3' headline as a mis-summarized preview because no 8-K 2.02 exists, keeping WMT's 11-19 date as company-confirmed; the PM followed that reading. Still unread: SAM's 11-13 8-K 8.01 (ages out about 11-20); BLBD's 11-10 5.02 aged out unread (not held). Lesson text trimmed to about 60 words; meaning unchanged.",
+    "2026-11-19 applied: WMT's print was confirmed from the 8-K 2.02 and the guidance-raise headline (beat, FY guide raised), closing the 11-17 'Walmart Reports Q3' preview question, and both the PM and the News Analyst left WMT's next date 'unverified' rather than guessing. The News Analyst listed every held name's next date against its own estimate and filings. SAM's 11-13 8-K 8.01 ages out unread on 11-20 (closed by expiry); LNG's 11-17 8-K 1.01/2.03 is unread (not held)."
    ],
    "confidence": "low",
    "added": "2026-10-21",
-   "last_confirmed": "2026-11-18",
+   "last_confirmed": "2026-11-19",
    "status": "active",
    "retired_why": null
   },
@@ -96,11 +97,12 @@
     "2026-11-13 applied: EXEL was cut from $25 to $15 for the Health Care overlap (bucket about 12.9%) and the INCY+EXEL oncology pair (about 4.8%); KR's add was described as the same Staples factor bet as WMT, not diversification; MSCI's thesis was restated to say it is the only Financials-bucket name with an Industrials label. The Fundamentals review notes the DPZ/WMT/KR label stack is still about 25% by SIC label.",
     "2026-11-16 applied: MCO was filed as Financials by bucket (its Industrials screen_label called the same SIC artifact as MSCI's), treated with MSCI as one financial-data sleeve (about 8.3% of equity) and sized at $25 against a $90.75 cap; MSCI's thesis was restated the same day. The Fundamentals review adds that the shared leverage_not_up failure is a sleeve-level concern.",
     "2026-11-17 applied: SAM's thesis says it joins WMT and KR in the Staples bucket inside the same factor (about 16.3% by bucket); it was held to $15 against a $65.77 cap, with no more Staples before WMT's 11-19 print. Caveat on 'use bucket': today's exposure packet files MCO under Industrials by bucket while MSCI is Financials, so the bucket field misfiles MCO the way screen_label misfiles MSCI. The PM caught it and counted MSCI and MCO as one sleeve (about 8.3%), which is why the lesson now says to check the bucket against the business. MCO and MSCI fell 4.3% and 4.2% together on the day (one day, not evidence). See owner_suggestions 2026-11-17.",
-    "2026-11-18 applied: no new sector claim (no buys). The PM cited Staples at 16.5% by bucket as a reason not to deploy, and its review asks that the post-11-19 deployment be sized against buckets (Staples 16.5%, Health Care 12.8%) rather than against cash. MCO's restated thesis names its Industrials bucket as a packet artifact and keeps MSCI and MCO as one sleeve; the Fundamentals review adds that both fail leverage_not_up. The packet still buckets MCO as Industrials (owner_suggestions 2026-11-17)."
+    "2026-11-18 applied: no new sector claim (no buys). The PM cited Staples at 16.5% by bucket as a reason not to deploy, and its review asks that the post-11-19 deployment be sized against buckets (Staples 16.5%, Health Care 12.8%) rather than against cash. MCO's restated thesis names its Industrials bucket as a packet artifact and keeps MSCI and MCO as one sleeve; the Fundamentals review adds that both fail leverage_not_up. The packet still buckets MCO as Industrials (owner_suggestions 2026-11-17).",
+    "2026-11-19 applied: the Skeptic objected that P1's 'avoided Industrials bucket' reason for selling MCO was the packet artifact this lesson names; the PM accepted it and rested the approved sale on the lost Financials premise, credit and MCO's weaker beta and gp_sector_pct within the MSCI/MCO sleeve. P2 (a WMT add) was rejected partly because it would lift the Staples bucket to about 18.6% (Implicator). MSCI's thesis now names it the only financial-data name."
    ],
    "confidence": "low",
    "added": "2026-10-27",
-   "last_confirmed": "2026-11-18",
+   "last_confirmed": "2026-11-19",
    "status": "active",
    "retired_why": null
   },
@@ -126,11 +128,12 @@
     "2026-11-13 applied: VNQ (about 1.9% of equity) was sold once its stored TLT clause tripped and the PM said it had no live premise left, which answers the 11-12 question. Cash rose to about 13.7%; the PM named the 11-17 Nvidia and 11-19 WMT prints as the reason and said L4 is not. Its review commits to deploying cash above the buffer into favored sectors after 11-19 or giving a new specific reason.",
     "2026-11-16 applied: MCO ($25, about 4% of equity) rests on the Market Analyst's Financials tilt, and the VTI add follows his 'US core is the place to be long' call; the PM said VTI reverses its stored 'no adds' line and wrote that into the thesis, as the lesson asks. Cash stays about 13.7% because BND's proceeds funded the buys; the post-11-19 deployment commitment stands.",
     "2026-11-17 applied: SAM ($15, about 2.4% of equity) rests on the Market Analyst's Staples tilt and his request for small new risk there, not on diversification; the PM called its -0.27 beta an artifact, not a hedge, and set the stop about 10% out to suit SAM's 0.383 vol. Cash ends near 11.4%; the PM gave the risk-off stance and the shared VOO/VTI stop, not L4, as the reasons not to deploy more.",
-    "2026-11-18: no buys were proposed; the PM gave WMT's 11-19 print, the 16.5% Staples bucket and the risk-off stance, not L4, as its reasons for holding cash at about 11.5% (about $9 over the buffer; account 88.5% invested). The narrow reading held. The 11-13 commitment to deploy after 11-19 comes due at the next run."
+    "2026-11-18: no buys were proposed; the PM gave WMT's 11-19 print, the 16.5% Staples bucket and the risk-off stance, not L4, as its reasons for holding cash at about 11.5% (about $9 over the buffer; account 88.5% invested). The narrow reading held. The 11-13 commitment to deploy after 11-19 comes due at the next run.",
+    "2026-11-19: the PM rejected the only buy (P2, the WMT add) on its own XLP clause and the unseen print-day gap, and broke the 11-13 commitment to deploy after 11-19 for stated reasons (regime filter one close from off, the VOO/VTI clause tripped, the only buy failing its own clause), saying L4 was not one. Cash ends about 15.5% (84.5% invested). SPY then closed under its 200-day, so at the next run the filter allows only BND, GLD, IEF and TLT, with BND and IEF wash-sale blocked; the PM review asks that cash idled by the filter be named as such and never used as a reason to keep invalidated positions. The narrow reading held."
    ],
    "confidence": "low",
    "added": "2026-10-29",
-   "last_confirmed": "2026-11-18",
+   "last_confirmed": "2026-11-19",
    "status": "active",
    "retired_why": null
   },
@@ -191,21 +194,23 @@
     "2026-11-16 applied: through thesis_updates the PM restated EXEL's $65 stop from the $69.04 fill and KR's $61.50 from the $67.06 blended cost (both 11-13 misses fixed at the next run), re-dated the SPY 200-day (729.31 as of 11-13) and restated MSCI's sector text.",
     "2026-11-16 missed, two new buys: MCO's text says 'more than 8% below avg_entry_price' while its stored stop_price is a $470 placeholder, about 7.7% under the $509.04 fill (8% would be about $468.3), so text and number disagree. VTI's added clause '8% below its blended average cost' carries no dollar level (about $345.20 from the $375.2 blended cost). PM and Fundamentals reviews both flag it; the fill was unknown at decision time, which is why the lesson now says to keep text and stop_price in agreement and restate a new buy's stop from its fill at the next run. Also: the MCO and EXEL 'screen drops it from the menu' clauses cannot trip while the menu stays dated 11-10 (Fundamentals review).",
     "2026-11-17 applied: through thesis_updates the PM fixed both 11-16 misses at the next run (MCO's text now says $470, about 7.7% under the $509.04 fill, matching its stop_price; VTI's cost clause now carries $345.20 from the $375.22 blended cost) and re-dated the SPY 200-day (729.58 as of 11-16). The menu is now dated 11-17, so the MCO and EXEL menu clauses can trip again. The new SAM stop ($201) is stored against the $223.29 menu close 'to be restated from the actual fill at the next run'; it filled at $220.142, so $201 is about 8.7% under the fill, not 10% (PM, News and Fundamentals reviews). The lesson allows this; check that the next run restates it.",
-    "2026-11-18 applied: through thesis_updates the PM restated SAM's $201 stop from the $220.14 fill (about 8.7% under it), as the 11-17 evidence asked, re-dated the SPY 200-day (729.79 as of 11-17) for VOO and VTI, and restated MCO's thesis with no weight or return figures; close.json carries all four. Limit of the fix: SPY closed 0.06% above the stored line, and at that distance a line dated one session back can already be wrong (PM review lesson 1). Re-dating by hand each run is a workaround; see owner_suggestions 2026-11-18."
+    "2026-11-18 applied: through thesis_updates the PM restated SAM's $201 stop from the $220.14 fill (about 8.7% under it), as the 11-17 evidence asked, re-dated the SPY 200-day (729.79 as of 11-17) for VOO and VTI, and restated MCO's thesis with no weight or return figures; close.json carries all four. Limit of the fix: SPY closed 0.06% above the stored line, and at that distance a line dated one session back can already be wrong (PM review lesson 1). Re-dating by hand each run is a workaround; see owner_suggestions 2026-11-18.",
+    "2026-11-19 applied: through thesis_updates the PM re-dated the SPY 200-day (730.02 as of 11-18) for VOO and VTI, replaced WMT's stale pre-print text ('goes into the 11-19 print', 'cuts guidance at its 11-19 report') with the reported beat-and-raise and an unverified next date, and removed MSCI's conditional MCO-sleeve text; close.json carries them with text and stop_price agreeing. The SPY line was re-dated by hand for the ninth time and tripped the same day (owner_suggestions 2026-11-18)."
    ],
    "confidence": "medium",
    "added": "2026-11-10",
-   "last_confirmed": "2026-11-18",
+   "last_confirmed": "2026-11-19",
    "status": "active",
    "retired_why": null
   },
   {
    "id": "L7",
-   "lesson": "Review every held position each run from its `stop` block, not by hand. For each qualitative condition, in the invalidation or in the thesis text (a guidance cut, a rate move, 'a marginal hold if XLI keeps lagging'), say whether it has been met and why; on a dated macro-print day, do this for every rate- or macro-conditioned clause. Re-anchor stale stops through thesis_updates with a stop_price.",
+   "lesson": "Each run, review every held position from its `stop` block and check each stored qualitative condition, in the invalidation or thesis text ('RSP 21d turns negative', 'marginal hold if XLI keeps lagging'), against the same-day Market Analyst figures, saying whether it is met and why. The Proposer puts up a sell proposal in the same run for any met clause. Re-anchor stale stops through thesis_updates.",
    "kind": "process",
    "applies_to": [
     "portfolio-manager",
-    "proposer"
+    "proposer",
+    "skeptic"
    ],
    "evidence": [
     "Carries over L5's evidence (2026-10-29 to 2026-11-10: stale DPZ/IDXX stops, BTC stop distance misquoted at 2.3% vs about 3%, VNQ stop 6.5% from the fill not 5%). The arithmetic errors are now prevented in code; the qualitative-clause checks are not.",
@@ -215,11 +220,12 @@
     "2026-11-13 applied: the PM reviewed every holding from its stop block (no price stop tripped; IEF and BND NEAR), found VNQ's qualitative TLT clause tripped (TLT 3.65% below its 200-day under a risk-off stance) and sold it, stated the other clauses untripped with values (SPY 3.91% above the 200-day, RSP 21d +4.07%, XLP 21d +5.81%, DPZ upgrade with no filing, KR cyber unconfirmed), and ordered the one-third WMT trim before the confirmed 11-19 print, answering the 11-12 question.",
     "2026-11-16 applied: the PM reviewed every holding from its stop block (no price stop tripped; only BND NEAR, and sold) and stated each qualitative clause with values or reasons: WMT XLP 21d +6.54%, VOO RSP 21d +2.87%, INCY's MAESTRA-3 Phase 3 cancellation judged a dropped planned study with guidance kept (not a failed pivotal trial), EXEL's Morgan Stanley $57 target not an 8-K event, KR cyber unconfirmed. On BND it said the stored 'hike path pushes yields higher' condition had happened even though the measurable IEF 200-day test had not. It named WMT's unread 8-K 5.02 and set a conditional reduction for the next run.",
     "2026-11-17 applied: the PM reviewed every holding from its stop block (only VOO and VTI NEAR, nothing tripped) and stated each qualitative clause with values or reasons: VOO/VTI RSP 21d +2.26%; WMT XLP 21d +5.68%, no guidance cut, and the 8-K 5.02 matched to a board appointment, so the 11-16 conditional reduction did not trigger (answering it); KR cyber unconfirmed; INCY and EXEL no new 8-K; the MCO and EXEL menu clauses live again and untripped. Its 'EXEL is closest' was out of date by the close (MCO 3.07% above $470 after a 4.3% fall), which follows from pre-open stop blocks, not a miss.",
-    "2026-11-18 applied in part: the PM reviewed every holding from its stop block (VOO, VTI and MCO NEAR, nothing tripped) and gave reasons for each invalidation clause (RSP 21d +1.11%, VTI's $345.20 cost clause not hit, WMT no guidance cut before the print, KR cyber unconfirmed, INCY's insider sale not an 8-K event). Missed: FAST's stored thesis calls it 'a marginal hold if XLI keeps lagging', XLI is 4.66% below its 200-day, and the PM accepted the hold on low beta without saying whether that condition was met (PM review lesson 4). That is why the lesson now covers conditions in the thesis text, not only the invalidation."
+    "2026-11-18 applied in part: the PM reviewed every holding from its stop block (VOO, VTI and MCO NEAR, nothing tripped) and gave reasons for each invalidation clause (RSP 21d +1.11%, VTI's $345.20 cost clause not hit, WMT no guidance cut before the print, KR cyber unconfirmed, INCY's insider sale not an 8-K event). Missed: FAST's stored thesis calls it 'a marginal hold if XLI keeps lagging', XLI is 4.66% below its 200-day, and the PM accepted the hold on low beta without saying whether that condition was met (PM review lesson 4). That is why the lesson now covers conditions in the thesis text, not only the invalidation.",
+    "2026-11-19 applied by the PM, missed by the Proposer and Skeptic: the PM found VOO's and VTI's stored 'RSP's 21-day return turns negative' clause met (RSP 21d -0.20% in the same-day Market Analyst note) and FAST's 'marginal hold if XLI keeps lagging' condition met (XLI 4.70% below its 200-day), which answers the 11-18 FAST miss. Neither the Proposer nor the Skeptic checked the RSP clause, so no sell proposal existed and the PM, which cannot originate a sale, could only record the trip; VOO and VTI (about 23.3% of equity) stayed held through SPY's -1.96% day (PM review lesson 1). That is why the lesson now names the Proposer and Skeptic and asks for the sell proposal in the same run. The evidence is the missed check in the run files, not the day's loss. Text rewritten: the macro-print-day clause is folded into 'each stored condition'."
    ],
    "confidence": "medium",
    "added": "2026-11-10",
-   "last_confirmed": "2026-11-18",
+   "last_confirmed": "2026-11-19",
    "status": "active",
    "retired_why": null
   },
@@ -239,11 +245,12 @@
     "2026-11-13 applied: with the Market Analyst again saying duration is not hedging, the PM sold IEF under L8 rather than defending it as a hedge, and restated BND's role through thesis_updates as a low-volatility reserve, 'not an equity hedge', and named it the next sell candidate. The Skeptic raised BND's contradiction and the PM fixed it the same day. The IEF sale's own 20-session test is pending.",
     "2026-11-16 applied: with the Market Analyst still saying duration is not hedging and BND's restated 'reserve' role only duplicating cash, the PM sold BND in full citing L8 rather than defending it. No bond ETF is now held. The sale's own test (BND back above $71.50 within 20 sessions while the Market Analyst stays risk-on) is pending.",
     "2026-11-17 applied: the Market Analyst's 'do not add to VOO or VTI' contradicted VTI's stored 'the rest can follow after the print', and the PM restated VTI's thesis through thesis_updates the same day instead of keeping the line.",
-    "2026-11-18 applied: the Market Analyst dropped Financials from his favored list; the Skeptic raised MCO's stored 'Financials favored' premise, and the PM restated MCO on quality and low beta through thesis_updates and named it the first sell candidate instead of defending the old role. Gap: no sell proposal existed and the PM cannot originate one, so the restated thesis is a hold by default with MCO 2.4% above its $470 stop (PM review broken_theses and lesson 3). That is why the lesson now asks the Proposer for a sell proposal or an explicit hold verdict on a named candidate at the next run; check that it comes."
+    "2026-11-18 applied: the Market Analyst dropped Financials from his favored list; the Skeptic raised MCO's stored 'Financials favored' premise, and the PM restated MCO on quality and low beta through thesis_updates and named it the first sell candidate instead of defending the old role. Gap: no sell proposal existed and the PM cannot originate one, so the restated thesis is a hold by default with MCO 2.4% above its $470 stop (PM review broken_theses and lesson 3). That is why the lesson now asks the Proposer for a sell proposal or an explicit hold verdict on a named candidate at the next run; check that it comes.",
+    "2026-11-19 applied: the Proposer put up P1 (sell all of MCO), the first sell candidate named on 11-18, and the PM approved it on the lost Financials premise, which answers the 11-18 check. For FAST the Proposer gave an explicit hold verdict, which the lesson allows; the PM disagreed because FAST's 'marginal hold if XLI keeps lagging' condition is met, restated it through thesis_updates as the next sell candidate and asked for a trim or sale proposal. The MCO sale's own test (back above $509.04 or beating SPY within 20 sessions) is pending."
    ],
    "confidence": "low",
    "added": "2026-11-12",
-   "last_confirmed": "2026-11-18",
+   "last_confirmed": "2026-11-19",
    "status": "active",
    "retired_why": null
   },
@@ -259,11 +266,12 @@
     "2026-11-16 VTI: the $15 add was sized on its own (VOO cap room, owner's invested goal) without stating that VOO and VTI together, about 23.5% of equity, share one SPY-200-day stop. At the close both were NEAR at +1.46% with Nvidia reporting 11-17, so one SPY close below 729.31 trips nearly a quarter of the book. The PM's own review names this as its main structural point. The check is the missing combined-weight statement in the decision, not the day's move.",
     "Background: the 2026-11-05 owner suggestion already noted that the regime filter and the VOO/VTI invalidations could trip together on one down day; the same structure was not counted when VTI was added.",
     "2026-11-17 applied: the PM stated the combined weight one SPY close would trip (VOO and VTI about 23.5% of equity on one 729.58 line), added to neither, put the day's only buy (SAM) into a name with its own stop, and wrote 'sized as one position (L9)' into VTI's thesis. Its review pre-commits to selling both together if the shared stop trips. At the close SPY was 0.39% above the line with Nvidia reporting that night.",
-    "2026-11-18 applied: the PM stated VOO and VTI as about 23.5% of equity on one 729.79 line and rejected P1 (sell half of VTI) because the shared stop already sells the whole group one close lower, keeping the 11-17 pre-commitment to sell both together. SPY closed 0.06% above the line. Open: the PM cannot originate a sale, so the test is whether the Proposer puts up both sales in the run after the line trips (PM review lesson 2). The lesson text is unchanged until that is tested."
+    "2026-11-18 applied: the PM stated VOO and VTI as about 23.5% of equity on one 729.79 line and rejected P1 (sell half of VTI) because the shared stop already sells the whole group one close lower, keeping the 11-17 pre-commitment to sell both together. SPY closed 0.06% above the line. Open: the PM cannot originate a sale, so the test is whether the Proposer puts up both sales in the run after the line trips (PM review lesson 2). The lesson text is unchanged until that is tested.",
+    "2026-11-19: the PM again treated VOO and VTI as one position (about 23.6% of equity on the 730.02 line), kept the pre-commitment to sell both together and recorded the met RSP clause in both theses. SPY closed 715.87, 1.9% under the line, so both stop blocks are TRIPPED after the whole group rode through the day. The PM review adds that when a shared stop sits within about 0.5% of the line, the decision should price the cost of the all-at-once exit rather than treat holding as free; one case, kept here rather than made a lesson. This lesson's open test comes at the next run: whether the Proposer puts up both sales together."
    ],
    "confidence": "low",
    "added": "2026-11-16",
-   "last_confirmed": "2026-11-18",
+   "last_confirmed": "2026-11-19",
    "status": "active",
    "retired_why": null
   }
@@ -453,7 +461,8 @@
    "evidence": [
     "The VOO/VTI SPY line has been re-dated through thesis_updates on 11-06, 11-09, 11-11, 11-12, 11-13, 11-16, 11-17 and 11-18 (L6 evidence).",
     "2026-11-18 close: SPY 730.20 against the stored 729.79 (+0.06%), a line dated the 11-17 close; the PM review says the stop block's NEAR status may already be wrong against today's line, with VOO and VTI about 23.3% of equity on it.",
-    "2026-11-18 PM review: 'I can approve or shrink proposals but cannot originate a sale', which applies both to the shared SPY stop and to MCO (named first sell candidate, 2.4% above its $470 stop, no proposal)."
+    "2026-11-18 PM review: 'I can approve or shrink proposals but cannot originate a sale', which applies both to the shared SPY stop and to MCO (named first sell candidate, 2.4% above its $470 stop, no proposal).",
+    "2026-11-19: VOO's and VTI's stored RSP clause was already met before the open (RSP 21d -0.20%), but no sell proposal existed, so the PM could only record the trip; SPY then closed at 715.87, 1.9% under the hand-re-dated 730.02 line, and about 23.3% of equity rode through SPY's -1.96% day (PM review: roughly $2.9). A pipeline-generated sell proposal for any tripped stored clause or stop would have put the sale in front of the PM that morning."
    ]
   },
   {
@@ -463,6 +472,16 @@
     "Scorecard as of 2026-11-18 by_horizon 20: portfolio-manager 7-4 (0.636), proposer 10-1 (0.909), skeptic 0-7 (0.0); 5-session portfolio-manager 20-13, proposer 25-8, skeptic 5-20; market-analyst 9-8 (0.529) against always-neutral 0.471; news-analyst 114-62 (0.648), the only agent with enough_data.",
     "20-session grades of 10-21 calls: PM approved VTI vs_spy +0.0036, FAST +0.0886, CARG +0.1683 (right); PM rejected RRC +0.2213 (wrong); Skeptic objections VTI, FAST, CARG, RRC (all wrong); Proposer VTI, FAST, CARG, RRC (right). BTC/USD 10-21 already graded wrong.",
     "2026-11-18 close.json: agent_return 0.03558, shadow_return 0.02818, spy_return -0.04733; agent_invested_pct 0.885, shadow 0.994; since_version agent -0.00193, shadow -0.01734, spy -0.02629; stop_alerts VOO and VTI NEAR at +0.06%, MCO NEAR at +2.4%."
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "suggestion": "Hypotheses to watch, not rules. (1) The 10-22 calls graded at 20 sessions: approved KR (+6.95% vs SPY), MSCI (+7.27%), VTI (+0.30%) and CARG (+5.56%) right; the Skeptic's KR objection (negative beta a statistical artifact) and MSCI objection (Financials claim vs Industrials label) wrong. Totals at 20 sessions: portfolio-manager 11-4, proposer 14-1, skeptic 0-9. Like the 11-18 pair, both new Skeptic 'wrongs' are label or beta-artifact points the PM adopted as wording or sizing (KR's thesis now calls its beta an artifact; L3 covers labels), not direction calls, so the 11-18 question about grading such objections stands. No agent but the News Analyst has 30 graded calls, so no outcome lesson. (2) The 11-11 WMT question is answered: on the 11-19 beat-and-raise print WMT closed 126.04 (-0.97% vs SPY -1.96%), 5.9% above its $119 close-based stop, with no gap through it. One print, not evidence about trimming near-cap names before earnings. (3) The Market Analyst is 10-8 (0.556) against always-neutral and always-risk-off at 0.444, with 18 graded calls; his 11-19 risk-off call held on day one, and his review flags bounce risk after SPY's roughly 5.8% six-session fall. (4) Over the full run the agent is +1.90% against the shadow's +1.26% and SPY's -6.60% at 84.5% vs 99.4% invested; since the 11-10 version, -1.79% against -3.23% and -4.54%. A short, falling window, not evidence about invested level. (5) Next checks: whether the Proposer puts up the combined VOO and VTI sale (L9) and a FAST trim, sale or hold verdict (L8); where the proceeds go with the regime filter off, BND and IEF wash-sale blocked and the Market Analyst against GLD and TLT; EXEL 1.3% above its $65 stop after a -3.6% day with no news; CARG's -6.4% day with no headline or filing.",
+   "evidence": [
+    "Scorecard as of 2026-11-19 by_horizon 20: portfolio-manager 11-4 (0.733), proposer 14-1 (0.933), skeptic 0-9 (0.0); 5-session portfolio-manager 20-13, proposer 25-8, skeptic 5-20; market-analyst 10-8 (0.556) against always-neutral 0.444 and always-risk-off 0.444; news-analyst 114-64 (0.64), the only agent with enough_data.",
+    "20-session grades of 10-22 calls: PM approved KR vs_spy +0.0695, MSCI +0.0727, VTI +0.003, CARG +0.0556 (right); Proposer same four (right); Skeptic objections KR and MSCI (wrong).",
+    "2026-11-19 close.json: agent_return 0.01897, shadow_return 0.01255, spy_return -0.06603; agent_invested_pct 0.8453, shadow 0.9939; since_version agent -0.01794, shadow -0.03228, spy -0.0454; WMT mark 126.04, change_today -0.00966, stop 119.0; stop_alerts VOO and VTI TRIPPED at -1.9%, EXEL NEAR at +1.3%.",
+    "2026-11-19 Market Analyst, News and Fundamentals reviews: no headline or filing behind the CARG and EXEL moves; regime filter off at the next run."
    ]
   }
  ]
