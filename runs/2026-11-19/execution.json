@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-19",
+ "version": "6",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "MCO",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.049092409",
+   "resized": false,
+   "order_id": "8b5384c3-9bcf-4f9a-9beb-cde682397951",
+   "client_order_id": "at-20261119True-MCO-sell",
+   "order_status": "pending_new"
+  }
+ ]
+}
