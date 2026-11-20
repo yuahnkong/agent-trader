@@ -1,0 +1,72 @@
+{
+  "summary": "Sell VOO and VTI together: their shared SPY 200-day stop has tripped (715.87 vs 730.02) and the RSP clause is met again, now at RSP 21d -2.31%. Sell FAST, whose 'marginal hold if XLI keeps lagging' condition is met, and EXEL, which has lost its favored-sector premise and sits 1.3% above its stop. Put $40 into TLT, the only defensive sleeve the Market Analyst prefers that is not wash-sale blocked. The rest of the cash is idled by the regime filter, not by choice. Lessons applied: L9 (sell the shared-stop pair together), L7 and L8 (sell proposals for met clauses and for the named FAST candidate), L4 (TLT rests on the analyst's stated preference, not on diversification), L2 (TLT event dates checked) and L3 (overlap checked against buckets).",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "VOO",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 1.0,
+      "thesis": "The stop block is TRIPPED: SPY closed 715.87, 1.9% under the stored 730.02 line (the Market Analyst reads the 200-day at 730.19, so SPY is 1.96% below it). The second invalidation clause is also met and has worsened: RSP's 21-day return is now -2.31%, against -0.20% on 11-19. The Market Analyst is risk-off ('Don't add equity beta'; VOO 21d -7.42%, SPY 20d realized vol 23.7%). Under L9, VOO and VTI are one position on one stop, about 23.1% of equity, and the PM pre-committed to selling both together, so this proposal is paired with P2. Tax: all three lots are short-term with long_term_on in late Oct 2027, so there is no near-term long-term date to wait for. The sale realizes about a $6.2 loss and blocks a VOO rebuy for 30 days.",
+      "invalidation": "The sale is wrong if SPY closes back above its 200-day SMA (about 730) within 20 sessions while RSP's 21-day return turns positive, or if VOO beats cash by more than 3% over 20 sessions.",
+      "stop_price": null,
+      "sources": ["market-analyst", "fundamentals-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "VTI",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 1.0,
+      "thesis": "Same shared stop as VOO (TRIPPED, SPY 715.87 vs 730.02), and the same RSP clause is met (RSP 21d -2.31%). This sale is paired with P1 under L9, so the group exits as one position. VTI's own cost clause ($345.20) is not hit: VTI closed 352.41, about 2.1% above it. The two tripped clauses are enough. The Market Analyst puts VTI 2.05% below its 200-day with 21d at -7.05%. IWM, 5.18% below its 200-day, shows small caps (VTI's extra exposure over VOO) are weaker still. Tax: all lots are short-term, the sale realizes about a $4.3 loss, and the 11-16 lot makes no difference to that.",
+      "invalidation": "The sale is wrong if SPY closes back above its 200-day SMA (about 730) within 20 sessions while RSP's 21-day return turns positive, or if VTI beats cash by more than 3% over 20 sessions.",
+      "stop_price": null,
+      "sources": ["market-analyst", "fundamentals-analyst"]
+    },
+    {
+      "id": "P3",
+      "symbol": "FAST",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 1.0,
+      "thesis": "Owed under L8. On 11-19 the PM named FAST the next sell candidate and asked for a trim or sale proposal. Its stored 'marginal hold if XLI keeps lagging' condition is met (XLI 4.70% below its 200-day on 11-19), and Industrials is still on the Market Analyst's avoid list today. The News Analyst reports that Baird downgraded FAST to Neutral ($56 PT) this morning, the first rating cut in its memory window. The downgrade is sentiment and trips no measurable clause, but nothing now supports the hold except FAST's low vol and beta of about 0.53, and the stress test already credits that. The Fundamentals Analyst treats FAST as a label-misfiled industrial MRO name and no longer ranks it in the top 10. Tax: the single lot is short-term with long_term_on 2027-10-22, and the gain is about $0.52, so there is no tax reason to wait. The price stop ($46.70) is 12.8% away and not the reason for this sale.",
+      "invalidation": "The sale is wrong if FAST beats SPY by more than 3% over the next 20 sessions, or if the Market Analyst moves Industrials off the avoid list within that span while FAST trades above $52.68.",
+      "stop_price": null,
+      "sources": ["market-analyst", "news-analyst", "fundamentals-analyst"]
+    },
+    {
+      "id": "P4",
+      "symbol": "EXEL",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 1.0,
+      "thesis": "EXEL's stored thesis rests on Health Care being 'the Market Analyst's top favored sector'. Today's favored list is Consumer Staples and Utilities only, so the premise is gone (L8: the PM did the same with MCO's Financials premise on 11-18 and 11-19). The stop block is NEAR: mark 65.83 against a $65.00 stop, 1.3% away. The Market Analyst says selling is spreading to every sector, with SPY 20d realized vol at 23.7%. At that vol a 1.3% cushion is ordinary daily noise, so holding mostly means taking the stop-out a few sessions later at a similar or worse price. No qualitative clause has tripped: there is no 8-K guidance cut or failed pivotal trial, the News Analyst reports nothing, and EXEL is still on the menu but not in the Fundamentals top 10. Overlap (L3): it is the smallest of three Health Care holdings (bucket 12.8%) and shares oncology risk with INCY, so selling it removes the duplicated risk and leaves the stronger-ranked IDXX. Tax: short-term lot (7 days), about a $0.86 loss.",
+      "invalidation": "The sale is wrong if EXEL closes above $69.04 (the fill) within 20 sessions, or beats SPY by more than 3% over 20 sessions.",
+      "stop_price": null,
+      "sources": ["market-analyst", "news-analyst", "fundamentals-analyst"]
+    },
+    {
+      "id": "P5",
+      "symbol": "TLT",
+      "side": "buy",
+      "notional_usd": 40.0,
+      "fraction": null,
+      "thesis": "The regime filter is off, so only BND, GLD, IEF and TLT can be bought, and BND and IEF are wash-sale blocked. The Market Analyst says 'Treasuries look like the better defensive choice now' and that duration is hedging again: TLT 5d +0.79% and IEF 5d +0.68% while SPY fell 5.45%. He reverses his 11-12/11-13 view that bonds fell with stocks. This buy follows his stated preference and reverses none of them (L4). He rejects GLD ('falling with risk assets... Don't treat it as a hedge'), so GLD is not proposed. TLT is the more volatile Treasury option (vol 9.7%, 2.77% below its 200-day) and he calls the move 'young'. That, plus the rates backdrop the News Analyst carries (10-year about 5.15%, hikes priced for December and January), is why this is $40, about 6.5% of equity, against a $91.84 cap. Events (L2): TLT is an ETF with no earnings. The News Analyst's next dated rates event is the 12-09 FOMC, outside the 5-day window, and there has been no rates item for four sessions. Overlap: no bond ETF is held, so this adds no stacking. After P1 to P4, cash would be about $240 (about 39%). That idle cash is forced by the regime filter, not a choice to stand aside; it should go back into equity when SPY reclaims its 200-day.",
+      "invalidation": "TLT closes at or below $76.30 (about 5% under the $80.35 reference close; restate from the actual fill at the next run), or the Market Analyst's note shows TLT and IEF turning back down along with stocks, which he names as the condition that ends his duration-hedging view.",
+      "stop_price": 76.3,
+      "sources": ["market-analyst", "news-analyst"]
+    }
+  ],
+  "holdings_review": [],
+  "held_book_review_notes": [
+    "VOO/VTI: shared SPY stop TRIPPED and RSP clause met; sold as one group in P1+P2 (L9).",
+    "FAST: thesis condition met (XLI lagging, Industrials avoided) plus Baird downgrade; sold in P3 (L8 obligation from 11-19).",
+    "EXEL: NEAR stop (+1.3%) and favored-sector premise gone; sold in P4.",
+    "WMT: XLP 21d clause ('falls below +3% while SPY holds') not met. XLP 21d is +3.16%, only 0.16 points above the threshold, and SPY is not holding anyway, so the 'while SPY holds' half also fails. The guidance clause is not met (beat and raise on 11-19). Stop $119 vs mark 126.04. Hold, but this is the closest clause in the book; the PM should watch XLP.",
+    "IDXX and INCY: their theses still cite Health Care as a favored sector, which is no longer true (favor is now Staples and Utilities). Neither has a tripped clause: IDXX is 7.8% above its $640 stop, INCY 5.3% above $110, there is no 8-K guidance cut or failed pivotal trial, and INCY's insider sales are sentiment. Hold on their own stops. The PM should restate both premises through thesis_updates (L8), and INCY is the next sell candidate if Health Care weakens.",
+    "SAM: the founder-CEO handover (Hodges succeeds Koch on 11-23, 8-K 5.02 on 11-19) is not a stored clause, since it reports no guidance cut. Staples is still favored. Hold; stop $201 is 8.7% away. The PM may want the thesis to mention the CEO change.",
+    "KR: the CRFB baby-food report is not the cyber clause and comes with no recall or agency action. Staples is still favored, and the stop is 10.5% away. Hold. The 12-03 call enters the 5-day window around 11-25.",
+    "CARG and VRSN: both sit in buckets the Market Analyst now avoids (Communication and Technology), but neither stored thesis rests on a sector tilt. CARG rests on quality and the beat, VRSN on F9 and a beta of about 0.05. No clause is met. Hold.",
+    "DPZ and MSCI: no clause is met, and both rest on quality and low beta. Hold."
+  ]
+}
