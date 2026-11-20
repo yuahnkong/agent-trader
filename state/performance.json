@@ -357,9 +357,9 @@
   "agent_return": 0.04387,
   "shadow_return": 0.03508,
   "spy_return": -0.03461,
-  "agent_invested_return": 0.050388,
+  "agent_invested_return": 0.050282,
   "shadow_invested_return": 0.034764,
-  "agent_invested_pct": 0.8626,
+  "agent_invested_pct": 0.8625,
   "shadow_invested_pct": 0.9946,
   "version": "6"
  },
@@ -371,9 +371,9 @@
   "agent_return": 0.03463,
   "shadow_return": 0.0222,
   "spy_return": -0.04441,
-  "agent_invested_return": 0.040238,
+  "agent_invested_return": 0.040137,
   "shadow_invested_return": 0.022873,
-  "agent_invested_pct": 0.8858,
+  "agent_invested_pct": 0.8857,
   "shadow_invested_pct": 0.9947,
   "version": "6"
  },
@@ -385,9 +385,9 @@
   "agent_return": 0.03558,
   "shadow_return": 0.02818,
   "spy_return": -0.04733,
-  "agent_invested_return": 0.040208,
+  "agent_invested_return": 0.040108,
   "shadow_invested_return": 0.02871,
-  "agent_invested_pct": 0.885,
+  "agent_invested_pct": 0.8849,
   "shadow_invested_pct": 0.9945,
   "version": "6"
  },
@@ -399,10 +399,24 @@
   "agent_return": 0.01897,
   "shadow_return": 0.01255,
   "spy_return": -0.06603,
-  "agent_invested_return": 0.021436,
-  "shadow_invested_return": 0.012423,
+  "agent_invested_return": 0.021438,
+  "shadow_invested_return": 0.012541,
   "agent_invested_pct": 0.8453,
-  "shadow_invested_pct": 0.9939,
+  "shadow_invested_pct": 0.994,
+  "version": "6"
+ },
+ {
+  "date": "2026-11-20",
+  "agent_equity": 608.14,
+  "shadow_value": 596.81,
+  "spy_value": 539.98,
+  "agent_return": 0.01357,
+  "shadow_return": -0.00532,
+  "spy_return": -0.10003,
+  "agent_invested_return": 0.012589,
+  "shadow_invested_return": -0.005547,
+  "agent_invested_pct": 0.5793,
+  "shadow_invested_pct": 0.9938,
   "version": "6"
  }
 ]
