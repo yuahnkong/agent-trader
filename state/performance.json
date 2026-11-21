@@ -413,10 +413,24 @@
   "agent_return": 0.01357,
   "shadow_return": -0.00532,
   "spy_return": -0.10003,
-  "agent_invested_return": 0.012589,
-  "shadow_invested_return": -0.005547,
+  "agent_invested_return": 0.01259,
+  "shadow_invested_return": -0.004981,
   "agent_invested_pct": 0.5793,
-  "shadow_invested_pct": 0.9938,
+  "shadow_invested_pct": 0.9944,
+  "version": "6"
+ },
+ {
+  "date": "2026-11-21",
+  "agent_equity": 608.27,
+  "shadow_value": 598.03,
+  "spy_value": 539.98,
+  "agent_return": 0.01378,
+  "shadow_return": -0.00328,
+  "spy_return": -0.10003,
+  "agent_invested_return": 0.01259,
+  "shadow_invested_return": -0.004981,
+  "agent_invested_pct": 0.5792,
+  "shadow_invested_pct": 0.9923,
   "version": "6"
  }
 ]
