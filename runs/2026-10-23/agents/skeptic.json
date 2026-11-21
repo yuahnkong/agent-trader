@@ -1,0 +1,35 @@
+{
+  "summary": "The slate is mostly an exercise in getting from 32% cash to 10% cash: two near-identical bond buys, a VOO add on top of VOO and VTI, and two names the fundamentals file labels Technology while the market stance says avoid Technology. VRSN is the best idea but its post-print reaction is unknown, and MTCH and the bond duplicate (P2/P5) are the weakest.",
+  "challenges": [
+    {
+      "proposal_id": "P1",
+      "case_against": "The thesis is a pre-print quality ranking. The fundamentals note says the menu predates the 10-22 print (as of 10-20) and nothing in the inputs shows how the stock traded after the report. The print was an EPS miss ($2.35 vs $2.41), with the only offsets a $2.2M revenue beat and a $1M guide raise vs the estimate. The proposer says the event risk is 'gone', but the news note itself says the stock reaction is 'the open question', and buying into an unseen post-earnings gap is exactly the L1 situation (stop anchored to an unknown fill). The invalidation is 'more than 10% below the actual fill', which is not a number anyone can check today, and its second clause ('if a follow-on 8-K shows the guide was misread') is not a price or datable trigger at all. The beta of 0.03 is cited as defensive, but the cap-based sizing and 'near-zero market sensitivity' say nothing about single-stock risk after a miss; the fundamentals note also flags the concentrated single-product business. The sector is 'Technology' in the fundamentals file, which the proposer says it is avoiding. The stated reason for $35 (price reaction unknown) concedes the point: if the reaction is unknown the right size may be zero until it is seen.",
+      "severity": "serious",
+      "what_would_change_my_mind": "Evidence in the inputs of VRSN's 10-22/10-23 price move showing no adverse gap, and a stop expressed as a price rule that can be checked at the fill (e.g. 10% under the fill, with the fill price stated)."
+    },
+    {
+      "proposal_id": "P2",
+      "case_against": "The thesis says BND is 'the low-duration fund'. It is not: BND's beta (0.121) and 252d vol (3.97%) are essentially the same as IEF's (0.123 beta, 4.96% vol); it is an intermediate-duration aggregate, not a short-duration hedge. The market analyst's own wording is 'a modest allocation to BND or IEF', singular, and the proposer buys both ($50 together, 8% of equity) which doubles the same trade. BND is still 0.67% below its 200-day and 63-day return is negative (-0.27%); the entire case is a 1.13% 21-day bounce. The news note says the rally is a one-week flight-to-duration move with a hot PPI and a Fed meeting next week, calls it 'reversible', and a former Fed adviser reads it as a recession signal, so buying after a week of strength ahead of the Fed is chasing. The invalidation ('10-year above 5.15%') is a macro level the news note says is already near 5%, but there is no trigger on the BND price itself that fires before the 2% stop; and BND's 2% stop is about half a standard annual vol move and can be hit by noise in days.",
+      "severity": "serious",
+      "what_would_change_my_mind": "If the PM keeps only one of BND or IEF, I would drop this to minor. A clear reason to hold the bonds as a hedge (e.g. the portfolio stress test showing it reduces loss) rather than as a place to park cash would also help."
+    },
+    {
+      "proposal_id": "P3",
+      "case_against": "The account already holds VOO (9.8% of equity) and VTI (8.2%), which are close to the same index, and the fundamentals note says the review question for them is duplication. This adds a third lot, taking VOO to roughly $84 (about 14% of equity) against the 15% cap, and total broad-US-equity to about 22%. The stated reason is that VOO is the 'default home for cash with no better use', which is a cash-deployment target, not a thesis. The only evidence for the add is that the regime filter passes, and the market note says 'keep normal exposure without adding appetite'. The 3-day-old lot is down 1.1%, 'adds at a slightly lower price' is not an argument. The invalidation (SPY closing below its 200-day, 5.6% lower) is too wide to protect anything; the market stance says QQQ losing its 200-day or XLK extending past -10% would signal the weakness spreading, and VOO is heavily weighted to those names. The news note rates VOO medium event risk with Fed next week and hot PPI.",
+      "severity": "serious",
+      "what_would_change_my_mind": "A reason this should be VOO rather than leaving cash, such as a specific sizing rule that requires being near 90% invested, and an invalidation that would trigger before a 5.6% drawdown."
+    },
+    {
+      "proposal_id": "P4",
+      "case_against": "Contradicts the proposer's own summary. The summary says tech and communication are avoided, the market analyst puts Technology and Communication on its 'avoid' list (XLK -6.66%, XLC -4.57% over 21 days, both still falling), and the fundamentals file labels MTCH 'Technology'. The proposer adds a tech name and then says 'tech is the weak sector' as a reason to size small, which is a reason not to buy. MTCH is ranked 6th, has the lowest in-sector percentile of the top group (0.895), failed current_ratio_improved, and the fundamentals note gives no reason to prefer it over the unheld names ranked above it that are blocked only by event timing. The earnings date of 11-03 is an approximation of 7 trading days; the news memory shows this class of estimate often shifting (AAPL, RRC, SAM), so the print could land closer than the proposer assumes, and the proposed invalidation is a 10% drop, which a single earnings gap on a 0.887-beta consumer app can exceed overnight. The sole catalyst cited is an Evercore upgrade from 10-20, three days and a 5% tech sell-off old. Nothing in the inputs shows MTCH's price action since.",
+      "severity": "serious",
+      "what_would_change_my_mind": "A reason from the inputs to prefer MTCH over staying in cash, such as a price check showing it is holding up through the tech sell-off, and the earnings date confirmed by a company announcement."
+    },
+    {
+      "proposal_id": "P5",
+      "case_against": "Duplicates P2. IEF and BND have the same beta (0.123 vs 0.121) and BND already holds a large Treasury sleeve, so P5 is not a separate idea, it just raises the bond bet to $50. IEF is 1.49% below its 200-day with a negative 63-day return (-0.93%); the proposer's 'not extended' is true but means it is also in a downtrend. The news note says the yield move is reversible and Fed risk is two-way. The thesis claims a long-duration risk is avoided, yet the stop of 2% is the same one-sigma-ish distance as P2. Taking 8% of equity into bonds ahead of the Fed meeting, after a hot PPI, on a one-week yield drop is a rates view dressed as diversification.",
+      "severity": "serious",
+      "what_would_change_my_mind": "Dropping P2 or P5 (one bond fund, not both) resolves most of this; I would then call the remaining one minor."
+    }
+  ]
+}

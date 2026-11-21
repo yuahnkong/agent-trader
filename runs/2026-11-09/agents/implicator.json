@@ -1,0 +1,25 @@
+{
+  "summary": "Selling all of BTC/USD and buying $20 of VNQ lowers the estimated 10% market-drop loss from about $23.48 to about $22.10 and takes crypto to zero, but the portfolio stays about 56% single stocks and 26.5% Consumer Staples by label, and the VNQ buy adds rate-sensitive exposure just after a strong payrolls print raised hike risk. No lesson in learning.json names the Implicator, and no graded Implicator calls exist yet.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "Full exit of a 2.1% position (market value about $13.06). Crypto falls from 2.1% to 0% of equity, well under the 5% cap, and the highest-beta holding leaves the book. No other weight changes. Cash rises to about $83.67 before the VNQ buy.",
+      "overlap": "None. Nothing else in the book is crypto, so the sale removes the only crypto exposure. The remaining high-beta risk sits in VOO and VTI, which are near-duplicates of each other.",
+      "tax": "Realized short-term loss of about $1.60 (-10.9% on a cost of 83,685.83). The one live lot (0.000176 at 83,685.83, opened 2026-10-21, 19 days held, long-term on 2027-10-22) goes first under FIFO; the 0.0-qty lot is a rounding stub. It is 346 days from long-term status, so there is no reason to wait. The loss offsets other short-term gains and has no near-term tax cost. Tiny dollar amount.",
+      "wash_sale": "risk: selling at a loss opens a 30-day window (to about 2026-12-09) in which a rebuy of BTC/USD could disallow the loss. recent_realized and buy_blocked are empty today, so nothing blocks this sale. Proposer notes the PM must not re-enter BTC before then if the loss is to count. VNQ is not substantially identical, so P2 does not trigger it.",
+      "summary": "Reduces risk. Realizes about a $1.60 short-term loss, drops the stress loss by about $2.01 (BTC per-$100 figure of -15.37 times $13.06), and the only watch item is not rebuying BTC for 30 days."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "Buy of $20 gives VNQ about 3.2% of equity, far under the 15% cap and inside its $92.74 buy cap. It becomes the third equity ETF after VOO (13.6%) and VTI (7.8%), taking equity ETFs to about 24.6%. After both trades: single stocks about 56.1%, equity ETFs about 24.6%, bond ETFs (BND, IEF) about 9.0%, gold 0%, crypto 0%, cash about 10.3% ($63.67 of $618.24, just above the 10% buffer of $61.82). Cash would fall under the buffer if the BTC sale fills below the quoted mark by more than about $1.85.",
+      "overlap": "Real estate is a new sleeve with no held REIT. VOO and VTI already hold a small REIT slice (roughly 2% of those funds by my estimate, not in the inputs), so the true overlap is negligible. It does not add to the Consumer Staples stack (DPZ, WMT and KR, about 26.5% of equity by label, which stays unchanged) or to Technology. Risk to note: VNQ is rate-sensitive, and the 11-06 payrolls beat (165K vs 65K) raises December-hike risk, which hits BND, IEF, VNQ and GLD together. VNQ is the only new rate-duration bet.",
+      "tax": "Buy, no tax event. The new lot is short-term and starts its 365-day clock on the fill date.",
+      "wash_sale": "none. VNQ is not the asset sold at a loss (BTC/USD), no loss sale of VNQ exists in recent_realized, and buy_blocked is empty.",
+      "summary": "Acceptable. Small, low-beta (0.315) and diversifying, with a stress add of only about $0.63. The main exposure is rate sensitivity after the jobs beat, not concentration."
+    }
+  ],
+  "stress_10pct_drop": {
+    "before_usd": -23.48,
+    "after_usd": -22.1
+  }
+}

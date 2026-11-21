@@ -1,0 +1,32 @@
+{
+  "stance": "risk-off",
+  "confidence": 0.42,
+  "summary": "SPY has fallen 4.73% in 5 days and closed at 733.00, only 0.77% above its 200-day average (727.38), with Technology and the Nasdaq leading the damage. Volatility is rising and money is rotating into staples, health care and bonds, so the near-term lean is down, though a sharp bounce is a live alternative at this volatility. Keep appetite and sizing low until SPY holds the 200-day line.",
+  "reasons": [
+    "SPY closed at 733.00, 0.77% above the 200-day SMA of 727.38; a further drop of about 1% breaks the line that code enforces as the regime filter.",
+    "SPY is down 4.73% over 5 days and 5.69% over 21 days (63d -4.97%), so the trend is down on every window given.",
+    "Technology is the epicenter: XLK -13.97% over 5d and -19.37% over 21d; QQQ -9.55% over 5d, -14.61% over 21d and 4.79% below its 200-day average.",
+    "Stress is rising: VIXY +27.37% over 5d and +31.07% over 21d, and SPY 20-day realized vol is 20.36% versus 13.60% over 252 days.",
+    "Defensive rotation: XLP +3.48% 5d / +11.69% 21d, XLV +9.54% 21d, XLRE +9.19% 21d, while IEF (+3.56% 21d) and TLT (+6.65% 21d) rally, meaning long yields are falling.",
+    "Breadth is better than the index: RSP is 4.77% above its 200-day average and +2.98% over 21d, so the damage is concentrated in mega-cap tech, which tempers confidence.",
+    "Small caps are weak: IWM -4.59% 5d and 2.52% below its 200-day; XLI -4.5% 5d and -12.03% over 63d; XLE -10.3% 5d.",
+    "With 20-day vol near 20%, a 5-session move inside +/-1% is unlikely, so neutral is a poor pick; momentum and the nearby 200-day line favor the downside over a rebound, but only modestly (confidence 0.42).",
+    "Track record: the last two neutral calls included one wrong (10-29, SPY -4.73%); the 8-call record (5 right, 3 wrong, 62.5%) does not beat the always-neutral baseline of 62.5%, so I am not defaulting to neutral."
+  ],
+  "sector_tilts": {
+    "favor": ["Consumer Staples", "Health Care"],
+    "avoid": ["Technology", "Industrials", "Communication"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Prefer US core (VOO -5.65% 21d, 0.82% above its 200-day; VTI similar) over growth and international. QQQ is 4.79% below its 200-day (21d -14.61%), VXUS is 2.85% below (63d -7.18%) and VWO is 6.8% below (21d -9.37%); avoid adding there. VNQ is the one strong equity sleeve (21d +8.5%, 3.05% above its 200-day) but it is rate-sensitive.",
+    "bonds_gold": "Bonds are rallying: BND +2.72% 21d, IEF +3.56%, TLT +6.65%, with BND vol only 3.99%. IEF and TLT remain just under their 200-day averages (-0.22% and -1.08%), so the rally is not yet confirmed. Gold is not a refuge here: GLD is 8.78% below its 200-day, 63d -5.77%, with 5d +1.88% only a bounce.",
+    "crypto": "Risky. BTC 21d -7.5% and ETH 21d -8.4% (63d -10.91%) with annualized vol of 44% and 60%. BTC is 3.8% above its 200-day, ETH 3.61%, both thin cushions that would be lost in a continued equity selloff."
+  },
+  "watch": [
+    "SPY close below the 200-day SMA of 727.38 (0.77% away) confirms risk-off and triggers the code regime filter.",
+    "A SPY recovery of more than 1% with VIXY falling would flip the call toward neutral or risk-on; a 4-5% lower mark in a day is possible given 20% realized vol.",
+    "Whether XLK stabilizes after -13.97% in 5 days; further Nasdaq weakness would drag the index through the line.",
+    "Breadth: RSP (+2.98% 21d) rolling over would remove the main support for the benign case.",
+    "TLT and IEF reclaiming their 200-day averages would confirm the flight to bonds; TLT falling (yields up) alongside equities would be a worse signal."
+  ]
+}

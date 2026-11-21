@@ -1,0 +1,39 @@
+{
+  "summary": "Menu is 45 names as of 2026-10-20. The strongest on durable profitability and cash backing are VRSN (only F-score 9/9, gp_sector_pct 0.993, cfo $1.09B vs net income $826M), DPZ and CARG (both gp_sector_pct 1.0, cfo well above net income). Learning lessons L1 and L2 apply to proposer, news and PM roles, not to this role, and graded_calls is empty, so nothing from the learning file changed these rankings. Watch the stale fiscal years (CLX, WDFC, TTEK, BLBD, SBH) and the sector labels on DPZ, HWM, MCO and MSCI.",
+  "rankings": [
+    {"symbol": "VRSN", "rank": 1, "why": "Only perfect F-score on the menu (9 of 9, all 9 computable), gp_sector_pct 0.993, gross profitability 1.10; cfo $1.091B vs net income $826M; FY ended 2025-12-31 so data is current.", "concerns": "Concentrated single-product business; the news memory shows earnings estimated 10-22, so the print may already be out and this menu predates it."},
+    {"symbol": "DPZ", "rank": 2, "why": "gp_sector_pct 1.0 and gross profitability 1.15 (highest on the menu); cfo $792M vs net income $602M; F-score 8 of 9 computable; no flags; low volatility (0.31).", "concerns": "leverage_not_up failed (leverage rose). Sector label looks wrong: tagged Consumer Staples via a wholesale-groceries SIC code, though it is a restaurant franchisor, so the 1.0 in-sector percentile is measured against the wrong peers."},
+    {"symbol": "CARG", "rank": 3, "why": "gp_sector_pct 1.0, gross profitability 1.27; cfo $295M is roughly 1.9x net income $156M; F-score 8 of 9 computable; FY 2025-12-31.", "concerns": "current_ratio_improved failed; volatility 0.394 is near the screen cutoff (0.438); asset base is small ($662M)."},
+    {"symbol": "IDXX", "rank": 4, "why": "F-score 8 of 9 computable, gp_sector_pct 0.941; cfo $1.18B above net income $1.06B; vol 0.318, liquid ($281M daily dollar volume).", "concerns": "current_ratio_improved failed. Cash conversion is only modestly above earnings."},
+    {"symbol": "TPR", "rank": 5, "why": "Most recent fiscal year on the menu (FY ended 2026-06-27); F-score 8 of 9 computable; cfo $1.98B vs net income $1.53B; gp_sector_pct 0.949.", "concerns": "current_ratio_improved failed; volatility 0.414 is high for the screen. The news memory records sell-side price-target cuts, which is not a fundamentals point on its own."},
+    {"symbol": "MTCH", "rank": 6, "why": "F-score 8 of 9 computable; cfo $1.08B vs net income $613M (about 1.8x); gp_sector_pct 0.895; vol 0.321.", "concerns": "current_ratio_improved failed; in-sector percentile is the lowest of the top group."},
+    {"symbol": "INCY", "rank": 7, "why": "F-score 8 of 9 computable; gp_sector_pct 0.904; cfo $1.41B vs net income $1.29B; leverage, current ratio and dilution tests all pass.", "concerns": "asset_turnover_improved failed; cash conversion is only about 1.1x earnings."},
+    {"symbol": "FAST", "rank": 8, "why": "Lowest volatility on the menu bar AAPL (0.243); F-score 8 of 9 computable; cfo $1.296B slightly above net income $1.258B; leverage, current ratio and dilution tests pass.", "concerns": "gross_margin_improved failed; gp_sector_pct 0.886 is lower than the names above; cash conversion is barely above earnings."},
+    {"symbol": "SAM", "rank": 9, "why": "F-score 8 of 9 computable; cfo $270M vs net income $108M (about 2.5x); gp_sector_pct 0.946.", "concerns": "current_ratio_improved failed; the lowest gross profitability of the top group in absolute terms (0.80); dollar volume is only $33.6M."},
+    {"symbol": "EXEL", "rank": 10, "why": "gp_sector_pct 0.934; cfo $884M vs net income $783M; very clean balance-sheet tests apart from two misses; FY ended 2026-01-02.", "concerns": "F-score 7; gross_margin_improved and current_ratio_improved both failed."}
+  ],
+  "red_flags": [
+    {"symbol": "GRMN", "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement). cfo $1.633B is also below net income $1.664B (cfo_exceeds_net_income failed).", "severity": "high"},
+    {"symbol": "ONC", "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement). Leverage rose and dilution test failed (F-score 7).", "severity": "high"},
+    {"symbol": "DORM", "flag": "Weak earnings quality: cfo $114M vs net income $204M (about 56% cash conversion, accruals building). cfo_exceeds_net_income failed.", "severity": "high"},
+    {"symbol": "WDFC", "flag": "cfo $87.9M below net income $91.0M; asset_turnover_improved failed; fiscal year ended 2025-08-31 is the oldest quality-relevant data on the menu bar CLX. Dollar volume $23.0M is barely above the $20M floor.", "severity": "medium"},
+    {"symbol": "CLX", "flag": "Stalest data on the menu (FY ended 2025-06-30, known since 2025-08-08, more than 15 months old). Leverage rose; current ratio did not improve.", "severity": "medium"},
+    {"symbol": "DPZ", "flag": "Sector label looks wrong (Consumer Staples via wholesale-grocery SIC code for a restaurant franchisor), which inflates its in-sector percentile. Leverage also rose.", "severity": "medium"},
+    {"symbol": "HWM", "flag": "Sector label looks wrong: labelled Materials via a nonferrous-metals SIC code but is an aerospace components maker; gross profitability is only 0.25, so a 0.859 percentile reflects a weak peer set.", "severity": "medium"},
+    {"symbol": "MCO", "flag": "Sector label looks wrong: labelled Industrials, but it is a credit-ratings and financial-data business, which the screen is meant to exclude. Leverage rose.", "severity": "medium"},
+    {"symbol": "MSCI", "flag": "Sector label looks wrong: labelled Industrials, but it is a financial-index provider. Leverage rose (leverage_not_up failed).", "severity": "medium"},
+    {"symbol": "MLI", "flag": "cfo $755M below net income $765M and asset_turnover_improved failed; low gross profitability (0.32).", "severity": "low"},
+    {"symbol": "AAPL", "flag": "cfo $111.5B marginally below net income $112.0B (cfo_exceeds_net_income failed); FY ended 2025-09-27, so a new 10-K is close.", "severity": "low"},
+    {"symbol": "CVS", "flag": "Net income $1.77B on $402B revenue (thin margin); dilution test failed and ROA did not improve; F-score 7.", "severity": "low"},
+    {"symbol": "UNFI", "flag": "Net income only $84M on $31.2B revenue; dilution test failed; F-score 7; dollar volume $24.6M is near the liquidity floor.", "severity": "low"},
+    {"symbol": "GPOR", "flag": "Leverage rose and shares were diluted; F-score 7 with two failed tests.", "severity": "low"},
+    {"symbol": "TTEK", "flag": "FY ended 2025-09-28 (about 13 months old); ROA and current ratio did not improve; F-score 7.", "severity": "low"},
+    {"symbol": "BLBD", "flag": "FY ended 2025-09-27 (about 13 months old); asset turnover did not improve.", "severity": "low"},
+    {"symbol": "SBH", "flag": "FY ended 2025-09-30 (about 13 months old); price $16.46 and dollar volume $20.3M sit at the liquidity floor.", "severity": "low"}
+  ],
+  "holdings_notes": [
+    {"symbol": "BTC/USD", "note": "A crypto asset with no SEC filings, so there is no F-score or profitability data to judge. Absence from the menu is structural, not a negative fundamental signal; review it on its other merits."},
+    {"symbol": "VOO", "note": "An index fund, not an operating company; it cannot pass a company-level screen. Falling off the menu says nothing about quality. Keep or trim on allocation grounds, not on this screen."},
+    {"symbol": "VTI", "note": "Same as VOO: a broad-market fund with no company-level fundamentals. Not a sell signal. It overlaps heavily with VOO, so the review question is duplication, not quality."}
+  ]
+}

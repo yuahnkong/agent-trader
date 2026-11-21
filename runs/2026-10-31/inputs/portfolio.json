@@ -1,0 +1,619 @@
+{
+ "date": "2026-10-31",
+ "account": {
+  "equity": 602.83,
+  "cash": 70.42,
+  "buying_power": 70.42
+ },
+ "kill_switch": {
+  "paused": false,
+  "peak_equity": 608.79,
+  "drawdown_from_peak": 0.0098,
+  "trips_at": 0.15,
+  "tripped": false
+ },
+ "regime_allows_buys": true,
+ "buys_allowed_when_regime_off": [
+  "BND",
+  "GLD",
+  "IEF",
+  "TLT"
+ ],
+ "trades_remaining_today": 5,
+ "orders_already_today": [],
+ "positions": [
+  {
+   "symbol": "BND",
+   "qty": 0.560851261,
+   "market_value": 40.134516,
+   "weight": 0.0666,
+   "avg_entry_price": 71.284497,
+   "unrealized_pl": 0.154516,
+   "unrealized_plpc": 0.00386,
+   "on_menu": true,
+   "asset_class": "etf",
+   "lots": [
+    {
+     "qty": 0.420735,
+     "cost_per_share": 71.28,
+     "opened": "2026-10-23",
+     "days_held": 8,
+     "long_term_on": "2027-10-24"
+    },
+    {
+     "qty": 0.140116,
+     "cost_per_share": 71.298,
+     "opened": "2026-10-28",
+     "days_held": 3,
+     "long_term_on": "2027-10-29"
+    }
+   ]
+  },
+  {
+   "symbol": "BTC/USD",
+   "qty": 0.000175228,
+   "market_value": 13.552466,
+   "weight": 0.0225,
+   "avg_entry_price": 83685.83,
+   "unrealized_pl": -1.111635,
+   "unrealized_plpc": -0.07581,
+   "on_menu": true,
+   "asset_class": "crypto",
+   "lots": [
+    {
+     "qty": 0.0,
+     "cost_per_share": 83680.57,
+     "opened": "2026-10-21",
+     "days_held": 10,
+     "long_term_on": "2027-10-22"
+    },
+    {
+     "qty": 0.000176,
+     "cost_per_share": 83685.83,
+     "opened": "2026-10-21",
+     "days_held": 10,
+     "long_term_on": "2027-10-22"
+    }
+   ]
+  },
+  {
+   "symbol": "CARG",
+   "qty": 0.955092963,
+   "market_value": 30.734892,
+   "weight": 0.051,
+   "avg_entry_price": 31.389615,
+   "unrealized_pl": 0.754892,
+   "unrealized_plpc": 0.02518,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.475873,
+     "cost_per_share": 31.5,
+     "opened": "2026-10-21",
+     "days_held": 10,
+     "long_term_on": "2027-10-22"
+    },
+    {
+     "qty": 0.47922,
+     "cost_per_share": 31.28,
+     "opened": "2026-10-22",
+     "days_held": 9,
+     "long_term_on": "2027-10-23"
+    }
+   ]
+  },
+  {
+   "symbol": "DPZ",
+   "qty": 0.205285169,
+   "market_value": 64.40001,
+   "weight": 0.1068,
+   "avg_entry_price": 316.584,
+   "unrealized_pl": -0.58999,
+   "unrealized_plpc": -0.00908,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.205285,
+     "cost_per_share": 316.584,
+     "opened": "2026-10-20",
+     "days_held": 11,
+     "long_term_on": "2027-10-21"
+    }
+   ]
+  },
+  {
+   "symbol": "FAST",
+   "qty": 0.577953362,
+   "market_value": 30.001559,
+   "weight": 0.0498,
+   "avg_entry_price": 51.89,
+   "unrealized_pl": 0.011559,
+   "unrealized_plpc": 0.00039,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.577953,
+     "cost_per_share": 51.89,
+     "opened": "2026-10-21",
+     "days_held": 10,
+     "long_term_on": "2027-10-22"
+    }
+   ]
+  },
+  {
+   "symbol": "IDXX",
+   "qty": 0.071949047,
+   "market_value": 39.659034,
+   "weight": 0.0658,
+   "avg_entry_price": 555.81,
+   "unrealized_pl": -0.330966,
+   "unrealized_plpc": -0.00828,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.071949,
+     "cost_per_share": 555.81,
+     "opened": "2026-10-20",
+     "days_held": 11,
+     "long_term_on": "2027-10-21"
+    }
+   ]
+  },
+  {
+   "symbol": "IEF",
+   "qty": 0.164385664,
+   "market_value": 15.084029,
+   "weight": 0.025,
+   "avg_entry_price": 91.188,
+   "unrealized_pl": 0.094029,
+   "unrealized_plpc": 0.00627,
+   "on_menu": true,
+   "asset_class": "etf",
+   "lots": [
+    {
+     "qty": 0.164386,
+     "cost_per_share": 91.188,
+     "opened": "2026-10-26",
+     "days_held": 5,
+     "long_term_on": "2027-10-27"
+    }
+   ]
+  },
+  {
+   "symbol": "KR",
+   "qty": 0.308107274,
+   "market_value": 20.569242,
+   "weight": 0.0341,
+   "avg_entry_price": 64.88,
+   "unrealized_pl": 0.579242,
+   "unrealized_plpc": 0.02898,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.308107,
+     "cost_per_share": 64.88,
+     "opened": "2026-10-22",
+     "days_held": 9,
+     "long_term_on": "2027-10-23"
+    }
+   ]
+  },
+  {
+   "symbol": "MSCI",
+   "qty": 0.041295546,
+   "market_value": 25.742817,
+   "weight": 0.0427,
+   "avg_entry_price": 605.15,
+   "unrealized_pl": 0.752817,
+   "unrealized_plpc": 0.03012,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.041296,
+     "cost_per_share": 605.15,
+     "opened": "2026-10-22",
+     "days_held": 9,
+     "long_term_on": "2027-10-23"
+    }
+   ]
+  },
+  {
+   "symbol": "MSM",
+   "qty": 0.067301212,
+   "market_value": 8.144793,
+   "weight": 0.0135,
+   "avg_entry_price": 118.72,
+   "unrealized_pl": 0.154793,
+   "unrealized_plpc": 0.01937,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.067301,
+     "cost_per_share": 118.72,
+     "opened": "2026-10-27",
+     "days_held": 4,
+     "long_term_on": "2027-10-28"
+    }
+   ]
+  },
+  {
+   "symbol": "VOO",
+   "qty": 0.123370256,
+   "market_value": 85.718888,
+   "weight": 0.1422,
+   "avg_entry_price": 704.951111,
+   "unrealized_pl": -1.251111,
+   "unrealized_plpc": -0.01439,
+   "on_menu": true,
+   "asset_class": "etf",
+   "lots": [
+    {
+     "qty": 0.084825,
+     "cost_per_share": 707.222,
+     "opened": "2026-10-20",
+     "days_held": 11,
+     "long_term_on": "2027-10-21"
+    },
+    {
+     "qty": 0.021454,
+     "cost_per_share": 698.69,
+     "opened": "2026-10-23",
+     "days_held": 8,
+     "long_term_on": "2027-10-24"
+    },
+    {
+     "qty": 0.017091,
+     "cost_per_share": 701.54,
+     "opened": "2026-10-26",
+     "days_held": 5,
+     "long_term_on": "2027-10-27"
+    }
+   ]
+  },
+  {
+   "symbol": "VRSN",
+   "qty": 0.118476428,
+   "market_value": 36.397143,
+   "weight": 0.0604,
+   "avg_entry_price": 295.248603,
+   "unrealized_pl": 1.417143,
+   "unrealized_plpc": 0.04051,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.085515,
+     "cost_per_share": 292.23,
+     "opened": "2026-10-23",
+     "days_held": 8,
+     "long_term_on": "2027-10-24"
+    },
+    {
+     "qty": 0.032962,
+     "cost_per_share": 303.08,
+     "opened": "2026-10-26",
+     "days_held": 5,
+     "long_term_on": "2027-10-27"
+    }
+   ]
+  },
+  {
+   "symbol": "VTI",
+   "qty": 0.132523304,
+   "market_value": 49.241684,
+   "weight": 0.0817,
+   "avg_entry_price": 377.141214,
+   "unrealized_pl": -0.738316,
+   "unrealized_plpc": -0.01477,
+   "on_menu": true,
+   "asset_class": "etf",
+   "lots": [
+    {
+     "qty": 0.066052,
+     "cost_per_share": 378.34,
+     "opened": "2026-10-21",
+     "days_held": 10,
+     "long_term_on": "2027-10-22"
+    },
+    {
+     "qty": 0.066472,
+     "cost_per_share": 375.95,
+     "opened": "2026-10-22",
+     "days_held": 9,
+     "long_term_on": "2027-10-23"
+    }
+   ]
+  },
+  {
+   "symbol": "WMT",
+   "qty": 0.591241615,
+   "market_value": 73.024252,
+   "weight": 0.1211,
+   "avg_entry_price": 118.378,
+   "unrealized_pl": 3.034252,
+   "unrealized_plpc": 0.04335,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.591242,
+     "cost_per_share": 118.378,
+     "opened": "2026-10-20",
+     "days_held": 11,
+     "long_term_on": "2027-10-21"
+    }
+   ]
+  }
+ ],
+ "buy_caps_usd": {
+  "AAPL": 90.42,
+  "ADBE": 57.46,
+  "ADSK": 60.94,
+  "AYI": 63.55,
+  "BBY": 64.04,
+  "BDC": 56.73,
+  "BJRI": 55.22,
+  "BLBD": 55.95,
+  "BND": 50.29,
+  "BTC/USD": 16.59,
+  "CALX": 57.94,
+  "CARG": 29.4,
+  "CART": 55.26,
+  "CLX": 74.65,
+  "CVS": 74.84,
+  "DBX": 63.4,
+  "DORM": 66.81,
+  "DPZ": 12.28,
+  "ETH/USD": 16.59,
+  "EXEL": 70.94,
+  "EXLS": 55.72,
+  "FAST": 60.42,
+  "GLD": 83.23,
+  "GPOR": 72.11,
+  "GRMN": 70.59,
+  "HWM": 68.5,
+  "IDXX": 35.48,
+  "IEF": 75.34,
+  "INCY": 71.52,
+  "KR": 59.49,
+  "LNG": 82.82,
+  "LOGI": 63.56,
+  "MCO": 84.99,
+  "MLI": 70.61,
+  "MSCI": 52.43,
+  "MSM": 67.21,
+  "MTCH": 74.13,
+  "ONC": 68.24,
+  "QQQ": 90.42,
+  "RL": 69.48,
+  "RRC": 66.98,
+  "SAM": 63.47,
+  "SBH": 56.32,
+  "SMG": 62.67,
+  "TLT": 90.42,
+  "TPR": 57.67,
+  "TTEK": 65.04,
+  "ULS": 56.41,
+  "UNFI": 56.76,
+  "VNQ": 90.42,
+  "VOO": 4.71,
+  "VRSN": 47.1,
+  "VTI": 41.18,
+  "VWO": 90.42,
+  "VXUS": 90.42,
+  "WDFC": 73.7,
+  "WINA": 62.88,
+  "WLY": 65.78,
+  "WMT": 17.4
+ },
+ "asset_classes": {
+  "AAPL": "stock",
+  "ADBE": "stock",
+  "ADSK": "stock",
+  "AYI": "stock",
+  "BBY": "stock",
+  "BDC": "stock",
+  "BJRI": "stock",
+  "BLBD": "stock",
+  "BND": "etf",
+  "BTC/USD": "crypto",
+  "CALX": "stock",
+  "CARG": "stock",
+  "CART": "stock",
+  "CLX": "stock",
+  "CVS": "stock",
+  "DBX": "stock",
+  "DORM": "stock",
+  "DPZ": "stock",
+  "ETH/USD": "crypto",
+  "EXEL": "stock",
+  "EXLS": "stock",
+  "FAST": "stock",
+  "GLD": "etf",
+  "GPOR": "stock",
+  "GRMN": "stock",
+  "HWM": "stock",
+  "IDXX": "stock",
+  "IEF": "etf",
+  "INCY": "stock",
+  "KR": "stock",
+  "LNG": "stock",
+  "LOGI": "stock",
+  "MCO": "stock",
+  "MLI": "stock",
+  "MSCI": "stock",
+  "MSM": "stock",
+  "MTCH": "stock",
+  "ONC": "stock",
+  "QQQ": "etf",
+  "RL": "stock",
+  "RRC": "stock",
+  "SAM": "stock",
+  "SBH": "stock",
+  "SMG": "stock",
+  "TLT": "etf",
+  "TPR": "stock",
+  "TTEK": "stock",
+  "ULS": "stock",
+  "UNFI": "stock",
+  "VNQ": "etf",
+  "VOO": "etf",
+  "VRSN": "stock",
+  "VTI": "etf",
+  "VWO": "etf",
+  "VXUS": "etf",
+  "WDFC": "stock",
+  "WINA": "stock",
+  "WLY": "stock",
+  "WMT": "stock"
+ },
+ "crypto": {
+  "max_pct_of_equity": 0.05,
+  "held_usd": 13.55,
+  "room_usd": 16.59
+ },
+ "buy_blocked": {},
+ "betas_252d": {
+  "AAPL": 0.556,
+  "ADBE": 0.235,
+  "ADSK": 0.396,
+  "AYI": 1.415,
+  "BBY": 0.489,
+  "BDC": 1.544,
+  "BJRI": 0.793,
+  "BLBD": 1.096,
+  "BND": 0.117,
+  "BTC/USD": 1.583,
+  "CALX": 0.884,
+  "CARG": 0.464,
+  "CART": 0.463,
+  "CLX": 0.311,
+  "CVS": 0.126,
+  "DBX": 0.2,
+  "DORM": 0.714,
+  "DPZ": 0.077,
+  "ETH/USD": 2.165,
+  "EXEL": 0.534,
+  "EXLS": -0.09,
+  "FAST": 0.528,
+  "GLD": 0.874,
+  "GPOR": -0.333,
+  "GRMN": 0.91,
+  "HWM": 1.091,
+  "IDXX": 0.811,
+  "IEF": 0.115,
+  "INCY": 0.33,
+  "KR": -0.727,
+  "LNG": -0.642,
+  "LOGI": 1.267,
+  "MCO": 0.466,
+  "MLI": 0.978,
+  "MSCI": 0.275,
+  "MSM": 0.77,
+  "MTCH": 0.89,
+  "ONC": 0.799,
+  "QQQ": 1.466,
+  "RL": 1.196,
+  "RRC": -0.275,
+  "SAM": -0.262,
+  "SBH": 0.72,
+  "SMG": 0.686,
+  "TLT": 0.206,
+  "TPR": 0.976,
+  "TTEK": 0.278,
+  "ULS": 0.6,
+  "UNFI": 0.407,
+  "VNQ": 0.273,
+  "VOO": 0.995,
+  "VRSN": 0.033,
+  "VTI": 1.01,
+  "VWO": 1.124,
+  "VXUS": 1.116,
+  "WDFC": 0.097,
+  "WINA": 0.5,
+  "WLY": 0.117,
+  "WMT": -0.115
+ },
+ "stress_10pct_market_drop": {
+  "current_portfolio_loss_usd": -22.13,
+  "per_100usd_position": {
+   "AAPL": -5.56,
+   "ADBE": -2.35,
+   "ADSK": -3.96,
+   "AYI": -14.15,
+   "BBY": -4.89,
+   "BDC": -15.44,
+   "BJRI": -7.93,
+   "BLBD": -10.96,
+   "BND": -1.17,
+   "BTC/USD": -15.83,
+   "CALX": -8.84,
+   "CARG": -4.64,
+   "CART": -4.63,
+   "CLX": -3.11,
+   "CVS": -1.26,
+   "DBX": -2.0,
+   "DORM": -7.14,
+   "DPZ": -0.77,
+   "ETH/USD": -21.65,
+   "EXEL": -5.34,
+   "EXLS": 0.9,
+   "FAST": -5.28,
+   "GLD": -8.74,
+   "GPOR": 3.33,
+   "GRMN": -9.1,
+   "HWM": -10.91,
+   "IDXX": -8.11,
+   "IEF": -1.15,
+   "INCY": -3.3,
+   "KR": 7.27,
+   "LNG": 6.42,
+   "LOGI": -12.67,
+   "MCO": -4.66,
+   "MLI": -9.78,
+   "MSCI": -2.75,
+   "MSM": -7.7,
+   "MTCH": -8.9,
+   "ONC": -7.99,
+   "QQQ": -14.66,
+   "RL": -11.96,
+   "RRC": 2.75,
+   "SAM": 2.62,
+   "SBH": -7.2,
+   "SMG": -6.86,
+   "TLT": -2.06,
+   "TPR": -9.76,
+   "TTEK": -2.78,
+   "ULS": -6.0,
+   "UNFI": -4.07,
+   "VNQ": -2.73,
+   "VOO": -9.95,
+   "VRSN": -0.33,
+   "VTI": -10.1,
+   "VWO": -11.24,
+   "VXUS": -11.16,
+   "WDFC": -0.97,
+   "WINA": -5.0,
+   "WLY": -1.17,
+   "WMT": 1.15
+  },
+  "method": "beta x -10% x position value; a missing beta is treated as 1.0"
+ },
+ "recent_realized": [],
+ "limits": {
+  "max_position_pct": 0.15,
+  "max_trades_per_day": 5,
+  "wash_sale_days": 30,
+  "kill_switch_drawdown": 0.15,
+  "min_order_usd": 1.0,
+  "max_crypto_pct": 0.05,
+  "sizing": "buy_caps_usd already applies inverse-vol sizing, the 15% cap and the crypto cap, net of current holdings"
+ }
+}

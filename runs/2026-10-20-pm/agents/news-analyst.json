@@ -1,0 +1,39 @@
+{
+  "summary": "Earnings is the main event risk: eight names have an estimated report within 5 trading days (MCO and WDFC 10-21, SAM and VRSN 10-22, DORM 10-26, EXLS/INCY/LOGI 10-27), all on last-year+364d estimates, not confirmed dates. The only filing that needs a flag is SMG's 8-K 5.02 (officer change). Company-specific news is thin: an AAPL downgrade, a mixed MLI print, an MSCI beat and KR reaffirming guidance. For the ETF and crypto sleeves the macro picture is rates-heavy: 10y at 5.14%, Fed rate-hike odds in play, $110 Brent and Iran threatening undersea cables. BTC is recovering near $82-83k after a ~6% correction, with no exchange or regulatory shock.",
+  "event_risk": [
+    {"symbol": "MCO", "risk": "high", "why": "Estimated earnings tomorrow (approximate; last year's date + 364d).", "date": "2026-10-21"},
+    {"symbol": "WDFC", "risk": "high", "why": "Estimated earnings tomorrow (approximate).", "date": "2026-10-21"},
+    {"symbol": "SAM", "risk": "high", "why": "Estimated earnings in 2 days (approximate).", "date": "2026-10-22"},
+    {"symbol": "VRSN", "risk": "high", "why": "Estimated earnings in 2 days (approximate); Wedbush raised PT to $351 on 10-19 into the print.", "date": "2026-10-22"},
+    {"symbol": "DORM", "risk": "high", "why": "Estimated earnings in 4 trading days (approximate).", "date": "2026-10-26"},
+    {"symbol": "EXLS", "risk": "high", "why": "Estimated earnings in 5 trading days (approximate).", "date": "2026-10-27"},
+    {"symbol": "INCY", "risk": "high", "why": "Estimated earnings in 5 trading days (approximate).", "date": "2026-10-27"},
+    {"symbol": "LOGI", "risk": "high", "why": "Estimated earnings in 5 trading days (approximate). Also an 8-K item 5.03 (bylaws/charter amendment) on 10-13, which is routine and not a red flag on its own.", "date": "2026-10-27"},
+    {"symbol": "SMG", "risk": "medium", "why": "8-K item 5.02 (officer departure/appointment) filed 10-16; the input has no details. Read the filing before adding. Earnings estimated ~11-04.", "date": "2026-10-16"},
+    {"symbol": "AAPL", "risk": "medium", "why": "Estimated earnings 10-29 (6 trading days, just outside the window), but a Benzinga headline cites November 2, so the date is uncertain. There is also an Oct 28 product event the day before the estimate.", "date": "2026-10-29"},
+    {"symbol": "CALX", "risk": "medium", "why": "Estimated earnings 10-28, 6 trading days out (approximate).", "date": "2026-10-28"},
+    {"symbol": "CVS", "risk": "medium", "why": "Estimated earnings 10-28, 6 trading days out (approximate).", "date": "2026-10-28"},
+    {"symbol": "GRMN", "risk": "medium", "why": "Estimated earnings 10-28, 6 trading days out (approximate).", "date": "2026-10-28"},
+    {"symbol": "RRC", "risk": "medium", "why": "Estimated earnings 10-28. RRC already filed an 8-K 2.02 on 10-14, so it may have pre-released or reported already, which would make the estimate stale. Check before relying on it.", "date": "2026-10-28"},
+    {"symbol": "BDC", "risk": "medium", "why": "Estimated earnings 10-29, 7 trading days out (approximate).", "date": "2026-10-29"},
+    {"symbol": "BJRI", "risk": "medium", "why": "Estimated earnings 10-29, 7 trading days out (approximate).", "date": "2026-10-29"},
+    {"symbol": "HWM", "risk": "medium", "why": "Estimated earnings 10-29, 7 trading days out (approximate).", "date": "2026-10-29"},
+    {"symbol": "LNG", "risk": "medium", "why": "Estimated earnings 10-29, 7 trading days out (approximate). Also exposed to the $110 Brent and Hormuz headlines.", "date": "2026-10-29"},
+    {"symbol": "MSCI", "risk": "low", "why": "The 10-27 estimate is stale: MSCI reported Q3 today (8-K 2.02, 10-20), so the earnings event has passed.", "date": "2026-10-20"},
+    {"symbol": "MLI", "risk": "low", "why": "Reported Q3 today (8-K 2.02); the earnings event has passed. The result itself is mixed (see notable).", "date": "2026-10-20"}
+  ],
+  "notable": [
+    {"symbol": "AAPL", "headline": "Loop Capital Downgrades Apple to Hold, Lowers Price Target to $330", "read": "A sell-side downgrade lands just as AAPL tops $5T. Upcoming catalysts: the Oct 28 event (touchscreen MacBook Pro, M6), strong iPhone Duo demand (82-day lead time), and earnings 10-29 or 11-02. There is also EU/UK regulatory pressure: the UK CMA wants contactless/NFC opened up, and Poland ordered changes to App Tracking Transparency. That pressure is incremental, not new."},
+    {"symbol": "MLI", "headline": "Mueller Industries Q3 EPS $1.00 Misses $1.05 Estimate, Sales $1.419B Beat $1.285B Estimate", "read": "A big revenue beat (+10% vs consensus) with an EPS miss suggests margin compression, probably from copper pass-through. That puts quality of earnings in question rather than demand."},
+    {"symbol": "MSCI", "headline": "MSCI Q3 Adj. EPS $5.11 Beats $5.02 Estimate, Sales $892.0M Beat $885.7M Estimate", "read": "A clean, modest beat on both lines. Earnings risk is gone for now."},
+    {"symbol": "KR", "headline": "Kroger Sets 7%-11% Annual EPS Growth Target Through 2029, Reaffirms 2026 Outlook", "read": "FY26 adj EPS guidance of $5.10-$5.30 brackets consensus ($5.21) and comes with new long-term targets (8-K 7.01). It lowers uncertainty and adds no surprise. A separate 10-17 story says a top US grocery chain's websites are offline after a cyber incident; the chain isn't named in the input, so check whether it is KR."},
+    {"symbol": "WMT", "headline": "Why Is Walmart Stock in the Spotlight Tuesday?", "read": "A Deutsche Bank upgrade, Evercore PT to $130 and BofA Buy/$126 (ad business), plus a $120/yr Walmart+/Sam's Club bundle. Sentiment is positive. Earnings are estimated for 11-19, so there is no near-term event risk."},
+    {"symbol": "CLX", "headline": "JP Morgan Maintains Underweight on Clorox, Lowers Price Target to $83", "read": "A bear stays bearish, with earnings estimated 11-02."},
+    {"symbol": "MTCH", "headline": "Evercore ISI Group Upgrades Match Group to Outperform, Raises Price Target to $53", "read": "A rating upgrade, positive for sentiment. Earnings are estimated for 11-03."},
+    {"symbol": "TPR", "headline": "UBS Maintains Buy on Tapestry, Lowers Price Target to $200", "read": "A PT trim while keeping Buy: a minor negative."},
+    {"symbol": "CART", "headline": "Instacart Agrees To $5M Settlement With U.S. Authorities Over Alleged Discrimination In PERM Recruitment", "read": "Immaterial in dollars; headline risk only."},
+    {"symbol": "BTC/USD", "headline": "Bitcoin Taps $83,000 as Iran Deal Hopes Lift XRP, ETH", "read": "BTC is recovering from a ~6% correction (support ~$80.4k). IBIT posted its biggest inflow in a year, though futures demand is weak and $333.6M in liquidations hit on 10-19. On the structural side, BlackRock filed for a downside-protected BTC ETF and JPM Coin is moving to Ethereum, both positive. Regulatory risk is a slow burn: Trump-family ties are threatening the CLARITY Act. There were no exchange failures."},
+    {"symbol": "TLT", "headline": "Top Economist Warns US Is 'Wildly Irresponsible' With $1.99 Trillion Deficit as Interest Costs Top Defense Spending", "read": "The 10y is at 5.14% (10-19). Fed Chair Warsh's remarks have rate-hike odds in play, and with $110 Brent pushing inflation, the duration sleeve (TLT/IEF/BND) and VNQ face hike and term-premium risk. The deficit itself is background."},
+    {"symbol": "QQQ", "headline": "408x Oversubscribed AI IPO Crashes 32%; Democratic Sweep Prospects Trigger Selling in Data Center Stocks", "read": "AI/semis remain fragile. The SOX just snapped an 8-day losing streak, its longest since 2008, and midterm polling is now a sector risk for AI/data-center names. Iran's threat to undersea cables in Hormuz is a geopolitical tail risk for QQQ/VOO and oil. Mega-cap earnings ahead (META, TSLA, AMZN) add index event risk."}
+  ]
+}

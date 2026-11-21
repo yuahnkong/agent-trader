@@ -1,0 +1,17 @@
+{
+  "summary": "No proposals. Cash is $70.42 (11.3% of equity), so the book is about 88.7% invested, inside the 80-90% target, and only about $8 sits above the 10% cash buffer. A buy that small is token-sized, which L4 says not to do on diversification alone, and with the 11-05 prints and the AI-capex/midterm backdrop (Market Analyst neutral, confidence 0.4) there is no candidate strong enough to justify cutting the buffer. I followed L4's narrow reading (size is the reason, not a blanket idle-cash rule); if cash rises, look at a non-Technology, non-Staples name such as VNQ or a Health Care/Industrial quality name.",
+  "proposals": [],
+  "held_book_review": {
+    "note": "Invalidations checked against 2026-11-03 closes (menu/market inputs); none tripped, so no sells (L5). Distances computed from the latest mark.",
+    "positions": [
+      {"symbol": "DPZ", "status": "ok", "detail": "Close 322.35, +1.8% vs the 316.58 fill. Stored stop 274.88 is still anchored to the 305.42 reference close (L1); the re-anchored level is about 285 (10% under the fill), about 11.6% below the close. Not tripped, and still in the fundamentals screen (fscore 8, cfo 792M vs net income 602M). PM should carry the 285 level."},
+      {"symbol": "IDXX", "status": "ok", "detail": "Close 671.64, +20.8% on the fill. Stored stop 500.22 is stale; the PM re-anchored to about 600 (10% under the close), about 10.7% below the 11-03 close. Earnings passed 11-02 (beat and raise). Not tripped."},
+      {"symbol": "CARG", "status": "watch", "detail": "Close 33.79, +7.6% on cost, far from the 10%-below-average-fill stop (about 28.25). The negative-surprise clause is live: Q3 results 11-05 after the close, one trading day out. Holding knowingly at about 5.2% of equity; thesis text saying earnings are outside the window is stale. A negative print would trip the clause and then calls for a sell next session."},
+      {"symbol": "BTC/USD", "status": "watch", "detail": "Mark 77,340.9, -6.5% on cost; the 10%-under-fill stop is about 75.3k, about 2.6% below the mark. The exchange-failure clause is not tripped: Binance had a record hack (about 6.3B, about 2.85B frozen or intercepted) but has not failed. Dated catalysts: Circle 11-04, October jobs report this week, MSCI/Strategy index decision 11-11. No slot spent; the PM owns the stop."},
+      {"symbol": "VOO/VTI", "status": "ok", "detail": "SPY 754.35 is 3.8% above its 200-day (726.64), so the regime clause is not tripped; RSP 21d is +3.86%, so it is not negative. VTI is -0.3% against an 8% stop."},
+      {"symbol": "BND/IEF", "status": "ok", "detail": "BND 71.20 vs invalidation about 70.0 (1.7% away); IEF 91.16 vs 89.5 (1.8% away). Both are within about 2% of their stops with no rate decision in the window, but IEF and BND are up on 21 days and the Market Analyst still prefers bonds as a diversifier. Not tripped."},
+      {"symbol": "WMT/KR", "status": "ok", "detail": "WMT 127.69 (+7.9% on entry, stop 7% below entry), KR 68.36 (+5.4%, stop 8% below fill). WMT earnings 11-19, KR 12-03. Consumer Staples label stack with DPZ is about 26% (L3), which is the reason not to add."},
+      {"symbol": "MSCI/VRSN/MSM/FAST", "status": "ok", "detail": "MSCI 637.21 (+5.3%), VRSN 308.40 (+4.5% on average fill, stop 278), MSM 119.62 (+0.8%), FAST 52.55 (+1.3%). No invalidation tripped; VRSN, MSM and FAST report no earnings before 2027. MSCI has the 11-11 index decision as sentiment risk only."}
+    ]
+  }
+}

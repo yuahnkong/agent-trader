@@ -1,0 +1,34 @@
+{
+ "date": "2026-11-11",
+ "version": "6",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "MSM",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.067301212",
+   "resized": false,
+   "order_id": "fc2b31f6-47f0-438b-87b4-e920a3b33fdd",
+   "client_order_id": "at-20261111True-MSM-sell",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "INCY",
+   "side": "buy",
+   "requested_usd": 15.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 15.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "700b716b-43cb-4a79-8681-eefedf75d686",
+   "client_order_id": "at-20261111True-INCY-buy",
+   "order_status": "pending_new"
+  }
+ ]
+}

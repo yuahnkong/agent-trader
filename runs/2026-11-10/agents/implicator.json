@@ -1,0 +1,5 @@
+{
+  "summary": "The Proposer made no proposals, so there is nothing to check and the portfolio is unchanged: the estimated 10% market-drop loss stays at $22.40 before and after. No lesson in learning.json lists the implicator in applies_to, and the implicator has no graded calls yet. Standing concentrations to watch if cash is ever deployed: VOO at 13.7% of equity (the buy cap leaves $8.36 of room under the 15% limit), VOO plus VTI at about 21.5% (the same US large-cap exposure), Consumer Staples by label (WMT, DPZ, KR) at about 26.3%, and cash at 11.5% ($71.62). Crypto is 0% and BTC/USD is blocked by the wash-sale window after the 11-09 loss sale.",
+  "checks": [],
+  "stress_10pct_drop": {"before_usd": 22.4, "after_usd": 22.4}
+}

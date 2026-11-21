@@ -1,0 +1,94 @@
+{
+  "summary": "The cleanest names on the menu are VRSN (F-score 9, gp_sector_pct 0.993, cfo 1.09B vs net income 826M) and MSM (F-score 9, cfo 306.5M vs net income 222.6M), followed by CARG and SAM, where cash flow is well above earnings. No lesson in learning.json lists the Fundamentals Analyst in applies_to, and I have no graded calls, so none shaped the ranking. I did follow the L3 sector-label caution: several top-of-sector ranks (DPZ, FAST, MSM, MSCI, MCO, CART, HWM) rest on labels that look wrong, so I ranked on absolute quality, not on the sector rank. The menu is as of 2026-10-27, three days old, and several names have since reported or had deal news (RRC, CART, INCY, HWM, LNG, GRMN).",
+  "rankings": [
+    {
+      "symbol": "VRSN",
+      "rank": 1,
+      "why": "Only name with F-score 9 of 9 computable plus gp_sector_pct 0.993 (gross profitability 1.10). Cfo 1,091M vs net income 826M on revenue 1,657M; all nine tests pass, FY2025 10-K known since 2026-02-05.",
+      "concerns": "Technology label is reasonable. Price 308.72 is near recent fills, so quality is not in doubt but valuation is not something I can judge from these inputs."
+    },
+    {
+      "symbol": "MSM",
+      "rank": 2,
+      "why": "F-score 9 of 9 computable, fiscal year ending 2026-08-29 filed 2026-10-22 (freshest data on the menu). Cfo 306.5M vs net income 222.6M; gross profitability 0.653.",
+      "concerns": "gp_sector_pct 0.824 is only in the Consumer Discretionary bucket because an industrial MRO distributor carries a wholesale/retail label; the sector rank flatters it. Overlaps economically with FAST (L3)."
+    },
+    {
+      "symbol": "CARG",
+      "rank": 3,
+      "why": "gp_sector_pct 1.0 (gross profitability 1.27), F-score 8. Cfo 295.3M vs net income 155.9M, a strong cash backing of earnings on revenue of 907M.",
+      "concerns": "current_ratio_improved fails. Earnings estimated 2026-11-05 per the news memory, so a print is close."
+    },
+    {
+      "symbol": "SAM",
+      "rank": 4,
+      "why": "F-score 8, gp_sector_pct 0.945, and cfo 270.2M against net income 108.5M, the widest cash-over-earnings gap among the full-quality names. Only the current-ratio test fails.",
+      "concerns": "Consumer Staples label is correct for a brewer. Dollar volume 33M is modest. The news memory notes a volume-guide story after the 10-22 print."
+    },
+    {
+      "symbol": "ADBE",
+      "rank": 5,
+      "why": "gp_sector_pct 0.965, F-score 7. Cfo 10.03B vs net income 7.13B on revenue 23.8B; very liquid (1.1B dollar volume).",
+      "concerns": "leverage_not_up and current_ratio_improved both fail. FY ended 2025-11-28, so the filing is eleven months old; the next print is estimated 12-09."
+    },
+    {
+      "symbol": "DPZ",
+      "rank": 6,
+      "why": "Gross profitability 1.15 is real in absolute terms. F-score 8; cfo 792M vs net income 602M on revenue 4.94B.",
+      "concerns": "gp_sector_pct 1.0 is an artifact of a Wholesale-Groceries SIC label for a pizza franchisor. leverage_not_up fails. Per the news memory, a securities class action over international-growth disclosures survived a motion to dismiss (derivative-claims notice 10-28) and DA Davidson cut its PT. Ranked below the cleaner names for that reason, not because the cash flow is weak."
+    },
+    {
+      "symbol": "TPR",
+      "rank": 7,
+      "why": "F-score 8, gp_sector_pct 0.943, cfo 1,978.5M vs net income 1,527.7M. FY ended 2026-06-27, a recent filing.",
+      "concerns": "current_ratio_improved fails. The news memory shows four PT cuts in about a week ahead of the 11-05 print, with ratings held."
+    },
+    {
+      "symbol": "IDXX",
+      "rank": 8,
+      "why": "F-score 8, gp_sector_pct 0.942, high absolute profitability: net income 1,059M on revenue 4,304M, cfo 1,182M above net income.",
+      "concerns": "Cash-over-earnings cushion is thin (cfo 1,182M vs net income 1,059M). Held name with two PT cuts and a print around 11-02 per the news memory. current_ratio_improved fails."
+    },
+    {
+      "symbol": "EXLS",
+      "rank": 9,
+      "why": "F-score 8, gp_sector_pct 0.912, cfo 350.7M vs net income 251.0M. News memory: Q3 beat and raised FY26 guidance on 10-27.",
+      "concerns": "Lowest gross profitability of the group (0.47). current_ratio_improved fails. The Industrials label is a loose fit for a business-process outsourcer."
+    },
+    {
+      "symbol": "MTCH",
+      "rank": 10,
+      "why": "F-score 8, cfo 1,080M vs net income 613M. All tests pass except current ratio.",
+      "concerns": "gp_sector_pct 0.894 and gross profitability 0.57 are lower than the names above. Print estimated 11-03 with a split sell-side (Wells Fargo cut to $39)."
+    }
+  ],
+  "red_flags": [
+    {"symbol": "GRMN", "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement); cfo 1,633M is also below net income 1,664M (cfo_exceeds_net_income fails).", "severity": "medium"},
+    {"symbol": "ONC", "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement); also fails leverage_not_up and no_dilution, and net income (287M) is far below cfo (1,128M), so earnings quality needs a read of the filing.", "severity": "medium"},
+    {"symbol": "DORM", "flag": "Cfo 113.6M is well below net income 204.2M (cfo_exceeds_net_income fails), a sign that reported earnings are not converting to cash.", "severity": "medium"},
+    {"symbol": "DPZ", "flag": "Sector label (Wholesale-Groceries SIC) inflates the in-sector rank, leverage rose, and a securities class action survived a motion to dismiss (news memory, 10-28/29).", "severity": "medium"},
+    {"symbol": "CLX", "flag": "Latest fiscal year in the data ended 2025-06-30 (known since 2025-08-08), so it is about 16 months old and the FY2026 10-K is not reflected; the CEO change (8-K 5.02, 10-29) lands before the roughly 11-02 print.", "severity": "medium"},
+    {"symbol": "RRC", "flag": "Pending all-stock acquisition by EQT (0.987 EQT per RRC share), so the price tracks EQT and deal approval and the standalone numbers do not drive it. F-score 7 with leverage and gross margin tests failing.", "severity": "medium"},
+    {"symbol": "CART", "flag": "DoorDash agreed to acquire it at $65.00/share (8-K 1.01, 10-29); close 60.88 on the menu makes this merger arbitrage, not an operating thesis. Gross margin test also fails.", "severity": "medium"},
+    {"symbol": "DBX", "flag": "8-K 5.02 officer change filed 10-28 is unread, alongside a roughly 9% headcount cut; gross_margin_improved fails.", "severity": "medium"},
+    {"symbol": "CALX", "flag": "Cfo 135.0M against net income of only 17.9M is a very large gap, which points to heavy non-cash charges; the estimated 10-28 print had not appeared as of the 10-29 news memory.", "severity": "medium"},
+    {"symbol": "CVS", "flag": "Dilution test fails, return on assets did not improve, and net income (1.77B) is tiny against revenue (402B). The estimated 10-28 print was unverified as of 10-29, and the news memory shows PBM-rule and Part D headwinds.", "severity": "medium"},
+    {"symbol": "WINA", "flag": "Dollar volume 20.55M barely clears the 20M floor, and no_dilution fails. Tiny company (revenue 86M, assets 24.9M), so the 3.33 gross profitability is a small-base ratio.", "severity": "medium"},
+    {"symbol": "SMG", "flag": "no_dilution fails; FY ended 2025-09-30. 8-K 5.02 from 10-16 was never read per the news memory, so management-change risk is unverified. Fiscal Q4 results due 11-04.", "severity": "low"},
+    {"symbol": "TTEK", "flag": "Fiscal year ended 2025-09-28, about 13 months old; roa_improved and current_ratio_improved both fail.", "severity": "low"},
+    {"symbol": "BLBD", "flag": "Fiscal year ended 2025-09-27, about 13 months old.", "severity": "low"},
+    {"symbol": "SBH", "flag": "Fiscal year ended 2025-09-30, about 13 months old; Q4 call set for 11-10.", "severity": "low"},
+    {"symbol": "AAPL", "flag": "Cfo 111,482M is a hair below net income (112,010M), so cfo_exceeds_net_income fails; FY ended 2025-09-27 and the earnings date (10-29 vs 11-02) is unverified.", "severity": "low"},
+    {"symbol": "MLI", "flag": "Cfo 755.4M is marginally below net income 765.2M; asset_turnover_improved also fails. A law-firm investigation notice (10-26) has not become a filing.", "severity": "low"},
+    {"symbol": "MSCI", "flag": "Sector label Industrials for an index/analytics provider, so the in-sector rank is not comparable (the screen excludes financials). leverage_not_up fails.", "severity": "low"},
+    {"symbol": "MCO", "flag": "Sector label Industrials for a credit-ratings business, same label problem as MSCI; leverage_not_up fails.", "severity": "low"},
+    {"symbol": "HWM", "flag": "Labeled Materials (nonferrous rolling) though it is an aerospace components maker, so gp_sector_pct 0.857 is measured against the wrong peers. Operations look strong after the 10-29 beat and raise.", "severity": "low"}
+  ],
+  "holdings_notes": [
+    {"symbol": "BND", "note": "Bond ETF; the single-name screen (non-financial, SEC-derived F-score) cannot apply, so it is off the menu by construction. No fundamentals view; a review reason only if the rate view changes."},
+    {"symbol": "IEF", "note": "Treasury ETF, off the menu by construction for the same reason. Nothing in the fundamentals input speaks to it."},
+    {"symbol": "VOO", "note": "Broad equity ETF, not a screened single name. Its constituents include several menu names, but no fundamentals conclusion follows."},
+    {"symbol": "VTI", "note": "Broad equity ETF, off the menu by construction. No fundamentals view."},
+    {"symbol": "BTC/USD", "note": "Crypto has no filings, so the screen cannot cover it. Absence from the menu is not a negative signal."}
+  ]
+}

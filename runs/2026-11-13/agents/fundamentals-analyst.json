@@ -1,0 +1,169 @@
+{
+  "summary": "The cleanest names are still the ones with a full 9/9 or 8/9 F-score on nine computable tests, a top in-sector gross-profitability rank and operating cash flow well above net income: VRSN, FTDR and CARG lead, with DPZ, IDXX and TPR close behind. The main accounting concerns are DORM (CFO $113.6M against net income $204.2M), GRMN and ONC (amended 10-K/10-Q flags; GRMN's CFO is also below net income), and a group of fiscal years that are now more than a year old (CLX, TTEK, SMG, BLBD, SBH). CART and RRC are pending acquisition targets, so their fundamentals no longer drive the price. No lesson in learning.json names the Fundamentals Analyst and I have no graded calls yet; L3's label caveat matches what I flag below on sector labels.",
+  "rankings": [
+    {
+      "symbol": "VRSN",
+      "rank": 1,
+      "why": "F-score 9 of 9 with all nine tests computable, gp_sector_pct 0.993 (gross profitability 1.10), CFO $1,091.1M against net income $825.7M, and the lowest 252-day volatility among my top names (0.283). Already held.",
+      "concerns": "Concentrated single-registry business. The FY2025 10-K (known since 2026-02-05) is the latest annual data, so it is about ten months old."
+    },
+    {
+      "symbol": "FTDR",
+      "rank": 2,
+      "why": "F-score 9 of 9 with nine computable, gp_sector_pct 0.954, CFO $416M against net income $255M. Every test passes, including leverage, current ratio and dilution. Not held. Per the news memory it reported 11-05 and is next due about 2027-02-25.",
+      "concerns": "Volatility of 0.421 is near the top of the screen's calmer half (cutoff 0.446). The Industrials label fits a home-warranty services business only loosely."
+    },
+    {
+      "symbol": "CARG",
+      "rank": 3,
+      "why": "gp_sector_pct 1.0 (gross profitability 1.27), F-score 8 of 9 with nine computable, and CFO $295.3M is nearly double net income of $155.9M. The only failed test is the current ratio. Already held.",
+      "concerns": "Volatility of 0.412 is high for the screen. Its Technology label is fair for an online marketplace."
+    },
+    {
+      "symbol": "DPZ",
+      "rank": 4,
+      "why": "gp_sector_pct 1.0 (gross profitability 1.15), F-score 8 of 9 with nine computable, CFO $792.1M against net income $601.7M. Already held.",
+      "concerns": "Leverage rose (failed leverage_not_up). The Consumer Staples rank comes from a 'Wholesale-Groceries' SIC code for a restaurant franchisor (see L3), so judge it on its absolute numbers, not on being top of Staples."
+    },
+    {
+      "symbol": "IDXX",
+      "rank": 5,
+      "why": "F-score 8 of 9 with nine computable, gp_sector_pct 0.942, CFO $1,181.8M against net income $1,059.5M. Only the current-ratio test fails. Already held.",
+      "concerns": "The cash backing is real but thinner than for the names above it."
+    },
+    {
+      "symbol": "TPR",
+      "rank": 6,
+      "why": "F-score 8 of 9 with nine computable, gp_sector_pct 0.944, CFO $1,978.5M against net income $1,527.7M, and a recent fiscal year (FY ended 2026-06-27, known since 2026-08-13). Not held.",
+      "concerns": "Volatility is 0.414. An officer filed a Form 144 on 11-10 to sell 117,880 shares (news memory), which is a sentiment point, not an accounting one."
+    },
+    {
+      "symbol": "AAPL",
+      "rank": 7,
+      "why": "F-score 9 of 9 with nine computable on the freshest annual data on the menu (FY ended 2026-09-26, known since 2026-11-03). CFO $145.1B against net income $132.2B, and the lowest volatility on the menu (0.250).",
+      "concerns": "gp_sector_pct 0.894 is lower down the Technology list than the names above. The account's broad equity ETFs already hold it heavily, which is for the PM to weigh."
+    },
+    {
+      "symbol": "MSM",
+      "rank": 8,
+      "why": "F-score 9 of 9 with nine computable on a recent fiscal year (FY ended 2026-08-29, known since 2026-10-22), gp_sector_pct 0.827, CFO $306.5M against net income $222.6M.",
+      "concerns": "Sold 11-11. It is the same industrial MRO distribution business as the held FAST (L3), and its Consumer Discretionary label is a SIC artifact. A buy-back would rebuild that one sleeve."
+    },
+    {
+      "symbol": "NYT",
+      "rank": 9,
+      "why": "F-score 9 of 9 with nine computable, CFO $584.5M against net income $344.0M, volatility 0.326. Not held.",
+      "concerns": "gp_sector_pct 0.833 is near the bottom of the screen's top fifth."
+    },
+    {
+      "symbol": "INCY",
+      "rank": 10,
+      "why": "F-score 8 of 9 with nine computable, gp_sector_pct 0.906, CFO $1,413.5M against net income $1,286.7M, volatility 0.330. Held since 11-11.",
+      "concerns": "Asset turnover did not improve. It shares the Health Care sleeve with IDXX (L3)."
+    }
+  ],
+  "red_flags": [
+    {
+      "symbol": "DORM",
+      "flag": "Accruals: CFO $113.6M is little more than half of net income $204.2M (failed cfo_exceeds_net_income), the widest gap on the menu. Earnings are running ahead of cash, so look at receivables and inventory before buying.",
+      "severity": "high"
+    },
+    {
+      "symbol": "GRMN",
+      "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement), and CFO $1,633.4M is below net income $1,663.9M (failed cfo_exceeds_net_income).",
+      "severity": "medium"
+    },
+    {
+      "symbol": "ONC",
+      "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement); also dilution (failed no_dilution) and higher leverage.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "CART",
+      "flag": "Pending DoorDash acquisition at $65 a share (8-K 1.01, 10-29, per the news memory). The deal terms set the price, not the fundamentals, so it does not belong in a quality ranking.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "RRC",
+      "flag": "Pending EQT all-stock acquisition (8-K 1.01, 10-26). The price follows EQT, so the F-score case no longer applies.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "CLX",
+      "flag": "Stale annual data: fy_end 2025-06-30 (known since 2025-08-08). The FY2026 10-K is missing from the menu. Leverage is also up, and unconfirmed M&A rumors (11-10 and 11-11) may have added a rumor premium.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "SBH",
+      "flag": "Stale annual data: the menu uses fy_end 2025-09-30, but the news memory shows a new 10-K filed 11-10 that the 11-10 menu has not picked up. The F-score may change on the new year.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "TTEK",
+      "flag": "Stale annual data: fy_end 2025-09-28 (known since 2025-11-20). It reported FY Q4 on 11-11 and the new 10-K is not on the menu yet. Return on assets also did not improve.",
+      "severity": "low"
+    },
+    {
+      "symbol": "SMG",
+      "flag": "Stale annual data: fy_end 2025-09-30. It reported 11-04 and the new 10-K is not on the menu yet. Dilution failed, and the 10-16 8-K 5.02 aged out unread.",
+      "severity": "low"
+    },
+    {
+      "symbol": "BLBD",
+      "flag": "Stale annual data: fy_end 2025-09-27. Also an unread 8-K 5.02 (officer or director change) filed 11-10.",
+      "severity": "low"
+    },
+    {
+      "symbol": "MLI",
+      "flag": "CFO $755.4M is slightly below net income $765.2M (failed cfo_exceeds_net_income), and asset turnover did not improve.",
+      "severity": "low"
+    },
+    {
+      "symbol": "WINA",
+      "flag": "Gross profitability of 3.33 rests on total assets of only $24.9M, so the in-sector rank says more about the small balance sheet than about operating strength. Dilution also failed.",
+      "severity": "low"
+    },
+    {
+      "symbol": "CALX",
+      "flag": "Thin earnings: net income is $17.9M on $1,000.0M revenue, against CFO of $135.0M. The F-score passes are on a small profit base. The Communication label fits an equipment and software vendor poorly.",
+      "severity": "low"
+    },
+    {
+      "symbol": "MSCI",
+      "flag": "Sector label: an index and analytics provider filed as Industrials ('Business Services'). The same applies to MCO ('Credit Reporting'). Leverage is up at both. Held MSCI's stored 'adds a sector the book does not hold' text is still wrong (L3, L6).",
+      "severity": "low"
+    },
+    {
+      "symbol": "FAST",
+      "flag": "Sector label: Consumer Discretionary ('Retail-Building Materials') for an industrial MRO distributor. Treat it as Industrials with MSM (L3). CFO $1,295.9M only just exceeds net income $1,258.4M, and gross margin did not improve. Held.",
+      "severity": "low"
+    },
+    {
+      "symbol": "AYI",
+      "flag": "Sector label: Technology for a lighting and wiring maker. HWM (aerospace parts, labelled Materials) and CVS (health care services, labelled Staples) are similar mislabels, so their in-sector ranks are against the wrong peers.",
+      "severity": "low"
+    }
+  ],
+  "holdings_notes": [
+    {
+      "symbol": "BND",
+      "note": "A bond ETF, so it can never pass a 10-K-based single-stock screen. Its absence from the menu says nothing about its fundamentals. Review it on its stored role instead: L8 notes its 'bond ballast' thesis has not been restated, although the Market Analyst says bonds are falling with stocks."
+    },
+    {
+      "symbol": "IEF",
+      "note": "A Treasury ETF, outside the screen by construction, so this is not a fall-off signal. The live question is its 'hedge for an equity drawdown' role, which L8 flags as contradicted by the 11-12 Market Analyst note. That is for the PM."
+    },
+    {
+      "symbol": "VNQ",
+      "note": "A REIT ETF, and real estate and financials are outside this screen, so this is not a fall-off signal. The PM review already asked whether it has become a token sleeve without its original premise (L4)."
+    },
+    {
+      "symbol": "VOO",
+      "note": "A broad index ETF, outside the screen by construction. Nothing on the fundamentals side argues for or against it. Note that AAPL (rank 7) is already a large weight inside it."
+    },
+    {
+      "symbol": "VTI",
+      "note": "Same as VOO: an index ETF the screen cannot rate. Its stored text still carries a weight figure (L6), which is a thesis-hygiene issue, not a fundamentals one."
+    }
+  ]
+}

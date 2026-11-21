@@ -1,0 +1,87 @@
+{
+  "summary": "VRSN is the cleanest name on the menu: a 9/9 F-score with all nine tests computable, gp_sector_pct 0.993 and operating cash flow of $1.09B against $826M net income. CARG, MSM and TPR follow, each with cash flow well above earnings. Applied L3: sector labels are unreliable for DPZ, FAST, MSM, CART, MSCI/MCO, HWM and AYI, so I ranked on absolute quality (gp, cfo vs net income, F-score) rather than on the in-sector rank, and I demoted DPZ for that reason. Several fiscal years are old (CLX FY ended 2025-06-30; AAPL, SMG, TTEK, BLBD and SBH are around 13 months stale), and GRMN and ONC carry amended-filing flags.",
+  "rankings": [
+    {
+      "symbol": "VRSN",
+      "rank": 1,
+      "why": "F-score 9/9 with fscore_computable 9, gp_sector_pct 0.993 (gross profitability 1.10), cfo $1,091M vs net income $826M (1.32x), net income about 50% of revenue, FY ended 2025-12-31 and known since 2026-02-05.",
+      "concerns": "Small asset base ($1.33B) flatters gross profitability. The sector label (Technology) looks fair."
+    },
+    {
+      "symbol": "CARG",
+      "rank": 2,
+      "why": "gp 1.27 and gp_sector_pct 1.0, F-score 8/9, cfo $295M vs net income $156M (1.9x), net margin about 17%, all tests computable.",
+      "concerns": "Current ratio did not improve. The News note puts earnings on 11-05 after the close, which is a live event for a held position (this is a pointer from learning.json, not something I verified). Technology label for an online auto marketplace is acceptable."
+    },
+    {
+      "symbol": "MSM",
+      "rank": 3,
+      "why": "Only other 9/9 F-score, all tests computable, FY ended 2026-08-29 (freshest filing on the menu), cfo $306.5M vs net income $222.6M (1.38x). Gross profitability 0.65.",
+      "concerns": "gp_sector_pct 0.824 is the lowest of my top picks. L3 applied: the Consumer Discretionary label is a wholesale-industrial SIC, and FAST is a held industrial MRO peer, so treat MSM and FAST as one economic sleeve."
+    },
+    {
+      "symbol": "TPR",
+      "rank": 4,
+      "why": "F-score 8/9, gp_sector_pct 0.943, cfo $1,979M vs net income $1,528M (1.3x), FY ended 2026-06-27 so the data is fresh.",
+      "concerns": "Leverage is not flagged, but the current ratio did not improve. Learning.json news_memory shows four analyst price-target cuts in about a week ahead of the 11-05 print. That is a News matter, so I only note it."
+    },
+    {
+      "symbol": "IDXX",
+      "rank": 5,
+      "why": "Held. F-score 8/9, gp_sector_pct 0.942, net income $1,059M on $4.3B revenue (about 25% margin), cfo $1,182M above net income (1.12x), all tests computable.",
+      "concerns": "Cash conversion is the thinnest of the top five. Current ratio did not improve. Earnings were estimated for 11-02 (today), so the quality case is intact but the print is imminent (L5)."
+    },
+    {
+      "symbol": "DBX",
+      "rank": 6,
+      "why": "F-score 7/9, gp_sector_pct 0.961, cfo $952M vs net income $508M (1.87x), net margin about 20%.",
+      "concerns": "Gross margin did not improve and the current ratio did not improve (two failed tests). The 10-28 8-K showed a 9% headcount cut and an officer change under item 5.02 that no agent has read. Needs the News Analyst's confirmation."
+    },
+    {
+      "symbol": "SAM",
+      "rank": 7,
+      "why": "F-score 8/9, gp_sector_pct 0.945, cfo $270M vs net income $108M (2.5x), FY ended 2025-12-27.",
+      "concerns": "Net margin is only about 5.5% and the current ratio did not improve. The FY is ten months old (fine) but a 10-22 volume-guide story sits in news_memory."
+    },
+    {
+      "symbol": "INCY",
+      "rank": 8,
+      "why": "F-score 8/9, gp_sector_pct 0.905, net income $1,287M (25% margin), cfo $1,413M above net income (1.1x).",
+      "concerns": "Asset turnover did not improve. gp_sector_pct is at the bottom of the screen's range. Health Care overlaps with IDXX (L3)."
+    },
+    {
+      "symbol": "DPZ",
+      "rank": 9,
+      "why": "Held. Real quality: F-score 8/9, gp 1.15, net income $602M, cfo $792M vs net income (1.32x), all tests computable.",
+      "concerns": "Demoted under L3: gp_sector_pct 1.0 is an artifact of the 'Wholesale-Groceries' SIC label (it is a restaurant franchisor, not a grocery peer), and its tiny $1.7B asset base inflates gross profitability. Leverage went up (failed test), and a securities class action survived a motion to dismiss (news_memory 10-29). Standing item: its $274.88 invalidation is still anchored to the pre-fill close (L1)."
+    },
+    {
+      "symbol": "EXEL",
+      "rank": 10,
+      "why": "F-score 7/9, gp_sector_pct 0.934, cfo $884M vs net income $783M (1.13x), net margin 34%.",
+      "concerns": "Gross margin did not improve and the current ratio did not improve. FY ended 2026-01-02, so the 10-K is nearly 10 months old (quarterly data not in this file). Reported a 10-29 beat per news_memory."
+    }
+  ],
+  "red_flags": [
+    {"symbol": "GRMN", "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement). Also cfo $1,633M is below net income $1,664M (cfo_exceeds_net_income failed).", "severity": "medium"},
+    {"symbol": "ONC", "flag": "Amended 10-K/10-Q flag (possible restatement), plus leverage up and dilution (two failed tests), leaving F-score 7 on a thin margin.", "severity": "medium"},
+    {"symbol": "CLX", "flag": "Fiscal year is stale: FY ended 2025-06-30, known since 2025-08-08, about 16 months old, so the F-score and gp use a year-old 10-K. Leverage also went up and the current ratio did not improve.", "severity": "medium"},
+    {"symbol": "DORM", "flag": "Accruals: cfo $114M is far below net income $204M (0.56x), so cfo_exceeds_net_income failed. Earnings are not backed by cash.", "severity": "medium"},
+    {"symbol": "CALX", "flag": "gp_sector_pct 1.0 rests on a small sector cohort and thin profits: net income $17.9M on $1.0B revenue, cfo $135M (7.5x net income), so the cash/earnings gap is large and unexplained here. Sector label 'Communication' for a telecom equipment maker looks wrong.", "severity": "medium"},
+    {"symbol": "DPZ", "flag": "Sector label artifact (wholesale-groceries SIC), so its Staples rank and 100th-percentile gp are overstated. Leverage went up. Surviving securities class action.", "severity": "medium"},
+    {"symbol": "AAPL", "flag": "cfo $111.5B is slightly below net income $112.0B (failed test). FY ended 2025-09-27, about 13 months old with a new 10-K due.", "severity": "low"},
+    {"symbol": "MLI", "flag": "cfo $755M is just under net income $765M (failed test); asset turnover also did not improve.", "severity": "low"},
+    {"symbol": "SMG", "flag": "FY ended 2025-09-30, about 13 months old (new 10-K due), and it failed the dilution test. Net margin is only 4%. Earnings 11-04.", "severity": "low"},
+    {"symbol": "UNFI", "flag": "Net income $84M on $31.2B revenue (0.3% margin), dilution test failed, so the F-score of 7 is thin.", "severity": "low"},
+    {"symbol": "CVS", "flag": "Net income $1.77B on $402B revenue (0.4% margin), dilution test failed, ROA did not improve. Cfo $10.6B vs net income is a very large gap that could reflect working-capital timing.", "severity": "low"},
+    {"symbol": "TTEK", "flag": "FY ended 2025-09-28, about 13 months old. ROA did not improve and the current ratio did not improve.", "severity": "low"},
+    {"symbol": "FAST", "flag": "Sector label 'Consumer Discretionary' for an industrial distributor; stacks with MSM economically (L3). Gross margin did not improve.", "severity": "low"}
+  ],
+  "holdings_notes": [
+    {"symbol": "BND", "note": "Bond ETF with no SEC-derived fundamentals, so it can never appear on this screen. Falling off the menu carries no information about quality; review it on rate and duration grounds, not on this signal."},
+    {"symbol": "IEF", "note": "Treasury ETF with no SEC fundamentals. Absence from the menu is structural, not a warning."},
+    {"symbol": "VOO", "note": "Index ETF with no company-level fundamentals. Not screenable, so absence is not a reason to sell."},
+    {"symbol": "VTI", "note": "Index ETF with no company-level fundamentals. Not screenable, and it overlaps with VOO."},
+    {"symbol": "BTC/USD", "note": "Crypto has no filings, revenue or F-score, so this analysis can say nothing for or against it. Judge it on the Market and News notes and the PM's stated invalidation."}
+  ]
+}

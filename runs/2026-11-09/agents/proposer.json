@@ -1,0 +1,25 @@
+{
+  "summary": "Held-book review: BTC/USD's invalidation has tripped (11-06 close 74,756 is below the 10%-under-fill stop of about 75,317 on the 83,686 fill, and BTC broke below $75K again this morning), so I propose selling it in full; no other held stop is near (VOO/VTI SPY 735.29 vs 200-day line 727.38 to 727.64 is about 1% away but not breached, RSP 21d is +1.97%; IDXX about 676 vs 630; DPZ about 336 vs 285; CARG about 33.7 vs 28.25; BND 71.59 vs 70.0; IEF 91.86 vs 89.5; exchange-failure clause untripped per the news analyst). The proceeds, about $13, sit above the 10% cash buffer, so I redeploy about $20 into VNQ, the one equity sleeve with positive momentum and a market-analyst favored area, rather than add to tech or to the already stacked staples. Lessons applied: L5 (reviewed every held name, distances from latest 11-06 marks), L4 (not token-sized, aligned with the Market Analyst's real-estate tilt, invalidation about 5% away), L3 (VNQ is a new sleeve, no held REIT peer), L2 (no held-name earnings in the window). L1 is satisfied by anchoring the VNQ level to the 95.73 close and telling the PM to re-anchor to the fill. Not buying more equity beta: stance is risk-off, SPY is about 1% above its regime line, and a break would leave only bond/gold buys allowed. INCY stays the next candidate if cash rises.",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "BTC/USD",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 1.0,
+      "thesis": "Held-book rule, not a new view: the stored invalidation is a close more than 10% below the actual fill (83,685.83, so about 75,317). market.json shows the 11-06 close at 74,756, already below that line, and the news-analyst reports BTC dropping below $75,000 this morning with ETF outflows jumping, Cowen warning that a break of $74.9K could extend to a 10-11% drop ($67K-$69K), and a fear gauge falling after the midterms. The market-analyst calls crypto risky (BTC 21d -8.84%, vol 44%) and notes both coins trade as high-beta risk assets alongside the Nasdaq selloff. MSCI's crypto-treasury index decision on 11-11 and this week's inflation reports are further downside catalysts. Position is small (about $13), so the cost of acting is low; the loss is realized as short-term (19 days held).",
+      "invalidation": "The sale is wrong if BTC/USD closes back above about 80,000 within 5 sessions (reclaims the broken trendline and the stop with ETF inflows returning); note the 30-day wash-sale window blocks only loss-claiming rebuys of the same asset, so re-entry is a later PM call.",
+      "sources": ["news-analyst", "market-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "VNQ",
+      "side": "buy",
+      "notional_usd": 20.0,
+      "fraction": null,
+      "thesis": "Adds the real-estate sleeve the book does not hold, in the one area the market-analyst names as both favored (Real Estate in sector_tilts.favor) and trending: VNQ 21d +7.14%, 2.48% above its 200-day, vol 14%, beta about 0.32 (stress loss about -$0.63 on $20, versus -$3.07 for BTC at the same size), so it diversifies away from the Technology/AI-capex selloff without piling into the roughly 26% staples stack (L3). Funded from the BTC sale proceeds, keeping cash near the 10% buffer (about $63 after the buy, using the ~$13 BTC proceeds). Risks stated: the news-analyst flags rate-sensitivity (December hike odds, inflation reports this week), VNQ is not in the fundamentals screen so there is no fundamental evidence (fundamentals-analyst notes sleeves are outside the screen), and a regime break would not stop this buy being a risk asset. Size is 3.2% of equity, not a token buy (L4).",
+      "invalidation": "VNQ closes below 90.5 (about 5.5% under the 95.73 reference close, and below its 200-day near 93.4), or a hot inflation print pushes TLT more than 3% below its 200-day while the Market Analyst turns risk-off on real estate. PM should re-anchor to the actual fill per L1.",
+      "sources": ["market-analyst", "news-analyst"]
+    }
+  ]
+}

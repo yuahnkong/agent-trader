@@ -1,0 +1,30 @@
+{
+  "stance": "neutral",
+  "confidence": 0.6,
+  "summary": "The long-term trend is intact (SPY 6.19% above its 200-day) but near-term leadership is narrow and defensive, with bonds bid, communication and Nasdaq weak, and crypto and gold falling. Keep normal appetite for broad US equity but do not lean into cyclical or growth risk before the Fed decision today; favor Health Care and Energy over Communication and Industrials.",
+  "reasons": [
+    "Regime is on: SPY closed 769.66 vs a 724.81 200-day average (+6.19%), 63-day +5.77%. But 21-day is only +0.53% and 5-day +0.08%, so momentum has stalled. SPY 20-day realized vol is 9.98% vs 12.72% over 252 days, which is calm.",
+    "Growth and mega-cap are the soft spot: QQQ 21-day -2.07% (63-day +9.11%), XLK 21-day -2.59%, and XLC is the weakest sector at -6.00% 5-day, -6.84% 21-day and 7.98% below its 200-day. Equal-weight RSP leads SPY on 21 days (+3.71% vs +0.53%), which is a rotation away from the largest names rather than a broad-based advance.",
+    "Defensive and rate-sensitive groups are leading: XLU +9.17% 21-day, XLP +5.92% 21-day, alongside XLE +9.84% 21-day (+17.0% 63-day, 17.99% above its 200-day). Defensive leadership with cyclicals lagging (XLI -0.51% 21-day, -4.69% 63-day, 2.65% below its 200-day) argues against risk-on.",
+    "Bonds are rallying, which signals falling long yields and a growth-scare bid: TLT +1.87% 5-day and +4.24% 21-day, IEF +0.94% 5-day and +2.11% 21-day, LQD +1.05% 5-day. TLT is still 1.98% below its 200-day and 63-day is -0.29%, so the move is a bounce, not yet a trend change.",
+    "Credit is not stressed: HYG +1.00% 5-day and +0.52% 21-day (0.38% below its 200-day), moving with equities rather than diverging. VIXY is up 3.14% 5-day and 3.57% 21-day, a mild rise in hedging demand (it decays, so read only the short-term move).",
+    "Small caps are not confirming strength: IWM 63-day -2.65% and only 1.01% above its 200-day, though 5-day is +1.60%. Dollar is firm (UUP +0.76% 5-day, +2.46% 63-day), a headwind for gold and international assets.",
+    "No lesson in learning.json applies to the Market Analyst (L1 to L3 target the proposer, news analyst and portfolio manager). My graded record is two neutral calls, both right; this does not change today's call. News memory (Fed decision 10-28, mega-cap earnings this week, oil near $117 and Iran, AI-capex worries) supports staying neutral going into event risk."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Energy"],
+    "avoid": ["Communication", "Industrials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Broad US equity (VOO 63-day +5.77%, 6.22% above its 200-day, 252-day vol 12.7%) is acceptable as a core holding. QQQ is riskier now (21-day -2.07%, vol 20.0%). Small caps are marginal (IWM 1.01% above its 200-day). International is weak: VXUS 21-day -2.86%, VWO 21-day -4.79% and 2.35% below its 200-day. VNQ is rate-sensitive, 63-day -7.42%, 0.82% below its 200-day; it only bounced (21-day +1.99%) with the bond rally.",
+    "bonds_gold": "Bonds look the more attractive diversifier right now: BND 21-day +1.83% at 3.97% vol, IEF +2.11% at 4.96% vol, TLT +4.24% but with higher rate risk (vol 9.57%) around the Fed decision. Gold is risky: GLD 10.03% below its 200-day, 21-day -1.49%, vol 28.7%. Do not catch it before it stabilizes, despite oversold talk.",
+    "crypto": "Risky and in a correction: BTC/USD 21-day -5.54% (63-day +2.90%, still 10.66% above its 200-day, vol 44.1%), ETH/USD 21-day -12.98%, 63-day -3.91%, vol 60.9%. ETH is weaker than BTC. Appetite for new crypto exposure should be low until it stabilizes."
+  },
+  "watch": [
+    "The Fed decision today: a hawkish surprise would show up as TLT and IEF falling back below recent levels and XLU and XLP giving up gains, pushing toward risk-off.",
+    "SPY holding its 200-day cushion (currently +6.19%) and QQQ stabilizing (21-day -2.07%). A break of QQQ or XLK to new lows, or XLC weakness spreading, would move the stance to risk-off.",
+    "Credit confirming: HYG turning down while VIXY keeps rising (5-day +3.14%) would signal real stress. HYG and RSP staying firm with SPY 5-day turning positive would support a move to risk-on.",
+    "Breadth broadening: IWM 21-day turning clearly positive (now +0.06%) and XLI recovering above its 200-day would argue for risk-on.",
+    "Oil and geopolitics: XLE 21-day is +9.84%; a further oil spike or Iran escalation would hit consumer and growth sectors."
+  ]
+}

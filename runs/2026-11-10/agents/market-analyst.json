@@ -1,0 +1,29 @@
+{
+  "stance": "risk-on",
+  "confidence": 0.4,
+  "summary": "SPY (752.69) is 3.39% above its 200-day (727.98) and the damage is a Technology unwind, not a broad one: equal-weight RSP is +3.71% over 21 days while SPY is -3.32%, and credit is holding. With 20-day realized vol at 22.3% versus 13.7% over 252 days, a move of more than 1% in either direction is the likely outcome, so neutral is the weakest call; the breadth and credit evidence tilts it upward, but conviction is low.",
+  "reasons": [
+    "Regime intact: SPY 752.69 vs 200-day 727.98, +3.39% above; the line is a cushion of roughly 3.3% below.",
+    "Breadth is much better than the index: RSP 21d +3.71% (+6.63% above its 200-day) vs SPY 21d -3.32%; IWM 5d +1.21% and 21d +1.28%. The weakness is concentrated in Technology (XLK 21d -14.04%) and QQQ (21d -9.57%, -0.11% from its 200-day), not spread across the market.",
+    "Credit is not signalling stress: HYG 5d +0.81% and sitting on its 200-day (+0.02%); LQD 5d +0.93%.",
+    "Volatility is elevated, which makes a neutral outcome (SPY within 1% over 5 sessions) less likely: SPY 20d realized vol 22.27% vs 13.74% over 252d. VIXY 5d -1.19% (21d +11.72%) shows fear fading in the short term but still above where it was a month ago.",
+    "Offsetting caution: SPY 5d is only +0.08% and 21d -3.32%, bond ETFs have rallied (TLT 21d +5.55%, IEF 21d +3.03%) and gold 5d +4.94%, so some money is still seeking safety. This keeps confidence low.",
+    "Learning applied: scorecard shows 6 right and 4 wrong over 10 graded calls (0.60) against an always-neutral baseline of 0.60, so the record adds nothing yet, and both of the last two graded neutral calls hit only because of a flat week. No lesson in learning.json (L1 to L5 are process lessons for the proposer and portfolio manager) applies to my call and none conflicts with today's evidence."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Real Estate", "Financials"],
+    "avoid": ["Technology", "Energy"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Prefer broad and equal-weight US exposure over Nasdaq: VOO 21d -3.31% and VTI 21d -2.89% are 3.4% above their 200-day, RSP is the strongest at +6.63% above its 200-day, while QQQ (21d -9.57%) sits on its 200-day line (-0.11%). VNQ is the standout (21d +7.34%, 4.1% above its 200-day). International is weak: VXUS 21d -1.89%, 63d -4.08%, VWO 21d -5.27% and 2.71% below its 200-day, so keep the US-core preference.",
+    "bonds_gold": "Bonds are rallying and attractive as ballast: BND 21d +2.36%, IEF +3.03%, TLT +5.55%, with low volatility on BND (3.96% annualized). TLT and IEF are still slightly below their 200-day (-1.02%, -0.40%), so the trend is not fully confirmed. Gold bounced 4.94% in 5 days but is 7.62% below its 200-day with 63d -5.34%, so it is a weak trend and a volatile hedge (29.0% annual vol).",
+    "crypto": "Risky and weak: BTC/USD 21d -8.03% with 44.2% annual vol, ETH/USD 21d -11.34%, 63d -14.38%, and 0.99% below its 200-day. BTC is only 2.88% above its 200-day. No reason to add crypto exposure ahead of a risk-on call in equities."
+  },
+  "watch": [
+    "SPY closing below the 727.98 200-day line (3.3% below the 752.69 close) would flip the stance to risk-off and trigger the code filter.",
+    "QQQ failing to hold its 200-day (currently -0.11%) or XLK extending its 21d -14.04% slide, which would show the Technology unwind spreading to the index.",
+    "HYG breaking below its 200-day (currently +0.02%) or a jump in VIXY from 18.21, which would mean credit and volatility are confirming stress.",
+    "Breadth fading: RSP or IWM falling back toward SPY's 21d return would remove the main support for the upside call.",
+    "Long yields rising (TLT down from 81.96, currently 1.02% below its 200-day), which has hurt equities in this regime."
+  ]
+}

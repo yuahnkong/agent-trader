@@ -1,0 +1,5 @@
+{
+  "summary": "The Proposer made no proposals, so there are no trades to check and the portfolio is unchanged: estimated loss in a 10% market drop stays at $23.42. No lesson in learning.json lists the implicator in applies_to, so none shaped this call. Existing standing concerns are VOO at 13.5% (about 1.5 points under the 15% cap), the roughly 26% Consumer Staples stack by label (WMT 11.9%, DPZ 11.1%, KR 3.4%), and VOO plus VTI at about 21% of equity in near-identical US broad-market exposure with beta about 1.0.",
+  "checks": [],
+  "stress_10pct_drop": {"before_usd": 23.42, "after_usd": 23.42}
+}
