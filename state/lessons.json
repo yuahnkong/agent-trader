@@ -280,11 +280,31 @@
     "2026-11-17 applied: the PM stated the combined weight one SPY close would trip (VOO and VTI about 23.5% of equity on one 729.58 line), added to neither, put the day's only buy (SAM) into a name with its own stop, and wrote 'sized as one position (L9)' into VTI's thesis. Its review pre-commits to selling both together if the shared stop trips. At the close SPY was 0.39% above the line with Nvidia reporting that night.",
     "2026-11-18 applied: the PM stated VOO and VTI as about 23.5% of equity on one 729.79 line and rejected P1 (sell half of VTI) because the shared stop already sells the whole group one close lower, keeping the 11-17 pre-commitment to sell both together. SPY closed 0.06% above the line. Open: the PM cannot originate a sale, so the test is whether the Proposer puts up both sales in the run after the line trips (PM review lesson 2). The lesson text is unchanged until that is tested.",
     "2026-11-19: the PM again treated VOO and VTI as one position (about 23.6% of equity on the 730.02 line), kept the pre-commitment to sell both together and recorded the met RSP clause in both theses. SPY closed 715.87, 1.9% under the line, so both stop blocks are TRIPPED after the whole group rode through the day. The PM review adds that when a shared stop sits within about 0.5% of the line, the decision should price the cost of the all-at-once exit rather than treat holding as free; one case, kept here rather than made a lesson. This lesson's open test comes at the next run: whether the Proposer puts up both sales together.",
-    "2026-11-20 applied, open test passed: the Proposer put up both sales (P1 VOO, P2 VTI) in the run after the shared stop tripped, and the PM approved them as one exit (about 23.1% of equity), keeping the 11-17 pre-commitment; both filled at the open about 0.3% under the 11-19 closes. The sales' own 20-session tests are pending; SPY's -3.6% day after the exit is one day, not evidence. Lesson text now names the same-run sale; confidence raised to medium (one miss, four runs applied)."
+    "2026-11-20 applied, open test passed: the Proposer put up both sales (P1 VOO, P2 VTI) in the run after the shared stop tripped, and the PM approved them as one exit (about 23.1% of equity), keeping the 11-17 pre-commitment; both filled at the open about 0.3% under the 11-19 closes. The sales' own 20-session tests are pending; SPY's -3.6% day after the exit is one day, not evidence. Lesson text now names the same-run sale; confidence raised to medium (one miss, four runs applied).",
+    "2026-11-23 applied: no shared stop is held; the TLT add stays on its own stop and the PM cited L9 for it. Nothing new tested."
    ],
    "confidence": "medium",
    "added": "2026-11-16",
-   "last_confirmed": "2026-11-20",
+   "last_confirmed": "2026-11-23",
+   "status": "active",
+   "retired_why": null
+  },
+  {
+   "id": "L10",
+   "lesson": "Write a stored sector or macro condition as a relative test (e.g. 'XLP's 21-day return falls below SPY's' or 'XLP closes below its 200-day'), not a bare absolute threshold, so a market-wide move neither silences nor trips it. When a stored clause trips against its evident intent, honor it, but say whether a partial sale was weighed and why it was rejected.",
+   "kind": "process",
+   "applies_to": [
+    "proposer",
+    "portfolio-manager",
+    "skeptic"
+   ],
+   "evidence": [
+    "2026-11-20 WMT: the Skeptic showed that the stored 'XLP's 21-day return falls below +3% while SPY holds' clause could not trip in a falling market; the PM removed 'while SPY holds' through thesis_updates, leaving a bare absolute threshold.",
+    "2026-11-23 WMT: the bare clause tripped on a market-wide drop (XLP 21d +0.52% against SPY 21d -9.71%) while XLP led on every horizon and Staples was the Market Analyst's first favored sector. The PM honored it, rightly refusing to rewrite a clause on the day it trips, but did not answer the Skeptic's partial-sale alternative, which a resize allowed (PM review lesson 1). Both failures are in the clause's form at write time; the evidence is the run files, not the sale's outcome (pending)."
+   ],
+   "confidence": "low",
+   "added": "2026-11-23",
+   "last_confirmed": "2026-11-23",
    "status": "active",
    "retired_why": null
   }
@@ -505,6 +525,16 @@
     "20-session grades of 10-23 calls: PM approved VRSN vs_spy +0.1168, BND +0.0978, VOO +0.0021 (right); PM rejected MTCH -0.052 (right), IEF +0.1023 (wrong); Skeptic MTCH right, VRSN, BND, VOO, IEF wrong; Proposer MTCH wrong, the other four right.",
     "2026-11-20 close.json: agent_return 0.01357, shadow_return -0.00532, spy_return -0.10003; agent_invested_pct 0.5793, shadow 0.9938; since_version agent -0.02314, shadow -0.04935, spy -0.08015; SAM change_today -0.05003, 3.26% above its $201 stop; TLT filled at 80.75 with stop 76.3; stop_alerts empty.",
     "2026-11-20 PM review lessons 2-5; News review on SAM's 8-K 5.02 reaction; Market Analyst review (stance_held_up true, TLT +1.23% vs SPY -3.64%)."
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "suggestion": "Hypotheses to watch, not rules. (1) The 10-26 calls graded at 20 sessions: approved IEF (+6.5% vs SPY), VOO (+0.0%) and VRSN (+7.6%) right; the rejected VTI buy wrong at +0.2%, a near-flat move on a rejection made because VTI duplicated VOO. The Skeptic's four 10-26 objections (IEF counter-trend, VOO 'no idea', VRSN pre-print data, VTI duplication) all graded wrong, two of them on moves under 0.3% vs SPY, so the 11-18 question about grading duplication and data-gap objections as direction calls stands. Totals at 20 sessions: portfolio-manager 18-6, proposer 22-2, skeptic 1-17; none but the News Analyst has enough_data, so no outcome lesson. (2) The 10-26 IEF buy beat SPY by 6.5 points over a falling market. IEF and BND were sold on 11-13 and 11-16 under L8 and TLT was bought on 11-20 and added to today; when those sales grade (early to mid December), check the 11-20 question of whether L8 is turning one-week cross-asset readings into round trips. (3) The Market Analyst is 11-9 (0.55) against always-risk-off 0.5 with 20 graded calls. His review says risk-off calls made right after extreme 5-day drops have failed (11-06 graded wrong; 11-20 pending after a +4.7% first session) while the 11-12 and 11-13 risk-off calls made earlier in the decline graded right. One graded case; his own note (hold risk-off confidence at or below 0.4 when SPY's 5-day is near -8% and 20-day vol is about double the 252-day) is his to try, not a lesson. (4) The PM review asks that discretionary sales be weighed as moves into filter-idled cash and that a ranked, bucket-sized re-entry list be ready for the first run the filter allows (SPY roughly 1% under its 200-day after the bounce). No run has yet faced a reopening, so check whether the first allowed run deploys before making it a lesson. (5) Over the full run the agent is +1.98% against the shadow's +1.67% and SPY's -5.77% at 47.6% vs 99.4% invested; on the +4.7% bounce the agent made about 0.6% and the shadow about 1.9%. Since the 11-10 version, -1.71% against -2.83% and -3.68%. Cash is idled by the regime filter; not evidence about invested level. Next checks: TLT's stop from the blended cost and SAM's stale WMT text (L6); KR's confirmed 12-03 print entering the 5-day window on 11-25 with the Grubhub thread open; the WMT sale's and IDXX trim's own tests.",
+   "evidence": [
+    "Scorecard as of 2026-11-23 by_horizon 20: portfolio-manager 18-6 (0.75), proposer 22-2 (0.917), skeptic 1-17 (0.056); 5-session portfolio-manager 22-19, proposer 27-14, skeptic 6-20; market-analyst 11-9 (0.55) against always-risk-off 0.5; news-analyst 121-66 (0.647), the only agent with enough_data.",
+    "20-session grades of 10-26 calls: PM approved IEF vs_spy +0.0654, VOO +0.0001, VRSN +0.0759 (right); PM rejected VTI +0.0022 (wrong); Proposer same four (right); Skeptic objections IEF, VOO, VRSN, VTI (wrong). Market Analyst 11-16 risk-on graded wrong (SPY -2.39%); 11-06 risk-off wrong (+2.59%); 11-12 and 11-13 risk-off right.",
+    "2026-11-23 close.json: agent_return 0.01983, shadow_return 0.01667, spy_return -0.05765; agent_invested_pct 0.4756, shadow 0.9939; since_version agent -0.01711, shadow -0.02834, spy -0.03684; spy_value 539.98 to 565.41; day_pl 3.63; stop_alerts empty.",
+    "2026-11-23 PM review lessons 1-3; Market Analyst review (stance_held_up false, broken_theses on risk-off after extreme 5-day drops)."
    ]
   }
  ]
