@@ -1,0 +1,622 @@
+{
+ "window_hours": 72,
+ "headlines": [
+  {
+   "id": 128822155,
+   "created_at": "2026-11-23T13:01:54Z",
+   "headline": "SMG Swiss Marketplace Group Appoints Ken Wirth as Sales Director of Real Estate Division",
+   "summary": "SMG Swiss Marketplace Group has appointed Ken Wirth as the new Sales Director for its real estate division, effective November 23, 2026.",
+   "symbols": [
+    "SMG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/smg-aktie-um-die-nulllinie-swiss-marketplace-group-ernennt-neuen-verkaufsleiter-1036790740"
+  },
+  {
+   "id": 128821755,
+   "created_at": "2026-11-23T13:01:43Z",
+   "headline": "Deutsche Bank Maintains Buy Rating and $330 Price Target for Autodesk Ahead of F3Q Earnings",
+   "summary": "Deutsche Bank's software analysis team issued an earnings preview for Autodesk, maintaining a 'Buy' rating and $330 price target ahead of the company's fiscal third-quarter 2027 results.",
+   "symbols": [
+    "ADSK"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1005471874/deutsche-bank-previews-autodesk-s-adskus-q3-results-expects-a"
+  },
+  {
+   "id": 128813070,
+   "created_at": "2026-11-23T12:34:27Z",
+   "headline": "Autonomous Research Adjusts Price Target on MSCI to $808 From $805",
+   "summary": "Autonomous Research has updated its price target for MSCI Inc., raising it from $805 to $808.",
+   "symbols": [
+    "MSCI"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/autonomous-research-adjusts-price-target-on-msci-to-808-from-805-ce7851dadb88f426"
+  },
+  {
+   "id": 128797922,
+   "created_at": "2026-11-23T11:31:54Z",
+   "headline": "Walmart and Other Retailers Contacted Regarding Potential Grubhub Acquisition",
+   "summary": "Walmart, Target, and Kroger have reportedly been contacted regarding a potential acquisition of food delivery service Grubhub.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/walmart-others-contacted-about-potential-acquisition-of-grubhub-ce7851dad98ef42c"
+  },
+  {
+   "id": 128797916,
+   "created_at": "2026-11-23T11:31:44Z",
+   "headline": "Moody's Improves Outlook for Hungary",
+   "summary": "Moody's has upgraded the outlook for Hungary, citing progress in the country's relationship with the European Union.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.milanofinanza.it/mfnewswires/ungheria-moody-s-migliora-outlook-grazie-a-progressi-in-rapporti-con-ue-202611231052029236"
+  },
+  {
+   "id": 128797915,
+   "created_at": "2026-11-23T11:31:44Z",
+   "headline": "Moody's Upgrades Portugal's Credit Rating to A2",
+   "summary": "Moody's has upgraded Portugal's long-term credit rating from A3 to A2, maintaining a stable outlook.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70200664-moody-s-hebt-portugals-rating-auf-a2-an-015.htm"
+  },
+  {
+   "id": 128740211,
+   "created_at": "2026-11-23T02:01:55Z",
+   "headline": "Executive Vice President and Chief Restaurant Officer Frank Garrido Sells Shares of Domino's Pizza, Inc.",
+   "summary": "Frank Garrido, Executive Vice President and Chief Restaurant Officer of Domino's Pizza, Inc., recently sold approximately $993,000 worth of company stock.",
+   "symbols": [
+    "DPZ"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1005425612/domino-s-pizza-executive-vp-chief-restaurant-officer-frank-garrido"
+  },
+  {
+   "id": 128740212,
+   "created_at": "2026-11-23T02:01:55Z",
+   "headline": "Analyst Maintains Overweight Rating and $344 Price Target for Cheniere Energy",
+   "summary": "An analyst has maintained an 'Overweight' rating and a $344 price target for Cheniere Energy, citing the company's Sabine Pass expansion and broader LNG demand growth.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1005433650"
+  },
+  {
+   "id": 128619339,
+   "created_at": "2026-11-22T14:01:33Z",
+   "headline": "Mastrex and Autodesk Collaborate to Enhance Metal 3D Printing Compatibility",
+   "summary": "Mastrex Metal 3D Printing has announced a collaboration with Autodesk to integrate Autodesk Fusion and Netfabb software compatibility into its MX series.",
+   "symbols": [
+    "ADSK"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news/industrials-utilities"
+  },
+  {
+   "id": 128543456,
+   "created_at": "2026-11-22T02:02:37Z",
+   "headline": "Acuity Inc. Announces New Term Loan Facility and Amendment",
+   "summary": "Acuity Inc. has filed SEC documentation regarding a new unsecured delayed draw term loan facility of up to $400 million and the maturity date for its term loan facility.",
+   "symbols": [
+    "AYI"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/AYI-US?chain_id=Name1K9-3FXPhg.1lg3n10&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FSNX-US%22%7D"
+  },
+  {
+   "id": 128543443,
+   "created_at": "2026-11-22T02:02:21Z",
+   "headline": "Bankers Contact Retailers Regarding Potential Grubhub Deal",
+   "summary": "Financial institutions have reportedly reached out to major retailers, including Kroger, to gauge interest in a potential deal involving Grubhub.",
+   "symbols": [
+    "KR"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/TGT-US?chain_id=Name1K9-3FXPhg.1lg3g00&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fcow-moo-ney-102780363%22%7D"
+  },
+  {
+   "id": 128543430,
+   "created_at": "2026-11-22T02:02:06Z",
+   "headline": "Moody's Ratings Assigns Aa2 Rating to New York State Housing Finance Agency Bonds",
+   "summary": "Moody's Ratings has assigned an Aa2 rating to the New York State Housing Finance Agency's Affordable Housing Revenue Bonds, 2026 Series K, L, M, and N.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://ratings.moodys.com/ratings-news"
+  },
+  {
+   "id": 128196589,
+   "created_at": "2026-11-21T14:01:42Z",
+   "headline": "Moody's Ratings Reaffirms AFFIN Group's A3 Long-Term Credit Rating",
+   "summary": "Moody's Ratings has maintained the A3 long-term credit rating for Malaysia's AFFIN Group, citing the banking group's solid standalone creditworthiness and support from its major shareholder, the Sarawak government.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.sarawaktribune.com/sarawaks-backing-helps-affin-retain-a3-rating/"
+  },
+  {
+   "id": 128196583,
+   "created_at": "2026-11-21T14:01:34Z",
+   "headline": "Incyte's Povorcitinib Enters Phase III Clinical Trial in China for Non-Segmental Vitiligo",
+   "summary": "Incyte's partner, Dermavon, has initiated a Phase III clinical trial in China to evaluate the efficacy and safety of the oral JAK1 inhibitor povorcitinib in adult patients with non-segmental vitiligo.",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.briefingwire.com/pr/china-medical-systems-innovative-oral-drug-for-vitiligo-povorcitinib-enrolls-first-patient-in-chin"
+  },
+  {
+   "id": 127986999,
+   "created_at": "2026-11-20T23:01:47Z",
+   "headline": "BofA Securities Adjusts Best Buy Outlook Amid Sales Momentum and Margin Concerns",
+   "summary": "BofA Securities raised its comparable sales estimates for Best Buy while cautioning that rising memory costs could pressure margins.",
+   "symbols": [
+    "BBY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/best-buy-s-comparable-sales-momentum-to-continue-margin-risks-linger-bofa-says-ce785ed3dd89f220"
+  },
+  {
+   "id": 127880503,
+   "created_at": "2026-11-20T21:31:55Z",
+   "headline": "FERC Approves Cheniere Energy's Sabine Pass Expansion",
+   "summary": "The Federal Energy Regulatory Commission has approved the construction of three new liquefaction trains at Cheniere Energy's Sabine Pass terminal.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://dailycallernewsfoundation.org/2026/11/20/sabine-pass-gas-export-expansion-ferc-cheniere-laura-swett/"
+  },
+  {
+   "id": 127779965,
+   "created_at": "2026-11-20T20:02:20Z",
+   "headline": "Leerink Partners Maintains Buy Rating on CVS Health",
+   "summary": "Leerink Partners analyst Michael Cherny has reiterated a 'Buy' rating and a $104 price target for CVS Health.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/CVS-US?chain_id=Name1K9-3FXPhg.1lg030g&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FTDC-US%22%7D"
+  },
+  {
+   "id": 127713005,
+   "created_at": "2026-11-20T19:02:03Z",
+   "headline": "Genesis Molecular AI Reports Performance Gains in Incyte Collaboration Programs",
+   "summary": "Genesis Molecular AI released a technical report highlighting the performance of its 'Ruby' AI model, which demonstrated high accuracy in predicting small-molecule potency using data from its collaboration with Incyte.",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/20/3407667/0/en/genesis-molecular-ai-announces-potency-prediction-breakthrough-with-ruby-releases-potency-training-dataset.html"
+  },
+  {
+   "id": 127713004,
+   "created_at": "2026-11-20T19:02:03Z",
+   "headline": "Mizuho Securities Raises Incyte Price Target to $148",
+   "summary": "Mizuho Securities has increased its price target for Incyte Corporation from $137 to $148 while maintaining an 'Outperform' rating.",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/mizuho-securities-adjusts-incyte-price-target-to-148-from-137-maintains-outperform-rating-ce785ed3da88f625"
+  },
+  {
+   "id": 127711935,
+   "created_at": "2026-11-20T19:01:52Z",
+   "headline": "UGG Partners with Bloomingdale's and Forty Carrots for Holiday 'UGG Parlor' Activation",
+   "summary": "Deckers Brands' UGG division has launched a holiday partnership with Bloomingdale's and Forty Carrots, featuring exclusive frozen yogurt flavors and in-store activations.",
+   "symbols": [
+    "DECK"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom"
+  },
+  {
+   "id": 127711927,
+   "created_at": "2026-11-20T19:01:49Z",
+   "headline": "The New York Times Announces Staff Updates for Audience Team and Magazine",
+   "summary": "The New York Times Company has announced new leadership and staff appointments within its Audience team and The New York Times Magazine.",
+   "symbols": [
+    "NYT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.editorandpublisher.com/stories/the-new-york-times-announces-audience-team-staff-updates,264608"
+  },
+  {
+   "id": 127711897,
+   "created_at": "2026-11-20T19:01:37Z",
+   "headline": "EMCOR Group, Inc. Announces Participation in Upcoming Investor Event",
+   "summary": "EMCOR Group, Inc. announced that its senior leadership team, including CEO Tony Guzzi and CFO Jason Nalbandian, will participate in the UBS Global Industrials and Transportation Conference 2026.",
+   "symbols": [
+    "EME"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/energy"
+  },
+  {
+   "id": 127711893,
+   "created_at": "2026-11-20T19:01:34Z",
+   "headline": "CVS Health Announces Winners of Inaugural Home Team Heroes Youth Soccer Contest",
+   "summary": "CVS Health has named the grand prize winners of its first Home Team Heroes youth soccer contest, which recognizes young athletes for their community impact.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/cvs-pharmacy-names-grand-prize-winners-of-first-home-team-heroes-youth-soccer-contest-302947063.html"
+  },
+  {
+   "id": 127539512,
+   "created_at": "2026-11-20T16:01:46Z",
+   "headline": "Walmart Canada Raises Over $3.9 Million for Canadian Red Cross",
+   "summary": "Walmart Canada announced that its annual fundraising campaign, supported by a $1 million kick-off donation, raised over $3.9 million for the Canadian Red Cross.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/20/3407437/0/fr/walmart-canada-amasse-plus-de-3-9-millions-de-dollars-au-profit-des-programmes-de-secours-et-de-pr%C3%A9paration-aux-urgences-de-la-croix-rouge-canadienne.html"
+  },
+  {
+   "id": 127465730,
+   "created_at": "2026-11-20T14:33:22Z",
+   "headline": "Analysts Adjust Price Targets for Walmart Inc.",
+   "summary": "Several financial institutions, including Morgan Stanley, KeyBanc, and Raymond James, updated their price targets for Walmart Inc. on November 20, 2026.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-walmart-to-135-from-125-keeps-overweight-rating-ce785ed3db8bf426"
+  },
+  {
+   "id": 127464859,
+   "created_at": "2026-11-20T14:32:20Z",
+   "headline": "BofA Securities Adjusts Best Buy Price Target to $83 From $80",
+   "summary": "BofA Securities has updated its price target for Best Buy Co., Inc. while maintaining an Underperform rating.",
+   "symbols": [
+    "BBY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bofa-securities-adjusts-best-buy-price-target-to-83-from-80-maintains-underperform-rating-ce785ed3db8af423"
+  }
+ ],
+ "events": {
+  "AAPL": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-28",
+   "days_to_earnings": 66
+  },
+  "ADBE": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-09",
+   "days_to_earnings": 16
+  },
+  "ADSK": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 1
+  },
+  "AYI": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-20",
+     "items": "1.01,2.03,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1144215/000110465926130602/tm2630326d1_8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-01-07",
+   "days_to_earnings": 45
+  },
+  "BBY": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 1
+  },
+  "BDC": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-11",
+   "days_to_earnings": 80
+  },
+  "BJRI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-24",
+   "days_to_earnings": 93
+  },
+  "BLBD": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-23",
+   "days_to_earnings": 0
+  },
+  "CALX": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 65
+  },
+  "CARG": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-18",
+   "days_to_earnings": 87
+  },
+  "CART": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-11",
+   "days_to_earnings": 80
+  },
+  "CLX": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-19",
+     "items": "5.07",
+     "url": "https://www.sec.gov/Archives/edgar/data/21076/000120677426000606/clx4717351-8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-02",
+   "days_to_earnings": 71
+  },
+  "CVS": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-09",
+   "days_to_earnings": 78
+  },
+  "DBX": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-18",
+   "days_to_earnings": 87
+  },
+  "DECK": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-28",
+   "days_to_earnings": 66
+  },
+  "DORM": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-24",
+   "days_to_earnings": 93
+  },
+  "DPZ": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-22",
+   "days_to_earnings": 91
+  },
+  "EME": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-25",
+   "days_to_earnings": 94
+  },
+  "EXEL": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-11",
+   "days_to_earnings": 49
+  },
+  "EXLS": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-23",
+   "days_to_earnings": 92
+  },
+  "FAST": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-19",
+   "days_to_earnings": 57
+  },
+  "FTDR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-25",
+   "days_to_earnings": 94
+  },
+  "GLD": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 1
+  },
+  "GPOR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-23",
+   "days_to_earnings": 92
+  },
+  "GRMN": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 86
+  },
+  "HWM": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-11",
+   "days_to_earnings": 80
+  },
+  "IDXX": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-01",
+   "days_to_earnings": 70
+  },
+  "INCY": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-09",
+   "days_to_earnings": 78
+  },
+  "KR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-03",
+   "days_to_earnings": 10
+  },
+  "LNG": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-17",
+     "items": "1.01,2.03,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/3570/000119312526465510/d169303d8k.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-16",
+     "items": "5.02,7.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/3570/000119312526463597/d158128d8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-25",
+   "days_to_earnings": 94
+  },
+  "LOGI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-26",
+   "days_to_earnings": 64
+  },
+  "LRN": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-26",
+   "days_to_earnings": 64
+  },
+  "MCO": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 86
+  },
+  "MLI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-02",
+   "days_to_earnings": 71
+  },
+  "MSCI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 65
+  },
+  "MSM": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-06",
+   "days_to_earnings": 44
+  },
+  "MTCH": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-02",
+   "days_to_earnings": 71
+  },
+  "NYT": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-03",
+   "days_to_earnings": 72
+  },
+  "ONC": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-25",
+   "days_to_earnings": 94
+  },
+  "RL": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-04",
+   "days_to_earnings": 73
+  },
+  "RRC": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-20",
+   "days_to_earnings": 58
+  },
+  "SAM": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-19",
+     "items": "5.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/949870/000119312526468550/sam-20261116.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-23",
+   "days_to_earnings": 92
+  },
+  "SBH": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-08",
+   "days_to_earnings": 77
+  },
+  "SMG": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 65
+  },
+  "TPR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-04",
+   "days_to_earnings": 73
+  },
+  "TTEK": {
+   "filings_7d": [
+    {
+     "form": "10-K",
+     "filed": "2026-11-17",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 65
+  },
+  "ULS": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-17",
+     "items": "7.01,8.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1901440/000190144026000037/uls-20261116.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-18",
+   "days_to_earnings": 87
+  },
+  "UNFI": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-17",
+     "items": "7.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1020859/000102085926000033/unfi-20261117.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-12-01",
+   "days_to_earnings": 8
+  },
+  "VRSN": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-04",
+   "days_to_earnings": 73
+  },
+  "WDFC": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-07",
+   "days_to_earnings": 45
+  },
+  "WINA": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 86
+  },
+  "WMT": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-19",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/wmt-20261119.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-16",
+     "items": "5.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000165/wmt-20261113.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-18",
+   "days_to_earnings": 87
+  }
+ },
+ "note": "next_earnings_estimate is last year's results date + 364 days, not a confirmed date. 8-K items: 2.02 results, 5.02 officer changes, 1.01 material agreements, 4.01 auditor change, 4.02 non-reliance on prior financials."
+}
