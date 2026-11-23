@@ -1,0 +1,39 @@
+{
+  "summary": "Two sells and one defensive add. WMT's stored XLP clause has tripped: XLP's 21-day return is +0.52% in today's Market Analyst note, below the +3% line. Under L7 that requires a same-run sale (P1), even though Staples is still his favored sector. If the PM would rather hold WMT, the clause has to be restated through thesis_updates, not ignored. P2 is the IDXX trim that L8 said I owed this run. P3 adds to TLT, the only buy the regime filter allows that the Market Analyst favors. The roughly 50% cash that remains is idled by the regime filter: VOO, VTI and every stock are blocked, BND and IEF are wash-sale blocked, and gold and crypto are on his avoid list. I am not using that cash as a reason to keep any position. Held-book review (L7): no price stop is tripped or near in stop_alerts. TLT's duration clause is not met (TLT 5d +2.61%, IEF +1.79%, SPY -8.56%). KR has no confirmed cyber incident and no guidance cut; the Grubhub sounding-out has no bid and no 8-K. SAM's CEO handover took effect today with no guidance change; it sits 3.3% above its $201 stop. INCY has no guidance cut or failed pivotal trial (Mizuho raised its PT) and sits 4.2% above its $110 stop. DPZ's insider sale is not an 8-K event. VRSN, CARG and MSCI have no filings. CARG (Communication bucket) and VRSN (Technology) sit in sectors the Market Analyst avoids, but both theses rest on quality and low beta (0.49 and 0.05), not on a sector role, so L8 does not require restating them. They are the next to watch if he keeps avoiding those sectors. For L6, TLT's $76.30 stop still cites the $80.35 reference close; measured from the $80.75 fill it is about 5.5% under, and the PM should restate it.",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "WMT",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 1.0,
+      "thesis": "WMT's stored invalidation includes 'XLP's 21-day return in the Market Analyst's note falls below +3%'. Today's Market Analyst note puts XLP 21d at +0.52%, so the clause is met. L7 requires a sale proposal in the same run for a met clause. The PM removed the 'while SPY holds' wording on 11-20 so that this clause could trip in a falling market, and it now has. A sale also cuts the Staples bucket from about 16.3% to about 8%. That bucket is the largest in the book, and WMT and KR now share the Grubhub sounding-out story (news-analyst), which is the L3 stacking concern. Tax: the single lot is short-term (long-term on 2027-10-21), so selling now costs nothing extra versus later this year, and it realizes a small gain (about +8% on the $118.38 fill). Case against selling: XLP is still the only sector positive over 21 days, and the Market Analyst still favors Staples. Next earnings is a file estimate of 2027-02-18, outside any window.",
+      "invalidation": "The sale is wrong if WMT outperforms SPY over the next 20 sessions, or if it closes above $135 (the Morgan Stanley target) while XLP's 21-day return recovers above +3%.",
+      "stop_price": null,
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "IDXX",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 0.5,
+      "thesis": "This is the trim proposal that L8 said the Proposer owed this run, after the Market Analyst dropped Health Care from his favored list on 11-20. He has not restored it today; his favored sectors are Staples and Utilities. At 0.778 (252d), IDXX has the highest beta of the single stocks, in a risk-off tape where SPY's 20-day realized vol is 26.55%. It is the largest Health Care name, and Health Care is about 10.5% by bucket with INCY. Fundamentals still rank it 6th (F8, CFO above NI, though only modestly), and the 11-02 beat-and-raise stands. That supports trimming rather than selling it all, which keeps half the position. The one lot is short-term, with a roughly 22% gain on the $555.81 fill that would be taxed the same way any time before 2027-10-21. Its $640 stop is 5.7% below the $676.21 mark. Next earnings is 2027-02-01 (file estimate, per news-analyst), and it has no recent filings.",
+      "invalidation": "The trim is wrong if IDXX outperforms SPY by more than 3 points over 20 sessions, or if the Market Analyst puts Health Care back on his favored list within 10 sessions while IDXX holds above $640.",
+      "stop_price": null,
+      "sources": ["market-analyst", "fundamentals-analyst", "news-analyst"]
+    },
+    {
+      "id": "P3",
+      "symbol": "TLT",
+      "side": "buy",
+      "notional_usd": 20.0,
+      "fraction": null,
+      "thesis": "The Market Analyst names Treasuries as the attractive defensive sleeve and says to 'prefer intermediate and long duration over short'. The duration hedge is working: TLT 5d +2.61% and IEF +1.79% while SPY fell 8.56%, so the hedge he called young on 11-20 has now lasted another week. TLT is the only regime-allowed buy that he favors: IEF and BND are wash-sale blocked, and he calls GLD 'risky, not defensive'. The $20 add brings TLT to about $46, about 7.5% of equity, well under the $66 cap. That is not a token buy under L4, and it rests on his explicit preference, not on diversification. It adds to a holding with its own stop, not a shared one (L9). Risks: long-duration rate exposure that the equity stress test does not show, and the 12-09 FOMC (hikes priced, per news-analyst) falls inside the 20-session test. ETF, so no earnings events.",
+      "invalidation": "TLT closes at or below $76.30, the existing position stop. That is about 6% under the expected blended cost of roughly $81.1 after the add, and the PM should restate it from the actual blended cost at the next run (L6). Also invalidated if, at any run, TLT's and IEF's 5-day returns are both negative while SPY's 5-day return is also negative.",
+      "stop_price": 76.3,
+      "sources": ["market-analyst", "news-analyst"]
+    }
+  ],
+  "holdings_review": []
+}
