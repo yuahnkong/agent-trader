@@ -1,0 +1,31 @@
+{
+  "stance": "risk-off",
+  "confidence": 0.55,
+  "summary": "SPY closed 1.12% under its 200-day (722.29 vs 730.47), with 20-day realized vol at 31.9% against 15.0% over a year and VIXY up 15.4% in five sessions. Treasuries are now absorbing the equity selling while credit holds. Keep equity appetite low and lean on duration and Staples/Utilities, not gold or crypto. Vol this high makes a 5-session move inside 1% unlikely, and the trend, breadth and volatility evidence all point down. The risks to the call are a short holiday week and credit that is still calm.",
+  "reasons": [
+    "Regime: SPY 722.29 is 1.12% below its 200-day of 730.47 (above_sma200 false). SPY ret_5d is -2.39%, 21d -4.96% and 63d -5.46%, so the trend points down on every horizon in the packet.",
+    "Volatility: SPY 20-day realized vol is 31.92% against 15.02% over 252 days, roughly double. VIXY rose 15.44% in 5 days and 26.0% in 21 days, so short-term vol demand is still rising and has not peaked. Vol this high also makes a 5-session move inside 1% unlikely, which argues against neutral.",
+    "Breadth is weakening. RSP fell 2.79% over 5 days, more than SPY's 2.39%, so the equal-weight index is no longer cushioning the cap-weighted one, although RSP still sits 2.21% above its 200-day. IWM is 4.65% below its 200-day (63d -10.96%) and QQQ is 4.58% below its 200-day (21d -7.58%).",
+    "Flight to quality: TLT rose 2.91% in 5 days, IEF 1.55% and SHY 0.42%, while SPY fell 2.39%. Long yields are falling as stocks fall, so duration is acting as a hedge this week. That is a change from mid-November, when bonds fell with stocks.",
+    "Credit is the main counter-evidence. HYG is down only 0.27% over 5 days and 0.17% over 21 days, and LQD is up 1.10% in 5 days. Spreads are not confirming a disorderly selloff, and that keeps confidence near 0.55 rather than higher.",
+    "Selling is broad and defensives are not sheltering. Every sector SPDR is negative over 5 days, including XLP -2.40%, XLV -4.50%, XLF -4.35% and XLE -6.00%.",
+    "Gold and crypto are falling with equities. GLD is down 5.64% over 5 days and sits 17.82% below its 200-day (63d -22.2%), while UUP rose 2.83% over 21 days. BTC is down 20.19% over 21 days and 15.28% below its 200-day; ETH is down 24.04% over 21 days. This is dollar-and-Treasury risk aversion, not a broad hunt for havens.",
+    "Track record: my graded hit rate is 0.55 against an always-risk-off baseline of 0.50. My recent risk-on calls on 11-10, 11-11 and 11-16 were all wrong (-2.33%, -3.90%, -2.39%), and my risk-off calls on 11-09, 11-12 and 11-13 were right. I am not changing stance until the packet shows an actual turn in vol or trend. No active lesson names the market-analyst, so none shaped this call."
+  ],
+  "sector_tilts": {
+    "favor": ["Consumer Staples", "Utilities"],
+    "avoid": ["Energy", "Technology", "Communication", "Industrials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Unattractive for new risk while SPY is under its 200-day. The regime filter blocks equity buys anyway. VOO (-1.11% from its 200-day) and VTI (-1.29%) are just under the line. VXUS (-5.99%) and VWO (-7.80%) are further below theirs with 63d returns of -11.04% and -11.52%, so US core remains the better equity sleeve once the filter clears. QQQ is the weakest US sleeve (21d -7.58%). VNQ is near flat to its 200-day (-0.17%, 21d +1.06%) but fell with XLRE (-3.05% 5d).",
+    "bonds_gold": "Treasuries are the one sleeve working: TLT 5d +2.91%, IEF +1.55%, BND 21d +0.59%. TLT is 1.11% below its 200-day and IEF 0.46% below, so the rally has not yet reclaimed the longer trend. Duration is attractive as a hedge this week but has not proven it is a durable trend. Gold is risky: it is down 5.64% in 5 days, 9.16% in 21 days and is 17.82% below its 200-day while the dollar rises. Do not treat GLD as a haven here.",
+    "crypto": "Avoid. BTC 21d -20.19% and 15.28% below its 200-day with 44.5% vol; ETH 21d -24.04% and 19.37% below its 200-day with 60.8% vol. Both are falling with equities, not diversifying."
+  },
+  "watch": [
+    "VIXY turning down over 5 days while SPY reclaims 730.47 (its 200-day) would argue for neutral or risk-on.",
+    "HYG breaking lower (5d worse than about -1%) would confirm risk-off and raise confidence. Credit holding while equities fall is the main reason confidence is not higher.",
+    "TLT and IEF giving back their 5-day gains while SPY falls would mean duration stopped hedging again, which is a worse mix for the book.",
+    "RSP falling below its 200-day (now +2.21%) would show the breadth damage spreading from the cap-weighted names into the average stock.",
+    "Holiday-shortened week (markets closed 11-26, half day 11-27): thin liquidity can exaggerate moves either way inside the 5-session grading window."
+  ]
+}
