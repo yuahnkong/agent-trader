@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-24",
+ "version": "6",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "TLT",
+   "side": "buy",
+   "requested_usd": 15.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 15.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "25c96e3f-69cd-4d6a-8103-0f4c5d1fa861",
+   "client_order_id": "at-20261124True-TLT-buy",
+   "order_status": "pending_new"
+  }
+ ]
+}
