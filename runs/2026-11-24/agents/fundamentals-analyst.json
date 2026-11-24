@@ -1,0 +1,153 @@
+{
+  "summary": "The menu (as of 2026-11-24, 52 names) is led by VRSN, the only F9 at the top of its sector (gp_sector_pct 0.993, CFO $1.09B vs NI $0.83B), then CARG and DPZ at gp_sector_pct 1.0 with CFO well above earnings. Fresh FY2026 10-Ks (TTEK, UGI, WDFC) and FTDR's clean F9 fill out the middle. The main accounting concerns are DORM (CFO about half of NI), the amended-filing flags on GRMN and ONC, and stale fiscal years at CLX and BLBD. No lesson in learning.json names the Fundamentals Analyst and there are no graded calls for this role, so none shaped these calls; I used news_memory only to note pending deals (RRC, CART) that make their fundamentals rank moot.",
+  "rankings": [
+    {
+      "symbol": "VRSN",
+      "rank": 1,
+      "why": "Only name on the menu with F-score 9 of 9 computable plus a near-top gp_sector_pct (0.993). Gross profitability is 1.10, CFO of $1.09B is above NI of $0.83B, and vol_252d of 0.283 is among the calmest.",
+      "concerns": "Insider sale of about $1.0M on 11-19 (news_memory). That is sentiment and not an accounting issue. FY ended 2025-12-31, so the data is about 11 months old, but that is normal for a calendar filer."
+    },
+    {
+      "symbol": "CARG",
+      "rank": 2,
+      "why": "gp_sector_pct 1.0 with gross profitability 1.27, F8 of 9. CFO of $295M is nearly double NI of $156M, and leverage is not up.",
+      "concerns": "vol_252d 0.412 is close to the 0.447 cutoff. current_ratio_improved failed. A Technology label for an online auto marketplace is acceptable but loose."
+    },
+    {
+      "symbol": "DPZ",
+      "rank": 3,
+      "why": "gp_sector_pct 1.0 with gross profitability 1.15, F8 of 9. CFO of $792M is above NI of $602M, and vol_252d is 0.319.",
+      "concerns": "Its top-of-Staples rank comes from the Wholesale-Groceries SIC label (it is a restaurant franchisor), so the case rests on absolute quality and not on the sector rank. leverage_not_up failed. An EVP sold about $993K of stock on 11-23 (sentiment only)."
+    },
+    {
+      "symbol": "TTEK",
+      "rank": 4,
+      "why": "gp_sector_pct 0.995 with gross profitability 0.97, F7. The fiscal year is fresh (FY ended 2026-09-27, known since 2026-11-17), and CFO of $523M is above NI of $441M.",
+      "concerns": "leverage_not_up and asset_turnover_improved both failed."
+    },
+    {
+      "symbol": "FTDR",
+      "rank": 5,
+      "why": "F-score 9 of 9, gp_sector_pct 0.954. CFO of $416M is well above NI of $255M.",
+      "concerns": "vol_252d of 0.422 is near the cutoff. The 11-12 8-K 5.02 aged out unread (news_memory), so read it before any proposal."
+    },
+    {
+      "symbol": "UGI",
+      "rank": 6,
+      "why": "gp_sector_pct 1.0 in Utilities with a fresh fiscal year (FY ended 2026-09-30, known since 2026-11-19). CFO of $1.135B is above NI of $692M, leverage is not up, and vol_252d of 0.259 is the second-calmest on the menu.",
+      "concerns": "Absolute gross profitability is low (0.238), as is typical for a utility, so the rank is relative to a low-GP sector. roa_improved and asset_turnover_improved failed."
+    },
+    {
+      "symbol": "IDXX",
+      "rank": 7,
+      "why": "gp_sector_pct 0.942 with gross profitability 0.79, F8. CFO of $1.18B is above NI of $1.06B.",
+      "concerns": "The margin of CFO over NI is the slimmest among the top names. current_ratio_improved failed."
+    },
+    {
+      "symbol": "WDFC",
+      "rank": 8,
+      "why": "gp_sector_pct 1.0 in Materials with gross profitability 0.77. The fiscal year is fresh (FY ended 2026-08-31). CFO of $105M is above NI of $82M, and leverage is not up.",
+      "concerns": "Dollar volume of $23.6M is close to the $20M floor. roa_improved and current_ratio_improved failed. F7 is the minimum."
+    },
+    {
+      "symbol": "INCY",
+      "rank": 9,
+      "why": "F8 with gp_sector_pct 0.906. CFO of $1.41B is above NI of $1.29B, and both leverage and current ratio improved.",
+      "concerns": "asset_turnover_improved failed. The MAESTRA-3 drop and 11-17/11-18 insider sales are in news_memory; they are not accounting items."
+    },
+    {
+      "symbol": "TPR",
+      "rank": 10,
+      "why": "F8 with gp_sector_pct 0.943. CFO of $1.98B is above NI of $1.53B, leverage is not up, and FY June 2026 is reasonably fresh.",
+      "concerns": "vol_252d of 0.415 is near the cutoff. current_ratio_improved failed."
+    }
+  ],
+  "red_flags": [
+    {
+      "symbol": "DORM",
+      "flag": "Accruals: CFO of $114M is barely more than half of NI of $204M (cfo_exceeds_net_income failed). Earnings are not backed by cash.",
+      "severity": "high"
+    },
+    {
+      "symbol": "GRMN",
+      "flag": "Pre-computed flag: an amended 10-K/10-Q was filed in the last two years (possible restatement). CFO of $1.633B is also slightly below NI of $1.664B.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "ONC",
+      "flag": "Pre-computed flag: an amended 10-K/10-Q was filed in the last two years (possible restatement). no_dilution and leverage_not_up also failed.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "CLX",
+      "flag": "Stale fiscal year: fy_end 2025-06-30, known since 2025-08-08. The FY2026 10-K (June 2026 year-end) is not in the data, so the score rests on numbers about 17 months old.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "BLBD",
+      "flag": "Stale fiscal year: fy_end 2025-09-27, known since 2025-11-24. FY2026 results are due 12-02 (company date per news_memory), so the score is a year old and about to be replaced.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "RRC",
+      "flag": "Pending EQT all-stock acquisition (news_memory). The price trades on the deal, not on these fundamentals, so the gp_sector_pct 1.0 rank is not actionable. leverage_not_up and gross_margin_improved also failed.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "CART",
+      "flag": "Pending $65 cash acquisition by DoorDash under DOJ review (news_memory). It is a deal-spread position, not a fundamentals one. The Industrials label also does not fit a grocery-delivery platform.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "CVS",
+      "flag": "Thin earnings: NI of $1.77B on $402B revenue, roa_improved failed and dilution occurred. The CMS proposed Medicare Advantage audit-recovery rule (news_memory) also bears on the insurance arm.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "MLI",
+      "flag": "CFO of $755M is slightly below NI of $765M (cfo_exceeds_net_income failed).",
+      "severity": "low"
+    },
+    {
+      "symbol": "GRDN",
+      "flag": "fscore_computable is 8 (no_dilution is null), so its F7 leans on a missing test that scored 0. It is the only menu name below 9 computable.",
+      "severity": "low"
+    },
+    {
+      "symbol": "WINA",
+      "flag": "Gross profitability of 3.33 sits on a total asset base of only $24.9M, so the metric is inflated by the small balance sheet. no_dilution also failed.",
+      "severity": "low"
+    },
+    {
+      "symbol": "DPZ",
+      "flag": "The sector label is a SIC artifact (Wholesale-Groceries for a pizza franchisor), which inflates its Consumer Staples rank. leverage_not_up failed.",
+      "severity": "low"
+    },
+    {
+      "symbol": "MSCI",
+      "flag": "Labelled Industrials, but it is a financial-data business (same artifact for MCO). leverage_not_up failed for both, which is a shared concern for the pair.",
+      "severity": "low"
+    },
+    {
+      "symbol": "FAST",
+      "flag": "Labelled Consumer Discretionary, but it is an industrial MRO distributor (same for MSM). Ranks within that sector are not comparable.",
+      "severity": "low"
+    },
+    {
+      "symbol": "ADBE",
+      "flag": "fy_end 2025-11-28: the data is nearly a full fiscal year old, and the FY2026 year-end is this week. leverage_not_up and current_ratio_improved failed.",
+      "severity": "low"
+    },
+    {
+      "symbol": "UNFI",
+      "flag": "Thin earnings: NI of $84M on $31.2B revenue, and no_dilution failed. Earnings are estimated about 12-01 (news_memory).",
+      "severity": "low"
+    }
+  ],
+  "holdings_notes": [
+    {
+      "symbol": "TLT",
+      "note": "This is a Treasury bond ETF. It is never eligible for an SEC-fundamentals screen of operating companies, so its absence from the menu is structural and not a signal. I have no fundamentals view on it. Judge it on its own stop and duration thesis. Every other held equity is still on today's menu."
+    }
+  ]
+}
