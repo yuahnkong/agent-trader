@@ -1,0 +1,51 @@
+{
+  "summary": "No proposals today. The regime filter is off (SPY 1.62% under its 200-day), so the only buys allowed are TLT and GLD, because BND and IEF are wash-sale blocked. GLD is on the Market Analyst's avoid list (5d -7.67%, 19.54% under its 200-day). TLT is already at its target weight of about 8% of equity. I am stating that target once under L4. TLT's 5-day hedge figure partly repeats the week the 11-23 and 11-24 adds already counted, and today's note calls long duration the sleeve carrying the 12-09 FOMC risk, so a fourth add would be averaging up on evidence already used. The roughly 49.6% cash is idle because of the regime filter. It is not a reason to keep any invalidated position, and none is invalidated. L7 check on every holding: no stop_alerts, and every stop block reads ok. SAM is closest, 5.33% above its $201 stop. Every stored clause is unmet: CARG, DPZ, IDXX, INCY, MSCI and VRSN have no guidance cut, negative 8-K or reversed guide (News Analyst, filings checked per L2), and DPZ and SAM remain on the menu with CFO above net income. KR: the cyber incident is still unconfirmed, and its 12-03 print has not happened. SAM: no 8-K 2.02 or 7.01 guidance cut; the 11-19 5.02 is a CEO handover. TLT: SPY 5d is -1.86%, and TLT 5d is +2.44%, above it, so the duration clause is unmet; TLT is 1.34% under its 200-day, inside the 4% trend test. So no sell is owed. Notes for the PM's thesis_updates, no trade slot needed. (1) Restate TLT's $76.30 stop from the about $81.10 blended cost across three lots (about 5.9% under it), as its stored text asks. (2) Under L6, DPZ's 'keeping most of the gain' and IDXX's 'locking in most of the post-earnings gain' are still stored. (3) Under L8, the Market Analyst has Health Care back on his favored list today (with Staples), so IDXX's and INCY's 'no longer on the favored list (as of 11-20)' lines are stale and should be restated. I do not use the restored tilt as a reason to add, because the filter blocks equity buys. (4) KR's 12-03 call is now inside the 5-day window, so no KR add.",
+  "proposals": [],
+  "holdings_review": [
+    {
+      "symbol": "DPZ",
+      "verdict": "hold",
+      "why": "At about 11.9% it is the largest position, but its 0.11 beta and F8, cash-backed franchise (CFO $792M vs net income $602M) are what I would buy into a risk-off, tech-led drawdown, and I expect it to beat SPY over 20 sessions. The BNP Underperform and the EVP sale are sentiment, not clause events. The lot is short-term until 2027-10-21, so tax gives no reason to hold or sell; I am not trimming because no stored clause is met and the cap room is nearly used (buy cap $3.77)."
+    },
+    {
+      "symbol": "TLT",
+      "verdict": "hold",
+      "why": "It is the one sleeve hedging this week (5d +2.44% vs SPY -1.86%) and the only regime-allowed duration the book can hold. I expect it to beat SPY over 20 sessions if the risk-off stance holds, while knowing the 12-09 FOMC with hikes priced is the main way that fails. Target weight is about 8%, already reached, so no adds."
+    },
+    {
+      "symbol": "VRSN",
+      "verdict": "hold",
+      "why": "It is the menu's top name (F9, gp_sector_pct 0.993), and its 0.09 beta makes it nearly immune to the tech selloff that puts Technology on the avoid list. I would buy it today as a quality, low-market-risk holding and expect it to beat a falling SPY."
+    },
+    {
+      "symbol": "KR",
+      "verdict": "hold",
+      "why": "Staples is the Market Analyst's first favored sector (XLP 21d +4.46% vs SPY -6.09%, 8.98% above its 200-day) and KR's beta is negative, so I expect it to beat SPY. The 12-03 print is inside the 5-day window and is a reason not to add, not to sell; the cyber and guidance clauses are untested until then."
+    },
+    {
+      "symbol": "CARG",
+      "verdict": "hold",
+      "why": "F8, gp_sector_pct 1.0, CFO about 1.9x net income, a beat-and-raise with a $250M buyback, and a 0.47 beta. Communication is on the avoid list, but the case rests on quality and half-market beta, which should beat SPY in a continued drawdown."
+    },
+    {
+      "symbol": "MSCI",
+      "verdict": "hold",
+      "why": "F8, CFO $1.59B vs net income $1.20B, beta about 0.42, and the earnings event has passed (next 2027-01-27). It is a quality, lower-beta compounder I would buy today and expect to beat SPY while the market stays risk-off; it fails leverage_not_up, which I accept."
+    },
+    {
+      "symbol": "IDXX",
+      "verdict": "hold",
+      "why": "Health Care is back on the Market Analyst's favored list today (XLV 15.24% above its 200-day, 21d +3.03%), and IDXX is F8 with a fresh beat-and-raise. After the 11-23 half-trim the remaining 4.2% is a reasonable size for its 0.71 beta, the highest among my single stocks, and I expect the sector tilt to carry it past SPY."
+    },
+    {
+      "symbol": "INCY",
+      "verdict": "hold",
+      "why": "Health Care is favored again, INCY is F8 with CFO above net income and a 0.46 beta, and the dropped MAESTRA-3 study kept guidance intact. I would buy this small 2.5% position today and expect it to beat SPY, though single-name biotech risk is larger than its beta."
+    },
+    {
+      "symbol": "SAM",
+      "verdict": "hold",
+      "why": "It is the closest to its stop (5.33% above $201) and under water (-3.8%), but Staples is favored, it is F8 with CFO about 2.5x net income, and its near-zero beta suits a falling tape. I expect it to beat SPY over 20 sessions; I am not selling on the CEO handover alone, since no guidance-cut 8-K exists. This is my lowest-conviction hold."
+    }
+  ]
+}
