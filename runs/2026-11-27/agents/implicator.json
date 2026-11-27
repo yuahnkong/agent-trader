@@ -1,0 +1,31 @@
+{
+  "summary": "Both proposals are sales that lower concentration, and neither raises a tax or wash-sale problem. Together they lift cash from 49.5% to about 55.9% of equity ($345.41 of $618.32) and leave TLT (8.15%) and DPZ (about 8.09%) as the two largest positions. The beta-based 10% drop loss improves only slightly, from -$4.76 to about -$4.61. That figure still understates risk: KR's negative beta, which its stored thesis calls an artifact, offsets about $2.03 of it, and selling SAM removes another artifact offset of about $0.14. No lesson in learning.json names the Implicator, and there are no graded Implicator calls. L3's rule to use bucket rather than screen_label was applied here: DPZ is counted as Consumer Discretionary, not Staples.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "SAM is 2.40% of equity ($14.81), well under the 15% cap. After the sale the Consumer Staples bucket falls from 8.29% to 5.89% (KR only). Stocks fall from about 42.4% of equity to about 40.0%, and cash rises from 49.5% to about 51.9%. No equity ETF, bond ETF or crypto weight changes. The asset mix stays single stocks (about 40%), bond ETF (TLT 8.15%) and cash. No index ETF or crypto is held.",
+      "overlap": "The sale removes overlap: SAM and KR are one Staples factor bet (L3), and the sale leaves KR as the only name in the bucket. The cost is that the Market Analyst's favored Staples tilt then rests on one name, which reports at its company-confirmed 12-03 call, 4 trading days out. No ETF holds SAM in this book, since no index ETF is held.",
+      "tax": "There is one lot: 0.068092 shares at $220.142, opened 2026-11-17, short-term, and long-term on 2027-11-18, about a year away. At the $217.52 mark the sale realizes a short-term loss of about -$0.18. Holding would not reach long-term treatment soon, so there is no tax reason to wait.",
+      "wash_sale": "No risk today. The full position goes, so no shares bought within the past 30 days are left behind. The 11-17 buy is the lot being sold, not a replacement. A buy of SAM before about 2026-12-27 would be a wash sale on the -$0.18 loss. With the regime filter off that costs nothing for now, but SAM should be added to buy_blocked.",
+      "summary": "Clean exit: concentration and overlap fall, the tax effect is negligible, and there is no wash sale. Staples exposure becomes KR alone (5.89%) going into its 12-03 print. Stress rises by about $0.14 only because SAM's artifact negative beta is removed."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "DPZ is 12.07% of equity ($74.62), the largest position and under the 15% cap. Selling 0.33 of it (about 0.0677 shares, about $24.62) leaves about $49.99, or 8.09% of equity, just below TLT's 8.15%. The Consumer Discretionary bucket (DPZ only; its Staples screen_label is the SIC artifact) falls from 12.07% to about 8.09%. That makes the bucket weights about Bonds 8.15, Consumer Discretionary 8.09, Health Care 6.62, Technology 6.15, Staples 5.89 (after P1), Communication 4.99 and Financials 4.25. No sector is then above about 8.2%.",
+      "overlap": "DPZ overlaps no other holding by bucket: it is the only Consumer Discretionary name. By SIC label it would stack with KR in Staples, but the business is a restaurant franchisor, so I don't count that. No index ETF is held, so there is no ETF overlap. The trim reduces the single largest idiosyncratic bet. DPZ's 0.117 beta means the trim gives up little of the book's low-beta character in the stress figure.",
+      "tax": "There is one lot: 0.205285 shares at $316.584, opened 2026-10-20, short-term, and long-term on 2027-10-21, about 11 months away. FIFO sells about 0.0677 shares from that lot. At the $361.53 mark that realizes a short-term gain of about $3.05 (0.0677 x $44.95). The long-term date is not close, so the trim does not forfeit a nearby rate change.",
+      "wash_sale": "none",
+      "summary": "Sound size trim: DPZ goes from 12.07% to about 8.09% and the largest bucket from 12.07% to about 8.15% (TLT). It realizes about $3.05 of short-term gain with no wash-sale exposure, and lowers the stress loss by about $0.29."
+    }
+  ],
+  "stress_10pct_drop": {
+    "before_usd": -4.76,
+    "after_usd": -4.61
+  },
+  "notes": {
+    "stress_arithmetic": "Before (from the per-$100 figures): CARG -1.42, DPZ -0.87, IDXX -1.78, INCY -0.67, KR +2.03, MSCI -1.13, SAM +0.14, TLT -0.68, VRSN -0.37, total -4.76, which matches the packet. P1 removes SAM's +0.14 (14.81 x +0.95/100). P2 removes 24.62 x -1.17/100, which is +0.29 less loss. After: -4.76 - 0.14 + 0.29 = -4.61.",
+    "stress_caveat": "KR's +$2.03 and SAM's +$0.14 come from negative betas that both stored theses call statistical artifacts. Without KR's offset the after-trade figure would be about -$6.64. TLT's long-duration rate risk does not show in a beta-based stress.",
+    "cash_after": "Cash goes from $305.98 to about $345.41, about 55.9% of equity. It is idle because the regime filter allows only BND, GLD, IEF and TLT. BND and IEF are wash-sale blocked and TLT is at its stated target.",
+    "crypto": "None held or proposed, so the 5% crypto cap is not engaged."
+  }
+}
