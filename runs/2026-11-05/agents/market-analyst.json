@@ -1,0 +1,33 @@
+{
+  "stance": "neutral",
+  "confidence": 0.4,
+  "summary": "SPY is above its 200-day (766.81 vs 727.12, +5.46%) but flat to down over 5 and 21 days (-0.71%, -1.58%), with a sharp rotation out of Technology and into defensives and cyclicals under a stable index. Signals point both ways, so the evidence favors a roughly 1% range over the next 5 sessions; keep normal sizing and do not add risk on the index level alone.",
+  "reasons": [
+    "Trend intact: SPY 766.81 is +5.46% above its 200-day SMA of 727.12, and 20-day realized vol is 12.87%, equal to the 252-day figure, so no volatility regime change.",
+    "Index is going nowhere: SPY 5d -0.71%, 21d -1.58%, 63d +0.02%. That is a flat three-month tape, not a trend to lean on in either direction.",
+    "Leadership is rotating, not collapsing: XLK 5d -7.59% and 21d -12.62%, QQQ 5d -4.64% and 21d -8.91%, while RSP (equal weight) is 5d +2.71% and 21d +5.18% and IWM 5d +0.97%. Breadth is healthy even as the mega-cap growth complex sells off, which keeps SPY from falling much.",
+    "The tech drawdown is a risk on the downside: QQQ is only +1.84% above its 200-day, and XLK +4.00%. A further leg down in the heavy-weight sector could pull SPY below -1% despite broad support.",
+    "Defensive sectors lead: XLV 21d +13.51%, XLP +12.40%, XLRE +9.78% (5d +7.10%), XLF +9.61%. Strong defensive and rate-sensitive leadership is not a clean risk-on signal.",
+    "Rates are rallying: TLT 5d +1.38%, 21d +6.24%; IEF 21d +3.20%; BND 21d +2.48% (TLT up means long yields down). Credit is calm: HYG 5d +0.43%, 21d +0.85%, LQD 21d +2.70%, so spreads are not flagging stress.",
+    "Volatility proxy is easing: VIXY 5d -3.88% (read the short-term move only), which argues against a near-term spike but is not strong enough to call a rally.",
+    "Energy is falling: XLE 5d -7.20%, consistent with an oil pullback helping yields and the broad index while hurting the energy complex.",
+    "Track record: 5 right, 2 wrong over 7 graded stances (0.714), but the always-neutral baseline is also 0.714, so the record has not yet beaten a constant neutral. No lesson in learning.json applies to the Market Analyst, so none shaped this call."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Financials", "Real Estate"],
+    "avoid": ["Technology", "Communication", "Energy"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Prefer broad and equal-weight US exposure over Nasdaq: VOO 21d -1.59% and 5.47% above its 200-day, VTI 21d -1.47%, versus QQQ 21d -8.91% with only 1.84% of cushion. VXUS (21d -2.24%, 63d -2.65%) and VWO (21d -7.16%, 63d -5.96%, 3.3% below its 200-day) remain weaker than US core. VNQ is strong (21d +9.01%) but is a rate-driven move that reverses if long yields rise again.",
+    "bonds_gold": "Bonds are rallying: TLT 21d +6.24%, IEF +3.20%, BND +2.48% (vol_252d 4.0% for BND), though TLT, IEF and BND all sit at or just below their 200-day averages (-1.30%, -0.56%, -0.07%), so the move is a bounce, not yet a confirmed trend. Short and intermediate bonds are the lower-risk way to hold it. Gold is weak: GLD 21d -2.56%, 63d -4.41%, 9.58% below its 200-day, so it is not attractive.",
+    "crypto": "Risky and not a stance-driving signal: BTC 21d -1.39%, 63d +4.04%, 9.92% above its 200-day, with 44% annualized volatility; ETH 21d +0.18%, 63d +1.28%, 12.32% above its 200-day, with 60% volatility. Size small; moves of this scale can swamp any stance change."
+  },
+  "watch": [
+    "SPY closing below about 760, which would show the tech selloff overwhelming breadth and move the stance toward risk-off.",
+    "QQQ falling through its 200-day (currently only +1.84% above) or XLK extending beyond its -12.62% 21-day drop.",
+    "Rotation reversing: RSP and defensive sectors (XLV, XLP) rolling over together with SPY, which would remove the support under the index.",
+    "A turn in long yields: TLT giving back its 21-day +6.24% gain would pressure XLRE, VNQ and bond sleeves and signal higher rate risk.",
+    "A VIXY jump (not its level) or HYG falling below its 200-day (currently +0.04%) as a credit-stress signal.",
+    "Tech stabilizing with SPY pushing above its recent range, with RSP holding gains, would support moving to risk-on."
+  ]
+}

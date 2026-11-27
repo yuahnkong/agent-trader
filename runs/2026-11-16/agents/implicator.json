@@ -1,0 +1,34 @@
+{
+  "summary": "Taken together, the three trades move about $39.62 from the book's only bond sleeve into $25 of US broad-market beta (VTI) and $25 of a low-beta Financials name (MCO). The estimated loss in a 10% market drop rises from $22.01 to $25.43 (3.5% to 4.0% of equity). Cap-weighted US ETFs would be 25.2% of equity, one day before Nvidia's 11-17 print, and no bond or gold sleeve would be left. No proposal breaches the 15% cap or creates a wash-sale problem. No lesson in learning.json names the implicator, and the file holds no graded implicator calls, so no lesson shaped these checks.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "MCO $25 is 3.96% of $630.68 equity, well inside the 15% cap ($90.75 buy-cap room). The Financials bucket rises from 4.31% (MSCI alone) to 8.28%. Single stocks go from 58.8% to 62.7% of equity. No crypto is involved.",
+      "overlap": "By bucket MCO is Financials, though its screen_label is Industrials, the same SIC misfile as MSCI's. Its ratings and data business is a close cousin of MSCI's index and analytics business, so MSCI plus MCO is one financial-data sleeve of about 8.3%. The sleeve is concentrated but not large. The Proposer already sized for this overlap. MCO is also an S&P 500 constituent, so VOO and VTI hold it too, but its index weight is small and the look-through adds little. It adds to a favored sector the book holds lightly, not to a sector the book already leans on.",
+      "tax": "This is a buy, so no lots are sold. It opens a new short-term lot that turns long-term on about 2027-11-17.",
+      "wash_sale": "none",
+      "summary": "Acceptable. It adds 0.53 beta, and the 10% stress cost is about $1.32. Concentration is moderate because of the MSCI/MCO pair, which the $25 size already accounts for."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "VTI goes from $48.93 to $73.93, or 7.76% to 11.72% of equity, inside the cap ($45.67 room). VOO plus VTI rise from 21.24% to 25.20% of equity, the largest exposure in the book. Equity ETFs plus single stocks reach 87.9% of equity, with no bond or gold ETF left if P3 also fills.",
+      "overlap": "VTI largely duplicates VOO, which is 13.48% and near its own cap. That puts about a quarter of the account in the same cap-weighted US market, and its largest weight, Nvidia, reports on 11-17 under an interim CEO (news_memory 11-13: medium event risk for VOO and VTI). VTI also holds nearly every held stock (WMT, DPZ, IDXX, KR, MSCI, MCO, FAST, VRSN, INCY, EXEL, CARG), so this buy adds a small look-through to existing names. Its broader small- and mid-cap tail is the only part that is new. The buy reverses VTI's stored 'no adds' thesis, which the Proposer says it does on purpose.",
+      "tax": "This is a buy, so no lots are sold. It adds a third short-term VTI lot, long-term about 2027-11-17. Both existing lots (10-21 and 10-22) carry small losses, about -2.1% on cost.",
+      "wash_sale": "none. VTI had no loss sale in the last 30 days (recent_realized: BTC, MSM, VNQ, WMT, IEF only). VTI is not blocked, and adding to it does not touch the blocked IEF, VNQ or BTC.",
+      "summary": "This is the biggest risk add of the day. It contributes about -$2.52 of the -$3.42 stress increase and lifts cap-weighted US beta to 25% of equity one session before Nvidia reports. A one-day delay costs little, as the Proposer notes."
+    },
+    {
+      "proposal_id": "P3",
+      "concentration": "Selling BND in full ($39.62, 6.28% of equity) takes the Bonds bucket to 0%. Cash goes from $86.41 (13.7%) to about $76.03 (12.1%) after all three trades, still above the roughly 10% buffer. Asset mix after: stocks 62.7%, equity ETFs 25.2%, bonds/gold 0%, crypto 0%, cash 12.1%. The account becomes all equity plus cash.",
+      "overlap": "BND overlaps no other holding, since IEF was sold 11-13 and is now buy-blocked. Removing it reduces diversification by asset class. With BND's beta at 0.105, though, the stress gain from holding it is only about $0.42, and the Market Analyst says duration is not hedging. In a 10% drop BND does little that the cash buffer does not do.",
+      "tax": "FIFO sells both lots, and both are short-term. Lot 1 is 0.420735 sh @ $71.28, opened 10-23, long-term on 2027-10-24 (about 49 weeks away). Lot 2 is 0.140116 sh @ $71.298, opened 10-28, long-term on 2027-10-29. At the position's market value (about $70.64/share) the realized result is about -$0.27 on lot 1 and -$0.09 on lot 2, about -$0.36 in total, all a short-term loss. Neither lot is near its long-term date, so selling now has no timing cost.",
+      "wash_sale": "none. The 10-28 lot was bought within 30 days before this loss sale, but it is sold in the same full exit, so no replacement shares remain. A partial sale would have triggered a wash sale. After the sale BND enters a 30-day buy block, until about 12-16, which covers the 12-09 FOMC. A bond re-entry around the Fed would then have to use TLT (IEF is blocked until about 12-13).",
+      "summary": "It is tax-clean and frees cash. The cost is that the book has no bond sleeve going into the 12-09 FOMC, and BND cannot be bought back until about 12-16."
+    }
+  ],
+  "stress_10pct_drop": {
+    "before_usd": -22.01,
+    "after_usd": -25.43
+  },
+  "stress_notes": "After = -22.01 + MCO 25 x (-5.26/100 = -1.32) + VTI 25 x (-10.08/100 = -2.52) - BND 39.62 x (-1.05/100 = -0.42 removed) = -25.43, or 4.03% of equity against 3.49% before. VOO and VTI alone account for about -$15.9 of the after figure. The before figure is flattered by KR's -0.615 beta, which credits about +$2.29; KR's own thesis calls that beta a statistical artifact, not a hedge. Without that credit the book's real downside is closer to -$24 before and -$27.7 after."
+}

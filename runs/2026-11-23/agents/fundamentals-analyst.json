@@ -1,0 +1,138 @@
+{
+  "summary": "The menu is dated 2026-11-17, six days stale, and every candidate has fscore_computable 9, so no score is propped up by missing tests. VRSN (F9, gp_sector_pct 0.993, CFO $1.09B vs NI $826M, the lowest-vol name in the top tier) and CARG (F8, gp_sector_pct 1.0, CFO about 1.9x NI) remain the strongest names on the screen; FTDR is the best name on the menu that news_memory does not mark as held. No Reviewer lesson in learning.json names the fundamentals-analyst and there are no graded fundamentals calls yet, so none shaped this ranking; news_memory was used only to set aside the two pending-acquisition names (CART, RRC) and to check for 4.01/4.02 items (none on the names ranked here).",
+  "rankings": [
+    {
+      "symbol": "VRSN",
+      "rank": 1,
+      "why": "F-score 9 of 9 computable tests; gp_sector_pct 0.993 (gross profitability 1.10); CFO $1,091M exceeds NI $826M; NI is about half of $1,657M revenue; vol_252d 0.283, the calmest of the top-percentile names. Held per news_memory.",
+      "concerns": "FY ended 2025-12-31, so the data is about 11 months old. The 11-19 ~$1.0M insider sale (news_memory) is sentiment and not an accounting item."
+    },
+    {
+      "symbol": "CARG",
+      "rank": 2,
+      "why": "F8; gp_sector_pct 1.0 (gross profitability 1.27); CFO $295M is nearly double NI $156M, the strongest cash backing of any top-ranked name; leverage did not rise and no dilution. Held per news_memory.",
+      "concerns": "current_ratio_improved failed. vol_252d 0.406 is near the 0.443 cutoff. FY2025 data predates the 11-05 Q3 print."
+    },
+    {
+      "symbol": "FTDR",
+      "rank": 3,
+      "why": "F-score 9 of 9; gp_sector_pct 0.954; CFO $416M vs NI $255M. It passes leverage, liquidity, dilution, margin and turnover tests together, and news_memory does not list it as held.",
+      "concerns": "vol_252d 0.421 is close to the cutoff. Dollar volume of $46M is adequate but not deep. The FTDR 8-K 5.02 filed 11-12 (L2 evidence) was never read."
+    },
+    {
+      "symbol": "DPZ",
+      "rank": 4,
+      "why": "F8; gross profitability 1.15; CFO $792M vs NI $602M; vol 0.318. Held per news_memory.",
+      "concerns": "Its gp_sector_pct of 1.0 is a SIC artifact: a pizza franchisor filed under Wholesale-Groceries/Consumer Staples. Judge it on absolute quality, not its sector rank. leverage_not_up failed."
+    },
+    {
+      "symbol": "TPR",
+      "rank": 5,
+      "why": "F8; gp_sector_pct 0.943; CFO $1,979M vs NI $1,528M; FY ended 2026-06-27, fresher than most of the menu; no dilution and leverage not up.",
+      "concerns": "vol_252d 0.407 is near the cutoff; current_ratio_improved failed."
+    },
+    {
+      "symbol": "IDXX",
+      "rank": 6,
+      "why": "F8; gp_sector_pct 0.942; CFO $1,182M vs NI $1,059M; NI is about 25% of revenue.",
+      "concerns": "CFO is only modestly above NI. current_ratio_improved failed. FY2025 data. Its Health Care premise was lost on 11-20 per L8 evidence, which is a portfolio question rather than an accounting one."
+    },
+    {
+      "symbol": "SAM",
+      "rank": 7,
+      "why": "F8; gp_sector_pct 0.945; CFO $270M is about 2.5x NI $108M, very strong cash backing. Held per lesson evidence.",
+      "concerns": "Thin NI margin, about 5.5% of revenue. Founder-CEO handover takes effect 11-23 (8-K 5.02 per L2 evidence). Adds to the Staples label stack."
+    },
+    {
+      "symbol": "AAPL",
+      "rank": 8,
+      "why": "F-score 9 of 9; FY ended 2026-09-26 (known since 11-03), the freshest data among large names; CFO $145.1B vs NI $132.2B; lowest vol on the menu at 0.250.",
+      "concerns": "gp_sector_pct 0.892 is lower in the Technology ranking than the names above it. CFO is only modestly above NI."
+    },
+    {
+      "symbol": "WDFC",
+      "rank": 9,
+      "why": "F7; gp_sector_pct 1.0 (gross profitability 0.77); CFO $105M vs NI $82M; FY ended 2026-08-31, so the data is fresh.",
+      "concerns": "roa_improved and current_ratio_improved failed. Dollar volume of $23M is just over the $20M floor. A Materials label on a branded household-products business probably flatters its sector rank."
+    },
+    {
+      "symbol": "MSCI",
+      "rank": 10,
+      "why": "F8; gp_sector_pct 0.903; CFO $1,588M vs NI $1,202M; NI is about 38% of revenue; vol 0.300. Held per news_memory.",
+      "concerns": "leverage_not_up failed. The Industrials label is a SIC artifact for a financial-data business, so its sector percentile is measured against the wrong peers."
+    }
+  ],
+  "red_flags": [
+    {
+      "symbol": "DORM",
+      "flag": "High accruals: CFO of $114M is only about 56% of NI of $204M (cfo_exceeds_net_income failed). Earnings are not backed by cash.",
+      "severity": "high"
+    },
+    {
+      "symbol": "GRMN",
+      "flag": "Pre-computed flag: amended 10-K/10-Q in the last two years (possible restatement). Also CFO of $1,633M is below NI of $1,664M, and a consumer/fitness device maker labelled Industrials looks mislabelled.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "ONC",
+      "flag": "Pre-computed flag: amended 10-K/10-Q in the last two years (possible restatement). It also fails no_dilution and leverage_not_up.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "CART",
+      "flag": "Pending $65 DoorDash acquisition under DOJ review (news_memory). The price ($58.13) is set by deal spread and break risk, not by these fundamentals. The Industrials label also does not fit a grocery-delivery platform.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "RRC",
+      "flag": "Pending EQT all-stock acquisition (news_memory). The stock now trades on the deal, so the FY2025 fundamentals are not the thesis. leverage_not_up and gross_margin_improved failed.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "CLX",
+      "flag": "Stale fiscal year: fy_end 2025-06-30, known since 2025-08-08. A FY2026 10-K should exist by now, so the menu is scoring 17-month-old numbers.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "SMG",
+      "flag": "Stale fiscal year: fy_end 2025-09-30. The FY2026 10-K is due about now and is not reflected. It also fails no_dilution.",
+      "severity": "low"
+    },
+    {
+      "symbol": "BLBD",
+      "flag": "Stale fiscal year: fy_end 2025-09-27. The FY2026 10-K is due about now and is not reflected.",
+      "severity": "low"
+    },
+    {
+      "symbol": "ADBE",
+      "flag": "fy_end 2025-11-28 is almost a full year old, and a new fiscal year closes this month. leverage_not_up and current_ratio_improved failed.",
+      "severity": "low"
+    },
+    {
+      "symbol": "MLI",
+      "flag": "CFO of $755M is slightly below NI of $765M (cfo_exceeds_net_income failed). These are mild accruals.",
+      "severity": "low"
+    },
+    {
+      "symbol": "WINA",
+      "flag": "Gross profitability of 3.33 sits on only $24.9M of assets, and no_dilution failed. Dollar volume of $20.4M is at the $20M floor, so it could drop off on liquidity alone.",
+      "severity": "low"
+    },
+    {
+      "symbol": "DPZ",
+      "flag": "Sector label artifact: SIC Wholesale-Groceries gives it Consumer Staples gp_sector_pct 1.0. Other labels that look wrong for the business: FAST and MSM (Consumer Discretionary, but industrial distributors), MSCI and MCO (Industrials, but financial data), AYI (Technology, but lighting), HWM (Materials, but aerospace parts), CVS (Staples, but health services), LRN (Industrials, but education).",
+      "severity": "low"
+    },
+    {
+      "symbol": "MSCI",
+      "flag": "leverage_not_up failed; the same failure shows on MCO, DPZ, TTEK, ADBE, RL, BBY, CLX, BDC and GPOR. Leverage rose in the latest year.",
+      "severity": "low"
+    }
+  ],
+  "holdings_notes": [
+    {
+      "symbol": "TLT",
+      "note": "TLT is a long-Treasury ETF. It can never pass an equity fundamentals screen (no revenue, gross profitability or F-score), so being off the menu says nothing about it and is not a reason to sell. Its thesis rests on rates and the Market Analyst's view; the next dated event is the 12-09 FOMC per news_memory. The PM still owes the restatement of its $76.30 stop from the $80.75 fill (L6 evidence)."
+    }
+  ]
+}

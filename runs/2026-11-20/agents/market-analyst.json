@@ -1,0 +1,31 @@
+{
+  "stance": "risk-off",
+  "confidence": 0.45,
+  "summary": "SPY closed 715.87 on 11-19, 1.96% under its 730.19 200-day, after a -5.45% week. Realized vol has jumped to 23.7% (20d) from a 13.9% one-year norm and VIXY is up 30.7% in 5 days, so selling is spreading from Technology to every sector. Keep equity appetite low. Within the defensive sleeves, intermediate Treasuries are finally acting as a hedge. Gold and crypto are not hedging; they are being liquidated.",
+  "reasons": [
+    "Regime is broken: SPY is 1.96% below its 200-day (715.87 vs 730.19), with 5d -5.45%, 21d -7.40% and 63d -6.28%. All three horizons are negative, so this is a trend and not one bad day.",
+    "Volatility is expanding: SPY 20-day realized vol is 23.67% against 13.90% over 252 days, and VIXY is +30.67% over 5d and +37.42% over 21d. At this vol a 5-session move of 1% or less is the least likely outcome, so I ruled out neutral and chose a direction.",
+    "Breadth has given way: RSP (equal weight) fell 4.12% in 5d and its 21d is now -2.31%. It still sits 1.70% above its own 200-day, but it is no longer holding up while the cap-weighted index falls. IWM is 5.18% below its 200-day (63d -11.69%).",
+    "Tech leads the decline: XLK 5d -7.53%, 21d -14.77%, 6.01% below its 200-day. QQQ 21d -11.05%, 5.42% below its 200-day. Every one of the 11 sector SPDRs is negative over 5d. The mildest is XLP at -1.32%.",
+    "Cross-asset deleveraging: gold (GLD 5d -5.55%, 21d -11.55%, 17.53% below its 200-day), BTC (21d -20.43%, 14.77% below its 200-day) and ETH (21d -21.94%) are falling with stocks while the dollar rises (UUP 21d +2.46%, 5.50% above its 200-day). That is what forced selling looks like, not rotation.",
+    "Duration is now hedging: TLT 5d +0.79% and IEF 5d +0.68% (21d +1.00%) rose in a week when SPY fell 5.45%. This reverses my 11-12/11-13 view that bonds were falling with stocks. Long yields are easing. TLT is still 2.77% below its 200-day, so the move is young.",
+    "What argues against risk-off: credit has not cracked. HYG is only -0.58% over 5d (21d -0.07%) and LQD +0.03% over 5d. A drop this sharp without credit stress can bounce hard. This is why confidence is 0.45 and not higher.",
+    "Track record: my risk-off calls on 11-09 and 11-12 graded right (-1.69% and -5.45%), the 11-06 one wrong (+2.59%), and both risk-on calls (11-10, 11-11) wrong. My hit rate is 0.556 against a 0.444 always-risk-off baseline. No Reviewer lesson in learning.json names the Market Analyst, so none shaped this call."
+  ],
+  "sector_tilts": {
+    "favor": ["Consumer Staples", "Utilities"],
+    "avoid": ["Technology", "Communication", "Energy", "Industrials", "Materials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Risky. VOO 21d -7.42% and VTI 21d -7.05% are both about 2% under their 200-day (-1.95%, -2.05%), and QQQ is worse (-5.42%). International is no shelter: VXUS is 6.40% and VWO 9.40% below their 200-days, with 63d at -10.99% and -12.73%. VNQ is the least-bad equity sleeve (21d +2.16%, 0.34% below its 200-day) but still fell 3.34% over 5d through XLRE. Don't add equity beta. Because the regime filter is off, only defensive ETFs can be bought anyway.",
+    "bonds_gold": "Treasuries look like the better defensive choice now. IEF (21d +1.00%, 5d +0.68%, 1.36% below its 200-day, vol 5.1%) and BND (21d +0.58%, vol 4.1%) are rising while stocks fall. TLT does the same with more volatility (9.7%) and sits further under its 200-day (-2.77%). Gold is the weakest defensive sleeve: GLD is 17.53% below its 200-day with 252d vol of 29.3% and is falling with risk assets and against a strong dollar. Don't treat it as a hedge.",
+    "crypto": "Avoid. BTC is at about $61.9K, 14.77% below its 200-day (21d -20.43%). ETH is 17.68% below its 200-day (21d -21.94%, 63d -28.22%). Both are falling with equities and gold, and neither shows any sign of a bottom."
+  },
+  "watch": [
+    "SPY back above its 200-day (about 730) would move me to neutral or risk-on. A rebound of 1% or more that recovers less than half the 5.45% weekly loss would not.",
+    "HYG breaking lower (5d worse than about -1.5%, or a widening gap below its 200-day from -1.22%) would confirm risk-off and raise confidence. HYG holding flat while VIXY's 5d gain fades would point to a bounce.",
+    "RSP falling below its 200-day (now +1.70%) would mean the selloff has spread from Tech to the whole market.",
+    "If TLT and IEF turn back down along with stocks, my point that duration is hedging again is wrong and the defensive preference moves to cash and short duration (SHY 5d +0.30%).",
+    "If XLP (21d +3.16%, 6.68% above its 200-day) breaks with the rest, Staples is no longer a favored tilt."
+  ]
+}

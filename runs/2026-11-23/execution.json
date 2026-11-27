@@ -1,0 +1,47 @@
+{
+ "date": "2026-11-23",
+ "version": "6",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "WMT",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.396131882",
+   "resized": false,
+   "order_id": "1293a0c5-1eab-4894-8029-f6ec44f13a64",
+   "client_order_id": "at-20261123True-WMT-sell",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "IDXX",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.035974524",
+   "resized": false,
+   "order_id": "dbe55003-d686-4351-aa5c-a36bae9e76c7",
+   "client_order_id": "at-20261123True-IDXX-sell",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "TLT",
+   "side": "buy",
+   "requested_usd": 10.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 10.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "c64ca170-f112-4305-accf-b860e0ea3075",
+   "client_order_id": "at-20261123True-TLT-buy",
+   "order_status": "pending_new"
+  }
+ ]
+}

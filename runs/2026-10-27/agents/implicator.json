@@ -1,0 +1,22 @@
+{
+  "summary": "Both buys are small (2.5% and 1.7% of equity) and break no cap, but they add about $2.20 to the 10% market-drop loss (21.92 to 24.12, 3.6% to 4.0% of equity) and take cash from 14.7% to 10.5%. MSM is described as a new sector, yet FAST (already held at 5.0%) is a direct industrial-distribution peer, so the portfolio gets more exposed to one MRO theme rather than diversified. Neither lesson in learning.json (L1, L2) names the Implicator, so none was applied.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "MSM $15 = 2.5% of $603.17 equity, far under the 15% cap and under its $75.40 buy cap. Fundamentals labels it Consumer Discretionary, where FAST ($30.34, 5.0%) already sits; that sector goes to about $45.3, 7.5%. Stocks overall go from 52.9% to 55.3% of equity. Staples (DPZ, KR, WMT, about $155, 25.8%) are the real concentration and are untouched.",
+      "overlap": "The proposal says it adds a sector we do not hold, but MSM (MSC Industrial) and FAST (Fastenal) are close peers in industrial MRO distribution, so under the data's own label this is a second name in the same theme, and economically a doubling of one industrial-demand bet. The two together would be about $45, 7.5%. Beta 0.72 and low-ish vol add no new market-direction diversifier. No meaningful overlap with VOO/VTI beyond their tiny index weight.",
+      "tax": "Buy only, no lots sold, so no tax event. A new lot would start the 1-year long-term clock on the fill date.",
+      "wash_sale": "none: recent_realized is empty and buy_blocked is empty, so no loss sale in the last 30 days.",
+      "summary": "Within limits and low cost, but adds a second industrial-distribution name next to FAST; stress cost about $1.09 (7.24 per $100 x $15)."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "VXUS $10 = 1.7% of equity, well under the 15% cap and its $90.48 buy cap. Equity ETFs go from $136.94 (22.7%) to $146.94 (24.4%); stocks, equity ETFs, bond ETFs (7.5%) and crypto (2.3%, under the 5% cap) stay in range, and there is still no gold. Cash falls to $63.42, 10.5% of equity, only about $3 above a 10% buffer, so there is little room for the other trades allowed today.",
+      "overlap": "The portfolio holds no non-US equity, so this is the only genuine diversifier proposed. Overlap with VOO/VTI is limited to US large-cap names, which VXUS does not hold. It is not a hedge, though: VXUS beta is 1.114, higher than VOO (0.995) and VTI (1.01), so in a broad sell-off it falls at least as much as the US ETFs.",
+      "tax": "Buy only, no lots sold, so no tax event.",
+      "wash_sale": "none: recent_realized is empty and buy_blocked is empty.",
+      "summary": "Fine on caps and diversifies geography, but not defensive in a drawdown; stress cost about $1.11 (11.14 per $100 x $10)."
+    }
+  ],
+  "stress_10pct_drop": {"before_usd": -21.92, "after_usd": -24.12}
+}

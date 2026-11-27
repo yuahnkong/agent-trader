@@ -1,0 +1,32 @@
+{
+  "stance": "risk-off",
+  "confidence": 0.5,
+  "summary": "SPY is 5.54% below its 200-day after a -8.56% week, with 20-day realized vol at 26.55% (252-day 14.39%) and VIXY +44.65% in 5 days. The selling is led by Technology and spreading into credit, gold and crypto. Long Treasuries are finally rallying as the hedge, so the only things worth owning here are duration and cash. The defensive-only regime filter is on, and new equity risk should wait for a stabilizing week rather than try to catch the bounce.",
+  "reasons": [
+    "Regime: SPY closed 689.81 against a 730.28 200-day (-5.54%); 5d -8.56%, 21d -9.71%, 63d -9.42%. The trend is down on every horizon in the packet.",
+    "Volatility is expanding, not fading: SPY 20-day realized vol is 0.2655 vs 0.1439 over 252 days, and VIXY's short-term moves are +44.65% (5d) and +46.61% (21d).",
+    "Leadership is breaking down from the top. QQQ is 5d -10.51% and 10.79% below its 200-day. XLK is 5d -12.49%, 21d -18.28% and 12.88% below its 200-day. XLC is 5d -7.97%.",
+    "Breadth is damaged but less than the cap-weighted index: RSP 5d -6.20% and only 0.34% below its 200-day, against SPY's -5.54%. That is the main argument for a bounce, but RSP 21d is -4.94%, so the equal-weight line is now giving way too.",
+    "No sector sheltered last week. All eleven SPDRs fell over 5 days; the mildest were XLP -2.05%, XLU -3.07% and XLRE -4.30%. On 21 days only XLP is positive (+0.52%).",
+    "Duration is hedging again. TLT 5d +2.61%, IEF +1.79%, SHY +0.54%, so long yields are falling into the equity drop. That reverses the post-CPI pattern of bonds falling with stocks.",
+    "Credit is splitting by quality: HYG 5d -0.79% and 1.48% below its 200-day while LQD is 5d +0.86%. That is a flight to quality, not a credit event yet, but high yield is leaning the wrong way.",
+    "Deleveraging shows up in the assets that usually diversify. GLD is 5d -9.17%, 21d -12.50% and 20.44% below its 200-day. BTC is 21d -21.81% and ETH 21d -24.24%. UUP is 5d +0.41% and 63d +5.94%, a dollar bid."
+  ],
+  "sector_tilts": {
+    "favor": ["Consumer Staples", "Utilities"],
+    "avoid": ["Technology", "Communication", "Industrials", "Materials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Avoid adding. VOO -5.31% and VTI -5.50% are below their 200-day with 21d near -9.5%. QQQ (-10.79%), VXUS (-9.45%) and VWO (-12.87%) are further below theirs. VNQ is the least damaged equity sleeve (21d -0.10%, 1.33% below its 200-day), but XLRE fell 4.30% last week, so it is not a shelter either. The filter blocks equity buys anyway; this view is for sizing when it reopens.",
+    "bonds_gold": "Treasuries are the attractive defensive sleeve now: TLT 5d +2.61% (1.42% below its 200-day), IEF 5d +1.79% (0.45% below), BND 0.25% below. Prefer intermediate and long duration over short, because the duration rally is the active hedge. Gold is risky, not defensive, at 20.44% below its 200-day with 63d -24.33% and 252-day vol of 0.295. It is being sold with everything else.",
+    "crypto": "Avoid. BTC is 15.42% below its 200-day (21d -21.81%) and ETH is 18.89% below (21d -24.24%), at annualized vol of 0.446 and 0.608. Both are trading as high-beta risk assets in a deleveraging tape."
+  },
+  "watch": [
+    "Move toward neutral or risk-on if VIXY's 5-day return turns negative while SPY holds above about 690, or RSP reclaims its 200-day. That would mean the selloff is exhausting.",
+    "A sharp oversold bounce is the main risk to this call: 5d -8.56% and 20-day vol near 27% leave room for a fast relief move in a holiday-shortened week (market closed 11-26).",
+    "Strengthen risk-off if HYG's 5-day loss deepens past about -2% or LQD turns negative alongside it. That would move this from flight to quality into credit stress.",
+    "If TLT and IEF stop rising while equities fall, as after the 11-10 CPI print, the duration hedge is failing again and cash beats bonds.",
+    "XLK and QQQ relative moves: stabilization there would matter more than defensive-sector strength, since Technology led the decline."
+  ],
+  "learning_applied": "No active lesson names the Market Analyst in applies_to (L2-L9 cover the proposer, news analyst, PM and skeptic), so none shaped this call directly. Track record: risk-off calls on 11-09, 11-12 and 11-13 graded right, and the 11-10/11-11 risk-on calls made against a weakening tape graded wrong. My 0.579 hit rate beats the 0.474 always-risk-off baseline only modestly. With 20-day vol near 27%, a 5-session move inside +/-1% is unlikely, so neutral is the weakest choice. The packet's trend, volatility and cross-asset deleveraging favor risk-off, and confidence is held at 0.5 because the drop is already deep enough to invite a relief rally. The news memory has no macro or rates item since 11-16 and the next dated event is the 12-09 FOMC, so this stance rests on the price packet alone."
+}

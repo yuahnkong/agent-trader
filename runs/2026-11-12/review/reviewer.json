@@ -1,0 +1,6 @@
+{
+  "summary": "Added L8 (process, low confidence): the PM defended IEF as an equity-drawdown hedge on the same morning the Market Analyst's note said bonds were falling with stocks, while VNQ's broken premise was restated correctly; the evidence is the contradiction between same-day run files, not the bond price moves. L2, L4, L6 and L7 were applied and confirmed, with VTI's stored weight figure and MSCI's 'adds a sector' text left stale; no 20-session grade beyond BTC/USD exists yet, so outcome patterns stay in owner_suggestions.",
+  "added": ["L8"],
+  "retired": [],
+  "confirmed": ["L2", "L4", "L6", "L7"]
+}

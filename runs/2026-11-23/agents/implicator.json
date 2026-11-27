@@ -1,0 +1,33 @@
+{
+  "summary": "If all three proposals execute, the book becomes smaller and more defensive. The beta-based 10% drop loss goes from -$5.77 to about -$4.49, and cash rises from 42.1% to about 51.1% of equity. No position or bucket comes near the 15% cap, and none of the three trades has a wash-sale or long-term-holding issue. The stress figure is flattering, though. About $2.1 of offset comes from KR's and SAM's negative betas, which their own theses call artifacts. Without that offset the after-trade loss is about -$6.60. The figure also leaves out TLT's rate risk, which P3 nearly doubles. Learning check: no active lesson names the Implicator in applies_to, and graded_calls has no Implicator entries, so no lesson shaped these calls. I used bucket for sector claims, as L3 asks the other roles to, and I flag DPZ's Staples screen_label where it matters. The news_memory items on held names (WMT print 11-19, KR 12-03 call, INCY/VRSN insider sales) change none of these portfolio checks.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "Sells all of WMT ($49.77, 8.19% of equity). The Consumer Staples bucket falls from 16.25% to about 8.06%, with KR at 5.75% and SAM at 2.31%. That leaves Consumer Discretionary (DPZ alone, 11.71%) as the largest bucket and DPZ as the largest position, under the 15% cap. By SIC screen_label, DPZ+KR+SAM is still about 19.8%, so the label-level Staples stack shrinks but does not disappear. Asset mix: stocks fall from about 53.7% to about 45.5% of equity, and cash rises by $49.77.",
+      "overlap": "This reduces overlap. WMT, KR and SAM are treated as one Staples factor bet, and this removes the largest leg of it. No index ETF is held (us_index_etfs_pct 0), so there is no ETF look-through overlap.",
+      "tax": "One FIFO lot: 0.396132 sh at $118.378, opened 2026-10-20, short-term, long_term_on 2027-10-21 (about 11 months away), so the holding-period cost of selling now is negligible. It realizes a short-term gain of about +$2.88 at the $127.95 mark (+6.1%). The proposal's 'about +8%' overstates it slightly. This adds to the +$1.80 short-term WMT gain realized 11-13.",
+      "wash_sale": "none (a gain sale, and there is no WMT loss sale in recent_realized)",
+      "summary": "Clean exit with a small tax cost. It roughly halves the Staples stack. In the stress test it costs about $0.36, because WMT's 0.73-per-$100 offset goes away."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "Sells half of IDXX (about $24.70). IDXX goes from 8.13% to about 4.07% of equity, and the Health Care bucket from 10.49% to about 6.42% (IDXX 4.07%, INCY 2.35%). Stocks fall a further 4.07 points.",
+      "overlap": "This reduces overlap. IDXX and INCY are the only Health Care names, a sector the Market Analyst no longer favors. IDXX is the highest-beta single stock (0.778), so this trim removes the largest single contributor to the stress loss.",
+      "tax": "One FIFO lot: 0.071949 sh at $555.81, opened 2026-10-20, short-term, long_term_on 2027-10-21 (about 11 months away). Half the lot realizes about +$4.71 of short-term gain at the $676.21 mark (+21.7%), the largest realized gain in this run. Waiting for long-term treatment would mean holding about 11 months, so that is not a reason to delay.",
+      "wash_sale": "none (a gain sale; no IDXX buy in the last 30 days, the lot is from 10-20)",
+      "summary": "This trade does most of the risk reduction: it cuts the stress loss by about $1.92, the most of any proposal. Its tax cost is the largest of the three, at about $4.71 of short-term gain."
+    },
+    {
+      "proposal_id": "P3",
+      "concentration": "Buys $20 of TLT. TLT goes from $25.12 (4.13%) to about $45.12 (about 7.43%), under the 15% cap and inside its $66 buy_cap. The Bonds bucket becomes about 7.4%. After all three trades the mix is about 41.5% single stocks, 7.4% bond ETF, 0% equity ETFs, 0% crypto and about 51.1% cash.",
+      "overlap": "Adds to the only bond holding. There is no equity overlap. All the fixed-income exposure is now one long-duration fund, so a rate move hits the whole bond sleeve at once. The 12-09 FOMC falls inside the test window. TLT is not substantially identical to the loss-sold IEF (7-10y index) or BND (aggregate index), but that is a judgment the stored thesis already makes, not a certainty.",
+      "tax": "Buy; no tax event. It creates a second TLT lot, so if TLT is sold later, FIFO sends the 11-20 $80.75 lot first.",
+      "wash_sale": "none for this buy: TLT has no loss sale in recent_realized and is not in buy_blocked. Two risks follow from it. (1) If TLT is sold at a loss within 30 days after this add, a loss on the 11-20 lot would be a wash sale against this purchase. (2) This only stays clean while TLT is treated as not substantially identical to IEF (loss sale 11-13) and BND (loss sale 11-16).",
+      "summary": "Size and cap are fine, and it adds only -$0.28 to the beta stress. Its real risk is long-duration rate exposure that this stress test does not measure."
+    }
+  ],
+  "stress_10pct_drop": {
+    "before_usd": -5.77,
+    "after_usd": -4.49
+  }
+}

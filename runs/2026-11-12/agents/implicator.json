@@ -1,0 +1,5 @@
+{
+  "summary": "No proposals today, so the trades change nothing and the 10% market-drop loss stays at -$22.59 (3.6% of $626.12 equity). The biggest standing book-level risk is WMT: 12.0% of equity, it enters the 5-day window of an estimated, unconfirmed ~11-19 print, and its beta of -0.05 (+$0.38 in the stress test) understates that single-name gap risk. Other points: VOO is 13.66% against the 15% cap; VOO and VTI together are 21.5% of equity and overlap almost entirely with each other and with large held names such as WMT. KR's -0.61 beta, which the PM has called an artifact, adds +$1.32 to the stress figure. Without the positive-beta offsets from KR and WMT the drop loss would be about -$24.29. Both bond sleeves (BND, IEF; 8.7% by bucket) are NEAR their stops. Every lot is short-term and the nearest long-term date is 2027-10-21, so there is no tax timing issue. Crypto is 0% and the BTC buy block (11-09 loss sale) runs to about 12-09. No lesson in learning.json applies to the Implicator, and the record has no graded Implicator calls.",
+  "checks": [],
+  "stress_10pct_drop": {"before_usd": -22.59, "after_usd": -22.59}
+}

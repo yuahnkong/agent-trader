@@ -1,0 +1,35 @@
+{
+  "summary": "Start building the book slowly with three low-beta, high-quality starter positions (~$65 each, ~$195 total, leaving ~$405 cash) in names with no earnings inside the next five trading days, leaning defensive as the market note advises. VRSN, the top fundamentals name, is deferred until after its 10-22 print rather than bought into it.",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "DPZ",
+      "side": "buy",
+      "notional_usd": 65.0,
+      "fraction": null,
+      "thesis": "Fundamentals-analyst rank 2: gp_sector_pct 1.0 (gross profitability 1.15), F-score 8/9, cfo $792M well above net income $602M. Beta 0.095 (about -$0.95 per $100 in a 10% market drop), which fits the market-analyst's defensive tilt and its call for normal-to-slightly-reduced sizing. News-analyst lists no near-term event risk for DPZ.",
+      "invalidation": "DPZ closes below $274.88 (10% under today's $305.42 reference close), or the next fundamentals screen drops it from the menu or shows cfo below net income.",
+      "sources": ["fundamentals-analyst", "market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "IDXX",
+      "side": "buy",
+      "notional_usd": 65.0,
+      "fraction": null,
+      "thesis": "Fundamentals-analyst rank 5: F-score 8/9, gp_sector_pct 0.941, net income $1,059M backed by cfo $1,182M, leverage not up, no dilution. Health Care is one of the market-analyst's favored sectors (+4.71% over 21d). News-analyst shows no IDXX event inside the 5-day window.",
+      "invalidation": "IDXX closes below $500.22 (10% under today's $555.80 reference close), or the market-analyst drops Health Care from its favored sectors while IDXX underperforms SPY over 21 days.",
+      "sources": ["fundamentals-analyst", "market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P3",
+      "symbol": "MSCI",
+      "side": "buy",
+      "notional_usd": 65.0,
+      "fraction": null,
+      "thesis": "News-analyst: MSCI reported Q3 this morning with a clean beat (adj. EPS $5.11 vs $5.02, sales $892M beat), so the earnings risk is behind it. Fundamentals-analyst rank 7: F-score 8/9, gp_sector_pct 0.904, cfo $1,588M vs net income $1,202M, vol 0.30. Beta 0.33. It carries an Industrials label, which the market-analyst says to avoid, but the fundamentals-analyst notes the label fits an index and data provider poorly, and its low beta means it doesn't add the cyclical beta that warning is about.",
+      "invalidation": "MSCI closes below $507.14 (10% under today's $563.49 reference close), or post-earnings filings or news show guidance cut or the beat reversed.",
+      "sources": ["news-analyst", "fundamentals-analyst"]
+    }
+  ]
+}

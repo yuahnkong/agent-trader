@@ -1,0 +1,634 @@
+{
+ "date": "2026-11-24",
+ "equity": 615.73,
+ "day_pl": 3.88,
+ "drawdown": 0.0321,
+ "paused": false,
+ "notes": [],
+ "performance": {
+  "date": "2026-11-24",
+  "agent_equity": 615.73,
+  "shadow_value": 609.73,
+  "spy_value": 562.66,
+  "agent_return": 0.02622,
+  "shadow_return": 0.01622,
+  "spy_return": -0.06223,
+  "agent_invested_return": 0.038692,
+  "shadow_invested_return": 0.016092,
+  "agent_invested_pct": 0.5035,
+  "shadow_invested_pct": 0.8794,
+  "version": "6"
+ },
+ "version": "6",
+ "since_version": {
+  "version": "6",
+  "since": "2026-11-10",
+  "agent_return": -0.01095,
+  "shadow_return": -0.02877,
+  "spy_return": -0.04152,
+  "agent_invested_return": -0.00376,
+  "shadow_invested_return": -0.02855
+ },
+ "fills_today": [
+  {
+   "symbol": "TLT",
+   "side": "buy",
+   "qty": "0.183480623",
+   "price": "81.698",
+   "transaction_time": "2026-11-24T14:31:29.198671Z"
+  }
+ ],
+ "positions": [
+  {
+   "symbol": "CARG",
+   "qty": 0.955092963,
+   "market_value": 30.668035,
+   "weight": 0.049807602358176474,
+   "unrealized_pl": 0.688035,
+   "unrealized_plpc": 0.02295,
+   "change_today": -0.00218,
+   "stop": {
+    "stop_price": 28.25,
+    "stop_on": "CARG",
+    "mark": 32.11,
+    "pct_above_stop": 0.1366,
+    "status": "ok"
+   },
+   "lots": [
+    {
+     "qty": 0.475873015,
+     "cost": 31.5,
+     "opened": "2026-10-21"
+    },
+    {
+     "qty": 0.479219948,
+     "cost": 31.28,
+     "opened": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "symbol": "DPZ",
+   "qty": 0.205285169,
+   "market_value": 73.188268,
+   "weight": 0.11886422295486657,
+   "unrealized_pl": 8.198268,
+   "unrealized_plpc": 0.12615,
+   "change_today": 0.00357,
+   "stop": {
+    "stop_price": 325.0,
+    "stop_on": "DPZ",
+    "mark": 356.52,
+    "pct_above_stop": 0.097,
+    "status": "ok"
+   },
+   "lots": [
+    {
+     "qty": 0.205285169,
+     "cost": 316.584,
+     "opened": "2026-10-20"
+    }
+   ]
+  },
+  {
+   "symbol": "IDXX",
+   "qty": 0.035974523,
+   "market_value": 25.616738,
+   "weight": 0.04160384908969841,
+   "unrealized_pl": 5.621738,
+   "unrealized_plpc": 0.28116,
+   "change_today": 0.03648,
+   "stop": {
+    "stop_price": 640.0,
+    "stop_on": "IDXX",
+    "mark": 712.08,
+    "pct_above_stop": 0.1126,
+    "status": "ok"
+   },
+   "lots": [
+    {
+     "qty": 0.035974523,
+     "cost": 555.81,
+     "opened": "2026-10-20"
+    }
+   ]
+  },
+  {
+   "symbol": "INCY",
+   "qty": 0.12557594,
+   "market_value": 15.522442,
+   "weight": 0.025209819238952137,
+   "unrealized_pl": 0.532442,
+   "unrealized_plpc": 0.03552,
+   "change_today": 0.05334,
+   "stop": {
+    "stop_price": 110.0,
+    "stop_on": "INCY",
+    "mark": 123.61,
+    "pct_above_stop": 0.1237,
+    "status": "ok"
+   },
+   "lots": [
+    {
+     "qty": 0.12557594,
+     "cost": 119.37,
+     "opened": "2026-11-11"
+    }
+   ]
+  },
+  {
+   "symbol": "KR",
+   "qty": 0.521646121,
+   "market_value": 36.577826,
+   "weight": 0.0594056258424959,
+   "unrealized_pl": 1.597826,
+   "unrealized_plpc": 0.04568,
+   "change_today": 0.04423,
+   "stop": {
+    "stop_price": 61.5,
+    "stop_on": "KR",
+    "mark": 70.12,
+    "pct_above_stop": 0.1402,
+    "status": "ok"
+   },
+   "lots": [
+    {
+     "qty": 0.308107274,
+     "cost": 64.88,
+     "opened": "2026-10-22"
+    },
+    {
+     "qty": 0.213538847,
+     "cost": 70.198,
+     "opened": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "symbol": "MSCI",
+   "qty": 0.041295546,
+   "market_value": 26.178073,
+   "weight": 0.04251550679681029,
+   "unrealized_pl": 1.188073,
+   "unrealized_plpc": 0.04754,
+   "change_today": 0.01001,
+   "stop": {
+    "stop_price": 556.75,
+    "stop_on": "MSCI",
+    "mark": 633.92,
+    "pct_above_stop": 0.1386,
+    "status": "ok"
+   },
+   "lots": [
+    {
+     "qty": 0.041295546,
+     "cost": 605.15,
+     "opened": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "symbol": "SAM",
+   "qty": 0.068092413,
+   "market_value": 14.415845,
+   "weight": 0.02341260779887288,
+   "unrealized_pl": -0.574155,
+   "unrealized_plpc": -0.0383,
+   "change_today": 0.00294,
+   "stop": {
+    "stop_price": 201.0,
+    "stop_on": "SAM",
+    "mark": 211.71,
+    "pct_above_stop": 0.0533,
+    "status": "ok"
+   },
+   "lots": [
+    {
+     "qty": 0.068092413,
+     "cost": 220.142,
+     "opened": "2026-11-17"
+    }
+   ]
+  },
+  {
+   "symbol": "TLT",
+   "qty": 0.616120377,
+   "market_value": 50.139876,
+   "weight": 0.08143159501729653,
+   "unrealized_pl": 0.169876,
+   "unrealized_plpc": 0.0034,
+   "change_today": -0.00379,
+   "stop": {
+    "stop_price": 76.3,
+    "stop_on": "TLT",
+    "mark": 81.49,
+    "pct_above_stop": 0.068,
+    "status": "ok"
+   },
+   "lots": [
+    {
+     "qty": 0.309473684,
+     "cost": 80.75,
+     "opened": "2026-11-20"
+    },
+    {
+     "qty": 0.12316607,
+     "cost": 81.11,
+     "opened": "2026-11-23"
+    },
+    {
+     "qty": 0.183480623,
+     "cost": 81.698,
+     "opened": "2026-11-24"
+    }
+   ]
+  },
+  {
+   "symbol": "VRSN",
+   "qty": 0.118476428,
+   "market_value": 37.529778,
+   "weight": 0.06095168011953291,
+   "unrealized_pl": 2.549778,
+   "unrealized_plpc": 0.07289,
+   "change_today": 0.00898,
+   "stop": {
+    "stop_price": 278.0,
+    "stop_on": "VRSN",
+    "mark": 317.25,
+    "pct_above_stop": 0.1412,
+    "status": "ok"
+   },
+   "lots": [
+    {
+     "qty": 0.085514834,
+     "cost": 292.23,
+     "opened": "2026-10-23"
+    },
+    {
+     "qty": 0.032961594,
+     "cost": 303.08,
+     "opened": "2026-10-26"
+    }
+   ]
+  }
+ ],
+ "todays_decisions": [
+  {
+   "market_stance": "risk-off",
+   "reasoning": "I agree with the Market Analyst's risk-off call (0.55). SPY is 1.12% under its 200-day, realized vol is about double its yearly level and every sector SPDR is down over 5 days, so the regime filter allows only BND, GLD, IEF and TLT. BND and IEF are wash-sale blocked and he says not to use GLD as a haven. That leaves P1, the TLT add. I resized it from $20 to $15. The Skeptic is right that this is the third TLT buy in four sessions, that it buys above both existing lots after a 2.9% five-day rise, and that TLT is still 1.11% under its own 200-day with the 12-09 FOMC inside the test. Against that, today's note is new evidence, not a repeat of yesterday's: the Market Analyst now says duration is hedging ('Treasuries are the one sleeve working') and tells the book to lean on it, and the owner wants cash used. $15 sits between yesterday's $10 and the requested $20. The Implicator's checks pass (well under the 15% cap, no wash sale, stress loss barely moves). His point that this builds one long-duration bet that the beta stress figure cannot see is why I did not approve the full $20. L4 applied: the add rests on the Market Analyst's explicit duration preference, not on diversification alone. L9 applied: TLT has its own stop. L10 applied to the Skeptic's clause objection: I rewrote TLT's second clause as a relative test (TLT's 5-day return below SPY's in a down week) and added a trend test (TLT more than 4% under its 200-day) for the rates-up, stocks-up case that the old sign test missed. L6 applied: TLT's stop is restated from the $80.85 blended cost the packet shows, and it will be restated from the new blended cost at the next run. After the buy, cash is about 50% of equity. The regime filter idles it; no invalidated position is kept because of it. Held-book review from the stop blocks (L7): there are no stop_alerts and nothing is NEAR or TRIPPED. CARG has no guidance cut or 8-K. DPZ is still on the menu (rank 3), CFO is above net income, and there is no confirmed guidance cut; the BNP Underperform/$295 initiation and the EVP sale are sentiment and not stored clauses. IDXX, INCY, MSCI and VRSN have no 8-K in the window (L2 dates from the News Analyst's filings check). KR's cyber incident is unconfirmed, and its 12-03 report enters the 5-day window on 11-25, so no adds. SAM is on the menu with no guidance-cut 8-K, but it is the nearest to its stop and its 11-19 8-K 5.02 is still unread. TLT's duration clause is unmet (TLT 5d +2.91% and IEF +1.55% while SPY 5d -2.39%). Staples is still a favored sector, so KR's and SAM's sector premise holds. I disagree with the Proposer's implicit hold of DPZ on one point. Its 'long-term-taxable winner' reason is wrong: the only lot opened 10-20 and is short-term until 2027-10-21 (Skeptic). The $300 stop also protects only the fill, 18.4% under the mark. I cannot originate a trim, so I re-anchored DPZ's stop to $325, above the fill, through thesis_updates. I also fixed SAM's stale 'joins WMT and KR' text (L3/L6) and IDXX's undated insider-sale line (L6).",
+   "trades": [
+    {
+     "proposal_id": "P1",
+     "symbol": "TLT",
+     "side": "buy",
+     "notional_usd": 15.0,
+     "fraction": null,
+     "thesis": "A defensive Treasury sleeve while the regime filter allows only BND, GLD, IEF and TLT. The Market Analyst (risk-off, 11-24) says Treasuries are the one sleeve working and tells the book to lean on duration. TLT is used because IEF and BND are wash-sale blocked, not because he prefers it over them. TLT tracks 20+ year Treasuries and is judged not substantially identical to the blocked IEF. It is the most volatile Treasury option and carries long-duration rate risk that the beta-based equity stress test does not show. The 12-09 FOMC falls inside its 20-session test. Built in three small buys (11-20, 11-23, 11-24) and resized below the request because the evidence for the hedge is short and TLT is still under its 200-day. It is the only bond holding and has its own stop (L9). ETF, no earnings events.",
+     "invalidation": "TLT closes at or below $76.30 (about 5.6% under the $80.85 blended cost before the 11-24 add; restate from the blended cost after this add at the next run), or at a run where SPY's 5-day return is negative, TLT's 5-day return is below SPY's (duration not hedging), or the Market Analyst's figures show TLT more than 4% under its 200-day (rates trend against the position).",
+     "stop_price": 76.3,
+     "stop_on": null
+    }
+   ],
+   "rejected": [],
+   "thesis_updates": [
+    {
+     "symbol": "TLT",
+     "invalidation": "TLT closes at or below $76.30 (about 5.6% under the $80.85 blended cost before the 11-24 add; restate from the blended cost after this add at the next run), or at a run where SPY's 5-day return is negative, TLT's 5-day return is below SPY's (duration not hedging), or the Market Analyst's figures show TLT more than 4% under its 200-day (rates trend against the position).",
+     "stop_price": 76.3,
+     "stop_on": null,
+     "thesis": "A defensive Treasury sleeve while the regime filter allows only BND, GLD, IEF and TLT. The Market Analyst (risk-off, 11-24) says Treasuries are the one sleeve working and tells the book to lean on duration. TLT is used because IEF and BND are wash-sale blocked, not because he prefers it over them. TLT tracks 20+ year Treasuries and is judged not substantially identical to the blocked IEF. It is the most volatile Treasury option and carries long-duration rate risk that the beta-based equity stress test does not show. The 12-09 FOMC falls inside its 20-session test. Built in three small buys (11-20, 11-23, 11-24) and resized below the request because the evidence for the hedge is short and TLT is still under its 200-day. It is the only bond holding and has its own stop (L9). ETF, no earnings events.",
+     "why": "Restates the stop from the $80.85 blended cost (L6), and replaces the bare sign test with a relative test and a trend test (L10, Skeptic) so a market-wide move neither silences nor trips the clause. This keeps the stored text right if today's add does not fill."
+    },
+    {
+     "symbol": "DPZ",
+     "invalidation": "DPZ closes at or below $325 (about 2.7% above the $316.58 fill, keeping most of the gain), or a fundamentals screen drops it from the menu or shows CFO below net income, or a confirmed guidance cut.",
+     "stop_price": 325.0,
+     "stop_on": null,
+     "thesis": "High-quality, cash-backed franchisor (F-score 8/9, CFO $792M vs net income $602M, gross profitability 1.15) with a 252-day beta of about 0.1, a defensive single-stock position. Its top-of-sector rank is partly an artifact of the wholesale-groceries SIC mislabel (bucket Consumer Discretionary), so the case rests on absolute quality and low beta, not on the Staples tilt. It fails leverage_not_up. It is the largest single position. The only lot opened 2026-10-20 and is short-term until 2027-10-21, so there is no tax reason to hold. Sentiment items, not 8-K events: EVP and Chief Restaurant Officer stock sale (11-23) and BNP Paribas Underperform initiation with a $295 PT (11-24). Next earnings 2027-02-22 (file estimate).",
+     "why": "The $300 stop protected only the fill and sat far under the mark on the book's largest position. The Skeptic's correction stands: the lot is short-term, not long-term. With two negative sentiment items in two sessions and no trim proposal to approve, the stop is re-anchored above the fill (L7)."
+    },
+    {
+     "symbol": "SAM",
+     "invalidation": "SAM closes at or below $201.00 (about 8.7% under the $220.14 fill), or an 8-K 2.02 or 7.01 with a headline reports a guidance cut, or the fundamentals screen drops SAM from the menu.",
+     "stop_price": 201.0,
+     "stop_on": null,
+     "thesis": "Consumer Staples is a Market Analyst favored sector. SAM is F8 (only current_ratio_improved fails), gp_sector_pct 0.945, CFO $270M against net income $108M; the fundamentals are FY2025 and predate the 2026 quarters. Net income is thin against revenue. Its negative 252-day beta is a statistical artifact, not a hedge; its 0.383 vol makes it mostly a single-name beer bet with its own stop. COO Phil Hodges succeeded founder Jim Koch as CEO effective 11-23 (8-K 5.02 filed 11-19, text unread; Koch's continuing role is not stated in the inputs). Overlap (L3): after the 11-23 WMT sale, SAM and KR are the Staples bucket and one factor bet. Next earnings 2027-02-23 (News Analyst, from filings).",
+     "why": "Removes the stale 'joins WMT and KR' text after the 11-23 WMT sale (L3/L6, Skeptic and Proposer). The stop and clauses are unchanged."
+    },
+    {
+     "symbol": "IDXX",
+     "invalidation": "IDXX closes at or below $640 (about 15% above the $555.81 fill, locking in most of the post-earnings gain), or a guidance cut or negative 8-K follow-up.",
+     "stop_price": 640.0,
+     "stop_on": null,
+     "thesis": "Quality Health Care name (F-score 8/9, gp_sector_pct 0.942, CFO $1,181.8M vs net income $1,059.5M, no added leverage or dilution). The 11-02 print beat and raised guidance; next earnings 2027-02-01 (file estimate). Health Care is no longer on the Market Analyst's favored list (as of 11-20), so the case rests on quality and the beat-and-raise, not a sector tilt. Half the position was sold on 11-23 because its beta was the highest of the single stocks in a risk-off book; the remaining half is held on quality with the $640 stop. It shares the Health Care bucket with INCY. Executive stock sales after the post-earnings run, reported before 11-23, are sentiment, not an 8-K event.",
+     "why": "Dates the insider-sale line, which was stored undated on 11-23 (L6). The stop is unchanged."
+    }
+   ]
+  }
+ ],
+ "theses": {
+  "DPZ": {
+   "thesis": "High-quality, cash-backed franchisor (F-score 8/9, CFO $792M vs net income $602M, gross profitability 1.15) with a 252-day beta of about 0.1, a defensive single-stock position. Its top-of-sector rank is partly an artifact of the wholesale-groceries SIC mislabel (bucket Consumer Discretionary), so the case rests on absolute quality and low beta, not on the Staples tilt. It fails leverage_not_up. It is the largest single position. The only lot opened 2026-10-20 and is short-term until 2027-10-21, so there is no tax reason to hold. Sentiment items, not 8-K events: EVP and Chief Restaurant Officer stock sale (11-23) and BNP Paribas Underperform initiation with a $295 PT (11-24). Next earnings 2027-02-22 (file estimate).",
+   "invalidation": "DPZ closes at or below $325 (about 2.7% above the $316.58 fill, keeping most of the gain), or a fundamentals screen drops it from the menu or shows CFO below net income, or a confirmed guidance cut.",
+   "stop_price": 325.0,
+   "stop_on": "DPZ",
+   "bought": "2026-10-20",
+   "updated": "2026-11-24",
+   "update_why": "The $300 stop protected only the fill and sat far under the mark on the book's largest position. The Skeptic's correction stands: the lot is short-term, not long-term. With two negative sentiment items in two sessions and no trim proposal to approve, the stop is re-anchored above the fill (L7)."
+  },
+  "IDXX": {
+   "thesis": "Quality Health Care name (F-score 8/9, gp_sector_pct 0.942, CFO $1,181.8M vs net income $1,059.5M, no added leverage or dilution). The 11-02 print beat and raised guidance; next earnings 2027-02-01 (file estimate). Health Care is no longer on the Market Analyst's favored list (as of 11-20), so the case rests on quality and the beat-and-raise, not a sector tilt. Half the position was sold on 11-23 because its beta was the highest of the single stocks in a risk-off book; the remaining half is held on quality with the $640 stop. It shares the Health Care bucket with INCY. Executive stock sales after the post-earnings run, reported before 11-23, are sentiment, not an 8-K event.",
+   "invalidation": "IDXX closes at or below $640 (about 15% above the $555.81 fill, locking in most of the post-earnings gain), or a guidance cut or negative 8-K follow-up.",
+   "stop_price": 640.0,
+   "stop_on": "IDXX",
+   "bought": "2026-10-20",
+   "updated": "2026-11-24",
+   "update_why": "Dates the insider-sale line, which was stored undated on 11-23 (L6). The stop is unchanged."
+  },
+  "CARG": {
+   "thesis": "Quality name near the top of the fundamentals screen (gp_sector_pct 1.0, CFO about 1.9x net income, beta about 0.5). The 11-05 print beat (adj EPS $0.70 vs $0.66), raised the FY26 EPS guide and added a $250M buyback, though the Q4 sales guide midpoint sat slightly below the estimate. Communication (its bucket) is on the Market Analyst's avoid list, but the case rests on quality and low beta, not a sector role. Next earnings 2027-02-18.",
+   "invalidation": "Combined position closes at or below $28.25 (10% under the $31.39 average fill), or a guidance cut or negative 8-K follow-up.",
+   "stop_price": 28.25,
+   "stop_on": "CARG",
+   "bought": "2026-10-21",
+   "updated": "2026-11-23",
+   "update_why": "L6 stale text: replaced the dated 'Rank 2' with a durable description, and stated that the Communication avoid call does not touch the thesis's role (L8)."
+  },
+  "KR": {
+   "thesis": "Consumer Staples is a Market Analyst favored sector. F-score 7 (fails roa_improved and current_ratio_improved), gp_sector_pct 0.890, CFO $7.31B against net income $1.02B. Q3 call 12-03 is company-confirmed. After the 11-23 WMT sale, KR and SAM are the Staples bucket and still one factor bet (L3). KR's negative beta is a statistical artifact, not a hedge. A CRFB report (11-19) alleges baby food above FDA lead levels sold at Kroger; there is no recall or agency action, and it is not the cyber matter in the stored clause. Bankers reportedly contacted Kroger about a possible Grubhub acquisition (11-22/11-23); there is no bid or 8-K, but a deal would be a capital-allocation question at the call.",
+   "invalidation": "KR closes at or below $61.50 (about 8.3% under the $67.06 blended average cost), or the 10-17 grocery-chain cyber incident is confirmed to be Kroger, or KR cuts guidance at its 12-03 report.",
+   "stop_price": 61.5,
+   "stop_on": "KR",
+   "bought": "2026-10-22",
+   "updated": "2026-11-23",
+   "update_why": "WMT is sold today, so KR's thesis no longer pairs with it; added the Grubhub sounding-out so tomorrow's agents read it against the 12-03 call."
+  },
+  "MSCI": {
+   "thesis": "Clean Q3 beat with the earnings event passed, F-score 8, CFO $1.59B against net income $1.20B, beta about 0.37. It is a financial-data business in the Financials bucket (SIC label Industrials). After the 11-19 MCO sale it is the account's only financial-data name; it fails leverage_not_up. The case rests on quality and low beta, not a sector tilt. Next earnings 2027-01-27.",
+   "invalidation": "MSCI closes at or below $556.75 (8% under the $605.15 fill), or a guidance cut or negative 8-K follow-up.",
+   "stop_price": 556.75,
+   "stop_on": "MSCI",
+   "bought": "2026-10-22",
+   "updated": "2026-11-19",
+   "update_why": "This removes the conditional MCO-sleeve text now that MCO is being sold."
+  },
+  "VRSN": {
+   "thesis": "Top-ranked quality name on the screen (9/9 F-score, gp_sector_pct 0.993, CFO well above net income). Q3 was reported on 10-22 and the next estimate is 2027-02-04. Beta is about 0.05, so it adds almost no market risk. Technology is on the Market Analyst's avoid list, but the case rests on quality and near-zero beta, not a sector role. An insider sale (11-19) is sentiment, not an 8-K event. The fundamentals data predates the Q3 print.",
+   "invalidation": "VRSN closes at or below $278 (about 5.8% under the $295.25 average fill), or a later filing shows the guidance raise was reversed.",
+   "stop_price": 278.0,
+   "stop_on": "VRSN",
+   "bought": "2026-10-23",
+   "updated": "2026-11-23",
+   "update_why": "L6 stale text: removed the 10-26 add rationale ('sized down from $15...'), and stated that the Technology avoid call does not touch the thesis's role (L8)."
+  },
+  "INCY": {
+   "thesis": "Quality Health Care name: F8, gp_sector_pct 0.906, CFO $1,413.5M against net income $1,286.7M, beta about 0.46. Reported 10-29; next earnings 2027-02-09. Health Care is no longer on the Market Analyst's favored list (as of 11-20), so the case rests on quality and low beta, not a sector tilt. It overlaps IDXX in the Health Care bucket. On 11-13 (8-K 8.01) Incyte dropped the planned Phase 3 MAESTRA-3 study and kept guidance: a pipeline setback, not a tripped clause. Insider sales on 11-17 and 11-18 are sentiment only. No adds. Single-name biotech risk is larger than beta suggests.",
+   "invalidation": "INCY closes at or below $110.00 (about 7.9% under the $119.37 fill), or an 8-K reports a guidance cut or a failed pivotal trial.",
+   "stop_price": 110.0,
+   "stop_on": "INCY",
+   "bought": "2026-11-11",
+   "updated": "2026-11-20",
+   "update_why": "The stored 'favored sector' premise is gone (L8), and the EXEL reference is removed because EXEL is sold today."
+  },
+  "SAM": {
+   "thesis": "Consumer Staples is a Market Analyst favored sector. SAM is F8 (only current_ratio_improved fails), gp_sector_pct 0.945, CFO $270M against net income $108M; the fundamentals are FY2025 and predate the 2026 quarters. Net income is thin against revenue. Its negative 252-day beta is a statistical artifact, not a hedge; its 0.383 vol makes it mostly a single-name beer bet with its own stop. COO Phil Hodges succeeded founder Jim Koch as CEO effective 11-23 (8-K 5.02 filed 11-19, text unread; Koch's continuing role is not stated in the inputs). Overlap (L3): after the 11-23 WMT sale, SAM and KR are the Staples bucket and one factor bet. Next earnings 2027-02-23 (News Analyst, from filings).",
+   "invalidation": "SAM closes at or below $201.00 (about 8.7% under the $220.14 fill), or an 8-K 2.02 or 7.01 with a headline reports a guidance cut, or the fundamentals screen drops SAM from the menu.",
+   "stop_price": 201.0,
+   "stop_on": "SAM",
+   "bought": "2026-11-17",
+   "updated": "2026-11-24",
+   "update_why": "Removes the stale 'joins WMT and KR' text after the 11-23 WMT sale (L3/L6, Skeptic and Proposer). The stop and clauses are unchanged."
+  },
+  "TLT": {
+   "thesis": "A defensive Treasury sleeve while the regime filter allows only BND, GLD, IEF and TLT. The Market Analyst (risk-off, 11-24) says Treasuries are the one sleeve working and tells the book to lean on duration. TLT is used because IEF and BND are wash-sale blocked, not because he prefers it over them. TLT tracks 20+ year Treasuries and is judged not substantially identical to the blocked IEF. It is the most volatile Treasury option and carries long-duration rate risk that the beta-based equity stress test does not show. The 12-09 FOMC falls inside its 20-session test. Built in three small buys (11-20, 11-23, 11-24) and resized below the request because the evidence for the hedge is short and TLT is still under its 200-day. It is the only bond holding and has its own stop (L9). ETF, no earnings events.",
+   "invalidation": "TLT closes at or below $76.30 (about 5.6% under the $80.85 blended cost before the 11-24 add; restate from the blended cost after this add at the next run), or at a run where SPY's 5-day return is negative, TLT's 5-day return is below SPY's (duration not hedging), or the Market Analyst's figures show TLT more than 4% under its 200-day (rates trend against the position).",
+   "stop_price": 76.3,
+   "stop_on": "TLT",
+   "bought": "2026-11-20",
+   "updated": "2026-11-24",
+   "update_why": "Restates the stop from the $80.85 blended cost (L6), and replaces the bare sign test with a relative test and a trend test (L10, Skeptic) so a market-wide move neither silences nor trips the clause. This keeps the stored text right if today's add does not fill."
+  }
+ },
+ "stop_alerts": [],
+ "shadow_trades": [
+  {
+   "date": "2026-11-24",
+   "symbol": "DPZ",
+   "side": "sell",
+   "qty": 0.005668997669903142,
+   "price": 356.52
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "CALX",
+   "side": "sell",
+   "qty": 0.0676716186489128,
+   "price": 33.21
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "WDFC",
+   "side": "sell",
+   "qty": 0.007593787808801128,
+   "price": 224.34
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "VRSN",
+   "side": "sell",
+   "qty": 0.2024092861908006,
+   "price": 317.25
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "VNQ",
+   "side": "sell",
+   "qty": 0.0009098239099107619,
+   "price": 94.78
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "TLT",
+   "side": "sell",
+   "qty": 0.00016585927722617688,
+   "price": 81.49
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "WINA",
+   "side": "sell",
+   "qty": 0.004980090872228532,
+   "price": 264.185
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "GLD",
+   "side": "buy",
+   "qty": 0.005472475367423291,
+   "price": 325.45
+  }
+ ],
+ "shadow_holdings": {
+  "DPZ": 0.151435,
+  "CARG": 1.259569,
+  "CALX": 1.241789,
+  "RRC": 0.972276,
+  "TTEK": 1.284569,
+  "WDFC": 0.234919,
+  "VOO": 0.027179,
+  "VTI": 0.05078,
+  "QQQ": 0.027507,
+  "VXUS": 0.227846,
+  "VWO": 0.332338,
+  "VNQ": 0.192994,
+  "BND": 0.254417,
+  "IEF": 0.199446,
+  "TLT": 0.224469,
+  "GLD": 0.056205,
+  "BTC/USD": 0.000276,
+  "ETH/USD": 0.00723,
+  "WINA": 0.167466
+ },
+ "recent_performance": [
+  {
+   "date": "2026-11-15",
+   "agent_equity": 628.78,
+   "shadow_value": 623.4,
+   "spy_value": 590.52,
+   "agent_return": 0.04797,
+   "shadow_return": 0.03901,
+   "spy_return": -0.0158,
+   "agent_invested_return": 0.054658,
+   "shadow_invested_return": 0.04126,
+   "agent_invested_pct": 0.8621,
+   "shadow_invested_pct": 0.9971,
+   "version": "6"
+  },
+  {
+   "date": "2026-11-16",
+   "agent_equity": 626.32,
+   "shadow_value": 621.05,
+   "spy_value": 579.23,
+   "agent_return": 0.04387,
+   "shadow_return": 0.03508,
+   "spy_return": -0.03461,
+   "agent_invested_return": 0.050282,
+   "shadow_invested_return": 0.034764,
+   "agent_invested_pct": 0.8625,
+   "shadow_invested_pct": 0.9946,
+   "version": "6"
+  },
+  {
+   "date": "2026-11-17",
+   "agent_equity": 620.78,
+   "shadow_value": 613.32,
+   "spy_value": 573.35,
+   "agent_return": 0.03463,
+   "shadow_return": 0.0222,
+   "spy_return": -0.04441,
+   "agent_invested_return": 0.040137,
+   "shadow_invested_return": 0.022873,
+   "agent_invested_pct": 0.8857,
+   "shadow_invested_pct": 0.9947,
+   "version": "6"
+  },
+  {
+   "date": "2026-11-18",
+   "agent_equity": 621.35,
+   "shadow_value": 616.91,
+   "spy_value": 571.6,
+   "agent_return": 0.03558,
+   "shadow_return": 0.02818,
+   "spy_return": -0.04733,
+   "agent_invested_return": 0.040108,
+   "shadow_invested_return": 0.02871,
+   "agent_invested_pct": 0.8849,
+   "shadow_invested_pct": 0.9945,
+   "version": "6"
+  },
+  {
+   "date": "2026-11-19",
+   "agent_equity": 611.38,
+   "shadow_value": 607.53,
+   "spy_value": 560.38,
+   "agent_return": 0.01897,
+   "shadow_return": 0.01255,
+   "spy_return": -0.06603,
+   "agent_invested_return": 0.021438,
+   "shadow_invested_return": 0.012541,
+   "agent_invested_pct": 0.8453,
+   "shadow_invested_pct": 0.994,
+   "version": "6"
+  },
+  {
+   "date": "2026-11-20",
+   "agent_equity": 608.14,
+   "shadow_value": 596.81,
+   "spy_value": 539.98,
+   "agent_return": 0.01357,
+   "shadow_return": -0.00532,
+   "spy_return": -0.10003,
+   "agent_invested_return": 0.01259,
+   "shadow_invested_return": -0.004981,
+   "agent_invested_pct": 0.5793,
+   "shadow_invested_pct": 0.9944,
+   "version": "6"
+  },
+  {
+   "date": "2026-11-21",
+   "agent_equity": 608.27,
+   "shadow_value": 598.03,
+   "spy_value": 539.98,
+   "agent_return": 0.01378,
+   "shadow_return": -0.00328,
+   "spy_return": -0.10003,
+   "agent_invested_return": 0.01259,
+   "shadow_invested_return": -0.004981,
+   "agent_invested_pct": 0.5792,
+   "shadow_invested_pct": 0.9923,
+   "version": "6"
+  },
+  {
+   "date": "2026-11-22",
+   "agent_equity": 608.27,
+   "shadow_value": 598.47,
+   "spy_value": 539.98,
+   "agent_return": 0.01378,
+   "shadow_return": -0.00255,
+   "spy_return": -0.10003,
+   "agent_invested_return": 0.01259,
+   "shadow_invested_return": -0.004981,
+   "agent_invested_pct": 0.5792,
+   "shadow_invested_pct": 0.9916,
+   "version": "6"
+  },
+  {
+   "date": "2026-11-23",
+   "agent_equity": 611.9,
+   "shadow_value": 610.0,
+   "spy_value": 565.41,
+   "agent_return": 0.01983,
+   "shadow_return": 0.01667,
+   "spy_return": -0.05765,
+   "agent_invested_return": 0.025296,
+   "shadow_invested_return": 0.01634,
+   "agent_invested_pct": 0.4756,
+   "shadow_invested_pct": 0.9937,
+   "version": "6"
+  },
+  {
+   "date": "2026-11-24",
+   "agent_equity": 615.73,
+   "shadow_value": 609.73,
+   "spy_value": 562.66,
+   "agent_return": 0.02622,
+   "shadow_return": 0.01622,
+   "spy_return": -0.06223,
+   "agent_invested_return": 0.038692,
+   "shadow_invested_return": 0.016092,
+   "agent_invested_pct": 0.5035,
+   "shadow_invested_pct": 0.8794,
+   "version": "6"
+  }
+ ]
+}

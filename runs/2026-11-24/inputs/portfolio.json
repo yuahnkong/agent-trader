@@ -1,0 +1,817 @@
+{
+ "date": "2026-11-24",
+ "account": {
+  "equity": 613.48,
+  "cash": 320.88,
+  "buying_power": 320.88
+ },
+ "kill_switch": {
+  "paused": false,
+  "peak_equity": 636.18,
+  "drawdown_from_peak": 0.0357,
+  "trips_at": 0.15,
+  "tripped": false
+ },
+ "regime_allows_buys": false,
+ "buys_allowed_when_regime_off": [
+  "BND",
+  "GLD",
+  "IEF",
+  "TLT"
+ ],
+ "trades_remaining_today": 5,
+ "orders_already_today": [],
+ "positions": [
+  {
+   "symbol": "CARG",
+   "qty": 0.955092963,
+   "market_value": 30.744442,
+   "weight": 0.0501,
+   "avg_entry_price": 31.389615,
+   "unrealized_pl": 0.764442,
+   "unrealized_plpc": 0.0255,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.475873,
+     "cost_per_share": 31.5,
+     "opened": "2026-10-21",
+     "days_held": 34,
+     "long_term_on": "2027-10-22"
+    },
+    {
+     "qty": 0.47922,
+     "cost_per_share": 31.28,
+     "opened": "2026-10-22",
+     "days_held": 33,
+     "long_term_on": "2027-10-23"
+    }
+   ],
+   "thesis": "Quality name near the top of the fundamentals screen (gp_sector_pct 1.0, CFO about 1.9x net income, beta about 0.5). The 11-05 print beat (adj EPS $0.70 vs $0.66), raised the FY26 EPS guide and added a $250M buyback, though the Q4 sales guide midpoint sat slightly below the estimate. Communication (its bucket) is on the Market Analyst's avoid list, but the case rests on quality and low beta, not a sector role. Next earnings 2027-02-18.",
+   "invalidation": "Combined position closes at or below $28.25 (10% under the $31.39 average fill), or a guidance cut or negative 8-K follow-up.",
+   "invalidation_set": "2026-11-23",
+   "stop": {
+    "stop_price": 28.25,
+    "stop_on": "CARG",
+    "mark": 32.18,
+    "pct_above_stop": 0.1391,
+    "status": "ok"
+   }
+  },
+  {
+   "symbol": "DPZ",
+   "qty": 0.205285169,
+   "market_value": 73.594733,
+   "weight": 0.12,
+   "avg_entry_price": 316.584,
+   "unrealized_pl": 8.604733,
+   "unrealized_plpc": 0.1324,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.205285,
+     "cost_per_share": 316.584,
+     "opened": "2026-10-20",
+     "days_held": 35,
+     "long_term_on": "2027-10-21"
+    }
+   ],
+   "thesis": "High-quality, cash-backed franchisor (F-score 8/9, CFO $792M vs net income $602M, gross profitability 1.15) with a 252-day beta of about 0.1, a defensive single-stock position. Its top-of-sector rank is partly an artifact of the wholesale-groceries SIC mislabel (bucket Consumer Discretionary), so the case rests on absolute quality and low beta, not on the Staples tilt. It fails leverage_not_up. An insider sale by the Chief Restaurant Officer (11-23) is sentiment, not an 8-K event. Next earnings 2027-02-22 (file estimate).",
+   "invalidation": "DPZ closes at or below $300 (about 5.2% under the $316.58 fill), or a fundamentals screen drops it from the menu or shows CFO below net income, or a confirmed guidance cut.",
+   "invalidation_set": "2026-11-23",
+   "stop": {
+    "stop_price": 300.0,
+    "stop_on": "DPZ",
+    "mark": 355.25,
+    "pct_above_stop": 0.1842,
+    "status": "ok"
+   }
+  },
+  {
+   "symbol": "IDXX",
+   "qty": 0.035974523,
+   "market_value": 24.732485,
+   "weight": 0.0403,
+   "avg_entry_price": 555.81,
+   "unrealized_pl": 4.737485,
+   "unrealized_plpc": 0.23693,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.035975,
+     "cost_per_share": 555.81,
+     "opened": "2026-10-20",
+     "days_held": 35,
+     "long_term_on": "2027-10-21"
+    }
+   ],
+   "thesis": "Quality Health Care name (F-score 8/9, gp_sector_pct 0.942, CFO $1,181.8M vs net income $1,059.5M, no added leverage or dilution). The 11-02 print beat and raised guidance; next earnings 2027-02-01 (file estimate). Health Care is no longer on the Market Analyst's favored list (as of 11-20), so the case rests on quality and the beat-and-raise, not a sector tilt. Half the position was sold on 11-23 because its 0.78 beta is the highest of the single stocks in a risk-off book; the remaining half is held on quality with the $640 stop. It shares the Health Care bucket with INCY. Executives sold over $27M of stock after the run.",
+   "invalidation": "IDXX closes at or below $640 (about 15% above the $555.81 fill, locking in most of the post-earnings gain), or a guidance cut or negative 8-K follow-up.",
+   "invalidation_set": "2026-11-23",
+   "stop": {
+    "stop_price": 640.0,
+    "stop_on": "IDXX",
+    "mark": 687.02,
+    "pct_above_stop": 0.0735,
+    "status": "ok"
+   }
+  },
+  {
+   "symbol": "INCY",
+   "qty": 0.12557594,
+   "market_value": 14.774009,
+   "weight": 0.0241,
+   "avg_entry_price": 119.37,
+   "unrealized_pl": -0.215991,
+   "unrealized_plpc": -0.01441,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.125576,
+     "cost_per_share": 119.37,
+     "opened": "2026-11-11",
+     "days_held": 13,
+     "long_term_on": "2027-11-12"
+    }
+   ],
+   "thesis": "Quality Health Care name: F8, gp_sector_pct 0.906, CFO $1,413.5M against net income $1,286.7M, beta about 0.46. Reported 10-29; next earnings 2027-02-09. Health Care is no longer on the Market Analyst's favored list (as of 11-20), so the case rests on quality and low beta, not a sector tilt. It overlaps IDXX in the Health Care bucket. On 11-13 (8-K 8.01) Incyte dropped the planned Phase 3 MAESTRA-3 study and kept guidance: a pipeline setback, not a tripped clause. Insider sales on 11-17 and 11-18 are sentiment only. No adds. Single-name biotech risk is larger than beta suggests.",
+   "invalidation": "INCY closes at or below $110.00 (about 7.9% under the $119.37 fill), or an 8-K reports a guidance cut or a failed pivotal trial.",
+   "invalidation_set": "2026-11-20",
+   "stop": {
+    "stop_price": 110.0,
+    "stop_on": "INCY",
+    "mark": 117.35,
+    "pct_above_stop": 0.0668,
+    "status": "ok"
+   }
+  },
+  {
+   "symbol": "KR",
+   "qty": 0.521646121,
+   "market_value": 35.550183,
+   "weight": 0.0579,
+   "avg_entry_price": 67.056954,
+   "unrealized_pl": 0.570183,
+   "unrealized_plpc": 0.0163,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.308107,
+     "cost_per_share": 64.88,
+     "opened": "2026-10-22",
+     "days_held": 33,
+     "long_term_on": "2027-10-23"
+    },
+    {
+     "qty": 0.213539,
+     "cost_per_share": 70.198,
+     "opened": "2026-11-13",
+     "days_held": 11,
+     "long_term_on": "2027-11-14"
+    }
+   ],
+   "thesis": "Consumer Staples is a Market Analyst favored sector. F-score 7 (fails roa_improved and current_ratio_improved), gp_sector_pct 0.890, CFO $7.31B against net income $1.02B. Q3 call 12-03 is company-confirmed. After the 11-23 WMT sale, KR and SAM are the Staples bucket and still one factor bet (L3). KR's negative beta is a statistical artifact, not a hedge. A CRFB report (11-19) alleges baby food above FDA lead levels sold at Kroger; there is no recall or agency action, and it is not the cyber matter in the stored clause. Bankers reportedly contacted Kroger about a possible Grubhub acquisition (11-22/11-23); there is no bid or 8-K, but a deal would be a capital-allocation question at the call.",
+   "invalidation": "KR closes at or below $61.50 (about 8.3% under the $67.06 blended average cost), or the 10-17 grocery-chain cyber incident is confirmed to be Kroger, or KR cuts guidance at its 12-03 report.",
+   "invalidation_set": "2026-11-23",
+   "stop": {
+    "stop_price": 61.5,
+    "stop_on": "KR",
+    "mark": 67.15,
+    "pct_above_stop": 0.0919,
+    "status": "ok"
+   }
+  },
+  {
+   "symbol": "MSCI",
+   "qty": 0.041295546,
+   "market_value": 26.037668,
+   "weight": 0.0424,
+   "avg_entry_price": 605.15,
+   "unrealized_pl": 1.047668,
+   "unrealized_plpc": 0.04192,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.041296,
+     "cost_per_share": 605.15,
+     "opened": "2026-10-22",
+     "days_held": 33,
+     "long_term_on": "2027-10-23"
+    }
+   ],
+   "thesis": "Clean Q3 beat with the earnings event passed, F-score 8, CFO $1.59B against net income $1.20B, beta about 0.37. It is a financial-data business in the Financials bucket (SIC label Industrials). After the 11-19 MCO sale it is the account's only financial-data name; it fails leverage_not_up. The case rests on quality and low beta, not a sector tilt. Next earnings 2027-01-27.",
+   "invalidation": "MSCI closes at or below $556.75 (8% under the $605.15 fill), or a guidance cut or negative 8-K follow-up.",
+   "invalidation_set": "2026-11-19",
+   "stop": {
+    "stop_price": 556.75,
+    "stop_on": "MSCI",
+    "mark": 627.64,
+    "pct_above_stop": 0.1273,
+    "status": "ok"
+   }
+  },
+  {
+   "symbol": "SAM",
+   "qty": 0.068092413,
+   "market_value": 14.373627,
+   "weight": 0.0234,
+   "avg_entry_price": 220.142,
+   "unrealized_pl": -0.616373,
+   "unrealized_plpc": -0.04112,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.068092,
+     "cost_per_share": 220.142,
+     "opened": "2026-11-17",
+     "days_held": 7,
+     "long_term_on": "2027-11-18"
+    }
+   ],
+   "thesis": "Consumer Staples is a Market Analyst favored sector. SAM is F8 (only current_ratio_improved fails), gp_sector_pct 0.945, CFO $270M against net income $108M; the fundamentals are FY2025 and predate the 2026 quarters. Net income is thin against revenue. Its negative 252-day beta is a statistical artifact, not a hedge; its 0.383 vol makes it mostly a single-name beer bet with its own stop. COO Phil Hodges succeeds founder Jim Koch as CEO effective 11-23 (8-K 5.02 filed 11-19): a planned internal succession, with Koch's continuing role not stated in the inputs. Overlap (L3): it joins WMT and KR in the Staples bucket inside the same factor. Next earnings 2027-02-23 (News Analyst, from filings).",
+   "invalidation": "SAM closes at or below $201.00 (about 8.7% under the $220.14 fill), or an 8-K 2.02 or 7.01 with a headline reports a guidance cut, or the fundamentals screen drops SAM from the menu.",
+   "invalidation_set": "2026-11-20",
+   "stop": {
+    "stop_price": 201.0,
+    "stop_on": "SAM",
+    "mark": 211.09,
+    "pct_above_stop": 0.0502,
+    "status": "ok"
+   }
+  },
+  {
+   "symbol": "TLT",
+   "qty": 0.432639754,
+   "market_value": 35.381279,
+   "weight": 0.0577,
+   "avg_entry_price": 80.852487,
+   "unrealized_pl": 0.401279,
+   "unrealized_plpc": 0.01147,
+   "on_menu": true,
+   "asset_class": "etf",
+   "lots": [
+    {
+     "qty": 0.309474,
+     "cost_per_share": 80.75,
+     "opened": "2026-11-20",
+     "days_held": 4,
+     "long_term_on": "2027-11-21"
+    },
+    {
+     "qty": 0.123166,
+     "cost_per_share": 81.11,
+     "opened": "2026-11-23",
+     "days_held": 1,
+     "long_term_on": "2027-11-24"
+    }
+   ],
+   "thesis": "A small defensive Treasury sleeve while the regime filter allows only BND, GLD, IEF and TLT. The Market Analyst says Treasuries are the better defensive choice and prefers intermediate and long duration. TLT is used because IEF and BND are wash-sale blocked, not because he prefers it over them. It is the most volatile Treasury option, and the hedge rests on a short run of evidence (TLT's 21-day return was flat while SPY fell), so it was bought at $25 on 11-20 and added to by only $10 on 11-23. It adds long-duration rate risk that the equity stress test does not show, and the 12-09 FOMC falls inside its 20-session test. TLT tracks 20+ year Treasuries and is judged not substantially identical to the blocked IEF. ETF, no earnings events. No other bond ETF is held.",
+   "invalidation": "TLT closes at or below $76.30 (about 5.5% under the $80.75 fill of 11-20; to be restated from the actual blended cost after the 11-23 add at the next run), or at any run TLT's and IEF's 5-day returns are both negative while SPY's 5-day return is also negative (duration no longer hedging, per the Market Analyst's figures).",
+   "invalidation_set": "2026-11-23",
+   "stop": {
+    "stop_price": 76.3,
+    "stop_on": "TLT",
+    "mark": 81.69,
+    "pct_above_stop": 0.0706,
+    "status": "ok"
+   }
+  },
+  {
+   "symbol": "VRSN",
+   "qty": 0.118476428,
+   "market_value": 37.414856,
+   "weight": 0.061,
+   "avg_entry_price": 295.248603,
+   "unrealized_pl": 2.434856,
+   "unrealized_plpc": 0.06961,
+   "on_menu": true,
+   "asset_class": "stock",
+   "lots": [
+    {
+     "qty": 0.085515,
+     "cost_per_share": 292.23,
+     "opened": "2026-10-23",
+     "days_held": 32,
+     "long_term_on": "2027-10-24"
+    },
+    {
+     "qty": 0.032962,
+     "cost_per_share": 303.08,
+     "opened": "2026-10-26",
+     "days_held": 29,
+     "long_term_on": "2027-10-27"
+    }
+   ],
+   "thesis": "Top-ranked quality name on the screen (9/9 F-score, gp_sector_pct 0.993, CFO well above net income). Q3 was reported on 10-22 and the next estimate is 2027-02-04. Beta is about 0.05, so it adds almost no market risk. Technology is on the Market Analyst's avoid list, but the case rests on quality and near-zero beta, not a sector role. An insider sale (11-19) is sentiment, not an 8-K event. The fundamentals data predates the Q3 print.",
+   "invalidation": "VRSN closes at or below $278 (about 5.8% under the $295.25 average fill), or a later filing shows the guidance raise was reversed.",
+   "invalidation_set": "2026-11-23",
+   "stop": {
+    "stop_price": 278.0,
+    "stop_on": "VRSN",
+    "mark": 313.95,
+    "pct_above_stop": 0.1293,
+    "status": "ok"
+   }
+  }
+ ],
+ "stop_alerts": [],
+ "exposure": {
+  "invested_pct": 0.477,
+  "cash_pct": 0.523,
+  "by_bucket": {
+   "Consumer Discretionary": 0.12,
+   "Consumer Staples": 0.0814,
+   "Health Care": 0.0644,
+   "Technology": 0.061,
+   "Bonds": 0.0577,
+   "Communication": 0.0501,
+   "Financials": 0.0424
+  },
+  "us_index_etfs_pct": 0.0,
+  "largest": [
+   {
+    "symbol": "DPZ",
+    "bucket": "Consumer Discretionary",
+    "screen_label": "Consumer Staples",
+    "weight": 0.12
+   },
+   {
+    "symbol": "VRSN",
+    "bucket": "Technology",
+    "screen_label": "Technology",
+    "weight": 0.061
+   },
+   {
+    "symbol": "KR",
+    "bucket": "Consumer Staples",
+    "screen_label": "Consumer Staples",
+    "weight": 0.0579
+   }
+  ],
+  "positions": [
+   {
+    "symbol": "DPZ",
+    "bucket": "Consumer Discretionary",
+    "screen_label": "Consumer Staples",
+    "weight": 0.12
+   },
+   {
+    "symbol": "VRSN",
+    "bucket": "Technology",
+    "screen_label": "Technology",
+    "weight": 0.061
+   },
+   {
+    "symbol": "KR",
+    "bucket": "Consumer Staples",
+    "screen_label": "Consumer Staples",
+    "weight": 0.0579
+   },
+   {
+    "symbol": "TLT",
+    "bucket": "Bonds",
+    "screen_label": null,
+    "weight": 0.0577
+   },
+   {
+    "symbol": "CARG",
+    "bucket": "Communication",
+    "screen_label": "Technology",
+    "weight": 0.0501
+   },
+   {
+    "symbol": "MSCI",
+    "bucket": "Financials",
+    "screen_label": "Industrials",
+    "weight": 0.0424
+   },
+   {
+    "symbol": "IDXX",
+    "bucket": "Health Care",
+    "screen_label": "Health Care",
+    "weight": 0.0403
+   },
+   {
+    "symbol": "INCY",
+    "bucket": "Health Care",
+    "screen_label": "Health Care",
+    "weight": 0.0241
+   },
+   {
+    "symbol": "SAM",
+    "bucket": "Consumer Staples",
+    "screen_label": "Consumer Staples",
+    "weight": 0.0234
+   }
+  ],
+  "note": "bucket = sector used for exposure (overrides fix known SIC misfits); screen_label = the SIC sector the screen ranks within. VOO, VTI and QQQ overlap heavily with each other and with large held stocks."
+ },
+ "holdings_review_due": false,
+ "buy_caps_usd": {
+  "AAPL": 92.02,
+  "ADBE": 58.34,
+  "ADSK": 60.33,
+  "AYI": 63.24,
+  "BBY": 62.14,
+  "BJRI": 58.88,
+  "BLBD": 56.19,
+  "BND": 92.02,
+  "BTC/USD": 30.67,
+  "CALX": 58.69,
+  "CARG": 28.74,
+  "CART": 57.68,
+  "CLX": 74.15,
+  "CVS": 69.38,
+  "DBX": 64.53,
+  "DECK": 58.82,
+  "DORM": 70.4,
+  "DPZ": 3.25,
+  "ETH/USD": 30.67,
+  "EXEL": 71.58,
+  "EXLS": 57.62,
+  "FAST": 92.02,
+  "FTDR": 58.11,
+  "GLD": 82.62,
+  "GPOR": 72.92,
+  "GRDN": 57.58,
+  "GRMN": 73.65,
+  "HWM": 64.19,
+  "IDXX": 43.96,
+  "IEF": 92.02,
+  "INCY": 59.65,
+  "KR": 45.89,
+  "LNG": 77.25,
+  "LOGI": 61.0,
+  "LRN": 59.8,
+  "MCO": 84.4,
+  "MLI": 69.25,
+  "MSCI": 54.26,
+  "MSM": 73.56,
+  "MTCH": 71.44,
+  "NYT": 74.6,
+  "ONC": 72.21,
+  "QQQ": 92.02,
+  "RL": 67.64,
+  "RRC": 67.35,
+  "SAM": 49.04,
+  "SBH": 55.5,
+  "TLT": 56.64,
+  "TPR": 59.0,
+  "TTEK": 69.2,
+  "UGI": 92.02,
+  "ULS": 57.44,
+  "UNFI": 57.15,
+  "VNQ": 92.02,
+  "VOO": 92.02,
+  "VRSN": 49.25,
+  "VTI": 92.02,
+  "VWO": 92.02,
+  "VXUS": 92.02,
+  "WDFC": 75.01,
+  "WINA": 62.97,
+  "WMT": 92.02
+ },
+ "asset_classes": {
+  "AAPL": "stock",
+  "ADBE": "stock",
+  "ADSK": "stock",
+  "AYI": "stock",
+  "BBY": "stock",
+  "BJRI": "stock",
+  "BLBD": "stock",
+  "BND": "etf",
+  "BTC/USD": "crypto",
+  "CALX": "stock",
+  "CARG": "stock",
+  "CART": "stock",
+  "CLX": "stock",
+  "CVS": "stock",
+  "DBX": "stock",
+  "DECK": "stock",
+  "DORM": "stock",
+  "DPZ": "stock",
+  "ETH/USD": "crypto",
+  "EXEL": "stock",
+  "EXLS": "stock",
+  "FAST": "stock",
+  "FTDR": "stock",
+  "GLD": "etf",
+  "GPOR": "stock",
+  "GRDN": "stock",
+  "GRMN": "stock",
+  "HWM": "stock",
+  "IDXX": "stock",
+  "IEF": "etf",
+  "INCY": "stock",
+  "KR": "stock",
+  "LNG": "stock",
+  "LOGI": "stock",
+  "LRN": "stock",
+  "MCO": "stock",
+  "MLI": "stock",
+  "MSCI": "stock",
+  "MSM": "stock",
+  "MTCH": "stock",
+  "NYT": "stock",
+  "ONC": "stock",
+  "QQQ": "etf",
+  "RL": "stock",
+  "RRC": "stock",
+  "SAM": "stock",
+  "SBH": "stock",
+  "TLT": "etf",
+  "TPR": "stock",
+  "TTEK": "stock",
+  "UGI": "stock",
+  "ULS": "stock",
+  "UNFI": "stock",
+  "VNQ": "etf",
+  "VOO": "etf",
+  "VRSN": "stock",
+  "VTI": "etf",
+  "VWO": "etf",
+  "VXUS": "etf",
+  "WDFC": "stock",
+  "WINA": "stock",
+  "WMT": "stock"
+ },
+ "crypto": {
+  "max_pct_of_equity": 0.05,
+  "held_usd": 0,
+  "room_usd": 30.67
+ },
+ "buy_blocked": {
+  "VOO": "wash-sale window after loss sale on 2026-11-20",
+  "VNQ": "wash-sale window after loss sale on 2026-11-13",
+  "BND": "wash-sale window after loss sale on 2026-11-16",
+  "BTC/USD": "wash-sale window after loss sale on 2026-11-09",
+  "MCO": "wash-sale window after loss sale on 2026-11-19",
+  "IEF": "wash-sale window after loss sale on 2026-11-13",
+  "EXEL": "wash-sale window after loss sale on 2026-11-20",
+  "VTI": "wash-sale window after loss sale on 2026-11-20"
+ },
+ "betas_252d": {
+  "AAPL": 0.583,
+  "ADBE": 0.255,
+  "ADSK": 0.421,
+  "AYI": 1.268,
+  "BBY": 0.507,
+  "BJRI": 0.781,
+  "BLBD": 0.949,
+  "BND": 0.076,
+  "BTC/USD": 1.416,
+  "CALX": 0.85,
+  "CARG": 0.475,
+  "CART": 0.356,
+  "CLX": 0.351,
+  "CVS": -0.047,
+  "DBX": 0.171,
+  "DECK": 1.024,
+  "DORM": 0.615,
+  "DPZ": 0.122,
+  "ETH/USD": 1.875,
+  "EXEL": 0.657,
+  "EXLS": -0.0,
+  "FAST": 0.571,
+  "FTDR": 0.647,
+  "GLD": 0.786,
+  "GPOR": -0.212,
+  "GRDN": 0.607,
+  "GRMN": 0.844,
+  "HWM": 1.067,
+  "IDXX": 0.739,
+  "IEF": 0.067,
+  "INCY": 0.469,
+  "KR": -0.557,
+  "LNG": -0.363,
+  "LOGI": 1.131,
+  "LRN": 0.239,
+  "MCO": 0.548,
+  "MLI": 1.025,
+  "MSCI": 0.424,
+  "MSM": 0.861,
+  "MTCH": 0.781,
+  "NYT": 0.162,
+  "ONC": 0.674,
+  "QQQ": 1.462,
+  "RL": 1.198,
+  "RRC": -0.128,
+  "SAM": -0.095,
+  "SBH": 0.711,
+  "TLT": 0.139,
+  "TPR": 0.709,
+  "TTEK": 0.375,
+  "UGI": 0.063,
+  "ULS": 0.761,
+  "UNFI": 0.372,
+  "VNQ": 0.324,
+  "VOO": 0.987,
+  "VRSN": 0.1,
+  "VTI": 0.999,
+  "VWO": 1.123,
+  "VXUS": 1.06,
+  "WDFC": 0.182,
+  "WINA": 0.546,
+  "WMT": 0.0
+ },
+ "stress_10pct_market_drop": {
+  "current_portfolio_loss_usd": -4.73,
+  "per_100usd_position": {
+   "AAPL": -5.83,
+   "ADBE": -2.55,
+   "ADSK": -4.21,
+   "AYI": -12.68,
+   "BBY": -5.07,
+   "BJRI": -7.81,
+   "BLBD": -9.49,
+   "BND": -0.76,
+   "BTC/USD": -14.16,
+   "CALX": -8.5,
+   "CARG": -4.75,
+   "CART": -3.56,
+   "CLX": -3.51,
+   "CVS": 0.47,
+   "DBX": -1.71,
+   "DECK": -10.24,
+   "DORM": -6.15,
+   "DPZ": -1.22,
+   "ETH/USD": -18.75,
+   "EXEL": -6.57,
+   "EXLS": 0.0,
+   "FAST": -5.71,
+   "FTDR": -6.47,
+   "GLD": -7.86,
+   "GPOR": 2.12,
+   "GRDN": -6.07,
+   "GRMN": -8.44,
+   "HWM": -10.67,
+   "IDXX": -7.39,
+   "IEF": -0.67,
+   "INCY": -4.69,
+   "KR": 5.57,
+   "LNG": 3.63,
+   "LOGI": -11.31,
+   "LRN": -2.39,
+   "MCO": -5.48,
+   "MLI": -10.25,
+   "MSCI": -4.24,
+   "MSM": -8.61,
+   "MTCH": -7.81,
+   "NYT": -1.62,
+   "ONC": -6.74,
+   "QQQ": -14.62,
+   "RL": -11.98,
+   "RRC": 1.28,
+   "SAM": 0.95,
+   "SBH": -7.11,
+   "TLT": -1.39,
+   "TPR": -7.09,
+   "TTEK": -3.75,
+   "UGI": -0.63,
+   "ULS": -7.61,
+   "UNFI": -3.72,
+   "VNQ": -3.24,
+   "VOO": -9.87,
+   "VRSN": -1.0,
+   "VTI": -9.99,
+   "VWO": -11.23,
+   "VXUS": -10.6,
+   "WDFC": -1.82,
+   "WINA": -5.46,
+   "WMT": -0.0
+  },
+  "method": "beta x -10% x position value; a missing beta is treated as 1.0"
+ },
+ "recent_realized": [
+  {
+   "symbol": "BTC/USD",
+   "closed": "2026-11-09",
+   "pnl": -0.0,
+   "long_term": false
+  },
+  {
+   "symbol": "BTC/USD",
+   "closed": "2026-11-09",
+   "pnl": -1.62,
+   "long_term": false
+  },
+  {
+   "symbol": "MSM",
+   "closed": "2026-11-11",
+   "pnl": 0.18,
+   "long_term": false
+  },
+  {
+   "symbol": "VNQ",
+   "closed": "2026-11-13",
+   "pnl": -0.08,
+   "long_term": false
+  },
+  {
+   "symbol": "WMT",
+   "closed": "2026-11-13",
+   "pnl": 1.8,
+   "long_term": false
+  },
+  {
+   "symbol": "IEF",
+   "closed": "2026-11-13",
+   "pnl": -0.16,
+   "long_term": false
+  },
+  {
+   "symbol": "BND",
+   "closed": "2026-11-16",
+   "pnl": -0.28,
+   "long_term": false
+  },
+  {
+   "symbol": "BND",
+   "closed": "2026-11-16",
+   "pnl": -0.09,
+   "long_term": false
+  },
+  {
+   "symbol": "MCO",
+   "closed": "2026-11-19",
+   "pnl": -1.42,
+   "long_term": false
+  },
+  {
+   "symbol": "VTI",
+   "closed": "2026-11-20",
+   "pnl": -1.79,
+   "long_term": false
+  },
+  {
+   "symbol": "VTI",
+   "closed": "2026-11-20",
+   "pnl": -1.64,
+   "long_term": false
+  },
+  {
+   "symbol": "VTI",
+   "closed": "2026-11-20",
+   "pnl": -0.72,
+   "long_term": false
+  },
+  {
+   "symbol": "VOO",
+   "closed": "2026-11-20",
+   "pnl": -4.34,
+   "long_term": false
+  },
+  {
+   "symbol": "VOO",
+   "closed": "2026-11-20",
+   "pnl": -0.91,
+   "long_term": false
+  },
+  {
+   "symbol": "VOO",
+   "closed": "2026-11-20",
+   "pnl": -0.78,
+   "long_term": false
+  },
+  {
+   "symbol": "FAST",
+   "closed": "2026-11-20",
+   "pnl": 0.35,
+   "long_term": false
+  },
+  {
+   "symbol": "EXEL",
+   "closed": "2026-11-20",
+   "pnl": -0.67,
+   "long_term": false
+  },
+  {
+   "symbol": "WMT",
+   "closed": "2026-11-23",
+   "pnl": 3.15,
+   "long_term": false
+  },
+  {
+   "symbol": "IDXX",
+   "closed": "2026-11-23",
+   "pnl": 4.86,
+   "long_term": false
+  }
+ ],
+ "limits": {
+  "max_position_pct": 0.15,
+  "max_trades_per_day": 5,
+  "wash_sale_days": 30,
+  "kill_switch_drawdown": 0.15,
+  "min_order_usd": 1.0,
+  "max_crypto_pct": 0.05,
+  "sizing": "buy_caps_usd already applies inverse-vol sizing, the 15% cap and the crypto cap, net of current holdings"
+ }
+}

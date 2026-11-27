@@ -1,0 +1,32 @@
+{
+  "stance": "risk-on",
+  "confidence": 0.4,
+  "summary": "SPY's 21-day drawdown (-3.62%) comes mostly from Technology (XLK -13.98%). Breadth, credit and volatility do not confirm broad risk-off: RSP is +3.61% over 21 days, HYG +0.26% over 5 days and VIXY flat over 5 days. With SPY 2.97% above its 200-day and 20-day realized vol at 22.3%, a move of more than 1% is the likeliest outcome over 5 sessions, and the non-tech tape tilts the odds slightly upward. Keep appetite moderate and favor Health Care, Discretionary and Financials over Tech, Energy and Industrials. Treat this as a low-conviction lean, not a green light: tech momentum is still negative and December hike odds are near certain.",
+  "reasons": [
+    "Regime is on: SPY closed at 749.92 against the 200-day SMA of 728.3 (+2.97%), though the cushion is thinner than earlier in the autumn.",
+    "Breadth diverges positively from the cap-weighted index. RSP (equal weight) is +0.74% over 5 days and +3.61% over 21 days, while SPY is -0.59% and -3.62%. RSP sits 6.53% above its 200-day against SPY's 2.97%. The selling is concentrated, not broad.",
+    "8 of 11 sector SPDRs are positive over 21 days. XLV is +9.82%, XLP +7.84%, XLY +7.82%, XLB +6.90%, XLRE +6.35% and XLF +5.89%. The damage sits in XLK (-13.98% over 21 days, -4.31% over 5 days, 0.74% below its 200-day) and XLC (-3.31% over 21 days).",
+    "Credit is calm. HYG is +0.26% over 5 days and +0.38% over 21 days, LQD +0.15% and +1.65%. A real risk-off move usually shows up as high-yield selling first.",
+    "Volatility has stopped rising. VIXY is +0.22% over 5 days after +13.22% over 21 days, so the stress spike from the tech rout has not extended through the CPI week.",
+    "The bond reaction to the hot CPI was small: TLT -0.28% and IEF -0.16% over 5 days, after TLT +4.07% over 21 days. The near-certain December hike looks mostly priced, not a fresh yield shock.",
+    "Volatility argues against neutral. SPY's 20-day realized vol is 22.27% against 13.75% over 252 days. At that level, a 5-session move inside ±1% is the least likely of the three outcomes.",
+    "Against the call: QQQ is 0.82% below its 200-day with 5-day returns of -1.54%, and XLK's 5-day return of -4.31% includes the 11-09 chip rebound, so tech momentum is still down. Tech's weight in SPY can keep the index from rising even if breadth holds.",
+    "Track record: my last three graded stances were all neutral (one wrong at -2.7%, two right). My 0.636 hit rate only matches the always-neutral baseline of 0.636, so repeating neutral would add nothing. The always-risk-on baseline of 0.0 shows the last 11 windows had no +1% week, which is why confidence is held at 0.4. No Reviewer lesson in learning.json names the market-analyst, so none shaped this call."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Consumer Discretionary", "Financials"],
+    "avoid": ["Technology", "Energy", "Industrials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "US core is acceptable but not compelling: VOO is 3.01% above its 200-day (21-day -3.58%) and VTI 2.98% above (21-day -3.15%). QQQ is the risky one, 0.82% below its 200-day with 21-day returns of -9.55%. VNQ is the strongest sleeve (21-day +6.26%, 3.82% above its 200-day, 252-day vol 14.2%), but it is rate-sensitive with the December hike odds near certain. International stays weak: VXUS 21-day -2.10% and 0.68% below its 200-day, VWO -5.42% and 2.92% below, so keep preferring US core over international.",
+    "bonds_gold": "Treasuries rallied over 21 days (TLT +4.07%, IEF +2.11%, BND +1.61%) and gave back little on the CPI week (TLT 5-day -0.28%), but TLT is still 2.30% below its 200-day and the hike path caps the upside. BND (vol 4.0%) is the low-risk ballast. GLD bounced +2.81% over 5 days, but it is in a downtrend (21-day -3.35%, 63-day -8.78%, 9.99% below its 200-day) with 29.1% vol, so it is risky, not a hedge right now. UUP is +3.37% over 63 days and 4.15% above its 200-day, a headwind for gold.",
+    "crypto": "Risky. BTC is -11.14% over 21 days and only 0.77% above its 200-day, with 44% vol. ETH is -16.20% over 21 days and 4.73% below its 200-day, with 60% vol. Today's MSCI crypto-treasury index decision is a dated catalyst in either direction. No reason to add appetite here."
+  },
+  "watch": [
+    "SPY closing below the 200-day SMA the regime filter computes (728.3 on 11-10) would flip the regime and end the risk-on lean.",
+    "HYG losing more than about 1% over 5 days, or VIXY jumping again over 5 days, would mean the tech selloff is spreading into credit and volatility. Move to risk-off.",
+    "RSP's 5-day return turning negative alongside SPY would mean breadth support has failed. Move to neutral or risk-off.",
+    "XLK and QQQ 5-day returns turning positive would raise confidence in risk-on, since tech is the drag on the cap-weighted index.",
+    "TLT falling sharply over 5 days (long yields up) as the hike path re-prices would hurt VNQ, bonds and long-duration equity."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "summary": "The Proposer made no proposals, so nothing here changes the portfolio. The 10% market-drop stress estimate stays at -$4.67, the packet figure, which I rechecked from the per-$100 numbers. That figure is flattered. KR's +$2.10 and SAM's +$0.15 come from negative betas that their own theses call statistical artifacts, not hedges. Without those two offsets the nine holdings would lose about $6.92 (about 1.1% of $616.81 equity). TLT's long-duration rate risk around the 12-09 FOMC does not appear in a beta-based test at all. No lesson in learning.json applies to the Implicator, and I have no graded calls of my own. L3 (bucket over SIC label) shaped the exposure notes: DPZ is counted as Consumer Discretionary by bucket, not as Staples, and MSCI as Financials.",
+  "checks": [],
+  "portfolio_notes": {
+    "concentration": "DPZ is 11.91% of equity, the largest position and under the 15% cap (buy cap $3.77, so no room to add). Next are TLT at 8.22% and VRSN at 6.08%. Invested is 50.39% and cash 49.61%. By asset class: 42.17% single stocks, 8.22% bond ETF (TLT), 0% equity ETFs (us_index_etfs_pct 0.0) and 0% crypto (cap 5%, room $30.84). No stock/ETF overlap exists because no VOO, VTI or QQQ is held.",
+    "sector_buckets": "Consumer Discretionary 11.91% (DPZ alone; its Staples label is the SIC artifact), Consumer Staples 8.33% (KR 6.00% + SAM 2.34%, one factor bet), Bonds 8.22%, Health Care 6.66% (IDXX 4.16% + INCY 2.49%), Technology 6.08%, Communication 4.97%, Financials 4.22% (MSCI; its Industrials label is the SIC artifact). No bucket is near a level that would block a future add. By SIC label, DPZ + KR + SAM come to about 20.2% 'Staples'. By business, Staples is 8.3%.",
+    "tax": "Nothing is being sold. Every lot is short-term: the earliest long_term_on dates are DPZ and IDXX on 2027-10-21. No lot is within weeks of turning long-term, so tax gives no reason to time a sale either way. Unrealized gains are DPZ +$8.50, IDXX +$5.67, VRSN +$2.52, KR +$2.00, MSCI +$1.04, TLT +$0.72, CARG +$0.69 and INCY +$0.39. SAM is at -$0.57, so a full or partial SAM sale would realize a short-term loss. A SAM rebuy would then be blocked for 30 days.",
+    "wash_sale": "None today, because no buys are proposed. Blocked: BND, IEF, VNQ, BTC/USD, MCO, VOO, VTI and EXEL. With the regime filter off, TLT and GLD are the only usable buys. TLT's three lots (11-20, 11-23, 11-24) are all at small gains, so no partial-loss-sale-after-buy issue exists.",
+    "event_overlap": "KR (6.00%) has its company-confirmed 12-03 call inside the 5-day window from today. It is the single largest stress offset (+$2.10), and that offset rests on the artifact beta."
+  },
+  "stress_10pct_drop": {
+    "before_usd": -4.67,
+    "after_usd": -4.67
+  }
+}

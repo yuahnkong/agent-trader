@@ -1,0 +1,34 @@
+{
+  "stance": "neutral",
+  "confidence": 0.6,
+  "summary": "The trend is intact (SPY 5.66% above its 200-day) but leadership has rotated from tech and communication to energy and defensives, which argues for normal-to-modest risk appetite rather than pressing. Nasdaq 100 is down 4.34% over 21 days, while risk havens (gold, crypto) are also falling, so there is no clean safe or risk-on signal. Favor broad, lower-volatility equity exposure and keep new risk small ahead of the Fed meeting and event-dense week.",
+  "reasons": [
+    "Regime is on: SPY close 765.37 vs 200-day 724.4, 5.66% above, so the trend filter is intact. But SPY is flat to down on short horizons (5d -0.14%, 21d -0.78%) with 63d only +3.56%.",
+    "Leadership is narrowing away from growth: QQQ 21d -4.34%, XLK 21d -5.07%, XLC 5d -5.67% / 21d -8.06% (8% below its 200-day, the weakest sector). Tech is still 10.64% above its 200-day, so this reads as a correction inside an uptrend, not a break.",
+    "Equal-weight is holding up better than cap-weight: RSP 21d +2.93% vs SPY -0.78%, and IWM 5d +2.10% (though 21d -1.77%, 63d -5.34%, sitting at its 200-day, -0.10%). Breadth is better than the index headline, which is a mild positive.",
+    "Defensive and cyclical-commodity rotation: XLE 21d +12.25% (63d +21.68%), XLU 21d +7.69%, XLP 21d +7.19%, XLV 21d +5.03%. Defensives leading while tech lags is a neutral-to-cautious tape.",
+    "Volatility is subdued: SPY 20-day realized vol 9.81% vs 12.73% over 252 days. VIXY is up 3.23% over 5d and 5.72% over 21d but down 17.33% over 63d, so fear is edging up from a low base, not spiking.",
+    "Rates are rallying but not clearly healed: TLT 5d +2.79%, 21d +3.39% (long yields down recently), yet TLT is still 1.94% below its 200-day and 63d -1.89%. IEF 21d +1.59%, 63d -1.59%. The bond bounce is real but within a weaker 3-month trend.",
+    "Credit is steady, not stressed: HYG 5d +0.48%, 21d -0.41%, 0.89% below its 200-day; LQD 21d +1.22%. No credit-driven risk-off signal.",
+    "No haven bid: GLD 21d -6.50% and 11.15% below its 200-day; UUP 21d +1.36%, 4.01% above its 200-day (firmer dollar). Gold falling with equities mixed suggests rate/dollar pressure rather than a flight to safety.",
+    "Crypto is in a correction: BTC 21d -6.70% (still 9.62% above its 200-day, vol 44.1%), ETH 21d -14.37%, 63d -6.55% (vol 60.9%). Weak speculative appetite.",
+    "Track record: market-analyst has 0 graded calls (6 pending), so no hit rate to lean on. Lessons L1 and L2 apply to proposer, portfolio-manager and news-analyst, not to me, so neither shaped this call."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Consumer Staples", "Energy"],
+    "avoid": ["Communication", "Industrials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Prefer broad, lower-vol US exposure (VOO 21d -0.78%, VTI 21d -0.85%, both ~5% above 200-day) over Nasdaq (QQQ 21d -4.34%, vol 20.0%). International and emerging are weak and near or below their 200-day: VXUS 21d -4.31% (-0.41% vs 200d), VWO 21d -6.08% (-2.90%). REITs (VNQ 63d -6.90%, at its 200-day) are rate-sensitive and unconvincing.",
+    "bonds_gold": "Bonds are bouncing (TLT 21d +3.39%, IEF +1.59%, BND +1.26%) but all remain below their 200-day averages, so treat them as ballast rather than a trend trade; BND (vol 3.97%) and IEF (vol 4.96%) are the steadier choices over TLT. Gold is oversold and in a downtrend (21d -6.50%, 11.15% below 200-day, vol 28.7%): not attractive until it stabilizes.",
+    "crypto": "Unattractive now: BTC 21d -6.70% and ETH 21d -14.37% with 44% and 61% annualized vol. BTC is still above its 200-day (+9.62%), so the long-term trend is not broken, but momentum is negative. If used at all, keep it very small and skip ETH."
+  },
+  "watch": [
+    "SPY closing below its 200-day (724.4, about 5.7% below the current level) would flip the regime filter off and the stance toward risk-off.",
+    "QQQ/XLK weakness spreading into SPY: another leg down in XLK (21d -5.07%) or XLC (-8.06% 21d) with RSP rolling over would move the stance to risk-off.",
+    "Rates: TLT falling back (long yields up) alongside weak equities would remove the bond ballast; a TLT move above its 200-day (currently -1.94%) would confirm a rate relief trend.",
+    "Credit: HYG breaking lower from 0.89% below its 200-day, or LQD/HYG turning negative on 5d, would signal stress.",
+    "Volatility: a sharp rise in VIXY over a few days (5d currently +3.23%) from the 9.81% realized-vol base.",
+    "Upside: IWM and RSP (5d +2.10%, +1.82%) continuing to lead while QQQ stabilizes would justify moving to risk-on."
+  ]
+}

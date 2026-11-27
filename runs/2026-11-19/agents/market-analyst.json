@@ -1,0 +1,32 @@
+{
+  "stance": "risk-off",
+  "confidence": 0.55,
+  "summary": "SPY is sitting on its 200-day line (730.20 vs 730.02, +0.02%) after a -3.9% week, with realized vol at 23.1% against 13.8% over the year, VIXY up 20.5% in 5 days, credit slipping and Treasuries falling with stocks. One more down close switches the regime filter off. Keep new equity risk small and confined to the defensive sectors that are still above their 200-day lines (Staples, Utilities). Do not add to broad US core, bonds, gold, crypto or international.",
+  "reasons": [
+    "Regime is at the edge: SPY 730.20 vs 200-day 730.02 (pct_from_sma200 +0.0002); VOO is +0.06% and VTI already -0.06% from their 200-day averages, so a close below the line is about one ordinary session away.",
+    "Momentum is negative on every horizon: SPY 5d -3.90%, 21d -5.05%, 63d -4.01%; QQQ 5d -4.47%, 21d -8.10%, 3.27% below its 200-day; IWM 5d -4.58%, 3.06% below its 200-day.",
+    "Volatility has expanded: SPY 20-day realized vol 23.09% vs 252-day 13.78%, and VIXY rose 20.5% over 5 days and 21.0% over 21 days. At that vol a 5-session move of under 1% is the least likely outcome, so neutral is the weakest call today and the choice is between directions.",
+    "Treasuries are not hedging: TLT 5d -0.87% and 2.94% below its 200-day, IEF 5d -0.30% and 1.54% below, while SPY fell 3.90%. Only SHY is positive (5d +0.04%, 21d +0.36%).",
+    "Credit is weakening with equities: HYG 5d -0.90% and 1.07% below its 200-day; LQD 5d -0.78% and 2.01% below.",
+    "The dollar is the only strong macro asset: UUP 5d +0.92%, 21d +2.49%, 63d +6.13%, 5.51% above its 200-day. A rising dollar alongside falling gold (GLD 5d -6.57%, 21d -9.65%, 16.17% below its 200-day) and crypto (BTC 21d -22.49%, ETH 21d -24.71%) points to tightening liquidity, not a rotation into havens.",
+    "The selloff is concentrated in Technology (XLK 5d -6.05%, 21d -11.66%, 4.12% below its 200-day) but has spread: all 11 sector SPDRs are down over 5 days, including Health Care (-4.12%) and Financials (-3.77%), which led on 21-day returns earlier.",
+    "Counterweight I'm noting but not following: breadth is holding better than the cap-weighted index (RSP 21d -0.20%, still 3.56% above its 200-day, vs SPY 21d -5.05%), and a 5% monthly drop can mean-revert. That keeps confidence near 0.55 rather than higher."
+  ],
+  "sector_tilts": {
+    "favor": ["Consumer Staples", "Utilities"],
+    "avoid": ["Technology", "Communication", "Industrials", "Energy", "Materials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Do not add to VOO or VTI: they sit on the 200-day line (+0.06% and -0.06%) with 21d returns of -5.02% and -4.67%. QQQ (21d -8.10%, -3.27% vs 200-day) is the riskiest broad sleeve. International is worse than the US (VXUS -4.84% and VWO -7.54% below their 200-day averages; VWO 21d -7.71%), so the US-core-over-international preference stands. VNQ is the relatively strongest equity sleeve (21d +3.14%, +1.51% above its 200-day), but XLRE fell 2.18% in 5 days with long yields rising, so I would not add it today either.",
+    "bonds_gold": "Duration is still not working as a hedge: TLT (5d -0.87%) and IEF (5d -0.30%) fell with stocks and both sit below their 200-day averages, as does BND (-0.91%). Only the short end (SHY 5d +0.04%, 21d +0.36%) is behaving like a reserve. Gold is in a downtrend (GLD 63d -17.84%, 16.17% below its 200-day) and the dollar is rising against it. Do not treat gold as a defensive buy here.",
+    "crypto": "Avoid. BTC is at 62,983 (21d -22.49%, 13.39% below its 200-day) and ETH at 1,775 (21d -24.71%, 16.89% below), with annualized vol of 44.6% and 60.6%. Neither shows any stabilization in the packet."
+  },
+  "watch": [
+    "SPY closing below 730.02 turns the code regime filter off (defensive ETFs only); a close back above roughly 1% over the line (about 737) with VIXY falling would move me to neutral.",
+    "VIXY's 5-day change: a reversal from +20.5% to negative would signal the vol spike is fading and weaken the risk-off case.",
+    "TLT rising while SPY falls would restore the bond hedge and change the bonds view; until then, duration is not ballast.",
+    "HYG: a further slide below its 200-day (now -1.07%) would confirm risk-off, and a recovery would undercut it.",
+    "RSP: if breadth breaks too (RSP 5d -3.24% already; a 21d turn clearly negative or a slide toward its 200-day), the selloff is no longer a tech-only correction and I would raise confidence.",
+    "XLK stabilizing (5d return turning positive) would be the first sign that the leadership drawdown is ending."
+  ]
+}

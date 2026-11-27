@@ -1,0 +1,38 @@
+{
+  "summary": "The four buys ($60) take cash from 20.9% to 10.9% of equity, with no cap breach and no wash-sale or tax issue (all buys, no sells). The main portfolio-level effect is more overlapping US-equity beta: VOO plus VTI go from 20.7% to 24.8% of equity, and VOO ends at 14.9%, just under the 15% cap. The estimated loss in a 10% market drop rises from $20.26 to $23.03.",
+  "checks": [
+    {
+      "proposal_id": "P1",
+      "concentration": "IEF is a new position: $20 is 3.3% of equity, well under the 15% cap and the $90.10 buy cap. Bond/gold ETFs go from 5.0% (BND $30.01) to 8.3% ($50.01); this is the only diversifier added today. Asset-class mix after all four buys: stocks 53.6%, equity ETFs 24.8%, bond ETFs 8.3%, crypto 2.3% (under the 5% cap, untouched), cash 10.9%.",
+      "overlap": "IEF and BND are both Treasury-heavy, so this is the same rate bet in a slightly longer duration (BND beta 0.122, IEF 0.123). It is a diversifier against equities but not against rate moves. News memory (10-23) calls duration two-way risk around this week's Fed meeting; a hot PPI keeps hike risk alive.",
+      "tax": "Buy only, so no lots are realized. The new lot starts its short-term clock today and becomes long-term after one year.",
+      "wash_sale": "none",
+      "summary": "Fine on weight and diversification; it only adds rate risk to the BND position already held, and the $20 size is appropriate given the Fed meeting."
+    },
+    {
+      "proposal_id": "P2",
+      "concentration": "VOO goes from $74.53 (12.4%) to $89.53, about 14.9% of equity. That is 0.1 point under the 15% cap, and the $15 is nearly all of the $15.57 buy cap. Any rise in VOO relative to the rest of the book, or a fall in equity from the cash flow, would put it over 15%. Because the cap applies at purchase, this would block further VOO buys rather than force a sale.",
+      "overlap": "High. VOO, VTI (P4) and QQQ-style mega-caps hold the same large US names, and WMT ($71.22, 11.9%) and VRSN are also inside VOO and VTI. VOO plus VTI after all proposals is $149.15, 24.8% of equity, up from 20.7%. Together with 53.6% in single stocks (mostly US), the book is almost entirely US equity.",
+      "tax": "Buy only. Existing VOO lots (opened 10-20 at $707.22 and 10-23 at $698.69) are both short-term, unrealized slightly negative, and are not touched.",
+      "wash_sale": "none",
+      "summary": "No rule breached, but it leaves VOO at the cap edge and is the largest single addition to market beta (+$1.49 stress loss); consider it only if the equity tilt is wanted."
+    },
+    {
+      "proposal_id": "P3",
+      "concentration": "VRSN goes from $25.89 (4.3%) to $40.89, about 6.8% of equity, and is within the $55.18 buy cap. Technology sector (CARG $29.66 plus VRSN) rises from 4.9% to 11.7% of equity, the second-largest sector after Consumer Staples (DPZ, KR, WMT: $155.76, 25.9%). That staples cluster is unchanged by today's trades.",
+      "overlap": "Moderate. It adds to a sector the book already holds (CARG is also Technology), and VRSN is a small weight in VOO and VTI. Its beta of 0.015 (stress -$0.15 per $100) means it is a stock-specific rather than market-specific position, and it pairs well with the market-beta adds.",
+      "tax": "Buy only. The existing lot (10-23 at $292.23, up 3.6%, short-term, long_term_on 2027-10-24) is not sold. A second lot is added, so any future sale would use FIFO and take the 10-23 lot first.",
+      "wash_sale": "none",
+      "summary": "Acceptable: single-name weight rises to 6.8%, tech sector to 11.7%, both comfortably under limits, and it adds almost no market risk."
+    },
+    {
+      "proposal_id": "P4",
+      "concentration": "VTI goes from $49.62 (8.3%) to $59.62, about 9.9% of equity, well under the 15% cap and the $40.48 buy cap.",
+      "overlap": "Highest overlap of the four. VTI is mostly the same large caps as VOO (P2) and the existing VOO position; the small/mid-cap tilt the proposer cites is a minor part of VTI. Buying both VOO and VTI on the same day is close to one 25-dollar buy of the same index; spreading it across the two does not diversify.",
+      "tax": "Buy only. Existing lots (10-21 at $378.34, 10-22 at $375.95) are short-term and slightly underwater; none sold.",
+      "wash_sale": "none",
+      "summary": "Within limits, but largely duplicates P2; it adds $1.01 of stress loss for little diversification."
+    }
+  ],
+  "stress_10pct_drop": {"before_usd": -20.26, "after_usd": -23.03}
+}

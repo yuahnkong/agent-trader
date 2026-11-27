@@ -1,0 +1,37 @@
+{
+ "date": "2026-10-20",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "DPZ",
+   "side": "buy",
+   "requested_usd": 65.0,
+   "approved": true,
+   "reasons": [
+    "already submitted earlier today"
+   ],
+   "notional": "65",
+   "qty": null,
+   "resized": false,
+   "order_id": "8d56d185-090f-4f1b-8cc5-d3b68c7ad32d",
+   "client_order_id": "at-20261020-DPZ-buy",
+   "order_status": "filled"
+  },
+  {
+   "symbol": "IDXX",
+   "side": "buy",
+   "requested_usd": 40.0,
+   "approved": true,
+   "reasons": [
+    "already submitted earlier today"
+   ],
+   "notional": "40",
+   "qty": null,
+   "resized": false,
+   "order_id": "9f20050a-607d-4433-bdef-8cc0b3c44083",
+   "client_order_id": "at-20261020-IDXX-buy",
+   "order_status": "filled"
+  }
+ ]
+}

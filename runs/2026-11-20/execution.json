@@ -1,0 +1,73 @@
+{
+ "date": "2026-11-20",
+ "version": "6",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "VOO",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.123370256",
+   "resized": false,
+   "order_id": "6f61a5e1-a6d1-4c1a-9190-c936175bda55",
+   "client_order_id": "at-20261120True-VOO-sell",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "VTI",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.173153216",
+   "resized": false,
+   "order_id": "24a15649-b672-479d-9664-1041f597c3cd",
+   "client_order_id": "at-20261120True-VTI-sell",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "FAST",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.577953362",
+   "resized": false,
+   "order_id": "659c3e25-c3ee-4394-bb32-c50fce56b681",
+   "client_order_id": "at-20261120True-FAST-sell",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "EXEL",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.217126799",
+   "resized": false,
+   "order_id": "d6610298-9026-447d-8b02-d26222884f6f",
+   "client_order_id": "at-20261120True-EXEL-sell",
+   "order_status": "pending_new"
+  },
+  {
+   "symbol": "TLT",
+   "side": "buy",
+   "requested_usd": 25.0,
+   "approved": true,
+   "reasons": [],
+   "notional": 25.0,
+   "qty": null,
+   "resized": false,
+   "order_id": "93dd4ef2-bfb9-47ae-aa0e-44538e9dfcaa",
+   "client_order_id": "at-20261120True-TLT-buy",
+   "order_status": "pending_new"
+  }
+ ]
+}

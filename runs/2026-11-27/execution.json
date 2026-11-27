@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-27",
+ "version": "6",
+ "dry_run": false,
+ "notes": [],
+ "verdicts": [
+  {
+   "symbol": "DPZ",
+   "side": "sell",
+   "requested_usd": null,
+   "approved": true,
+   "reasons": [],
+   "notional": null,
+   "qty": "0.067744106",
+   "resized": false,
+   "order_id": "f3223578-9b74-43df-86b9-31069cfbf9e2",
+   "client_order_id": "at-20261127True-DPZ-sell",
+   "order_status": "pending_new"
+  }
+ ]
+}

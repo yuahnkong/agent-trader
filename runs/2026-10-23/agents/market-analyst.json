@@ -1,0 +1,33 @@
+{
+  "stance": "neutral",
+  "confidence": 0.6,
+  "summary": "The trend filter is intact (SPY 5.6% above its 200-day), but leadership is narrowing to defensives and tech is being sold, so keep normal exposure without adding appetite. Favor defensive and broad-breadth exposure over Nasdaq and growth, and size new risk modestly.",
+  "reasons": [
+    "Regime is on: SPY closed 763.96 vs a 200-day of 723.62, 5.58% above, so the long-only trend test passes. SPY is only -0.5% over 21 days and +3.64% over 63 days, so this is a pause, not a breakdown.",
+    "Growth is the weak spot: QQQ is -3.23% over 5 days and -4.96% over 21 days, against SPY at -1.01% and -0.5%. XLK is -6.66% (21d) and XLC -4.57% (21d), both still falling over 5 days (-3.62% and -4.46%). News memory from 10-20 to 10-22 shows the AI/data-center complex under pressure, consistent with this.",
+    "Breadth is better than the index suggests: equal-weight RSP is +1.5% (5d) and +3.27% (21d), 6.02% above its 200-day, while cap-weighted SPY is negative. The weakness is concentrated in mega-cap tech, not the broad market.",
+    "Rotation is defensive: XLP leads at +9.17% (21d, +3.82% 5d), followed by XLE +8.34%, XLU +7.85% and XLV +7.41%. Staples, utilities and health care leading while tech and communication lag is a risk-averse pattern, not a risk-on one.",
+    "Small caps are not confirming strength: IWM is -1.86% (21d), -4.73% (63d) and sits at -0.14% vs its 200-day, right on the line. Industrials are also weak (XLI -1.98% 21d, -8.48% 63d, 3.27% below its 200-day).",
+    "Volatility is edging up from a low base: VIXY is +7.93% (5d) and +5.42% (21d). It is still -17.44% over 63 days and 26% below its 200-day, so there is no stress signal yet. SPY 20-day realized vol is 9.85% vs 12.73% over 252 days, so the market is calm in absolute terms.",
+    "Rates are the cross-current: TLT is +2.21% (5d) and +2.0% (21d), so long yields have eased this week, but TLT is still 1.9% below its 200-day and -0.64% over 63 days. HYG is -0.84% (21d), 1.02% below its 200-day, and LQD is 1.55% below its 200-day: credit is soft but not breaking. News memory cites a 10-year near 5.14%, hike odds and Brent above $110, so inflation and rate risk remain.",
+    "Gold is not acting as a haven: GLD is -3.58% (5d), -6.08% (21d), 10.96% below its 200-day, with 28.7% annual volatility. The dollar is firm (UUP +0.87% 21d, 3.68% above its 200-day), which usually pressures gold and international stocks.",
+    "Internationals are lagging: VXUS is -3.71% (21d) and VWO is -5.44% (21d), both near or below their 200-days (-0.22% and -2.28%)."
+  ],
+  "sector_tilts": {
+    "favor": ["Consumer Staples", "Health Care", "Energy"],
+    "avoid": ["Technology", "Communication", "Industrials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "Prefer broad US exposure (VOO +5.61% above its 200-day, VTI +5.12%) over QQQ (-4.96% 21d, 20% annual vol). Equal-weight breadth is healthier than cap-weight, which favors a broad core over a growth tilt. Avoid adding VXUS and VWO (-3.71% and -5.44% over 21d, at or below their 200-days) and IWM (on its 200-day, -4.73% over 63d). VNQ is bouncing (+1.31% 21d) but is -7.29% over 63d and sits on its 200-day (-0.44%), so it is not yet attractive.",
+    "bonds_gold": "Bonds are the one sleeve rallying: TLT +2.0%, IEF +1.47%, BND +1.13% over 21 days, with low volatility for BND (4.0%) and IEF (5.0%). They are still below their 200-days (BND -0.67%, IEF -1.49%, TLT -1.9%), so a modest allocation to BND or IEF makes sense. Add TLT cautiously, since it carries 9.6% volatility and the rate-hike backdrop. Gold is risky: GLD is -6.08% (21d) and 10.96% below its 200-day, so do not buy the dip yet.",
+    "crypto": "Cautious. BTC is +11.36% over 63 days and 11.7% above its 200-day but -4.17% over 21 days, with 44% annual volatility. ETH is -11.8% over 21 days, only 10.75% above its 200-day, and carries 61% volatility. News memory shows BTC rejected near $84.3k and recovering from a roughly 6% correction. Keep crypto positions small; BTC is preferable to ETH."
+  },
+  "watch": [
+    "SPY closing below its 200-day of 723.62 (about 5.6% lower) would turn the stance risk-off and trigger the code filter.",
+    "QQQ losing its 200-day (currently 4.26% above) or XLK's slide extending past -10% over 21 days would signal the tech weakness is spreading to the index.",
+    "VIXY rising well beyond +8% in 5 days alongside a falling RSP would signal real risk-off; RSP turning negative on 5 days would end the breadth support.",
+    "HYG breaking further below its 200-day (currently -1.02%) while TLT falls would mean credit and rate stress together.",
+    "A recovery in QQQ and XLK with staples giving back gains would move the stance toward risk-on.",
+    "Oil and rate-hike headlines (Brent above $110, 10-year near 5.14%) per news memory: a sharp rise would hit the duration sleeve and growth."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "summary": "The menu (as of 2026-11-10, 49 names, every F-score fully computable at 9 of 9) is led by VRSN, DPZ, CARG, TPR and IDXX: top-decile in-sector gross profitability, F-score 8-9 and operating cash flow above net income. The ten equity holdings named in the learning file (WMT, KR, DPZ, IDXX, CARG, INCY, FAST, VRSN, MSCI, EXEL) all still pass the screen. The main accounting concerns are DORM (cash flow well below earnings), the amended filings at GRMN and ONC, and stale fiscal years at CLX and the September filers. No lesson names this role and I have no graded calls yet. L3 (written for the proposer and PM) shaped how I treat sector labels: DPZ's #1 Staples rank and the MSCI/MCO/FAST/MSM labels are read as SIC artifacts, not as sector evidence.",
+  "rankings": [
+    {
+      "symbol": "VRSN",
+      "rank": 1,
+      "why": "The only name combining a perfect F-score (9/9) with near-top in-sector gross profitability (gp_sector_pct 0.993, GP 1.10). CFO $1.091B is above net income of $825.7M on $1.657B revenue, and it has the lowest 252-day vol in the top group (0.283). Leverage did not rise and there was no dilution. Already held.",
+      "concerns": "Technology label stacks with CARG (held) and AAPL. FY 2025-12-31 is fine until the FY2026 10-K arrives around February."
+    },
+    {
+      "symbol": "DPZ",
+      "rank": 2,
+      "why": "F-score 8/9 with GP 1.15. CFO $792.1M is above net income of $601.7M on $4.94B revenue, and ROA, margin, turnover and current ratio all improved. Already held.",
+      "concerns": "gp_sector_pct 1.0 is inside a 'Consumer Staples / Wholesale-Groceries' SIC label, but this is a restaurant franchisor, so the rank is a label artifact (L3). Judge it on absolute quality. leverage_not_up failed (debt-funded capital structure)."
+    },
+    {
+      "symbol": "CARG",
+      "rank": 3,
+      "why": "gp_sector_pct 1.0 (GP 1.27) and F-score 8/9. CFO $295.3M is almost double net income of $155.9M on $907.0M revenue. Leverage is flat and there was no dilution. Already held.",
+      "concerns": "Its 252-day vol of 0.412 is near the 0.446 cutoff, so it is the most volatile of the top names. current_ratio_improved failed. Technology overlaps with VRSN."
+    },
+    {
+      "symbol": "TPR",
+      "rank": 4,
+      "why": "F-score 8/9 with gp_sector_pct 0.944 (GP 0.93) and one of the freshest fiscal years on the menu (FY ended 2026-06-27). CFO $1.979B is above net income of $1.528B on $8.00B revenue. Not held, so it would add Consumer Discretionary exposure.",
+      "concerns": "Vol 0.414 is near the cutoff. current_ratio_improved failed."
+    },
+    {
+      "symbol": "IDXX",
+      "rank": 5,
+      "why": "F-score 8/9 with gp_sector_pct 0.942 (GP 0.79). CFO $1.182B is above net income of $1.059B on $4.30B revenue, with no dilution and leverage flat. Already held.",
+      "concerns": "CFO is only modestly above net income. Health Care overlap with held INCY and EXEL."
+    },
+    {
+      "symbol": "AAPL",
+      "rank": 6,
+      "why": "F-score 9/9 and the freshest data on the menu (FY ended 2026-09-26, known 2026-11-03). CFO $145.1B is above net income of $132.2B on $478.8B revenue. Lowest vol on the menu (0.250).",
+      "concerns": "gp_sector_pct 0.894 is lower than the names above. Technology concentration with VRSN and CARG."
+    },
+    {
+      "symbol": "FTDR",
+      "rank": 7,
+      "why": "F-score 9/9 with gp_sector_pct 0.954 (GP 0.54). CFO $416M is above net income of $255M on $2.09B revenue.",
+      "concerns": "An 8-K 5.02 filed 11-12 is unread per news memory (officer or director change). Vol 0.421 is near the cutoff. Resolve the 5.02 before any proposal."
+    },
+    {
+      "symbol": "WDFC",
+      "rank": 8,
+      "why": "gp_sector_pct 1.0 in Materials (GP 0.77) with a fresh fiscal year (2026-08-31, known 2026-10-26). CFO $105.0M is above net income of $82.3M on $688.0M revenue, with no dilution and leverage flat.",
+      "concerns": "F-score is only 7 (roa_improved and current_ratio_improved failed). Dollar volume of $23.3M is close to the $20M floor."
+    },
+    {
+      "symbol": "NYT",
+      "rank": 9,
+      "why": "F-score 9/9 with gp_sector_pct 0.833 (GP 0.48). CFO $584.5M is well above net income of $344.0M on $2.82B revenue. Vol 0.326.",
+      "concerns": "Lower in-sector rank than the names above. The Communication sector has only two menu names (with CALX), so the percentile rests on a small peer set."
+    },
+    {
+      "symbol": "SAM",
+      "rank": 10,
+      "why": "F-score 8/9 with gp_sector_pct 0.945 (GP 0.80). CFO $270.2M is far above net income of $108.5M on $1.96B revenue, with no dilution and leverage flat.",
+      "concerns": "Net income is small against revenue, so profitability is thin even though gross profit is strong. Adds to the Consumer Staples label stack (DPZ, WMT, KR held)."
+    }
+  ],
+  "red_flags": [
+    {
+      "symbol": "DORM",
+      "flag": "Large accrual gap: CFO $113.6M against net income of $204.2M (cfo_exceeds_net_income failed). Earnings are not backed by cash, likely because of working capital. The 'Industrials' label also fits poorly for an auto-parts supplier.",
+      "severity": "high"
+    },
+    {
+      "symbol": "GRMN",
+      "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement), plus CFO $1.633B below net income of $1.664B (cfo_exceeds_net_income failed).",
+      "severity": "medium"
+    },
+    {
+      "symbol": "ONC",
+      "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement). Also failed no_dilution and leverage_not_up. Net income of $286.9M is thin against CFO of $1.128B.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "CLX",
+      "flag": "Stale fiscal year: fy_end 2025-06-30 (known since 2025-08-08). The FY2026 10-K should already exist but is not reflected, so the F-score and GP are about 16 months old.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "RRC",
+      "flag": "Not an accounting issue, but a pending all-stock acquisition by EQT (8-K 1.01, 10-26) means standalone fundamentals no longer drive the price. Leverage also rose and the gross-margin test failed.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "CART",
+      "flag": "Pending DoorDash acquisition at $65 (8-K 1.01, 10-29) against a $58.46 close: deal spread, not fundamentals, drives returns. Its 'Industrials / Business Services' label does not fit a grocery-delivery platform.",
+      "severity": "medium"
+    },
+    {
+      "symbol": "TTEK",
+      "flag": "fy_end 2025-09-28. It reported FY2026 on 11-11, so the menu's F-score (7, with ROA not improved) is a year old and about to be superseded.",
+      "severity": "low"
+    },
+    {
+      "symbol": "SBH",
+      "flag": "fy_end 2025-09-30, but news memory shows a new 10-K filed 11-10, after the menu date. Its F-score of 8 is from the prior year until the screen refreshes.",
+      "severity": "low"
+    },
+    {
+      "symbol": "SMG",
+      "flag": "fy_end 2025-09-30 (data about 13 months old). It reported FY Q4 on 11-04, so the FY2026 10-K is due. Failed no_dilution. The 10-16 8-K 5.02 aged out unread.",
+      "severity": "low"
+    },
+    {
+      "symbol": "BLBD",
+      "flag": "fy_end 2025-09-27 (stale) and an unread 8-K 5.02 filed 11-10. Earnings estimated around 11-23.",
+      "severity": "low"
+    },
+    {
+      "symbol": "MLI",
+      "flag": "CFO $755.4M slightly below net income of $765.2M (cfo_exceeds_net_income failed), and asset turnover fell.",
+      "severity": "low"
+    },
+    {
+      "symbol": "CALX",
+      "flag": "gp_sector_pct 1.0, but net income is only $17.9M on $1.00B revenue against CFO of $135.0M. Earnings are thin and the ROA tests rest on a small number.",
+      "severity": "low"
+    },
+    {
+      "symbol": "WINA",
+      "flag": "GP of 3.33 sits on just $24.9M of total assets, which inflates the ratio. Failed no_dilution. Dollar volume of $20.36M barely clears the $20M liquidity floor.",
+      "severity": "low"
+    },
+    {
+      "symbol": "MSCI",
+      "flag": "Sector label 'Industrials / Business Services' for an index and analytics provider (financial data). leverage_not_up failed. Held. MCO carries the same mislabel and leverage failure.",
+      "severity": "low"
+    },
+    {
+      "symbol": "FAST",
+      "flag": "Sector label 'Consumer Discretionary / Retail-Building Materials' for an industrial MRO distributor, the same business as MSM (also labelled Consumer Discretionary). Treat it as Industrials by bucket, as the PM did on 11-11. gross_margin_improved failed. Held.",
+      "severity": "low"
+    },
+    {
+      "symbol": "CVS",
+      "flag": "'Consumer Staples' label for a health-care services and PBM business. Net income of $1.77B is tiny against $402.1B revenue. Failed roa_improved and no_dilution. Three sell-side cuts or downgrades in four sessions (news memory).",
+      "severity": "low"
+    },
+    {
+      "symbol": "AYI",
+      "flag": "'Technology' label for a lighting and building-equipment maker, so its in-sector rank is against software peers.",
+      "severity": "low"
+    },
+    {
+      "symbol": "HWM",
+      "flag": "'Materials' label for an aerospace-components maker, so its in-sector rank is against metals peers.",
+      "severity": "low"
+    }
+  ],
+  "holdings_notes": [
+    {
+      "symbol": "BND",
+      "note": "A bond fund with no 10-K financials, so it can never pass this screen; being off the menu says nothing about its fundamentals. No fundamental view from me. Review it on its stop block and the Market Analyst's rates read. Per the learning file it was restated on 11-13 as a low-volatility reserve, not an equity hedge, and named the next sell candidate."
+    },
+    {
+      "symbol": "VOO",
+      "note": "An S&P 500 index fund, structurally outside a single-company screen, so being off the menu is not a sell signal. No fundamental view. Its main single-name exposure this week is Nvidia's 11-17 print (news memory), which is outside my inputs."
+    },
+    {
+      "symbol": "VTI",
+      "note": "A total-market index fund, structurally off the menu for the same reason as VOO. It overlaps heavily with VOO; the off-menu status is not a reason to review it, but the overlap is a sizing question for the PM."
+    }
+  ]
+}

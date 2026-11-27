@@ -1,0 +1,54 @@
+{
+  "summary": "Cash is 13.7% ($86.41) against a roughly 10% buffer, the Market Analyst has moved to risk-on (low confidence) and wants to be long US core and Health Care, Financials and Staples. Health Care (12.8%, with fresh INCY and EXEL negatives) and Staples (14.0%, WMT prints 11-19 with an unread 8-K 5.02) are full, so I propose Financials through MCO and US core through VTI. I also propose selling BND: its own stored sell condition (the hike path pushing yields higher) has now happened, its stop is 0.8% away, and in its restated role as a reserve it duplicates the cash buffer. After all three trades cash would be about $76 (about 12%). Held-book review (L7): no price stop has tripped. BND is NEAR. Every qualitative clause is untripped, with reasons given below. Points for the PM: read WMT's 11-16 8-K 5.02 before the 11-19 print, restate EXEL's stop text from the $69.04 fill and KR's from the about $67.06 blended cost (L6), and re-date the SPY 200-day to 729.31 (11-13 close) for VOO and VTI. None of these needs a trade slot.",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "MCO",
+      "side": "buy",
+      "notional_usd": 25.0,
+      "fraction": null,
+      "thesis": "Financials is one of the Market Analyst's three favored sectors (XLF 21d +6.17%, 9.35% above its 200-day). The account holds just one Financials-bucket name, MSCI, at 4.3%. MCO is on the menu with F-score 8/9, CFO $2.90B against net income $2.46B, gp_sector_pct 0.826, 252d vol 0.286 and beta 0.526. The fundamentals note flags only the same SIC mislabel and leverage_not_up failure as MSCI. Overlap (L3): by bucket MCO is Financials, though its screen_label is Industrials, the same SIC artifact as MSCI's. Its ratings and data business is close to MSCI's index and analytics business, so treat the pair as one financial-data sleeve: about 8.3% of equity after this buy. That is why it is sized at $25 and not near the $59.59 cap. Market Analyst check (L4): this follows his favor list. It is not a token buy (about 4% of equity) and does not rest on diversification alone. Dates (L2), from the news note: next earnings 2027-02-17, outside any window. The 8-K 8.01/9.01 filed 11-13 has no headline. The News Analyst infers it is the euro notes offering, but its content is unverified. The CFO presents at the JPMorgan conference on 11-17. Beta 0.53 keeps it away from the core of the Nvidia 11-17 print risk.",
+      "invalidation": "MCO closes at or below $470.00 (about 8% under an expected fill near the $511.08 menu close of 11-10; the PM should restate this from the actual fill in the same decision, per L6), or an 8-K reports a guidance cut, or the fundamentals screen drops MCO from the menu.",
+      "stop_price": 470.0,
+      "sources": ["market-analyst", "fundamentals-analyst", "news-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "VTI",
+      "side": "buy",
+      "notional_usd": 25.0,
+      "fraction": null,
+      "thesis": "The Market Analyst's same-day note says US core is 'the place to be long' (VTI 3.27% above its 200-day) and that equal-weight breadth leads the cap-weighted index (RSP 21d +2.87% while SPY 21d is -2.26%). VTI's small- and mid-cap tail gets more of that breadth than VOO, and VOO has only $9.57 of room left under the 15% cap. The stored VTI thesis says 'no adds' because VTI duplicates VOO. I am reversing that on purpose: the owner wants the account mostly invested within about a week, cash has sat 3-4 points above the buffer since 11-13, and the PM review committed to deploying it into stated tilts. A broad US ETF is the sound default for cash that has no better single-name use. Health Care and Staples are already full, and Tech, Communication and Industrials are on the avoid list. US broad-ETF weight would rise from 21.2% to about 25%. Event risk: Nvidia reports 11-17, 1 trading day out, and the news note rates VTI medium risk. If the PM prefers to wait until after the print, a one-day delay costs little. Size reflects the analyst's call for a roughly 3% 5-day move either way.",
+      "invalidation": "SPY closes below the 200-day SMA the regime filter computes (729.31 as of the 11-13 close), or RSP's 21-day return turns negative, or VTI closes at or below $359.00 (about its own 200-day, about 3.3% under the $371.11 11-13 close; the PM should restate this from the actual fill).",
+      "stop_price": 359.0,
+      "sources": ["market-analyst", "news-analyst"]
+    },
+    {
+      "id": "P3",
+      "symbol": "BND",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 1.0,
+      "thesis": "L8: the stored thesis already says BND is not an equity hedge, and it names BND 'the next sell candidate if its stop trips or the 12-09 hike path pushes yields higher'. The second condition has now happened. The news note reports traders pricing hikes in both December and January, with the 10-year at 5.15% and yields climbing again over the weekend. The Market Analyst shows TLT 5d -3.1% and IEF 5d -1.98% on an up week for stocks. The price stop is $70.00 against a $70.56 mark (+0.8%, NEAR), so ordinary noise could trip it anyway. In its restated role as a 'low-volatility reserve', BND duplicates the roughly 10% cash buffer and adds duration drift. Tax: both lots are short-term (opened 10-23 and 10-28, long-term 2027-10-24 and later), and the sale realizes a small loss of about $0.36, so tax timing does not argue for holding. The cost is that the book would hold no bond sleeve. The Market Analyst's note gives no reason to want one now (duration is not hedging, gold is in a downtrend). A 30-day wash-sale block on BND would follow.",
+      "invalidation": "The sale is wrong if BND closes above $71.50 (back above the $71.28 average fill) within 20 sessions while the Market Analyst stays risk-on, which would mean yields reversed lower and the reserve would have earned its place.",
+      "stop_price": null,
+      "sources": ["market-analyst", "news-analyst"]
+    }
+  ],
+  "holdings_review": [],
+  "held_book_check": [
+    {"symbol": "BND", "stop": "NEAR: mark 70.56 vs stop 70.00 (+0.8%)", "clauses": "Rate clause not tripped as written: the Market Analyst is risk-on and TLT is 4.03% below its 200-day, but IEF is only 2.26% below its 200-day, short of 3%. The thesis's own sell condition (hike path pushes yields higher) has happened, so it is P3."},
+    {"symbol": "CARG", "stop": "ok, +23.2% above $28.25", "clauses": "No guidance cut and no 8-K in the window (news note). Untripped."},
+    {"symbol": "DPZ", "stop": "ok, +13.9% above $300", "clauses": "Still on the menu (rank 2) with CFO above net income. No confirmed guidance cut (Baird upgrade 11-13, no filings). Untripped."},
+    {"symbol": "EXEL", "stop": "ok, +6.2% above $65", "clauses": "Morgan Stanley's PT cut to $57 is a sell-side datum, not an 8-K guidance cut or a failed trial. Still on the menu. Untripped. The stored stop text still measures from the $71.74 menu close, not the $69.04 fill: the PM should fix it via thesis_updates (L6)."},
+    {"symbol": "FAST", "stop": "ok, +18.2% above $46.70", "clauses": "No earnings report since 10-14, so the cash-flow clause cannot trip before 2027-01-19. Untripped. Industrials is on the Market Analyst's avoid list (XLI 21d +0.53%), so it remains a marginal hold."},
+    {"symbol": "IDXX", "stop": "ok, +10.0% above $640", "clauses": "No guidance cut or 8-K. Untripped."},
+    {"symbol": "INCY", "stop": "ok, +10.0% above $110", "clauses": "The 8-K 8.01 (11-13) says Incyte will not proceed with the planned Phase 3 MAESTRA-3 study and that guidance is unaffected. Dropping a planned study is not a failed pivotal trial or a guidance cut, so untripped. It is a pipeline negative on the INCY+EXEL oncology pair; no add to Health Care."},
+    {"symbol": "KR", "stop": "ok, +14.5% above $61.50", "clauses": "Cyber incident not confirmed as Kroger, and the next report is 12-03. Untripped. The stop text should be measured from the about $67.06 blended cost (L6)."},
+    {"symbol": "MSCI", "stop": "ok, +18.2% above $556.75", "clauses": "No guidance cut or 8-K; Goldman raised its PT to $748. Untripped. Its thesis should note the new MCO overlap if P1 fills."},
+    {"symbol": "VOO", "stop": "ok, SPY 754.37 vs 200-day 729.31 (+3.44%)", "clauses": "RSP 21d is +2.87%, positive. Untripped. The stored 728.98 reference is stale (729.31 as of 11-13)."},
+    {"symbol": "VRSN", "stop": "ok, +12.6% above $278", "clauses": "No filing reversing guidance. Untripped."},
+    {"symbol": "VTI", "stop": "ok, SPY +3.44% over its 200-day", "clauses": "VTI at about $371 is far above the about $347 clause. Untripped."},
+    {"symbol": "WMT", "stop": "ok, +7.6% above $119", "clauses": "XLP 21d is +6.54%, above +3%. No guidance cut yet; the print is 11-19. Untripped. The one-third trim was done 11-13. New 8-K 5.02/9.01 filed 11-16 is unread: the PM should check it before the print. I do not propose a second trim on an unread item number alone."}
+  ]
+}

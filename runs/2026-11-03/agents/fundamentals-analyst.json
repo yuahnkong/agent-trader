@@ -1,0 +1,41 @@
+{
+  "summary": "Best quality on the menu is VRSN (F-score 9/9, gp_sector_pct 0.99, cfo 1.09B vs net income 826M), CARG (gp 1.27, cfo 295M vs NI 156M) and AAPL (9/9, fresh FY26 10-K known today, cfo 145.1B vs NI 132.2B). Cash conversion is the main separator: DORM, GRMN and MLI have cfo below net income, and DORM's is sharply so. No lesson in learning.json is addressed to this role and I have no graded calls yet; I did follow the standing L3 caveat that DPZ, FAST, MSM and AYI rank on SIC-derived sector labels that do not match the business.",
+  "rankings": [
+    {"symbol": "VRSN", "rank": 1, "why": "Only 9/9 F-score with all nine tests computable; gp_sector_pct 0.993; cfo 1.091B vs net income 825.7M (1.32x); 252d vol 0.284, among the calmer names.", "concerns": "Technology label is reasonable. Already held, so this is a quality confirmation, not a new-buy argument."},
+    {"symbol": "CARG", "rank": 2, "why": "gp 1.27, top of sector (pct 1.0); cfo 295.3M is 1.9x net income 155.9M; F-score 8/9, no dilution, leverage not up.", "concerns": "current_ratio_improved is false. Vol 0.401 is near the 0.44 cutoff and dollar volume is only 36.7M."},
+    {"symbol": "AAPL", "rank": 3, "why": "F-score 9/9; FY ending 2026-09-26, known_since 2026-11-03, so the data is as fresh as it can be; cfo 145.1B vs NI 132.2B; vol 0.242, the calmest of the top names; gp_sector_pct 0.894.", "concerns": "Lowest gross profitability of the top group (0.577) and gp_sector_pct under 0.90. Row is new today and the filing is unchecked for amendments."},
+    {"symbol": "DPZ", "rank": 4, "why": "gp 1.15; F-score 8/9; cfo 792.1M vs NI 601.7M (1.32x); vol 0.313. Absolute quality stands without the sector rank.", "concerns": "Sector rank is an artifact: SIC 'Wholesale-Groceries' puts a pizza franchisor in Consumer Staples (L3). leverage_not_up is false."},
+    {"symbol": "TPR", "rank": 5, "why": "gp_sector_pct 0.944; F-score 8/9; cfo 1.98B vs NI 1.53B (1.30x); FY ended 2026-06-27, filed 2026-08-13, a recent year.", "concerns": "Vol 0.421 is close to the cutoff. Only current_ratio_improved fails."},
+    {"symbol": "IDXX", "rank": 6, "why": "gp_sector_pct 0.949; F-score 8/9; cfo 1.18B vs NI 1.06B; vol 0.378.", "concerns": "Fundamentals are from FY2025 and the stock closed 671.64 after the print, so the menu data does not reflect the new quarter. Cash conversion is only 1.12x."},
+    {"symbol": "MSM", "rank": 7, "why": "9/9 F-score; cfo 306.5M vs NI 222.6M (1.38x); FY ended 2026-08-29, filed 2026-10-22; vol 0.318.", "concerns": "Labelled Consumer Discretionary but it is an industrial MRO distributor (SIC wholesale-industrial machinery); pct 0.826 is the lowest in this group."},
+    {"symbol": "SAM", "rank": 8, "why": "F-score 8/9; cfo 270.2M vs NI 108.5M (2.5x); gp_sector_pct 0.945.", "concerns": "Dollar volume 33.7M and net margin about 5.5%. current_ratio_improved is false."},
+    {"symbol": "INCY", "rank": 9, "why": "F-score 8/9; cfo 1.41B vs NI 1.29B; gp_sector_pct 0.912; vol 0.335.", "concerns": "asset_turnover_improved is false. Health Care overlaps IDXX if both are held."},
+    {"symbol": "DBX", "rank": 10, "why": "cfo 951.8M is 1.87x NI 508.4M; gp_sector_pct 0.961; dollar volume 118M.", "concerns": "F-score only 7; gross_margin_improved is false. News memory shows a 9% headcount cut and an unread 8-K 5.02."}
+  ],
+  "red_flags": [
+    {"symbol": "DORM", "flag": "cfo 113.6M is only 56% of net income 204.2M (cfo_exceeds_net_income false) on 2.13B revenue; earnings are not backed by cash. Worst accrual gap on the menu.", "severity": "high"},
+    {"symbol": "GRMN", "flag": "Amended 10-K/10-Q in the last two years (possible restatement); cfo 1.633B also sits slightly below net income 1.664B.", "severity": "medium"},
+    {"symbol": "ONC", "flag": "Amended 10-K/10-Q flag; no_dilution and leverage_not_up both fail; net income 287M is small against revenue 5.34B.", "severity": "medium"},
+    {"symbol": "CVS", "flag": "Net income 1.77B on 402B revenue (0.4% margin) against cfo 10.6B, a large working-capital-driven gap; no_dilution and roa_improved both fail.", "severity": "medium"},
+    {"symbol": "CLX", "flag": "Latest fiscal year ends 2025-06-30 (known_since 2025-08-08), about 16 months old; the FY26 numbers are missing, so the F-score is stale. leverage_not_up is also false.", "severity": "medium"},
+    {"symbol": "TTEK", "flag": "FY ended 2025-09-28, now 13 months old; also roa_improved false.", "severity": "low"},
+    {"symbol": "SMG", "flag": "FY ended 2025-09-30 (stale) and no_dilution fails; fiscal Q4 results are due 11-04, so the data will change.", "severity": "low"},
+    {"symbol": "BLBD", "flag": "FY ended 2025-09-27 (stale).", "severity": "low"},
+    {"symbol": "SBH", "flag": "FY ended 2025-09-30 (stale).", "severity": "low"},
+    {"symbol": "MLI", "flag": "cfo 755.4M is slightly below net income 765.2M (cfo_exceeds_net_income false) and asset_turnover_improved is false.", "severity": "low"},
+    {"symbol": "UNFI", "flag": "Net income 84M on 31.2B revenue; no_dilution fails; dollar volume 25.5M.", "severity": "low"},
+    {"symbol": "DPZ", "flag": "Staples rank rests on a wholesale-groceries SIC mislabel; leverage_not_up is false.", "severity": "low"},
+    {"symbol": "AYI", "flag": "Labelled Technology but is a lighting and building-controls maker; its sector percentile is mislabelled.", "severity": "low"},
+    {"symbol": "HWM", "flag": "Labelled Materials (SIC nonferrous metals) but is an aerospace components maker; gp_sector_pct is against the wrong peers.", "severity": "low"},
+    {"symbol": "FAST", "flag": "Labelled Consumer Discretionary (SIC retail-building materials) but is an industrial distributor; gross_margin_improved is false.", "severity": "low"},
+    {"symbol": "CART", "flag": "Fundamentals are secondary: the DoorDash $65 deal makes this merger-arb at a 57.59 close. gross_margin_improved false.", "severity": "low"},
+    {"symbol": "RRC", "flag": "Pending EQT all-stock acquisition; F-score is the minimum 7 with leverage_not_up and gross_margin_improved both false.", "severity": "low"}
+  ],
+  "holdings_notes": [
+    {"symbol": "BND", "note": "Bond ETF; no SEC company financials exist, so it falls off a company-fundamentals screen by construction. Not a signal to review."},
+    {"symbol": "IEF", "note": "Treasury ETF; same as BND. No fundamentals view."},
+    {"symbol": "VOO", "note": "Broad US equity ETF; not covered by a single-company screen, so being off the menu says nothing about quality."},
+    {"symbol": "VTI", "note": "Broad US equity ETF; same as VOO. It overlaps VOO heavily and holds many names this screen would reject."},
+    {"symbol": "BTC/USD", "note": "No financial statements, so the screen cannot assess it. Any decision on it must come from the Market and News analysts."}
+  ]
+}

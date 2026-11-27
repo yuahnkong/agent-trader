@@ -1,0 +1,32 @@
+{
+  "stance": "risk-on",
+  "confidence": 0.4,
+  "summary": "SPY is 3.44% above its 200-day after a +2.59% week, breadth is better than the cap-weighted index (RSP 21d +2.87%, 6.47% above its 200-day) and the volatility proxy is unwinding (VIXY 5d -14.69%), so the tape leans up into Nvidia's 11-17 print. This is a low-confidence lean: long yields are rising fast (TLT 5d -3.1%, 4.03% under its 200-day), IG credit is soft (LQD 5d -1.65%) and gold and crypto are breaking down, so size for a 5-day move of roughly 3% in either direction (20d realized vol 22.3%) and keep the tilt toward Health Care, Financials and Staples rather than Technology.",
+  "reasons": [
+    "Regime: SPY 754.37 vs 200-day 729.31, +3.44% above; the trend filter is on.",
+    "Short-term momentum turned up: SPY 5d +2.59%, QQQ 5d +3.63%, IWM 5d +1.41%, RSP 5d +2.37%, and every one of the 11 sector SPDRs rose over 5 days (XLE +5.42% to XLRE +0.84%).",
+    "Breadth is healthier than the headline: RSP 21d +2.87% and 6.47% above its 200-day while SPY 21d is -2.26%, so the 21-day loss is concentrated in mega-cap tech (XLK 21d -10.0%, QQQ 21d -6.61%), not the average stock.",
+    "Volatility is easing: VIXY 5d -14.69% after 21d +9.39%, which reads as the Nvidia/CPI stress fading rather than building.",
+    "Realized volatility is high: SPY 20d 22.29% vs 252d 13.74%, which makes a 5-day move inside ±1% less likely than usual and argues against a neutral call.",
+    "Rates are the main headwind: TLT 5d -3.1% and -4.03% from its 200-day, IEF 5d -1.98% and -2.26% from its 200-day, SHY 5d -0.56%; long yields are rising, and equities absorbed it last week rather than breaking.",
+    "Credit is soft but not cracking: HYG 5d -0.38% and 21d +0.27% (only -0.71% from its 200-day), while LQD 5d -1.65% tracks the duration move more than spread stress.",
+    "Dollar strength and real-asset weakness signal tightening liquidity: UUP 63d +4.98% and 5.23% above its 200-day; GLD 5d -4.58%, 63d -12.34%, 12.97% under its 200-day; BTC 21d -18.41% and ETH 21d -21.16%.",
+    "Track record: my 8 of 14 (0.571) only ties the always-neutral baseline, and my last two calls were wrong on upside moves (neutral 11-05 with SPY +3.29%, risk-off 11-06 with SPY +2.59%), both made on the same rates-stress evidence present today. No current lesson applies to the Market Analyst; this record is why I am not weighting the rates and gold signals over the equity tape."
+  ],
+  "sector_tilts": {
+    "favor": ["Health Care", "Financials", "Consumer Staples"],
+    "avoid": ["Technology", "Communication", "Industrials"]
+  },
+  "asset_class_view": {
+    "equity_etfs": "US core (VOO 3.45% and VTI 3.27% above their 200-days) is the place to be long; equal-weight breadth (RSP) is leading. QQQ is below its 200-day (-0.19%) with 21d -6.61% and faces Nvidia's 11-17 print under an interim CEO, so it is the riskiest broad sleeve. International lags US (VXUS 63d -5.78%, VWO 21d -4.10% and 3.09% under its 200-day) with the dollar rising; prefer US. VNQ has 21d +5.50% and sits 3.02% above its 200-day but is rate-sensitive with TLT falling.",
+    "bonds_gold": "Duration is not hedging: TLT 5d -3.1%, IEF 5d -1.98% while SPY rose 2.59%, so bonds fell on an up week as well as on the CPI down days. BND (21d 0.0%, -1.36% from its 200-day, 4.1% vol) is a low-volatility reserve, not ballast. Gold is in a downtrend (GLD -12.97% from its 200-day, 5d -4.58%) against a rising dollar and yields; avoid adding.",
+    "crypto": "Risky and in a downtrend: BTC 21d -18.41%, 10.43% under its 200-day; ETH 21d -21.16%, 14.37% under its 200-day, with 45-61% annualized vol. It has not joined last week's equity bounce, so it offers no diversification here; avoid."
+  },
+  "watch": [
+    "Nvidia's 11-17 print: a QQQ/XLK reversal back to new 5-day lows would flip this to neutral or risk-off.",
+    "Rates: TLT extending further below its 200-day (beyond about -5%) alongside HYG breaking lower would turn the yield move into credit stress and argue for risk-off.",
+    "VIXY: a 5-day rise after this week's -14.69% would signal the stress is returning.",
+    "Breadth: RSP 5d turning negative while SPY holds up would mean the bounce is narrowing.",
+    "WMT's 11-19 print as a read on Consumer Staples, the account's largest favored-sector exposure."
+  ]
+}

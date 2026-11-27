@@ -1,0 +1,30 @@
+{
+  "summary": "The menu is strong: 44 names, all with fscore_computable 9, so no score leans on missing tests. VRSN stands out as the only perfect 9/9 with gp_sector_pct 0.993 and cfo $1.09B well above net income of $0.83B. DPZ and CARG follow, both at the top of their sectors. The main accounting concerns are amended filings at GRMN and ONC, earnings not backed by cash at DORM, and stale fiscal years at CLX, WDFC and AAPL. No holdings fell off the screen.",
+  "rankings": [
+    {"symbol": "VRSN", "rank": 1, "why": "Only F-score 9/9 on the menu, all nine tests computable; gp_sector_pct 0.993 (gross profitability 1.10); cfo $1,091M vs net income $826M; lowest-vol tier at 0.29.", "concerns": ""},
+    {"symbol": "DPZ", "rank": 2, "why": "gp_sector_pct 1.0 (gross profitability 1.15), F-score 8/9; cfo $792M vs net income $602M; ROA, margin and turnover all improved.", "concerns": "Failed leverage_not_up. The Consumer Staples / wholesale-groceries label fits a pizza franchisor poorly, so its in-sector percentile is measured against grocery distributors."},
+    {"symbol": "CARG", "rank": 3, "why": "gp_sector_pct 1.0 (gross profitability 1.27), F-score 8/9; cfo $295M is nearly 2x net income of $156M; leverage not up, no dilution.", "concerns": "Smallest dollar volume among the top names ($35M) and vol_252d 0.39, close to the cutoff."},
+    {"symbol": "TPR", "rank": 4, "why": "F-score 8/9, gp_sector_pct 0.949; cfo $1,979M vs net income $1,528M; freshest fiscal year on the menu (FY end 2026-06-27).", "concerns": "vol_252d 0.41, near the cutoff."},
+    {"symbol": "IDXX", "rank": 5, "why": "F-score 8/9, gp_sector_pct 0.941; net income $1,059M backed by cfo $1,182M; leverage not up, no dilution; vol 0.32.", "concerns": "Cash cover over earnings is thinner than at the names above."},
+    {"symbol": "SAM", "rank": 6, "why": "F-score 8/9, gp_sector_pct 0.946; cfo $270M is about 2.5x net income of $108M; leverage not up, no dilution.", "concerns": "Net income is small against revenue of $1.96B."},
+    {"symbol": "MSCI", "rank": 7, "why": "F-score 8/9, gp_sector_pct 0.904; cfo $1,588M vs net income $1,202M; vol 0.30.", "concerns": "Failed leverage_not_up. Labelled Industrials, which is a loose fit for an index and data provider."},
+    {"symbol": "TTEK", "rank": 8, "why": "gp_sector_pct 1.0 (gross profitability 1.08); cfo $458M is nearly 2x net income of $248M; leverage not up, no dilution.", "concerns": "F-score only 7 (ROA and current ratio did not improve). FY ended 2025-09-28, so the data is about 13 months old."},
+    {"symbol": "EXLS", "rank": 9, "why": "F-score 8/9, gp_sector_pct 0.913; cfo $351M vs net income $251M; leverage not up, no dilution.", "concerns": "vol_252d 0.43, right at the 0.438 cutoff."},
+    {"symbol": "CALX", "rank": 10, "why": "gp_sector_pct 1.0, F-score 8/9; cfo $135M vs net income $18M, so cash flow far exceeds earnings.", "concerns": "Net income of $18M on $1.0B revenue is barely profitable; vol 0.41."}
+  ],
+  "red_flags": [
+    {"symbol": "GRMN", "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement), and cfo ($1,633M) is below net income ($1,664M).", "severity": "medium"},
+    {"symbol": "ONC", "flag": "Amended 10-K/10-Q filed in the last two years (possible restatement); also failed both leverage_not_up and no_dilution.", "severity": "medium"},
+    {"symbol": "DORM", "flag": "Accruals: cfo of $114M is barely more than half of net income ($204M), so earnings are not backed by cash.", "severity": "medium"},
+    {"symbol": "CLX", "flag": "Stale fiscal year: FY end 2025-06-30, about 16 months old; also failed leverage_not_up.", "severity": "medium"},
+    {"symbol": "WDFC", "flag": "Stale fiscal year (FY end 2025-08-31), and cfo ($88M) is below net income ($91M).", "severity": "low"},
+    {"symbol": "AAPL", "flag": "Stale fiscal year (FY end 2025-09-27), and cfo ($111.5B) is slightly below net income ($112.0B).", "severity": "low"},
+    {"symbol": "MLI", "flag": "cfo ($755M) is slightly below net income ($765M).", "severity": "low"},
+    {"symbol": "SMG", "flag": "Stale fiscal year (FY end 2025-09-30); failed no_dilution.", "severity": "low"},
+    {"symbol": "DPZ", "flag": "Sector label looks wrong: tagged Consumer Staples / wholesale groceries, but the business is a restaurant franchisor.", "severity": "low"},
+    {"symbol": "HWM", "flag": "Sector label looks wrong: tagged Materials (metal extruding), but the business is aerospace components.", "severity": "low"},
+    {"symbol": "FAST", "flag": "Sector label looks wrong: tagged Consumer Discretionary retail, but the business is an industrial distributor.", "severity": "low"},
+    {"symbol": "MCO", "flag": "Labelled Industrials (credit reporting); ratings work sits close to the financials exclusion.", "severity": "low"}
+  ],
+  "holdings_notes": []
+}

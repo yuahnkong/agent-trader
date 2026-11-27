@@ -1,0 +1,33 @@
+{
+  "summary": "The figures in both proposals match the inputs: SAM's mark is $217.52 against a $220.14 fill, DPZ is 12.07% at $361.53, trimming a third leaves about 8.1%, and cash would end near 55.9%. My L7 check also found no stored clause met on any holding. P1 (sell all of SAM) is the weaker proposal. It sells a sound name in the favored, leading Staples sector because information is missing, not because anything negative came in, and it leaves the whole Staples tilt in KR four trading days before KR's print. P2's sizing logic holds up, but its own grading test is effectively a bet on a market bounce. My graded record (2 right, 19 wrong at 20 sessions) argues for modest severities, so I rate nothing fatal.",
+  "challenges": [
+    {
+      "proposal_id": "P1",
+      "case_against": "Every SAM-specific reason in the thesis is missing information, not bad news. The 8-K 5.02 expired unread and Koch's continuing role was never stated. The CEO handover itself has been known since 11-19, and SAM already fell 5.0% on 11-20 (L3 evidence), so it is likely priced. The proposal leaves out the Fundamentals Analyst's direct line: 'The fundamentals are fine and are not the case against it.' Meanwhile the sector is doing what the tilt expects. Staples is first on the Market Analyst's favored list, and XLP is +1.23% over 5d and +5.91% over 21d and sits 9.43% above its 200-day, in a tape he calls risk-off with SPY at -6.88% over 21d. On the stated test ('SAM beats SPY over 20 sessions'), a Staples name in a falling market is more likely to beat SPY than to lag it. 'Adds little beyond KR' cuts the other way: after the sale, the whole 5.9% Staples position is KR, which has a company-confirmed print on 12-03, four trading days out (News Analyst: high event risk). Selling SAM moves the Staples tilt off the name without an event and onto the one that has one. The cash cannot be redeployed into equities while the filter is off, so the swap is SAM's Staples exposure for 0% cash. One more cost: the sale closes at a loss (about -$0.18), which starts a 30-day wash-sale block. With SPY only 1.93% under its 200-day, the filter could turn back on inside that window, and then SAM could not be bought back. So 'costs nothing' is only true while the filter stays off.",
+      "severity": "minor",
+      "about": "direction",
+      "what_would_change_my_mind": "Any of these would make the sale the right call: a headline or filing showing Koch leaving the business entirely, or another negative change at SAM; XLP's 21d return dropping below SPY's (the Staples lead ending); or SAM closing well below its post-handover level while XLP rises, so it lags its own sector."
+    },
+    {
+      "proposal_id": "P1",
+      "case_against": "The second half of the invalidation can't be checked. 'SAM closes above $230 ... while KR's 12-03 print shows the Staples bet working without it' joins a bare absolute price level (the form L10 warns against) to a condition no input can measure. No figure says what 'the Staples bet working' means, so the PM and the Reviewer will grade it by judgment. The first half, 'SAM beats SPY over 20 sessions', is relative and checkable and is enough on its own. Also, no SAM price series is in market.json, so the $230 line can only be read from the portfolio packet's mark after the sale, when SAM is no longer held and may have no stop block.",
+      "severity": "minor",
+      "about": "data",
+      "what_would_change_my_mind": "Drop the KR clause and keep only the relative test. Or restate it measurably, for example 'XLP's 21d return stays above SPY's through 12-03 and SAM beats XLP over 20 sessions', with the price source for SAM after the sale named."
+    },
+    {
+      "proposal_id": "P2",
+      "case_against": "The trim is judged by its own test, 'DPZ beats SPY over the next 20 sessions', and DPZ's 252-day beta is 0.117. The Market Analyst is risk-off (0.55) and expects a further fall more than a bounce. If he is right, a near-zero-beta defensive name will beat a falling SPY almost mechanically, and the trim will grade wrong even though it cut concentration as intended. For the trim to grade right, the market mostly has to bounce, which is the call he warns against making in a holiday week (his three risk-on bounce calls in this downtrend all graded wrong). There is no DPZ-specific negative to lean on either. The News Analyst cut DPZ to low event risk, the EVP sale and BNP's Underperform have not deepened for two sessions, and the 11-26 DPC Dash China item is mildly positive. DPZ is on the menu with F8, gp_sector_pct 1.0 and CFO above net income. As the proposal admits, the case is size alone, and the price test does not measure size.",
+      "severity": "minor",
+      "about": "direction",
+      "what_would_change_my_mind": "Any of these: a DPZ-specific negative (a guidance cut, an 8-K, or a further insider sale or downgrade that deepens the 11-23/11-24 thread); the Market Analyst moving to neutral or risk-on (SPY retaking about 730.8, or VIXY's 5d turning negative), which would make DPZ more likely to lag; or the trim being graded on concentration rather than against SPY."
+    },
+    {
+      "proposal_id": "P2",
+      "case_against": "A third is not sized toward any stated DPZ target. The 8.1% it lands on is justified as 'level with TLT's stated target', but TLT's ~8% is the cap for a bond hedge sleeve and has no bearing on a single equity. L4 asks for a target weight stated once with the size worked toward it. Without one, the next run can just as easily argue for another trim, or for a buyback once the filter turns on. The concentration argument is also weaker in risk terms than the 12% headline suggests. The position limit is 15%, so DPZ is under the cap. Its stress loss in a 10% market drop is about $0.87 on $74.6 ($1.17 per $100), which is less than IDXX's $1.78 at a third of DPZ's weight. What 12% actually exposes is single-name risk; BNP's $295 PT is about 18% under the mark, and the $335 stop is 7.9% under it, which already limits that loss to about $6.0 at today's size. The trim also raises idle cash from about 49% to about 56% while the account already runs about half invested. That cost is real even if the filter forces it.",
+      "severity": "minor",
+      "about": "sizing",
+      "what_would_change_my_mind": "A stated DPZ target weight with a reason tied to single-name risk (for example 'no single stock above 8-10% of equity'), with the trim sized to reach it. That would make this a rule applied once rather than a number picked to match another sleeve."
+    }
+  ]
+}

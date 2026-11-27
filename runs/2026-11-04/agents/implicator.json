@@ -1,0 +1,14 @@
+{
+  "summary": "The Proposer made no proposals, so nothing changes and the 10% market-drop loss stays at about $22.72 on $623.23 equity. The standing concerns are held-book concentration: a Consumer Staples label stack of about 26%, VOO at 13.9% against the 15% cap with VTI adding broad-US overlap, and CARG's 11-05 earnings on a 5.2% position.",
+  "checks": [
+    {
+      "proposal_id": "none",
+      "concentration": "No trades, so no weight changes. Largest positions: VOO 13.89% (1.1 points under the 15% cap; buy cap only $6.92), WMT 12.07%, DPZ 10.84%, IDXX 7.97%. Consumer Staples by label (WMT 12.07 + DPZ 10.84 + KR 3.38) is about 26.3% of equity. Asset-class mix: individual stocks about 55.8%, equity ETFs (VOO, VTI) about 21.9%, bond ETFs (BND, IEF) about 8.8%, crypto 2.2% (room under the 5% cap is $17.44), cash 11.3%.",
+      "overlap": "VOO plus VTI is about 21.9% in broad US equity with near-identical holdings. VOO and VTI likely also hold some of the single names held directly (for example WMT), so effective single-name weights are somewhat understated; holdings were not checked. The Staples stack is partly a label artifact for DPZ (wholesale-groceries SIC) per lesson L3, but WMT and KR fell together on 11-03, which is what the stacking concern predicts. Bond sleeve (BND plus IEF) is about 8.8% and both sit within about 2% of their invalidations.",
+      "tax": "No sells proposed. All lots are short-term (opened 2026-10-20 to 10-28, earliest long_term_on 2027-10-21), so any future sale would realize short-term gains or losses. IDXX (+24.1%, $9.65 unrealized) and WMT (+7.5%) hold the largest gains and would be the costly ones to sell before 2027-10-21.",
+      "wash_sale": "none: recent_realized is empty and buy_blocked is empty.",
+      "summary": "No proposals, so no portfolio change; existing concentration (Staples about 26% by label, VOO 13.9%) is the item to watch."
+    }
+  ],
+  "stress_10pct_drop": {"before_usd": -22.72, "after_usd": -22.72}
+}

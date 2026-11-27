@@ -1,0 +1,25 @@
+{
+  "stance": "neutral",
+  "confidence": 0.6,
+  "summary": "The trend regime is intact (SPY 6.1% above its 200-day, 20d realized vol 8.9% vs 12.7% over 252d), but the tape underneath is defensive: tech led a 5-day pullback, small caps and high-yield credit are weakening, and leadership has rotated to Energy, Staples and Health Care. Keep normal-to-slightly-reduced sizing and lean toward defensive and energy exposure rather than adding beta in tech or small caps.",
+  "reasons": [
+    "Regime is constructive: SPY closed 766.48 vs a 722.32 200-day SMA (+6.11%), with 63d return +2.69%.",
+    "Volatility is calm on a realized basis: SPY 20d realized vol 0.0894 vs 252d 0.127.",
+    "Short-term risk appetite slipped: SPY 5d -1.49%, QQQ 5d -3.71%, and XLK 5d -5.30% led the decline; VIXY rose +6.05% over 5d.",
+    "Small caps are in a downtrend: IWM 21d -4.51%, 63d -8.28%, and 1.95% below its 200-day.",
+    "Credit is softening: HYG 21d -1.73%, 63d -2.10%, 1.37% below its 200-day; LQD 21d -1.31%.",
+    "Breadth is holding up modestly: RSP 21d +0.90% vs SPY +0.63%, and RSP 5d +0.10% vs SPY -1.49%, so the pullback is concentrated in mega-cap tech.",
+    "Leadership is defensive/real-asset: top 21d sectors are Energy +6.05%, Staples +6.02%, Health Care +4.71%; laggards are Technology -1.81%, Industrials -1.55%, Real Estate -1.21%, Financials -1.08%.",
+    "Rates: TLT +1.81% over 5d (long yields easing short term) but -1.80% over 21d and 4.7% below its 200-day; dollar firm with UUP 21d +2.15%."
+  ],
+  "sector_tilts": {
+    "favor": ["Energy", "Health Care", "Consumer Staples"],
+    "avoid": ["Technology", "Industrials", "Real Estate"]
+  },
+  "watch": [
+    "Upgrade to risk-on if HYG stabilizes (5d/21d returns turn positive), VIXY's 5d move reverses lower, and XLK/QQQ recover their 5d losses.",
+    "Downgrade to risk-off if SPY's cushion over the 200-day (currently 6.1%) narrows sharply, HYG keeps falling, or VIXY keeps rising on consecutive 5d windows.",
+    "IWM moving back above its 200-day would signal broadening risk appetite; a further leg down would confirm risk-off rotation.",
+    "Whether TLT's 5d bounce (+1.81%) extends, easing rate pressure on Real Estate and Utilities."
+  ]
+}

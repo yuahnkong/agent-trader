@@ -1,0 +1,6 @@
+{
+  "summary": "Added L10 (store sector or macro conditions as relative tests, not bare absolute thresholds, and say whether a partial sale was weighed when a clause trips against its intent), on WMT's XLP clause, which failed both ways: silenced by 'while SPY holds' on 11-20 and tripped by a market-wide drop on 11-23 while Staples still led. L2, L3, L4, L6, L7, L8 and L9 were applied in today's run files and confirmed. The Skeptic and Market Analyst patterns and the 10-26 20-session grades went to owner_suggestions as hypotheses, because only the News Analyst has enough_data.",
+  "added": ["L10"],
+  "retired": [],
+  "confirmed": ["L2", "L3", "L4", "L6", "L7", "L8", "L9"]
+}

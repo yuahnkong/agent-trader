@@ -1,0 +1,1141 @@
+{
+ "window_hours": 72,
+ "headlines": [
+  {
+   "id": 127412196,
+   "created_at": "2026-11-20T13:02:09Z",
+   "headline": "JPMorgan Lowers Price Target for SMG Swiss Marketplace Group",
+   "summary": "JPMorgan has issued a price target reduction for SMG Swiss Marketplace Group, contributing to a decline in the company's share price.",
+   "symbols": [
+    "SMG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/aktien-schweiz-techverkauf-geht-weiter-und-zieht-smi-abwarts-1036787349"
+  },
+  {
+   "id": 127411699,
+   "created_at": "2026-11-20T13:01:25Z",
+   "headline": "Apple Developer Academy Showcase in Pohang",
+   "summary": "Apple held its annual showcase for the Apple Developer Academy in Pohang, South Korea, featuring apps developed by students.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.koreaherald.com/article/10944423"
+  },
+  {
+   "id": 127398827,
+   "created_at": "2026-11-20T12:31:54Z",
+   "headline": "Apple Developing Autonomous AI Agent",
+   "summary": "Apple is reportedly developing an autonomous AI agent capable of performing multistep tasks, including writing code, browsing the web, and controlling applications.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/AAPL-US?chain_id=Name1K9-3FXPhg.1lg030g&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FPDD-US%22%7D"
+  },
+  {
+   "id": 127378518,
+   "created_at": "2026-11-20T11:32:03Z",
+   "headline": "Baird Downgrades Fastenal to Neutral",
+   "summary": "Baird has downgraded Fastenal Company to a neutral rating with a price target of $56.",
+   "symbols": [
+    "FAST"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/baird-downgrades-fastenal-to-neutral-price-target-is-56-ce785ed3d98ff620"
+  },
+  {
+   "id": 127299083,
+   "created_at": "2026-11-20T00:02:38Z",
+   "headline": "CVS Health Mentioned in Context of Proposed CMS 'CRUSH' Rule",
+   "summary": "CVS Health is identified as a major managed care company affected by the newly proposed CMS-6098-P rule regarding Medicare Advantage audits.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/cms-proposes-medicare-advantage-audit-recoveries-reaching-back-to-2018-871789633.html"
+  },
+  {
+   "id": 127186369,
+   "created_at": "2026-11-19T23:02:37Z",
+   "headline": "Belden Declares Quarterly Dividend of $0.05 Per Share",
+   "summary": "Belden Inc. has declared a quarterly dividend of $0.05 per share, payable on January 7, 2027, to shareholders of record as of December 10, 2026.",
+   "symbols": [
+    "BDC"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/belden-keeps-quarterly-dividend-at-0-05-per-share-payable-jan-7-to-holders-of-record-dec-10-ce785ed2df8cf322"
+  },
+  {
+   "id": 127186368,
+   "created_at": "2026-11-19T23:02:37Z",
+   "headline": "Belden Launches New Products and Portfolio Updates to Strengthen OT Resiliency",
+   "summary": "Belden Inc. has introduced new products and portfolio updates aimed at enhancing operational technology (OT) network resilience across industrial environments.",
+   "symbols": [
+    "BDC"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/technology/telecommunications"
+  },
+  {
+   "id": 127186344,
+   "created_at": "2026-11-19T23:02:13Z",
+   "headline": "The Boston Beer Company Names Phil Hodges President and Chief Executive Officer",
+   "summary": "The Boston Beer Company has appointed current COO Phil Hodges as its new President and CEO, effective November 23, 2026, succeeding founder Jim Koch.",
+   "symbols": [
+    "SAM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/19/3407136/0/en/the-boston-beer-company-names-phil-hodges-president-and-chief-executive-officer.html"
+  },
+  {
+   "id": 127184459,
+   "created_at": "2026-11-19T23:01:53Z",
+   "headline": "Domino's Renews $1 Million Partnership with GENYOUth to Combat Student Hunger",
+   "summary": "Domino's has announced a renewed three-year, $1 million commitment to the national nonprofit GENYOUth to support school meal access and address student food insecurity.",
+   "symbols": [
+    "DPZ"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/dominos-commits-1-million-to-genyouth-to-help-end-student-hunger-302945496.html"
+  },
+  {
+   "id": 127130373,
+   "created_at": "2026-11-19T22:31:27Z",
+   "headline": "U.K. Tribunal Orders Government to Confirm Secret Demand for Apple Customer Data",
+   "summary": "The U.K. Investigatory Powers Tribunal has ordered the government to confirm it issued a secret technical order requiring Apple to provide encrypted customer information.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/articles/u-k-government-forced-to-disclose-secret-apple-backdoor-order-89f07cb47e5859b18ddafa5e02d91f83"
+  },
+  {
+   "id": 126880356,
+   "created_at": "2026-11-19T20:01:24Z",
+   "headline": "Apple Camera and Photos Software Chief Jon McCormack Departs",
+   "summary": "Jon McCormack, the head of Apple's camera and photo software, has reportedly left the company.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/pe7xh2x/"
+  },
+  {
+   "id": 126783594,
+   "created_at": "2026-11-19T19:02:45Z",
+   "headline": "UBS Adjusts Gulfport Energy Price Target to $210 From $217, Maintains Buy Rating",
+   "summary": "UBS has revised its price target for Gulfport Energy Corporation, lowering it to $210 from the previous $217 while maintaining a Buy rating.",
+   "symbols": [
+    "GPOR"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ubs-adjusts-gulfport-energy-price-target-to-210-from-217-maintains-buy-rating-ce785ed2da8df52c"
+  },
+  {
+   "id": 126783579,
+   "created_at": "2026-11-19T19:02:25Z",
+   "headline": "StoneX Initiates Coverage of Deckers Brands with Buy Rating",
+   "summary": "Financial services firm StoneX has initiated coverage on Deckers Brands, assigning the stock a Buy rating with a price target of $110.",
+   "symbols": [
+    "DECK"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/DECK-US?chain_id=Name1K9-3FXPhg.1lfuaog&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2F7012-JP%22%7D"
+  },
+  {
+   "id": 126783569,
+   "created_at": "2026-11-19T19:02:20Z",
+   "headline": "Dogfish Head Releases 2026 Holiday Gift Guide",
+   "summary": "The Boston Beer Company subsidiary Dogfish Head has announced its 2026 holiday gift lineup, featuring seasonal beers, spirits, and branded merchandise.",
+   "symbols": [
+    "SAM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.quantisnow.com/insight/dogfish-heads-guide-to-gifting-this-holiday-season-6800324"
+  },
+  {
+   "id": 126783546,
+   "created_at": "2026-11-19T19:02:09Z",
+   "headline": "UL Solutions R&D Engineer Wins 2026 CONVERGE CFD Conference Simulation Competition",
+   "summary": "Patrick O'Donnell, an R&D Engineer at UL Solutions, received first place in the 'Most Innovative Use of CONVERGE' category for his work on battery energy storage system simulations.",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/957739409/enguerran-rolland-and-patrick-o-donnell-win-the-2026-converge-cfd-conference-simulation-competition"
+  },
+  {
+   "id": 126783545,
+   "created_at": "2026-11-19T19:02:09Z",
+   "headline": "Innovative Eyewear's Lucyd Armor Smart Safety Glasses Receive UL Solutions Certification",
+   "summary": "Innovative Eyewear, Inc. announced that its Lucyd Armor smart safety glasses have been certified as compliant with AS/NZS 1337.1 following testing by UL Solutions and Intertek.",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/innovative-eyewears-lucyd-armor-smart-safety-glasses-now-certified-for-australia-and-new-zealand-302944658.html"
+  },
+  {
+   "id": 126783536,
+   "created_at": "2026-11-19T19:02:06Z",
+   "headline": "The Clorox Company Approves 2026 Annual Dividend",
+   "summary": "At its annual meeting held on November 18, 2026, The Clorox Company approved an annual dividend of $4.97 per share for the 2026 fiscal year.",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/s-p-500-wert-clorox-aktie-ueber-diese-dividendenzahlung-koennen-sich-clorox-aktionaere-freuen-1036784387"
+  },
+  {
+   "id": 126781937,
+   "created_at": "2026-11-19T19:01:49Z",
+   "headline": "The New York Times and PressReader Expand Strategic Partnership",
+   "summary": "The New York Times Company and PressReader have announced an expansion of their strategic partnership, extending their agreement through 2031 and broadening the scope of content available to international institutional partners.",
+   "symbols": [
+    "NYT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/19/3406727/0/en/pressreader-and-the-new-york-times-deepen-strategic-partnership.html"
+  },
+  {
+   "id": 126781927,
+   "created_at": "2026-11-19T19:01:45Z",
+   "headline": "CVS Health Expands Integrated Flu and COVID-19 Testing and Treatment Services",
+   "summary": "CVS Health is offering a single-swab combination test for Influenza A, Influenza B, and COVID-19 at over 1,500 pharmacy locations, with integrated treatment options available in select states.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70179304-cvs-health-from-symptoms-to-next-steps-making-flu-and-covid-19-care-more-connected-200.htm"
+  },
+  {
+   "id": 126781924,
+   "created_at": "2026-11-19T19:01:43Z",
+   "headline": "Kroger and Michigan State Police Continue Annual Thanksgiving Meal Donation Partnership",
+   "summary": "Kroger and the Michigan State Police have partnered for the 11th consecutive year to distribute Thanksgiving meal kits to families in Michigan.",
+   "symbols": [
+    "KR"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.michigan.gov/mspnewsroom/news-releases/2026/11/19/msp-kroger-meal-delivery"
+  },
+  {
+   "id": 126781923,
+   "created_at": "2026-11-19T19:01:43Z",
+   "headline": "Report Alleges Presence of Toxic Heavy Metals in Baby Food Sold by Kroger and Harris Teeter",
+   "summary": "A report by the CRFB alleges that baby food products sold at Kroger and its subsidiary Harris Teeter contain concerning levels of toxic heavy metals.",
+   "symbols": [
+    "KR"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/crfb-investigation-baby-food-above-fda-lead-level-sold-at-harris-teeter-despite-new-state-laws-302945702.html"
+  },
+  {
+   "id": 126781894,
+   "created_at": "2026-11-19T19:01:18Z",
+   "headline": "Apple Announces 2026 Black Friday Shopping Event",
+   "summary": "Apple has announced its annual Black Friday shopping event, scheduled for November 27 through November 30, 2026, featuring Apple Gift Cards of up to $300 with the purchase of eligible products.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/b3dp95q/"
+  },
+  {
+   "id": 126523654,
+   "created_at": "2026-11-19T16:01:45Z",
+   "headline": "Garmin Signal VHF Named Overall Winner in 2026 DAME Design Awards",
+   "summary": "Garmin's Signal VHF marine communication device has been recognized as the overall winner of the 2026 DAME Design Awards.",
+   "symbols": [
+    "GRMN"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/garmin-signal-vhf-named-overall-winner-in-2026-dame-design-awards-302945676.html"
+  },
+  {
+   "id": 126410039,
+   "created_at": "2026-11-19T14:32:00Z",
+   "headline": "Wattsipper by Summit Appliance Achieves UL 858 Certification for New 120V Induction Range Line",
+   "summary": "Wattsipper, a division of Felix Storch, Inc., has received UL 858 certification for its new Contemporary Series of 120V battery-free induction ranges.",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/957537204/new-120v-battery-free-induction-range-now-certified-to-ul-858-standards"
+  },
+  {
+   "id": 126408808,
+   "created_at": "2026-11-19T14:31:33Z",
+   "headline": "Kestrel Labs Announces Integration with Autodesk Forma",
+   "summary": "Kestrel Labs has integrated its BIM-native building code compliance platform with Autodesk Forma, enhancing automated compliance checks for users.",
+   "symbols": [
+    "ADSK"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/kestrel-labs-adds-autodesk-forma-integration-and-scheduled-cloud-compliance-checks-302944877.html"
+  },
+  {
+   "id": 126408803,
+   "created_at": "2026-11-19T14:31:26Z",
+   "headline": "Aetna Launches 'Aetna For You & Baby' Initiative",
+   "summary": "Aetna, a CVS Health company, has introduced a five-year program aimed at connecting 90% of its expecting members to comprehensive, end-to-end care.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/aetna-commits-to-connecting-90-of-members-to-essential-end-to-end-maternal-and-infant-care-by-2032-with-launch-of-the-aetna-for-you--baby-initiative-302944719.html"
+  },
+  {
+   "id": 126338101,
+   "created_at": "2026-11-19T13:04:31Z",
+   "headline": "RBC Raises Price Target on Cheniere Energy to $373 From $319",
+   "summary": "RBC Capital Markets has increased its price target for Cheniere Energy, Inc. while maintaining an Outperform rating.",
+   "symbols": [
+    "LNG"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/rbc-raises-price-target-on-cheniere-energy-to-373-from-319-keeps-outperform-rating-ce785ed2d88dff25"
+  },
+  {
+   "id": 126336770,
+   "created_at": "2026-11-19T13:02:22Z",
+   "headline": "Moody's Projects 2.3% U.S. Economic Growth for 2026",
+   "summary": "Moody's released a forecast projecting 2.3% growth for the U.S. economy in 2026, with expectations of a slowdown in subsequent years.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202611193262/dow-jones-top-markets-headlines-at-5-am-et-stock-futures-rise-as-optimism-improves-ahead-of-anthropic-trading-debut-wall"
+  },
+  {
+   "id": 126319929,
+   "created_at": "2026-11-19T12:32:19Z",
+   "headline": "Argus Adjusts Price Target on Ralph Lauren to $415 From $400",
+   "summary": "Investment research firm Argus has increased its price target for Ralph Lauren Corporation shares from $400 to $415.",
+   "symbols": [
+    "RL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/argus-adjusts-price-target-on-ralph-lauren-to-415-from-400-ce785ed2d980f621"
+  },
+  {
+   "id": 126319928,
+   "created_at": "2026-11-19T12:32:19Z",
+   "headline": "VeriSign Insider Sold Shares Worth $1,006,275",
+   "summary": "A VeriSign insider has sold company shares valued at approximately $1.01 million, according to a recent SEC filing.",
+   "symbols": [
+    "VRSN"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/verisign-insider-sold-shares-worth-1-006-275-according-to-a-recent-sec-filing-ce785eddd08cf526"
+  },
+  {
+   "id": 126319441,
+   "created_at": "2026-11-19T12:31:28Z",
+   "headline": "Walmart Raises Fiscal Year Guidance Amid 3Q Earnings Beat",
+   "summary": "Walmart reported fiscal third-quarter results that surpassed analyst expectations and increased its full-year earnings and sales growth outlook.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/202611194370/walmart-raises-fiscal-year-guidance-amid-3q-earnings-beat"
+  },
+  {
+   "id": 126293644,
+   "created_at": "2026-11-19T11:33:52Z",
+   "headline": "Moody's Revises Toyota's Outlook to Positive",
+   "summary": "Moody's Ratings has revised the outlook for Toyota Motor Corporation from stable to positive while affirming its A1 long-term and Prime-1 commercial paper ratings.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/moody-s-revises-toyota-s-outlook-to-positive-affirms-a1-ratings-on-sustained-outperformance-ce785eddd08bf722"
+  },
+  {
+   "id": 126181505,
+   "created_at": "2026-11-19T00:01:40Z",
+   "headline": "Happy Cappy Medicated Shampoo & Body Wash Expands Distribution to Walmart Stores",
+   "summary": "Pediatric Solutions, LLC announced that its Happy Cappy Medicated Shampoo & Body Wash is now authorized for sale at 4,478 Walmart locations nationwide.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/happy-cappy-medicated-shampoo-reaches-more-than-600-walmart-neighborhood-markets-302943899.html"
+  },
+  {
+   "id": 126085311,
+   "created_at": "2026-11-18T23:02:13Z",
+   "headline": "Incyte Insider Sold Shares Worth $319,588",
+   "summary": "An insider at Incyte Corporation sold shares of the company's stock valued at $319,588, according to a recent SEC filing.",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/incyte-insider-sold-shares-worth-319-588-according-to-a-recent-sec-filing-ce785edddc8ef522"
+  },
+  {
+   "id": 126085294,
+   "created_at": "2026-11-18T23:02:08Z",
+   "headline": "EXL Named a Leader in Everest Group's 2026 Fraud Management Operations Services PEAK Matrix Assessment",
+   "summary": "Everest Group recognized EXL as a Leader in its 2026 Fraud Management Operations Services PEAK Matrix Assessment, highlighting the company's AI-enabled fraud operations and analytics expertise.",
+   "symbols": [
+    "EXLS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://ir.exlservice.com/news-releases/news-release-details/exl-recognized-leader-everest-group-fraud-management-operations"
+  },
+  {
+   "id": 126085289,
+   "created_at": "2026-11-18T23:02:04Z",
+   "headline": "The Clorox Company Declares Regular Quarterly Dividend",
+   "summary": "The Clorox Company has declared a regular quarterly cash dividend of $1.25 per share on its common stock.",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://kalkinemedia.com/us/stocks/consumer/what-does-the-clorox-company-nyseclx-signal-with-its-dividend"
+  },
+  {
+   "id": 126083677,
+   "created_at": "2026-11-18T23:01:39Z",
+   "headline": "Match Group CFO to Participate in Upcoming Investor Conferences",
+   "summary": "Match Group announced that CFO Steven Bailey will participate in fireside chats at the UBS Global Technology and AI Conference and the Nasdaq London Investor Conference in December 2026.",
+   "symbols": [
+    "MTCH"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/match-group-to-present-at-upcoming-investor-conferences-302944403.html"
+  },
+  {
+   "id": 126038255,
+   "created_at": "2026-11-18T22:31:51Z",
+   "headline": "Volar Avionics & Restorations Named CubCrafters Authorized Service Center",
+   "summary": "Volar Avionics & Restorations, an FAA-accepted repair station, has been named a CubCrafters Authorized Service Center, expanding its capacity to provide maintenance and upgrades for Garmin avionics systems.",
+   "symbols": [
+    "GRMN"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/957515359/volar-avionics-restorations-named-cubcrafters-authorized-service-center"
+  },
+  {
+   "id": 126038243,
+   "created_at": "2026-11-18T22:31:42Z",
+   "headline": "Blue Bird Corporation to Report Fiscal 2026 Fourth Quarter and Full Year Results on December 2, 2026",
+   "summary": "Blue Bird Corporation has scheduled the release of its fiscal 2026 fourth quarter and full year financial results for December 2, 2026.",
+   "symbols": [
+    "BLBD"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://stockanalysis.com/news/press-releases/"
+  },
+  {
+   "id": 125954220,
+   "created_at": "2026-11-18T21:31:52Z",
+   "headline": "Adobe Connect and Adobe Video Display Receive 2026 Product of the Year Award",
+   "summary": "Adobe Connect and Adobe Video Display were recognized as winners in the 2026 Product of the Year Awards by Campus Technology and THE Journal.",
+   "symbols": [
+    "ADBE"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/957307210/campus-technology-and-the-journal-announce-winners-of-2026-product-of-the-year-awards"
+  },
+  {
+   "id": 125954217,
+   "created_at": "2026-11-18T21:31:45Z",
+   "headline": "Fly By Jing Launches Exclusive Hot Sauce Gift Set at Walmart",
+   "summary": "Fly By Jing has introduced a new Hot Sauce Gift Set available exclusively at more than 2,000 Walmart stores nationwide.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.einnews.com/pr_news/957500075/the-holidays-just-got-hotter-fly-by-jing-spices-up-walmart-s-gift-aisle"
+  },
+  {
+   "id": 125954216,
+   "created_at": "2026-11-18T21:31:41Z",
+   "headline": "Apple Releases HomeView Software 27.2.1 Update",
+   "summary": "Apple has issued a software update for its smart home hub to address Siri functionality and connectivity bugs.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/gwm546z/"
+  },
+  {
+   "id": 125832447,
+   "created_at": "2026-11-18T20:02:00Z",
+   "headline": "CVS Health Recognized for Contact Center Cloud Transformation",
+   "summary": "CVS Health was named a winner of the 2026 New Era of CX Awards for its collaboration with Five9 to modernize its contact center infrastructure.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/default/202611181230BIZWIRE_USPR_____20261118_BW305142"
+  },
+  {
+   "id": 125831082,
+   "created_at": "2026-11-18T20:01:25Z",
+   "headline": "Apple Announces Finalists for 2026 App Store Awards",
+   "summary": "Apple has revealed the 45 finalists for its annual App Store Awards, recognizing excellence across its hardware ecosystem.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/oy1ri1h/"
+  },
+  {
+   "id": 125751204,
+   "created_at": "2026-11-18T19:02:08Z",
+   "headline": "CVS Health Shares Decline Amid Reports of Potential Medicare Advantage Reimbursement Changes",
+   "summary": "CVS Health shares fell following reports of potential US government regulatory changes regarding Medicare Advantage reimbursement rates.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70170114-aktien-im-fokus-us-krankenversicherer-geraten-weiter-unter-druck-016.htm"
+  },
+  {
+   "id": 125751199,
+   "created_at": "2026-11-18T19:02:05Z",
+   "headline": "Brandmovers Launches RetailerConnect\u2122 Loyalty Solution",
+   "summary": "Brandmovers has launched RetailerConnect\u2122, a proof-of-purchase solution that integrates with various retailers, including Instacart, to allow CPG brands to verify shopper purchases and provide automated rewards.",
+   "symbols": [
+    "CART"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/brandmovers-launches-retailerconnect-to-bring-receiptless-rewards-to-brand-loyalty-and-promotions-302943255.html"
+  },
+  {
+   "id": 125751181,
+   "created_at": "2026-11-18T19:02:00Z",
+   "headline": "Michael Burry Increases Stake in Adobe Inc.",
+   "summary": "Famed investor Michael Burry has disclosed an increased investment in Adobe Inc., signaling confidence in the company's ability to adapt to artificial intelligence.",
+   "symbols": [
+    "ADBE"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8902524/michael-burry-is-doubling-down-on-adobe-stock-here-s-why"
+  },
+  {
+   "id": 125749873,
+   "created_at": "2026-11-18T19:01:46Z",
+   "headline": "Linkind Expands Retail Presence at Best Buy",
+   "summary": "Linkind has launched three new smart outdoor lighting products in Best Buy stores across the United States.",
+   "symbols": [
+    "BBY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/linkind-expands-retail-presence-with-three-smart-outdoor-lighting-products-in-best-buy-stores-across-the-us-302941942.html"
+  },
+  {
+   "id": 125453517,
+   "created_at": "2026-11-18T14:31:14Z",
+   "headline": "Happy Cappy Medicated Shampoo Expands Retail Presence to Walmart Neighborhood Markets",
+   "summary": "Pediatric Solutions, LLC announced that its Happy Cappy Medicated Shampoo is now available in over 600 Walmart Neighborhood Market locations.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/happy-cappy-medicated-shampoo-reaches-more-than-600-walmart-neighborhood-markets-302943899.html"
+  },
+  {
+   "id": 125430104,
+   "created_at": "2026-11-18T14:04:14Z",
+   "headline": "Metalsource Mining Receives $1.38 Million from Eric Sprott Warrant Exercise",
+   "summary": "Metalsource Mining Inc. has received $1.38 million in proceeds from the exercise of warrants by Eric Sprott, who now holds approximately 19.9% of the company's outstanding shares.",
+   "symbols": [
+    "MSM"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/324584/Metalsource-Mining-Receives-1.38-Million-from-Eric-Sprott-Warrant-Exercise-as-Silver-Hill-GoldSilver-Exploration-Advances"
+  },
+  {
+   "id": 125396461,
+   "created_at": "2026-11-18T13:01:42Z",
+   "headline": "Adobe Joins Microsoft's AI Transparency Initiative",
+   "summary": "Adobe is collaborating with Microsoft and over 40 other organizations to develop open, industry-wide standards for AI transparency, security, and governance.",
+   "symbols": [
+    "ADBE"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/vn/news-releases/u006Du0069u0063u0072u006Fu0073u006Fu0066u0074u002Du0076u0061u002Du0063u0061u0063u002Du0074u1ED5u002Du0063u0068u1EE9u0063u002Du0074u0068u0075-302943723.html"
+  },
+  {
+   "id": 125396439,
+   "created_at": "2026-11-18T13:01:21Z",
+   "headline": "Apple Services Experience Outage Following Internal Update",
+   "summary": "Apple experienced a widespread service outage on November 18, 2026, impacting the App Store, iCloud, and internal employee systems due to an internal update.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.euro2day.gr/news/world/article/2380680/update-prokalese-haos-se-yphresies-ths-apple-se-ex.html"
+  },
+  {
+   "id": 125383850,
+   "created_at": "2026-11-18T12:31:59Z",
+   "headline": "JSL Group Residential Properties Earn New UL Solutions Building Verification Marks",
+   "summary": "UL Solutions announced that two JSL Group residential properties in Taiwan are the first globally to achieve the UL Verified Enhanced Construction Transparency Mark and the UL Verified Healthy Building Mark for New Construction.",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/construction-property/residential-real-estate"
+  },
+  {
+   "id": 125365389,
+   "created_at": "2026-11-18T11:32:12Z",
+   "headline": "South Korean Regulator Orders Apple to Designate Legal Representatives",
+   "summary": "South Korean regulators have ordered Apple and several other major technology companies to appoint local legal representatives by January following a rise in customer complaints.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/korea-regulator-cites-customer-complaints-orders-apple-google-alibaba-openai-to-designate-legal-ce785edcd08efe23"
+  },
+  {
+   "id": 125365388,
+   "created_at": "2026-11-18T11:32:12Z",
+   "headline": "Apple Updates Operating System to Restrict Accessibility Tool Usage",
+   "summary": "Apple has implemented an operating system update that restricts the use of accessibility tools on Macs to prevent potential data privacy risks.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/company-news/202611180600RTRSNEWSCOMBINED_L6N46Y1DP_1"
+  },
+  {
+   "id": 125365387,
+   "created_at": "2026-11-18T11:32:10Z",
+   "headline": "Senator Elizabeth Warren Calls for Breakup of Major Healthcare Conglomerates",
+   "summary": "Senator Elizabeth Warren has publicly advocated for the structural breakup of large healthcare conglomerates, specifically naming CVS Health Corporation as a target for such action.",
+   "symbols": [
+    "CVS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/UNHG-US?chain_id=Name1K9-3FXPhg.1lfqq8g&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Ftaco-tariff-sheriff-106362076%22%7D"
+  },
+  {
+   "id": 125190562,
+   "created_at": "2026-11-17T23:02:38Z",
+   "headline": "Incyte Corporation Insider Sells Shares Worth $1.29 Million",
+   "summary": "An Incyte Corporation insider sold company shares valued at approximately $1.29 million, according to a recent SEC filing.",
+   "symbols": [
+    "INCY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/incyte-insider-sold-shares-worth-1-292-032-according-to-a-recent-sec-filing-ce785edcdf89f526"
+  },
+  {
+   "id": 125188565,
+   "created_at": "2026-11-17T23:01:39Z",
+   "headline": "The New York Times Company Announces New Editorial and Staff Appointments",
+   "summary": "The New York Times Company has appointed Jasmine Sun as a new Opinion writer and Alexa Sonnenfeld as the company's new chief of staff.",
+   "symbols": [
+    "NYT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.editorandpublisher.com/stories/the-new-york-times-announces-new-hires-in-opinion,264551"
+  },
+  {
+   "id": 125188561,
+   "created_at": "2026-11-17T23:01:34Z",
+   "headline": "Clorox Purell ProCare Unveils New Healthcare Surface Disinfection Innovations at ISSA 2026",
+   "summary": "Clorox Purell ProCare is introducing new healthcare surface disinfection products and advanced dispensing technology at the 2026 ISSA North America Trade Show.",
+   "symbols": [
+    "CLX"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/clorox-purell-procare-unveils-healthcare-surface-innovations-and-next-generation-of-dispensing-at-issa-2026-302942509.html"
+  },
+  {
+   "id": 124874616,
+   "created_at": "2026-11-17T20:01:26Z",
+   "headline": "Apple Reports Widespread Internal and Consumer Service Outages",
+   "summary": "Apple experienced significant service disruptions affecting internal corporate tools, retail store operations, and consumer-facing services.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/lu3evxk/"
+  },
+  {
+   "id": 124775253,
+   "created_at": "2026-11-17T19:02:03Z",
+   "headline": "CaringBridge and Best Buy Health Collaborate to Support Family Caregivers",
+   "summary": "Best Buy Health has partnered with CaringBridge to provide resources and support for family caregivers.",
+   "symbols": [
+    "BBY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/caringbridge-and-best-buy-health-team-up-to-support-family-caregivers-302940680.html"
+  },
+  {
+   "id": 124775247,
+   "created_at": "2026-11-17T19:02:01Z",
+   "headline": "Adobe Joins Industry Coalition to Advance AI Transparency and Governance",
+   "summary": "Adobe has partnered with KPMG, Mastercard, and Volvo Cars to establish a common framework for AI transparency, security, and governance across models and providers.",
+   "symbols": [
+    "ADBE"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents-819173538.html"
+  },
+  {
+   "id": 124773547,
+   "created_at": "2026-11-17T19:01:26Z",
+   "headline": "Apple Reportedly Nearing Long-Term DRAM Supply Agreement With Samsung",
+   "summary": "Apple is reportedly in advanced talks to secure a four-to-five-year DRAM supply deal with Samsung starting in early 2027.",
+   "symbols": [
+    "AAPL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://appleosophy.com/wire/k4cb19g/"
+  },
+  {
+   "id": 124509354,
+   "created_at": "2026-11-17T16:01:59Z",
+   "headline": "Stout and Moody's Analytics Launch Total Return CRE Debt Index",
+   "summary": "Stout and Moody's Analytics have partnered to launch the Moody's-Stout Total Return CRE Debt Index (CREDX\u2122), a new tool for benchmarking commercial real estate debt.",
+   "symbols": [
+    "MCO"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/stout-launches-loan-level-total-return-commercial-real-estate-debt-index-credx-302941282.html"
+  },
+  {
+   "id": 124509338,
+   "created_at": "2026-11-17T16:01:27Z",
+   "headline": "Walmart Reports Q3 Performance and Raises Fiscal 2027 Outlook",
+   "summary": "Walmart announced growth in U.S. comparable sales, advertising, and membership revenue, while raising its fiscal 2027 financial outlook.",
+   "symbols": [
+    "WMT"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/retail-s-1-013-trillion-holiday-forecast-meets-its-first-earnings-test-857040835.html"
+  },
+  {
+   "id": 124390926,
+   "created_at": "2026-11-17T14:32:41Z",
+   "headline": "UL Solutions Enters Definitive Agreement to Acquire Worldly",
+   "summary": "UL Solutions Inc. has announced a definitive agreement to acquire Worldly Holdings Inc., a supply chain intelligence software company.",
+   "symbols": [
+    "ULS"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/subject/merger-acquisition"
+  },
+  {
+   "id": 124390876,
+   "created_at": "2026-11-17T14:32:03Z",
+   "headline": "Morgan Stanley Initiates Coverage on EMCOR Group With Overweight Rating",
+   "summary": "Morgan Stanley has initiated coverage on EMCOR Group, Inc. with an Overweight rating and a price target of $799.",
+   "symbols": [
+    "EME"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-initiates-coverage-on-emcor-group-with-overweight-rating-799-price-target-ce785edcd88bf620"
+  },
+  {
+   "id": 124390874,
+   "created_at": "2026-11-17T14:32:02Z",
+   "headline": "Best Buy Announces 2026 Black Friday and Holiday Sales Schedule",
+   "summary": "Best Buy has unveiled its 2026 holiday shopping strategy, featuring a 10-day Black Friday event beginning November 19 and a series of subsequent promotional periods.",
+   "symbols": [
+    "BBY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/best-buys-black-friday-sale-starts-nov-19-with-10-days-of-deals-1036773538"
+  },
+  {
+   "id": 124390873,
+   "created_at": "2026-11-17T14:32:02Z",
+   "headline": "5TH WHEEL Launches Electric Scooter Lineup at Best Buy Stores",
+   "summary": "Electric mobility brand 5TH WHEEL has introduced three of its electric scooter models to over 780 Best Buy retail locations nationwide.",
+   "symbols": [
+    "BBY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://news.marketersmedia.com/5th-wheel-launches-v10max-aurapro-and-superx-electric-scooters-at-780-best-buy-stores-nationwide/89209871"
+  },
+  {
+   "id": 124390871,
+   "created_at": "2026-11-17T14:32:02Z",
+   "headline": "Segway Expands In-Store Retail Presence at Best Buy Locations",
+   "summary": "Segway has launched new interactive in-store displays at nearly 800 Best Buy stores across the United States to provide customers with hands-on access to its electric scooters.",
+   "symbols": [
+    "BBY"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/segway-brings-hands-on-shopping-experience-to-nearly-800-best-buy-stores-this-holiday-season-302941677.html"
+  },
+  {
+   "id": 124389607,
+   "created_at": "2026-11-17T14:31:57Z",
+   "headline": "Ralph Lauren Announces 60th Anniversary Runway Show",
+   "summary": "Ralph Lauren Corporation has announced plans to return to the runway on June 10 to celebrate the brand's 60th anniversary.",
+   "symbols": [
+    "RL"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.milanofinanza.it/fashion/ralph-lauren-tornera-in-passerella-il-10-giugno-per-il-suo-60-anniversario-202611171512487079"
+  },
+  {
+   "id": 124389597,
+   "created_at": "2026-11-17T14:31:52Z",
+   "headline": "StreamWork Launches on Adobe Marketplace",
+   "summary": "StreamWork has launched on the Adobe Marketplace, integrating its creative approval workflow platform with Adobe Premiere, Photoshop, and InDesign.",
+   "symbols": [
+    "ADBE"
+   ],
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/streamwork-launches-on-the-adobe-marketplace-connecting-adobe-premiere-photoshop-and-indesign-to-enterprise-creative-approvals-302941946.html"
+  }
+ ],
+ "events": {
+  "AAPL": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-28",
+   "days_to_earnings": 69
+  },
+  "ADBE": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-09",
+   "days_to_earnings": 19
+  },
+  "ADSK": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 4
+  },
+  "AYI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-07",
+   "days_to_earnings": 48
+  },
+  "BBY": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 4
+  },
+  "BDC": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-11",
+   "days_to_earnings": 83
+  },
+  "BJRI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-24",
+   "days_to_earnings": 96
+  },
+  "BLBD": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-23",
+   "days_to_earnings": 3
+  },
+  "CALX": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 68
+  },
+  "CARG": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-18",
+   "days_to_earnings": 90
+  },
+  "CART": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-11",
+   "days_to_earnings": 83
+  },
+  "CLX": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-19",
+     "items": "5.07",
+     "url": "https://www.sec.gov/Archives/edgar/data/21076/000120677426000606/clx4717351-8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-02",
+   "days_to_earnings": 74
+  },
+  "CVS": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-09",
+   "days_to_earnings": 81
+  },
+  "DBX": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-18",
+   "days_to_earnings": 90
+  },
+  "DECK": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-28",
+   "days_to_earnings": 69
+  },
+  "DORM": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-24",
+   "days_to_earnings": 96
+  },
+  "DPZ": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-22",
+   "days_to_earnings": 94
+  },
+  "EME": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-25",
+   "days_to_earnings": 97
+  },
+  "EXEL": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-11",
+   "days_to_earnings": 52
+  },
+  "EXLS": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-23",
+   "days_to_earnings": 95
+  },
+  "FAST": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-19",
+   "days_to_earnings": 60
+  },
+  "FTDR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-25",
+   "days_to_earnings": 97
+  },
+  "GLD": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-11-24",
+   "days_to_earnings": 4
+  },
+  "GPOR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-23",
+   "days_to_earnings": 95
+  },
+  "GRMN": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 89
+  },
+  "HWM": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-11",
+   "days_to_earnings": 83
+  },
+  "IDXX": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-01",
+   "days_to_earnings": 73
+  },
+  "INCY": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-13",
+     "items": "8.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000068/incy-20261113.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-09",
+   "days_to_earnings": 81
+  },
+  "KR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2026-12-03",
+   "days_to_earnings": 13
+  },
+  "LNG": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-17",
+     "items": "1.01,2.03,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/3570/000119312526465510/d169303d8k.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-16",
+     "items": "5.02,7.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/3570/000119312526463597/d158128d8k.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-25",
+   "days_to_earnings": 97
+  },
+  "LOGI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-26",
+   "days_to_earnings": 67
+  },
+  "LRN": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-26",
+   "days_to_earnings": 67
+  },
+  "MCO": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-13",
+     "items": "8.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026073528/mco-20261109.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 89
+  },
+  "MLI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-02",
+   "days_to_earnings": 74
+  },
+  "MSCI": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 68
+  },
+  "MSM": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-06",
+   "days_to_earnings": 47
+  },
+  "MTCH": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-02",
+   "days_to_earnings": 74
+  },
+  "NYT": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-03",
+   "days_to_earnings": 75
+  },
+  "ONC": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-25",
+   "days_to_earnings": 97
+  },
+  "RL": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-04",
+   "days_to_earnings": 76
+  },
+  "RRC": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-20",
+   "days_to_earnings": 61
+  },
+  "SAM": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-19",
+     "items": "5.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/949870/000119312526468550/sam-20261116.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-13",
+     "items": "8.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/949870/000119312526460599/sam-20261109.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-23",
+   "days_to_earnings": 95
+  },
+  "SBH": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-08",
+   "days_to_earnings": 80
+  },
+  "SMG": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 68
+  },
+  "TPR": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-04",
+   "days_to_earnings": 76
+  },
+  "TTEK": {
+   "filings_7d": [
+    {
+     "form": "10-K",
+     "filed": "2026-11-17",
+     "items": "",
+     "url": "https://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-01-27",
+   "days_to_earnings": 68
+  },
+  "ULS": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-17",
+     "items": "7.01,8.01,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1901440/000190144026000037/uls-20261116.htm"
+    }
+   ],
+   "next_earnings_estimate": "2027-02-18",
+   "days_to_earnings": 90
+  },
+  "UNFI": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-17",
+     "items": "7.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1020859/000102085926000033/unfi-20261117.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-12-01",
+   "days_to_earnings": 11
+  },
+  "VRSN": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-04",
+   "days_to_earnings": 76
+  },
+  "WDFC": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-01-07",
+   "days_to_earnings": 48
+  },
+  "WINA": {
+   "filings_7d": [],
+   "next_earnings_estimate": "2027-02-17",
+   "days_to_earnings": 89
+  },
+  "WMT": {
+   "filings_7d": [
+    {
+     "form": "8-K",
+     "filed": "2026-11-19",
+     "items": "2.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/wmt-20261119.htm"
+    },
+    {
+     "form": "8-K",
+     "filed": "2026-11-16",
+     "items": "5.02,9.01",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000165/wmt-20261113.htm"
+    }
+   ],
+   "next_earnings_estimate": "2026-11-19",
+   "days_to_earnings": -1
+  }
+ },
+ "note": "next_earnings_estimate is last year's results date + 364 days, not a confirmed date. 8-K items: 2.02 results, 5.02 officer changes, 1.01 material agreements, 4.01 auditor change, 4.02 non-reliance on prior financials."
+}
