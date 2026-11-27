@@ -1,0 +1,28 @@
+{
+  "summary": "The regime filter is off (SPY 1.93% under its 200-day as of 11-25), so the only buys allowed are BND, GLD, IEF and TLT. BND and IEF are wash-sale blocked, TLT is at its stated ~8% target (L4: no fourth add on evidence already counted), and the Market Analyst says gold is falling with stocks (GLD 18.91% under its 200-day, 21d -12.04%), so I propose no buy. I propose two sales the lessons say I owe. P1 sells SAM: the PM named it the first equity sell candidate on 11-25 and L8 asks for a sale or a hold verdict. P2 trims DPZ by a third: the 11-24 and 11-25 runs both accepted that DPZ (12.07% of equity) is too large but only moved the stop, which L8 says is not an answer. L7 clause check (Market Analyst figures as of 11-25, marks from the packet): no stop tripped and stop_alerts is empty. TLT's relative clause is unmet (SPY 5d -1.85%, TLT +2.52%) and so is its trend clause (0.41% under its 200-day, inside 4%), and its stop is 7.8% away. KR's cyber clause is unconfirmed and its guidance clause is untested until the company-confirmed 12-03 call, 4 trading days out, so I make no KR trade into the print. Health Care is favored again but IDXX and INCY disclaim the tilt; neither has a guidance cut or a negative 8-K, and INCY has no failed pivotal trial. CARG and VRSN rest on quality and low beta rather than their avoided sectors, and neither has a cut or negative 8-K. VRSN's 11-25 insider sale is a Form 4, not an 8-K. Its 'guidance raise reversed' clause points to a raise the stored thesis no longer states, so the PM should restate it (L6); it is not met. MSCI has no cut or 8-K. All earnings dates come from the News Analyst's filings check (L2). After P1 and P2, cash would be about 56% of equity, held idle by the regime filter rather than by choice. The PM's re-entry plan (menu names with their own stops, L9) applies once SPY retakes its 200-day.",
+  "proposals": [
+    {
+      "id": "P1",
+      "symbol": "SAM",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 1.0,
+      "thesis": "SAM was named the first equity sell candidate on 11-25 (L8), and I am answering with a sale, not a hold. The case for keeping it is the Staples tilt (Market Analyst favored; XLP 21d +5.91%, 9.43% above its 200-day). KR already carries that tilt (L3: KR and SAM are one factor bet), so SAM's 2.4% weight adds little beyond KR. What is specific to SAM argues against it. The founder-CEO handover (Hodges for Koch, effective 11-23) came with an 8-K 5.02 that closed by expiry unread, so Koch's continuing role was never stated (News Analyst). The fundamentals are FY2025 and predate both the 2026 quarters and the CEO change (Fundamentals Analyst). Net income is thin against revenue. The Fundamentals Analyst says nothing on the menu argues strongly against selling. I don't defend it with its negative beta, which the stored thesis calls an artifact. Tax cost is nil: the lot opened 11-17 at $220.14 and is short-term at a small loss (about -$0.18 at the $217.52 mark). A wash-sale block on SAM afterwards costs nothing, since the filter stops equity buys anyway.",
+      "invalidation": "The sale is wrong if SAM beats SPY over the next 20 sessions, or if SAM closes above $230 (about 5.7% over the $217.52 mark) while KR's 12-03 print shows the Staples bet working without it.",
+      "stop_price": null,
+      "sources": ["fundamentals-analyst", "news-analyst", "market-analyst"]
+    },
+    {
+      "id": "P2",
+      "symbol": "DPZ",
+      "side": "sell",
+      "notional_usd": null,
+      "fraction": 0.33,
+      "thesis": "This is a size trim, not a thesis break. No DPZ clause is met: the mark is $361.53 against the $335 stop, it is on the menu with CFO $792M above net income $602M, and there is no confirmed guidance cut. But DPZ is 12.07% of equity, the largest position and about a quarter of the 50.5% invested book. On 11-24 and again on 11-25 the PM accepted that it is too large and answered only by raising the stop, which L8 says changes the exit point, not the size. The Fundamentals Analyst also calls the case for trimming 'size, not fundamentals'. The case for keeping it is real: a 0.117 beta and defensive behavior in a risk-off tape, which is why I trim rather than sell. Selling a third (about 0.068 shares, about $24.6) leaves about 8.1% of equity, level with TLT's stated target and still the largest single stock. The sentiment items (EVP sale 11-23, BNP Underperform with a $295 PT 11-24) are not stored clauses and are not my reason; the News Analyst lowered DPZ to low event risk. Tax: the only lot opened 2026-10-20 and is short-term until 2027-10-21, eleven months away, so waiting would not reach long-term treatment. The realized short-term gain is about $3.0. Next earnings 2027-02-22 (file estimate, News Analyst). Cost: the proceeds sit in cash while the regime filter is off.",
+      "invalidation": "The trim is wrong if DPZ beats SPY over the next 20 sessions, i.e. the concentration paid and the cut was unnecessary.",
+      "stop_price": null,
+      "sources": ["fundamentals-analyst", "news-analyst", "market-analyst"]
+    }
+  ],
+  "holdings_review": []
+}
